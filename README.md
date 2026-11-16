@@ -33,7 +33,7 @@ GitHub Release 单个附件需小于 2 GiB，因此使用安装器自带分卷�
 
 ```powershell
 git lfs install
-git clone https://github.com/OMO-11/Mika_MemoryLobby.git
+git -c core.longpaths=true clone https://github.com/OMO-11/Mika_MemoryLobby.git
 cd Mika_MemoryLobby
 git lfs pull
 ```
@@ -65,3 +65,13 @@ Unity 缓存、个人资料、密钥、旧阶段构建、安装文件、大型�
 ## 第三方资源
 
 见[第三方说明](GiftCompanion/Docs/phase6_licenses.md)及安装目录的 `Licenses`。角色、美术、音乐、语音模型、Spine 等依赖沿用各自许可和项目既有范围，本仓库不授予第三方素材的额外使用或再分发权。
+
+## 恢复开发与过往资源
+
+2026-11-16 从 GitHub 独立克隆并恢复全部 LFS 素材，使用 Unity 6000.3.7f1 重新构建 2.0.2 成功，错误数为 0。全部 2,151 个独立 LFS 对象已通过远端可下载性检查。[恢复验证](GiftCompanion/Docs/Delivery/Restore-2026-11-16/verification.json)。
+
+克隆时请使用上面的长路径选项，并执行 `git lfs pull`。仅下载普通源码 ZIP 可能得到 LFS 占位文件，建议用 Git 克隆。添加 Unity 工程后可继续修改 C#、场景、模型、美术与音频。
+
+当前 Windows 构建入口为 `GiftCompanion.Editor.SeasideBuild.Run`，使用 Unity 的 `-batchmode -projectPath <GiftCompanion目录> -executeMethod GiftCompanion.Editor.SeasideBuild.Run -logFile <日志路径>` 调用，输出在 `Builds/V2SeasideReview`。完整语音 Runtime 按前文从 v2.0.2 安装目录恢复。
+
+[过往资源归档](https://github.com/OMO-11/Mika_MemoryLobby/releases/tag/past-resources-2026-11-16) 收录原始语音发行包和角色模型、Blender 历史制作稿、审阅与检查点、历史数据库及 Editor 本地资料。按归档说明下载全部分片、校验合并后解压；当前开发优先使用 main。归档中现有 DPAPI 加密资料绑定原 Windows 账户，换机需重新配置密钥。
