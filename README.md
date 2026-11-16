@@ -74,4 +74,4 @@ Unity 缓存、个人资料、密钥、旧阶段构建、安装文件、大型�
 
 当前 Windows 构建入口为 `GiftCompanion.Editor.SeasideBuild.Run`，使用 Unity 的 `-batchmode -projectPath <GiftCompanion目录> -executeMethod GiftCompanion.Editor.SeasideBuild.Run -logFile <日志路径>` 调用，输出在 `Builds/V2SeasideReview`。完整语音 Runtime 按前文从 v2.0.2 安装目录恢复。
 
-[过往资源归档](https://github.com/OMO-11/Mika_MemoryLobby/releases/tag/past-resources-2026-11-16) 收录原始语音发行包和角色模型、Blender 历史制作稿、审阅与检查点、历史数据库及 Editor 本地资料。按归档说明下载全部分片、校验合并后解压；当前开发优先使用 main。归档中现有 DPAPI 加密资料绑定原 Windows 账户，换机需重新配置密钥。
+过往原始语音包、历史制作稿和 Editor 本地资料按所有者要求取消上传，并随本地项目清理。main 中的当前源码与素材及 v2.0.2 安装包继续保留。
