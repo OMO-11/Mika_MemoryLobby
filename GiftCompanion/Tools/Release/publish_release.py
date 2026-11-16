@@ -79,6 +79,18 @@ def main():
     upload_base = release['upload_url'].split('{')[0]
     release_url = BASE + '/releases/' + str(release['id'])
 
+    class ProgressReader:
+        def __init__(self, stream, name):
+            self.stream, self.name, self.total, self.checkpoint = stream, name, 0, 0
+
+        def read(self, size=-1):
+            block = self.stream.read(size)
+            self.total += len(block)
+            if self.total - self.checkpoint >= 256 * 1024 * 1024:
+                self.checkpoint = self.total
+                print(f'{self.name}: sent {self.total // (1024 * 1024)} MiB', flush=True)
+            return block
+
     def upload(item):
         p, record = item
         for attempt in range(1, 5):
@@ -91,7 +103,7 @@ def main():
             try:
                 print(f'Uploading {p.name} ({record["bytes"]} bytes), attempt {attempt}', flush=True)
                 with p.open('rb') as stream:
-                    req = urllib.request.Request(upload_base + '?name=' + urllib.parse.quote(p.name), data=stream,
+                    req = urllib.request.Request(upload_base + '?name=' + urllib.parse.quote(p.name), data=ProgressReader(stream, p.name),
                             headers={**headers, 'Content-Type': 'application/octet-stream', 'Content-Length': str(record['bytes'])}, method='POST')
                     with urllib.request.urlopen(req, timeout=3600) as response:
                         result = json.load(response)
@@ -104,7 +116,7 @@ def main():
                 if attempt == 4:
                     raise
                 time.sleep(3)
-    with concurrent.futures.ThreadPoolExecutor(max_workers=2) as executor:
+    with concurrent.futures.ThreadPoolExecutor(max_workers=4) as executor:
         uploaded = list(executor.map(upload, zip(files, records)))
     final_assets = api(release_url + '/assets?per_page=100')
     by_name = {a['name']: a for a in final_assets}

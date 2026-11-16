@@ -7,6 +7,7 @@ import hashlib
 import json
 import os
 import shutil
+import stat
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[3]
@@ -47,14 +48,14 @@ def main():
     entries = []
     for rel in targets:
         p = (ROOT / rel).resolve()
-        if not p.is_relative_to(ROOT) or p == ROOT or p.is_symlink():
+        if not p.is_relative_to(ROOT) or p == ROOT or (p.exists() and p.lstat().st_file_attributes & stat.FILE_ATTRIBUTE_REPARSE_POINT):
             raise RuntimeError('Unsafe cleanup path: ' + rel)
         if not p.exists():
             continue
         files = []
         if p.is_dir():
             for parent, dirs, names in os.walk(p, followlinks=False):
-                if any((Path(parent) / name).is_symlink() or (Path(parent) / name).is_junction() if hasattr(Path, 'is_junction') else (Path(parent) / name).is_symlink() for name in dirs):
+                if any((Path(parent) / name).lstat().st_file_attributes & stat.FILE_ATTRIBUTE_REPARSE_POINT for name in dirs + names):
                     raise RuntimeError('Linked directory in cleanup target')
                 files += [Path(parent) / name for name in names]
         else:
