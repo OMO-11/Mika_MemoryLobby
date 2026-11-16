@@ -1,0 +1,84 @@
+2026-10-24 星幕一隅视觉原型操作记录
+
+[初始状态]
+- 目标目录：W:\Machine\VSCode\Mika_Gift\GiftCompanion\Docs\Design\MikaVisual
+- preview_v3.html 经 Glob 检查不存在，本次为新增文件，不覆盖 preview.html、preview_v2.html 或任何现有素材。
+- 指定背景仅以相对路径只读引用：W:\Machine\VSCode\Mika_Gift\Material\Mika_MemoryLobby_Spine\renders\CH0069_home\Idle_01_t0.5.png
+- 不修改 Unity、玩家配置、记忆数据、源素材或既有原型。
+
+[计划并授权执行的本次操作]
+1. 新增单文件 preview_v3.html，包含内联 CSS、SVG 与原生 JavaScript。
+2. 原型仅模拟界面交互，不访问外部网络、不调用模型、不保存输入或设置。
+3. 使用浏览器打开本地原型，验证背景、主要点击流程、键盘操作、控制台和画面。
+4. 验证结果在本日志补充记录。
+
+[执行记录]
+- 已新增 preview_v3.html；未覆盖任何已有文件。
+- 内置浏览器已能读取本地 HTML，背景相对路径解析到指定 Material 文件，控制台未发现错误或警告。
+- 内置浏览器视口为 0×0，无法生成真实截图；按本机既有验收方式改用本地 Edge 无头渲染。
+
+[后续验证操作]
+- 在 preview_v3.html 增加仅用于视觉预览的页面锚点。
+- 新增 render_v3.ps1，以独立 Edge 配置目录输出 1280×720 与紧凑尺寸截图。
+- Edge 仅读取本地 HTML 和指定素材；配置目录保留在 MikaVisual 内，不执行删除。
+
+[问题与修复]
+- 首次调用 render_v3.ps1 未执行：Windows PowerShell 将无法正确解析无 BOM 脚本中的中文字符串，返回 ParserError。
+- HTML 本身未因此改变；下一步将渲染脚本改为纯 ASCII 后重新执行，不删除或覆盖其他文件。
+
+[交互验收]
+- 自动点击链通过：输入、Esc 收起、草稿恢复、发送、等待、演示回复、回复分页、菜单、日记翻页、MomoTalk、音乐返回、H 纯欣赏开关均符合预期。
+- 音乐返回后回到菜单，最终可回到大厅；未发送网络请求，未保存测试草稿。
+
+[截图流程问题与修复]
+- Edge 输出 QQBrowser user data path not found 辅助日志时，Windows PowerShell 将原生命令 stderr 转成 NativeCommandError，渲染脚本因此中断。
+- 下一步仅在原生命令调用期间使用 Continue 接收日志，并单独检查 Edge 真实退出码和截图文件；其他脚本错误仍使用 Stop。
+
+[首轮真实像素审阅]
+- Edge 已成功输出 1280×720 的 idle、dialogue、menu、diary、momotalk、music，以及 900×700 的 idle 截图。
+- 默认大厅与紧凑大厅角色构图正常，深色界面与指定背景协调。
+- 发现四处需修正：展开面板时 topbar 与标题重叠；首条演示台词出现末尾单字换行；右侧音乐面板遮挡角色；MomoTalk 最后一条消息首屏被底栏遮挡。
+
+[首轮视觉修复计划]
+- menu、diary、momotalk、space、character、settings 状态隐藏全局 topbar，使用面板自身标题与关闭按钮。
+- 缩短首条演示台词；音乐面板移至左侧；收紧聊天列表垂直间距。
+- 修复后重新生成同名 v3 验证截图，旧 HTML 与既有 v1/v2 文件不受影响。
+
+[首轮修复结果]
+- 复看修正后的 dialogue、menu、diary、momotalk、music 截图，四处问题均已消除。
+- 音乐面板位于左侧，MomoTalk 四条演示消息完整可见，角色面部保持无遮挡。
+
+[补充复验]
+- 在渲染清单中补充 v3_input.png 与 900×700 的 v3_diary_compact.png。
+- 随后回归 Enter 发送、Shift+Enter、设置滑块、减少动效、确认框取消与控制台。
+
+[顶栏状态复核]
+- Enter 发送、Shift+Enter 留在输入态、字幕字号滑块、减少动效、Home/退出确认及取消均通过。
+- 输入页和 900×700 日记页真实截图正常；控制台仍无错误或警告。
+- 内置隐藏浏览器对 topbar 的 computed visibility 返回与 Edge 像素不一致。为统一语义、可访问性和测试，改用原生 hidden 属性控制顶栏，并补拍设置页验证；不再依赖该环境的 visibility 读数。
+
+[最终验证结果]
+- 顶栏改为原生 hidden 属性后，menu、diary、momotalk、space、character、settings 六种状态均为 hidden=true、display:none，回到 idle 后正常恢复。
+- 设置页 Edge 截图正常，标题、滑块、减少动效开关与底部操作均无重叠。
+- 最终渲染脚本成功输出 10 张截图：idle、input、dialogue、menu、diary、momotalk、music、settings、900×700 idle、900×700 diary。
+- 内置浏览器控制台最终无错误、无警告；原型无外部脚本和外部样式依赖。
+- 目标目录位于当前 Git 工作树之外，git status 返回 outside repository；未在目标目录初始化或修改任何 Git 配置，改用文件清单与渲染日志核对。
+
+[交付状态]
+- preview_v3.html 已完成，可直接打开点击。
+- render_v3.ps1 可复现验证截图；v3_render.log 保存 Edge 渲染输出。
+- 未修改 Unity、玩家数据、源素材、既有 preview.html 或 preview_v2.html。
+- 未删除任何文件；独立 Edge 配置目录保留在 MikaVisual 中供后续复验使用。
+- 本交付是可点击视觉原型，不代表真实 LLM、语音、音乐、记忆或保存链路已通过。
+
+[文件整理计划]
+- 在 MikaVisual 下新建 preview_v3 子目录。
+- 移动 preview_v3.html、render_v3.ps1、preview_v3_build.log、v3_render.log、全部 v3 截图及独立 Edge 配置目录；不删除任何文件。
+- HTML 将向下移动一层，因此两处背景相对路径需从 ../../../../ 改为 ../../../../../。
+- 移动完成后重新打开 HTML，核对背景解析、控制台和主要交互。
+
+[文件整理结果]
+- 新目录：W:\Machine\VSCode\Mika_Gift\GiftCompanion\Docs\Design\MikaVisual\preview_v3
+- 已移动 HTML、渲染脚本、两份日志、10 张验证截图和独立 Edge 配置目录；未删除文件。
+- 两处背景相对路径已增加一级上级目录，实际解析到 W:\Machine\VSCode\Mika_Gift\Material\Mika_MemoryLobby_Spine\renders\CH0069_home\Idle_01_t0.5.png。
+- 新路径重新打开后背景加载成功，输入与菜单状态正常，控制台无错误或警告。

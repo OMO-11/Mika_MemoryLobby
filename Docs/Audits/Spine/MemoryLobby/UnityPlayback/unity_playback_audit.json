@@ -1,0 +1,148 @@
+{
+  "date": "2026-10-08",
+  "timezone": "Asia/Shanghai",
+  "mcpAvailable": true,
+  "instance": "Test@5877b9fce4c946f6",
+  "projectRoot": "W:/Machine/Unity/Unity WorkSpace/Test",
+  "unityVersion": "6000.3.7f1",
+  "renderPipeline": "URP",
+  "colorSpace": "Linear",
+  "method": "Real Unity Play Mode, runtime-only scene. Spine SkeletonAnimation advances autonomously via Unity frames. No manual track time or manual animation stepping during measurements. Screenshots b/c via URP SingleCameraRequest at identical 1600x900 framing.",
+  "settings": {
+    "scale": 0.01,
+    "straightAlphaInput": 1,
+    "keyword": "_STRAIGHT_ALPHA_INPUT",
+    "textures": "Raw delivered PNGs loaded as sRGB RGBA32, no mipmaps, bilinear/clamp",
+    "temporaryScene": "CH0069_MinimalPlayback_RuntimeOnly"
+  },
+  "samples": {
+    "a": {
+      "utc": "2026-10-08T04:19:11.2597073Z",
+      "playing": true,
+      "frame": 7262,
+      "animation": "Idle_01",
+      "trackTime": 9.663486,
+      "animationTime": 9.663486,
+      "duration": 33.3333359,
+      "loop": true,
+      "completedLoops": 0,
+      "vertices": 8353,
+      "subMeshes": 4,
+      "finiteVertices": true,
+      "vertexFingerprint": 23799.46548124739,
+      "screenshot": "W:\\Machine\\VSCode\\Mika_Gift\\Docs\\Audits\\Spine\\MemoryLobby\\UnityPlayback\\idle_frame_a.png"
+    },
+    "b": {
+      "path": "W:\\Machine\\VSCode\\Mika_Gift\\Docs\\Audits\\Spine\\MemoryLobby\\UnityPlayback\\idle_camera_b.png",
+      "trackTime": 74.06721,
+      "animationTime": 7.40053558,
+      "duration": 33.3333359,
+      "loop": true,
+      "loops": 2,
+      "frame": 32139
+    },
+    "c": {
+      "utc": "2026-10-08T04:21:43.6904078Z",
+      "playing": true,
+      "frame": 50901,
+      "animation": "Idle_01",
+      "trackTime": 118.245308,
+      "animationTime": 18.2453,
+      "duration": 33.3333359,
+      "loop": true,
+      "completedLoops": 3,
+      "vertices": 8353,
+      "subMeshes": 4,
+      "finiteVertices": true,
+      "vertexFingerprint": 23534.32399968308,
+      "imageWidth": 1600,
+      "imageHeight": 900,
+      "changedRGBPixels": 1209506,
+      "cameraOrthographicSize": 9.5,
+      "cameraPosition": "(0.00, 9.70, -100.00)",
+      "runtimeVersion": "Package version: spine-unity-4.2-2026-05-29.unitypackage\nThis Spine-Unity runtime works with data exported from Spine Editor version: 4.2.xx\n",
+      "runtimePackage": "{\r\n\t\"name\": \"com.esotericsoftware.spine.spine-unity\",\r\n\t\"displayName\": \"spine-unity Runtime\",\r\n\t\"description\": \"This plugin provides the spine-unity runtime core.\",\r\n\t\"version\": \"4.2.120\",\r\n\t\"unity\": \"2018.3\",\r\n\t\"author\": {\r\n\t\t\"name\": \"Esoteric Software\",\r\n\t\t\"email\": \"contact@esotericsoftware.com\",\r\n\t\t\"url\": \"http://esotericsoftware.com/\"\r\n\t},\r\n\t\"dependencies\": {\r\n\t\t\"com.unity.ugui\" : \"1.0.0\",\r\n\t\t\"com.unity.modules.animation\" : \"1.0.0\",\r\n\t\t\"com.unity.modules.physics\" : \"1.0.0\",\r\n\t\t\"com.unity.modules.physics2d\" : \"1.0.0\",\r\n\t\t\"com.esotericsoftware.spine.spine-csharp\": \"4.2.0\"\r\n\t},\r\n\t\"repository\": {\r\n\t\t\"type\": \"git\",\r\n\t\t\"url\": \"git@github.com:EsotericSoftware/spine-runtimes.git\"\r\n\t},\r\n\t\"keywords\": [\r\n\t\t\"spine\",\r\n\t\t\"spine-unity\",\r\n\t\t\"runtimes\",\r\n\t\t\"2d\",\r\n\t\t\"skeletal\",\r\n\t\t\"animation\"\r\n\t],\r\n\t\"license\": \"SEE LICENSE IN LICENSE\",\r\n\t\"bugs\": {\r\n\t\t\"url\": \"https://github.com/EsotericSoftware/spine-runtimes/issues\"\r\n\t},\r\n\t\"homepage\": \"https://github.com/EsotericSoftware/spine-runtimes#readme\"\r\n}\r\n",
+      "provenance": [
+        {
+          "sourceName": "CH0069_home.skel",
+          "importedPath": "Assets/mySpine/CH0069_home.skel.bytes",
+          "same": true,
+          "sha256": "97d3f5ca2cb42c1af265926c1204c706e3535a13faee5c7b681037f3eb4b7a47"
+        },
+        {
+          "sourceName": "CH0069_home.atlas",
+          "importedPath": "Assets/mySpine/CH0069_home.atlas.txt",
+          "same": true,
+          "sha256": "77611011a0b449a8deadb578da766311531bc02af30072eb9a2108e23fa1ad09"
+        },
+        {
+          "sourceName": "CH0069_home.png",
+          "importedPath": "Assets/mySpine/CH0069_home.png",
+          "same": true,
+          "sha256": "d802ed75f037229ebf1998b8d3606e24342d9e84f7b260edcdc69b511f4bef6d"
+        },
+        {
+          "sourceName": "CH0069_home2.png",
+          "importedPath": "Assets/mySpine/CH0069_home2.png",
+          "same": true,
+          "sha256": "e4ff66dca5fe1b38a06234c056b27f28e1807c297d4c4dad3c01398296d58917"
+        },
+        {
+          "sourceName": "CH0069_home3.png",
+          "importedPath": "Assets/mySpine/CH0069_home3.png",
+          "same": true,
+          "sha256": "74ffb75d22d5b5fcc3277472bb8930ee8007b6118ccd48e31482e9133565acde"
+        },
+        {
+          "sourceName": "CH0069_home4.png",
+          "importedPath": "Assets/mySpine/CH0069_home4.png",
+          "same": true,
+          "sha256": "b138f30eed54eee4f34f83e1d7b88fdf78e18dd911fad6fc0ef09194cca8c30a"
+        }
+      ],
+      "pngSha256": "d09284270c059928c377d845732907435da564aa94f615cbb1e212406e48f58e"
+    }
+  },
+  "consoleAtEnd": {
+    "success": true,
+    "message": "Retrieved 0 log entries.",
+    "data": []
+  },
+  "restored": {
+    "playing": false,
+    "project": "W:/Machine/Unity/Unity WorkSpace/Test/Assets",
+    "unityVersion": "6000.3.7f1",
+    "activeScene": "Assets/Scenes/SampleScene.unity",
+    "dirty": true,
+    "loadedScenes": [
+      "SampleScene"
+    ],
+    "roots": [
+      {
+        "name": "Main Camera",
+        "active": true
+      },
+      {
+        "name": "Directional Light",
+        "active": true
+      },
+      {
+        "name": "Global Volume",
+        "active": true
+      },
+      {
+        "name": "Spine GameObject (CH0069_home)",
+        "active": true
+      }
+    ],
+    "originalSkeleton": {
+      "name": "Spine GameObject (CH0069_home)",
+      "animation": null,
+      "position": "(4.08, 1.10, 0.00)"
+    },
+    "temporaryObjectExists": false
+  },
+  "scope": "Pass applies to Test/6000.3.7f1; GiftCompanion/6000.6.4f1 remains untested and unmodified. This does not complete all Phase 0 requirements.",
+  "result": "passed",
+  "renderingStatsNote": "MCP rendering/stats returned all draw counts as zero and was not used to claim frame rate or draw-call performance."
+}

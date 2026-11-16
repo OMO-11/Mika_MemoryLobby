@@ -1,0 +1,106 @@
+{
+  "name": "FX_MAT_Gra_L_03",
+  "shader": {
+    "status": "resolved",
+    "name": "DSFX/FX_SHADER_AlphaBlend_Add_Mask_0",
+    "file": "Shaders/DSFX_FX_SHADER_AlphaBlend_Add_Mask_0__9048613017353099110.shader.json",
+    "serializedFile": "CAB-dfc5bcc011d85f284a539a56baf966f7",
+    "reference": {
+      "fileId": 1,
+      "pathId": 9048613017353099110
+    }
+  },
+  "renderQueue": -1,
+  "shaderKeywords": null,
+  "textures": {
+    "_Tex_Main": {
+      "texture": "FX_TEX_Gra_L_01_Clamp",
+      "file": "Textures/Source/FX_TEX_Gra_L_01_Clamp__6097669726735502529.png",
+      "scale": [
+        1.0,
+        -1.0
+      ],
+      "offset": [
+        0.0,
+        0.8500000238418579
+      ],
+      "sourceFormat": "51:ASTC_RGB_8x8",
+      "width": 128,
+      "height": 128,
+      "status": "exported",
+      "externalReference": {
+        "cab": "CAB-bf4f81129d29b116ada7fad04eba7ec1",
+        "providerBundle": "CAB-bf4f81129d29b116ada7fad04eba7ec1",
+        "pathId": 6097669726735502529
+      }
+    },
+    "_Tex_Mask": {
+      "texture": "FX_TEX_Circle_Glow_03_Clamp",
+      "file": "Textures/Source/FX_TEX_Circle_Glow_03_Clamp.png",
+      "scale": [
+        0.9700000286102295,
+        2.299999952316284
+      ],
+      "offset": [
+        0.029999999329447746,
+        -0.6800000071525574
+      ],
+      "sourceFormat": "50:ASTC_RGB_6x6",
+      "width": 128,
+      "height": 128,
+      "status": "exported"
+    }
+  },
+  "floats": {
+    "_Cull_Mode": 2.0,
+    "_Custom_Data_Distort_Power_Use": 0.0,
+    "_Custom_Data_MainMask_Offset_Use": 1.0,
+    "_Custom_Data_Offset_Use": 1.0,
+    "_Custom_Data_Use": 1.0,
+    "_Dis_Speed_X": 0.0,
+    "_Dis_Speed_Y": 0.0,
+    "_Distort_Add": 1.0,
+    "_Distortion_Power_X": 0.0,
+    "_Distortion_Power_Y": 0.0,
+    "_Main_Distortion_Use": 0.0,
+    "_Main_Speed_X": 0.0,
+    "_Main_Speed_Y": 0.0,
+    "_Main_Texture_No": 0.0,
+    "_Mask_Distortion_Use": 0.0,
+    "_Mask_Speed_X": 0.0,
+    "_Mask_Speed_Y": 0.0,
+    "_Multiply": 1.0,
+    "_RGBRGBA": 1.0,
+    "_Step_Power": 1.0,
+    "_UV_Add_Use": 0.0,
+    "_X": 1.0,
+    "_Y": 1.0,
+    "_ZOffsetFactor": 0.0,
+    "_ZOffsetUnits": 0.0,
+    "_ZTest_Mode": 4.0,
+    "_ZWrite_Mode": 0.0
+  },
+  "colors": {
+    "_Color": [
+      5.992156982421875,
+      5.992156982421875,
+      5.992156982421875,
+      1.0
+    ],
+    "_UV_Add_TilingOffset": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "ints": {},
+  "vectors": {},
+  "provenance": {
+    "bundle": "CAB-1de60467771e7319ddddaf8e2645428c",
+    "serializedFile": "CAB-1de60467771e7319ddddaf8e2645428c",
+    "classId": 21,
+    "pathId": 7391124297902816683
+  },
+  "logicalName": "FX_MAT_Gra_L_03"
+}

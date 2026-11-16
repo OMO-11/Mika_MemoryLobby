@@ -1,0 +1,365 @@
+{
+    "resourceFolder": "CH0069_Source",
+    "skeletonFile": "CH0069_home.skel.bytes",
+    "atlasFile": "CH0069_home.atlas.txt",
+    "textureFiles": [
+        "CH0069_home.png",
+        "CH0069_home2.png",
+        "CH0069_home3.png",
+        "CH0069_home4.png"
+    ],
+    "idleAnimation": "Idle_01",
+    "gazeBone": "Touch_Eye_Key",
+    "headBone": "Head_Rot",
+    "mouthSlot": "Mouse_normal_01",
+    "closedMouth": "Mouse_normal_close",
+    "openMouth": "Mouse_normal_01",
+    "gazeCouplingConstraint": "Touch_Eye_Key",
+    "touchPointBone": "Touch_Point_Key",
+    "touchMotionAnimation": "Pat_01_M",
+    "touchReleaseAnimation": "PatEnd_01_M",
+    "headHitSlots": [
+        "Face",
+        "Ball_Hair_01",
+        "F_Hair_01",
+        "F_Hair_02"
+    ],
+    "expressionBlendSeconds": 0.1599999964237213,
+    "mouthBlendSeconds": 0.06499999761581421,
+    "eyesOnlyIdle": true,
+    "pointerAttentionSeconds": 2.200000047683716,
+    "enablePat10Trial": true,
+    "blinkAttachments": [
+        {
+            "slot": "L_Eyebrow_idle",
+            "attachment": "L_Eyebrow_eyeclose"
+        },
+        {
+            "slot": "L_Eyebrow_idle2",
+            "attachment": "L_Eyebrow_eyeclose"
+        },
+        {
+            "slot": "L_Eyelid_01_fill",
+            "attachment": "L_Eyelid_01_fill"
+        },
+        {
+            "slot": "R_Eyebrow_idle",
+            "attachment": "R_Eyebrow_eyeclose"
+        },
+        {
+            "slot": "R_Eyebrow_idle2",
+            "attachment": "R_Eyebrow_eyeclose"
+        },
+        {
+            "slot": "R_Eyelid_01_fill",
+            "attachment": "R_Eyelid_01_fill"
+        }
+    ],
+    "skeletonScale": 0.009999999776482582,
+    "gazeLimit": {
+        "x": 0.47999998927116396,
+        "y": 0.3400000035762787
+    },
+    "headLimit": 1.0,
+    "headHitCenter": {
+        "x": 2.0,
+        "y": 2.200000047683716
+    },
+    "headHitRadius": {
+        "x": 3.299999952316284,
+        "y": 3.5999999046325685
+    },
+    "headFollowEnabled": true,
+    "touchExpressions": [
+        {
+            "id": "pat_closed_eyes",
+            "sourceAnimation": "Pat_01_A",
+            "sourceTime": 0.0,
+            "enabled": true,
+            "closedEyes": true,
+            "openMouth": "Mouse_Depressed_02",
+            "attachments": [
+                {
+                    "slot": "L_Eyebrow_idle",
+                    "attachment": "L_Eyebrow_eyeclose"
+                },
+                {
+                    "slot": "L_Eyebrow_idle2",
+                    "attachment": "L_Eyebrow_eyeclose"
+                },
+                {
+                    "slot": "L_Eyelid_01_fill",
+                    "attachment": "L_Eyelid_01_fill"
+                },
+                {
+                    "slot": "Mouse_normal_01",
+                    "attachment": "Mouse_Depressed_02_close"
+                },
+                {
+                    "slot": "R_Eyebrow_idle",
+                    "attachment": "R_Eyebrow_eyeclose"
+                },
+                {
+                    "slot": "R_Eyebrow_idle2",
+                    "attachment": "R_Eyebrow_eyeclose"
+                },
+                {
+                    "slot": "R_Eyelid_01_fill",
+                    "attachment": "R_Eyelid_01_fill"
+                }
+            ],
+            "gazeBias": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "pat_playful",
+            "sourceAnimation": "Talk_01_A",
+            "sourceTime": 2.0,
+            "enabled": true,
+            "closedEyes": false,
+            "openMouth": "Mouse_doya_03",
+            "attachments": [
+                {
+                    "slot": "L_Eyebrow_idle",
+                    "attachment": "L_Eyebrow_doya"
+                },
+                {
+                    "slot": "L_Eyebrow_idle2",
+                    "attachment": "L_Eyebrow_doya"
+                },
+                {
+                    "slot": "L_Eyelid_01_fill",
+                    "attachment": "L_Eyelid_02_doya"
+                },
+                {
+                    "slot": "L_Eye_idle_01",
+                    "attachment": "L_Eye_idle_01"
+                },
+                {
+                    "slot": "L_Eye_idle_02",
+                    "attachment": "L_Eye_idle_02"
+                },
+                {
+                    "slot": "L_Eye_idle_03",
+                    "attachment": "L_Eye_idle_03"
+                },
+                {
+                    "slot": "L_T_Eyebrow_idle",
+                    "attachment": "L_T_Eyebrow_doya"
+                },
+                {
+                    "slot": "L_T_Eyebrow_idle2",
+                    "attachment": "L_T_Eyebrow_doya"
+                },
+                {
+                    "slot": "Mouse_normal_01",
+                    "attachment": "Mouse_doya_03_close"
+                },
+                {
+                    "slot": "R_Eyebrow_idle",
+                    "attachment": "R_Eyebrow_doya"
+                },
+                {
+                    "slot": "R_Eyebrow_idle2",
+                    "attachment": "R_Eyebrow_doya"
+                },
+                {
+                    "slot": "R_Eyelid_01_fill",
+                    "attachment": "R_Eyelid_02_doya"
+                },
+                {
+                    "slot": "R_Eye_idle_01",
+                    "attachment": "R_Eye_idle_01"
+                },
+                {
+                    "slot": "R_Eye_idle_02",
+                    "attachment": "R_Eye_idle_02"
+                },
+                {
+                    "slot": "R_Eye_idle_03",
+                    "attachment": "R_Eye_idle_03"
+                },
+                {
+                    "slot": "R_T_Eyebrow_idle",
+                    "attachment": "R_T_Eyebrow_doya"
+                },
+                {
+                    "slot": "R_T_Eyebrow_idle2",
+                    "attachment": "R_T_Eyebrow_doya"
+                }
+            ],
+            "gazeBias": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "pat_shy",
+            "sourceAnimation": "Talk_03_A",
+            "sourceTime": 12.0,
+            "enabled": true,
+            "closedEyes": false,
+            "openMouth": "Mouse_shy",
+            "attachments": [
+                {
+                    "slot": "L_Eyebrow_idle",
+                    "attachment": "L_Eyebrow_Shy"
+                },
+                {
+                    "slot": "L_Eyebrow_idle2",
+                    "attachment": "L_Eyebrow_Shy"
+                },
+                {
+                    "slot": "L_Eyelid_01_fill",
+                    "attachment": ""
+                },
+                {
+                    "slot": "L_Eye_idle_01",
+                    "attachment": "L_Eye_shy_01"
+                },
+                {
+                    "slot": "L_Eye_idle_02",
+                    "attachment": "L_Eye_shy_02"
+                },
+                {
+                    "slot": "L_Eye_idle_03",
+                    "attachment": ""
+                },
+                {
+                    "slot": "L_T_Eyebrow_idle",
+                    "attachment": "L_T_Eyebrow_Talk02"
+                },
+                {
+                    "slot": "L_T_Eyebrow_idle2",
+                    "attachment": "L_T_Eyebrow_Talk02"
+                },
+                {
+                    "slot": "Mouse_normal_01",
+                    "attachment": "Mouse_shy_close"
+                },
+                {
+                    "slot": "R_Eyebrow_idle",
+                    "attachment": "R_Eyebrow_Shy"
+                },
+                {
+                    "slot": "R_Eyebrow_idle2",
+                    "attachment": "R_Eyebrow_Shy"
+                },
+                {
+                    "slot": "R_Eyelid_01_fill",
+                    "attachment": ""
+                },
+                {
+                    "slot": "R_Eye_idle_01",
+                    "attachment": "R_Eye_shy_01"
+                },
+                {
+                    "slot": "R_Eye_idle_02",
+                    "attachment": "R_Eye_shy_02"
+                },
+                {
+                    "slot": "R_Eye_idle_03",
+                    "attachment": ""
+                },
+                {
+                    "slot": "R_T_Eyebrow_idle",
+                    "attachment": "R_T_Eyebrow_Talk02"
+                },
+                {
+                    "slot": "R_T_Eyebrow_idle2",
+                    "attachment": "R_T_Eyebrow_Talk02"
+                }
+            ],
+            "gazeBias": {
+                "x": -0.11999999731779099,
+                "y": 0.03999999910593033
+            }
+        }
+    ],
+    "thinkingExpressions": [
+        {
+            "id": "thinking_neutral",
+            "sourceAnimation": "Talk_03_A",
+            "sourceTime": 0.699999988079071,
+            "enabled": true,
+            "closedEyes": false,
+            "openMouth": "",
+            "attachments": [
+                {
+                    "slot": "L_Eyebrow_idle",
+                    "attachment": "L_Eyebrow_normal"
+                },
+                {
+                    "slot": "L_Eyebrow_idle2",
+                    "attachment": "L_Eyebrow_normal"
+                },
+                {
+                    "slot": "L_Eyelid_01_fill",
+                    "attachment": ""
+                },
+                {
+                    "slot": "L_Eye_idle_01",
+                    "attachment": "L_Eye_idle_01"
+                },
+                {
+                    "slot": "L_Eye_idle_02",
+                    "attachment": "L_Eye_idle_02"
+                },
+                {
+                    "slot": "L_Eye_idle_03",
+                    "attachment": "L_Eye_idle_03"
+                },
+                {
+                    "slot": "L_T_Eyebrow_idle",
+                    "attachment": "L_T_Eyebrow_shy"
+                },
+                {
+                    "slot": "L_T_Eyebrow_idle2",
+                    "attachment": "L_T_Eyebrow_shy"
+                },
+                {
+                    "slot": "Mouse_normal_01",
+                    "attachment": "Mouse_normal_close"
+                },
+                {
+                    "slot": "R_Eyebrow_idle",
+                    "attachment": "R_Eyebrow_normal"
+                },
+                {
+                    "slot": "R_Eyebrow_idle2",
+                    "attachment": "R_Eyebrow_normal"
+                },
+                {
+                    "slot": "R_Eyelid_01_fill",
+                    "attachment": ""
+                },
+                {
+                    "slot": "R_Eye_idle_01",
+                    "attachment": "R_Eye_idle_01"
+                },
+                {
+                    "slot": "R_Eye_idle_02",
+                    "attachment": "R_Eye_idle_02"
+                },
+                {
+                    "slot": "R_Eye_idle_03",
+                    "attachment": "R_Eye_idle_03"
+                },
+                {
+                    "slot": "R_T_Eyebrow_idle",
+                    "attachment": "R_T_Eyebrow_shy"
+                },
+                {
+                    "slot": "R_T_Eyebrow_idle2",
+                    "attachment": "R_T_Eyebrow_shy"
+                }
+            ],
+            "gazeBias": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        }
+    ]
+}

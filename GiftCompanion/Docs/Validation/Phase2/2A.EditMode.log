@@ -1,0 +1,1276 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.3/staging' branch; Version is '6000.3.7f1 (696ec25a53d1) revision 6909634'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Channel LicenseClient-fufu doesn't exist
+OS: 'Windows 11  (10.0.26200) Professional' Language: 'zh' Physical Memory: 15658 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-10-13T04:50:48Z
+[Licensing::Module] Successfully launched the LicensingClient (PId: 10644)
+
+COMMAND LINE ARGUMENTS:
+W:\Machine\Unity\Unity Library\Unity 6000.3.7f1\Editor\Unity.exe
+-batchmode
+-nographics
+-projectPath
+W:\Machine\VSCode\Mika_Gift\GiftCompanion
+-runTests
+-testPlatform
+EditMode
+-testResults
+W:\Machine\VSCode\Mika_Gift\GiftCompanion\Docs\Validation\Phase2\2A.EditMode.xml
+-logFile
+W:\Machine\VSCode\Mika_Gift\GiftCompanion\Docs\Validation\Phase2\2A.EditMode.log
+Successfully changed project path to: W:\Machine\VSCode\Mika_Gift\GiftCompanion
+W:/Machine/VSCode/Mika_Gift/GiftCompanion
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+Player connection [23104]  Target information:
+
+Player connection [23104]  * "[IP] 172.29.160.1 [Port] 55504 [Flags] 2 [Guid] 3108687465 [EditorId] 3108687465 [Version] 1048832 [Id] WindowsEditor(7,MYSERICE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [23104]  * "[IP] 192.168.121.1 [Port] 55504 [Flags] 2 [Guid] 3108687465 [EditorId] 3108687465 [Version] 1048832 [Id] WindowsEditor(7,MYSERICE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [23104]  * "[IP] 192.168.126.1 [Port] 55504 [Flags] 2 [Guid] 3108687465 [EditorId] 3108687465 [Version] 1048832 [Id] WindowsEditor(7,MYSERICE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [23104]  * "[IP] 26.191.98.64 [Port] 55504 [Flags] 2 [Guid] 3108687465 [EditorId] 3108687465 [Version] 1048832 [Id] WindowsEditor(7,MYSERICE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [23104]  * "[IP] 10.33.46.230 [Port] 55504 [Flags] 2 [Guid] 3108687465 [EditorId] 3108687465 [Version] 1048832 [Id] WindowsEditor(7,MYSERICE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [23104] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [23104] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-fufu" at "2026-10-13T04:50:49.3629441Z"
+[Package Manager] Connected to IPC stream "Upm-29652" after 0.3 seconds.
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              2e6a4d722acf466a993dc4ac8100e5f5
+  Correlation Id:          0ae499ae439e3fd112aa9770f0c0eb2d
+  External correlation Id: 3704457487833635584
+  Machine Id:              5mkOLlRLzlaDaGMP57SGmafX/sU=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-fufu" (connect: 0.37s, validation: 0.05s, handshake: 1.94s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-fufu-notifications" at "2026-10-13T04:50:51.3462277Z"
+[Licensing::Module] Connected to LicensingClient (PId: 10644, launch time: 0.01, total connection time: 2.36s)
+[Licensing::Module] Error: Access token is unavailable; failed to update
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 20067662779766-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.01
+[Licensing::Module] Licensing Background thread has ended after 2.39s
+[Licensing::Module] Licensing is initialized (took 1.95s).
+[Licensing::Client] Successfully resolved entitlement details
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Artifact Garbage Collection - Removed 1 unused hashed content files
+Refreshing native plugins compatible for Editor in 1.73 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.3.7f1 (696ec25a53d1)
+[Subsystems] Discovering subsystems at path W:/Machine/Unity/Unity Library/Unity 6000.3.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path W:/Machine/VSCode/Mika_Gift/GiftCompanion/Assets
+Forcing GfxDevice: Null
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+NullGfxDevice:
+    Version:  NULL 1.0 [1.0]
+    Renderer: Null Device
+    Vendor:   Unity Technologies
+Initialize mono
+Mono path[0] = 'W:/Machine/Unity/Unity Library/Unity 6000.3.7f1/Editor/Data/Managed'
+Mono path[1] = 'W:/Machine/Unity/Unity Library/Unity 6000.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'W:/Machine/Unity/Unity Library/Unity 6000.3.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56652
+Using cacheserver namespaces - metadata:defaultmetadata, artifacts:defaultartifacts
+Using cacheserver namespaces - metadata:defaultmetadata, artifacts:defaultartifacts
+ImportWorker Server TCP listen port: 0
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: W:/Machine/Unity/Unity Library/Unity 6000.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001635 seconds.
+- Loaded All Assemblies, in  0.416 seconds
+Native extension for WindowsStandalone target not found
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.380 seconds
+Domain Reload Profiling: 796ms
+	BeginReloadAssembly (138ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (6ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (181ms)
+		LoadAssemblies (131ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (177ms)
+			TypeCache.Refresh (175ms)
+				TypeCache.ScanAssembly (156ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (380ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (342ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (43ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (74ms)
+			ProcessInitializeOnLoadAttributes (145ms)
+			ProcessInitializeOnLoadMethodAttributes (76ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+[Licensing::Client] Successfully resolved entitlement details
+Application.AssetDatabase Initial Refresh Start
+Package Manager log level set to [2]
+[Package Manager] Restoring resolved packages state from cache
+[Licensing::Client] Successfully resolved entitlement details
+Embedded package [com.kirurobo.uniwinc] was found in the directory [W:\Machine\VSCode\Mika_Gift\GiftCompanion\Packages\com.kirurobo.uniwindowcontroller]. Please consider changing the directory name to match the package name.
+[Package Manager] Registered 16 packages:
+  Packages from [https://packages.unity.com]:
+    com.unity.inputsystem@1.18.0 (location: W:\Machine\VSCode\Mika_Gift\GiftCompanion\Library\PackageCache\com.unity.inputsystem@57d0e36f6123)
+    com.unity.nuget.newtonsoft-json@3.2.2 (location: W:\Machine\VSCode\Mika_Gift\GiftCompanion\Library\PackageCache\com.unity.nuget.newtonsoft-json@4dfd81071c64)
+  Built-in packages:
+    com.unity.test-framework@1.6.0 (location: W:\Machine\VSCode\Mika_Gift\GiftCompanion\Library\PackageCache\com.unity.test-framework@0b7a23ab2e1d)
+    com.unity.ugui@2.0.0 (location: W:\Machine\VSCode\Mika_Gift\GiftCompanion\Library\PackageCache\com.unity.ugui@11343a6274f3)
+    com.unity.modules.audio@1.0.0 (location: W:\Machine\VSCode\Mika_Gift\GiftCompanion\Library\PackageCache\com.unity.modules.audio)
+    com.unity.modules.animation@1.0.0 (location: W:\Machine\VSCode\Mika_Gift\GiftCompanion\Library\PackageCache\com.unity.modules.animation)
+    com.unity.modules.imageconversion@1.0.0 (location: W:\Machine\VSCode\Mika_Gift\GiftCompanion\Library\PackageCache\com.unity.modules.imageconversion)
+    com.unity.modules.jsonserialize@1.0.0 (location: W:\Machine\VSCode\Mika_Gift\GiftCompanion\Library\PackageCache\com.unity.modules.jsonserialize)
+    com.unity.modules.imgui@1.0.0 (location: W:\Machine\VSCode\Mika_Gift\GiftCompanion\Library\PackageCache\com.unity.modules.imgui)
+    com.unity.modules.physics@1.0.0 (location: W:\Machine\VSCode\Mika_Gift\GiftCompanion\Library\PackageCache\com.unity.modules.physics)
+    com.unity.modules.physics2d@1.0.0 (location: W:\Machine\VSCode\Mika_Gift\GiftCompanion\Library\PackageCache\com.unity.modules.physics2d)
+    com.unity.modules.ui@1.0.0 (location: W:\Machine\VSCode\Mika_Gift\GiftCompanion\Library\PackageCache\com.unity.modules.ui)
+    com.unity.ext.nunit@2.0.5 (location: W:\Machine\VSCode\Mika_Gift\GiftCompanion\Library\PackageCache\com.unity.ext.nunit@d8c07649098d)
+    com.unity.modules.uielements@1.0.0 (location: W:\Machine\VSCode\Mika_Gift\GiftCompanion\Library\PackageCache\com.unity.modules.uielements)
+    com.unity.modules.hierarchycore@1.0.0 (location: W:\Machine\VSCode\Mika_Gift\GiftCompanion\Library\PackageCache\com.unity.modules.hierarchycore)
+  Embedded packages:
+    com.kirurobo.uniwinc@file:W:\Machine\VSCode\Mika_Gift\GiftCompanion\Packages\com.kirurobo.uniwindowcontroller (location: W:\Machine\VSCode\Mika_Gift\GiftCompanion\Packages\com.kirurobo.uniwindowcontroller)
+[Subsystems] No new subsystems found in resolved package list.
+[Package Manager] Done registering packages in 0.01 seconds
+[ScriptCompilation] Requested script compilation because: Assetdatabase observed changes in script compilation related files
+Starting: W:\Machine\Unity\Unity Library\Unity 6000.3.7f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: W:/Machine/VSCode/Mika_Gift/GiftCompanion
+DisplayProgressbar: Compiling Scripts
+ExitCode: 0 Duration: 1s56ms
+[336/339    0s] Csc Library/Bee/artifacts/1900b0aE.dag/GiftCompanion.EditModeTests.dll (+2 others)
+[337/339    0s] CopyFiles Library/ScriptAssemblies/GiftCompanion.EditModeTests.pdb
+[338/339    0s] CopyFiles Library/ScriptAssemblies/GiftCompanion.EditModeTests.dll
+*** Tundra build success (1.02 seconds), 3 items updated, 339 evaluated
+AssetDatabase: script compilation time: 1.479899s
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.678 seconds
+Refreshing native plugins compatible for Editor in 0.89 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.468 seconds
+Domain Reload Profiling: 1145ms
+	BeginReloadAssembly (344ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (196ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (262ms)
+		LoadAssemblies (312ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (52ms)
+			TypeCache.Refresh (37ms)
+				TypeCache.ScanAssembly (29ms)
+			BuildScriptInfoCaches (10ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (468ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (357ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (19ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (129ms)
+			ProcessInitializeOnLoadAttributes (156ms)
+			ProcessInitializeOnLoadMethodAttributes (47ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=780e94e5383ab1042883b3f5ebb01001): Total: 2.884 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=614 ms
+		Asset DB Callback time: managed=82 ms, native=12 ms
+		Scripting: domain reloads=1, domain reload time=678 ms, compile time=1481 ms, other=13 ms
+		Project Asset Count: scripts=386, non-scripts=537
+		Asset File Changes: new=0, changed=1, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokeCustomDependenciesCallbacks: 0.002ms
+	InvokePackagesCallback: 13.520ms
+	ApplyChangesToAssetFolders: 0.613ms
+	Scan: 30.224ms
+	OnSourceAssetsModified: 0.724ms
+	CategorizeAssetsWithTransientArtifact: 6.284ms
+	ProcessAssetsWithTransientArtifactChanges: 22.327ms
+	CategorizeAssets: 10.586ms
+	ImportOutOfDateAssets: 472.272ms (-1009.445ms without children)
+		CompileScripts: 1481.178ms
+		ReloadNativeAssets: 0.001ms
+		UnloadImportedAssets: 0.202ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.126ms
+		InitializingProgressBar: 0.001ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.000ms
+		OnDemandSchedulerStart: 0.207ms
+	PostProcessAllAssets: 83.851ms
+	Hotreload: 1.273ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.003ms
+	UnloadStreamsBegin: 1.502ms
+	PersistCurrentRevisions: 0.021ms
+	UnloadStreamsEnd: 0.003ms
+	GenerateScriptTypeHashes: 1.583ms
+	Untracked: 2240.562ms
+
+Application.AssetDatabase Initial Refresh End
+Scanning for USB devices : 6.646ms
+Initializing Unity extensions:
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-GiftCompanion
+Unloading 67 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1446 unused Assets / (7.6 MB). Loaded Objects now: 1988.
+Memory consumption went from 124.2 MB to 116.6 MB.
+Total: 8.074900 ms (FindLiveObjects: 0.177800 ms CreateObjectMapping: 0.079300 ms MarkObjects: 4.884000 ms  DeleteObjects: 2.932500 ms)
+
+Microsoft Media Foundation video decoding to texture disabled: graphics device is Null, only Direct3D 11 and Direct3D 12 (only on desktop) are supported for hardware-accelerated video decoding.
+[Project] Loading completed in 6.669 seconds
+	Project init time: 				6.415 seconds
+		Template init time: 		0.000 seconds
+		Package Manager init time: 		2.231 seconds
+		Asset Database init time: 		0.292 seconds
+		Global illumination init time: 	0.003 seconds
+		Assemblies load time: 			0.813 seconds
+		Unity extensions init time: 	0.003 seconds
+		Asset Database refresh time: 	2.884 seconds
+	Scene opening time: 			0.112 seconds
+##utp:{"type":"ProjectInfo","version":2,"phase":"Immediate","time":1791867055642,"processId":29652,"projectLoad":6.6693319,"projectInit":6.4154248,"templateInit":0.0,"packageManagerInit":2.2306406,"assetDatabaseInit":0.2916527,"globalIlluminationInit":0.0028174,"assembliesLoad":0.8131146,"unityExtensionsInit":0.0029731,"assetDatabaseRefresh":2.8839031999999999,"sceneOpening":0.1124666}
+##utp:{"type":"EditorInfo","version":2,"phase":"Immediate","time":1791867055642,"processId":29652,"editorVersion":"6000.3.7f1 (696ec25a53d1)","branch":"6000.3/staging","buildType":"Release","platform":"Windows"}
+Asset Pipeline Refresh (id=523e96a2ea8cf584588eed336b686adb): Total: 0.016 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Running tests for ExecutionSettings with details:
+targetPlatform = 
+playerHeartbeatTimeout = 600
+filters[0] = 
+   Filter with settings:
+   testMode = EditMode
+   targetPlatform = 
+   testNames = null
+   groupNames = null
+   categoryNames = null
+   assemblyNames = null
+ignoreTests = {}
+featureFlags = null
+
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+UnityEditor.TestTools.TestRunner.CommandLineTest.Executer:InitializeAndExecuteRun (string[]) (at ./Library/PackageCache/com.unity.test-framework@0b7a23ab2e1d/UnityEditor.TestRunner/CommandLineTest/Executer.cs:53)
+UnityEditor.TestTools.TestRunner.CommandLineTest.TestStarter:InitializeAndExecuteRun () (at ./Library/PackageCache/com.unity.test-framework@0b7a23ab2e1d/UnityEditor.TestRunner/CommandLineTest/TestStarter.cs:64)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: ./Library/PackageCache/com.unity.test-framework@0b7a23ab2e1d/UnityEditor.TestRunner/CommandLineTest/Executer.cs Line: 53)
+
+Start Indexing on Editor startup
+[Indexing] Starting Initial Indexing for Assets
+[UnityConnectServicesConfig] config is NOT valid, switching to default
+Created GICache directory at C:/Users/fufu/AppData/LocalLow/Unity/Caches/GiCache. Took: 0.010s, timestamps: [6.672 - 6.682]
+Unloading 35 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (44.7 KB). Loaded Objects now: 2072.
+Memory consumption went from 104.7 MB to 104.7 MB.
+Total: 7.619200 ms (FindLiveObjects: 0.076900 ms CreateObjectMapping: 0.019800 ms MarkObjects: 7.479800 ms  DeleteObjects: 0.041500 ms)
+
+Starting new worker id: 0 with log in W:/Machine/VSCode/Mika_Gift/GiftCompanion/Logs/AssetImportWorker0.log
+Starting new worker id: 1 with log in W:/Machine/VSCode/Mika_Gift/GiftCompanion/Logs/AssetImportWorker1.log
+Starting new worker id: 2 with log in W:/Machine/VSCode/Mika_Gift/GiftCompanion/Logs/AssetImportWorker2.log
+Starting new worker id: 3 with log in W:/Machine/VSCode/Mika_Gift/GiftCompanion/Logs/AssetImportWorker3.log
+Worker ready: AssetImportWorker1 1
+Worker ready: AssetImportWorker0 0
+Worker ready: AssetImportWorker2 2
+Worker ready: AssetImportWorker3 3
+[Worker0] Start importing Assets/Spine/Runtime/spine-unity/Components/Internal/SkeletonSubmeshGraphic.cs using Guid(deeb12332c062954093c24a3fab10b83) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker0] (ScriptedImporter)
+[Worker2] Start importing Assets/Spine/Runtime/spine-unity/Shaders/Outline/Spine-Skeleton-Fill-Outline.shader using Guid(e158cbe58baa093438feb3d691f3daba) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker2] (ScriptedImporter)
+[Worker3] Start importing Assets/Spine/Runtime/spine-unity/Shaders/CGIncludes/Spine-Outline-Common.cginc using Guid(a8d610b87be4e82409e18a63a930d335) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker3] (ScriptedImporter)
+[Worker1] Start importing Assets/Spine/Runtime/spine-unity/Shaders/CGIncludes/Spine-Skeleton-Lit-Common.cginc using Guid(70c77c02aabd5e44f94aab48dd0be7b2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker1] (ScriptedImporter)
+[Worker0]  -> (artifact id: '08460bab2276cf1da8d00df464f7aa9c') in 0.095541 seconds
+[Worker0] Start importing Assets/Spine/Runtime/spine-unity/Shaders/CGIncludes/Spine-BlendModes-NormalPass.cginc using Guid(6e28a50646b0e9542a1c93c2d9d993d0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker0] (ScriptedImporter)
+[Worker3]  -> (artifact id: '2ee7da70cbc7dbb280e5829c184c40ed') in 0.0736539 seconds
+[Worker3] Start importing Assets/Spine/Runtime/spine-unity/Components/SkeletonRendererCustomMaterials/SkeletonRendererCustomMaterials.cs using Guid(26947ae098a8447408d80c0c86e35b48) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker3] (ScriptedImporter)
+[Worker0]  -> (artifact id: '4ca0b3fc490179904dd1da6ce7d3e4ea') in 0.0176763 seconds
+[Worker0] Start importing Assets/Spine/Runtime/spine-unity/Shaders/Sprite/CameraDepthNormalsTexture.shader using Guid(4794ea6b2d07cc546ba97a809b5f9ada) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker0] (ScriptedImporter)
+[Worker2]  -> (artifact id: '1e04e5ea68d372cf4374066b1c5b0bbb') in 0.0908092 seconds
+[Worker2] Start importing Assets/Spine/Editor/spine-unity/Editor/GUI/icon-weights.png using Guid(0b1bcb09fa228d049ba3c9ea6a57e1ee) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker2] (ScriptedImporter)
+[Worker0]  -> (artifact id: 'bf8eface6492a23c58674bf06493a856') in 0.0186156 seconds
+[Worker0] Start importing Assets/Spine/Runtime/spine-unity/Materials/UI-StraightAlphaTex/SkeletonGraphicDefaultGrayscale-Straight.mat using Guid(c91e189b22e5b1f4abdd431932425a96) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker0] (ScriptedImporter)
+[Worker1]  -> (artifact id: '4daa7ed8519caa35743641d22cf4e678') in 0.0712455 seconds
+[Worker1] Start importing Assets/Spine/Editor/spine-unity/Editor/Utility/BuildSettings.cs using Guid(80767dcb23931c645ad70c88670ddeb6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker1] (ScriptedImporter)
+[Worker3]  -> (artifact id: '672afed68c88895a890f2843a7e86c4c') in 0.0346642 seconds
+[Worker3] Start importing Assets/Spine/Runtime/spine-unity/Shaders/SkeletonGraphic/Spine-SkeletonGraphic.shader using Guid(fa95b0fb6983c0f40a152e6f9aa82bfb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker3] (ScriptedImporter)
+[Worker3]  -> (artifact id: '289a2ced05c2ba14b78853fda9f48a22') in 0.017418 seconds
+[Worker3] Start importing Assets/Spine/Editor/spine-unity/Editor/GUI/SkeletonDataAsset Icon.png using Guid(68defdbc95b30a74a9ad396bfc9a2277) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker3] (ScriptedImporter)
+[Worker2]  -> (artifact id: '42b33b54216836452e5cbbae4b8de280') in 0.0495735 seconds
+[Worker1]  -> (artifact id: '8bc20650daf5c66f267f10c5ed2c3253') in 0.0342781 seconds
+[Worker2] Start importing Assets/Spine/Editor/spine-unity/Editor/Utility/Instantiation.cs using Guid(94ecc7f73dfc0484e848a0e6a1a11f2b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker2] (ScriptedImporter)
+[Worker1] Start importing Assets/Spine/Editor/spine-unity/Editor/Utility/AssetDatabaseAvailabilityDetector.cs using Guid(25086cd81e3158b439761b73d7366c47) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker1] (ScriptedImporter)
+[Worker1]  -> (artifact id: 'dc974b2a3a6213ff8f090995d313c43d') in 0.0080198 seconds
+[Worker1] Start importing Assets/Spine/Editor/spine-unity/Editor/ImporterPresets/StraightAlphaPreset.preset using Guid(b3fe5ce49a7c8c041a9d60e4f7f403de) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker1] (ScriptedImporter)
+[Worker2]  -> (artifact id: '1a0407b857192e57605134cde915f2c5') in 0.0129732 seconds
+[Worker0]  -> (artifact id: 'c9f8cb8f35c82c5393d48c9ec2492ee6') in 0.0573649 seconds
+[Worker2] Start importing Assets/Spine/Runtime/spine-unity/SkeletonDataModifierAssets/BlendModeMaterials/Default BlendModeMaterials.asset using Guid(22c0225612a65ee4fb15bad49f644762) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker2] (ScriptedImporter)
+[Worker0] Start importing Assets/Spine/Editor/spine-unity/Editor/GUI/icon-event.png using Guid(d226a80acc775714aa78b85e16a00e9b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker0] (ScriptedImporter)
+[Worker3]  -> (artifact id: '672f991e7ad807b8e9435796e9d4c0fc') in 0.0518399 seconds
+[Worker1]  -> (artifact id: '8849c1aaaee577163a0ea9171056ba0e') in 0.0310215 seconds
+[Worker1] Start importing Assets/Spine/Runtime/spine-unity/Materials/UI-StraightAlphaTex/SkeletonGraphicMultiply-Straight.mat using Guid(508e91b626e5c3d4690de05ff2dc80f3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker3] Start importing Assets/Spine/Editor/spine-unity/Editor/GUI/icon-hingeChain.png using Guid(2c2c6d283dcf3654baf40001c982891c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker1] (ScriptedImporter)
+[Worker3] (ScriptedImporter)
+[Worker3]  -> (artifact id: 'f80ecb4b24306a8f218d2542fbad85ae') in 0.0121178 seconds
+[Worker3] Start importing Assets/Spine/Editor/spine-unity/Editor/GUI/icon-spine.png using Guid(4e7c964fa5e07024c8bf1debecc3b7c8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker3] (ScriptedImporter)
+[Worker0]  -> (artifact id: '9397d9ebfde17c146ee0e76412ccddf7') in 0.050095 seconds
+[Worker0] Start importing Assets/Spine/Runtime/spine-unity/Materials/UI-StraightAlphaTex/SkeletonGraphicTintBlackAdditive-Straight.mat using Guid(b1cef8fd98454b343a723830226e6b97) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker3]  -> (artifact id: '2e7321abc3aaa9cdd1f90b43d5d2d6a5') in 0.01294 seconds
+[Worker0] (ScriptedImporter)
+[Worker3] Start importing Assets/Spine/Editor/spine-unity/Editor/Windows/SkeletonDebugWindow.cs using Guid(7093e73ff3cf6c543ac5865980070b49) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker3] (ScriptedImporter)
+[Worker2]  -> (artifact id: 'fb68cef8085eca2be22d56919312a3f6') in 0.0559959 seconds
+[Worker2] Start importing Assets/Spine/Editor/spine-unity/Editor/GUI/icon-boundingBox.png using Guid(955aed20030d0504b8a9c6934a5cb47a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker2] (ScriptedImporter)
+[Worker3]  -> (artifact id: '03db2530f6d73b128b39bdb9b66189c0') in 0.0074885 seconds
+[Worker3] Start importing Assets/Spine/Runtime/spine-unity/Components/SkeletonUtility/FollowLocationRigidbody2D.cs using Guid(02aae87c39b869548a9051fbdb1975e6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker3] (ScriptedImporter)
+[Worker2]  -> (artifact id: '258edc80e77b765f90b43c689e34953c') in 0.0112152 seconds
+[Worker2] Start importing Assets/Spine/Runtime/spine-unity/Materials/UI-PMATexture/SkeletonGraphicTintBlackScreen.mat using Guid(aa5f8f03ad4de5349a8233c00993ffcf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker2] (ScriptedImporter)
+[Worker3]  -> (artifact id: '40e1cf55852ae58ef03d2a0abd7bb3b7') in 0.009128 seconds
+[Worker3] Start importing Assets/Spine/Runtime/spine-unity/Shaders/Outline/Spine-Skeleton-TintBlack-Outline.shader using Guid(49cf725a1e40e7742be92917f83946c3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker3] (ScriptedImporter)
+[Worker0]  -> (artifact id: 'bd4e9c64ca51ca7ed9de48df0bcc5e08') in 0.0231787 seconds
+[Worker0] Start importing Assets/Spine/Runtime/spine-unity/Materials/UI-PMATexture/SkeletonGraphicTintBlackOutline.mat using Guid(94fe565c79b0aeb418cd05e4f1f8343c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker0] (ScriptedImporter)
+[Worker1]  -> (artifact id: '4ab4052fe7ed1756e0bb4d43c79e555b') in 0.0512908 seconds
+[Worker1] Start importing Assets/Spine/Runtime/spine-unity/Materials/UI-StraightAlphaTex/SkeletonGraphicTintBlackScreen-Straight.mat using Guid(1cfb46a8e0345c340b0d1c1a95fa74e8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker1] (ScriptedImporter)
+[Worker3]  -> (artifact id: '802859bb4bb317ce5e380f6ddc7cb155') in 0.0143163 seconds
+[Worker3] Start importing Assets/Spine/Runtime/spine-unity/Materials/UI-StraightAlphaTex/SkeletonGraphicAdditive-Straight.mat using Guid(cad8f402683e18141a860042c37d6242) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker3] (ScriptedImporter)
+[Worker0]  -> (artifact id: '352889c8ca848dc1ad2dbbd38f82e278') in 0.0247762 seconds
+[Worker0] Start importing Assets/Spine/Editor/spine-unity/Editor/GUI/icon-animationRoot.png using Guid(3d1be4ea889f3a14b864352fe49a1bde) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker0] (ScriptedImporter)
+[Worker1]  -> (artifact id: '3a4f136ed5b1ea758eb092431be10b7e') in 0.025133 seconds
+[Worker1] Start importing Assets/Spine/Runtime/spine-unity/Shaders/Outline/Spine-Special-Skeleton-Grayscale-Outline.shader using Guid(1d3e1518ae643a749b086bc7972893d2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker1] (ScriptedImporter)
+[Worker0]  -> (artifact id: 'b0c163a66c4169506a4421dc55a5a384') in 0.0137561 seconds
+[Worker0] Start importing Assets/Spine/Runtime/spine-unity/Shaders/BlendModes/Spine-Skeleton-PMA-Screen.shader using Guid(4e8caa36c07aacf4ab270da00784e4d9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker0] (ScriptedImporter)
+[Worker2]  -> (artifact id: 'c3536813084a1d26e9a549417dac300d') in 0.0499075 seconds
+[Worker2] Start importing Assets/Spine/Editor/spine-unity/Editor/GUI/AtlasAsset Icon.png using Guid(3fc714a0dc1cf6b4b959e073fff2844e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker2] (ScriptedImporter)
+[Worker1]  -> (artifact id: 'a067a2c9d066c0f64869a9a60a0f667a') in 0.0168836 seconds
+[Worker1] Start importing Assets/Spine/Runtime/spine-unity/Shaders/Sprite/CameraNormalsTexture.shader using Guid(537141eca02c6df4bb8b4f77567e9de2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker1] (ScriptedImporter)
+[Worker0]  -> (artifact id: '21c1f9b14e8a89bf490ea73e8ff2cb03') in 0.0100936 seconds
+[Worker0] Start importing Assets/Spine/Runtime/spine-unity/Materials/UI-PMATexture/SkeletonGraphicScreen.mat using Guid(bab24c479f34eec45be6ea8595891569) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker0] (ScriptedImporter)
+[Worker2]  -> (artifact id: '6bdee945cadb38d9f1cc6a0bfb1bcaed') in 0.0118334 seconds
+[Worker1]  -> (artifact id: '4643408a3453312f6a6bd5a2463c2e4c') in 0.009138 seconds
+[Worker2] Start importing Assets/Spine/Runtime/spine-unity/SkeletonDataModifierAssets/BlendModeMaterials/SkeletonPMAAdditive.mat using Guid(4deba332d47209e4780b3c5fcf0e3745) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker1] Start importing Assets/Spine/Editor/spine-unity/Editor/GUI/icon-constraintNib.png using Guid(de1a4f5ad4bdf1a4ea072c4d59ba87d8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker2] (ScriptedImporter)
+[Worker1] (ScriptedImporter)
+[Worker3]  -> (artifact id: 'dc898e30d858f3f10ea2a5e44f09f174') in 0.0509805 seconds
+[Worker3] Start importing Assets/Spine/Editor/spine-unity/Editor/GUI/icon-null.png using Guid(d1de1604dfe4cb64c9d31246a8e43c78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker3] (ScriptedImporter)
+[Worker0]  -> (artifact id: '1529731ce880c1dd7aeadfee5fb037be') in 0.0229207 seconds
+[Worker0] Start importing Assets/Spine/Runtime/spine-unity/Components/SkeletonRenderSeparator/SkeletonRenderSeparator.cs using Guid(5c70a5b35f6ff2541aed8e8346b7e4d5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker0] (ScriptedImporter)
+[Worker3]  -> (artifact id: '15207dd036fc4bf23e0b357ac0991313') in 0.0132344 seconds
+[Worker3] Start importing Assets/Spine/Runtime/spine-unity/SkeletonDataModifierAssets/BlendModeMaterials/SkeletonPMAScreen.mat using Guid(73f0f46d3177c614baf0fa48d646a9be) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker3] (ScriptedImporter)
+[Worker2] Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+[Worker0]  -> (artifact id: '623a4cb1825bbd383d12cc387826b50c') in 0.010442 seconds
+[Worker0] Start importing Assets/Spine/Runtime/spine-unity/Materials/UI-StraightAlphaTex/SkeletonGraphicDefaultOutline-Straight.mat using Guid(eb5fcf8085792c14088ce1aeb552cfba) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker0] (ScriptedImporter)
+[Worker3] Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+[Worker1]  -> (artifact id: '3fe1bcf1468f9625b19d3dc0839acce1') in 0.0494339 seconds
+[Worker1] Start importing Assets/Spine/Editor/spine-unity/Editor/GUI/icon-skeleton.png using Guid(f2216037084d99d4481810cb521ed96f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker1] (ScriptedImporter)
+[Worker0]  -> (artifact id: '6f6257d771439b42d71e08d10668204d') in 0.0248253 seconds
+[Worker0] Start importing Assets/Spine/Editor/spine-unity/Editor/Shaders/SpineShaderWithOutlineGUI.cs using Guid(efbbf90926e217c40831926fce374905) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker0] (ScriptedImporter)
+[Worker0]  -> (artifact id: 'bcbb1a7557af7268b037c09e3af86e2a') in 0.0085661 seconds
+[Worker0] Start importing Assets/Spine/Runtime/spine-unity/Shaders/BlendModes/Spine-Skeleton-PMA-Additive.shader using Guid(53efa1d97f5d9f74285d4330cda14e36) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker0] (ScriptedImporter)
+[Worker1]  -> (artifact id: '8fea58b32dd36b50d439261dd79ddbe8') in 0.0122721 seconds
+[Worker1] Start importing Assets/Spine/Runtime/spine-unity/Modules/TK2D/SpriteCollectionAttachmentLoader.cs using Guid(03238e4a73953c045a6cb289162532f3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker1] (ScriptedImporter)
+[Worker2]  -> (artifact id: 'c1cacf1ba410f960ef190b8c079b1c76') in 0.0660958 seconds
+[Worker2] Start importing Assets/Spine/Runtime/spine-unity/Materials/UI-PMATexture/SkeletonGraphicFill.mat using Guid(c4cd84769cae11444b3d759bea3d1644) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker2] (ScriptedImporter)
+[Worker3]  -> (artifact id: 'a8f21941399a5c5ad79051549bd68322') in 0.0498399 seconds
+[Worker3] Start importing Assets/Spine/Editor/spine-unity/Editor/Utility/SpineEditorUtilities.cs using Guid(f834d5cd806ec4645915ac315edbdc60) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker3] (ScriptedImporter)
+[Worker1]  -> (artifact id: '774c17b4a3fe2027a575e42dd2e2b261') in 0.0074891 seconds
+[Worker1] Start importing Assets/Spine/Runtime/spine-unity/Shaders/Outline/Spine-Skeleton-Lit-ZWrite-Outline.shader using Guid(756be4f2f738f6c4583bb1c90e16bf0b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker1] (ScriptedImporter)
+[Worker0]  -> (artifact id: '31ebb93527608fdc0392a3a92ae1f956') in 0.0114512 seconds
+[Worker0] Start importing Assets/Spine/Runtime/spine-unity/Components/RootMotion/SkeletonMecanimRootMotion.cs using Guid(95813afe390494344a6ce2cbc8bfb7d1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker0] (ScriptedImporter)
+[Worker3]  -> (artifact id: '8a43c2d80884ccffb64dbb61076969c6') in 0.0084526 seconds
+[Worker3] Start importing Assets/Spine/Runtime/spine-unity/Shaders/SkeletonGraphic/Spine-SkeletonGraphic-Additive.shader using Guid(a1e4ab34b07f81e4e94f0d241c416669) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker3] (ScriptedImporter)
+[Worker0]  -> (artifact id: '14211de0c106616ccc5b4de919f4a30f') in 0.0089469 seconds
+[Worker1]  -> (artifact id: '84b4b52d4639c331530bf98bc945e72b') in 0.0121394 seconds
+[Worker0] Start importing Assets/Spine/Runtime/spine-unity/Shaders/Utility/Hidden-Spine-Bones.shader using Guid(66988de88a15abd4e8846c6805485f57) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker1] Start importing Assets/Spine/Editor/spine-unity/Editor/ImporterPresets/PMAPresetTemplate.png using Guid(77f055f38c1115f42a2df16b0428c4e6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker0] (ScriptedImporter)
+[Worker1] (ScriptedImporter)
+[Worker3]  -> (artifact id: '141498fe4d965763df84d1e703e5e1e5') in 0.0113876 seconds
+[Worker2]  -> (artifact id: '3936bceb5c620d2c7564243ca99b7af2') in 0.023469 seconds
+[Worker3] Start importing Assets/Spine/Editor/spine-unity/Editor/Windows/SpriteAtlasImportWindow.cs using Guid(a5b99b091defeef439a0cb8c99fd8a51) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker3] (ScriptedImporter)
+[Worker2] Start importing Assets/Spine/Runtime/spine-unity/Materials/UI-StraightAlphaTex/SkeletonGraphicDefault-Straight.mat using Guid(9c6ec24bca5fc42489fe47358fef0d4a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker2] (ScriptedImporter)
+[Worker0]  -> (artifact id: '87e962489de93d5d1a06e3163ffb3654') in 0.0117778 seconds
+[Worker0] Start importing Assets/Spine/Runtime/spine-unity/Shaders/CGIncludes/Spine-DepthOnlyPass.cginc using Guid(27351ce55d3beb643ae8d9385db21941) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker0] (ScriptedImporter)
+[Worker3]  -> (artifact id: 'b88891e6970d9b3b20cf3f3cd1ffd087') in 0.0090326 seconds
+[Worker3] Start importing Assets/Spine/Editor/spine-unity/Editor/GUI/icon-constraintTransform.png using Guid(4709175437c21f64bab9b061f98a49fc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker3] (ScriptedImporter)
+[Worker1]  -> (artifact id: 'b891a49cde23030fd25f45331aa99663') in 0.0199548 seconds
+[Worker1] Start importing Assets/Spine/Editor/spine-unity/Editor/GUI/icon-skin.png using Guid(bfd9f3d2607e9e44c97384d7575a17dc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker1] (ScriptedImporter)
+[Worker0]  -> (artifact id: 'ee9df8b69d0201681cb5b92479baf1ed') in 0.0164163 seconds
+[Worker0] Start importing Assets/Spine/Runtime/spine-unity/Materials/UI-PMATexture/SkeletonGraphicTintBlack.mat using Guid(cfcea0e11aa80bb4b8d05790b905fc31) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker0] (ScriptedImporter)
+[Worker3]  -> (artifact id: 'fbcf6c3ad22c570ff35d20c9da84bb7b') in 0.0134401 seconds
+[Worker3] Start importing Assets/Spine/Editor/spine-unity/Editor/Utility/Icons.cs using Guid(8603301469b2a284db8eaa26dc60ada8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker3] (ScriptedImporter)
+[Worker2]  -> (artifact id: 'b614bae38f863ed321f846bf054422c4') in 0.0234377 seconds
+[Worker2] Start importing Assets/Spine/Runtime/spine-unity/Materials/UI-StraightAlphaTex/SkeletonGraphicTintBlackOutline-Straight.mat using Guid(ffefbeb384e40f84ba1178254a4f3b57) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker2] (ScriptedImporter)
+[Worker1]  -> (artifact id: '51c421fa93ac6dd14b2e034a21bc492e') in 0.01187 seconds
+[Worker1] Start importing Assets/Spine/Runtime/spine-unity/Materials/UI-StraightAlphaTex/SkeletonGraphicFill-Straight.mat using Guid(66bdb79edca980945815072d8aecdc3c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker1] (ScriptedImporter)
+[Worker3]  -> (artifact id: 'f139e6d7242e1061020ed74cec3284da') in 0.0090567 seconds
+[Worker3] Start importing Assets/Spine/Runtime/spine-unity/Shaders/SkeletonGraphic/Spine-SkeletonGraphic-Grayscale.shader using Guid(81eed00979b4e554cb3022dc0b83b517) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker3] (ScriptedImporter)
+[Worker3]  -> (artifact id: 'c38fb375044c1927702e5f4de74ea03a') in 0.0095698 seconds
+[Worker3] Start importing Assets/Spine/Editor/spine-unity/Editor/Utility/DataReloadHandler.cs using Guid(d8a1a76014a68634a8ede50af6db1cae) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker3] (ScriptedImporter)
+[Worker0]  -> (artifact id: '775db6f9d814a4139821112246bc75c0') in 0.0233371 seconds
+[Worker0] Start importing Assets/Spine/Runtime/spine-unity/Components/SkeletonUtility/FollowLocationRigidbody.cs using Guid(9fc20d5e917562341a5007777a9d0db2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker0] (ScriptedImporter)
+[Worker2]  -> (artifact id: '07367faacb65003c5292cca5a312c26f') in 0.0251707 seconds
+[Worker1]  -> (artifact id: '77fb3e0834cacfa92a509adc92a84506') in 0.0238624 seconds
+[Worker1] Start importing Assets/Spine/Runtime/spine-unity/Shaders/Utility/HiddenPass.shader using Guid(913475501bf19374c84390868a9d6d3d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker2] Start importing Assets/Spine/Runtime/spine-unity/Shaders/Outline/Spine-Skeleton-Tint-Outline.shader using Guid(4f1fdc166fed03649835949d3b79cba3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker1] (ScriptedImporter)
+[Worker2] (ScriptedImporter)
+[Worker3]  -> (artifact id: '02ab5a00195ecb35a6ab5dd721656052') in 0.00846 seconds
+[Worker3] Start importing Assets/Spine/Runtime/spine-unity/Components/Following/BoneFollowerGraphic.cs using Guid(b42a195b47491d34b9bcbc40898bcb29) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker3] (ScriptedImporter)
+[Worker0]  -> (artifact id: '34dc282c63a7dd4c0df8c37356a78ff2') in 0.0099502 seconds
+[Worker0] Start importing Assets/Spine/Runtime/spine-unity/Shaders/Outline/Spine-Skeleton-Lit-Outline.shader using Guid(10fab3f69a099be4391fe8a1ad880c65) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker0] (ScriptedImporter)
+[Worker3]  -> (artifact id: 'fbc77594b9090df421c5a4b9c7295ca3') in 0.0094387 seconds
+[Worker2]  -> (artifact id: '09d781d4ab2b648a1f1bf19922411593') in 0.0110471 seconds
+[Worker1]  -> (artifact id: '04c620d5104bbcf3350c8709f0d469ee') in 0.0111595 seconds
+[Worker3] Start importing Assets/Spine/Editor/spine-unity/Editor/ImporterPresets/PMATexturePreset.preset using Guid(665f49f3e2dc7b645b6577f14455f445) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker1] Start importing Assets/Spine/Editor/spine-unity/Editor/Resources/SpineAssetDatabaseMarker.txt using Guid(57281c00bdd90ad4392f811f2b9f0da1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker2] Start importing Assets/Spine/Runtime/spine-unity/Shaders/CGIncludes/Spine-BlendModes-ShadowCasterPass.cginc using Guid(76beace455f83a8488bf044605212b2c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker3] (ScriptedImporter)
+[Worker1] (ScriptedImporter)
+[Worker2] (ScriptedImporter)
+[Worker0]  -> (artifact id: '1e349e475571140aaa4c1a493c75b127') in 0.0124294 seconds
+[Worker0] Start importing Assets/Spine/Runtime/spine-unity/Shaders/Outline/Spine-Skeleton-Outline.shader using Guid(28b5cf4804845fe4b868531fd0bb81d5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker0] (ScriptedImporter)
+[Worker1]  -> (artifact id: '3a886b0e9d87782d029275f4c3d87024') in 0.0092324 seconds
+[Worker1] Start importing Assets/Spine/Runtime/spine-unity/Shaders/SkeletonGraphic/Spine-SkeletonGraphic-Multiply.shader using Guid(cfbf95ed0fe6c554c8c2ee6c8325937c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker1] (ScriptedImporter)
+[Worker2]  -> (artifact id: 'a25f0bb1c4a54d02b4382bed78781cd5') in 0.0151029 seconds
+[Worker2] Start importing Assets/Spine/Runtime/spine-unity/SkeletonDataModifierAssets/BlendModeMaterials/SkeletonStraightAdditive.mat using Guid(517c2df5a5dc5d44a8b3820eca503d13) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker2] (ScriptedImporter)
+[Worker1]  -> (artifact id: '32ac168e737328b07ad5ddeec2768e31') in 0.0093541 seconds
+[Worker0]  -> (artifact id: '2ff49fdb18dc2b40bb53e2007eb6f995') in 0.0115634 seconds
+[Worker0] Start importing Assets/Spine/Runtime/spine-unity/Components/RootMotion/SkeletonRootMotion.cs using Guid(f21c9538588898a45a3da22bf4779ab3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker1] Start importing Assets/Spine/Runtime/spine-unity/Components/Following/BoundingBoxFollowerGraphic.cs using Guid(1c0bf7b497af9f74280040d96cdf88da) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker3]  -> (artifact id: '7589e7bcd2dc55e843ea7a264c8dd8b3') in 0.0197415 seconds
+[Worker0] (ScriptedImporter)
+[Worker1] (ScriptedImporter)
+[Worker3] Start importing Assets/Spine/Editor/spine-unity/Editor/GUI/icon-boneNib.png using Guid(97a43f11e00735147a9dc3dff6d68191) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker3] (ScriptedImporter)
+[Worker0]  -> (artifact id: '9a369357da01e9191b08951ec1f5f7f5') in 0.0088597 seconds
+[Worker0] Start importing Assets/Spine/Runtime/spine-unity/Shaders/Sprite/CameraDepthTexture.shader using Guid(f768a57e040cc48489ad8c7392a31154) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker0] (ScriptedImporter)
+[Worker1]  -> (artifact id: '801f32259ffc4ef4a4620f64ca7786a4') in 0.0098177 seconds
+[Worker1] Start importing Assets/Spine/Editor/spine-unity/Editor/GUI/icon-path.png using Guid(dbc817a6c9e9c5747b7f6261bf5d1d09) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker1] (ScriptedImporter)
+[Worker3]  -> (artifact id: 'ae0aa409187ae279a93c1dad14c0326d') in 0.01394 seconds
+[Worker3] Start importing Assets/Spine/Runtime/spine-unity/Shaders/Sprite/SpritesPixelLit.shader using Guid(6f7a5a97a82637f478494bc40ea8c8a2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker3] (ScriptedImporter)
+[Worker2]  -> (artifact id: 'bd754f0f0b71713965742472585cbb67') in 0.0196948 seconds
+[Worker2] Start importing Assets/Spine/Editor/spine-unity/Editor/GUI/icon-point.png using Guid(d7a76922e4dd9fa429da15c018ff127f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker2] (ScriptedImporter)
+[Worker1]  -> (artifact id: '14c9e456150ef53213e0f6c01bf66169') in 0.010895 seconds
+[Worker0]  -> (artifact id: 'd690a2d311031c431e2878b89e337028') in 0.0119739 seconds
+[Worker1] Start importing Assets/Spine/Editor/spine-unity/Editor/GUI/icon-bone.png using Guid(8322793223a533a4ca8be6f430256dfc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker0] Start importing Assets/Spine/Editor/spine-unity/Editor/GUI/icon-constraintIK.png using Guid(02822eb69e09dd947b434ab81e3d938f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker1] (ScriptedImporter)
+[Worker0] (ScriptedImporter)
+[Worker3]  -> (artifact id: '09d69cfa840fa61f8cac3ceed231b4f6') in 0.0123241 seconds
+[Worker3] Start importing Assets/Spine/Editor/spine-unity/Editor/GUI/icon-image.png using Guid(2b3a6f35bbaa8414eb51a344743ee641) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker2]  -> (artifact id: '938b03f8231830e17858054f47e213f4') in 0.0113868 seconds
+[Worker3] (ScriptedImporter)
+[Worker2] Start importing Assets/Spine/Editor/spine-unity/Editor/GUI/icon-poseBones.png using Guid(da6f6d414e43aac46a57cc5a87208db4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker2] (ScriptedImporter)
+[Worker1]  -> (artifact id: '06dda20e17ae33739c82c932874b9303') in 0.0118878 seconds
+[Worker0]  -> (artifact id: 'b340b19aee60fbe96b48eaa5f97d2123') in 0.0117565 seconds
+[Worker1] Start importing Assets/Spine/Editor/spine-unity/Editor/GUI/icon-constraintPath.png using Guid(c1aae98dd56b14c4b8c25360000b7e9e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker0] Start importing Assets/Spine/Editor/spine-unity/Editor/Components/SkeletonUtilityInspector.cs using Guid(a5b90df955eb8c2429ac67c8b2de6c5c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker1] (ScriptedImporter)
+[Worker0] (ScriptedImporter)
+[Worker2]  -> (artifact id: 'eef268908144eb1d342df9f0a8e8e005') in 0.0109493 seconds
+[Worker3]  -> (artifact id: 'b62bcc2556e241da401349e696937e60') in 0.0114924 seconds
+[Worker2] Start importing Assets/Spine/Runtime/spine-unity/Components/Following/PointFollower.cs using Guid(daf461e4341180341a648c07e1899528) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker3] Start importing Assets/Spine/Runtime/spine-unity/Shaders/BlendModes/Spine-Skeleton-PMA-Multiply.shader using Guid(8bdcdc7ee298e594a9c20c61d25c33b6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker2] (ScriptedImporter)
+[Worker3] (ScriptedImporter)
+[Worker0]  -> (artifact id: '0387ec7a250cb8e4c774f2d76cf129c5') in 0.009216 seconds
+[Worker0] Start importing Assets/Spine/Runtime/spine-unity/Components/SkeletonUtility/SkeletonUtilityBone.cs using Guid(b238dfcde8209044b97d23f62bcaadf6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker0] (ScriptedImporter)
+[Worker1]  -> (artifact id: 'b55fbefa8f4dd88b3f3cc15cbd1dd057') in 0.0115547 seconds
+[Worker1] Start importing Assets/Spine/Runtime/spine-unity/Shaders/CGIncludes/Spine-Skeleton-Tint-Common.cginc using Guid(cc9439c8e75fb7e4c82ad725b649b047) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker1] (ScriptedImporter)
+[Worker2]  -> (artifact id: '4f1897eed10a5927f26b70f6ed6febe0') in 0.0089528 seconds
+[Worker2] Start importing Assets/Spine/Editor/spine-unity/Editor/GUI/icon-skeletonUtility.png using Guid(5bb0631368b462047869d8788673cb48) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker2] (ScriptedImporter)
+[Worker3]  -> (artifact id: 'a40cf2fa65d3a831ceb55faa5d9f97e2') in 0.0104844 seconds
+[Worker3] Start importing Assets/Spine/Editor/spine-unity/Editor/GUI/icon-skinsRoot.png using Guid(8bd14c7643597a74ba2edc10a5e4c4ed) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker3] (ScriptedImporter)
+[Worker0]  -> (artifact id: '305ae0d2179e5d2c803c4101450ff273') in 0.0098194 seconds
+[Worker0] Start importing Assets/Spine/Editor/spine-unity/Editor/GUI/icon-slotRoot.png using Guid(4a1646cf39026224c85ecba92d7d6948) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker0] (ScriptedImporter)
+[Worker2]  -> (artifact id: '3082b13031e465110573a53cf1e53823') in 0.0108345 seconds
+[Worker1]  -> (artifact id: 'f346086890c2590f50999ce079b20d6e') in 0.0146175 seconds
+[Worker2] Start importing Assets/Spine/Editor/spine-unity/Editor/GUI/icon-skinPlaceholder.png using Guid(04c82a4acf7b5244e947f2709ec3a6cf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker1] Start importing Assets/Spine/Runtime/spine-unity/Shaders/Sprite/SpriteDepthNormalsTexture.shader using Guid(abbda12fddbb0b048a842a3835470d30) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker2] (ScriptedImporter)
+[Worker1] (ScriptedImporter)
+[Worker3]  -> (artifact id: '9026d4fccf68d76c730cd3e13ef7249d') in 0.0101767 seconds
+[Worker3] Start importing Assets/Spine/Runtime/spine-unity/SkeletonDataModifierAssets/BlendModeMaterials/SkeletonStraightMultiply.mat using Guid(053fed1e18e65064ca564f05c4027e1e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker3] (ScriptedImporter)
+[Worker0]  -> (artifact id: '627f32080ebbaba1613ed7c989f05c24') in 0.0123772 seconds
+[Worker0] Start importing Assets/Spine/Editor/spine-unity/Editor/GUI/icon-subMeshRenderer.png using Guid(f31c0c0d608e8ba4f9a1afb032092287) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker0] (ScriptedImporter)
+[Worker1]  -> (artifact id: '8af8d3e47712a12aff39068ccc133bc8') in 0.0088716 seconds
+[Worker1] Start importing Assets/Spine/Editor/spine-unity/Editor/ImporterPresets/StraightAlphaPresetTemplate.png using Guid(ade885c25e49d7740b5c00d4e10a6197) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker1] (ScriptedImporter)
+[Worker2]  -> (artifact id: '63228966786fbfe5575c28d7fce0832f') in 0.0103543 seconds
+[Worker2] Start importing Assets/Spine/Editor/spine-unity/Editor/GUI/icon-warning.png using Guid(754d724c1bd750048852e8cf3d4a05ee) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker2] (ScriptedImporter)
+[Worker0]  -> (artifact id: '8c717f47f030fbe1028694380fbd86fe') in 0.0138543 seconds
+[Worker0] Start importing Assets/Spine/Runtime/spine-unity/Materials/UI-PMATexture/SkeletonGraphicAdditive.mat using Guid(2e8245019faeb8c43b75f9ca3ac8ee34) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker0] (ScriptedImporter)
+[Worker2]  -> (artifact id: 'e46dca23ac8c639e2fe8fda151175920') in 0.0128025 seconds
+[Worker3]  -> (artifact id: '28f38392355cc2bcf624da237210ba63') in 0.022711 seconds
+[Worker2] Start importing Assets/Spine/Runtime/spine-unity/Components/Following/BoundingBoxFollower.cs using Guid(0317ee9ba6e1b1e49a030268e026d372) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker3] Start importing Assets/Spine/Editor/spine-unity/Editor/GUI/icon-mesh.png using Guid(a309a2e14638a204091b915126910f45) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker2] (ScriptedImporter)
+[Worker3] (ScriptedImporter)
+[Worker1]  -> (artifact id: 'd943784b2d1e60245cf9dfe33108d9fc') in 0.0192837 seconds
+[Worker1] Start importing Assets/Spine/Runtime/spine-unity/Shaders/Sprite/SpritesVertexLit.shader using Guid(2ce511398fb980f41b7d316c51534590) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker1] (ScriptedImporter)
+[Worker2]  -> (artifact id: 'cd324c6b496107f98ccd491bba606d8a') in 0.0101259 seconds
+[Worker2] Start importing Assets/Spine/Editor/spine-unity/Editor/Windows/SkeletonBaker.cs using Guid(687d9be457ea4eb44bf09c35c95ee5cd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker2] (ScriptedImporter)
+[Worker3]  -> (artifact id: 'bdf6e1f316e7313a83d233caa99b0b4e') in 0.0135328 seconds
+[Worker3] Start importing Assets/Spine/Editor/spine-unity/Editor/Utility/SpineInspectorUtility.cs using Guid(663715b5714e2db499192c8d91ef1f86) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker3] (ScriptedImporter)
+[Worker1]  -> (artifact id: 'e2302194974879f8b2a911446e7ab6b5') in 0.0127601 seconds
+[Worker1] Start importing Assets/Spine/Editor/spine-unity/Editor/GUI/icon-attachment.png using Guid(04ae56b3698d3e844844cfcef2f009e7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker1] (ScriptedImporter)
+[Worker0]  -> (artifact id: '5697e4a2466b69b4b6ae90ba30bf911c') in 0.0239738 seconds
+[Worker2]  -> (artifact id: '63491d38028532ddba3b75a2e4b16a03') in 0.0095052 seconds
+[Worker0] Start importing Assets/Spine/Runtime/spine-unity/Components/SkeletonUtility/SkeletonUtilityConstraint.cs using Guid(522dbfcc6c916df4396f14f35048d185) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker2] Start importing Assets/Spine/Editor/spine-unity/Editor/Windows/SkeletonBakingWindow.cs using Guid(868b0caae5b3e65408ece1ab400c4a99) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker2] (ScriptedImporter)
+[Worker0] (ScriptedImporter)
+[Worker3]  -> (artifact id: 'cc5918edb9051a56be7e78ee652ab8ef') in 0.0106293 seconds
+[Worker3] Start importing Assets/Spine/Runtime/spine-unity/SkeletonDataModifierAssets/BlendModeMaterials/SkeletonPMAMultiply.mat using Guid(53bf0ab317d032d418cf1252d68f51df) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker3] (ScriptedImporter)
+[Worker0]  -> (artifact id: 'ea45a7c5ce831b48a89d43fd9297a3f4') in 0.0082676 seconds
+[Worker0] Start importing Assets/Spine/Editor/spine-unity/Editor/Shaders/SpineSpriteShaderGUI.cs using Guid(aef90b4c481362e42891bb46de344c1c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker0] (ScriptedImporter)
+[Worker1]  -> (artifact id: '03c67f3a442c5964b7389bda25f15411') in 0.0113692 seconds
+[Worker2]  -> (artifact id: '13f1e4fb2b5de9fd9e5f0e5e343856f7') in 0.0097784 seconds
+[Worker1] Start importing Assets/Spine/Runtime/spine-unity/Components/SkeletonUtility/ActivateBasedOnFlipDirection.cs using Guid(70ae96e4f2feb654681a2f16e4effeec) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker2] Start importing Assets/Spine/Runtime/spine-unity/Components/SkeletonUtility/SkeletonUtility.cs using Guid(7f726fb798ad621458c431cb9966d91d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker1] (ScriptedImporter)
+[Worker2] (ScriptedImporter)
+[Worker3]  -> (artifact id: 'aaf57c9d930a33cf03cf7d3a8a7ccd9f') in 0.0116138 seconds
+[Worker0]  -> (artifact id: 'de91e7934e371219c2ff554529341c14') in 0.0077178 seconds
+[Worker3] Start importing Assets/Spine/Runtime/spine-unity/Shaders/SkeletonGraphic/Spine-SkeletonGraphic-Screen.shader using Guid(c61244023592f95479fddd71b5067683) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker0] Start importing Assets/Spine/Runtime/spine-unity/Components/RootMotion/SkeletonRootMotionBase.cs using Guid(fc23a4f220b20024ab0592719f92587d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker3] (ScriptedImporter)
+[Worker0] (ScriptedImporter)
+[Worker2]  -> (artifact id: '1af2229b77a5df779a71f9fb1a33e4c2') in 0.0077331 seconds
+[Worker2] Start importing Assets/Spine/Runtime/spine-unity/Shaders/CGIncludes/Spine-Skeleton-Lit-Common-Shadow.cginc using Guid(c7297b25c81d2494e8e73b742e3c7345) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker2] (ScriptedImporter)
+[Worker1]  -> (artifact id: 'c2992bfcab730457e869d394f6b797c7') in 0.0104222 seconds
+[Worker1] Start importing Assets/Spine/Editor/spine-unity/Editor/Utility/SpineHandles.cs using Guid(f4c97e41d3d90e24bbb40d634e6cc336) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker1] (ScriptedImporter)
+[Worker3]  -> (artifact id: '020763c3e2576c01b1756eefca404bee') in 0.0095394 seconds
+[Worker0]  -> (artifact id: 'f74e8166e4e0d5876618d8e6c58f5ad4') in 0.0098503 seconds
+[Worker3] Start importing Assets/Spine/Runtime/spine-unity/Components/SkeletonUtility/FollowSkeletonUtilityRootRotation.cs using Guid(456a736ebb92ebf4b959fa9c4b704427) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker3] (ScriptedImporter)
+[Worker0] Start importing Assets/Spine/Runtime/spine-unity/Shaders/Utility/HiddenPass.mat using Guid(43227e5adadc6f24bb4bf74b92a56fb4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker1]  -> (artifact id: '1803ffe8a33813185d8a1d4d796076d4') in 0.0071054 seconds
+[Worker0] (ScriptedImporter)
+[Worker1] Start importing Assets/Spine/Editor/spine-unity/Editor/GUI/icon-constraintPhysics.png using Guid(10e534174824cb04e8a7ec21825f2827) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker1] (ScriptedImporter)
+[Worker3]  -> (artifact id: 'e3fd53843709382dea2d28cd6e76999a') in 0.008547 seconds
+[Worker2]  -> (artifact id: 'd8fe988fd57c7d7217ed496a2028585f') in 0.0174243 seconds
+[Worker3] Start importing Assets/Spine/Runtime/spine-unity/SkeletonDataModifierAssets/BlendModeMaterials/BlendModeMaterialsAsset.cs using Guid(12b0b98acbcda44468a7ae4e35000abe) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker2] Start importing Assets/Spine/Runtime/spine-unity/Shaders/SkeletonGraphic/Spine-SkeletonGraphic-Fill.shader using Guid(c02377d9afbb50e49ab27049e59fb5f8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker3] (ScriptedImporter)
+[Worker2] (ScriptedImporter)
+[Worker1]  -> (artifact id: '3e430696a425bc3494e241bd72ccd0e3') in 0.0134775 seconds
+[Worker1] Start importing Assets/Spine/Runtime/spine-unity/Materials/UI-PMATexture/SkeletonGraphicDefault.mat using Guid(b66cf7a186d13054989b33a5c90044e4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker1] (ScriptedImporter)
+[Worker0]  -> (artifact id: '3c5a6689fe6675037365f44001acd947') in 0.0162569 seconds
+[Worker0] Start importing Assets/Spine/Editor/spine-unity/Editor/GUI/icon-slot.png using Guid(0338faf3e7d93e2478fcbc022d13e081) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker0] (ScriptedImporter)
+[Worker3]  -> (artifact id: '4a3b07370ab39f761e7fa37bd89511a8') in 0.0085661 seconds
+[Worker3] Start importing Assets/Spine/Runtime/spine-unity/Components/Following/BoneFollower.cs using Guid(a1fd8daaed7b64148a34acb96ba14ce1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker3] (ScriptedImporter)
+[Worker2]  -> (artifact id: '5c5b3449c9a482b5fcc1e090eb3036d9') in 0.01103 seconds
+[Worker2] Start importing Assets/Spine/Runtime/spine-unity/Shaders/Sprite/README.md using Guid(cecd0ea162097a94c89a97af6baf0a66) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker2] (ScriptedImporter)
+[Worker3]  -> (artifact id: '7e3499715556863f0abd36dc78718627') in 0.0092099 seconds
+[Worker3] Start importing Assets/Spine/Editor/spine-unity/Editor/Utility/BlendModeMaterialsUtility.cs using Guid(8094f8aedb33b7744b109c2c1294d37a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker3] (ScriptedImporter)
+[Worker0]  -> (artifact id: '05e27fc3eb327713ef71a10800a45a73') in 0.0115765 seconds
+[Worker0] Start importing Assets/Spine/Runtime/spine-unity/Materials/UI-PMATexture/SkeletonGraphicMultiply.mat using Guid(e74a1f8978a7da348a721508d0d58834) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker0] (ScriptedImporter)
+[Worker2]  -> (artifact id: '7e2631694b91921e25d5a873d5887508') in 0.0143536 seconds
+[Worker2] Start importing Assets/Spine/Runtime/spine-unity/Shaders/CGIncludes/Spine-Common.cginc using Guid(f0c09e980440e7f4f8db4f9f146d320c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker2] (ScriptedImporter)
+[Worker3]  -> (artifact id: '7865bbcc70741c8d91c2a584a8d608cb') in 0.0096321 seconds
+[Worker3] Start importing Assets/Spine/Runtime/spine-unity/Components/SkeletonRendererCustomMaterials/SkeletonGraphicCustomMaterials.cs using Guid(6c8717e10b272bf42b05d363ac2679a6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker3] (ScriptedImporter)
+[Worker1]  -> (artifact id: '24a99da2c668ad1797c3822f57d6f3e0') in 0.0256389 seconds
+[Worker1] Start importing Assets/Spine/Editor/spine-unity/Editor/Windows/SpinePreferences.cs using Guid(b29e98153ec2fbd44b8f7da1b41194e8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker1] (ScriptedImporter)
+[Worker3]  -> (artifact id: 'c1419ad74c394d04c3f75d7bb18fd006') in 0.0085808 seconds
+[Worker3] Start importing Assets/Spine/Runtime/spine-unity/Materials/UI-StraightAlphaTex/SkeletonGraphicTintBlack-Straight.mat using Guid(0ed9998e4cd669445b88721b370cbee9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker3] (ScriptedImporter)
+[Worker2]  -> (artifact id: 'c62d6bd3855b4044b9a5a2c4f7fb1254') in 0.014387 seconds
+[Worker2] Start importing Assets/Spine/Runtime/spine-unity/Shaders/Sprite/SpritesUnlit.shader using Guid(64005298b9a80bb4899eabd5140dc4a8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker2] (ScriptedImporter)
+[Worker1]  -> (artifact id: '0a7cfbed5b62ea6076b715844de9691a') in 0.0096313 seconds
+[Worker1] Start importing Assets/Spine/Runtime/spine-unity/Materials/UI-PMATexture/SkeletonGraphicTintBlackMultiply.mat using Guid(bcf75a2565a7dbd47b3332aa48adc5d7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker0]  -> (artifact id: '3159c711b1edf2a9187bcbdb239b4843') in 0.02236 seconds
+[Worker1] (ScriptedImporter)
+[Worker0] Start importing Assets/Spine/Editor/spine-unity/Editor/GUI/icon-animation.png using Guid(52b12ec801461494185a4d3dc66f3d1d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker0] (ScriptedImporter)
+[Worker2]  -> (artifact id: '2ff5e16761bb37de8a3a13d1e67762b0') in 0.009172 seconds
+[Worker2] Start importing Assets/Spine/Editor/spine-unity/Editor/GUI/icon-constraints.png using Guid(ed0736a1eb519ef42b4892d1db2426b3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker2] (ScriptedImporter)
+[Worker0]  -> (artifact id: '7fc3090a94607294be55176a2c359c18') in 0.0110695 seconds
+[Worker0] Start importing Assets/Spine/Editor/spine-unity/Editor/Utility/Preferences.cs using Guid(6d80c945a2e3436459a97b7a9a16ef46) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker0] (ScriptedImporter)
+[Worker2]  -> (artifact id: '92c6cd979faefcdae6bfe519cbc9a01f') in 0.0115136 seconds
+[Worker3]  -> (artifact id: 'e43d8ee3ff997d2e35d19992f36c8816') in 0.0247397 seconds
+[Worker1]  -> (artifact id: '8121245c43fb313c60172a241fd4b42f') in 0.0202339 seconds
+[Worker2] Start importing Assets/Spine/Runtime/spine-unity/Materials/UI-PMATexture/SkeletonGraphicTintBlackAdditive.mat using Guid(617e02037d06a554cb68f28fcd73151b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker0]  -> (artifact id: '49e1ad64fb2ac7d656d73c79ada24bbd') in 0.0083675 seconds
+[Worker3] Start importing Assets/Spine/Editor/spine-unity/Editor/Utility/SpineBuildProcessor.cs using Guid(ca21cb19ac5068ee796e6cb09ff11e5d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker2] (ScriptedImporter)
+[Worker3] (ScriptedImporter)
+[Worker0] Start importing Assets/Spine/Editor/spine-unity/Editor/Utility/SpineMaskUtilities.cs using Guid(7c1b3a9ddacb550458bb86affdf77bf5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker1] Start importing Assets/Tests/EditMode/ConversationTests.cs using Guid(95a3bcb760dd5e94898e55b646d398e7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker1] (ScriptedImporter)
+[Worker0] (ScriptedImporter)
+[Worker1]  -> (artifact id: '0225371588668e48ab6747270126b781') in 0.0084614 seconds
+[Worker3]  -> (artifact id: 'ee1b19a1e8274a9c4192dd4c0b6cb84b') in 0.0093387 seconds
+[Worker1] Start importing Assets/Spine/Runtime/spine-unity/Materials/UI-StraightAlphaTex/SkeletonGraphicScreen-Straight.mat using Guid(c1a5bc7027fd9544abc08178fe135ba2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker0]  -> (artifact id: '0efc2b646b084c3289139fca93a14eec') in 0.0091433 seconds
+[Worker1] (ScriptedImporter)
+[Worker3] Start importing Assets/Spine/Runtime/spine-unity/Shaders/Outline/Spine-Skeleton-OutlineOnly-ZWrite.shader using Guid(177da18c3d2e0aa4cb39990ea011973c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker0] Start importing Assets/Spine/Runtime/spine-unity/Materials/UI-PMATexture/SkeletonGraphicDefaultGrayscale.mat using Guid(bfc4ecd22354c4d4fb43b85d82efacde) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker3] (ScriptedImporter)
+[Worker0] (ScriptedImporter)
+[Worker3]  -> (artifact id: '10cfc5a28037c4b17ac311017aef7194') in 0.0110797 seconds
+[Worker3] Start importing Assets/Spine/Editor/spine-unity/Editor/Utility/AssetUtility.cs using Guid(49377c72c37e2c149b106c260a241f3c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker3] (ScriptedImporter)
+[Worker2]  -> (artifact id: '2fa84fee99722a5ec236a7dafe3658ea') in 0.0253395 seconds
+[Worker2] Start importing Assets/Spine/Runtime/spine-unity/Materials/UI-PMATexture/SkeletonGraphicDefaultOutline.mat using Guid(c4ee0f8f4be17434aa3df5774a03b366) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker2] (ScriptedImporter)
+[Worker0]  -> (artifact id: 'a3019d3f6864f5f8b053518023ea16ad') in 0.0216982 seconds
+[Worker3]  -> (artifact id: 'cdd314444ca3a0977899825a8196f30b') in 0.0106295 seconds
+[Worker1]  -> (artifact id: 'b91bbcca04d21dc9cda51a221979541a') in 0.0226589 seconds
+[Worker0] Start importing Assets/Spine/Runtime/spine-unity/Components/SkeletonRenderSeparator/SkeletonPartsRenderer.cs using Guid(1c0b968d1e7333b499e347acb644f1c1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker0] (ScriptedImporter)
+[Worker3] Start importing Assets/Spine/Runtime/spine-unity/Materials/UI-StraightAlphaTex/SkeletonGraphicTintBlackMultiply-Straight.mat using Guid(89c43e3d95ce08e45a9da7dbd20a3904) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker1] Start importing Assets/Spine/Editor/spine-unity/Editor/GUI/icon-clipping.png using Guid(f5fff1b5caee03642ab77c9984b4bb6a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker3] (ScriptedImporter)
+[Worker1] (ScriptedImporter)
+[Worker0]  -> (artifact id: 'a7c16cc58ce1d00209ad7a043e77904a') in 0.0088728 seconds
+[Worker1]  -> (artifact id: '26b6e46d6c7aeed875dc9d610d4108b4') in 0.0111645 seconds
+[Worker2]  -> (artifact id: '358b81665a6a5c58cce82701072f1291') in 0.0238287 seconds
+[Worker3]  -> (artifact id: 'caf8b40b70ff9d1471c975843221d539') in 0.0231001 seconds
+[Worker2] Start importing Assets/Spine/Runtime/spine-unity/SkeletonDataModifierAssets/BlendModeMaterials/SkeletonStraightScreen.mat using Guid(1a66c2d7ee7642a459bd3831abeb30af) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker0] Start importing Assets/Spine/Runtime/spine-unity/Utility/YieldInstructions/WaitForSpineAnimation.cs using Guid(d9be5adcaf0003849a1d181173c19635) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker1] Start importing Assets/Spine/Runtime/spine-unity/Utility/YieldInstructions/WaitForSpineAnimationComplete.cs using Guid(a807dd9fb79db3545b6c2859a2bbfc0b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker3] Start importing Assets/Spine/Runtime/spine-unity/Utility/YieldInstructions/WaitForSpineAnimationEnd.cs using Guid(3c5a5fe930d1ab24da154d76b24c2747) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker0] (ScriptedImporter)
+[Worker2] (ScriptedImporter)
+[Worker3] (ScriptedImporter)
+[Worker1] (ScriptedImporter)
+[Worker1]  -> (artifact id: 'a763fd1876c7a11af0489dbd4e480441') in 0.0088895 seconds
+[Worker0]  -> (artifact id: 'f2c8797f0075579331786b35a266471c') in 0.0093988 seconds
+[Worker1] Start importing Packages/com.unity.test-framework/UnityEditor.TestRunner/UnityTestProtocol/Messages/EditorVersionMessage.cs using Guid(02ef7627f46742ae83071af8bf22f1af) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker0] Start importing Assets/Spine/Runtime/spine-unity/Materials/UI-StraightAlphaTex/CanvasGroup/SkeletonGraphicMultiply-CanvasGroupStraight.mat using Guid(3443e8731ab8eb34eb6262c5673fb8a0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker1] (ScriptedImporter)
+[Worker0] (ScriptedImporter)
+[Worker3]  -> (artifact id: '879a066c08cb6ba021e7af4a0b62dc78') in 0.0105215 seconds
+[Worker3] Start importing Packages/com.unity.test-framework/UnityEngine.TestRunner/NUnitExtensions/Commands/EnumerableRetryTestCommand.cs using Guid(6de2f178a24cd2e48a0816cacd9a0583) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker3] (ScriptedImporter)
+[Worker1]  -> (artifact id: '058e1895175757035ed08d3df1638c36') in 0.0095055 seconds
+[Worker3]  -> (artifact id: 'ef686b750c0660833e47f4962ba454fb') in 0.008243 seconds
+[Worker1] Start importing Assets/Spine/Runtime/spine-unity/Shaders/Sprite/CGIncludes/SpritePixelLighting.cginc using Guid(7ffc57e05c42ec748838bea0a3aff9f9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker3] Start importing Assets/Characters/MainCharacter/Pet/CHDDD/Unity/AnimationsV2/PetV2_FaceProcess_Idle.anim using Guid(f1827f601fd7b9646a05e6eec1852014) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker1] (ScriptedImporter)
+[Worker3] (ScriptedImporter)
+[Worker2]  -> (artifact id: '8bef41609232764be5abc5712ae4d3e9') in 0.0216953 seconds
+[Worker2] Start importing Packages/com.unity.test-framework/UnityEngine.TestRunner/NUnitExtensions/Attributes/UnityTearDownAttribute.cs using Guid(600f4b74746dbf944901257f81a8af6d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker2] (ScriptedImporter)
+[Worker0]  -> (artifact id: 'f2665f16723927d6ac5b1a330ac6ff1f') in 0.0173687 seconds
+[Worker0] Start importing Packages/com.unity.test-framework/UnityEditor.TestRunner/UnityTestProtocol/Messages/ScreenSettingsMessage.cs using Guid(3936a208997f4266b0b2d48aaca1e904) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker0] (ScriptedImporter)
+[Worker2]  -> (artifact id: '720f19ca1a8ceba250f086c8a5a9ffc0') in 0.0093487 seconds
+[Worker2] Start importing Packages/com.unity.test-framework/UnityEngine.TestRunner/NUnitExtensions/Commands/EnumerableMaxTimeCommand.cs using Guid(aa5dd1a9432747fd89501213ba621de6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker2] (ScriptedImporter)
+[Worker1]  -> (artifact id: '8aaeae5d5e70977f68bcad99077e8082') in 0.0150936 seconds
+[Worker1] Start importing Packages/com.unity.test-framework/UnityEditor.TestRunner/UnityTestProtocol/Data/PlayerSystemInfo.cs using Guid(7ee0c4baf94a41009b0f9292988a2000) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker1] (ScriptedImporter)
+[Worker0]  -> (artifact id: 'eca3b70b76e4b857597abebf466285d1') in 0.0094882 seconds
+[Worker0] Start importing Packages/com.unity.test-framework/UnityEditor.TestRunner/UnityTestProtocol/Data/PlayerSettings.cs using Guid(d52ad1cdc75642419ac24e88b43a3821) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker0] (ScriptedImporter)
+[Worker2]  -> (artifact id: 'e9d4cd4cf64354c259204735877013c5') in 0.0090798 seconds
+[Worker2] Start importing Packages/com.unity.test-framework/UnityEngine.TestRunner/NUnitExtensions/Attributes/UnityOneTimeTearDownAttribute.cs using Guid(2a616b371596515498e05300b6598c6a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker2] (ScriptedImporter)
+[Worker3]  -> (artifact id: '509938c26bc97230325f67fb37eb0f46') in 0.0242397 seconds
+[Worker1]  -> (artifact id: 'b6a07924963947a8f5b2b3633af7ccaa') in 0.0088007 seconds
+[Worker3] Start importing Packages/com.unity.test-framework/UnityEngine.TestRunner/Assertions/LogScope/LogScope.cs using Guid(4bbc17b35884fdf468e4b52ae4222882) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker1] Start importing Assets/Spine/Runtime/spine-unity/Materials/UI-PMATexture/CanvasGroup/SkeletonGraphicTintBlackMultiply-CanvasGroup.mat using Guid(37823b966b3f8094bb7c7d53d75c54f2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker3] (ScriptedImporter)
+[Worker1] (ScriptedImporter)
+[Worker0]  -> (artifact id: 'dbd77473fbd9a655b40b8fb8fed780c3') in 0.0099858 seconds
+[Worker0] Start importing Packages/com.unity.test-framework/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestMustExpectAllLogsAttribute.cs using Guid(3803f736886e77842995ddbc3531afaa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker0] (ScriptedImporter)
+[Worker2]  -> (artifact id: '0d82e80fef9eacaaff1d8c3b9c0f35d3') in 0.0090715 seconds
+[Worker2] Start importing Assets/Characters/MainCharacter/Pet/CHDDD/Unity/AnimationsV2/PetV2_BodyClick.anim using Guid(77b0f8f91632b2542ba2c3a43020cc83) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker2] (ScriptedImporter)
+[Worker3]  -> (artifact id: '295da06bf54a64174abb3748124a06f6') in 0.0090929 seconds
+[Worker3] Start importing Assets/Characters/MainCharacter/Pet/CHDDD/Unity/AnimationsV2/PetV2_FaceStatic_Sleepy.anim using Guid(4ad22056deb286049b0b82ad03e4de86) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker3] (ScriptedImporter)
+[Worker0]  -> (artifact id: '93e26ed7d794efca4fdea3966069355f') in 0.0113995 seconds
+[Worker0] Start importing Packages/com.unity.test-framework/UnityEngine.TestRunner/NUnitExtensions/Attributes/UnityOneTimeSetUpAttribute.cs using Guid(64f0c7c73db2d32469a5208a3cff96de) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker0] (ScriptedImporter)
+[Worker1]  -> (artifact id: 'b36006a46e616f33418c48eaa574fad1') in 0.0197829 seconds
+[Worker1] Start importing Assets/Characters/MainCharacter/Pet/CHDDD/Unity/AnimationsV2/PetV2_HeadPat_Enter.anim using Guid(403254ede9f3cdc42b92ab78f625c7d1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker1] (ScriptedImporter)
+[Worker3]  -> (artifact id: '46464d1120f470a6439fb490f680b207') in 0.013255 seconds
+[Worker3] Start importing Assets/Characters/MainCharacter/Pet/CHDDD/Unity/AnimationsV2/PetV2_Idle.anim using Guid(7f974cbd4aa880143b80b5b1d9cdab5f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker3] (ScriptedImporter)
+[Worker0]  -> (artifact id: '84c2c2fa7536841a439da142ea2b6381') in 0.0097396 seconds
+[Worker0] Start importing Packages/com.unity.test-framework/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs using Guid(750aad009559b814dbc27001341fc1c3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker0] (ScriptedImporter)
+[Worker0]  -> (artifact id: '26a995d7dc537b5e2f4a68f44078fba1') in 0.0100842 seconds
+[Worker0] Start importing Assets/Spine/Runtime/spine-unity/Materials/UI-PMATexture/CanvasGroup/SkeletonGraphicFill-CanvasGroup.mat using Guid(d6194e6915200c247ab8fe03fba08afd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker0] (ScriptedImporter)
+[Worker0]  -> (artifact id: '51dec8d378e73a888d6dc0352208b39d') in 0.0224223 seconds
+[Worker0] Start importing Assets/Characters/MainCharacter/Pet/CHDDD/Unity/AnimationsV2/PetV2_Confused.anim using Guid(08e146edf6a72ab4e864e67fae1f2d67) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker0] (ScriptedImporter)
+[Worker1]  -> (artifact id: 'b5e6ff73d577e7fda84fe40a3e7ab5a8') in 0.0530884 seconds
+[Worker1] Start importing Assets/Characters/MainCharacter/Pet/CHDDD/Unity/AnimationsV2/PetV2_HeadPat.anim using Guid(10182953950af5e49b7c2047f849f065) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker1] (ScriptedImporter)
+[Worker2]  -> (artifact id: 'd832c4a8c71ad3f1cbe0c8d968388d62') in 0.0774808 seconds
+[Worker2] Start importing Assets/Characters/MainCharacter/Pet/CHDDD/Unity/AnimationsV2/PetV2_FaceStatic_Confused.anim using Guid(fb776dc5d89ad404b8a70e77686f21b4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker2] (ScriptedImporter)
+[Worker3]  -> (artifact id: 'b96835d0c140a7a661e9dd8925a38eb8') in 0.0612924 seconds
+[Worker3] Start importing Packages/com.unity.modules.uielements/package.ModuleCompilationTrigger using Guid(8a752aaaadd2410dd9a84e01c1bace9f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker3] (ScriptedImporter)
+[Worker3]  -> (artifact id: '89181738ec2fe5213e378a230aedb55d') in 0.0081122 seconds
+[Worker3] Start importing Assets/Characters/MainCharacter/Pet/CHDDD/Unity/AnimationsV2/PetV2_FaceProcess_Working.anim using Guid(a6963440a5144d14c901e08ec964776f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker3] (ScriptedImporter)
+[Worker2]  -> (artifact id: 'c0c80dd283d8bb7159274095a4f2ad3e') in 0.0144915 seconds
+[Worker2] Start importing Assets/Spine/Runtime/spine-unity/Shaders/SkeletonGraphic/TintBlack/Spine-SkeletonGraphic-TintBlack-Screen.shader using Guid(7cb5b7d45d2ae2847970ba2e30fdc597) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker2] (ScriptedImporter)
+[Worker3]  -> (artifact id: 'f764a78a92f1d223834a6a8f10d5eae0') in 0.0117321 seconds
+[Worker3] Start importing Packages/com.unity.test-framework/UnityEditor.TestRunner/UnityTestProtocol/Data/ScreenSettings.cs using Guid(58a43a62ecbe444d963930822e17d4cd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker3] (ScriptedImporter)
+[Worker2]  -> (artifact id: 'a69ec16e43f4152e7b330b00ff12a5ba') in 0.009732 seconds
+[Worker2] Start importing Assets/Spine/Runtime/spine-unity/Materials/UI-PMATexture/CanvasGroup/SkeletonGraphicTintBlack-CanvasGroup.mat using Guid(9af1ae5066792d3498617d1d9924e7df) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker2] (ScriptedImporter)
+[Worker3]  -> (artifact id: '73d31564c5844c8bd08d84c2c04267b5') in 0.0100479 seconds
+[Worker3] Start importing Assets/Spine/Editor/spine-unity/Modules/SkeletonRenderSeparator/Editor/SkeletonPartsRendererInspector.cs using Guid(30e43037bf4433645ad70266f34c1c8b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker3] (ScriptedImporter)
+[Worker1]  -> (artifact id: '07d0d13ea70f6bbdfaebe709093fd533') in 0.0447242 seconds
+[Worker1] Start importing Assets/Characters/MainCharacter/Pet/CHDDD/Unity/Materials/CHDDD_Halo.mat using Guid(fe7548d76f3f50a4ab4d1b4f51d4c204) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker1] (ScriptedImporter)
+[Worker0]  -> (artifact id: '2fc4af795f9d5626bad86048d4268e23') in 0.0681367 seconds
+[Worker3]  -> (artifact id: '1bc390965230e721b33f1fd0ffb0755b') in 0.0108376 seconds
+[Worker0] Start importing Assets/Characters/MainCharacter/Pet/CHDDD/Unity/AnimationsV2/PetV2_FaceProcess_Success.anim using Guid(7f16b65e69fa7da40b3a4f83cf263bc5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker3] Start importing Assets/Characters/MainCharacter/Pet/CHDDD/Unity/Materials/CHDDD_EyeMouth.mat using Guid(0b34218a903610c44aa5f06a7c6496c2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker0] (ScriptedImporter)
+[Worker3] (ScriptedImporter)
+[Worker2]  -> (artifact id: 'd7a8aebf3b077aaa193eed49f58346c3') in 0.0244423 seconds
+[Worker2] Start importing Assets/Characters/MainCharacter/Pet/CHDDD/Unity/AnimationsV2/PetV2_FaceStatic_Concern.anim using Guid(7f00f28ee04aa4640b7bbf65a2faa906) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker2] (ScriptedImporter)
+[Worker1]  -> (artifact id: '707e3cb7bc7f61545c6cf67e39a651d2') in 0.0173483 seconds
+[Worker1] Start importing Assets/Characters/MainCharacter/Pet/CHDDD/Unity/AnimationsV2/PetV2_Working.anim using Guid(e60fc2077b2605c4996c6cbd7c9fe4e0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker1] (ScriptedImporter)
+[Worker0]  -> (artifact id: '8d330f130055092415309b6bae915f12') in 0.0149155 seconds
+[Worker0] Start importing Assets/Characters/MainCharacter/Pet/CHDDD/Unity/AnimationsV2/PetV2_Success.anim using Guid(760953314f2c8a9458f8fa40afc345e6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker0] (ScriptedImporter)
+[Worker3]  -> (artifact id: 'dabce82733e566e1ec4b8f88a2cb87cb') in 0.0184356 seconds
+[Worker2]  -> (artifact id: 'e3b6a131cfdffd4f83769b5a0e459528') in 0.012063 seconds
+[Worker2] Start importing Assets/Spine/Runtime/spine-unity/Shaders/Outline/SkeletonGraphic/Spine-SkeletonGraphic-TintBlack-Outline.shader using Guid(d55d64dd09c46af40a319933a62fa1b2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker3] Start importing Assets/Spine/Runtime/spine-unity/Materials/UI-PMATexture/CanvasGroup/SkeletonGraphicDefault-CanvasGroup.mat using Guid(066d2ecbc1c3c0d4292b48cd9b457715) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker3] (ScriptedImporter)
+[Worker2] (ScriptedImporter)
+[Worker2]  -> (artifact id: '765b99c4327260947a24a4efcdcb1dd0') in 0.0109717 seconds
+[Worker2] Start importing Assets/Spine/Runtime/spine-unity/Materials/UI-StraightAlphaTex/CanvasGroup/SkeletonGraphicFill-CanvasGroupStraight.mat using Guid(f20a217b20de2144bb4e78833d9b7241) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker2] (ScriptedImporter)
+[Worker3]  -> (artifact id: '1023261288c612e38c8c4fabe08530f8') in 0.0268074 seconds
+[Worker3] Start importing Packages/com.unity.test-framework/UnityEditor.TestRunner/UnityTestProtocol/Messages/QualitySettingsMessage.cs using Guid(6cf74526594248e88be90b91eb2dbe1c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker3] (ScriptedImporter)
+[Worker2]  -> (artifact id: '4534a8b66380e0a94fc02d01ae600542') in 0.019834 seconds
+[Worker2] Start importing Assets/Spine/Runtime/spine-unity/Shaders/Sprite/CGIncludes/SpriteShadows.cginc using Guid(b7dbdfb1f55ee26459284220ad6d5bc4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker2] (ScriptedImporter)
+[Worker1]  -> (artifact id: '29e44f34c8c58d07f880e5fbed058108') in 0.0455896 seconds
+[Worker1] Start importing Assets/Spine/Runtime/spine-unity/Shaders/SkeletonGraphic/CGIncludes/Spine-SkeletonGraphic-NormalPass.cginc using Guid(7f1f20f6ddb670f4998f78d0417912ee) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker1] (ScriptedImporter)
+[Worker3]  -> (artifact id: 'ced2dca4bb3c9cd4fd9191e9418b22c7') in 0.0089129 seconds
+[Worker3] Start importing Packages/com.unity.test-framework/UnityEngine.TestRunner/NUnitExtensions/Commands/EnumerableSetUpTearDownCommand.cs using Guid(dd85a35169d313840a0874aea1a28629) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker3] (ScriptedImporter)
+[Worker3]  -> (artifact id: '76f28669bb8b1b94e2342d904990b277') in 0.0076211 seconds
+[Worker3] Start importing Packages/com.unity.test-framework/UnityEngine.TestRunner/Assertions/LogScope/ILogScope.cs using Guid(3504aa04cda851b44a65973f9aead6f7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker3] (ScriptedImporter)
+[Worker2]  -> (artifact id: '67cf12492660a526537458dc5b236d3b') in 0.0151711 seconds
+[Worker2] Start importing Packages/com.unity.test-framework/UnityEngine.TestRunner/NUnitExtensions/Attributes/UnityCombinatorialStrategy.cs using Guid(7af6ac3e6b51b8d4aab04adc85b8de2f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker2] (ScriptedImporter)
+[Worker1]  -> (artifact id: 'c7ef3a66c42de6a01394f64b113a73fc') in 0.0152524 seconds
+[Worker1] Start importing Packages/com.unity.test-framework/UnityEditor.TestRunner/UnityTestProtocol/Data/BuildSettings.cs using Guid(f699428dfee64165b017dced94d8ca70) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker1] (ScriptedImporter)
+[Worker3]  -> (artifact id: '31b3d4b4dd35c818ddfed0bab640fa27') in 0.0094059 seconds
+[Worker3] Start importing Packages/com.unity.test-framework/UnityEngine.TestRunner/NUnitExtensions/Attributes/ConditionalIgnoreAttribute.cs using Guid(c82a8473f4a8f7b42a004c91e06d2f2b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker3] (ScriptedImporter)
+[Worker2]  -> (artifact id: '51d85b7b026b990f266d903ac714029c') in 0.0089135 seconds
+[Worker2] Start importing Assets/Characters/MainCharacter/Pet/CHDDD/Unity/AnimationsV2/PetV2_FaceProcess_Sleep.anim using Guid(fe42c21ffb85f1044996d336a5704b46) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker2] (ScriptedImporter)
+[Worker3]  -> (artifact id: '780b2320540b23cf84753d2bd85e25e4') in 0.0081624 seconds
+[Worker1]  -> (artifact id: '548f5c6ae5338e60da69ca5c0146ec3b') in 0.0110101 seconds
+[Worker1] Start importing Packages/com.unity.test-framework/UnityEditor.TestRunner/UnityTestProtocol/Messages/BuildSettingsMessage.cs using Guid(3b3dcba2081245eb916aee8fd3459fc8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker3] Start importing Packages/com.unity.test-framework/UnityEngine.TestRunner/NUnitExtensions/Attributes/PreservedValuesAttribute.cs using Guid(528c8790cf844716aead80624be893aa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker1] (ScriptedImporter)
+[Worker3] (ScriptedImporter)
+[Worker0]  -> (artifact id: 'd773797bfaa7f88f6dc4d69628915b81') in 0.0700992 seconds
+[Worker0] Start importing Assets/Characters/MainCharacter/Pet/CHDDD/Unity/AnimationsV2/PetV2_FaceStatic_Happy.anim using Guid(21b41382abe0fd14f94c71334cf0418f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker0] (ScriptedImporter)
+[Worker2]  -> (artifact id: '34351ae8db8e32451d8938a78b4ce19e') in 0.0123745 seconds
+[Worker2] Start importing Assets/Characters/MainCharacter/Pet/CHDDD/Unity/AnimationsV2/PetV2_Wave.anim using Guid(4bfadc7d3588fda44889b2702f0a6779) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker2] (ScriptedImporter)
+[Worker3]  -> (artifact id: 'a3f4c068ff4af1c16ad2a4fbee4d521f') in 0.0090481 seconds
+[Worker1]  -> (artifact id: '5cf50c1ceae24acb996d3a5cf44f651b') in 0.0091545 seconds
+[Worker3] Start importing Assets/Spine/Runtime/spine-unity/Utility/YieldInstructions/WaitForSpineTrackEntryEnd.cs using Guid(8036c6c2897d2764db92f632d2aef568) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker1] Start importing Assets/Spine/Runtime/spine-unity/Materials/UI-StraightAlphaTex/CanvasGroup/SkeletonGraphicScreen-CanvasGroupStraight.mat using Guid(47ab35b3338fe304b93e693445fe40ac) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker3] (ScriptedImporter)
+[Worker1] (ScriptedImporter)
+[Worker0]  -> (artifact id: '75623cb782b4b4397ea4c2ae6940756c') in 0.0148976 seconds
+[Worker3]  -> (artifact id: '571106008dcd23c3e4159e6c695e28ad') in 0.0086383 seconds
+[Worker3] Start importing Assets/Characters/MainCharacter/Pet/CHDDD/Unity/AnimationsV2/PetV2_HeadClick.anim using Guid(64f7276d851690d48bbfa462eeba2528) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker0] Start importing Assets/Characters/MainCharacter/Pet/CHDDD/Unity/AnimationsV2/PetV2_FaceProcess_Dragging.anim using Guid(066e7a80dd05639438575048b2d3c39f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker3] (ScriptedImporter)
+[Worker0] (ScriptedImporter)
+[Worker1]  -> (artifact id: '2fdc334d1c0954edcf8818a0eedb8581') in 0.0192148 seconds
+[Worker1] Start importing Assets/Spine/Runtime/spine-unity/Materials/UI-StraightAlphaTex/CanvasGroup/SkeletonGraphicAdditive-CanvasGroupStraight.mat using Guid(2961e326241f1e24fa0520cf9aebff98) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker1] (ScriptedImporter)
+[Worker0]  -> (artifact id: 'afe0eae741cf517717d597611c3fee55') in 0.0144558 seconds
+[Worker0] Start importing Assets/Characters/MainCharacter/Pet/CHDDD/Unity/AnimationsV2/PetV2_Sleep_Enter.anim using Guid(52bd3ea8675310f46aaedca61464b7b1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker0] (ScriptedImporter)
+[Worker1]  -> (artifact id: '7fb4f1b4432686fc92250af60ca098c9') in 0.0203748 seconds
+[Worker1] Start importing Assets/Spine/Runtime/spine-unity/Materials/UI-StraightAlphaTex/CanvasGroup/SkeletonGraphicTintBlackScreen-CanvasGroupStraight.mat using Guid(88cfd9da2d30c984fb2a70b86c6c3fcc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker1] (ScriptedImporter)
+[Worker1]  -> (artifact id: 'afab9b749f5527c4059f31a003749162') in 0.0172816 seconds
+[Worker1] Start importing Assets/Characters/MainCharacter/Pet/CHDDD/Unity/Materials/CHDDD_MouthAtlas.mat using Guid(ff5c0821add8ccf4e944d3b8ea90eb4b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker1] (ScriptedImporter)
+[Worker2]  -> (artifact id: '611b5686378b981a9320d178c6309ff6') in 0.0671448 seconds
+[Worker2] Start importing Assets/Spine/Runtime/spine-unity/Shaders/Outline/Sprite/SpritesUnlit-Outline.shader using Guid(276c07e3bdd5719458187a5823e9d96a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker2] (ScriptedImporter)
+[Worker0]  -> (artifact id: '3bac4ff362ffdd06210e2bdec485bf37') in 0.0473702 seconds
+[Worker3]  -> (artifact id: 'c9e41598f5a1c80a5a5ea0f97c4f98fb') in 0.0624048 seconds
+[Worker0] Start importing Packages/com.unity.test-framework/UnityEngine.TestRunner/Assertions/LogScope/LogEvent.cs using Guid(0c56471f08a0f6846afc792f0b4205b9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker3] Start importing Assets/Spine/Runtime/spine-unity/Shaders/Sprite/CGIncludes/SpriteSpecular.cginc using Guid(f195336fc94457241a37a0aa85923681) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker0] (ScriptedImporter)
+[Worker3] (ScriptedImporter)
+[Worker2]  -> (artifact id: '9f48623d5ea9b8f9fdbb2c1577896d01') in 0.0115618 seconds
+[Worker2] Start importing Assets/Spine/Runtime/spine-unity/Materials/UI-StraightAlphaTex/CanvasGroup/SkeletonGraphicTintBlackMultiply-CanvasGroupStraight.mat using Guid(21288a3469465d54981d6351c94c03f6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker2] (ScriptedImporter)
+[Worker1]  -> (artifact id: 'c2279d0519eed0987ba57f939ff06fe9') in 0.0198248 seconds
+[Worker1] Start importing Packages/com.unity.modules.uielements/package.json using Guid(4f0f9b9f3ed97ad2b9ba8f1a8e4666c2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker1] (ScriptedImporter)
+[Worker0]  -> (artifact id: '5b3b5f9040f924aa2dfc1669d16f1c65') in 0.0082096 seconds
+[Worker0] Start importing Assets/Spine/Runtime/spine-unity/Shaders/SkeletonGraphic/TintBlack/Spine-SkeletonGraphic-TintBlack-Multiply.shader using Guid(d006d50db496cce459741dc6689e2662) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker0] (ScriptedImporter)
+[Worker3]  -> (artifact id: '524e4b44a2b0cfcff20576f594a460db') in 0.0129691 seconds
+[Worker3] Start importing Packages/com.unity.test-framework/UnityEditor.TestRunner/UnityTestProtocol/Messages/TestPlanMessage.cs using Guid(28f79a0d7e64c2345bc46f8c4cf788f8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker3] (ScriptedImporter)
+[Worker0]  -> (artifact id: '1e595c424e46668b73589ad686f6e15d') in 0.0101191 seconds
+[Worker0] Start importing Assets/Spine/Runtime/spine-unity/Materials/UI-PMATexture/CanvasGroup/SkeletonGraphicTintBlackScreen-CanvasGroup.mat using Guid(7571633a9d682cc4caa501e8d7fbd1c3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker1]  -> (artifact id: '3d573fef90e0a11a33a1a66602a1e796') in 0.012625 seconds
+[Worker0] (ScriptedImporter)
+[Worker1] Start importing Assets/Characters/MainCharacter/Pet/CHDDD/Unity/Materials/CHDDD_Eyebrow.mat using Guid(fae4fe9d08ed93c43858aeeaecf97cba) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker1] (ScriptedImporter)
+[Worker3]  -> (artifact id: 'b0cc5939d4fd4f68d21c6e870767d0f0') in 0.0085319 seconds
+[Worker3] Start importing Assets/Characters/MainCharacter/Pet/CHDDD/Unity/AnimationsV2/PetV2_Dragging.anim using Guid(4f2bb8498f4cd5e4d89f660fc23d3247) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker3] (ScriptedImporter)
+[Worker2]  -> (artifact id: 'f93921f251d5e5e59cdc76e1befbe0e8') in 0.0243678 seconds
+[Worker2] Start importing Assets/Spine/Runtime/spine-unity/Materials/UI-StraightAlphaTex/CanvasGroup/SkeletonGraphicTintBlack-CanvasGroupStraight.mat using Guid(b7ef91ba7f119364da99ab69744e53a8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker2] (ScriptedImporter)
+[Worker1]  -> (artifact id: '681c854da3352f147d32a21533068f2f') in 0.0167929 seconds
+[Worker1] Start importing Assets/Characters/MainCharacter/Pet/CHDDD/Unity/Materials/CHDDD_Face.mat using Guid(26658eb41886020489e530977196fb5a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker1] (ScriptedImporter)
+[Worker0]  -> (artifact id: '3d6010f1efe5661c441da1a3a62377fe') in 0.0244595 seconds
+[Worker0] Start importing Assets/Characters/MainCharacter/Pet/CHDDD/Unity/AnimationsV2/PetV2_FaceProcess_Sleep_Exit.anim using Guid(fdd45431dbd5d0544a060849ede0220f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker0] (ScriptedImporter)
+[Worker2]  -> (artifact id: 'ae08e02289d608f2913c77c234d57549') in 0.0161296 seconds
+[Worker2] Start importing Packages/com.unity.test-framework/UnityEditor.TestRunner/UnityTestProtocol/Messages/TestFinishedMessage.cs using Guid(423fe2ef878fa1140a7e1f7f9e365815) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker2] (ScriptedImporter)
+[Worker1]  -> (artifact id: 'd425635c360b8b07ab3130f00ceed008') in 0.0176617 seconds
+[Worker1] Start importing Packages/com.unity.test-framework/UnityEngine.TestRunner/NUnitExtensions/Attributes/ParametrizedIgnoreAttribute.cs using Guid(e9c53c5109a7498ca4408e53f2593b1a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker2]  -> (artifact id: '25ca588b60dc91163b752bdd9ff76e50') in 0.0101313 seconds
+[Worker1] (ScriptedImporter)
+[Worker2] Start importing Assets/Spine/Runtime/spine-unity/Shaders/Sprite/CGIncludes/SpriteLighting.cginc using Guid(0cfb891658099ca4bb0c9544c08e60f9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker2] (ScriptedImporter)
+[Worker0]  -> (artifact id: '811ac3cba045495c3bc2857b11fe6d17') in 0.0151867 seconds
+[Worker0] Start importing Assets/Characters/MainCharacter/Pet/CHDDD/Unity/AnimationsV2/PetV2_Walk.anim using Guid(d762e45e63458d94fa1fec2c58f62150) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker0] (ScriptedImporter)
+[Worker1]  -> (artifact id: 'ef50fd8b1a4f2b6de2e44d2530264d5f') in 0.0084762 seconds
+[Worker1] Start importing Assets/Characters/MainCharacter/Pet/CHDDD/Unity/AnimationsV2/PetV2_FaceProcess_Sleep_Enter.anim using Guid(9094b83afb942e74da0f8dcdea4a6fcf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker1] (ScriptedImporter)
+[Worker2]  -> (artifact id: '0b9acebf1d381136dc29eea34bfd2f3a') in 0.0158355 seconds
+[Worker2] Start importing Assets/Characters/MainCharacter/Pet/CHDDD/Unity/AnimationsV2/PetV2_FaceStatic_Annoyed.anim using Guid(51e1b32562e43bd44a6cd52748eb3bfd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker2] (ScriptedImporter)
+[Worker1]  -> (artifact id: '3a44267ac4398c4f302440d544481b6b') in 0.015456 seconds
+[Worker1] Start importing Assets/Spine/Runtime/spine-unity/Materials/UI-StraightAlphaTex/CanvasGroup/SkeletonGraphicTintBlackAdditive-CanvasGroupStraight.mat using Guid(590aa6fe487965f4baf0aa47db53a8d0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker1] (ScriptedImporter)
+[Worker2]  -> (artifact id: '64a0acb1ec20a384c240ce0e6a7c0550') in 0.0138737 seconds
+[Worker2] Start importing Packages/com.unity.test-framework/UnityEditor.TestRunner/UnityTestProtocol/Messages/PlayerSystemInfoMessage.cs using Guid(9f33b8e923ff41deaa73bc2c1f90d9a1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker2] (ScriptedImporter)
+[Worker2]  -> (artifact id: '7ba3464e510c278f7480e8130780834e') in 0.0105622 seconds
+[Worker2] Start importing Assets/Spine/Runtime/spine-unity/Materials/UI-StraightAlphaTex/CanvasGroup/SkeletonGraphicDefaultGrayscale-CanvasGroupStraight.mat using Guid(6b01e9f5884349545a8cf87686cee7d5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker2] (ScriptedImporter)
+[Worker1]  -> (artifact id: '8fa69e1ede6586ac92c4aa21678af2bb') in 0.0241543 seconds
+[Worker1] Start importing Assets/Characters/MainCharacter/Pet/CHDDD/Unity/AnimationsV2/PetV2_FaceProcess_HeadPat_Enter.anim using Guid(e8d5edac68efc9a449a5adb6f8aa0bdd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker1] (ScriptedImporter)
+[Worker2]  -> (artifact id: '761c39400376a45a83e08994d4cbd400') in 0.0181537 seconds
+[Worker2] Start importing Assets/Spine/Editor/spine-unity/Modules/SkeletonRenderSeparator/Editor/SkeletonRenderSeparatorInspector.cs using Guid(d2a5062cfe5dd4344831cda4723128af) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker2] (ScriptedImporter)
+[Worker1]  -> (artifact id: 'd81898e440e6f9b8150ca85906876656') in 0.0142749 seconds
+[Worker1] Start importing Assets/Characters/MainCharacter/Pet/CHDDD/Unity/AnimationsV2/PetV2_FaceProcess_HeadPat.anim using Guid(c4fcdf343c8ad4941a399dcd548821f2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker1] (ScriptedImporter)
+[Worker2]  -> (artifact id: 'cb452b3e6e617afbad4b101d2136dbf5') in 0.008351 seconds
+[Worker2] Start importing Packages/com.unity.test-framework/UnityEngine.TestRunner/NUnitExtensions/Commands/BeforeAfterTestCommandBase.cs using Guid(cbbca1d8a0434be4bbc7f165523763ac) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker2] (ScriptedImporter)
+[Worker2]  -> (artifact id: 'cc83a41a75f49c65d203d616762ff6fe') in 0.0085941 seconds
+[Worker1]  -> (artifact id: '5aa41c1e555fd80ac736494ae7ded5e4') in 0.0140816 seconds
+[Worker2] Start importing Assets/Spine/Runtime/spine-unity/Shaders/SkeletonGraphic/CGIncludes/Spine-SkeletonGraphic-TintBlack-NormalPass.cginc using Guid(7d0e52884fd19064890c267e643d9183) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker1] Start importing Assets/Characters/MainCharacter/Pet/CHDDD/Unity/AnimationsV2/PetV2_Sleep.anim using Guid(e2c2c18487115904f8a584cc88c14bba) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker2] (ScriptedImporter)
+[Worker1] (ScriptedImporter)
+[Worker0]  -> (artifact id: '80699686ae3f01927bbbc0dee2f117df') in 0.0820675 seconds
+[Worker0] Start importing Assets/Spine/Runtime/spine-unity/Shaders/Outline/BlendModes/Spine-Skeleton-PMA-Multiply-Outline.shader using Guid(4b3566a937643b8498d1ec6df5880b77) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker0] (ScriptedImporter)
+[Worker2]  -> (artifact id: '629d692e79052d34910e5d281a12d04d') in 0.0152405 seconds
+[Worker2] Start importing Assets/Characters/MainCharacter/Pet/CHDDD/Unity/AnimationsV2/PetV2_FaceProcess_HeadPat_Exit.anim using Guid(cb831708e0334464b862d91df8f36a47) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker2] (ScriptedImporter)
+[Worker0]  -> (artifact id: '9614237ac46b683aa585bdb54feaeb85') in 0.012247 seconds
+[Worker0] Start importing Packages/com.unity.test-framework/UnityEditor.TestRunner/UnityTestProtocol/Messages/Message.cs using Guid(321dc2c0720f8dd4f9396ecdc12b8746) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker0] (ScriptedImporter)
+[Worker2]  -> (artifact id: '069a710bbe5f5d9c030cd4581ed9156d') in 0.0146475 seconds
+[Worker0]  -> (artifact id: '57aeedaa7af87d5fa4ffe2a7d46f973c') in 0.0098784 seconds
+[Worker2] Start importing Assets/Characters/MainCharacter/Pet/CHDDD/Unity/Materials/CHDDD_Body.mat using Guid(c0d1db23eba138c4c9ad9e7c6afc751b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker0] Start importing Assets/Characters/MainCharacter/Pet/CHDDD/Unity/AnimationsV2/PetV2_FaceStatic_Sad.anim using Guid(f8de64042daa88a4a933810bfc8616c4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker2] (ScriptedImporter)
+[Worker0] (ScriptedImporter)
+[Worker3]  -> (artifact id: '5e49bdc2bec1d9b840851fb79390156b') in 0.150317 seconds
+[Worker3] Start importing Assets/Spine/Runtime/spine-unity/Shaders/Outline/BlendModes/Spine-Skeleton-PMA-Screen-Outline.shader using Guid(e61a8d94e453ff641a7e39c4b11cac95) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker3] (ScriptedImporter)
+[Worker0]  -> (artifact id: 'da925b1cd4939dabb644993dcc9e89c7') in 0.0141094 seconds
+[Worker0] Start importing Packages/com.unity.test-framework/UnityEngine.TestRunner/NUnitExtensions/Commands/EnumerableApplyChangesToContextCommand.cs using Guid(3b4429eff9fcffb48b006e8edcc90338) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker0] (ScriptedImporter)
+[Worker2]  -> (artifact id: '4050f3eaa56e6178e906e15dd7531a04') in 0.017908 seconds
+[Worker2] Start importing Packages/com.unity.test-framework/UnityEditor.TestRunner/UnityTestProtocol/Messages/TestStartedMessage.cs using Guid(bd3e81baa10021f4d877fa36382bab16) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker1]  -> (artifact id: 'e616e0458da70795337d45c9bc035fbf') in 0.0493593 seconds
+[Worker2] (ScriptedImporter)
+[Worker3]  -> (artifact id: 'f67e0be5620505c7d7083acb13fb8ae7') in 0.0109364 seconds
+[Worker1] Start importing Packages/com.unity.test-framework/UnityEngine.TestRunner/NUnitExtensions/Attributes/UnitySetUpAttribute.cs using Guid(cc6401f13df54ba44bfd7cdc93c7d64d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker3] Start importing Assets/Characters/MainCharacter/Pet/CHDDD/Unity/AnimationsV2/PetV2_Dragging_Enter.anim using Guid(ac8767b482fd48448a7b72b5fbd1e296) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker1] (ScriptedImporter)
+[Worker3] (ScriptedImporter)
+[Worker0]  -> (artifact id: '8ddbaf7d452b6a931e0b9b7c7cf51fd1') in 0.0095296 seconds
+[Worker0] Start importing Assets/Characters/MainCharacter/Pet/CHDDD/Unity/AnimationsV2/PetV2_Sleep_Exit.anim using Guid(cffa552b2f822a143b027a9928bb96e8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker0] (ScriptedImporter)
+[Worker2]  -> (artifact id: 'dd1726ad16ec1c9788f3e7a20c71f138') in 0.009827 seconds
+[Worker1]  -> (artifact id: '2a0634e3e65a52cfec6686ce5d325b05') in 0.0094349 seconds
+[Worker2] Start importing Assets/Spine/Runtime/spine-unity/Shaders/Sprite/CGIncludes/ShaderShared.cginc using Guid(c18c5cab567666f4d8c5b2bd4e61390b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker1] Start importing Assets/Spine/Runtime/spine-unity/Materials/UI-StraightAlphaTex/CanvasGroup/SkeletonGraphicDefault-CanvasGroupStraight.mat using Guid(841cfbaa0261b0042b3a039c52637bb7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker2] (ScriptedImporter)
+[Worker1] (ScriptedImporter)
+[Worker2]  -> (artifact id: '3396ae0795aa85ea43b156436dd53d83') in 0.0155284 seconds
+[Worker2] Start importing Assets/Spine/Runtime/spine-unity/Shaders/Sprite/CGIncludes/SpriteVertexLighting.cginc using Guid(c739dcf9dbcab944898d0b796e11afb9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker1]  -> (artifact id: 'eb46f02574c924b414f468c736ec1e86') in 0.0158122 seconds
+[Worker2] (ScriptedImporter)
+[Worker1] Start importing Assets/Characters/MainCharacter/Pet/CHDDD/Unity/AnimationsV2/PetV2_Thinking.anim using Guid(e8817ace8354422438e678998c6e3cbe) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker1] (ScriptedImporter)
+[Worker2]  -> (artifact id: 'a991feddd873ba6a7bea0ec954d5cc4c') in 0.0177829 seconds
+[Worker2] Start importing Assets/Spine/Runtime/spine-unity/Shaders/Outline/SkeletonGraphic/Spine-SkeletonGraphic-Outline.shader using Guid(8f5d14d2a7fedb84998c50eb96c8b748) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker2] (ScriptedImporter)
+[Worker0]  -> (artifact id: 'ec9f1b38023169c7d8973bcd4ab7b9b1') in 0.0447895 seconds
+[Worker0] Start importing Assets/Characters/MainCharacter/Pet/CHDDD/Unity/AnimationsV2/PetV2_FaceProcess_HeadClick.anim using Guid(45dfc2a13fbfc9e4592f810c7997fbf9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker0] (ScriptedImporter)
+[Worker3]  -> (artifact id: 'e8a6dd32298197c8b047a097406e3a0d') in 0.0546517 seconds
+[Worker2]  -> (artifact id: '7effe0affeca66f9ab291cb669393e0f') in 0.0116437 seconds
+[Worker3] Start importing Packages/com.unity.test-framework/UnityEngine.TestRunner/NUnitExtensions/Commands/EnumerableOneTimeSetUpTearDownCommand.cs using Guid(df537bdce04d7964193fffe1cc99a343) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker3] (ScriptedImporter)
+[Worker2] Start importing Assets/Spine/Runtime/spine-unity/Materials/UI-PMATexture/CanvasGroup/SkeletonGraphicTintBlackOutline-CanvasGroup.mat using Guid(48fa3c254acf4a54eb9721d6ccc44437) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker2] (ScriptedImporter)
+[Worker3]  -> (artifact id: '8d76bff62e0aeba4b779cc12f65b97e3') in 0.0093769 seconds
+[Worker0]  -> (artifact id: 'c3733a89cdb0ebde19342a5e87a2c5af') in 0.0138856 seconds
+[Worker3] Start importing Assets/Characters/MainCharacter/Pet/CHDDD/Unity/AnimationsV2/PetV2_FaceStatic_Shy.anim using Guid(167a1fa4b8736d04fbce0c099333e3c5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker0] Start importing Assets/Characters/MainCharacter/Pet/CHDDD/Unity/AnimationsV2/PetV2_FaceProcess_Thinking.anim using Guid(a946719923058cd46becc33f67434536) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker3] (ScriptedImporter)
+[Worker0] (ScriptedImporter)
+[Worker1]  -> (artifact id: 'd81d0d459a37fc052a5ec50119a5e2d5') in 0.0499985 seconds
+[Worker2]  -> (artifact id: 'eaa8a15577eb27a6ec43d788b3355911') in 0.0203412 seconds
+[Worker1] Start importing Assets/Characters/MainCharacter/Pet/CHDDD/Unity/AnimationsV2/PetV2_FaceProcess_Dragging_Exit.anim using Guid(3bc47bab013c5b74db116e2a56f29e95) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker2] Start importing Assets/Spine/Runtime/spine-unity/Shaders/Outline/BlendModes/Spine-Skeleton-PMA-Additive-Outline.shader using Guid(0299ffae826705448b6c80ccc6a53b75) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker1] (ScriptedImporter)
+[Worker2] (ScriptedImporter)
+Saving results to: W:\Machine\VSCode\Mika_Gift\GiftCompanion\Docs\Validation\Phase2\2A.EditMode.xml
+[Worker0]  -> (artifact id: '6eef50fee6c5f344db89a04fc6fc1c4d') in 0.0146535 seconds
+[Worker0] Start importing Assets/Spine/Runtime/spine-unity/Shaders/Sprite/CGIncludes/ShaderMaths.cginc using Guid(e1de23de2025abe4a84ff2edd3f24491) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker0] (ScriptedImporter)
+[Worker3]  -> (artifact id: '7231fc62090c6d4adb21270b7449a07a') in 0.0187164 seconds
+[Worker3] Start importing Assets/Spine/Runtime/spine-unity/Materials/UI-StraightAlphaTex/CanvasGroup/SkeletonGraphicDefaultOutline-CanvasGroupStraight.mat using Guid(f4c1f1de25ff57e488c98341f4d48349) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker3] (ScriptedImporter)
+[Worker2]  -> (artifact id: 'caa70d81fbb6290334a352ec1a79734e') in 0.0111434 seconds
+[Worker2] Start importing Packages/com.unity.test-framework/UnityEditor.TestRunner/UnityTestProtocol/Data/QualitySettings.cs using Guid(efce3ac61ba34d3590656de761a677e3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker2] (ScriptedImporter)
+[Worker1]  -> (artifact id: '33ede85cbbecd92da90dfd97be7e3838') in 0.0163499 seconds
+[Worker1] Start importing Packages/com.unity.test-framework/UnityEngine.TestRunner/NUnitExtensions/Attributes/UnityTestAttribute.cs using Guid(fedb0f9e5006b1943abae52f52f08a1a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker1] (ScriptedImporter)
+[Worker0]  -> (artifact id: 'f43d27a9942aeaa7d0bd230f15c54418') in 0.0151119 seconds
+[Worker0] Start importing Assets/Spine/Runtime/spine-unity/Shaders/Outline/Sprite/SpritesPixelLit-Outline.shader using Guid(a27d4b27c8ecd9840a03558ccc5ad8a3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker0] (ScriptedImporter)
+[Worker2]  -> (artifact id: '530670e226e76f3bfc6b951ed8574898') in 0.0091152 seconds
+[Worker2] Start importing Packages/com.unity.test-framework/UnityEngine.TestRunner/NUnitExtensions/Attributes/EnumeratorHelper.cs using Guid(ff0aad009559b814ffc27001341fc1c3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker2] (ScriptedImporter)
+[Worker1]  -> (artifact id: '0b479401603921cb5c31004094ce322d') in 0.0088496 seconds
+[Worker1] Start importing Assets/Spine/Runtime/spine-unity/Materials/UI-PMATexture/CanvasGroup/SkeletonGraphicDefaultOutline-CanvasGroup.mat using Guid(7a7d714c0736ac648a211af82dabcd73) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker1] (ScriptedImporter)
+[Worker2]  -> (artifact id: '77ae52e14407d6ec767ed78f782b7f88') in 0.0100309 seconds
+[Worker2] Start importing Assets/Spine/Runtime/spine-unity/Materials/UI-StraightAlphaTex/CanvasGroup/SkeletonGraphicTintBlackOutline-CanvasGroupStraight.mat using Guid(80b83ed1a883abc42ad32d8b00db0ae0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker2] (ScriptedImporter)
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+[Worker0]  -> (artifact id: '70438e633f1c431fe237fe97a1b6e66e') in 0.0124677 seconds
+[Worker0] Start importing Assets/Characters/MainCharacter/Pet/CHDDD/Unity/AnimationsV2/PetV2_Dragging_Exit.anim using Guid(4d0dac517ce8e8e46b01572bfedad3cf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker0] (ScriptedImporter)
+[Worker3]  -> (artifact id: 'f2ce913e51cea498f9f2ca986078eeed') in 0.0265403 seconds
+[Worker3] Start importing Assets/Characters/MainCharacter/Pet/CHDDD/Unity/AnimationsV2/PetV2_FaceStatic_Neutral.anim using Guid(c7806d1c57c1a6a45a2fc4bd4605dba5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker3] (ScriptedImporter)
+Unloading 0 unused Assets / (Unknown). Loaded Objects now: 2072.
+Memory consumption went from 105.8 MB to 105.8 MB.
+Total: 6.520200 ms (FindLiveObjects: 0.090300 ms CreateObjectMapping: 0.033000 ms MarkObjects: 6.390700 ms  DeleteObjects: 0.005100 ms)
+
+DisplayProgressbar: Undo
+Test run completed. Exiting with code 0 (Ok). Run completed.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+UnityEditor.TestTools.TestRunner.CommandLineTest.Executer:ExitApplication (UnityEditor.TestTools.TestRunner.CommandLineTest.Executer/ReturnCodes,string) (at ./Library/PackageCache/com.unity.test-framework@0b7a23ab2e1d/UnityEditor.TestRunner/CommandLineTest/Executer.cs:81)
+UnityEditor.TestTools.TestRunner.CommandLineTest.Executer:ExitIfRunIsCompleted () (at ./Library/PackageCache/com.unity.test-framework@0b7a23ab2e1d/UnityEditor.TestRunner/CommandLineTest/Executer.cs:74)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: ./Library/PackageCache/com.unity.test-framework@0b7a23ab2e1d/UnityEditor.TestRunner/CommandLineTest/Executer.cs Line: 81)
+
+[Worker3]  -> (artifact id: '70109e63993422f3af76088527b15da0') in 0.0149367 seconds
+[Worker1]  -> (artifact id: '259ec391010b95b2a369689f2525c9dd') in 0.0240057 seconds
+[Worker3] Start importing Packages/com.unity.test-framework/UnityEditor.TestRunner/UnityTestProtocol/Messages/PlayerSettingsMessage.cs using Guid(aa5e75ed0aae4030a1720d08f7a5322e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker1] Start importing Assets/Spine/Runtime/spine-unity/Materials/UI-PMATexture/CanvasGroup/SkeletonGraphicMultiply-CanvasGroup.mat using Guid(7a74ac6c9b6638f4991ecdb090b8d5e0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker1] (ScriptedImporter)
+[Worker3] (ScriptedImporter)
+[Worker2]  -> (artifact id: '62b10dec5a71940649546aaf3724aec6') in 0.019816 seconds
+[Worker2] Start importing Assets/Characters/MainCharacter/Pet/CHDDD/Unity/AnimationsV2/PetV2_FaceProcess_BodyClick.anim using Guid(c0ce2a7384889bb4986f60915d1d1011) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker2] (ScriptedImporter)
+[Worker3]  -> (artifact id: '8c49f9f4fa0212a82744d6f2533cd8a5') in 0.0091394 seconds
+[Worker3] Start importing Assets/Spine/Runtime/spine-unity/Utility/YieldInstructions/WaitForSpineEvent.cs using Guid(fc166d883db083e469872998172f2d38) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker3] (ScriptedImporter)
+[Worker2]  -> (artifact id: 'd25c6fe57501a7f12d0616d1b7c44a3c') in 0.0163183 seconds
+[Worker3]  -> (artifact id: 'a42432fa70d866a218a787685cdb7056') in 0.0085255 seconds
+[Worker1]  -> (artifact id: 'a5a9191e2da3651462eee63f5029e91c') in 0.0181907 seconds
+[Worker2] Start importing Assets/Characters/MainCharacter/Pet/CHDDD/Unity/AnimationsV2/PetV2_FaceProcess_Dragging_Enter.anim using Guid(9592f4f929cd85848b353a4b3a4a6d54) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker3] Start importing Assets/Characters/MainCharacter/Pet/CHDDD/Unity/AnimationsV2/PetV2_FaceProcess_Wave.anim using Guid(42e7e8b4595e0234c85c42bd7635965f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker1] Start importing Assets/Spine/Runtime/spine-unity/Materials/UI-PMATexture/CanvasGroup/SkeletonGraphicAdditive-CanvasGroup.mat using Guid(3e764190161692c419740074bda0982c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker3] (ScriptedImporter)
+[Worker2] (ScriptedImporter)
+[Worker1] (ScriptedImporter)
+[Worker3]  -> (artifact id: '7db482d52ee7996ba954e549ad9245cb') in 0.0140843 seconds
+[Worker3] Start importing Assets/Spine/Runtime/spine-unity/Shaders/Sprite/CGIncludes/SpriteUnlit.cginc using Guid(072e7b07ec7fb1346a9dcd3bcbbb7111) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker3] (ScriptedImporter)
+[Worker2]  -> (artifact id: '7ea0d323912a9907776014aae4633124') in 0.0151359 seconds
+[Worker2] Start importing Assets/Spine/Runtime/spine-unity/Shaders/Outline/Sprite/SpritesVertexLit-Outline.shader using Guid(30ef5dd318033004588a6481c092416a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker2] (ScriptedImporter)
+[Worker1]  -> (artifact id: '1db3e396296e8baa02fee1f2e40031d4') in 0.0195475 seconds
+[Worker1] Start importing Assets/Characters/MainCharacter/Pet/CHDDD/Unity/AnimationsV2/PetV2_FaceProcess_Walk.anim using Guid(6de4dba057e62f442a86bd9749f021fe) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker1] (ScriptedImporter)
+[Worker0]  -> (artifact id: '71e0f6952b1425c1bdc09c4f7ccc65ca') in 0.0575239 seconds
+[Worker0] Start importing Packages/com.unity.test-framework/UnityEngine.TestRunner/NUnitExtensions/Commands/EnumerableRepeatedTestCommand.cs using Guid(e273462feb9a65948826739f683cc9a9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker0] (ScriptedImporter)
+[Worker3]  -> (artifact id: '01ed1e25780249e385bc28a7c6b9ea70') in 0.0139811 seconds
+[Worker3] Start importing Assets/Characters/MainCharacter/Pet/CHDDD/Unity/AnimationsV2/PetV2_FaceProcess_Confused.anim using Guid(210232a1d2a881d488c18a5210cbd00e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker3] (ScriptedImporter)
+[Worker2]  -> (artifact id: '09fea341c8dbd8fd87c6b76ea9257c41') in 0.0139153 seconds
+[Worker2] Start importing Assets/Spine/Runtime/spine-unity/Shaders/SkeletonGraphic/TintBlack/Spine-SkeletonGraphic-TintBlack.shader using Guid(f64c7bc238bb2c246b8ca1912b2b6b9c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker0]  -> (artifact id: 'bd77bdb27ace9ca6fd2b8c691e7d338c') in 0.0085303 seconds
+[Worker2] (ScriptedImporter)
+[Worker0] Start importing Assets/Spine/Runtime/spine-unity/Materials/UI-PMATexture/CanvasGroup/SkeletonGraphicTintBlackAdditive-CanvasGroup.mat using Guid(71b432e36e1e9ce4083abb515b314c4c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker0] (ScriptedImporter)
+[Worker1]  -> (artifact id: '590dcb376bbdcee48b8e7253d49e0119') in 0.0141893 seconds
+[Worker1] Start importing Packages/com.unity.test-framework/UnityEngine.TestRunner/NUnitExtensions/Attributes/UnityPlatformAttribute.cs using Guid(5440c1153b397e14c9c7b1d6eb83b9f9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker1] (ScriptedImporter)
+[Worker2]  -> (artifact id: '66113f5adccabac40233b1ba5fb14659') in 0.0111101 seconds
+[Worker2] Start importing Packages/com.unity.test-framework/UnityEngine.TestRunner/NUnitExtensions/Commands/BeforeAfterTestCommandState.cs using Guid(7f65567c9026afb4db5de3355accc636) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker2] (ScriptedImporter)
+[Worker3]  -> (artifact id: 'd7e384ec5a3b7e6ec7188208eb276616') in 0.0145438 seconds
+[Worker3] Start importing Assets/Characters/MainCharacter/Pet/CHDDD/Unity/AnimationsV2/PetV2_HeadPat_Exit.anim using Guid(e352ff9bd2f88f14e8e95079e0c496ee) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker3] (ScriptedImporter)
+[Worker1]  -> (artifact id: '43dc4c6c7ad043a9e101a265899fc3e7') in 0.0095694 seconds
+[Worker1] Start importing Assets/Spine/Runtime/spine-unity/Shaders/SkeletonGraphic/TintBlack/Spine-SkeletonGraphic-TintBlack-Additive.shader using Guid(1d081289ec7074140a6b96982be27e02) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker1] (ScriptedImporter)
+[Worker0]  -> (artifact id: '1b097f387e3e1996bf084f78925b17a7') in 0.017027 seconds
+[Worker0] Start importing Assets/Spine/Runtime/spine-unity/Materials/UI-PMATexture/CanvasGroup/SkeletonGraphicDefaultGrayscale-CanvasGroup.mat using Guid(60a164b8b81e803449b4182f9d744776) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker0] (ScriptedImporter)
+[Worker2]  -> (artifact id: 'e631d6a19a68beb4b2daf4a9cdad7577') in 0.0092944 seconds
+[Worker2] Start importing Packages/com.unity.test-framework/UnityEngine.TestRunner/Assertions/LogScope/LogMatch.cs using Guid(9945ffed4692c6044b6d3acf81efd694) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker2] (ScriptedImporter)
+[Worker1]  -> (artifact id: 'a0ffb5ccbe6a556c8a8f696281bd8a98') in 0.0105411 seconds
+[Worker1] Start importing Assets/Spine/Runtime/spine-unity/Shaders/Outline/CGIncludes/Spine-Outline-Pass.cginc using Guid(2ec781e799f97504c8a418e168759f70) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker1] (ScriptedImporter)
+[Worker2]  -> (artifact id: '8ff18beb83db3fa81233a1830638a47b') in 0.0095426 seconds
+[Worker2] Start importing Assets/Characters/MainCharacter/Pet/CHDDD/Unity/AnimationsV2/PetV2_FaceStatic_Surprised.anim using Guid(757e4f83def4ee644ac431d356330d95) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker2] (ScriptedImporter)
+[Worker0]  -> (artifact id: '327c3046f8ec589a3fe8322ceb72f26f') in 0.0212405 seconds
+[Worker0] Start importing Assets/Characters/MainCharacter/Pet/CHDDD/Unity/Materials/CHDDD_Hair.mat using Guid(0e2491b29aa36e840a767d6cb7a52c84) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker0] (ScriptedImporter)
+[Worker1]  -> (artifact id: 'bbf7f26f1eba1efa6b9916dffb9fe68d') in 0.0151439 seconds
+[Worker1] Start importing Assets/Spine/Runtime/spine-unity/Materials/UI-PMATexture/CanvasGroup/SkeletonGraphicScreen-CanvasGroup.mat using Guid(0506213a2fbcbb24083fb750fc42d32d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) 
+[Worker1] (ScriptedImporter)
+[Worker2]  -> (artifact id: '20e7f5b22e9168598cb65f75cf8b2b4f') in 0.0154604 seconds
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input System polling thread exited.
+Input System module state changed to: Shutdown.
+[Licensing::IpcConnector] LicenseClient-fufu-notifications channel disconnected successfully.
+[Licensing::IpcConnector] LicenseClient-fufu channel disconnected successfully.
+AcceleratorClientConnectionCallback - disconnected - :0
+Cleanup mono
+Checking for leaked weakptr:
+  Found no leaked weakptrs.
+[Package Manager] Server process was shutdown
+##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1791867061188,"processId":29652,"allocatedMemory":11093329,"memoryLabels":[{"Default":14409},{"Permanent":15236},{"NewDelete":67619},{"Thread":4230344},{"Manager":33469},{"VertexData":8},{"Geometry":816},{"Texture":296},{"Shader":79385},{"Material":24},{"GfxDevice":55257},{"Animation":392},{"Audio":2664},{"FreeType":8},{"FontEngine":736},{"Physics":2090},{"Physics2D":16},{"Serialization":720},{"Input":14984},{"JobScheduler":33024},{"TextLib":216},{"Mono":32},{"ScriptingNativeRuntime":155060},{"BaseObject":1620208},{"Resource":1336},{"Renderer":3000},{"Transform":4685},{"File":1016},{"WebCam":616},{"Culling":32},{"Terrain":11394},{"Wind":24},{"STL":40},{"String":14003},{"DynamicArray":91103},{"HashMap":64442},{"Utility":2660678},{"Curl":2675},{"PoolAlloc":2056},{"AI":80},{"TypeTree":5341},{"ScriptManager":512},{"RuntimeInitializeOnLoadManager":64},{"SpriteAtlas":112},{"GI":7792},{"Director":8240},{"CloudService":288},{"WebRequest":808},{"VR":47994},{"SceneManager":504},{"Video":64},{"LazyScriptCache":32},{"Camera":17},{"Secure":2113},{"SerializationCache":1576},{"APIUpdating":10320},{"Subsystems":336},{"VirtualTexturing":57888},{"StaticSafetyDebugInfo":278528},{"Analytics":256},{"Hierarchy":608},{"CoreStats":13032},{"Identifiers":12960},{"Gui":96},{"EditorUtility":109204},{"VersionControl":4},{"Undo":947},{"AssetDatabase":1304165},{"EditorGi":328},{"UnityConnect":29232},{"Upm":1896},{"AssetCompliance":64},{"DrivenProperties":72},{"LocalIPC":210},{"ProfilerEditor":9746},{"CoreBusinessMetrics":2595},{"Licensing":1232},{"AssetReference":32},{"IPCStream":32}]}

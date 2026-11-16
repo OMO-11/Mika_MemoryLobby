@@ -1,0 +1,55 @@
+var graphic=UnityEngine.Object.FindFirstObjectByType<Spine.Unity.SkeletonGraphic>();
+var controller=graphic.GetComponent<Mika.Seaside.SeasideLobbyController>();
+var results=new System.Collections.Generic.List<object>();
+int totalFrames=0;
+for(int scenario=0;scenario<11;scenario++) {
+    graphic.Initialize(true); controller.ResetToIdle();
+    var setupNames=new System.Collections.Generic.List<string>();
+    foreach(var slot in graphic.Skeleton.Slots) setupNames.Add(slot.Attachment==null?null:slot.Attachment.Name);
+    string name="idle_3_loops"; float duration=36f;
+    if(scenario>=1 && scenario<=5) {
+        name="dialogue_"+scenario; controller.PlayDialogue(scenario);
+        duration=graphic.Skeleton.Data.FindAnimation("Talk_"+scenario.ToString("00")+"_M_CN").Duration+0.75f;
+    } else if(scenario==6) { name="entrance_to_idle"; controller.PlayEntrance(); duration=23f; }
+    else if(scenario==7) { name="pat"; controller.PlayPat(); duration=1.5f; }
+    else if(scenario==8) { name="end_pat"; controller.EndPat(); duration=2f; }
+    else if(scenario==9) { name="end_look"; controller.EndLook(); duration=1.5f; }
+    else if(scenario==10) { name="interrupt_dialogue_with_dialogue_then_idle"; controller.PlayDialogue1(); duration=26f; }
+    bool finite=true; int frames=(int)System.Math.Ceiling(duration*60);
+    var backgroundFirst=new System.Collections.Generic.Dictionary<string,float[]>();
+    var moved=new System.Collections.Generic.HashSet<string>();
+    float[] vertices=new float[32768];
+    for(int frame=0;frame<=frames;frame++) {
+        if(scenario==10 && frame==60) controller.PlayDialogue4();
+        graphic.Update(frame==0?0f:1f/60f);
+        foreach(var bone in graphic.Skeleton.Bones) {
+            float[] values={bone.A,bone.B,bone.C,bone.D,bone.WorldX,bone.WorldY};
+            foreach(float value in values) finite &= !float.IsNaN(value) && !float.IsInfinity(value);
+        }
+        foreach(var slot in graphic.Skeleton.DrawOrder) {
+            int length=0;
+            var vertex=slot.Attachment as Spine.VertexAttachment;
+            var region=slot.Attachment as Spine.RegionAttachment;
+            if(vertex!=null) { length=vertex.WorldVerticesLength; if(vertices.Length<length) vertices=new float[length]; vertex.ComputeWorldVertices(slot,0,length,vertices,0,2); }
+            else if(region!=null) { length=8; region.ComputeWorldVertices(slot,vertices,0,2); }
+            for(int i=0;i<length;i++) finite &= !float.IsNaN(vertices[i]) && !float.IsInfinity(vertices[i]);
+            if(slot.Data.Name.StartsWith("BG_") && length>0) {
+                float[] initial;
+                if(!backgroundFirst.TryGetValue(slot.Data.Name,out initial)) {
+                    initial=new float[length]; System.Array.Copy(vertices,initial,length); backgroundFirst.Add(slot.Data.Name,initial);
+                } else for(int i=0;i<System.Math.Min(length,initial.Length);i++) if(System.Math.Abs(vertices[i]-initial[i])>0.00001f) { moved.Add(slot.Data.Name); break; }
+            }
+        }
+        totalFrames++;
+    }
+    graphic.LateUpdate();
+    int lingeringAttachments=0; int slotIndex=0;
+    foreach(var slot in graphic.Skeleton.Slots) { if((slot.Attachment==null?null:slot.Attachment.Name)!=setupNames[slotIndex]) lingeringAttachments++; slotIndex++; }
+    var baseTrack=graphic.AnimationState.GetCurrent(0);
+    bool overlaysCleared=graphic.AnimationState.GetCurrent(1)==null && graphic.AnimationState.GetCurrent(2)==null;
+    results.Add(new {name,frames=frames+1,finite,baseAnimation=baseTrack==null?null:baseTrack.Animation.Name,overlaysCleared,lingeringAttachments,backgroundSlotsMoved=moved});
+}
+graphic.Initialize(true); controller.ResetToIdle();
+string json=Newtonsoft.Json.JsonConvert.SerializeObject(new {playMode=UnityEngine.Application.isPlaying,totalFrames,results,hasCanvas=graphic.canvas!=null,multipleRenderers=graphic.allowMultipleCanvasRenderers,rendererCount=graphic.canvasRenderers.Count,physicsPositionInheritance=graphic.PhysicsPositionInheritanceFactor.ToString(),physicsRotationInheritance=graphic.PhysicsRotationInheritanceFactor},Newtonsoft.Json.Formatting.Indented);
+System.IO.File.WriteAllText("W:/Machine/VSCode/Mika_Gift/Material/Mika_memoryLobby_Seaside/Reports/CH0294/Repair/playback_validation.json",json);
+return json;

@@ -1,0 +1,474 @@
+VBCSCompilerPreWarmer: watching VBCSCompiler (PID 31312)
+VBCSCompilerPreWarmer: pre-warm launched (dotnet PID 7568)
+VBCSCompiler prewarm took 17.66 ms
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.6/staging' branch; Version is '6000.6.4f1 (12bfff696524) revision 1228799'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-fufu" at "2026-10-07T10:41:57.0425315Z"
+OS: 'Windows 11  (10.0.26200) Professional' Language: 'zh' Physical Memory: 15658 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-10-07T10:41:57Z
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 3144, path: "W:/Machine/Unity/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              1242bbf9284646e28fb352cf7bed3fcd
+  Correlation Id:          33ee7e9e8b1a7fdd45af579f475c8156
+  External correlation Id: 4541941083267536691
+  Machine Id:              5mkOLlRLzlaDaGMP57SGmafX/sU=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-fufu" (connect: 0.00s, validation: 0.00s, handshake: 0.05s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-fufu-notifications" at "2026-10-07T10:41:57.0945246Z"
+[Licensing::Module] Error: Access token is unavailable; failed to update
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 20067662779766-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.00
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] Licensing Background thread has ended after 0.06s
+
+COMMAND LINE ARGUMENTS:
+W:\Machine\Unity\Unity 6000.6.4f1\Editor\Unity.exe
+-batchmode
+-nographics
+-projectPath
+C:\Users\fufu\AppData\Local\Temp\MikaGift_CH0069_Audit_20261007
+-executeMethod
+CH0069UnityAudit.Run
+-logFile
+W:\Machine\VSCode\Mika_Gift\Docs\Audits\CH0069/unity_probe.log
+Successfully changed project path to: C:\Users\fufu\AppData\Local\Temp\MikaGift_CH0069_Audit_20261007
+C:/Users/fufu/AppData/Local/Temp/MikaGift_CH0069_Audit_20261007
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-remapper-allocator-initial-capacity=32768"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=1"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Logging is directed to a specific file, skipping project log.
+Player connection [20176]  Target information:
+
+Player connection [20176]  * "[IP] 172.26.160.1 [Port] 55504 [Flags] 2 [Guid] 1096609283 [EditorId] 1096609283 [Version] 1048832 [Id] WindowsEditor(7,MYSERICE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [20176]  * "[IP] 192.168.121.1 [Port] 55504 [Flags] 2 [Guid] 1096609283 [EditorId] 1096609283 [Version] 1048832 [Id] WindowsEditor(7,MYSERICE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [20176]  * "[IP] 192.168.126.1 [Port] 55504 [Flags] 2 [Guid] 1096609283 [EditorId] 1096609283 [Version] 1048832 [Id] WindowsEditor(7,MYSERICE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [20176]  * "[IP] 26.191.98.64 [Port] 55504 [Flags] 2 [Guid] 1096609283 [EditorId] 1096609283 [Version] 1048832 [Id] WindowsEditor(7,MYSERICE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [20176]  * "[IP] 10.33.46.230 [Port] 55504 [Flags] 2 [Guid] 1096609283 [EditorId] 1096609283 [Version] 1048832 [Id] WindowsEditor(7,MYSERICE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [20176] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [20176] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Package Manager] Connected to IPC stream "Upm-23316" after 0.2 seconds.
+[Licensing::Client] Successfully resolved entitlement details
+Library Redirect Path: Library/
+Initialising UDS system complete:
+  - System type: Client
+  - Resource namespace: 3638f76d2f2267caa03bc5133a577329
+  - Shared memory size: 1073741824
+  - Command buffer id: 1052576
+  - Command buffer size: 8192
+  - Hashmap size: 4194304
+  - Service connected: false
+Launching Unity Data Store - W:/Machine/Unity/Unity 6000.6.4f1/Editor/Data/Tools/Unity.DataStore.exe 
+Unity Data Store artifact dir = Library/DataStore, working dir = C:/Users/fufu/AppData/Local/Temp/MikaGift_CH0069_Audit_20261007Unity Data Store running and initialised
+[Physics::Module] Selected backend (deferred post-plugins).
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Initialize engine version: 6000.6.4f1 (12bfff696524)
+[EntityIdStore] init: VM path (explicit commit), pageSize=4096, blockCount=1048576, entitiesPerBlock=256, slots reserved=4294967296 bytes
+[Subsystems] Discovering subsystems at path W:/Machine/Unity/Unity 6000.6.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/fufu/AppData/Local/Temp/MikaGift_CH0069_Audit_20261007/Assets
+Forcing GfxDevice: Null
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+NullGfxDevice:
+    Version:  NULL 1.0 [1.0]
+    Renderer: Null Device
+    Vendor:   Unity Technologies
+Initialize mono
+Mono path[0] = 'W:/Machine/Unity/Unity 6000.6.4f1/Editor/Data/Managed'
+Mono path[1] = 'W:/Machine/Unity/Unity 6000.6.4f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = 'W:/Machine/Unity/Unity 6000.6.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'W:/Machine/Unity/Unity 6000.6.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56316
+CodeReloadManager initialized
+ImportWorker Server TCP listen port: 0
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: W:/Machine/Unity/Unity 6000.6.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002735 seconds.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:False
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.844 seconds
+Domain Reload Profiling: 1385ms
+	BeginReloadAssembly (140ms)
+	RebuildCommonClasses (6ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (67ms)
+	LoadAllAssembliesAndSetupDomain (310ms)
+		LoadAssemblies (137ms)
+		TypeCache.Refresh (223ms)
+			TypeCache.ScanAssembly (208ms)
+		AnalyzeDomain (1ms)
+	FinalizeReload (845ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (89ms)
+			ProcessInitializeOnLoadAttributes (96ms)
+			ProcessInitializeOnLoadMethodAttributes (448ms)
+[Licensing::Client] Successfully resolved entitlement details
+Application.AssetDatabase Initial Refresh Start
+[Package Manager] Restoring resolved packages state from cache
+[Package Manager] Registered 0 packages:
+[Subsystems] No new subsystems found in resolved package list.
+[Package Manager] Done registering packages in 0.00 seconds
+[ScriptCompilation] Requested script compilation because: AssetDatabase observed changes in script compilation related files
+Starting: W:\Machine\Unity\Unity 6000.6.4f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: C:/Users/fufu/AppData/Local/Temp/MikaGift_CH0069_Audit_20261007
+DisplayProgressbar: Compiling Scripts
+ExitCode: 0 Duration: 0s521ms
+[166/171    0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+[167/171    0s] Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll (+2 others)
+[168/171    0s] ILPostProcess Library/Bee/artifacts/1900b0aE.dag/post-processed/Assembly-CSharp-Editor.dll (+pdb)
+Processing assembly Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll, with 146 defines and 294 references
+
+processors: zzzUnity.Burst.CodeGen.BurstILPostProcessor
+
+1 processor(s) skipped this assembly
+[169/171    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+[170/171    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.pdb
+*** Tundra build success (0.49 seconds), 5 items updated, 171 evaluated
+AssetDatabase: script compilation time: 0.930654s
+Begin MonoManager ReloadAssembly
+Total cache size 31729688
+Total cache size after purge 31729688, took 00:00:00.0934475
+Native extension for WindowsStandalone target not found
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.433 seconds
+Domain Reload Profiling: 877ms
+	BeginReloadAssembly (266ms)
+		DisableScriptedObjects (23ms)
+		CreateAndSetChildDomain (61ms)
+	RebuildCommonClasses (9ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (118ms)
+		LoadAssemblies (127ms)
+		TypeCache.Refresh (4ms)
+		AnalyzeDomain (6ms)
+			BuildScriptInfoCaches (4ms)
+	FinalizeReload (434ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (107ms)
+			ProcessInitializeOnLoadAttributes (66ms)
+			ProcessInitializeOnLoadMethodAttributes (44ms)
+			AfterProcessingInitializeOnLoad (3ms)
+		AwakeInstancesAfterBackupRestoration (29ms)
+Starting new worker id: 0 with log in C:/Users/fufu/AppData/Local/Temp/MikaGift_CH0069_Audit_20261007/Logs/AssetImportWorkerHW0.log
+Importing 'GUID: 09d09b2f39a49f541955d6f1bcf18594 - Path: Assets/CH0069_custom_probe.fbx' with importer (FBXImporter)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Keyframe reduction: Ratio: 6.458928%;
+Imported 'GUID: 09d09b2f39a49f541955d6f1bcf18594' -> (Import Result ID: 'b48068bdbd2416c9b0b6839137d589de') in 0.249 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8089f556470d6fd3ced42815eaa9f561 DependenciesID=1fd3a1cb7d62443cc390b60e9e82402f StaticDependenciesID=c028dd430b925f519946544f0eeed947 
+Importing 'GUID: ccf18ef364061cc4caa50a6f09cf5567 - Path: Assets/CH0069_original_probe.fbx' with importer (FBXImporter)
+Worker ready: AssetImportWorkerHW0 0
+Keyframe reduction: Ratio: 2.768295%;
+Keyframe reduction: Ratio: 14.784183%;
+Keyframe reduction: Ratio: 10.457370%;
+Keyframe reduction: Ratio: 6.531690%;
+Keyframe reduction: Ratio: 2.615582%;
+Keyframe reduction: Ratio: 5.766171%;
+Keyframe reduction: Ratio: 5.589432%;
+Keyframe reduction: Ratio: 19.038210%;
+Keyframe reduction: Ratio: 8.048653%;
+Keyframe reduction: Ratio: 19.148014%;
+Keyframe reduction: Ratio: 5.682219%;
+Keyframe reduction: Ratio: 8.031401%;
+Keyframe reduction: Ratio: 11.139953%;
+Keyframe reduction: Ratio: 11.598625%;
+Keyframe reduction: Ratio: 4.232817%;
+Keyframe reduction: Ratio: 11.345447%;
+Keyframe reduction: Ratio: 2.855673%;
+Keyframe reduction: Ratio: 18.638107%;
+Keyframe reduction: Ratio: 2.653012%;
+Keyframe reduction: Ratio: 17.408556%;
+Keyframe reduction: Ratio: 3.703373%;
+Keyframe reduction: Ratio: 10.578140%;
+Keyframe reduction: Ratio: 4.107269%;
+Keyframe reduction: Ratio: 22.772806%;
+Keyframe reduction: Ratio: 12.198061%;
+Keyframe reduction: Ratio: 25.781826%;
+Keyframe reduction: Ratio: 18.577599%;
+Keyframe reduction: Ratio: 20.626297%;
+Keyframe reduction: Ratio: 12.364807%;
+Keyframe reduction: Ratio: 5.072463%;
+Keyframe reduction: Ratio: 12.988343%;
+Keyframe reduction: Ratio: 2.632052%;
+Keyframe reduction: Ratio: 10.467430%;
+Imported 'GUID: ccf18ef364061cc4caa50a6f09cf5567' -> (Import Result ID: 'c12bdd30349eb02f1964de20e5b5104e') in 2.979 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d84caa4c229c1a2eb49e0f38ba667084 DependenciesID=0947a3a4061e7892d7b6c53d37128ee7 StaticDependenciesID=34ed14957e42ca6d03c81e8b8163e95a 
+
+Asset Pipeline Refresh (id=ca364a9cd43c87d49a729fafc20582fb): Total: 5.295 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=2 (actual=2, local cache=0, cache server=0)
+		Asset DB Process Time: managed=10 ms, native=3773 ms
+		Asset DB Callback time: managed=79 ms, native=24 ms
+		Scripting: domain reloads=1, domain reload time=470 ms, compile time=933 ms, other=4 ms
+		Project Asset Count: scripts=23, non-scripts=3
+		Asset File Changes: new=0, changed=3, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 4.370ms
+	ApplyChangesToAssetFolders: 0.140ms
+	Scan: 24.029ms
+	Collect global state as custom dependencies: 15.798ms
+	OnSourceAssetsModified: 0.716ms
+	ProcessAssetsWithTransientArtifactChanges: 0.110ms
+	CategorizeAssets: 0.240ms
+	CompileScripts: 933.394ms
+	ImportOutOfDateAssets: 3677.995ms (434.389ms without children)
+		ImportManagerImport: 3230.216ms (1.782ms without children)
+		UnloadImportedAssets: 0.092ms
+		ImportSchedulerStart: 13.283ms
+	PostProcessAllAssets: 97.581ms
+		VCAutoAddAssetPostprocess 2.134ms
+		WindowTitlePostprocess 0.261ms
+		MonoPostProcessAllAssets: 77.270ms
+			SyncVS.PostprocessSyncProject 29.537ms
+			AssetPostprocessor.OnPostprocessAllAssets 10.612ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 8.788ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 7.752ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 5.163ms
+			AssetChangedListener.OnPostprocessAllAssets 1.917ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 1.256ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 0.851ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 0.716ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 0.573ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 0.537ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.335ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 0.273ms
+			AssetEvents.OnPostprocessAllAssets 0.251ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.186ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.154ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 0.145ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.133ms
+			ThemePostprocessor.OnPostprocessAllAssets 0.127ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.120ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.114ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.072ms
+	PostAssetChangesProfiler: 2.703ms
+	UnloadStreamsBegin: 1.284ms
+	PersistCurrentRevisions: 0.494ms
+	Untracked: 531.710ms
+
+Application.AssetDatabase Initial Refresh End
+Scanning for USB devices : 7.758ms
+Initializing Unity extensions:
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-MikaGift_CH0069_Audit_20261007
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (495.4 KB). Loaded Objects now: 737.
+Memory consumption went from 222.7 MB to 222.2 MB.
+Total: 5.172600 ms (FindLiveObjects: 0.107400 ms CreateObjectMapping: 0.005200 ms MarkObjects: 4.757900 ms  DeleteObjects: 0.229600 ms)
+
+Importing 'GUID: ccf18ef364061cc4caa50a6f09cf5567 - Path: Assets/CH0069_original_probe.fbx' with importer (FBXImporter)
+Keyframe reduction: Ratio: 2.768295%;
+Keyframe reduction: Ratio: 14.784183%;
+Keyframe reduction: Ratio: 10.457367%;
+Keyframe reduction: Ratio: 6.531690%;
+Keyframe reduction: Ratio: 2.615582%;
+Keyframe reduction: Ratio: 5.766171%;
+Keyframe reduction: Ratio: 19.038210%;
+Keyframe reduction: Ratio: 5.589432%;
+Keyframe reduction: Ratio: 8.048653%;
+Keyframe reduction: Ratio: 2.855673%;
+Keyframe reduction: Ratio: 5.682219%;
+Keyframe reduction: Ratio: 19.148014%;
+Keyframe reduction: Ratio: 8.031400%;
+Keyframe reduction: Ratio: 11.139954%;
+Keyframe reduction: Ratio: 11.598624%;
+Keyframe reduction: Ratio: 4.232817%;
+Keyframe reduction: Ratio: 11.345447%;
+Keyframe reduction: Ratio: 18.638107%;
+Keyframe reduction: Ratio: 2.653012%;
+Keyframe reduction: Ratio: 12.988343%;
+Keyframe reduction: Ratio: 3.703373%;
+Keyframe reduction: Ratio: 10.578141%;
+Keyframe reduction: Ratio: 17.408556%;
+Keyframe reduction: Ratio: 20.626297%;
+Keyframe reduction: Ratio: 12.198061%;
+Keyframe reduction: Ratio: 12.364808%;
+Keyframe reduction: Ratio: 18.577600%;
+Keyframe reduction: Ratio: 4.107269%;
+Keyframe reduction: Ratio: 22.772806%;
+Keyframe reduction: Ratio: 5.072463%;
+Keyframe reduction: Ratio: 25.781830%;
+Keyframe reduction: Ratio: 10.467429%;
+Keyframe reduction: Ratio: 2.632052%;
+Imported 'GUID: ccf18ef364061cc4caa50a6f09cf5567' -> (Import Result ID: 'c12bdd30349eb02f1964de20e5b5104e') in 2.846 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d84caa4c229c1a2eb49e0f38ba667084 DependenciesID=0947a3a4061e7892d7b6c53d37128ee7 StaticDependenciesID=34ed14957e42ca6d03c81e8b8163e95a 
+
+Asset Pipeline Refresh (id=9e98527c95af01f44b4ddf082dfa6b75): Total: 2.871 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=1 (actual=1, local cache=0, cache server=0)
+		Asset DB Process Time: managed=1 ms, native=2865 ms
+		Asset DB Callback time: managed=3 ms, native=0 ms
+		Scripting: domain reloads=0, domain reload time=0 ms, compile time=0 ms, other=0 ms
+		Project Asset Count: scripts=23, non-scripts=3
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 2
+	Scan: 15.662ms
+	Collect global state as custom dependencies: 0.744ms
+	ImportOutOfDateAssets: 2847.100ms		ImportManagerImport: 2846.588ms (0.075ms without children)
+		UnloadImportedAssets: 0.108ms
+		ImportSchedulerStart: 0.356ms
+	PostProcessAllAssets: 3.866ms
+		MonoPostProcessAllAssets: 3.448ms
+			AssetPostprocessor.OnPostprocessAllAssets 3.060ms
+			AssetChangedListener.OnPostprocessAllAssets 0.109ms
+	PostAssetChangesProfiler: 0.082ms
+	Untracked: 1.434ms
+
+Importing 'GUID: ccf18ef364061cc4caa50a6f09cf5567 - Path: Assets/CH0069_original_probe.fbx' with importer (FBXImporter)
+Keyframe reduction: Ratio: 2.768295%;
+Keyframe reduction: Ratio: 14.784183%;
+Keyframe reduction: Ratio: 10.457367%;
+Keyframe reduction: Ratio: 6.531690%;
+Keyframe reduction: Ratio: 2.615582%;
+Keyframe reduction: Ratio: 5.766171%;
+Keyframe reduction: Ratio: 19.038210%;
+Keyframe reduction: Ratio: 5.589432%;
+Keyframe reduction: Ratio: 2.855673%;
+Keyframe reduction: Ratio: 8.048652%;
+Keyframe reduction: Ratio: 5.682219%;
+Keyframe reduction: Ratio: 19.148014%;
+Keyframe reduction: Ratio: 11.345447%;
+Keyframe reduction: Ratio: 8.031401%;
+Keyframe reduction: Ratio: 11.139954%;
+Keyframe reduction: Ratio: 11.598624%;
+Keyframe reduction: Ratio: 4.232817%;
+Keyframe reduction: Ratio: 18.638117%;
+Keyframe reduction: Ratio: 12.988343%;
+Keyframe reduction: Ratio: 2.653012%;
+Keyframe reduction: Ratio: 10.578145%;
+Keyframe reduction: Ratio: 17.408560%;
+Keyframe reduction: Ratio: 20.626295%;
+Keyframe reduction: Ratio: 3.703373%;
+Keyframe reduction: Ratio: 12.198065%;
+Keyframe reduction: Ratio: 12.364807%;
+Keyframe reduction: Ratio: 18.577600%;
+Keyframe reduction: Ratio: 2.632051%;
+Keyframe reduction: Ratio: 25.781834%;
+Keyframe reduction: Ratio: 22.772814%;
+Keyframe reduction: Ratio: 10.467429%;
+Keyframe reduction: Ratio: 5.072464%;
+Keyframe reduction: Ratio: 4.107269%;
+Imported 'GUID: ccf18ef364061cc4caa50a6f09cf5567' -> (Import Result ID: 'c12bdd30349eb02f1964de20e5b5104e') in 2.802 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d84caa4c229c1a2eb49e0f38ba667084 DependenciesID=0947a3a4061e7892d7b6c53d37128ee7 StaticDependenciesID=34ed14957e42ca6d03c81e8b8163e95a 
+
+Asset Pipeline Refresh (id=413d25a5c3416724cace49087f5838fa): Total: 2.815 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=1 (actual=1, local cache=0, cache server=0)
+		Asset DB Process Time: managed=1 ms, native=2813 ms
+		Asset DB Callback time: managed=0 ms, native=0 ms
+		Scripting: domain reloads=0, domain reload time=0 ms, compile time=0 ms, other=0 ms
+		Project Asset Count: scripts=23, non-scripts=3
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 2
+	Scan: 9.111ms
+	Collect global state as custom dependencies: 0.227ms
+	ImportOutOfDateAssets: 2803.019ms		ImportManagerImport: 2802.444ms (0.105ms without children)
+		UnloadImportedAssets: 0.151ms
+		ReloadImportedAssets: 0.207ms
+		ImportSchedulerStart: 0.382ms
+	PostProcessAllAssets: 0.647ms
+		MonoPostProcessAllAssets: 0.405ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 0.108ms
+			AssetPostprocessor.OnPostprocessAllAssets 0.067ms
+	PostAssetChangesProfiler: 0.068ms
+	UnloadStreamsBegin: 0.071ms
+	Untracked: 1.894ms
+
+Importing 'GUID: 09d09b2f39a49f541955d6f1bcf18594 - Path: Assets/CH0069_custom_probe.fbx' with importer (FBXImporter)
+Keyframe reduction: Ratio: 6.458929%;
+Imported 'GUID: 09d09b2f39a49f541955d6f1bcf18594' -> (Import Result ID: 'b48068bdbd2416c9b0b6839137d589de') in 0.113 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8089f556470d6fd3ced42815eaa9f561 DependenciesID=1fd3a1cb7d62443cc390b60e9e82402f StaticDependenciesID=c028dd430b925f519946544f0eeed947 
+Asset Pipeline Refresh (id=6f15c53f977d6214dbdc34123d72674d): Total: 0.121 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 09d09b2f39a49f541955d6f1bcf18594 - Path: Assets/CH0069_custom_probe.fbx' with importer (FBXImporter)
+Keyframe reduction: Ratio: 6.458928%;
+Imported 'GUID: 09d09b2f39a49f541955d6f1bcf18594' -> (Import Result ID: 'b48068bdbd2416c9b0b6839137d589de') in 0.104 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8089f556470d6fd3ced42815eaa9f561 DependenciesID=1fd3a1cb7d62443cc390b60e9e82402f StaticDependenciesID=c028dd430b925f519946544f0eeed947 
+Asset Pipeline Refresh (id=25a5ac4e402014f43b65ae22ea6ce8f5): Total: 0.111 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+CH0069_AUDIT {"unityVersion":"6000.6.4f1","probes":[{"file":"CH0069_original_probe.fbx","avatarValid":true,"avatarHuman":false,"skinnedMeshes":3,"vertices":11036,"triangles":10753,"clips":[{"name":"CH0069_Cafe_Idle--ae0d176c197b0c67","length":4.0,"curves":1840},{"name":"CH0069_Cafe_Reaction--5e9e407b5c702323","length":8.0,"curves":1840},{"name":"CH0069_Cafe_Walk--2e9a01d27e018f53","length":1.3333333730697632,"curves":1840},{"name":"CH0069_Exs--3407c015b1e967d8","length":5.900000095367432,"curves":1840},{"name":"CH0069_Formation_Idle--2873ecdfaf7e7834","length":4.0,"curves":1840},{"name":"CH0069_Formation_Pickup--ef0f8552b47f4441","length":11.233333587646484,"curves":1840},{"name":"CH0069_Kneel_Attack_Delay--590f252c1cbb27eb","length":1.3333333730697632,"curves":1840},{"name":"CH0069_Kneel_Attack_End--bc1ad313311da98f","length":0.5333333611488342,"curves":1840},{"name":"CH0069_Kneel_Attack_Ing--da9e15877129ba3a","length":1.0666667222976685,"curves":1840},{"name":"CH0069_Kneel_Attack_Start--950357a55dbdbc5d","length":0.6666666865348816,"curves":1840},{"name":"CH0069_Kneel_Idle--8b0e0826639f459d","length":2.0,"curves":1840},{"name":"CH0069_Kneel_Reload--d2ef1dc74804d7eb","length":2.200000047683716,"curves":1840},{"name":"CH0069_Move_End_Kneel--df796cbffc6a39e0","length":1.5000001192092896,"curves":1840},{"name":"CH0069_Move_End_Normal--1ad25052e59be2d3","length":1.5000001192092896,"curves":1840},{"name":"CH0069_Move_Ing--b98863f4d0d03072","length":0.6000000238418579,"curves":1840},{"name":"CH0069_Move_Jump--a4d536c0753f8ddd","length":1.0,"curves":1840},{"name":"CH0069_Normal_Attack_Delay--df00f02fa6d02486","length":1.3333333730697632,"curves":1840},{"name":"CH0069_Normal_Attack_End--2060fdeb01208997","length":0.5333333611488342,"curves":1840},{"name":"CH0069_Normal_Attack_Ing--8ac4bf18df7db3f","length":1.0666667222976685,"curves":1840},{"name":"CH0069_Normal_Attack_Start--929565be9847430e","length":0.6666666865348816,"curves":1840},{"name":"CH0069_Normal_Callsign--3e506ee236b7ab85","length":1.6666667461395264,"curves":1840},{"name":"CH0069_Normal_Idle--fad5646d10c295b6","length":2.0,"curves":1840},{"name":"CH0069_Normal_Reload--334e47afa6b61f28","length":2.200000047683716,"curves":1840},{"name":"CH0069_Normal_Reload_Random--a167d0830763fa88","length":2.200000047683716,"curves":1840},{"name":"CH0069_Public01--b4ebeecd0d99fba5","length":3.000000238418579,"curves":1840},{"name":"CH0069_Victory_End--29a2d7dfaf40dc6c","length":4.0,"curves":1840},{"name":"CH0069_Victory_End_Random--3a64e4ae723b9d1a","length":4.0,"curves":1840},{"name":"CH0069_Victory_Start--bc60855acac7dc32","length":3.000000238418579,"curves":1840},{"name":"CH0069_Victory_Start_Random--7170060504fd6c33","length":3.000000238418579,"curves":1840},{"name":"CH0069_Vital_Death--8ce19c089b24dff7","length":2.266666889190674,"curves":1840},{"name":"CH0069_Vital_Dying_Ing--781cfce525d1b6ff","length":1.3333333730697632,"curves":1840},{"name":"CH0069_Vital_Panic--b35fd2931e032303","length":1.6000001430511475,"curves":1840},{"name":"CH0069_Vital_Retreat--9dcda8a062deab4c","length":1.6666667461395264,"curves":1840}],"sampledHeadAngle":0.0,"headAngleOnOriginalModel":0.0},{"file":"CH0069_custom_probe.fbx","avatarValid":true,"avatarHuman":false,"skinnedMeshes":3,"vertices":11036,"triangles":10753,"clips":[{"name":"Bip001|Audit_CustomHeadTurn","length":1.0,"curves":1470}],"sampledHeadAngle":7.736643314361572,"headAngleOnOriginalModel":7.736643314361572}],"passed":true}
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CH0069UnityAudit:Run () (at Assets/Editor/CH0069UnityAudit.cs:35)
+
+(Filename: Assets/Editor/CH0069UnityAudit.cs Line: 35)
+
+MonoPathRemapper: Attempts to remap: 1546; Successful remaps: 0
+Serialized file version minimum: 23, current 23
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input Polling Thread exited.
+Input System module state changed to: Shutdown.
+[Licensing::IpcConnector] LicenseClient-fufu-notifications channel disconnected successfully.
+[Licensing::IpcConnector] LicenseClient-fufu channel disconnected successfully.
+Lingering sessions upon destruction of worker manager
+Unity Data Store service was successfully shut down
+UDS shutting down local client system
+Shut down UDS service system complete
+AcceleratorClientConnectionCallback - disconnected - :0
+Cleanup mono
+CodeReloadManager destroyed
+VBCSCompilerPreWarmer: requested VBCSCompiler shutdown
+Checking for leaked weakptr:
+  Found no leaked weakptrs.
+[Package Manager] Server process was shutdown
+##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1791369731852,"processId":23316,"allocatedMemory":10615932,"memoryLabels":[{"Default":158073},{"Permanent":15516},{"NewDelete":77511},{"Thread":4198344},{"Manager":33661},{"VertexData":8},{"Geometry":816},{"Texture":24},{"Shader":830558},{"Material":132},{"GfxDevice":55968},{"Animation":952},{"Audio":1272},{"FreeType":8},{"FontEngine":736},{"Physics":1970},{"Physics2D":16},{"Serialization":33216},{"Input":42840},{"JobScheduler":256},{"TextLib":280},{"Mono":48},{"ScriptingNativeRuntime":1177944},{"BaseObject":48720},{"Resource":1444},{"Renderer":2504},{"Transform":4685},{"File":4416},{"WebCam":616},{"Culling":32},{"Terrain":11442},{"Wind":24},{"STL":40},{"String":450095},{"StaticString":3808},{"Utility":2674806},{"Curl":2675},{"PoolAlloc":2168},{"AI":80},{"TypeTree":14869},{"ScriptManager":12656},{"CodeReload":448},{"RuntimeInitializeOnLoadManager":64},{"Sprites":102},{"SpriteAtlas":120},{"GI":7816},{"Director":8296},{"CloudService":7296},{"WebRequest":949},{"VR":49650},{"SceneManager":608},{"Video":64},{"LazyScriptCache":32},{"Camera":729},{"Secure":2377},{"SerializationCache":9256},{"APIUpdating":10320},{"Subsystems":336},{"VirtualTexturing":57888},{"StaticSafetyDebugInfo":278528},{"Analytics":768},{"Hierarchy":1188},{"UIElements":40},{"CoreStats":14456},{"Identifiers":7152},{"Gui":128},{"EditorUtility":87592},{"VersionControl":8},{"Undo":931},{"AssetDatabase":133766},{"AssetImporter":40},{"EditorGi":328},{"UnityConnect":40441},{"Upm":1912},{"UpmDiagnostics":8},{"AssetCompliance":96},{"DrivenProperties":72},{"LocalIPC":258},{"ProfilerEditor":9746},{"CoreBusinessMetrics":3618},{"Windowing":456},{"Licensing":12756},{"AssetReference":32},{"IPCStream":32}]}

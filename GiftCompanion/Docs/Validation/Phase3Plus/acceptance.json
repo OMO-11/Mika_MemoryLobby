@@ -1,0 +1,2331 @@
+{
+  "passed": true,
+  "phase3PlusTechnicalComplete": true,
+  "userAcceptance": "pending",
+  "verifiedAtUtc": "2026-10-16T13:21:28.541925+00:00",
+  "unity": "6000.3.7f1",
+  "schemaVersion": 8,
+  "build": {
+    "passed": true,
+    "result": "Succeeded",
+    "errors": 0,
+    "bytes": 301565220,
+    "seconds": 14.179747599999999,
+    "unity": "6000.3.7f1",
+    "renderer": "Direct3D11",
+    "flipModelSwapchain": false
+  },
+  "tests": [
+    {
+      "mode": "EditMode",
+      "passed": 69,
+      "total": 69,
+      "endedAt": "2026-10-16 13:03:06Z",
+      "path": "Final4.EditMode.xml",
+      "sha256": "68ea88704ffec3fde00d53820932b49fc61b6dd1c2259a168d7fd70134667406",
+      "bytes": 58102
+    },
+    {
+      "mode": "PlayMode",
+      "passed": 12,
+      "total": 12,
+      "endedAt": "2026-10-16 13:03:29Z",
+      "path": "Final4.PlayMode.xml",
+      "sha256": "e1e0c64fb1d4353d8c2c614b41d873d9edae6a6794ab0cb35009eb136fa0325f",
+      "bytes": 13303
+    }
+  ],
+  "evidence": [
+    {
+      "passed": true,
+      "path": "player_build.json",
+      "sha256": "15f29bbd7828078e288b35c583e18b9260838b744fbbdec8df2af6b17a85a23b",
+      "bytes": 208
+    },
+    {
+      "passed": true,
+      "path": "player_write.json",
+      "sha256": "f2b3fdcd0c4e4efb7e9c6afbca4d5e31214dc55da914b95cb7060ed36aa5b319",
+      "bytes": 1045
+    },
+    {
+      "passed": true,
+      "path": "player_restore.json",
+      "sha256": "5319bd3cca964213432f2e37afe932a2c9a0845752f94fee80d2906de9ac64e8",
+      "bytes": 628
+    },
+    {
+      "passed": true,
+      "path": "player_nokey.json",
+      "sha256": "6cf72b40314125b2491618047c30938e4b8220f930ccad9cf42b08195191d413",
+      "bytes": 665
+    },
+    {
+      "passed": true,
+      "path": "Window/player_probe.json",
+      "sha256": "4aaa35b1a393a72d1088a15ac0cc38c784f044412260cee2aa1e7ac97bbc1963",
+      "bytes": 692
+    },
+    {
+      "passed": true,
+      "path": "Window/window_composition.json",
+      "sha256": "26e73cbb9b4a7636ebd1536d0c9d150eaa003c178b5a8e7fc10dfd8c6b6adfef",
+      "bytes": 1411
+    },
+    {
+      "passed": true,
+      "path": "visual_review.json",
+      "sha256": "e6d5f21448ea4bb3d576f507bddcc1614418b8699949198222a26d7695c00bc7",
+      "bytes": 1555
+    },
+    {
+      "passed": true,
+      "path": "static_review.json",
+      "sha256": "29cc061a3dc2c5265226616871310774487d7d62670bb799f02285e819b69cb2",
+      "bytes": 403
+    },
+    {
+      "path": "player_run.json",
+      "sha256": "620a86c266c78a3ac3c274fef6daef1f34213a93c8115e75107f7920602f7192",
+      "bytes": 184
+    },
+    {
+      "path": "default_music.json",
+      "sha256": "25b2021daa5abbaa7cd93ba2d91bd34d11c064e0a831f59d11e6de25fbd67c95",
+      "bytes": 738
+    },
+    {
+      "path": "file_provider_review.json",
+      "sha256": "44fb155db61da1d5ffcca4eec98b800da68cb1be5f3f21ce884e03f4baf7a3d1",
+      "bytes": 599
+    }
+  ],
+  "binaries": [
+    {
+      "path": "GiftCompanion.exe",
+      "sha256": "4bf762016829b0c975960cf300aac5a5bb1f84d25745f2aa8f4a508f9af5243f",
+      "bytes": 667648
+    },
+    {
+      "path": "GiftCompanion_Data/Managed/GiftCompanion.Core.dll",
+      "sha256": "171fc11e11b38c6fbf4975bc0a5a26d7fe5d9e5138cfb08ec25e3946e9617b4f",
+      "bytes": 226816
+    },
+    {
+      "path": "GiftCompanion_Data/Managed/GiftCompanion.Runtime.dll",
+      "sha256": "0accf48f735a2516c3083d23a2c4f42dd5f83c47e4d095d18e0096311d93e6a4",
+      "bytes": 201216
+    }
+  ],
+  "licenses": [
+    {
+      "path": "Licenses/NotoSansCJK-OFL.txt",
+      "sha256": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2",
+      "bytes": 4301
+    },
+    {
+      "path": "Licenses/NotoSansCJK-Notice.txt",
+      "sha256": "3005e77560b2d4b2fb38159cdb0adbf06b40f5bfdbe5065e6274a0aa25551681",
+      "bytes": 344
+    },
+    {
+      "path": "Licenses/Spine-Runtimes-License.txt",
+      "sha256": "b7d2b2b56859642e036e7ea8da16c5751c51f61f7cf02ac085de0d68ddfa9dac",
+      "bytes": 1730
+    }
+  ],
+  "sources": [
+    {
+      "path": "Assets/App/AgentPet/Agent/Permissions/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "Assets/App/AgentPet/Agent/Permissions.meta",
+      "sha256": "30c1d4e8d19622ceaa8909116884a47128322ce39ce634a37dbabc40046a5f72",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/App/AgentPet/Agent/ToolCalling/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "Assets/App/AgentPet/Agent/ToolCalling.meta",
+      "sha256": "259d138e82b68243f2097ca185e5f4bd58b69dc872908ad3bc5e117569904f0b",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/App/AgentPet/Agent/Tools/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "Assets/App/AgentPet/Agent/Tools.meta",
+      "sha256": "8e7d1d4a0cc8f1aaeada47e491de41be9cafec91b248c1436f93e07c9565b485",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/App/AgentPet/Agent.meta",
+      "sha256": "4e4e6ad1cf7418207b83a9ad99428fe04c90b418bfdbb7ee9c2c86b6f4087067",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/App/AgentPet/Animation/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "Assets/App/AgentPet/Animation.meta",
+      "sha256": "7cbde7f2eb7f72c37b085ab743504974dab29f37efa31f1c55b01404810da447",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/App/AgentPet/Interaction/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "Assets/App/AgentPet/Interaction.meta",
+      "sha256": "c1f0411b1abbf4868540db503e8e3f42fd2bacccd36d5757fb03794cf3ed53c9",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/App/AgentPet/PetPresentation.cs",
+      "sha256": "a15721b0bfc5eb86961c9b45b218b45c2bb6ba88197ff9bf59d616c9ae3a687e",
+      "bytes": 1675
+    },
+    {
+      "path": "Assets/App/AgentPet/PetPresentation.cs.meta",
+      "sha256": "693009a36c7416ff2b6558b5da281197e86ee1ea33c3c32b52399ca9c5d95efd",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/App/AgentPet/Runtime/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "Assets/App/AgentPet/Runtime.meta",
+      "sha256": "6de9a7df6d602d774f2d763910e800ac4d8cae4f8b8dc82b1e445dbfde669ee5",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/App/AgentPet/UI/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "Assets/App/AgentPet/UI.meta",
+      "sha256": "8ff0a45e78aa31136d1a3dc6b25fc320f2010dfad1a63d7ede928481100c36b1",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/App/AgentPet/Window/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "Assets/App/AgentPet/Window/DesktopWindowPrototype.cs",
+      "sha256": "09d95c7f399b445970370c020cea7c5b536403e911c8667f5cad586aa2af2086",
+      "bytes": 2195
+    },
+    {
+      "path": "Assets/App/AgentPet/Window/DesktopWindowPrototype.cs.meta",
+      "sha256": "dd74f9e46b8857e84ade461e9113be804a66980c93b876cf94b97c6066ed5ee4",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/App/AgentPet/Window.meta",
+      "sha256": "3a6e44dbcbc948f4ab0510ed0004a7b371c30d06bfd22e28f6a51d7c4d767364",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/App/AgentPet.meta",
+      "sha256": "40f4e870316d036625268bff74b98e2d11fb78e0809fbd80725801d59e885135",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/App/Bootstrap/AppController.cs",
+      "sha256": "3302dbc1afa65e8d0033216cf03191e4fc985fc98eab13a8f54a4619bd320d8f",
+      "bytes": 4616
+    },
+    {
+      "path": "Assets/App/Bootstrap/AppController.cs.meta",
+      "sha256": "305a9c79053104aeafafe418374af00fafc45758cf2415298fb4181fad08b0a7",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/App/Bootstrap/AppRoot.cs",
+      "sha256": "136ca62ae189c23f4d9060b23e5c1505e4f960640a5c0efa6522e980eae9782e",
+      "bytes": 12137
+    },
+    {
+      "path": "Assets/App/Bootstrap/AppRoot.cs.meta",
+      "sha256": "6037448c119a91c198cb1898c071b80abc07fc084d81c96b2797e7cb4ca45240",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/App/Bootstrap/AppRoot.prefab",
+      "sha256": "8f886d00fb206c80e6e42e3d8591431999a393ada45f5b027eca3f1a697391b5",
+      "bytes": 2037
+    },
+    {
+      "path": "Assets/App/Bootstrap/AppRoot.prefab.meta",
+      "sha256": "a9ffba41cc7992f92cd2bc0be0041e6c9dd7a2d884019b29d4a3d164275d2a4a",
+      "bytes": 154
+    },
+    {
+      "path": "Assets/App/Bootstrap/BootstrapEntry.cs",
+      "sha256": "d7195b3a62e666eeacfd49ad74f4d15a5206e88c2883df79efed49a0b681767f",
+      "bytes": 801
+    },
+    {
+      "path": "Assets/App/Bootstrap/BootstrapEntry.cs.meta",
+      "sha256": "f305b1e7756dae9c16fe85e98299f2114bf03e2bcf0383df018512b57042b4e3",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/App/Bootstrap/SingleInstanceGuard.cs",
+      "sha256": "013d841467597872cb9156ba8d3d7ae87d51e9eab7635b6325e41097034903b9",
+      "bytes": 737
+    },
+    {
+      "path": "Assets/App/Bootstrap/SingleInstanceGuard.cs.meta",
+      "sha256": "a2938fbf450ecaac3dfc2bc54e785f0a76ae3a5eff467968b4f6526cd67fbc8e",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/App/Bootstrap.meta",
+      "sha256": "5b4d206928b45912f433dc217cdb7a0cc69ba506e320423842a0881a2d4aa83f",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/App/Companion/BGM/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "Assets/App/Companion/BGM/BgmFilePlayer.cs",
+      "sha256": "8225c6affa2ebcb1b31ff28a0a76d65ca29af1cd9d4543ba25686ef80fc4dce3",
+      "bytes": 4226
+    },
+    {
+      "path": "Assets/App/Companion/BGM/BgmFilePlayer.cs.meta",
+      "sha256": "6e7d65847ad0b9ad2ccec3c0d6eb064256a2b1041a957f4485e8276fb21199de",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/App/Companion/BGM/BgmManager.cs",
+      "sha256": "8ca4c83dbdb835f9998938bf22d8a4d60c4d18c7df179fe981126936f65e0f0d",
+      "bytes": 5856
+    },
+    {
+      "path": "Assets/App/Companion/BGM/BgmManager.cs.meta",
+      "sha256": "32294e74d98bc463617e35539b0838c97279495ffa4f76c7178056e9e6fcbd17",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/App/Companion/BGM.meta",
+      "sha256": "5adcd207c332da139bf581dcc27035b892ac380925171b51932cbab00bff9a2b",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/App/Companion/CompanionLibraryPanels.cs",
+      "sha256": "18850ebefe2a882762d7033dccef964d08d7ac573e86cfe72e6f1113ec985e02",
+      "bytes": 21575
+    },
+    {
+      "path": "Assets/App/Companion/CompanionLibraryPanels.cs.meta",
+      "sha256": "976829724df974d37e54d57e74ea9198f9723fa4c23748fe3c1d15192f71b818",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/App/Companion/CompanionPanels.cs",
+      "sha256": "1b970be7b4335c5a8cc1413e701859cb6a1a6d02b1a2dfbce83317a4651a0562",
+      "bytes": 18317
+    },
+    {
+      "path": "Assets/App/Companion/CompanionPanels.cs.meta",
+      "sha256": "6dc77e81b5aad167e65ddc24d2cdf122ba973d551ed25b6b664d201f4611de47",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/App/Companion/CompanionPresentation.cs",
+      "sha256": "cba0d6ce6ad692f47c38af9b9ba3bc880e4a62255e7ff0e5c97cf1ddb23d3d8a",
+      "bytes": 4998
+    },
+    {
+      "path": "Assets/App/Companion/CompanionPresentation.cs.meta",
+      "sha256": "0782156f6ec0dac188c0b9d85202a5e11d2c0199199fb17ff285d7e09c45521d",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/App/Companion/CompanionScreen.cs",
+      "sha256": "4cf590d0e657055b115e8bd2d4caf597c2028805906134949d0108dd1c10b5d2",
+      "bytes": 14825
+    },
+    {
+      "path": "Assets/App/Companion/CompanionScreen.cs.meta",
+      "sha256": "545bf4d97ed7c1815e424c786381b072ba71d75bd8276f3a3caee79465ff760b",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/App/Companion/CompanionSpaces.cs",
+      "sha256": "cc46ad83c27d565e2cd6b92c5734ec043a53f4174c9427f17b18b1f591398f02",
+      "bytes": 7503
+    },
+    {
+      "path": "Assets/App/Companion/CompanionSpaces.cs.meta",
+      "sha256": "561c5c72a517512dddcf007a31e81590348eba2bbd582064d7c5260b03fed4cf",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/App/Companion/CompanionTone.cs",
+      "sha256": "629fc9f0e9da9535e3e967f0d62410ab3fc280b837ed6731c2f0d7e84645407d",
+      "bytes": 1238
+    },
+    {
+      "path": "Assets/App/Companion/CompanionTone.cs.meta",
+      "sha256": "e1a86638c5ec7fff25558048ff3e38879b31bf2a95a3dec23b50f88bcffb4b11",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/App/Companion/CompanionTone.shader",
+      "sha256": "4fb2a46af85c256bf1aff061424f3dfabee23bcebede308a3f221a057b18e099",
+      "bytes": 791
+    },
+    {
+      "path": "Assets/App/Companion/CompanionTone.shader.meta",
+      "sha256": "90de411ba58dce2a613b75e343bce78553ca1e3272a6be212fe9284ac35a3db4",
+      "bytes": 204
+    },
+    {
+      "path": "Assets/App/Companion/Dialogue/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "Assets/App/Companion/Dialogue.meta",
+      "sha256": "893e0a2a0283bcd302054a3437574eccd53e723edb5addb646c200b5f4aaeb9e",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/App/Companion/Runtime/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "Assets/App/Companion/Runtime.meta",
+      "sha256": "4f37665a9e04a291be0b4264b80244076d5f67bb2d5394482e8c75a423e2f5dd",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/App/Companion/Spine/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "Assets/App/Companion/Spine.meta",
+      "sha256": "bab39a446c52b2b8893aa4b5af10ceaae35923036f6066a043006ee72a43197d",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/App/Companion/SpineStraightAlpha.shader",
+      "sha256": "6c4398a17860b8e1d4d0ebbb60dc116e75e942fc344ce38fc2a7f182fc6f46b7",
+      "bytes": 1411
+    },
+    {
+      "path": "Assets/App/Companion/SpineStraightAlpha.shader.meta",
+      "sha256": "beb8b2cd4076b83c355c083a97b1561af6c25e710704c0c0b154b93e59904dcb",
+      "bytes": 204
+    },
+    {
+      "path": "Assets/App/Companion/UI/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "Assets/App/Companion/UI.meta",
+      "sha256": "cfcd958b3d6bc25f16412c08b1138fcf6d9cc31b36925807406aec40dc3806ef",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/App/Companion/Voice/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "Assets/App/Companion/Voice.meta",
+      "sha256": "7ac341742946c3d68ee25771a41c2c9bfb788da5b1e8aa0cffbcc3539eda9a60",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/App/Companion.meta",
+      "sha256": "68f85aeb7f6411610bddb7ce1ea485cbfac99ad7ce166543b0f805c2917cf894",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/App/Core/AssemblyInfo.cs",
+      "sha256": "91e32ce607be868db3afd0914bbe61166d8c748274b015b96aba806e4edbb808",
+      "bytes": 101
+    },
+    {
+      "path": "Assets/App/Core/AssemblyInfo.cs.meta",
+      "sha256": "3838899a430b3e8752c6d751fe46add32744084b972324da21b91a8874ea552f",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/App/Core/Audio/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "Assets/App/Core/Audio.meta",
+      "sha256": "a9f1b740cf86d7dd1cade23112cd7b00cd66f329be7d2bb050da5bd1df594a3d",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/App/Core/Character/CharacterCore.cs",
+      "sha256": "d846bbe495dd9604d90515885e86e0a4948391a3822945e580c42c3aa77fb6b7",
+      "bytes": 15465
+    },
+    {
+      "path": "Assets/App/Core/Character/CharacterCore.cs.meta",
+      "sha256": "6820e70e5ca6d57736f8c8e3d0e3a90f420f002c84b8eeff42959767dc07e517",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/App/Core/Character/CharacterModels.cs",
+      "sha256": "1d81a0b68dd681fa0c39725ce5905fa06c69aa7eb6bf30a29c327751a195f7b6",
+      "bytes": 2505
+    },
+    {
+      "path": "Assets/App/Core/Character/CharacterModels.cs.meta",
+      "sha256": "97288b64ad13a9e80cd81d8d942f3650837c5a8bb991541d1a25bfed19b8eb1d",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/App/Core/Character/CompanionInteraction.cs",
+      "sha256": "a517ed075cd5de375091a10045b39200c9ee69c7e4c4d8a30794c9502a1206f1",
+      "bytes": 579
+    },
+    {
+      "path": "Assets/App/Core/Character/CompanionInteraction.cs.meta",
+      "sha256": "8cf7923b1e084ccc8bf595707cb0504e198c66cd555a2408bb5fa5426ddd291d",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/App/Core/Character/DialoguePresentation.cs",
+      "sha256": "e7ac0ec4fc658ad00ac594a2e9f1fce4871c8ad96be05c69257214a16330de57",
+      "bytes": 4553
+    },
+    {
+      "path": "Assets/App/Core/Character/DialoguePresentation.cs.meta",
+      "sha256": "4bb77919a6fe98e9c815b9b9c4a1066803056b37e0df7f053457f9aa3f999332",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/App/Core/Character.meta",
+      "sha256": "fe09f4018cb6d853dfcf62ca4c70af7753b68162e1afc421ab17938d9cf9f18f",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/App/Core/Config/ConfigService.cs",
+      "sha256": "4217b1438f92530cfe620c64cab3f02762f50941afcbe2aeadce27d90dc5ba61",
+      "bytes": 7989
+    },
+    {
+      "path": "Assets/App/Core/Config/ConfigService.cs.meta",
+      "sha256": "8c2ede74a66fdc4c81aa39aa773e0d276852ba4145d7235f3285671043ffac09",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/App/Core/Config/LibraryFiles.cs",
+      "sha256": "212b2b8e590b76677e914507b592b6bc2b0f91f7d257127448a15e6bfc752f57",
+      "bytes": 21785
+    },
+    {
+      "path": "Assets/App/Core/Config/LibraryFiles.cs.meta",
+      "sha256": "4af4ece62e7e1d6099f41510b16f107c00dd5cea4af0371f2440693f33a8cc39",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/App/Core/Config/LocalSecrets.cs",
+      "sha256": "739be177a3e6ee473f6054c019fd7b658248e6f8b3d68d97c07f8225aeca8685",
+      "bytes": 2489
+    },
+    {
+      "path": "Assets/App/Core/Config/LocalSecrets.cs.meta",
+      "sha256": "a5b1306cd647dd97c816143a1f6dcc3ac6453d13b12e0e49347137e145887574",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/App/Core/Config/UserDataPaths.cs",
+      "sha256": "fbf8381ad754fe911a1d123ae68e330e6bb4c576963237943cd194a1aec9ed00",
+      "bytes": 1713
+    },
+    {
+      "path": "Assets/App/Core/Config/UserDataPaths.cs.meta",
+      "sha256": "4416708ad74773311a870bd6d2073ebd2286b29ff38ec2b8a0a46ee1d1a57f7d",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/App/Core/Config.meta",
+      "sha256": "68bb5c7d3dcc0fcb8bed9a28dbd2f9a5f8e89ea975783f56cbd97b96777e3d9b",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/App/Core/GiftCompanion.Core.asmdef",
+      "sha256": "86861aa3a2c25cb33386b37bc306dec795cc754b1eb165e37734d73b9e4d0de1",
+      "bytes": 149
+    },
+    {
+      "path": "Assets/App/Core/GiftCompanion.Core.asmdef.meta",
+      "sha256": "1cfb5e59c1c64a478d95d95c0b5d7048c756dec8f9c4befdbc21fb72d007d9fd",
+      "bytes": 166
+    },
+    {
+      "path": "Assets/App/Core/LLM/DeepSeekApiClient.cs",
+      "sha256": "647cb39d62469bded7c250f01a1857bf8dc0f7bd74fd08aea2e11bedec260711",
+      "bytes": 8972
+    },
+    {
+      "path": "Assets/App/Core/LLM/DeepSeekApiClient.cs.meta",
+      "sha256": "58d6df68de69fbd9e653be49a920758585b3720e60deedd0c73af2d5ae63015c",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/App/Core/LLM/LLMService.cs",
+      "sha256": "e8fcdc5a3c1e127296d8a66b80c8e7c3da34577423368eb97f42e496bc80f0c0",
+      "bytes": 5117
+    },
+    {
+      "path": "Assets/App/Core/LLM/LLMService.cs.meta",
+      "sha256": "b2113f77dcd0740488d8b44532bbd604536afd1c7d9841bf62462ec0b1585757",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/App/Core/LLM.meta",
+      "sha256": "85dab055452fd543063a02195e2b2606ef7660e7940f7ad9657ace5e5ad52f4d",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/App/Core/Logging/Logger.cs",
+      "sha256": "a243659cd25bb521bee72d23319bb1dfaed908551c6adff4e23faa3238f7bba3",
+      "bytes": 1412
+    },
+    {
+      "path": "Assets/App/Core/Logging/Logger.cs.meta",
+      "sha256": "dc59be7b964ebbcbb66d52b0e08bbceb2f1c0678137748141577fd0e7acd6d4a",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/App/Core/Logging.meta",
+      "sha256": "a804fe7be8b38f19e8521fdd0b5b60318e9ed343a1525f143fda26a723a3469c",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/App/Core/Memory/ConversationHistoryService.cs",
+      "sha256": "ef2cd4acd76df088aea25c68e2edeaf6030dd33c541c02db86a2e98fd293e553",
+      "bytes": 1364
+    },
+    {
+      "path": "Assets/App/Core/Memory/ConversationHistoryService.cs.meta",
+      "sha256": "5844a8b07e5f03a15e7db41cf36e70a002b7d73cf0ddb1f8d1653aa0c47e6cb3",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/App/Core/Memory/ConversationModels.cs",
+      "sha256": "65b53ea7d2b7053fc26c94ec0b23f1c96ae8883845296f79c639577a79a4a63d",
+      "bytes": 1744
+    },
+    {
+      "path": "Assets/App/Core/Memory/ConversationModels.cs.meta",
+      "sha256": "9850defd175de29811dfc10fa6fd66b650ea938a05121b01f8fb2d69616b1349",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/App/Core/Memory/MemoryExtractor.cs",
+      "sha256": "e53a665c1d2025ded9e1c545d6638b85a8f0a86f8c8c0d829f7652800e436466",
+      "bytes": 6218
+    },
+    {
+      "path": "Assets/App/Core/Memory/MemoryExtractor.cs.meta",
+      "sha256": "cb10bdab02c1e2b0756279e9b5608c5565dbf216bbba233366a28f20d8ff5b41",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/App/Core/Memory/MemoryModels.cs",
+      "sha256": "7cb7e1e695692416fbb74de903177bb4ac10103a0809dd626536d8caeb78de42",
+      "bytes": 2974
+    },
+    {
+      "path": "Assets/App/Core/Memory/MemoryModels.cs.meta",
+      "sha256": "d852eaa3757fd6972f921e97d93121fe5fc385f6b503bbc0af6f756fca8b4581",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/App/Core/Memory/MemoryService.cs",
+      "sha256": "2a413a0c660069f585d442ed1256faeebd988ad54d8e020f098086314948ba57",
+      "bytes": 10545
+    },
+    {
+      "path": "Assets/App/Core/Memory/MemoryService.cs.meta",
+      "sha256": "5146a8d6584b2f715088bdd31085898c29df196091d940e3e7f47b9b4f40dff9",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/App/Core/Memory/PromptBuilder.cs",
+      "sha256": "c1b8d89799dffadd23d489246c7fc0b26f8eb141f5cc2fb015e386979024b8fd",
+      "bytes": 5203
+    },
+    {
+      "path": "Assets/App/Core/Memory/PromptBuilder.cs.meta",
+      "sha256": "41cb9cd3d6e710dbfaa6004cb14145be7ce753d71f6397ec4cecdb90c36e2dcc",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/App/Core/Memory/RelationshipDiary.cs",
+      "sha256": "cbfe2c710e55d5161d29a52a9c05342b13ece1080e2406b2e862109b9e90a49d",
+      "bytes": 11265
+    },
+    {
+      "path": "Assets/App/Core/Memory/RelationshipDiary.cs.meta",
+      "sha256": "9a324d8d059f2ffd89f6fd67e2df3ec5409f9832ccc4acbdfd3e353cca670f78",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/App/Core/Memory/SessionSummarizer.cs",
+      "sha256": "9cdb91fa16341c8088ad3820ad9356a9f755aefbdfcd520d91d965f7cd2d568f",
+      "bytes": 1678
+    },
+    {
+      "path": "Assets/App/Core/Memory/SessionSummarizer.cs.meta",
+      "sha256": "1bb4cc86dce9e8f4742e7d6c36cd7f4b8a60a1e7a71003f8ec62c5d530a256b7",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/App/Core/Memory.meta",
+      "sha256": "78c5f26da713981b058785e8bf319fed71ab0a3482802618c84ddf8ea423e8f2",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/App/Core/Persistence/ConversationHistoryStore.cs",
+      "sha256": "3702f9aed0a72e9a53e72bb06c4c2c86b449fd1fb441b3639d7586c765f4a438",
+      "bytes": 1655
+    },
+    {
+      "path": "Assets/App/Core/Persistence/ConversationHistoryStore.cs.meta",
+      "sha256": "f6b91fe85feaeaeca72106e09b29d4c0bc2b7aea29b65f6a8fe9bb33d21ab07e",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/App/Core/Persistence/ConversationStore.cs",
+      "sha256": "61bf77f4ababb470e104d7a3846102407682a1954015df769db30a4bcfc39e7a",
+      "bytes": 13148
+    },
+    {
+      "path": "Assets/App/Core/Persistence/ConversationStore.cs.meta",
+      "sha256": "e8f3b9f380789d3e28a6a7ac023efe4d23bb7b579654cea2d07f7a4901de5d05",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/App/Core/Persistence/DatabaseService.cs",
+      "sha256": "dbd6fc4e3289b002304f53fe5af7f06d85a0b012994824a94aa9bda9e6f75600",
+      "bytes": 11182
+    },
+    {
+      "path": "Assets/App/Core/Persistence/DatabaseService.cs.meta",
+      "sha256": "f88a5e32bf21312b0a66b436968fae4733f3022118ffcee4934833c712755e91",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/App/Core/Persistence/DiaryStore.cs",
+      "sha256": "d2b3731dffcd2bf979bf2f7b5fd882adb58d9235699da2185517be7e1374d142",
+      "bytes": 6234
+    },
+    {
+      "path": "Assets/App/Core/Persistence/DiaryStore.cs.meta",
+      "sha256": "4aad2d97d546d54dab582a83764a33fb9970f6fd474d77f357796af8fdaa029d",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/App/Core/Persistence/MemoryForgetting.cs",
+      "sha256": "862e8b396d237179f12f14bf573da1a43c41a7f65a84adc2650a3539dd115db3",
+      "bytes": 6215
+    },
+    {
+      "path": "Assets/App/Core/Persistence/MemoryForgetting.cs.meta",
+      "sha256": "95dc097bb4e3e9dc139882ffd2c3c30523c6ba12e22c9fb0fe44fd4206fcd85c",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/App/Core/Persistence/MemoryRetrieval.cs",
+      "sha256": "4e76f7f96454e0d7c05928c17bb9d293611abf382894b24eb32350a27e75ff5c",
+      "bytes": 6950
+    },
+    {
+      "path": "Assets/App/Core/Persistence/MemoryRetrieval.cs.meta",
+      "sha256": "2131a56e2ea84f0033bb98684033b9653f5b3f82acd1c9b1d9ddaf067f4d876c",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/App/Core/Persistence/MemoryStore.cs",
+      "sha256": "dca18a9980ed7546cbd2e3d5ce559142ce0fdba643b8fd2c9edd34340730d4a2",
+      "bytes": 15843
+    },
+    {
+      "path": "Assets/App/Core/Persistence/MemoryStore.cs.meta",
+      "sha256": "e113278e84742267a625f87eb99632cf8d26f87c608809044944cf49752bf608",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/App/Core/Persistence/SessionSummaryStore.cs",
+      "sha256": "6d12ea455d04da5c29dec3a855e6dd307f4492057982e90003ccc7b0936945e6",
+      "bytes": 7539
+    },
+    {
+      "path": "Assets/App/Core/Persistence/SessionSummaryStore.cs.meta",
+      "sha256": "d0892c89749bb9367726403f6951ac0a686f7db104da3e033138ba91a3b8eb72",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/App/Core/Persistence/SqliteConnection.cs",
+      "sha256": "97518cdee140dd60f5e4ab7ecd754d3397293c8fcf3615b7d1ceed40ebc33a21",
+      "bytes": 6399
+    },
+    {
+      "path": "Assets/App/Core/Persistence/SqliteConnection.cs.meta",
+      "sha256": "d188567d6ec493701ab66548c0a1ee4a71ea6f55f9dc0d98d42f44707639ec09",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/App/Core/Persistence/SqlitePhase0Store.cs",
+      "sha256": "6bb540871601fb79481ac0d2b7a7037810c5e7d54061cd5c6369ab6059f89b22",
+      "bytes": 9707
+    },
+    {
+      "path": "Assets/App/Core/Persistence/SqlitePhase0Store.cs.meta",
+      "sha256": "165e7272bc0ad987cd79963a05960aaabdfe713deffb56bedd414394ff2527d5",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/App/Core/Persistence.meta",
+      "sha256": "8419a5fd2441bee3a193697be7e319f60ed6b058f778f1bcfe13fd86910d87d6",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/App/Core.meta",
+      "sha256": "0249eeb82611a3d2ac393496d3d98a132176e5069360335063bf9012f01e69f2",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/App/GiftCompanion.Runtime.asmdef",
+      "sha256": "73efeccae4c02ec03a8126fdcfebb3d6c546e4a794195aaee7a6c8fd12b950c5",
+      "bytes": 295
+    },
+    {
+      "path": "Assets/App/GiftCompanion.Runtime.asmdef.meta",
+      "sha256": "91df5e05232ca4770d3a4f78ec786abac8574688bfcb988e6be55506fe7bfa82",
+      "bytes": 166
+    },
+    {
+      "path": "Assets/App/RuntimeAssemblyInfo.cs",
+      "sha256": "cc26c80813459985613276367358f3ca42531ffb41103236b8617038b039a041",
+      "bytes": 101
+    },
+    {
+      "path": "Assets/App/RuntimeAssemblyInfo.cs.meta",
+      "sha256": "a992e6d57cfa05dc812b083dcfd4f631984a3c7ab42249e60a7b51428b17f751",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/App/SharedUI/CompanionUIFactory.cs",
+      "sha256": "ae128b3e103a36f3d2f905fd430d14bab5227ff43b89a3cb1784064537f84a93",
+      "bytes": 4024
+    },
+    {
+      "path": "Assets/App/SharedUI/CompanionUIFactory.cs.meta",
+      "sha256": "3c4b57a29c1c2e6d7103dc4c1899a54710c9b4528ed6ca43b107c259e6479f31",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/App/SharedUI/Fonts.meta",
+      "sha256": "8ae7a17a69c8f2fc968a0dd4840b6ff51c3d29d61a4620b880a9b8fb9fcdcbec",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/App/SharedUI/HomeScreen.cs",
+      "sha256": "5faa4e12d0d81d7bb93adcf4536f07ed042736c96b77b6af1b788dbbeada46bf",
+      "bytes": 1370
+    },
+    {
+      "path": "Assets/App/SharedUI/HomeScreen.cs.meta",
+      "sha256": "56c8165dbfbb7a4119554ef82a4e44e5f1097ecafd6d2a71ab1942f1761b2dd7",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/App/SharedUI/ModeSceneController.cs",
+      "sha256": "4c7db4c8b50d4bc62dacdd8c687fa51a62a570ed56f399ae79af37792df721b9",
+      "bytes": 2247
+    },
+    {
+      "path": "Assets/App/SharedUI/ModeSceneController.cs.meta",
+      "sha256": "fc9817b2f92acfab9edda24642d7c43b22d121e27352823c0b1ec27025d8ffe3",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/App/SharedUI/PlayerFiles.cs",
+      "sha256": "f7410055335daf559abd509664a3923ca6f3e3a01acc534dac1176ca2f8aa4a4",
+      "bytes": 3426
+    },
+    {
+      "path": "Assets/App/SharedUI/PlayerFiles.cs.meta",
+      "sha256": "c7a89b3a949684863ba6f27ef8b2d514b8792c95e5caba989715c9c3aa7b7a02",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/App/SharedUI/Resources/Fonts/NotoSansCJKsc-Regular.otf",
+      "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b",
+      "bytes": 16437364
+    },
+    {
+      "path": "Assets/App/SharedUI/Resources/Fonts/NotoSansCJKsc-Regular.otf.meta",
+      "sha256": "092f6c53e7e78249c4494d9351f795f9ac031a2a147939a6fa7230872fb5cb70",
+      "bytes": 481
+    },
+    {
+      "path": "Assets/App/SharedUI/Resources/Fonts/OFL.txt",
+      "sha256": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2",
+      "bytes": 4301
+    },
+    {
+      "path": "Assets/App/SharedUI/Resources/Fonts/OFL.txt.meta",
+      "sha256": "c3949fff33ca11b95afff873af720a6dbcb51b788b8f05237ff9635c1a3c7174",
+      "bytes": 158
+    },
+    {
+      "path": "Assets/App/SharedUI/Resources/Fonts.meta",
+      "sha256": "07ad742a0cdd6b97287fb28be8998250474d8b5d97a2bd3c8d2ab85bd6cc1d14",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/App/SharedUI/Resources.meta",
+      "sha256": "37f46240a6612f75e505cca4e3f603f7b04fb0eceecbcd452f49c79f40cf28ac",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/App/SharedUI.meta",
+      "sha256": "575a9be9f788bc987ce5e54855a1ea4e837e22316e7744a9fe7a83b87888cb62",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/App/Validation/Phase0PlayerProbe.cs",
+      "sha256": "176a88664dabdc152a51e475bda6e41e35c0925f01c75406bfbe229943c4bbf8",
+      "bytes": 6305
+    },
+    {
+      "path": "Assets/App/Validation/Phase0PlayerProbe.cs.meta",
+      "sha256": "aad9d4024ff83a4606a8652089c3af7959d29cbd338108bdb70d9fa3d5b296f6",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/App/Validation/Phase1PlayerProbe.cs",
+      "sha256": "d0b3853f932f16e733083934b9e742a61f191d3731e69d0aabe50fbed0d2a353",
+      "bytes": 7503
+    },
+    {
+      "path": "Assets/App/Validation/Phase1PlayerProbe.cs.meta",
+      "sha256": "b5e762b7802aaf9dcc22bb29f263af9131d8a021625c19cd9bd65687533e2fea",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/App/Validation/Phase2AcceptanceRunner.cs",
+      "sha256": "c5d24f8d616c5ccf6fceda336f50398160ddf375fb07f11eeb0e2007162f3fdf",
+      "bytes": 7299
+    },
+    {
+      "path": "Assets/App/Validation/Phase2AcceptanceRunner.cs.meta",
+      "sha256": "56747adf8be0ee910a462de3e6ca93dbe2c9c4ee98d2d1c1f012b52ae42ee2a5",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/App/Validation/Phase2DevelopmentPanel.cs",
+      "sha256": "64308950bb9a7ad84bf32520ec426a279a0b6f22c5d3faee68b49ea537e2c9b9",
+      "bytes": 5134
+    },
+    {
+      "path": "Assets/App/Validation/Phase2DevelopmentPanel.cs.meta",
+      "sha256": "301bc2679dca7d53fc7bff9ebe66f74b072da2ad8b87ba842e14e382b64e915e",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/App/Validation/Phase2PlayerProbe.cs",
+      "sha256": "9c3d64a9c85daac105e66c50033a28d08d1ec0e41d71c1e45677ee9af426253d",
+      "bytes": 2940
+    },
+    {
+      "path": "Assets/App/Validation/Phase2PlayerProbe.cs.meta",
+      "sha256": "bac71ef347e4d95ad4982e544b7f5b8a8bb58c98f0e8271c5ace799a8400a66b",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/App/Validation/Phase3PlayerProbe.cs",
+      "sha256": "bad307b099b988d719dd22cddc6d214bb86fddffa108ddf604cc1f1d3675f3fc",
+      "bytes": 8715
+    },
+    {
+      "path": "Assets/App/Validation/Phase3PlayerProbe.cs.meta",
+      "sha256": "c8a2f998faad90dd8f620e29a6e3c4caa18f47dbbea6f0595985df9e61454566",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/App/Validation/Phase3PlusPlayerProbe.cs",
+      "sha256": "0037a844162d392227b98a2d30347e065103c32d5e45019efad8dd871e8504a7",
+      "bytes": 14091
+    },
+    {
+      "path": "Assets/App/Validation/Phase3PlusPlayerProbe.cs.meta",
+      "sha256": "e5596de4ce48e4c4796f0120f9b6d3cb09b7a226fe8842dc8624b3a4ef58f224",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/App/Validation.meta",
+      "sha256": "61ff78946f12995d0027f91723e78b0830a1fea8cbe2c245a47ea23374614cfa",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/Editor/CharacterAssetSetup.cs",
+      "sha256": "40d7023c71a3f07c7b551a324c4423c366ab65c6cfacb9e56c46241df6fa6f16",
+      "bytes": 7278
+    },
+    {
+      "path": "Assets/Editor/CharacterAssetSetup.cs.meta",
+      "sha256": "50b170b0e9f8d0f95a759a60a4c6ca7719b68488ecca72fbcb4bdc7e232198bf",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/Editor/DeepSeekPhase0Probe.cs",
+      "sha256": "d37cd9a523bdeeaa9eb0961971b883c921df9f246a33bd654f154ca3f6826f22",
+      "bytes": 3702
+    },
+    {
+      "path": "Assets/Editor/DeepSeekPhase0Probe.cs.meta",
+      "sha256": "645dc8867f6c6d57d50d23581936a5780e772eb917dc768a33939d8371ffddb6",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/Editor/GiftCompanion.Editor.asmdef",
+      "sha256": "7187839045f4d28e852f9334a44d00aa7d15abbc0f1d39557775e978a44ad652",
+      "bytes": 264
+    },
+    {
+      "path": "Assets/Editor/GiftCompanion.Editor.asmdef.meta",
+      "sha256": "4e1e9c7b0761c1a3107569695a7bf2c472289f3bc225836cf38d8e3e9a566ad5",
+      "bytes": 166
+    },
+    {
+      "path": "Assets/Editor/Phase0Build.cs",
+      "sha256": "95204d701eab53e3c46b1e8429545a166cd54dceb6f12e3b3a60b5a2395bacfc",
+      "bytes": 3609
+    },
+    {
+      "path": "Assets/Editor/Phase0Build.cs.meta",
+      "sha256": "fda782ac3f397defe8c15a1d87c9478c09328b2fbbe454273c51cf0bc5a064f5",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/Editor/Phase1Build.cs",
+      "sha256": "3c07f4b3db84b79127e939f3f40e254b26c21b4c35a58d5c7bba3b8cba574676",
+      "bytes": 231
+    },
+    {
+      "path": "Assets/Editor/Phase1Build.cs.meta",
+      "sha256": "252aa089ab1bfd923881a3f02432edb78143339fff569fb0da62c3597de94d27",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/Editor/Phase1CoreProbe.cs",
+      "sha256": "1559595d0a11744c552f809ff09bb676e90acfe7946ec92738c5ef0c38ed9c73",
+      "bytes": 3243
+    },
+    {
+      "path": "Assets/Editor/Phase1CoreProbe.cs.meta",
+      "sha256": "b2785b28ae0b9276ecc2fa51f510fafc67e7a471b812c04708310fcd7ad4cd8c",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/Editor/Phase2Build.cs",
+      "sha256": "ec8f3578f24409632da71e7936e7724b343ddcd234801dc179acb4ef3f7936e9",
+      "bytes": 231
+    },
+    {
+      "path": "Assets/Editor/Phase2Build.cs.meta",
+      "sha256": "f96a2c62a516d83483cd0a1b7e37f4ef1eb31bcbafb5662c4315966cd67908e5",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/Editor/Phase2CoreProbe.cs",
+      "sha256": "556761636ed8cc051c53be1c614a390467f60efe7f55706d567190ef73c0e4d7",
+      "bytes": 4662
+    },
+    {
+      "path": "Assets/Editor/Phase2CoreProbe.cs.meta",
+      "sha256": "ed76e9d2b81fa27d8c721e6b0c485207402c67497c220e4439672d9a335dd831",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/Editor/Phase2DevelopmentMenu.cs",
+      "sha256": "8b128cf9724cdff8c30c95665a42e3ea9385df9cbe37d2af435aa8f9eca4ba45",
+      "bytes": 459
+    },
+    {
+      "path": "Assets/Editor/Phase2DevelopmentMenu.cs.meta",
+      "sha256": "f500360b3455db16f5841c5bbd7166c261f67088aa901807a8ca4c9ea80c6973",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/Editor/Phase3Build.cs",
+      "sha256": "c3b0cf79dcbdac5c8e1a6c733bddaa4c2f0f48d86b378c174d31cf2ccef3dbf8",
+      "bytes": 236
+    },
+    {
+      "path": "Assets/Editor/Phase3Build.cs.meta",
+      "sha256": "c78432145e8f9335368801759770582745657e5728eb39031107080481b0c423",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/Editor/Phase3PlusBuild.cs",
+      "sha256": "c011f810a9ad227b1229d31687d3459019adfc8ac46778b2d1d60fce68b9603c",
+      "bytes": 156
+    },
+    {
+      "path": "Assets/Editor/Phase3PlusBuild.cs.meta",
+      "sha256": "6cfd3ef29c79b4a7e08d1609c8bc44ff97ca3d629b259037a0373799f6209bdc",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/Editor/Phase3Setup.cs",
+      "sha256": "aa09965d87d4a6cd1418591baecc8ee5a3f5f83eeedd63a218002e9d7ffce944",
+      "bytes": 7700
+    },
+    {
+      "path": "Assets/Editor/Phase3Setup.cs.meta",
+      "sha256": "57b1a3a537b4ddb3c08ef854e20c73d3873f11df8bd05846a5763694f7002e8d",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/Editor/SkeletonProjectSetup.cs",
+      "sha256": "cc7e0ae4574a81699f4e22adc3ab97a7021989fd93002a47ce47324b23b9bd67",
+      "bytes": 13754
+    },
+    {
+      "path": "Assets/Editor/SkeletonProjectSetup.cs.meta",
+      "sha256": "ec8c414bd736fe8d317bf1749cb4f8837c2cda539a16209d61b71a32b423fd52",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/Editor/SpineSettings.asset",
+      "sha256": "39c6d0474bdd15ec620faa62a90ae600d7e8aa932d39ea96c6aaffb6e3857188",
+      "bytes": 1254
+    },
+    {
+      "path": "Assets/Editor/SpineSettings.asset.meta",
+      "sha256": "4fe094ff592629349eb2e89713bb22ebeb25eacf7678abe44615b4884af02519",
+      "bytes": 189
+    },
+    {
+      "path": "Assets/Tests/EditMode/CharacterCoreTests.cs",
+      "sha256": "d27121df630a6e2a936506c3b70971867796dc20476fb7a5c40c9e1e398d4ead",
+      "bytes": 4913
+    },
+    {
+      "path": "Assets/Tests/EditMode/CharacterCoreTests.cs.meta",
+      "sha256": "b7271ca7681c5315f00db7cc2224d6839b646361b4958fd7cb06439bf975f47f",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/Tests/EditMode/CompanionProtocolTests.cs",
+      "sha256": "852f908ef2fb998e52cb9e063b8a90c08bc085906c16ea3198441524f57085ca",
+      "bytes": 8204
+    },
+    {
+      "path": "Assets/Tests/EditMode/CompanionProtocolTests.cs.meta",
+      "sha256": "ed7c5369b23aff1c402b0b7d2162d97cf59dfdb259dba263c63a482bd791f21c",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/Tests/EditMode/ConversationHistoryTests.cs",
+      "sha256": "2023b19746deef4fd4cf092113e041fce9c9a262244d6a9ce5239e336cba804b",
+      "bytes": 2753
+    },
+    {
+      "path": "Assets/Tests/EditMode/ConversationHistoryTests.cs.meta",
+      "sha256": "97e6d18b42c1578cbc628c0474d6603ea9a7a287ebcd3da72382a8a72ae7d564",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/Tests/EditMode/ConversationTests.cs",
+      "sha256": "3d873958ab26833039a19d86ed1b5334493b368ff04068d584eaadd482e5d907",
+      "bytes": 9543
+    },
+    {
+      "path": "Assets/Tests/EditMode/ConversationTests.cs.meta",
+      "sha256": "796c652183c22927ee63dcbef1ae8965cab665b62f9ca1d75a4fd5c9c30c57cf",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/Tests/EditMode/DeepSeekApiTests.cs",
+      "sha256": "4543150f31438c80c93153cbe7dde7dbb06774c71f8b42e1eba9fb935fa054f4",
+      "bytes": 3664
+    },
+    {
+      "path": "Assets/Tests/EditMode/DeepSeekApiTests.cs.meta",
+      "sha256": "553aacec2fb56dccd3cfe6253309cf404ec434e7fe434ecb267726c622d5a5d1",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/Tests/EditMode/DialoguePipelineTests.cs",
+      "sha256": "8ae620bd18f75fb371d036c0d4e144c1e2d637bf398f9dc8ffade1b851f0a656",
+      "bytes": 5657
+    },
+    {
+      "path": "Assets/Tests/EditMode/DialoguePipelineTests.cs.meta",
+      "sha256": "a4a6f8f8cfe7e03e307938c873075d24d6be36c662ac4719a41eb288f7e93f78",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/Tests/EditMode/FoundationTests.cs",
+      "sha256": "a946f6c41fcbb72697e2564644f3c5e9ad7ebffe27defde7a3971d76a6fdd7ea",
+      "bytes": 8326
+    },
+    {
+      "path": "Assets/Tests/EditMode/FoundationTests.cs.meta",
+      "sha256": "2472352cb8cf3c84eeecaa4bf88cd6c4ba72a1a5829a1f61c849974293308fc7",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/Tests/EditMode/GiftCompanion.EditModeTests.asmdef",
+      "sha256": "0d672cc0c74becc6cb7f84a076c99962b8c9b0fb14448f3b063305864233da05",
+      "bytes": 272
+    },
+    {
+      "path": "Assets/Tests/EditMode/GiftCompanion.EditModeTests.asmdef.meta",
+      "sha256": "00ee984c9cf55be9f3f1eb3be2b6639201f296d29a72a23a80bf7aa04c425ace",
+      "bytes": 166
+    },
+    {
+      "path": "Assets/Tests/EditMode/MemoryExtractionTests.cs",
+      "sha256": "1720fd96b3bdbe3844673a258ff5d19f08affae11ff6c3b55f405ff3ea452286",
+      "bytes": 9066
+    },
+    {
+      "path": "Assets/Tests/EditMode/MemoryExtractionTests.cs.meta",
+      "sha256": "4de58304a0448907353896dcba4ee19b4f52efd65625b3f20c07c91f5d275d89",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/Tests/EditMode/MemoryLifecycleTests.cs",
+      "sha256": "a128744201076fb5b991a7441a259ae3564342f400808fe90516cafbf1fe715b",
+      "bytes": 14285
+    },
+    {
+      "path": "Assets/Tests/EditMode/MemoryLifecycleTests.cs.meta",
+      "sha256": "308ff8bf52c99746bffdc6ae282ff81473da90d0c307c6d83a0fe82b2966fbdb",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/Tests/EditMode/MemoryRetrievalTests.cs",
+      "sha256": "018aabeae9677035d2be32e591298f31bbfff14e5874bdf712a492d66f3a0322",
+      "bytes": 10019
+    },
+    {
+      "path": "Assets/Tests/EditMode/MemoryRetrievalTests.cs.meta",
+      "sha256": "ed0da18426849cd75a3bd562002906334aec519282233358c400cdaec0fd0e66",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/Tests/EditMode/MemoryTransportTests.cs",
+      "sha256": "fff309a70694cdd81d8317067b1bdbdf7d530c34563bc292b8605c9b3ba73018",
+      "bytes": 3013
+    },
+    {
+      "path": "Assets/Tests/EditMode/MemoryTransportTests.cs.meta",
+      "sha256": "10acc2d0511549a32a860ae27139559a6ec6ee0733ef9953dcbc52caabe45053",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/Tests/EditMode/PlayerFilesTests.cs",
+      "sha256": "317a518be34efad097576fb5c1578b541ff27f845ad3dc067c850f2fbda5b47a",
+      "bytes": 8196
+    },
+    {
+      "path": "Assets/Tests/EditMode/PlayerFilesTests.cs.meta",
+      "sha256": "776c519a9087f395744ed14957c37f26e2f146a1dcdf123d1d044b46e62dfeb1",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/Tests/EditMode/RelationshipDiaryTests.cs",
+      "sha256": "090ce75fad844a51b9630adc11f04e2a5df94750f5ff45e557826e4a75f4d51c",
+      "bytes": 8432
+    },
+    {
+      "path": "Assets/Tests/EditMode/RelationshipDiaryTests.cs.meta",
+      "sha256": "b156ed0eb09ef746b14d876f8eb5625e8a7e6ef759087a5eb4f6edb68b969541",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/Tests/EditMode/SqlitePhase0Tests.cs",
+      "sha256": "aaa743876f8746b5111f34e2e949939277d703375a293988766c5d8033e66d44",
+      "bytes": 2210
+    },
+    {
+      "path": "Assets/Tests/EditMode/SqlitePhase0Tests.cs.meta",
+      "sha256": "61c11af85550741f5eace8e94b1ac6460f4cb90feabdad34fcc0a6004c7edfa0",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/Tests/EditMode/TestDatabase.cs",
+      "sha256": "47e5d7d1ee560487a07eecb25548199b602180692d0a32b7666912cb8508e325",
+      "bytes": 2379
+    },
+    {
+      "path": "Assets/Tests/EditMode/TestDatabase.cs.meta",
+      "sha256": "24acc6d38904706e43edc58bd54209d19e3d6b9c5bef1388c3013d42c2055816",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/Tests/EditMode.meta",
+      "sha256": "e0eff69b022bb4d0ad52365f0932f90231b3af85683e703b051b62a0986dadfc",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/Tests/PlayMode/CharacterPlaybackTests.cs",
+      "sha256": "95ba21b416508f96e86f01772a14e89094e1a980ee5193d7db4fd7e7a246bb37",
+      "bytes": 7445
+    },
+    {
+      "path": "Assets/Tests/PlayMode/CharacterPlaybackTests.cs.meta",
+      "sha256": "baa94e951c10c01bb71db4fefc084136f16f190fdb2a8d7ba0588410da0b9c3f",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/Tests/PlayMode/CompanionScreenTests.cs",
+      "sha256": "74379d36b09d99689a3a5b47f646ef7ab1efd9424b03e769580e8cef5cd9b555",
+      "bytes": 7646
+    },
+    {
+      "path": "Assets/Tests/PlayMode/CompanionScreenTests.cs.meta",
+      "sha256": "f84505bd78e47a5c2c1d0f83ed0b3d25c51bcad6146b9efd819bc5849a8ded63",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/Tests/PlayMode/GiftCompanion.PlayModeTests.asmdef",
+      "sha256": "6f0ca6cc015fdcf9a0b0f40a7334f8f57b243a007a26790545d63bd83054211e",
+      "bytes": 265
+    },
+    {
+      "path": "Assets/Tests/PlayMode/GiftCompanion.PlayModeTests.asmdef.meta",
+      "sha256": "5817534ac931d4e6e7da699556e1bc2539f03d9cb45a40c45203252052b4e2b9",
+      "bytes": 166
+    },
+    {
+      "path": "Assets/Tests/PlayMode/PlayerContentTests.cs",
+      "sha256": "fca7956f4fb1fa0c44e81b279819f276006644fa506b85c65908e65959cbb023",
+      "bytes": 4640
+    },
+    {
+      "path": "Assets/Tests/PlayMode/PlayerContentTests.cs.meta",
+      "sha256": "90018b4feff12ee3709bfd51167b64ef8995e2add07abe60514aae44344e7519",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/Tests/PlayMode/PlayTestData.cs",
+      "sha256": "e787f225b772bf0af4d51d40e1ce6a55de2bb7984a31543a301ff25cc7e649bc",
+      "bytes": 969
+    },
+    {
+      "path": "Assets/Tests/PlayMode/PlayTestData.cs.meta",
+      "sha256": "b53375eac953cbbe4c1f58d65928d9ef3db9f44d1c0cbfe4898c559f97138512",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/Tests/PlayMode/SceneLifecycleTests.cs",
+      "sha256": "dc4b2b73972adc9860f27d66c599b68bb75b906eeaf1cc9b088770cf6ffe05eb",
+      "bytes": 11510
+    },
+    {
+      "path": "Assets/Tests/PlayMode/SceneLifecycleTests.cs.meta",
+      "sha256": "69e45d78980d1318ec9098a46e57a025b8dd5b1f71e71f0ae37293a747051e12",
+      "bytes": 59
+    },
+    {
+      "path": "Assets/Tests/PlayMode.meta",
+      "sha256": "bafd53da591bd413a364564610a46d03b170b330cf9f37f72d8603c700a0609d",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/Scenes/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "Assets/Scenes/AgentPet.unity",
+      "sha256": "3bb768ea30b6af3b92a99c63bbb5358cbc6153d551304cb15251022f4e2556d9",
+      "bytes": 34041
+    },
+    {
+      "path": "Assets/Scenes/AgentPet.unity.meta",
+      "sha256": "c491705fa14d7f5349bccc1bd37fadd8b4e681c859eeb87f0d18ada117e9187f",
+      "bytes": 155
+    },
+    {
+      "path": "Assets/Scenes/Bootstrap.unity",
+      "sha256": "41a096a29d78bad06790a2f262caf4e1497811eb6233871a35aaafca088fdadb",
+      "bytes": 4939
+    },
+    {
+      "path": "Assets/Scenes/Bootstrap.unity.meta",
+      "sha256": "3746f7f8700dec08aa1d44da7ed5079b5a36d6c463f81dfad4d6538782a66ac4",
+      "bytes": 155
+    },
+    {
+      "path": "Assets/Scenes/Companion.unity",
+      "sha256": "7bbaff2d8eaa6ab7936b208ce0d436614a7c56ee1ae95fa455d02a3a38d9fd8a",
+      "bytes": 30032
+    },
+    {
+      "path": "Assets/Scenes/Companion.unity.meta",
+      "sha256": "ce996b28e240f4663449836c7effdb4c07b047b58303e2b65eb895070a058590",
+      "bytes": 155
+    },
+    {
+      "path": "Assets/Scenes/Home.unity",
+      "sha256": "82472eedc0993645d1b8b067de11348f22cb7bf2691963f7a212ecca86c73efe",
+      "bytes": 47564
+    },
+    {
+      "path": "Assets/Scenes/Home.unity.meta",
+      "sha256": "e5a7114f17ffdf9895399624692ea13459c7b6ac3d76c03c04d28f67e417c490",
+      "bytes": 155
+    },
+    {
+      "path": "Assets/Characters/MainCharacter/Config/behavior.json",
+      "sha256": "aadba9fcec3f7f10ae35cf83bbb686cd659c2a028d468ec6d98799bc8ef28f3b",
+      "bytes": 227
+    },
+    {
+      "path": "Assets/Characters/MainCharacter/Config/behavior.json.meta",
+      "sha256": "3eeed7a61c539f72b721f4e3213f5dc865437d9a312e6f80771934642f54166a",
+      "bytes": 158
+    },
+    {
+      "path": "Assets/Characters/MainCharacter/Config/character_manifest.json",
+      "sha256": "5de21c962ce337be913e006a6e37d11cdda93c84083b35245df728c7eed4c447",
+      "bytes": 2042
+    },
+    {
+      "path": "Assets/Characters/MainCharacter/Config/character_manifest.json.meta",
+      "sha256": "034d2cf018dcc5fa14d36aa5526014b526e3b9f4a974776d4bd6a9e1f51f9dc2",
+      "bytes": 158
+    },
+    {
+      "path": "Assets/Characters/MainCharacter/Config/expression_map.json",
+      "sha256": "ba2beaf80ea9d0fd8687833d1d6aa6d93e6fadce31db0daf6d93e1ef3f3cc273",
+      "bytes": 574
+    },
+    {
+      "path": "Assets/Characters/MainCharacter/Config/expression_map.json.meta",
+      "sha256": "862c0fdb134f350469a6977147abd45538779e6853cd89d02ee64b5be5837e79",
+      "bytes": 158
+    },
+    {
+      "path": "Assets/Characters/MainCharacter/Config/identity.json",
+      "sha256": "a2a144c5e4f930ef20a650352384a03879f9b4f848e4d96dfd320d17154e9dcc",
+      "bytes": 785
+    },
+    {
+      "path": "Assets/Characters/MainCharacter/Config/identity.json.meta",
+      "sha256": "5618d78adad5acd7685afa3a92c2ef592a190c61d15160d053d900bdc31171e4",
+      "bytes": 158
+    },
+    {
+      "path": "Assets/StreamingAssets/CH0069_Source/CH0069_home.atlas.txt",
+      "sha256": "77611011a0b449a8deadb578da766311531bc02af30072eb9a2108e23fa1ad09",
+      "bytes": 40785
+    },
+    {
+      "path": "Assets/StreamingAssets/CH0069_Source/CH0069_home.atlas.txt.meta",
+      "sha256": "2bf21c304564d70f52282ceb278d5661df4217c658215af9110019857ab3fc90",
+      "bytes": 155
+    },
+    {
+      "path": "Assets/StreamingAssets/CH0069_Source/CH0069_home.png",
+      "sha256": "d802ed75f037229ebf1998b8d3606e24342d9e84f7b260edcdc69b511f4bef6d",
+      "bytes": 3344923
+    },
+    {
+      "path": "Assets/StreamingAssets/CH0069_Source/CH0069_home.png.meta",
+      "sha256": "9bf38d63014b1dd6ff08463118f33d27c174c32e533389cddc6cbb5afe04cd6c",
+      "bytes": 155
+    },
+    {
+      "path": "Assets/StreamingAssets/CH0069_Source/CH0069_home.skel.bytes",
+      "sha256": "97d3f5ca2cb42c1af265926c1204c706e3535a13faee5c7b681037f3eb4b7a47",
+      "bytes": 2133067
+    },
+    {
+      "path": "Assets/StreamingAssets/CH0069_Source/CH0069_home.skel.bytes.meta",
+      "sha256": "422be8fed936b636f34f2bb6e7ca30a24b2fb260f73ea92bb30af59f0e1999ac",
+      "bytes": 155
+    },
+    {
+      "path": "Assets/StreamingAssets/CH0069_Source/CH0069_home2.png",
+      "sha256": "e4ff66dca5fe1b38a06234c056b27f28e1807c297d4c4dad3c01398296d58917",
+      "bytes": 806386
+    },
+    {
+      "path": "Assets/StreamingAssets/CH0069_Source/CH0069_home2.png.meta",
+      "sha256": "feed29b2936e0d92b8845e8051a3ca47d7a48f83d8c1bc9a519cefc8d02a953f",
+      "bytes": 155
+    },
+    {
+      "path": "Assets/StreamingAssets/CH0069_Source/CH0069_home3.png",
+      "sha256": "74ffb75d22d5b5fcc3277472bb8930ee8007b6118ccd48e31482e9133565acde",
+      "bytes": 3229193
+    },
+    {
+      "path": "Assets/StreamingAssets/CH0069_Source/CH0069_home3.png.meta",
+      "sha256": "23e1221a25b7fc22b97b63b3be22f088dfff557eee265a51e80bc1b1cf08f2d2",
+      "bytes": 155
+    },
+    {
+      "path": "Assets/StreamingAssets/CH0069_Source/CH0069_home4.png",
+      "sha256": "b138f30eed54eee4f34f83e1d7b88fdf78e18dd911fad6fc0ef09194cca8c30a",
+      "bytes": 882611
+    },
+    {
+      "path": "Assets/StreamingAssets/CH0069_Source/CH0069_home4.png.meta",
+      "sha256": "bda9fecbb1d40f826c001e4302c3317feb1f37af68a63bbd7c7b250ab4eaf164",
+      "bytes": 155
+    },
+    {
+      "path": "Assets/StreamingAssets/CH0069_Source/space.json",
+      "sha256": "a73dd3afa49e731ae0e01a7aa0e78ad92996af253beeab63422dd7874639dae8",
+      "bytes": 352
+    },
+    {
+      "path": "Assets/StreamingAssets/CH0069_Source/space.json.meta",
+      "sha256": "f1542c8dfa300c412f907960d4a1602267346ab20fca28380a80fa704ac3439c",
+      "bytes": 155
+    },
+    {
+      "path": "Assets/StreamingAssets/CH0069_Source.meta",
+      "sha256": "a74e2b96f95522e3695674f2ef8b9efa62a00887631689abbdc5f23d14aa6b14",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/StreamingAssets/DefaultMusic/daily-routine-247.ogg",
+      "sha256": "9ee0855cc6836c704549cd5176fb832514f1853989ea1052c370fd5fc77473d6",
+      "bytes": 68363302
+    },
+    {
+      "path": "Assets/StreamingAssets/DefaultMusic/daily-routine-247.ogg.meta",
+      "sha256": "d924d6c7060e9631293bd1092e5fc8f5ca3abe5dc18d49f23a52de39cf2c4c4b",
+      "bytes": 155
+    },
+    {
+      "path": "Assets/StreamingAssets/DefaultMusic/you-are-my-princess.ogg",
+      "sha256": "53c8a4925a7f6fe77ae5f728a436239554d725b283114cf8867c387ff8a271db",
+      "bytes": 100029009
+    },
+    {
+      "path": "Assets/StreamingAssets/DefaultMusic/you-are-my-princess.ogg.meta",
+      "sha256": "4872422bb7c3c82759dfff275ba0cfa84b264d5eda0f75404355009baba0bbb4",
+      "bytes": 155
+    },
+    {
+      "path": "Assets/StreamingAssets/DefaultMusic.meta",
+      "sha256": "56f3e9469accd3707cdf7d1fe98ab5f0360342f7e137a129e05678210b7731b0",
+      "bytes": 172
+    },
+    {
+      "path": "Assets/StreamingAssets/Defaults/bgm_playlist.json",
+      "sha256": "09b27244697c918f82c17e3ff11628b74a12bdc738db43a62d23b59df7663a33",
+      "bytes": 358
+    },
+    {
+      "path": "Assets/StreamingAssets/Defaults/bgm_playlist.json.meta",
+      "sha256": "0cb50fe87584cbe40db13d58155ff52d2706a48194bfd190be8b2c14a2dce3ed",
+      "bytes": 155
+    },
+    {
+      "path": "Assets/StreamingAssets/Defaults/companion_spaces.json",
+      "sha256": "b0feef20d75930e87feb8c0fd0965e314860afb057f7d36fbf86f6f4b65273aa",
+      "bytes": 183
+    },
+    {
+      "path": "Assets/StreamingAssets/Defaults/companion_spaces.json.meta",
+      "sha256": "791488b3a133e0bc8d4b55648ac426792ef06b90e4fe979db30e89f25c86bf14",
+      "bytes": 155
+    },
+    {
+      "path": "Assets/StreamingAssets/Defaults/PlayerGuide.md",
+      "sha256": "d5db608f5641d33ef494cea63c6b90027d59c5778a78425dc7fed08832533c7b",
+      "bytes": 4653
+    },
+    {
+      "path": "Assets/StreamingAssets/Defaults/PlayerGuide.md.meta",
+      "sha256": "a86cff78a8d985bb45751b689a0138640754a673694017e4171a7465f5581aa3",
+      "bytes": 155
+    },
+    {
+      "path": "Assets/StreamingAssets/Defaults.meta",
+      "sha256": "d20c2921ccb7259dc843ee82f15b939f16582d0e3ebd3f8a0ba8ea3eec27ecd9",
+      "bytes": 172
+    },
+    {
+      "path": "Tools/assemble_voice_runtime.py",
+      "sha256": "6931436a3756f027036313e32e3b7439db0520065916ccd570b8ffcefd13072a",
+      "bytes": 2383
+    },
+    {
+      "path": "Tools/AssetPipeline/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "Tools/Build-Phase0.ps1",
+      "sha256": "5a2267cc2c84219c3c214ecb0f6cea96a024b8e4ed0aaee5fd429547f83265ac",
+      "bytes": 972
+    },
+    {
+      "path": "Tools/Build-Phase1.ps1",
+      "sha256": "04dab66a5c0397df594777a3dbd1c6e2b3e0371642f06a0dc8ade3f3360c085e",
+      "bytes": 878
+    },
+    {
+      "path": "Tools/Build-Phase2.ps1",
+      "sha256": "cb8f0c1becc368c719a05de937330fd9c9dfec5a9f33f453ea5eda14a818f862",
+      "bytes": 878
+    },
+    {
+      "path": "Tools/Build-Phase3.ps1",
+      "sha256": "a878fb0f22178ae6db7d9ca05178564131ccdcbc49b2f891748bacb4d03229d7",
+      "bytes": 880
+    },
+    {
+      "path": "Tools/Build-Phase3Plus.ps1",
+      "sha256": "dd08fbb4c5fbfccb2e3c3c37a44d9024279fd84cc91142799fa589ffa0a99492",
+      "bytes": 885
+    },
+    {
+      "path": "Tools/Clean-VoiceTrimBackup.ps1",
+      "sha256": "6be4341622fe05c2900781e12ea955d5cbd6f94fa747251d0c3bda12c9b95377",
+      "bytes": 1664
+    },
+    {
+      "path": "Tools/Configure-DeepSeek.ps1",
+      "sha256": "6f60c4154720e7e3f6868f3c2507027358ad07734959d6e43e283caacaf7efd3",
+      "bytes": 1443
+    },
+    {
+      "path": "Tools/Fetch-Phase0Dependencies.ps1",
+      "sha256": "c88d29624e499a92131b4ebc3e530edd2748884a6104470c0d4dd4aeb67de809",
+      "bytes": 1332
+    },
+    {
+      "path": "Tools/fetch_phase0_dependencies.py",
+      "sha256": "c59e4aa8d303f26957ff2de8b0138410e3b45800004a1eb479c913d239f32f41",
+      "bytes": 3694
+    },
+    {
+      "path": "Tools/import_character_assets.py",
+      "sha256": "f54615f2c84343b2185b0ed7b8be0f67bdbbdda03ac6531fcd2ee41b175db105",
+      "bytes": 6889
+    },
+    {
+      "path": "Tools/Initialize-Characters.ps1",
+      "sha256": "4f1b2658f5a4d3c30db4f12937b853999f35c797610c1b11392738074f6852d0",
+      "bytes": 913
+    },
+    {
+      "path": "Tools/Initialize-Project.ps1",
+      "sha256": "125611cd679b8c7a2a62810054686bb6e8202d9352bdb56470f4e942f1cedf6e",
+      "bytes": 916
+    },
+    {
+      "path": "Tools/Prepare-DefaultMusic.ps1",
+      "sha256": "3b856b04a587753e268d666c6122dd8679c6127957c02eef0edfc2eff7f78080",
+      "bytes": 1550
+    },
+    {
+      "path": "Tools/prepare_japanese_voice.py",
+      "sha256": "6e23fe9d01678ce649f77ac90809446570ca7945df90f46f1498d85eab7468d1",
+      "bytes": 2709
+    },
+    {
+      "path": "Tools/prepare_voice_assets.py",
+      "sha256": "c15cf645d8dc80cf2b7bebea902e1abf4cb888945e3540a2e9e5ee52cb82acd9",
+      "bytes": 4872
+    },
+    {
+      "path": "Tools/Resolve-UnityEditor.ps1",
+      "sha256": "0460390f7783d0ac3290e838df0862961d552e51d0ed502f7d59fe729a0657d3",
+      "bytes": 1543
+    },
+    {
+      "path": "Tools/Save-Phase3Acceptance.py",
+      "sha256": "4d7d3627029dc38b40154ff2030350ebb4dbc7b096c37a8faf82e02f54bfbd30",
+      "bytes": 8902
+    },
+    {
+      "path": "Tools/Save-Phase3PlusAcceptance.py",
+      "sha256": "f189aed9b46f20feac07c133cd5decc131b570624e70ee8ac5b6329470037358",
+      "bytes": 7297
+    },
+    {
+      "path": "Tools/Start-Phase2Dev.ps1",
+      "sha256": "d58001824890d76935b52db719a0a4c6deab0caa5e65016a2765da737fa2d459",
+      "bytes": 1511
+    },
+    {
+      "path": "Tools/Start-Phase3.ps1",
+      "sha256": "9ae50da5318cf454374a7338e9be3b9596be81de98c7c90af7268bbec10b5ca4",
+      "bytes": 1489
+    },
+    {
+      "path": "Tools/Start-Phase3Plus.cmd",
+      "sha256": "2332467932f689bbcee61c2cd3b9e2ebfc987ac61ca25157ae23a9684c40fe49",
+      "bytes": 94
+    },
+    {
+      "path": "Tools/Start-Phase3Plus.ps1",
+      "sha256": "8e78d2c0a0eb2ba4f0cb6d1b576f289c7373a2bd9f13c003b27df0d14a6c37a4",
+      "bytes": 1503
+    },
+    {
+      "path": "Tools/Start-VoiceRuntime.ps1",
+      "sha256": "05aa8653a4ef3a93e4efb737429ee6ca13cf5eb3a79ac09953d4cc5b65f85b2c",
+      "bytes": 2828
+    },
+    {
+      "path": "Tools/Stop-VoiceRuntime.ps1",
+      "sha256": "5541657106dac52fe722b9054db1bd718ff5c99cd5a663d42e632b27c88ec5ed",
+      "bytes": 1183
+    },
+    {
+      "path": "Tools/Test-Characters.ps1",
+      "sha256": "e738918e20d2e96e60e98b6ccc5515691f10255bf07f5a246f9884be1f1ee998",
+      "bytes": 1108
+    },
+    {
+      "path": "Tools/Test-DeepSeek.ps1",
+      "sha256": "98a7af047859e9ead2993d7ea766b73bbd599b681f922e0547add8515ba55ffd",
+      "bytes": 1085
+    },
+    {
+      "path": "Tools/Test-LocalSecrets.ps1",
+      "sha256": "d5ee6dc9241dca136c53846ec61c0a294666094dafe0d60259db8d3186a15717",
+      "bytes": 1914
+    },
+    {
+      "path": "Tools/Test-Phase1.ps1",
+      "sha256": "e2f406d8ed67e8952519f223cedaad96cdc035f1edf595d2aee5ab18990bb1e3",
+      "bytes": 1415
+    },
+    {
+      "path": "Tools/Test-Phase1Core.ps1",
+      "sha256": "e605f340e151f026c7a261e30ce386e01609f0b5da6106ec7aaba73d365ef131",
+      "bytes": 896
+    },
+    {
+      "path": "Tools/Test-Phase1Player.ps1",
+      "sha256": "e5156f4806b7bce24ad3985f10bd107666d2e9216a47b835caae11392a5e73ce",
+      "bytes": 2247
+    },
+    {
+      "path": "Tools/Test-Phase2.ps1",
+      "sha256": "00b4babff0914e7c932e69da7c4543ad625d1d64dbd34a2cab3392c54c9bb3ed",
+      "bytes": 1567
+    },
+    {
+      "path": "Tools/Test-Phase2Core.ps1",
+      "sha256": "5a5795bc39a003c2c28ee3b093390eea2225366722e8561a4e65518f7408d00a",
+      "bytes": 906
+    },
+    {
+      "path": "Tools/Test-Phase2Player.ps1",
+      "sha256": "d19bbb7ba08e038a490ed7a253d1e07c0757e1c5233601c02d9cc4fb927b6636",
+      "bytes": 2418
+    },
+    {
+      "path": "Tools/Test-Phase3.ps1",
+      "sha256": "2687552e5c3c906b4378a205a9ce6580e091060059b2512ce170ab59d1ed58e4",
+      "bytes": 1671
+    },
+    {
+      "path": "Tools/Test-Phase3MemoryPlayer.ps1",
+      "sha256": "04d3be2ef77a391a41b05fa44d3207b11ccc9fb05f29d36d4b40e1f16c31829a",
+      "bytes": 2427
+    },
+    {
+      "path": "Tools/Test-Phase3Plus.ps1",
+      "sha256": "1c85c475910dd17d0dcba5558010f584b76aaf62fe2bc7d936c06992fcd15fbd",
+      "bytes": 288
+    },
+    {
+      "path": "Tools/Test-Phase3PlusPlayer.ps1",
+      "sha256": "632ddbb38086ab946806b825ac57b37bffd501ba561eef91d0178f6202852030",
+      "bytes": 2314
+    },
+    {
+      "path": "Tools/Test-Phase3UIPlayer.ps1",
+      "sha256": "a04088a569f03d92f9c35b08212f22afede4345225f68243bae3dc3f584de137",
+      "bytes": 2296
+    },
+    {
+      "path": "Tools/Test-Phase3VisualPlayer.ps1",
+      "sha256": "5657c7ebd60fb5c1ceddc8794799218f515d5155c054b97667fe98c973c79385",
+      "bytes": 1477
+    },
+    {
+      "path": "Tools/Test-Skeleton.ps1",
+      "sha256": "bf5302835f65d47059d91e483892bbd9600886eadbf2d04c8a50f112d9c9d7d5",
+      "bytes": 1496
+    },
+    {
+      "path": "Tools/Test-VoiceRuntime.ps1",
+      "sha256": "97ba218f5796267baecc2c3708be1480aa6b80418d604a80ca4eb6194f0dd152",
+      "bytes": 2351
+    },
+    {
+      "path": "Tools/Test-WindowRuntime.ps1",
+      "sha256": "12049ec892ecd9395f58d3836a645e41d6f3f63cd48c1c4caa37adaccffcb32c",
+      "bytes": 7276
+    },
+    {
+      "path": "Tools/trim_voice_runtime.py",
+      "sha256": "d2f46b96e14ad954ba31fbbdc6e538cf156265c6c1f5686f2e998cb1bc951594",
+      "bytes": 6140
+    },
+    {
+      "path": "Tools/verify_voice_bundle.py",
+      "sha256": "8925eabdbaaf7e0c124feef06a10776b320be201dd029f1b90dbf8b091d82424",
+      "bytes": 4261
+    },
+    {
+      "path": "Tools/voice_api_runner.py",
+      "sha256": "10291697d34bd027a8aecd279a7eae7e0bda55f41c9e6741acec7a270c62c89b",
+      "bytes": 1299
+    },
+    {
+      "path": "Packages/com.kirurobo.uniwindowcontroller/.gitignore",
+      "sha256": "73228f41c326868639009a236793c770993797d9c3ddd4e75b4e7b7ec9ad1eae",
+      "bytes": 91
+    },
+    {
+      "path": "Packages/com.kirurobo.uniwindowcontroller/CHANGELOG.md",
+      "sha256": "f41b476e2b1f1af97363bb471089fc20a824fd9992a4731e056b537483f8564a",
+      "bytes": 3007
+    },
+    {
+      "path": "Packages/com.kirurobo.uniwindowcontroller/CHANGELOG.md.meta",
+      "sha256": "159262dacfac004479dce7bc4fd773e44f02a747e6d835399f0bbdf4f091e909",
+      "bytes": 158
+    },
+    {
+      "path": "Packages/com.kirurobo.uniwindowcontroller/Editor/Kirurobo.UniWindowController.Editor.asmdef",
+      "sha256": "20f2378d6da79ede8db3d5f5d124d232a2f9e1fc417b02cd91f6a9f9b3f72520",
+      "bytes": 443
+    },
+    {
+      "path": "Packages/com.kirurobo.uniwindowcontroller/Editor/Kirurobo.UniWindowController.Editor.asmdef.meta",
+      "sha256": "1c777481897c859fdf1a3a933e8ccc1a077b8ccd229a1356c54bc64c2ecc01f7",
+      "bytes": 166
+    },
+    {
+      "path": "Packages/com.kirurobo.uniwindowcontroller/Editor/Scripts/UniWindowControllerBatch.cs",
+      "sha256": "d36a2c94528fd17f7ad521c0c050dc602b4b1c66a9d24fd4a1fb47341e665b69",
+      "bytes": 2551
+    },
+    {
+      "path": "Packages/com.kirurobo.uniwindowcontroller/Editor/Scripts/UniWindowControllerBatch.cs.meta",
+      "sha256": "eca49d3bc6e864f530cd48ca3fb1f0e4ed23a8de46a19ed502af563680c4f0aa",
+      "bytes": 243
+    },
+    {
+      "path": "Packages/com.kirurobo.uniwindowcontroller/Editor/Scripts/UniWindowControllerEditor.cs",
+      "sha256": "6283e226db769ceca5af709c5d7fd9065243f7c3fd03c8bfec448606278468dc",
+      "bytes": 22511
+    },
+    {
+      "path": "Packages/com.kirurobo.uniwindowcontroller/Editor/Scripts/UniWindowControllerEditor.cs.meta",
+      "sha256": "65eb6d285948d2bb27cfc4a1ba0baaa51811b0e4f1c36c579d78bfcc78a3af93",
+      "bytes": 262
+    },
+    {
+      "path": "Packages/com.kirurobo.uniwindowcontroller/Editor/Scripts.meta",
+      "sha256": "d3119aaba3a81d65e6488dd1bd51bf46bfd72044814297c2065a36ba41f2e9fc",
+      "bytes": 150
+    },
+    {
+      "path": "Packages/com.kirurobo.uniwindowcontroller/Editor.meta",
+      "sha256": "f31aead531fa9f19fad2dcfc6abd9f74fd87e000ecf393ccdc7bb30c2b8849c2",
+      "bytes": 172
+    },
+    {
+      "path": "Packages/com.kirurobo.uniwindowcontroller/LICENSE.md",
+      "sha256": "b68ceb557f371fd93053102654ff05ded28582ae092d7a5f6f242ba35b7f21a8",
+      "bytes": 1065
+    },
+    {
+      "path": "Packages/com.kirurobo.uniwindowcontroller/LICENSE.md.meta",
+      "sha256": "d8be8995855114b67f7b83fcd7e8b57e9a179f874a9854cab0903e04f16d5799",
+      "bytes": 155
+    },
+    {
+      "path": "Packages/com.kirurobo.uniwindowcontroller/package.json",
+      "sha256": "ee82d599d05705e4e50bd8263ba06f756ada6139ee9a743a2e0f2b5db3712a3d",
+      "bytes": 606
+    },
+    {
+      "path": "Packages/com.kirurobo.uniwindowcontroller/package.json.meta",
+      "sha256": "5d06e7c1c3e26a4ab0f7933c2e61665ae4cdc936c62aa11b7bd06cc62f482cae",
+      "bytes": 158
+    },
+    {
+      "path": "Packages/com.kirurobo.uniwindowcontroller/README-ja.md",
+      "sha256": "bc5125da4e9eb49df4c40226d6db20dab79c7f8c63ec59181b927dddc2577b86",
+      "bytes": 10015
+    },
+    {
+      "path": "Packages/com.kirurobo.uniwindowcontroller/README-ja.md.meta",
+      "sha256": "0129cc75793786ca0faf2dc59aa6079749eff58495050c3ef89c3cc20993a271",
+      "bytes": 158
+    },
+    {
+      "path": "Packages/com.kirurobo.uniwindowcontroller/README.md",
+      "sha256": "eeaa148d19470a8136f0bd07ed687ee6303925965b20fc0ae892519e349fbce0",
+      "bytes": 7857
+    },
+    {
+      "path": "Packages/com.kirurobo.uniwindowcontroller/README.md.meta",
+      "sha256": "5f3aff9c28dac768581963ca48d59def24ce5d0dad70542e657c37c54024edae",
+      "bytes": 158
+    },
+    {
+      "path": "Packages/com.kirurobo.uniwindowcontroller/Runtime/Kirurobo.UniWindowController.asmdef",
+      "sha256": "53331884aa02cca9dc62133c15c51197096e38266dd609bce34847887f3fe04d",
+      "bytes": 525
+    },
+    {
+      "path": "Packages/com.kirurobo.uniwindowcontroller/Runtime/Kirurobo.UniWindowController.asmdef.meta",
+      "sha256": "7906a1b4f5934d455babd3945115501f75d73be47d7f29c2e3b9c519026d6adc",
+      "bytes": 166
+    },
+    {
+      "path": "Packages/com.kirurobo.uniwindowcontroller/Runtime/Plugins/MacOS.meta",
+      "sha256": "cd9b6d1b43a74a3fd8d7a03d41e8978325b049ef34750e7507c794dcfc4750cb",
+      "bytes": 172
+    },
+    {
+      "path": "Packages/com.kirurobo.uniwindowcontroller/Runtime/Plugins/Windows/x64/LibUniWinC.dll",
+      "sha256": "a0bb5193e9c246933c48e84e4e0fe4936c1c959b4f703105817f0b10e1e35f6b",
+      "bytes": 129536
+    },
+    {
+      "path": "Packages/com.kirurobo.uniwindowcontroller/Runtime/Plugins/Windows/x64/LibUniWinC.dll.meta",
+      "sha256": "26e74a3843a04a1018b921d6abfdb38366e20768afb638cd75b819baeb32d818",
+      "bytes": 1629
+    },
+    {
+      "path": "Packages/com.kirurobo.uniwindowcontroller/Runtime/Plugins/Windows/x64.meta",
+      "sha256": "e50074a402bd785b8643cddf125990b3189684dbc17ace16366b0ba862381902",
+      "bytes": 172
+    },
+    {
+      "path": "Packages/com.kirurobo.uniwindowcontroller/Runtime/Plugins/Windows/x86/LibUniWinC.dll",
+      "sha256": "bf424e3b174f7ac723e55fb46199c49b6d7e184369c31c915217c1597ff72857",
+      "bytes": 98816
+    },
+    {
+      "path": "Packages/com.kirurobo.uniwindowcontroller/Runtime/Plugins/Windows/x86/LibUniWinC.dll.meta",
+      "sha256": "dc4819f9e9704029bafdfba9368168be17868a223c2a433ab11e67eeb8fc1bd2",
+      "bytes": 1338
+    },
+    {
+      "path": "Packages/com.kirurobo.uniwindowcontroller/Runtime/Plugins/Windows/x86.meta",
+      "sha256": "03bc163f91079da31c80f1e442e28634e16b0022311e451ba519ed96d790a6f9",
+      "bytes": 172
+    },
+    {
+      "path": "Packages/com.kirurobo.uniwindowcontroller/Runtime/Plugins/Windows.meta",
+      "sha256": "6fdb97ea6063fa6144f462740730334cfc74949cecb56d97f9ede78e47db5c9c",
+      "bytes": 172
+    },
+    {
+      "path": "Packages/com.kirurobo.uniwindowcontroller/Runtime/Plugins.meta",
+      "sha256": "293720c8716658a07126611a342abafed6749ad8010aa623d912de137d3451ec",
+      "bytes": 172
+    },
+    {
+      "path": "Packages/com.kirurobo.uniwindowcontroller/Runtime/Prefabs/DragMoveCanvas.prefab",
+      "sha256": "d91abcda24e89958cb7f57fce434878ef1ff908ed0e7118c257c01bd93a6f7e9",
+      "bytes": 5388
+    },
+    {
+      "path": "Packages/com.kirurobo.uniwindowcontroller/Runtime/Prefabs/DragMoveCanvas.prefab.meta",
+      "sha256": "13062e92151767ae1621af3cae40f93a4894303035221b3f20d87bd26c5abd99",
+      "bytes": 154
+    },
+    {
+      "path": "Packages/com.kirurobo.uniwindowcontroller/Runtime/Prefabs/UniWindowController.prefab",
+      "sha256": "48f2e0c86b768a45898d8c070d0176ef5ae49cd899394f38efd5d5faba0c0a0d",
+      "bytes": 1560
+    },
+    {
+      "path": "Packages/com.kirurobo.uniwindowcontroller/Runtime/Prefabs/UniWindowController.prefab.meta",
+      "sha256": "ea3a908e99d32b92b31fdf7cf836e0658827ad2e5b0a04e34153cd5a88848182",
+      "bytes": 154
+    },
+    {
+      "path": "Packages/com.kirurobo.uniwindowcontroller/Runtime/Prefabs.meta",
+      "sha256": "d758462389f2eeda7661d10f2de81b52f3322993945f89c29d6e5d18a95c4438",
+      "bytes": 172
+    },
+    {
+      "path": "Packages/com.kirurobo.uniwindowcontroller/Runtime/Scripts/LowLevel/FilePanel.cs",
+      "sha256": "11bbf71b0be2c9ed6301ec4e694a239c632d1061a53bd6cab443351392a73081",
+      "bytes": 7718
+    },
+    {
+      "path": "Packages/com.kirurobo.uniwindowcontroller/Runtime/Scripts/LowLevel/FilePanel.cs.meta",
+      "sha256": "1c3d66ee984f29887710eddd7e07cd7cb83749f28e1aed23ce2e3f4b470bbbc8",
+      "bytes": 243
+    },
+    {
+      "path": "Packages/com.kirurobo.uniwindowcontroller/Runtime/Scripts/LowLevel/UniWinCore.cs",
+      "sha256": "7bdc160585c2c0c826dc308fdd7a22795f1fbba105ee5e1c08f1f8a2bfb591a1",
+      "bytes": 33921
+    },
+    {
+      "path": "Packages/com.kirurobo.uniwindowcontroller/Runtime/Scripts/LowLevel/UniWinCore.cs.meta",
+      "sha256": "f1450bcda95040306842d86b4ee5c9d6f569b0fcfe906bbb67bc06b3b72563c7",
+      "bytes": 243
+    },
+    {
+      "path": "Packages/com.kirurobo.uniwindowcontroller/Runtime/Scripts/LowLevel.meta",
+      "sha256": "386869cd569d8548e7f841673a120e5bc01f4ff70c6afb4c8b0ec6645a3347c3",
+      "bytes": 172
+    },
+    {
+      "path": "Packages/com.kirurobo.uniwindowcontroller/Runtime/Scripts/UniWindowController.cs",
+      "sha256": "84ad86fc736d368bedab67f4b0214ddc1b6db8fc46db8cf4f90bd7120ba4a4f0",
+      "bytes": 41579
+    },
+    {
+      "path": "Packages/com.kirurobo.uniwindowcontroller/Runtime/Scripts/UniWindowController.cs.meta",
+      "sha256": "abef5bec6e004fec25f4aaf2efdb56fcc7bfd5b0040500eaf422a75be446c01e",
+      "bytes": 262
+    },
+    {
+      "path": "Packages/com.kirurobo.uniwindowcontroller/Runtime/Scripts/UniWindowMoveHandle.cs",
+      "sha256": "200a50c02c3725e7012ded688539b3557f8764590db97c856dde42ddd30da5db",
+      "bytes": 7811
+    },
+    {
+      "path": "Packages/com.kirurobo.uniwindowcontroller/Runtime/Scripts/UniWindowMoveHandle.cs.meta",
+      "sha256": "b8485e3287a9b58ff58291984fdf12172a74c86a0bfc97ce215d7ae9e6adfe37",
+      "bytes": 243
+    },
+    {
+      "path": "Packages/com.kirurobo.uniwindowcontroller/Runtime/Scripts.meta",
+      "sha256": "0f4174509504295aa8f8eee1499bb8c27a0dbc8da2f86b0647d4aedb6e5e5dde",
+      "bytes": 172
+    },
+    {
+      "path": "Packages/com.kirurobo.uniwindowcontroller/Runtime.meta",
+      "sha256": "ed6807ea8795d780db9e7c03ec5cf1d9df77789297d9e339a7a997ee34079922",
+      "bytes": 172
+    },
+    {
+      "path": "Packages/manifest.json",
+      "sha256": "98d8190b66c796c5bada9fa0d90e63f604156f6662354599fee9a13dc4af46ea",
+      "bytes": 705
+    },
+    {
+      "path": "Packages/packages-lock.json",
+      "sha256": "b0886f3eed80fcfef80a14693b3850bb8862ba7005e3d1849b0c3bdae7c616e1",
+      "bytes": 3284
+    },
+    {
+      "path": "ProjectSettings/AudioManager.asset",
+      "sha256": "9543c41dbfc7d3951217c4dd9481ed026eb8e529b85ecf4463969a0fea747729",
+      "bytes": 523
+    },
+    {
+      "path": "ProjectSettings/ClusterInputManager.asset",
+      "sha256": "40e65dd214bf254955d2c8829ca8ce2130fd3510485560ce012e9a1ddd93e623",
+      "bytes": 114
+    },
+    {
+      "path": "ProjectSettings/DynamicsManager.asset",
+      "sha256": "785919ec02924b9125bd572087d9e3ceb1844b1cceb3ff6144c1c1f56cd79047",
+      "bytes": 1575
+    },
+    {
+      "path": "ProjectSettings/EditorBuildSettings.asset",
+      "sha256": "bf99945df90513df1a7d8ce677283c0614f6a89fd6c7f425125d601a399177db",
+      "bytes": 543
+    },
+    {
+      "path": "ProjectSettings/EditorSettings.asset",
+      "sha256": "4b842c80c4e630b6cb5416b817aba84b97014072e1ab555b08742344687ccdf5",
+      "bytes": 1691
+    },
+    {
+      "path": "ProjectSettings/GraphicsSettings.asset",
+      "sha256": "444c8978a575d77c1a0dde2cdb84ad88877e3b75a36a4f142e9d60344c74ef3a",
+      "bytes": 2646
+    },
+    {
+      "path": "ProjectSettings/InputManager.asset",
+      "sha256": "d0f454ddb880912abcae92e3e12957a7446786ba89e24937e019ff3bbc0d4300",
+      "bytes": 5816
+    },
+    {
+      "path": "ProjectSettings/MemorySettings.asset",
+      "sha256": "25fb3fdd1ce94347ccdcf23d5d5e446055ca81d8b3756a7df85d614645a71ac4",
+      "bytes": 1265
+    },
+    {
+      "path": "ProjectSettings/MultiplayerManager.asset",
+      "sha256": "aba89fd1a1ddad182727ad82727e536d27372e90328a8196da2a4560398983dd",
+      "bytes": 157
+    },
+    {
+      "path": "ProjectSettings/NavMeshAreas.asset",
+      "sha256": "7ebbf8f53b8033104e1878b95ca07a28d0954092d81c220f14196a42f651e658",
+      "bytes": 1361
+    },
+    {
+      "path": "ProjectSettings/PackageManagerSettings.asset",
+      "sha256": "672ca726d5cee03f7510eb6570ab8c577cf648c6e863e255ce11ab563ebb887d",
+      "bytes": 1132
+    },
+    {
+      "path": "ProjectSettings/Physics2DSettings.asset",
+      "sha256": "7280037ac908e26d4519825446c92c80a8520308016b171522760b535aadcbc0",
+      "bytes": 1863
+    },
+    {
+      "path": "ProjectSettings/PhysicsCoreProjectSettings2D.asset",
+      "sha256": "bedc5339a832c60dc3f11b84abc4f4384dbfa20b0cd9ad6c444b907e751fc35e",
+      "bytes": 151
+    },
+    {
+      "path": "ProjectSettings/PresetManager.asset",
+      "sha256": "29c125923fe6e29f90190d4fce1c82d660e7051546e2c9d02908d18c9cf2436c",
+      "bytes": 146
+    },
+    {
+      "path": "ProjectSettings/ProjectAuditorSettings.asset",
+      "sha256": "9e68444b9bda981e2927a98df9edf69ea88362f0c6b7f3c81b39b9d515d2a416",
+      "bytes": 1036
+    },
+    {
+      "path": "ProjectSettings/ProjectSettings.asset",
+      "sha256": "f130ee775617b3c03181ad2bd763ce3735752c9c250741df332dfa9311cbfb0c",
+      "bytes": 20526
+    },
+    {
+      "path": "ProjectSettings/ProjectVersion.txt",
+      "sha256": "50f1bf3fb4196ce6ddf6dbd0eb2ef8c2227a18b5ff762c90e1cb4feab8a06b4a",
+      "bytes": 83
+    },
+    {
+      "path": "ProjectSettings/QualitySettings.asset",
+      "sha256": "f1f893b1be47ad2442f58338dd7c860dc1986bb317e2f5bb31084454ffabbf4c",
+      "bytes": 9802
+    },
+    {
+      "path": "ProjectSettings/SceneTemplateSettings.json",
+      "sha256": "bb9098b3bfcde78d93e264b96f7b77b5430e64e8c57a7aad7f5a5d9c3945e16a",
+      "bytes": 3535
+    },
+    {
+      "path": "ProjectSettings/TagManager.asset",
+      "sha256": "996628fdc904025b83606bbfbda4fe08c0bbe916475146110e77cdc2f22c2013",
+      "bytes": 443
+    },
+    {
+      "path": "ProjectSettings/TimeManager.asset",
+      "sha256": "3396f52fdc16d445024e01d7a2d99db6f0a37569d1d73c0302e9ffb857d90287",
+      "bytes": 305
+    },
+    {
+      "path": "ProjectSettings/UnityConnectSettings.asset",
+      "sha256": "bfd9b4ad7ba0f6044f0957cd427df1d8e49dcf9453fdfc35dac74c64bbffa8f3",
+      "bytes": 1191
+    },
+    {
+      "path": "ProjectSettings/VersionControlSettings.asset",
+      "sha256": "e199cdfa6a8f2bf33cfd47e549198f13e3eb2a5099e908fdb4e0f14d939ccc6b",
+      "bytes": 172
+    },
+    {
+      "path": "ProjectSettings/VFXManager.asset",
+      "sha256": "d2937fe93ff49c2ce60f888056b70ebc0a1df7dd5e22dab3fa41678c2a3f3858",
+      "bytes": 558
+    }
+  ],
+  "documents": [
+    {
+      "path": "README.md",
+      "sha256": "fa402b1baaa475c8f664356d85e853e9c6b3d8757b75a1826e0aa2d1c6952aa6",
+      "bytes": 2524
+    },
+    {
+      "path": "GiftCompanion/README.md",
+      "sha256": "152f26d1efb2d303101a8c1d993baef161b96ed730977a0858f56fbadc57f193",
+      "bytes": 5955
+    },
+    {
+      "path": "GiftCompanion/Docs/phase3plus_delivery.md",
+      "sha256": "e82e620e95aec3d0c54e6e29fab7d5ec9778a936dd0bea21d84b7c70c849bd32",
+      "bytes": 6732
+    },
+    {
+      "path": "GiftCompanion/Docs/phase3plus_status.md",
+      "sha256": "73d8c1ce8f434d4fb808bfb1f775e2a5b5a79ea4a1f56e99ec026833afc14193",
+      "bytes": 1972
+    },
+    {
+      "path": "GiftCompanion/Docs/phase3plus_checkpoint.md",
+      "sha256": "ac1ae85cfe6eabedccf935a8b49eabe580d214879af1e359c3dda5ef6162c34e",
+      "bytes": 13620
+    },
+    {
+      "path": "GiftCompanion/Docs/phase3_file_plan.md",
+      "sha256": "5091e22612258431f067c1d15f6d8fd26e17bd114b249b7ddbd63b6617162c11",
+      "bytes": 4965
+    },
+    {
+      "path": "GiftCompanion/Docs/player_content_contracts.md",
+      "sha256": "132a758c29f41e60f870f41f6a9582caf2114a8b3823328b3feb5ec16b34ca4f",
+      "bytes": 6253
+    },
+    {
+      "path": "GiftCompanion/Docs/architecture.md",
+      "sha256": "99bbd8611d4f9e0a1b3b9909913d5f64eecd3c1bcd2d9794038572fc345489e3",
+      "bytes": 13145
+    },
+    {
+      "path": "GiftCompanion/Docs/character_protocol.md",
+      "sha256": "0bf0b8c73059f163f304a533eec01757609e9bb4c4f90cb93a0f70b050fe86ff",
+      "bytes": 3866
+    },
+    {
+      "path": "GiftCompanion/Docs/memory_protocol.md",
+      "sha256": "9403e487c0312e89c920f180a87dc32e347a2eea43ac5f528512d7cae9484727",
+      "bytes": 5079
+    },
+    {
+      "path": "GiftCompanion/Docs/validation.md",
+      "sha256": "f7112af88a640f4d98a62cab1efe3dc0469774cbeb20c2f6d3fa7e94265027f6",
+      "bytes": 15329
+    },
+    {
+      "path": "GiftCompanion/Docs/v1_design.md",
+      "sha256": "ccbe6a22c181f2f4f0ca9454ce0fa32a3ab4c59c21808160b80dee87bd286ba5",
+      "bytes": 9292
+    },
+    {
+      "path": "GiftCompanion/Docs/development_log.md",
+      "sha256": "72bd5f1f07af0cf6458185e7a316fc74b2178d3ad4194cdb2a8042ef11668ef5",
+      "bytes": 56921
+    }
+  ],
+  "images": [
+    {
+      "path": "character_card.png",
+      "sha256": "1635542e3ff204e56c058592c4080e1f47c818d54a99bc8d454095f94d3c9e5a",
+      "bytes": 632087
+    },
+    {
+      "path": "diary.png",
+      "sha256": "84cc7d92bbe88c9bbf80ffdcbae9b87912c536c932375e18b15e6d8e301ecc78",
+      "bytes": 687027
+    },
+    {
+      "path": "diary_after_forget.png",
+      "sha256": "00da8282eae6e099240189e457d9834f4a2bb1a5569bfc0f0a874dc006aae22d",
+      "bytes": 583198
+    },
+    {
+      "path": "maintenance.png",
+      "sha256": "eccfd49852424556d9710ab2b931923f599dc424d2807d454ee0c86af45105ac",
+      "bytes": 633863
+    },
+    {
+      "path": "music.png",
+      "sha256": "fa30672ee530b337037e0c7941101a1624ceb6af0e9d96939475f54373c69d43",
+      "bytes": 578941
+    },
+    {
+      "path": "reply.png",
+      "sha256": "63d2ac7556a99b9317edd2da8b556ade5eee3a2c2af23e8b1d34f318793e1fc7",
+      "bytes": 990208
+    },
+    {
+      "path": "resized_nokey.png",
+      "sha256": "402b87ef79b3c03c5c2e416d33b503e7f162b4faa4457030a4bade250ec9c962",
+      "bytes": 524875
+    },
+    {
+      "path": "resized_restore.png",
+      "sha256": "78cda229249845ff18fb7a023317c904f8549d05f33867f20281fe8e7f086721",
+      "bytes": 524883
+    },
+    {
+      "path": "resized_write.png",
+      "sha256": "7dfc646501f8e5f158c14dee5e9e3ec8c4ab71fb765fdd41187fabe55cf6a82f",
+      "bytes": 524379
+    },
+    {
+      "path": "restored_nokey.png",
+      "sha256": "39b95cf310b7679d04c48666df75bf4f2bba66238918ef356580d1b564b62b7b",
+      "bytes": 582697
+    },
+    {
+      "path": "restored_restore.png",
+      "sha256": "7ea12dc6803cc919f81a49fd811cfd4cf40559e5fc4b16f3673dbce982123d30",
+      "bytes": 582403
+    },
+    {
+      "path": "spaces.png",
+      "sha256": "fb996a0d62657f2143938cf7daa527bf64b3747337f4fa5eb079eacd9af35149",
+      "bytes": 579465
+    },
+    {
+      "path": "Window/window_composition.png",
+      "sha256": "5d10451f60a3f35f5f1dd1d526cac8ec77795751b2e9725f9a3148d94b7803a4",
+      "bytes": 43045
+    }
+  ],
+  "frozenImportedFilesVerified": 862,
+  "frozenImportedMismatches": 0,
+  "baselinePhase3BinariesUnchanged": true,
+  "buildSecretFiles": 0,
+  "projectTestAssembliesInBuild": 0,
+  "formalUserDataMigrated": false,
+  "limitations": [
+    "Native file/folder picker, OS IME candidate selection, subjective audio/appearance/persona remain manual.",
+    "Only the existing lobby copy verified the generic space interface; no second art package provided.",
+    "Bounded diary summaries are narrative projections of recorded dialogue, not objective psychological measurement.",
+    "Cross-device file-provider fallback uses recoverable writes; its overwrite stage is not atomic.",
+    "No Phase4 voice/ducking/replay, Phase5 tools or Phase6 full distribution/multi-monitor acceptance."
+  ]
+}

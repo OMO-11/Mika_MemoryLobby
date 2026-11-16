@@ -1,0 +1,174 @@
+{
+  "name": "CH0069_Hair",
+  "shader": {
+    "status": "resolved",
+    "name": "MX/C-Hair",
+    "file": "Shaders/MX_C-Hair__7510402755012584619.shader.json",
+    "serializedFile": "CAB-dfc5bcc011d85f284a539a56baf966f7",
+    "reference": {
+      "fileId": 1,
+      "pathId": 7510402755012584619
+    }
+  },
+  "renderQueue": -1,
+  "shaderKeywords": null,
+  "textures": {
+    "_HairSpecTex": {
+      "texture": "CH0069_Hair_Spec",
+      "file": "Textures/Source/CH0069_Hair_Spec.png",
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0
+      ],
+      "sourceFormat": "49:ASTC_RGB_5x5",
+      "width": 512,
+      "height": 512,
+      "status": "exported"
+    },
+    "_MainTex": {
+      "texture": "CH0069_Hair",
+      "file": "Textures/Source/CH0069_Hair.png",
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0
+      ],
+      "sourceFormat": "51:ASTC_RGB_8x8",
+      "width": 512,
+      "height": 512,
+      "status": "exported"
+    },
+    "_MaskTex": {
+      "texture": "CH0069_Hair_Mask",
+      "file": "Textures/Source/CH0069_Hair_Mask.png",
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0
+      ],
+      "sourceFormat": "49:ASTC_RGB_5x5",
+      "width": 512,
+      "height": 512,
+      "status": "exported"
+    },
+    "_TempTex": {
+      "texture": null,
+      "file": null,
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0
+      ],
+      "status": "absent-in-source"
+    }
+  },
+  "floats": {
+    "_AdditionalLightSharpness": 5.0,
+    "_AdditionalLightStrength": 1.0,
+    "_AdjustiveHairShadow": 0.0,
+    "_Cull": 0.0,
+    "_DitherThreshold": 0.0,
+    "_DstBlend": 0.0,
+    "_DstBlendAlpha": 0.0,
+    "_GlowStrength": 0.0,
+    "_GrayBrightness": 1.0,
+    "_MaskGSensitivity": 1.0,
+    "_OutlineZCorrection": 0.0,
+    "_RimAreaLeveler": 4.0,
+    "_RimAreaMultiplier": 5.0,
+    "_RimStrength": 1.0,
+    "_ShadowThreshold": 0.44999998807907104,
+    "_SpecBotArea": 0.2160000056028366,
+    "_SpecBotMultiplier": 21.433469772338867,
+    "_SpecStrength": 0.5,
+    "_SpecTopLeveler": 7.399999618530273,
+    "_SpecTopMultiplier": 8.399999618530273,
+    "_SrcBlend": 1.0,
+    "_SrcBlendAlpha": 1.0,
+    "_ZWrite": 1.0
+  },
+  "colors": {
+    "_CodeAddColor": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "_CodeAddRimColor": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "_CodeMultiplyColor": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "_GlowTint": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "_OutlineSolidColorTint": [
+      0.699999988079071,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "_OutlineTint": [
+      0.5188679099082947,
+      0.3353061378002167,
+      0.36565089225769043,
+      1.0
+    ],
+    "_ShadowTint": [
+      1.0,
+      0.6933962106704712,
+      0.8599982261657715,
+      1.0
+    ],
+    "_SpecDirMultiplier": [
+      0.4300001263618469,
+      4.284083843231201e-08,
+      5.963267426523089e-07,
+      0.0
+    ],
+    "_Tint": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "_TwoSideTint": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "ints": {},
+  "vectors": {},
+  "provenance": {
+    "bundle": "CAB-1de60467771e7319ddddaf8e2645428c",
+    "serializedFile": "CAB-1de60467771e7319ddddaf8e2645428c",
+    "classId": 21,
+    "pathId": 3129366841415261526
+  },
+  "logicalName": "CH0069_Hair"
+}

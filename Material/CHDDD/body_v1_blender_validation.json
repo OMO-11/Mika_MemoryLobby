@@ -1,0 +1,375 @@
+{
+  "bodyClips": 18,
+  "loops": 7,
+  "bodyActions": [
+    {
+      "name": "Idle",
+      "loop": true,
+      "endpointMatrixError": 9.441282600164413e-08,
+      "sampledVelocityDifferencePerFrame": 6.443262100219727e-05,
+      "sampledFootRangeModelUnits": 0.00015733763575553894,
+      "angularVelocityDifferenceRadiansPerFrame": 0.0010701048652181416,
+      "linearVelocityDifferenceModelUnitsPerFrame": 7.160723346098895e-15,
+      "noFacialBoneCurves": true,
+      "geometryFinite": true,
+      "passed": true
+    },
+    {
+      "name": "Walk",
+      "loop": true,
+      "endpointMatrixError": 5.960464477539063e-08,
+      "sampledVelocityDifferencePerFrame": 0.023663759231567383,
+      "sampledFootRangeModelUnits": 0.28159869462251663,
+      "angularVelocityDifferenceRadiansPerFrame": 0.001896740624369145,
+      "linearVelocityDifferenceModelUnitsPerFrame": 4.656612873077393e-10,
+      "noFacialBoneCurves": true,
+      "geometryFinite": true,
+      "passed": true
+    },
+    {
+      "name": "Thinking",
+      "loop": true,
+      "endpointMatrixError": 0.0,
+      "sampledVelocityDifferencePerFrame": 5.485117435455322e-05,
+      "sampledFootRangeModelUnits": 0.0,
+      "angularVelocityDifferenceRadiansPerFrame": 0.0012568425922603952,
+      "linearVelocityDifferenceModelUnitsPerFrame": 6.143906154658885e-08,
+      "noFacialBoneCurves": true,
+      "geometryFinite": true,
+      "passed": true
+    },
+    {
+      "name": "Working",
+      "loop": true,
+      "endpointMatrixError": 0.0,
+      "sampledVelocityDifferencePerFrame": 0.00017273426055908203,
+      "sampledFootRangeModelUnits": 0.0,
+      "angularVelocityDifferenceRadiansPerFrame": 0.0001824246520331891,
+      "linearVelocityDifferenceModelUnitsPerFrame": 1.1920928955078125e-07,
+      "noFacialBoneCurves": true,
+      "geometryFinite": true,
+      "passed": true
+    },
+    {
+      "name": "HeadPat",
+      "loop": true,
+      "endpointMatrixError": 0.0,
+      "sampledVelocityDifferencePerFrame": 8.17328691482544e-05,
+      "sampledFootRangeModelUnits": 0.0,
+      "angularVelocityDifferenceRadiansPerFrame": 0.0011647141296453863,
+      "linearVelocityDifferenceModelUnitsPerFrame": 8.835530840670763e-08,
+      "noFacialBoneCurves": true,
+      "geometryFinite": true,
+      "passed": true
+    },
+    {
+      "name": "Dragging",
+      "loop": true,
+      "endpointMatrixError": 0.0,
+      "sampledVelocityDifferencePerFrame": 0.002718210220336914,
+      "sampledFootRangeModelUnits": 0.010542631149291992,
+      "angularVelocityDifferenceRadiansPerFrame": 0.0029901808435251268,
+      "linearVelocityDifferenceModelUnitsPerFrame": 6.843754385628006e-05,
+      "noFacialBoneCurves": true,
+      "geometryFinite": true,
+      "passed": true
+    },
+    {
+      "name": "Sleep",
+      "loop": true,
+      "endpointMatrixError": 0.0,
+      "sampledVelocityDifferencePerFrame": 3.8295984268188477e-05,
+      "sampledFootRangeModelUnits": 0.0,
+      "angularVelocityDifferenceRadiansPerFrame": 0,
+      "linearVelocityDifferenceModelUnitsPerFrame": 5.960464477539063e-08,
+      "noFacialBoneCurves": true,
+      "geometryFinite": true,
+      "passed": true
+    },
+    {
+      "name": "Wave",
+      "loop": false,
+      "endpointMatrixError": 0.0,
+      "sampledVelocityDifferencePerFrame": 0.037194470409303904,
+      "sampledFootRangeModelUnits": 0.0,
+      "angularVelocityDifferenceRadiansPerFrame": 0.04522121510199201,
+      "linearVelocityDifferenceModelUnitsPerFrame": 1.1356494117663572e-07,
+      "noFacialBoneCurves": true,
+      "geometryFinite": true,
+      "passed": true
+    },
+    {
+      "name": "Success",
+      "loop": false,
+      "endpointMatrixError": 0.0,
+      "sampledVelocityDifferencePerFrame": 0.023715078830718994,
+      "sampledFootRangeModelUnits": 0.0,
+      "angularVelocityDifferenceRadiansPerFrame": 0.027158207194667664,
+      "linearVelocityDifferenceModelUnitsPerFrame": 1.1815763045743889e-07,
+      "noFacialBoneCurves": true,
+      "geometryFinite": true,
+      "passed": true
+    },
+    {
+      "name": "Confused",
+      "loop": false,
+      "endpointMatrixError": 0.0,
+      "sampledVelocityDifferencePerFrame": 0.02508066175505519,
+      "sampledFootRangeModelUnits": 0.0,
+      "angularVelocityDifferenceRadiansPerFrame": 0.025306515307358512,
+      "linearVelocityDifferenceModelUnitsPerFrame": 2.0336923740152388e-07,
+      "noFacialBoneCurves": true,
+      "geometryFinite": true,
+      "passed": true
+    },
+    {
+      "name": "HeadClick",
+      "loop": false,
+      "endpointMatrixError": 0.0,
+      "sampledVelocityDifferencePerFrame": 0.010598979890346527,
+      "sampledFootRangeModelUnits": 0.0,
+      "angularVelocityDifferenceRadiansPerFrame": 0.011111410946195511,
+      "linearVelocityDifferenceModelUnitsPerFrame": 5.557711730743316e-08,
+      "noFacialBoneCurves": true,
+      "geometryFinite": true,
+      "passed": true
+    },
+    {
+      "name": "BodyClick",
+      "loop": false,
+      "endpointMatrixError": 0.0,
+      "sampledVelocityDifferencePerFrame": 0.010216325521469116,
+      "sampledFootRangeModelUnits": 0.0,
+      "angularVelocityDifferenceRadiansPerFrame": 0.011852132513658688,
+      "linearVelocityDifferenceModelUnitsPerFrame": 7.345414460101557e-08,
+      "noFacialBoneCurves": true,
+      "geometryFinite": true,
+      "passed": true
+    },
+    {
+      "name": "HeadPat_Enter",
+      "loop": false,
+      "endpointMatrixError": 0.13045548647642136,
+      "sampledVelocityDifferencePerFrame": 0.00016629695892333984,
+      "sampledFootRangeModelUnits": 2.60770320892334e-08,
+      "angularVelocityDifferenceRadiansPerFrame": 2.301990032756552e-11,
+      "linearVelocityDifferenceModelUnitsPerFrame": 7.105427357601002e-15,
+      "noFacialBoneCurves": true,
+      "geometryFinite": true,
+      "passed": true
+    },
+    {
+      "name": "HeadPat_Exit",
+      "loop": false,
+      "endpointMatrixError": 0.13045548647642136,
+      "sampledVelocityDifferencePerFrame": 0.00016629695892333984,
+      "sampledFootRangeModelUnits": 2.60770320892334e-08,
+      "angularVelocityDifferenceRadiansPerFrame": 0.0012298391703137869,
+      "linearVelocityDifferenceModelUnitsPerFrame": 7.105427357601002e-15,
+      "noFacialBoneCurves": true,
+      "geometryFinite": true,
+      "passed": true
+    },
+    {
+      "name": "Dragging_Enter",
+      "loop": false,
+      "endpointMatrixError": 1.0027198642492294,
+      "sampledVelocityDifferencePerFrame": 0.022507309913635254,
+      "sampledFootRangeModelUnits": 0.05462842062115669,
+      "angularVelocityDifferenceRadiansPerFrame": 5.588802553298142e-07,
+      "linearVelocityDifferenceModelUnitsPerFrame": 1.5168932069253613e-09,
+      "noFacialBoneCurves": true,
+      "geometryFinite": true,
+      "passed": true
+    },
+    {
+      "name": "Dragging_Exit",
+      "loop": false,
+      "endpointMatrixError": 1.0027198642492294,
+      "sampledVelocityDifferencePerFrame": 0.010297954082489014,
+      "sampledFootRangeModelUnits": 0.05462842062115669,
+      "angularVelocityDifferenceRadiansPerFrame": 0.0012922609578296862,
+      "linearVelocityDifferenceModelUnitsPerFrame": 1.4261166938293762e-09,
+      "noFacialBoneCurves": true,
+      "geometryFinite": true,
+      "passed": true
+    },
+    {
+      "name": "Sleep_Enter",
+      "loop": false,
+      "endpointMatrixError": 0.21711600571870804,
+      "sampledVelocityDifferencePerFrame": 0.00011277198791503906,
+      "sampledFootRangeModelUnits": 2.60770320892334e-08,
+      "angularVelocityDifferenceRadiansPerFrame": 0,
+      "linearVelocityDifferenceModelUnitsPerFrame": 7.160723346098895e-15,
+      "noFacialBoneCurves": true,
+      "geometryFinite": true,
+      "passed": true
+    },
+    {
+      "name": "Sleep_Exit",
+      "loop": false,
+      "endpointMatrixError": 0.21711600571870804,
+      "sampledVelocityDifferencePerFrame": 0.00011277198791503906,
+      "sampledFootRangeModelUnits": 2.60770320892334e-08,
+      "angularVelocityDifferenceRadiansPerFrame": 0,
+      "linearVelocityDifferenceModelUnitsPerFrame": 7.186711269878534e-15,
+      "noFacialBoneCurves": true,
+      "geometryFinite": true,
+      "passed": true
+    }
+  ],
+  "connections": [
+    {
+      "from": "Idle",
+      "to": "HeadPat_Enter",
+      "matrixError": 1.6391277313232422e-07,
+      "passed": true
+    },
+    {
+      "from": "HeadPat_Enter",
+      "to": "HeadPat",
+      "matrixError": 1.6391277313232422e-07,
+      "passed": true
+    },
+    {
+      "from": "HeadPat",
+      "to": "HeadPat_Exit",
+      "matrixError": 1.6391277313232422e-07,
+      "passed": true
+    },
+    {
+      "from": "HeadPat_Exit",
+      "to": "Idle",
+      "matrixError": 1.6391277313232422e-07,
+      "passed": true
+    },
+    {
+      "from": "Idle",
+      "to": "Dragging_Enter",
+      "matrixError": 1.6391277313232422e-07,
+      "passed": true
+    },
+    {
+      "from": "Dragging_Enter",
+      "to": "Dragging",
+      "matrixError": 1.1920928955078125e-07,
+      "passed": true
+    },
+    {
+      "from": "Dragging",
+      "to": "Dragging_Exit",
+      "matrixError": 1.1920928955078125e-07,
+      "passed": true
+    },
+    {
+      "from": "Dragging_Exit",
+      "to": "Idle",
+      "matrixError": 1.6391277313232422e-07,
+      "passed": true
+    },
+    {
+      "from": "Idle",
+      "to": "Sleep_Enter",
+      "matrixError": 1.6391277313232422e-07,
+      "passed": true
+    },
+    {
+      "from": "Sleep_Enter",
+      "to": "Sleep",
+      "matrixError": 1.6391277313232422e-07,
+      "passed": true
+    },
+    {
+      "from": "Sleep",
+      "to": "Sleep_Exit",
+      "matrixError": 1.6391277313232422e-07,
+      "passed": true
+    },
+    {
+      "from": "Sleep_Exit",
+      "to": "Idle",
+      "matrixError": 1.6391277313232422e-07,
+      "passed": true
+    },
+    {
+      "from": "Wave",
+      "endpoint": 0,
+      "to": "Idle",
+      "matrixError": 1.6391277313232422e-07,
+      "passed": true
+    },
+    {
+      "from": "Wave",
+      "endpoint": 1,
+      "to": "Idle",
+      "matrixError": 1.6391277313232422e-07,
+      "passed": true
+    },
+    {
+      "from": "Success",
+      "endpoint": 0,
+      "to": "Idle",
+      "matrixError": 1.6391277313232422e-07,
+      "passed": true
+    },
+    {
+      "from": "Success",
+      "endpoint": 1,
+      "to": "Idle",
+      "matrixError": 1.6391277313232422e-07,
+      "passed": true
+    },
+    {
+      "from": "Confused",
+      "endpoint": 0,
+      "to": "Idle",
+      "matrixError": 1.6391277313232422e-07,
+      "passed": true
+    },
+    {
+      "from": "Confused",
+      "endpoint": 1,
+      "to": "Idle",
+      "matrixError": 1.6391277313232422e-07,
+      "passed": true
+    },
+    {
+      "from": "HeadClick",
+      "endpoint": 0,
+      "to": "Idle",
+      "matrixError": 1.6391277313232422e-07,
+      "passed": true
+    },
+    {
+      "from": "HeadClick",
+      "endpoint": 1,
+      "to": "Idle",
+      "matrixError": 1.6391277313232422e-07,
+      "passed": true
+    },
+    {
+      "from": "BodyClick",
+      "endpoint": 0,
+      "to": "Idle",
+      "matrixError": 1.6391277313232422e-07,
+      "passed": true
+    },
+    {
+      "from": "BodyClick",
+      "endpoint": 1,
+      "to": "Idle",
+      "matrixError": 1.6391277313232422e-07,
+      "passed": true
+    }
+  ],
+  "expressionsPreserved": true,
+  "acceptedBlendUnchanged": true,
+  "sourceUnchanged": true,
+  "weaponHidden": true,
+  "haloAttachedToHead": true,
+  "haloRaiseModelUnits": 0.065,
+  "visualReview": "First draft: still and motion preview review; future artistic refinement remains expected",
+  "velocityNote": "Sampled finite differences are diagnostic, not a proof of continuous derivatives. Source clips retain source motion; custom standing loops use sinusoidal motion.",
+  "passed": true
+}

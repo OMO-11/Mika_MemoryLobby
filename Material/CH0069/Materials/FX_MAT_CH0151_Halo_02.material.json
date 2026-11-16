@@ -1,0 +1,144 @@
+{
+  "name": "FX_MAT_CH0151_Halo_02",
+  "shader": {
+    "status": "resolved",
+    "name": "DSFX/FX_SHADER_Step_0_MXChar",
+    "file": "Shaders/DSFX_FX_SHADER_Step_0_MXChar__-2498361731178882084.shader.json",
+    "serializedFile": "CAB-d412320f324bd723748bfca5264855a8",
+    "reference": {
+      "fileId": 5,
+      "pathId": -2498361731178882084
+    }
+  },
+  "renderQueue": -1,
+  "shaderKeywords": null,
+  "textures": {
+    "_Tex_Main": {
+      "texture": null,
+      "file": null,
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0
+      ],
+      "status": "absent-in-source"
+    },
+    "_Tex_Mask": {
+      "texture": null,
+      "file": null,
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0
+      ],
+      "status": "unresolved-external",
+      "reference": {
+        "fileId": 6,
+        "pathId": 8568554791786387591
+      },
+      "externalFile": {
+        "cab": "CAB-8401f2c7cf1999ffa9891eecdc0ba7ce",
+        "archivePath": "archive:/CAB-8401f2c7cf1999ffa9891eecdc0ba7ce/CAB-8401f2c7cf1999ffa9891eecdc0ba7ce"
+      },
+      "error": "File cab-8401f2c7cf1999ffa9891eecdc0ba7ce not found in the staged bundle scope"
+    }
+  },
+  "floats": {
+    "_AlphaClip": 0.0,
+    "_AlphaPremultiplyOn": 0.0,
+    "_Blend": 0.0,
+    "_BumpScale": 1.0,
+    "_Cull": 2.0,
+    "_Cull_Mode": 2.0,
+    "_Custom_Data_Distort_Power_Use": 0.0,
+    "_Custom_Data_MainMask_Offset_Use": 0.0,
+    "_Custom_Data_Main_Offset_Use": 0.0,
+    "_Custom_Data_Mask_Offset_Use": 1.0,
+    "_Custom_Data_Offset_Use": 0.0,
+    "_Cutoff": 0.5,
+    "_Dis_Speed_X": 0.0,
+    "_Dis_Speed_Y": 0.0,
+    "_Distortion_Power_X": 0.0,
+    "_Distortion_Power_Y": 0.0,
+    "_DitherThreshold": 0.0,
+    "_DstBlend": 1.0,
+    "_DstBlendAlpha": 10.0,
+    "_EnableDither": 0.0,
+    "_EnableGrayscale": 0.0,
+    "_EnvironmentReflections": 1.0,
+    "_GlossMapScale": 0.0,
+    "_Glossiness": 0.0,
+    "_GlossyReflections": 0.0,
+    "_GrayBrightness": 1.0,
+    "_Main_Distortion_Use": 0.0,
+    "_Main_Speed_X": 0.0,
+    "_Main_Speed_Y": 0.0,
+    "_Main_Texture_No": 0.0,
+    "_Mask_Distortion_Use": 0.0,
+    "_Mask_Speed_X": 0.0,
+    "_Mask_Speed_Y": 0.0,
+    "_Metallic": 0.0,
+    "_Multiply": 1.0,
+    "_OcclusionStrength": 1.0,
+    "_QueueOffset": 0.0,
+    "_RGBRGBA": 0.0,
+    "_ReceiveShadows": 1.0,
+    "_Smoothness": 0.5,
+    "_SmoothnessTextureChannel": 0.0,
+    "_SpecularHighlights": 1.0,
+    "_SrcBlend": 1.0,
+    "_SrcBlendAlpha": 1.0,
+    "_Step_Custom_DataVertex_color_Use": 0.0,
+    "_Step_Power": 0.0,
+    "_Step_Scroll_Use": 1.0,
+    "_Surface": 0.0,
+    "_Vertex_Alpha_Use": 0.0,
+    "_WorkflowMode": 1.0,
+    "_ZOffsetFactor": 0.0,
+    "_ZOffsetUnits": 0.0,
+    "_ZTest": 4.0,
+    "_ZWrite": 0.0,
+    "_ZWrite_Mode": 0.0
+  },
+  "colors": {
+    "_BaseColor": [
+      0.5,
+      0.5,
+      0.5,
+      1.0
+    ],
+    "_Color": [
+      5.992156982421875,
+      5.992156982421875,
+      5.992156982421875,
+      1.0
+    ],
+    "_EmissionColor": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "_SpecColor": [
+      0.19999995827674866,
+      0.19999995827674866,
+      0.19999995827674866,
+      1.0
+    ]
+  },
+  "ints": {},
+  "vectors": {},
+  "provenance": {
+    "bundle": "CAB-1de60467771e7319ddddaf8e2645428c",
+    "serializedFile": "CAB-1de60467771e7319ddddaf8e2645428c",
+    "classId": 21,
+    "pathId": -4424058627445745099
+  },
+  "logicalName": "FX_MAT_CH0151_Halo_02"
+}

@@ -1,0 +1,79 @@
+var graphic=UnityEngine.Object.FindFirstObjectByType<Spine.Unity.SkeletonGraphic>();
+var c=graphic.GetComponent<Mika.Seaside.SeasideLobbyController>();
+var camera=graphic.canvas.worldCamera;
+var checks=new System.Collections.Generic.List<object>();
+bool finite=true; int frames=0; float maxHeadStep=0; float maxHeadRotation=0;
+var seen=new System.Collections.Generic.HashSet<string>();
+System.Action<float> step=seconds=> {
+    int count=(int)System.Math.Ceiling(seconds*60);
+    var head=graphic.Skeleton.FindBone("Head_Rot");
+    float lastX=head.WorldX,lastY=head.WorldY;
+    for(int i=0;i<count;i++) {
+        c.AdvanceInteraction(1f/60f); graphic.Update(1f/60f); frames++;
+        foreach(var bone in graphic.Skeleton.Bones) {
+            float[] values={bone.A,bone.B,bone.C,bone.D,bone.WorldX,bone.WorldY};
+            foreach(float v in values) finite &= !float.IsNaN(v) && !float.IsInfinity(v);
+        }
+        float dx=head.WorldX-lastX,dy=head.WorldY-lastY;
+        maxHeadStep=System.Math.Max(maxHeadStep,(float)System.Math.Sqrt(dx*dx+dy*dy));
+        maxHeadRotation=System.Math.Max(maxHeadRotation,System.Math.Abs(head.Rotation));
+        lastX=head.WorldX; lastY=head.WorldY;
+        if(c.CurrentIdleExpression!=Mika.Seaside.SeasideLobbyController.IdleExpression.None) seen.Add(c.CurrentIdleExpression.ToString());
+    }
+};
+System.Action reset=()=> {graphic.Initialize(true); c.ResetToIdle();c.AmbientExpressionsEnabled=false;step(0.5f);};
+System.Func<float,float,UnityEngine.Vector2> point=(x,y)=> {
+    float wx,wy;graphic.Skeleton.FindBone("Head_Rot").LocalToWorld(x,y,out wx,out wy);
+    var world=graphic.transform.TransformPoint(new UnityEngine.Vector3(wx,wy,0)*graphic.MeshScale);
+    return UnityEngine.RectTransformUtility.WorldToScreenPoint(camera,world);
+};
+
+reset();
+var center=point(4.65f,0);var forehead=point(3.2f,0);var cheek=point(0,0);var above=point(8,0);var side=point(4.65f,5);
+bool region=c.ContainsHeadPatPoint(center)&&c.ContainsHeadPatPoint(forehead)&&!c.ContainsHeadPatPoint(cheek)&&!c.ContainsHeadPatPoint(above)&&!c.ContainsHeadPatPoint(side);
+checks.Add(new {name="forehead_crown_only",pass=region,center=center.ToString(),forehead=forehead.ToString(),cheek=cheek.ToString()});
+c.ProcessHeadPatPointer(cheek,true,true,false,1f/60f);checks.Add(new {name="cheek_does_not_trigger",pass=!c.IsPatting});
+
+reset(); center=point(4.65f,0);
+c.ProcessHeadPatPointer(center,true,true,false,1f/60f);step(1f/60f);
+c.ProcessHeadPatPointer(center,false,false,true,1f/60f);
+bool tapHeld=c.IsPatFeedbackPlaying;step(0.2f);bool minimumHeld=c.IsPatFeedbackPlaying;
+step(1.8f);checks.Add(new {name="short_tap_minimum_feedback_and_end",pass=tapHeld&&minimumHeld&&!c.IsPatting&&graphic.AnimationState.GetCurrent(1)==null&&graphic.AnimationState.GetCurrent(2)==null});
+
+reset();center=point(4.65f,0);float baseBefore=graphic.AnimationState.GetCurrent(0).TrackTime;
+c.ProcessHeadPatPointer(center,true,true,false,1f/60f);
+for(int i=0;i<180;i++) {c.ProcessHeadPatPointer(center,false,true,false,1f/60f);step(1f/60f);}
+var held=graphic.AnimationState.GetCurrent(1);
+bool heldPose=c.IsPatFeedbackPlaying&&held!=null&&held.Animation.Name=="Pat_01_M"&&!held.Loop&&held.TrackTime>2.9f;
+c.ProcessHeadPatPointer(center,false,false,true,1f/60f);step(1.6f);
+checks.Add(new {name="long_hold_without_short_loop_or_idle_reset",pass=heldPose&&!c.IsPatting&&graphic.AnimationState.GetCurrent(0).TrackTime>baseBefore+4f});
+
+reset();center=point(4.65f,0);c.ProcessHeadPatPointer(center,true,true,false,1f/60f);step(0.8f);
+c.ProcessHeadPatPointer(point(0,0),false,true,false,0.05f);bool grace=c.IsPatFeedbackPlaying;
+c.ProcessHeadPatPointer(point(0,0),false,true,false,0.1f);bool exiting=c.IsPatEnding;
+c.ProcessHeadPatPointer(point(4.65f,0),false,true,false,1f/60f);bool resumed=c.IsPatFeedbackPlaying;
+c.ProcessHeadPatPointer(point(4.65f,0),false,false,true,1f/60f);step(2f);
+checks.Add(new {name="drag_exit_grace_reentry_and_release",pass=grace&&exiting&&resumed&&!c.IsPatting});
+
+reset();c.BeginPatFeedback();step(0.5f);c.gameObject.SendMessage("OnApplicationFocus",false);step(1.7f);
+checks.Add(new {name="focus_loss_ends_pat",pass=!c.IsPatting&&graphic.AnimationState.GetCurrent(1)==null});
+
+reset();c.PlayEntrance();bool noPat=!c.BeginPatFeedback();step(23f);
+checks.Add(new {name="entrance_closeup_then_idle_without_pat_interrupt",pass=noPat&&!c.IsEntrancePlaying&&graphic.AnimationState.GetCurrent(0).Animation.Name=="Idle_01"});
+
+foreach(var kind in new[]{Mika.Seaside.SeasideLobbyController.IdleExpression.PlayerGlance,Mika.Seaside.SeasideLobbyController.IdleExpression.ClosedEyeSmile,Mika.Seaside.SeasideLobbyController.IdleExpression.ThoughtfulLook}) {
+    reset();c.AmbientExpressionsEnabled=true;bool started=c.PlayIdleExpression(kind);step(1f);bool active=c.CurrentIdleExpression==kind&&c.IdleExpressionWeight>0.99f;
+    step(5f);checks.Add(new {name="expression_"+kind,pass=started&&active&&c.CurrentIdleExpression==Mika.Seaside.SeasideLobbyController.IdleExpression.None&&graphic.AnimationState.GetCurrent(3)==null});
+}
+
+reset();c.AmbientExpressionsEnabled=true;c.PlayIdleExpression(Mika.Seaside.SeasideLobbyController.IdleExpression.ClosedEyeSmile);step(1f);c.BeginPatFeedback();step(0.8f);c.RequestEndPat();step(2f);
+checks.Add(new {name="smile_to_pat_to_idle_clears_expression_track",pass=!c.IsPatting&&c.CurrentIdleExpression==Mika.Seaside.SeasideLobbyController.IdleExpression.None&&graphic.AnimationState.GetCurrent(3)==null});
+
+reset();c.AmbientExpressionsEnabled=true;seen.Clear();step(140f);int scheduled=seen.Count;
+c.AmbientExpressionsEnabled=false;step(1f);
+checks.Add(new {name="autonomous_expression_scheduler_140_seconds",pass=scheduled==3&&c.CurrentIdleExpression==Mika.Seaside.SeasideLobbyController.IdleExpression.None&&graphic.AnimationState.GetCurrent(3)==null,kinds=seen});
+
+reset();c.PlayDialogue1();step(22f);checks.Add(new {name="dialogue_regression",pass=graphic.AnimationState.GetCurrent(1)==null&&graphic.AnimationState.GetCurrent(2)==null});
+graphic.Initialize(true);c.AmbientExpressionsEnabled=true;c.ResetToIdle();graphic.LateUpdate();
+string json=Newtonsoft.Json.JsonConvert.SerializeObject(new {playMode=UnityEngine.Application.isPlaying,frames,finite,maxHeadStep,maxHeadRotation,checks},Newtonsoft.Json.Formatting.Indented);
+System.IO.File.WriteAllText("W:/Machine/VSCode/Mika_Gift/Material/Mika_memoryLobby_Seaside/Reports/CH0294/Interaction/validation.json",json);return json;

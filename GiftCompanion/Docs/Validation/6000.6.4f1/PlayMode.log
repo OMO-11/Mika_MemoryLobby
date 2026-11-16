@@ -1,0 +1,758 @@
+VBCSCompilerPreWarmer: watching VBCSCompiler (PID 30692)
+VBCSCompilerPreWarmer: pre-warm launched (dotnet PID 12600)
+VBCSCompiler prewarm took 16.46 ms
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.6/staging' branch; Version is '6000.6.4f1 (12bfff696524) revision 1228799'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-fufu" at "2026-10-07T11:27:47.5113339Z"
+OS: 'Windows 11  (10.0.26200) Professional' Language: 'zh' Physical Memory: 15658 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-10-07T11:27:47Z
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 3144, path: "W:/Machine/Unity/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              18291c5e293b43f59c528a20b5ffb7c0
+  Correlation Id:          33ee7e9e8b1a7fdd45af579f475c8156
+  External correlation Id: 5525304398574041304
+  Machine Id:              5mkOLlRLzlaDaGMP57SGmafX/sU=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-fufu" (connect: 0.00s, validation: 0.00s, handshake: 0.06s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-fufu-notifications" at "2026-10-07T11:27:47.5713954Z"
+[Licensing::Module] Error: Access token is unavailable; failed to update
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 20067662779766-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.00
+[Licensing::Module] Licensing Background thread has ended after 0.06s
+
+COMMAND LINE ARGUMENTS:
+W:\Machine\Unity\Unity 6000.6.4f1\Editor\Unity.exe
+-batchmode
+-nographics
+-projectPath
+W:\Machine\VSCode\Mika_Gift\GiftCompanion
+-runTests
+-testPlatform
+PlayMode
+-testResults
+W:\Machine\VSCode\Mika_Gift\GiftCompanion\Docs\Validation\PlayMode.xml
+-logFile
+W:\Machine\VSCode\Mika_Gift\GiftCompanion\Docs\Validation\PlayMode.log
+Successfully changed project path to: W:\Machine\VSCode\Mika_Gift\GiftCompanion
+W:/Machine/VSCode/Mika_Gift/GiftCompanion
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-remapper-allocator-initial-capacity=32768"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=1"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Logging is directed to a specific file, skipping project log.
+Player connection [34496]  Target information:
+
+Player connection [34496]  * "[IP] 172.26.160.1 [Port] 55504 [Flags] 2 [Guid] 2156812631 [EditorId] 2156812631 [Version] 1048832 [Id] WindowsEditor(7,MYSERICE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [34496]  * "[IP] 192.168.121.1 [Port] 55504 [Flags] 2 [Guid] 2156812631 [EditorId] 2156812631 [Version] 1048832 [Id] WindowsEditor(7,MYSERICE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [34496]  * "[IP] 192.168.126.1 [Port] 55504 [Flags] 2 [Guid] 2156812631 [EditorId] 2156812631 [Version] 1048832 [Id] WindowsEditor(7,MYSERICE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [34496]  * "[IP] 26.191.98.64 [Port] 55504 [Flags] 2 [Guid] 2156812631 [EditorId] 2156812631 [Version] 1048832 [Id] WindowsEditor(7,MYSERICE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [34496]  * "[IP] 10.33.46.230 [Port] 55504 [Flags] 2 [Guid] 2156812631 [EditorId] 2156812631 [Version] 1048832 [Id] WindowsEditor(7,MYSERICE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [34496] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [34496] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Package Manager] Connected to IPC stream "Upm-37916" after 0.2 seconds.
+[Licensing::Client] Successfully resolved entitlement details
+Library Redirect Path: Library/
+Launching Unity Data Store - W:/Machine/Unity/Unity 6000.6.4f1/Editor/Data/Tools/Unity.DataStore.exe 
+Unity Data Store artifact dir = Library/DataStore, working dir = W:/Machine/VSCode/Mika_Gift/GiftCompanionUnity Data Store running and initialised
+[Physics::Module] Selected backend (deferred post-plugins).
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Initialize engine version: 6000.6.4f1 (12bfff696524)
+[EntityIdStore] init: VM path (explicit commit), pageSize=4096, blockCount=1048576, entitiesPerBlock=256, slots reserved=4294967296 bytes
+[Subsystems] Discovering subsystems at path W:/Machine/Unity/Unity 6000.6.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path W:/Machine/VSCode/Mika_Gift/GiftCompanion/Assets
+Forcing GfxDevice: Null
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+NullGfxDevice:
+    Version:  NULL 1.0 [1.0]
+    Renderer: Null Device
+    Vendor:   Unity Technologies
+Initialize mono
+Mono path[0] = 'W:/Machine/Unity/Unity 6000.6.4f1/Editor/Data/Managed'
+Mono path[1] = 'W:/Machine/Unity/Unity 6000.6.4f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = 'W:/Machine/Unity/Unity 6000.6.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'W:/Machine/Unity/Unity 6000.6.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56916
+CodeReloadManager initialized
+ImportWorker Server TCP listen port: 0
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: W:/Machine/Unity/Unity 6000.6.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001284 seconds.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.623 seconds
+Domain Reload Profiling: 1170ms
+	BeginReloadAssembly (153ms)
+		CreateAndSetChildDomain (16ms)
+	RebuildCommonClasses (5ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (62ms)
+	LoadAllAssembliesAndSetupDomain (307ms)
+		LoadAssemblies (136ms)
+		TypeCache.Refresh (213ms)
+			TypeCache.ScanAssembly (199ms)
+		AnalyzeDomain (1ms)
+	FinalizeReload (624ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			BeforeProcessingInitializeOnLoad (98ms)
+			ProcessInitializeOnLoadAttributes (102ms)
+			ProcessInitializeOnLoadMethodAttributes (216ms)
+[Licensing::Client] Successfully resolved entitlement details
+Application.AssetDatabase Initial Refresh Start
+[Package Manager] Restoring resolved packages state from cache
+[Licensing::Client] Successfully resolved entitlement details
+[Package Manager] Registered 11 packages:
+  Packages from [https://packages.unity.com]:
+    com.unity.nuget.newtonsoft-json@3.2.2 (location: W:\Machine\VSCode\Mika_Gift\GiftCompanion\Library\PackageCache\com.unity.nuget.newtonsoft-json@4dfd81071c64)
+  Built-in packages:
+    com.unity.test-framework@1.8.0 (location: W:\Machine\VSCode\Mika_Gift\GiftCompanion\Library\PackageCache\com.unity.test-framework@80f691d4262b)
+    com.unity.ugui@2.6.0 (location: W:\Machine\VSCode\Mika_Gift\GiftCompanion\Library\PackageCache\com.unity.ugui@0727b404f3a0)
+    com.unity.modules.audio@1.0.0 (location: W:\Machine\VSCode\Mika_Gift\GiftCompanion\Library\PackageCache\com.unity.modules.audio)
+    com.unity.modules.imgui@1.0.0 (location: W:\Machine\VSCode\Mika_Gift\GiftCompanion\Library\PackageCache\com.unity.modules.imgui)
+    com.unity.modules.ui@1.0.0 (location: W:\Machine\VSCode\Mika_Gift\GiftCompanion\Library\PackageCache\com.unity.modules.ui)
+    com.unity.modules.physics2d@1.0.0 (location: W:\Machine\VSCode\Mika_Gift\GiftCompanion\Library\PackageCache\com.unity.modules.physics2d)
+    com.unity.modules.physics@1.0.0 (location: W:\Machine\VSCode\Mika_Gift\GiftCompanion\Library\PackageCache\com.unity.modules.physics)
+    com.unity.ext.nunit@2.1.0 (location: W:\Machine\VSCode\Mika_Gift\GiftCompanion\Library\PackageCache\com.unity.ext.nunit@0198eae3b53e)
+    com.unity.modules.jsonserialize@1.0.0 (location: W:\Machine\VSCode\Mika_Gift\GiftCompanion\Library\PackageCache\com.unity.modules.jsonserialize)
+    com.unity.modules.physicscore2d@1.0.0 (location: W:\Machine\VSCode\Mika_Gift\GiftCompanion\Library\PackageCache\com.unity.modules.physicscore2d)
+[Subsystems] No new subsystems found in resolved package list.
+[Package Manager] Done registering packages in 0.01 seconds
+Starting: W:\Machine\Unity\Unity 6000.6.4f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: W:/Machine/VSCode/Mika_Gift/GiftCompanion
+DisplayProgressbar: Compiling Scripts
+ExitCode: 0 Duration: 0s152ms
+[257/297    0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+*** Tundra build success (0.12 seconds), 1 items updated, 297 evaluated
+AssetDatabase: script compilation time: 0.525531s
+Total cache size 34717016
+Begin MonoManager ReloadAssembly
+Total cache size after purge 34717016, took 00:00:00.0552364
+Native extension for WindowsStandalone target not found
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.429 seconds
+Domain Reload Profiling: 993ms
+	BeginReloadAssembly (266ms)
+		DisableScriptedObjects (27ms)
+		CreateAndSetChildDomain (59ms)
+	RebuildCommonClasses (9ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (224ms)
+		LoadAssemblies (217ms)
+		TypeCache.Refresh (22ms)
+			TypeCache.ScanAssembly (16ms)
+		AnalyzeDomain (10ms)
+			BuildScriptInfoCaches (7ms)
+	FinalizeReload (430ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (96ms)
+			ProcessInitializeOnLoadAttributes (68ms)
+			ProcessInitializeOnLoadMethodAttributes (49ms)
+			AfterProcessingInitializeOnLoad (3ms)
+		AwakeInstancesAfterBackupRestoration (28ms)
+Starting new worker id: 0 with log in W:/Machine/VSCode/Mika_Gift/GiftCompanion/Logs/AssetImportWorkerHW0.log
+
+Asset Pipeline Refresh (id=5b5e5c89a9d67e24db7cf9a015f6e191): Total: 1.751 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=586 ms
+		Asset DB Callback time: managed=20 ms, native=6 ms
+		Scripting: domain reloads=1, domain reload time=597 ms, compile time=528 ms, other=11 ms
+		Project Asset Count: scripts=230, non-scripts=114
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 9.311ms
+	ApplyChangesToAssetFolders: 0.595ms
+	Scan: 22.684ms
+	Collect global state as custom dependencies: 9.557ms
+	CategorizeScriptCompilationAssets: 5.021ms
+	ProcessAssetsWithTransientArtifactChanges: 10.833ms
+	CategorizeAssets: 3.058ms
+	CompileScripts: 528.360ms
+	ImportOutOfDateAssets: 442.418ms (431.031ms without children)
+		UnloadImportedAssets: 0.090ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.055ms
+		ImportSchedulerStart: 11.238ms
+	PostProcessAllAssets: 20.691ms
+		MonoPostProcessAllAssets: 20.603ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 7.564ms
+			SyncVS.PostprocessSyncProject 2.054ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 0.808ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 0.691ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.255ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.194ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.158ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.084ms
+	UnloadStreamsBegin: 1.265ms
+	Untracked: 672.425ms
+
+Application.AssetDatabase Initial Refresh End
+Scanning for USB devices : 6.209ms
+Initializing Unity extensions:
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-GiftCompanion
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 811 unused Assets / (1.9 MB). Loaded Objects now: 1512.
+Memory consumption went from 227.0 MB to 225.1 MB.
+Total: 7.280900 ms (FindLiveObjects: 0.175500 ms CreateObjectMapping: 0.018800 ms MarkObjects: 6.078100 ms  DeleteObjects: 0.916000 ms)
+
+Microsoft Media Foundation video decoding to texture disabled: graphics device is Null, only Direct3D 11 and Direct3D 12 (only on desktop) are supported for hardware-accelerated video decoding.
+[Project] Loading completed in 3.957 seconds
+	Project init time: 				3.603 seconds
+		Template init time: 		0.000 seconds
+		Package Manager init time: 		0.241 seconds
+		Asset Database init time: 		0.213 seconds
+		Global illumination init time: 	0.002 seconds
+		Assemblies load time: 			1.212 seconds
+		Unity extensions init time: 	0.003 seconds
+		Asset Database refresh time: 	1.752 seconds
+	Scene opening time: 			0.131 seconds
+##utp:{"type":"ProjectInfo","version":2,"phase":"Immediate","time":1791372471444,"processId":37916,"projectLoad":3.9567888,"projectInit":3.6027883,"templateInit":0.0,"packageManagerInit":0.2413653,"assetDatabaseInit":0.2133495,"globalIlluminationInit":0.0022694,"assembliesLoad":1.2122631,"unityExtensionsInit":0.0033468,"assetDatabaseRefresh":1.751675,"sceneOpening":0.131298}
+##utp:{"type":"EditorInfo","version":2,"phase":"Immediate","time":1791372471444,"processId":37916,"editorVersion":"6000.6.4f1 (12bfff696524)","branch":"6000.6/staging","buildType":"Release","platform":"Windows"}
+[Licensing::Client] Successfully resolved entitlement details
+Running tests for ExecutionSettings with details:
+targetPlatform = 
+playerHeartbeatTimeout = 600
+filters[0] = 
+   Filter with settings:
+   testMode = PlayMode
+   targetPlatform = 
+   testNames = null
+   groupNames = null
+   categoryNames = null
+   assemblyNames = null
+ignoreTests = {}
+featureFlags = null
+
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+UnityEditor.TestTools.TestRunner.CommandLineTest.Executer:InitializeAndExecuteRun (string[]) (at ./Library/PackageCache/com.unity.test-framework@80f691d4262b/UnityEditor.TestRunner/CommandLineTest/Executer.cs:53)
+UnityEditor.TestTools.TestRunner.CommandLineTest.TestStarter:InitializeAndExecuteRun () (at ./Library/PackageCache/com.unity.test-framework@80f691d4262b/UnityEditor.TestRunner/CommandLineTest/TestStarter.cs:64)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: ./Library/PackageCache/com.unity.test-framework@80f691d4262b/UnityEditor.TestRunner/CommandLineTest/Executer.cs Line: 53)
+
+Start Indexing on Editor startup
+[Indexing] Starting Initial Indexing for Assets
+[UnityConnectServicesConfig] config is NOT valid, switching to default
+Created GICache directory at C:/Users/fufu/AppData/LocalLow/Unity/Caches/GiCache. Took: 0.011s, timestamps: [3.959 - 3.970]
+Starting new worker id: 1 with log in W:/Machine/VSCode/Mika_Gift/GiftCompanion/Logs/AssetImportWorkerHW1.log
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 0 unused Assets / (1.6 KB). Loaded Objects now: 1662.
+Memory consumption went from 233.7 MB to 233.7 MB.
+Total: 7.387100 ms (FindLiveObjects: 0.142800 ms CreateObjectMapping: 0.013500 ms MarkObjects: 7.145500 ms  DeleteObjects: 0.005300 ms)
+
+Importing 'GUID: 66f4823abac0cba42830e3647f2f9ea4 - Path: Assets/InitTestScene32a7aca3-2330-414a-a053-6b4308d95928.unity' with importer (DefaultImporter)
+Imported 'GUID: 66f4823abac0cba42830e3647f2f9ea4' -> (Import Result ID: '42c5f5ac0d0fb28e5133db2b47d836b7') in 0.006 seconds [static dependencies only]. Details - ImportResultOutputID=c1714903dbf2855526262af12ddee116 DependenciesID=66087672e48e8144148469acd73a3843 StaticDependenciesID=a7f225f1749136def020dadb0960380e 
+Asset Pipeline Refresh (id=c0c87604ec3666749868e1b683fc9e4e): Total: 0.061 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Reloading assemblies for play mode.
+Reloading assemblies after forced synchronous recompile.
+Begin MonoManager ReloadAssembly
+Worker ready: AssetImportWorkerHW0 0
+Native extension for WindowsStandalone target not found
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.620 seconds
+Domain Reload Profiling: 1080ms
+	BeginReloadAssembly (258ms)
+		DisableScriptedObjects (27ms)
+		CreateAndSetChildDomain (67ms)
+	RebuildCommonClasses (11ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (130ms)
+		LoadAssemblies (130ms)
+		TypeCache.Refresh (3ms)
+		AnalyzeDomain (3ms)
+	FinalizeReload (621ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (91ms)
+			ProcessInitializeOnLoadAttributes (64ms)
+			ProcessInitializeOnLoadMethodAttributes (122ms)
+			AfterProcessingInitializeOnLoad (4ms)
+		AwakeInstancesAfterBackupRestoration (44ms)
+No restricted APIs configured; Validation skipped.
+Checking 2 assemblies for restricted APIs found 0 usage(s) in 5 ms
+
+Asset Pipeline Refresh (id=b264bb67bf7dc7642b42385656ba5eb8): Total: 1.252 seconds - Initiated by StopAssetImportingV2(ForceSynchronousImport | ForceDomainReload)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=695 ms
+		Asset DB Callback time: managed=46 ms, native=20 ms
+		Scripting: domain reloads=1, domain reload time=487 ms, compile time=2 ms, other=0 ms
+		Project Asset Count: scripts=230, non-scripts=115
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 2.249ms
+	ApplyChangesToAssetFolders: 0.086ms
+	Collect global state as custom dependencies: 1.209ms
+	ProcessAssetsWithTransientArtifactChanges: 20.664ms
+	CategorizeAssets: 2.068ms
+	CompileScripts: 2.257ms
+	ImportOutOfDateAssets: 621.925ms (621.539ms without children)
+		UnloadImportedAssets: 0.185ms
+		ImportSchedulerStart: 0.147ms
+	PostProcessAllAssets: 66.092ms
+		PostProcessCallbackCreateDeferredMaterials 2.408ms
+		AssemblyValidation.PostprocessAllAssets 2.401ms
+		ShaderAssetModifiedCallback 1.210ms
+		RaytracingShaderImportPostprocess 0.646ms
+		ComputeShaderImportPostprocess 0.417ms
+		SpeedTreeImporter.PostprocessAllAssets 0.388ms
+		BlockShaderImporter.PostprocessAllAssets 0.371ms
+		LocalizationDatabase.AssetDatabasePostprocessCallback 0.258ms
+		MonoPostProcessAllAssets: 45.738ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 9.265ms
+			AssetPostprocessor.OnPostprocessAllAssets 6.159ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 5.923ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 4.928ms
+			SyncVS.PostprocessSyncProject 2.379ms
+			AssetChangedListener.OnPostprocessAllAssets 2.079ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 1.935ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 1.127ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 0.916ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 0.453ms
+			TMPro_TexturePostProcessor.OnPostprocessAllAssets 0.292ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 0.257ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 0.253ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.235ms
+			AssetEvents.OnPostprocessAllAssets 0.210ms
+			ThemePostprocessor.OnPostprocessAllAssets 0.172ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.163ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 0.143ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.130ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.112ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.109ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.098ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.062ms
+	PostAssetChangesProfiler: 0.652ms
+	Untracked: 510.546ms
+
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            1.032 ms
+	Integration:            24.266 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       0.016 ms
+	Total Operation Time:   25.316 ms
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+Worker ready: AssetImportWorkerHW1 1
+[Licensing::Client] Successfully resolved entitlement details
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.660000 ms
+Loaded scene 'Assets/Scenes/AgentPet.unity'
+	Deserialize:            8.233 ms
+	Integration:            61.833 ms
+	Integration of assets:  0.034 ms
+	Thread Wait Time:       0.965 ms
+	Total Operation Time:   71.065 ms
+Unloading 633 unused Assets / (90.2 KB). Loaded Objects now: 1735.
+Memory consumption went from 252.7 MB to 252.7 MB.
+Total: 6.345800 ms (FindLiveObjects: 0.295800 ms CreateObjectMapping: 0.018700 ms MarkObjects: 5.737100 ms  DeleteObjects: 0.206700 ms)
+
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 4.200400 ms
+Loaded scene 'Assets/Scenes/Bootstrap.unity'
+	Deserialize:            1.110 ms
+	Integration:            9.309 ms
+	Integration of assets:  0.026 ms
+	Thread Wait Time:       0.017 ms
+	Total Operation Time:   10.462 ms
+Unloading 2 unused Assets / (4.0 KB). Loaded Objects now: 1699.
+Memory consumption went from 251.1 MB to 251.1 MB.
+Total: 6.689400 ms (FindLiveObjects: 0.226900 ms CreateObjectMapping: 0.013600 ms MarkObjects: 6.338600 ms  DeleteObjects: 0.028600 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.213300 ms
+Loaded scene 'Assets/Scenes/Home.unity'
+	Deserialize:            1.333 ms
+	Integration:            6.236 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       1.514 ms
+	Total Operation Time:   9.084 ms
+Unloading 6 unused Assets / (6.0 KB). Loaded Objects now: 1756.
+Memory consumption went from 253.3 MB to 253.3 MB.
+Total: 6.987900 ms (FindLiveObjects: 0.220300 ms CreateObjectMapping: 0.013100 ms MarkObjects: 6.626600 ms  DeleteObjects: 0.045900 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.426100 ms
+Loaded scene 'Assets/Scenes/Bootstrap.unity'
+	Deserialize:            0.635 ms
+	Integration:            7.236 ms
+	Integration of assets:  0.021 ms
+	Thread Wait Time:       0.422 ms
+	Total Operation Time:   8.314 ms
+Unloading 1 unused Assets / (2.8 KB). Loaded Objects now: 1703.
+Memory consumption went from 253.9 MB to 253.9 MB.
+Total: 5.981800 ms (FindLiveObjects: 0.308100 ms CreateObjectMapping: 0.027700 ms MarkObjects: 5.543600 ms  DeleteObjects: 0.021100 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.201600 ms
+Loaded scene 'Assets/Scenes/Home.unity'
+	Deserialize:            1.339 ms
+	Integration:            5.455 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       0.391 ms
+	Total Operation Time:   7.186 ms
+Unloading 6 unused Assets / (6.0 KB). Loaded Objects now: 1756.
+Memory consumption went from 254.0 MB to 254.0 MB.
+Total: 6.546700 ms (FindLiveObjects: 0.215500 ms CreateObjectMapping: 0.016300 ms MarkObjects: 6.201200 ms  DeleteObjects: 0.032800 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.328000 ms
+Loaded scene 'Assets/Scenes/Companion.unity'
+	Deserialize:            1.667 ms
+	Integration:            7.372 ms
+	Integration of assets:  0.009 ms
+	Thread Wait Time:       0.593 ms
+	Total Operation Time:   9.642 ms
+Unloading 1 unused Assets / (2.8 KB). Loaded Objects now: 1740.
+Memory consumption went from 253.9 MB to 253.9 MB.
+Total: 6.792900 ms (FindLiveObjects: 0.217700 ms CreateObjectMapping: 0.013000 ms MarkObjects: 6.460800 ms  DeleteObjects: 0.019500 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.284100 ms
+Loaded scene 'Assets/Scenes/Home.unity'
+	Deserialize:            1.270 ms
+	Integration:            5.645 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       0.396 ms
+	Total Operation Time:   7.313 ms
+Unloading 2 unused Assets / (6.1 KB). Loaded Objects now: 1756.
+Memory consumption went from 254.0 MB to 254.0 MB.
+Total: 5.986400 ms (FindLiveObjects: 0.209400 ms CreateObjectMapping: 0.012900 ms MarkObjects: 5.601300 ms  DeleteObjects: 0.036000 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.299100 ms
+Loaded scene 'Assets/Scenes/AgentPet.unity'
+	Deserialize:            1.283 ms
+	Integration:            5.484 ms
+	Integration of assets:  0.008 ms
+	Thread Wait Time:       0.394 ms
+	Total Operation Time:   7.169 ms
+Unloading 1 unused Assets / (2.8 KB). Loaded Objects now: 1740.
+Memory consumption went from 253.9 MB to 253.9 MB.
+Total: 6.409900 ms (FindLiveObjects: 0.215600 ms CreateObjectMapping: 0.012300 ms MarkObjects: 6.076400 ms  DeleteObjects: 0.019300 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.298700 ms
+Loaded scene 'Assets/Scenes/Home.unity'
+	Deserialize:            1.371 ms
+	Integration:            5.422 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       0.505 ms
+	Total Operation Time:   7.300 ms
+Unloading 2 unused Assets / (6.1 KB). Loaded Objects now: 1756.
+Memory consumption went from 254.0 MB to 254.0 MB.
+Total: 6.114000 ms (FindLiveObjects: 0.246200 ms CreateObjectMapping: 0.014600 ms MarkObjects: 5.748000 ms  DeleteObjects: 0.024000 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.312800 ms
+Loaded scene 'Assets/Scenes/Companion.unity'
+	Deserialize:            1.986 ms
+	Integration:            5.312 ms
+	Integration of assets:  0.009 ms
+	Thread Wait Time:       0.599 ms
+	Total Operation Time:   7.906 ms
+Unloading 1 unused Assets / (2.6 KB). Loaded Objects now: 1740.
+Memory consumption went from 254.0 MB to 253.9 MB.
+Total: 6.876100 ms (FindLiveObjects: 0.271200 ms CreateObjectMapping: 0.026000 ms MarkObjects: 6.467100 ms  DeleteObjects: 0.026400 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.304200 ms
+Loaded scene 'Assets/Scenes/Home.unity'
+	Deserialize:            1.892 ms
+	Integration:            6.381 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.619 ms
+	Total Operation Time:   8.893 ms
+Unloading 2 unused Assets / (6.1 KB). Loaded Objects now: 1756.
+Memory consumption went from 254.0 MB to 254.0 MB.
+Total: 6.807800 ms (FindLiveObjects: 0.266000 ms CreateObjectMapping: 0.013600 ms MarkObjects: 6.416400 ms  DeleteObjects: 0.028500 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.296700 ms
+Loaded scene 'Assets/Scenes/AgentPet.unity'
+	Deserialize:            1.276 ms
+	Integration:            5.739 ms
+	Integration of assets:  0.008 ms
+	Thread Wait Time:       0.400 ms
+	Total Operation Time:   7.424 ms
+Unloading 1 unused Assets / (2.8 KB). Loaded Objects now: 1740.
+Memory consumption went from 254.0 MB to 253.9 MB.
+Total: 6.817100 ms (FindLiveObjects: 0.242100 ms CreateObjectMapping: 0.013900 ms MarkObjects: 6.440700 ms  DeleteObjects: 0.031900 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.346700 ms
+Loaded scene 'Assets/Scenes/Home.unity'
+	Deserialize:            2.040 ms
+	Integration:            6.409 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.672 ms
+	Total Operation Time:   9.123 ms
+Unloading 2 unused Assets / (6.1 KB). Loaded Objects now: 1756.
+Memory consumption went from 254.0 MB to 254.0 MB.
+Total: 6.817600 ms (FindLiveObjects: 0.215900 ms CreateObjectMapping: 0.030200 ms MarkObjects: 6.457100 ms  DeleteObjects: 0.033600 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.311900 ms
+Loaded scene 'Assets/Scenes/Companion.unity'
+	Deserialize:            1.641 ms
+	Integration:            6.504 ms
+	Integration of assets:  0.010 ms
+	Thread Wait Time:       0.602 ms
+	Total Operation Time:   8.758 ms
+Unloading 1 unused Assets / (2.8 KB). Loaded Objects now: 1740.
+Memory consumption went from 254.0 MB to 254.0 MB.
+Total: 8.504000 ms (FindLiveObjects: 0.227000 ms CreateObjectMapping: 0.013500 ms MarkObjects: 8.153600 ms  DeleteObjects: 0.022300 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.356100 ms
+Loaded scene 'Assets/Scenes/Home.unity'
+	Deserialize:            1.785 ms
+	Integration:            6.245 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.568 ms
+	Total Operation Time:   8.600 ms
+Unloading 2 unused Assets / (6.1 KB). Loaded Objects now: 1756.
+Memory consumption went from 254.0 MB to 254.0 MB.
+Total: 8.670600 ms (FindLiveObjects: 0.228400 ms CreateObjectMapping: 0.014000 ms MarkObjects: 8.308300 ms  DeleteObjects: 0.035700 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.364400 ms
+Loaded scene 'Assets/Scenes/AgentPet.unity'
+	Deserialize:            2.072 ms
+	Integration:            6.419 ms
+	Integration of assets:  0.012 ms
+	Thread Wait Time:       0.706 ms
+	Total Operation Time:   9.208 ms
+Unloading 1 unused Assets / (2.8 KB). Loaded Objects now: 1740.
+Memory consumption went from 254.0 MB to 254.0 MB.
+Total: 7.347100 ms (FindLiveObjects: 0.250100 ms CreateObjectMapping: 0.021600 ms MarkObjects: 6.950900 ms  DeleteObjects: 0.028000 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.323000 ms
+Loaded scene 'Assets/Scenes/Home.unity'
+	Deserialize:            1.392 ms
+	Integration:            6.152 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       0.490 ms
+	Total Operation Time:   8.035 ms
+Unloading 2 unused Assets / (5.9 KB). Loaded Objects now: 1756.
+Memory consumption went from 254.0 MB to 254.0 MB.
+Total: 6.952300 ms (FindLiveObjects: 0.220000 ms CreateObjectMapping: 0.014100 ms MarkObjects: 6.611900 ms  DeleteObjects: 0.025000 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.352600 ms
+Loaded scene 'Assets/Scenes/Bootstrap.unity'
+	Deserialize:            0.557 ms
+	Integration:            5.353 ms
+	Integration of assets:  0.019 ms
+	Thread Wait Time:       0.343 ms
+	Total Operation Time:   6.273 ms
+Unloading 1 unused Assets / (2.6 KB). Loaded Objects now: 1703.
+Memory consumption went from 253.9 MB to 253.9 MB.
+Total: 5.923900 ms (FindLiveObjects: 0.224600 ms CreateObjectMapping: 0.016500 ms MarkObjects: 5.583800 ms  DeleteObjects: 0.019100 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.161500 ms
+Loaded scene 'Assets/Scenes/Home.unity'
+	Deserialize:            1.546 ms
+	Integration:            5.673 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.523 ms
+	Total Operation Time:   7.745 ms
+Unloading 6 unused Assets / (4.5 KB). Loaded Objects now: 1756.
+Memory consumption went from 254.0 MB to 254.0 MB.
+Total: 6.618400 ms (FindLiveObjects: 0.265900 ms CreateObjectMapping: 0.018600 ms MarkObjects: 6.213800 ms  DeleteObjects: 0.035900 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.417700 ms
+Loaded scene 'Assets/Scenes/Companion.unity'
+	Deserialize:            1.287 ms
+	Integration:            6.104 ms
+	Integration of assets:  0.007 ms
+	Thread Wait Time:       0.323 ms
+	Total Operation Time:   7.720 ms
+Unloading 1 unused Assets / (2.8 KB). Loaded Objects now: 1740.
+Memory consumption went from 254.0 MB to 254.0 MB.
+Total: 7.194800 ms (FindLiveObjects: 0.226400 ms CreateObjectMapping: 0.012800 ms MarkObjects: 6.853100 ms  DeleteObjects: 0.020800 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.350300 ms
+Loaded scene 'Assets/Scenes/Home.unity'
+	Deserialize:            1.280 ms
+	Integration:            6.075 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       0.399 ms
+	Total Operation Time:   7.755 ms
+Unloading 2 unused Assets / (4.0 KB). Loaded Objects now: 1756.
+Memory consumption went from 254.0 MB to 254.0 MB.
+Total: 6.174500 ms (FindLiveObjects: 0.213600 ms CreateObjectMapping: 0.012900 ms MarkObjects: 5.842900 ms  DeleteObjects: 0.025200 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.030900 ms
+Loaded scene 'Assets/Scenes/Companion.unity'
+	Deserialize:            1.258 ms
+	Integration:            6.729 ms
+	Integration of assets:  0.008 ms
+	Thread Wait Time:       0.392 ms
+	Total Operation Time:   8.387 ms
+Unloading 1 unused Assets / (2.8 KB). Loaded Objects now: 1740.
+Memory consumption went from 254.0 MB to 254.0 MB.
+Total: 6.034800 ms (FindLiveObjects: 0.227300 ms CreateObjectMapping: 0.013900 ms MarkObjects: 5.692300 ms  DeleteObjects: 0.020500 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.288800 ms
+Loaded scene 'Assets/Scenes/Home.unity'
+	Deserialize:            1.237 ms
+	Integration:            5.700 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       0.366 ms
+	Total Operation Time:   7.304 ms
+Unloading 2 unused Assets / (6.1 KB). Loaded Objects now: 1756.
+Memory consumption went from 254.0 MB to 254.0 MB.
+Total: 6.575700 ms (FindLiveObjects: 0.216400 ms CreateObjectMapping: 0.035200 ms MarkObjects: 6.216000 ms  DeleteObjects: 0.026100 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.310900 ms
+Loaded scene 'Assets/Scenes/AgentPet.unity'
+	Deserialize:            1.281 ms
+	Integration:            5.866 ms
+	Integration of assets:  0.007 ms
+	Thread Wait Time:       0.365 ms
+	Total Operation Time:   7.519 ms
+Unloading 1 unused Assets / (2.8 KB). Loaded Objects now: 1740.
+Memory consumption went from 254.0 MB to 254.0 MB.
+Total: 5.642200 ms (FindLiveObjects: 0.217300 ms CreateObjectMapping: 0.013400 ms MarkObjects: 5.304200 ms  DeleteObjects: 0.021400 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.289000 ms
+Loaded scene 'Assets/Scenes/Home.unity'
+	Deserialize:            1.292 ms
+	Integration:            5.485 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       0.431 ms
+	Total Operation Time:   7.209 ms
+Unloading 2 unused Assets / (6.1 KB). Loaded Objects now: 1756.
+Memory consumption went from 254.0 MB to 254.0 MB.
+Total: 5.852700 ms (FindLiveObjects: 0.225000 ms CreateObjectMapping: 0.013600 ms MarkObjects: 5.510500 ms  DeleteObjects: 0.022600 ms)
+
+Saving results to: W:\Machine\VSCode\Mika_Gift\GiftCompanion\Docs\Validation\PlayMode.xml
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            0.408 ms
+	Integration:            5.404 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       0.013 ms
+	Total Operation Time:   5.826 ms
+Unloading 0 unused Assets / (Unknown). Loaded Objects now: 1687.
+Memory consumption went from 254.6 MB to 254.6 MB.
+Total: 5.987800 ms (FindLiveObjects: 0.224800 ms CreateObjectMapping: 0.017600 ms MarkObjects: 5.659700 ms  DeleteObjects: 0.004500 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 0 unused Assets / (Unknown). Loaded Objects now: 1692.
+Memory consumption went from 254.8 MB to 254.8 MB.
+Total: 7.510900 ms (FindLiveObjects: 0.187600 ms CreateObjectMapping: 0.012800 ms MarkObjects: 7.220900 ms  DeleteObjects: 0.005900 ms)
+
+Asset Pipeline Refresh (id=7e20117cbefe97648b59198849fa4164): Total: 0.022 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+DisplayProgressbar: Undo
+Test run completed. Exiting with code 0 (Ok). Run completed.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+UnityEditor.TestTools.TestRunner.CommandLineTest.Executer:ExitApplication (UnityEditor.TestTools.TestRunner.CommandLineTest.Executer/ReturnCodes,string) (at ./Library/PackageCache/com.unity.test-framework@80f691d4262b/UnityEditor.TestRunner/CommandLineTest/Executer.cs:81)
+UnityEditor.TestTools.TestRunner.CommandLineTest.Executer:ExitIfRunIsCompleted () (at ./Library/PackageCache/com.unity.test-framework@80f691d4262b/UnityEditor.TestRunner/CommandLineTest/Executer.cs:74)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: ./Library/PackageCache/com.unity.test-framework@80f691d4262b/UnityEditor.TestRunner/CommandLineTest/Executer.cs Line: 81)
+
+MonoPathRemapper: Attempts to remap: 6039; Successful remaps: 2430
+Serialized file version minimum: 23, current 23
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input Polling Thread exited.
+Input System module state changed to: Shutdown.
+[Licensing::IpcConnector] LicenseClient-fufu-notifications channel disconnected successfully.
+[Licensing::IpcConnector] LicenseClient-fufu channel disconnected successfully.
+Lingering sessions upon destruction of worker manager
+Unity Data Store service was successfully shut down
+UDS shutting down local client system
+AcceleratorClientConnectionCallback - disconnected - :0
+Cleanup mono
+CodeReloadManager destroyed
+VBCSCompilerPreWarmer: requested VBCSCompiler shutdown
+Checking for leaked weakptr:
+  Found no leaked weakptrs.
+[Package Manager] Server process was shutdown
+##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1791372476282,"processId":37916,"allocatedMemory":11298367,"memoryLabels":[{"Default":166477},{"Permanent":15516},{"NewDelete":69287},{"Thread":4197944},{"Manager":33917},{"VertexData":8},{"Geometry":816},{"Texture":24},{"Shader":834693},{"Material":132},{"GfxDevice":55968},{"Animation":952},{"Audio":608},{"FreeType":8},{"FontEngine":736},{"Physics":1970},{"Physics2D":16},{"Serialization":33216},{"Input":42840},{"JobScheduler":256},{"TextLib":280},{"Mono":48},{"ScriptingNativeRuntime":1292664},{"BaseObject":49008},{"Resource":1444},{"Renderer":2504},{"Transform":4685},{"File":16296},{"WebCam":616},{"Culling":32},{"Terrain":11442},{"Wind":24},{"STL":40},{"String":459937},{"StaticString":3808},{"Utility":2674806},{"Curl":4470},{"PoolAlloc":2168},{"AI":80},{"TypeTree":14869},{"ScriptManager":18984},{"CodeReload":448},{"RuntimeInitializeOnLoadManager":64},{"Sprites":102},{"SpriteAtlas":120},{"GI":7816},{"Director":8296},{"CloudService":432},{"WebRequest":552},{"VR":49650},{"SceneManager":608},{"Video":64},{"LazyScriptCache":32},{"Camera":729},{"Secure":2377},{"SerializationCache":9256},{"APIUpdating":10320},{"Subsystems":336},{"VirtualTexturing":57888},{"StaticSafetyDebugInfo":278528},{"Analytics":464},{"Hierarchy":1188},{"UIElements":40},{"CoreStats":14456},{"Identifiers":7152},{"Gui":128},{"EditorUtility":115796},{"VersionControl":8},{"Undo":931},{"AssetDatabase":647757},{"AssetImporter":40},{"EditorGi":328},{"UnityConnect":40465},{"Upm":1912},{"UpmDiagnostics":8},{"AssetCompliance":96},{"DrivenProperties":72},{"LocalIPC":258},{"ProfilerEditor":9746},{"CoreBusinessMetrics":3224},{"Windowing":456},{"Licensing":12571},{"AssetReference":32},{"IPCStream":32}]}

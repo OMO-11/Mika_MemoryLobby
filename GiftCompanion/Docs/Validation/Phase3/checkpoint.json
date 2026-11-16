@@ -1,0 +1,1276 @@
+{
+  "pausedByUser": true,
+  "phase3Complete": false,
+  "pausedAtUtc": "2026-10-14T05:13:07.7777268+00:00",
+  "pausedAtShanghai": "2026-10-14T13:13:07.7804958+08:00",
+  "currentStage": "3E-release-rendering-audit",
+  "handoff": "Docs/phase3_checkpoint.md",
+  "schemaVersion": 7,
+  "unity": "6000.3.7f1",
+  "latestBuild": {
+    "passed": true,
+    "result": "Succeeded",
+    "errors": 0,
+    "bytes": 133048987,
+    "seconds": 14.491039299999999,
+    "unity": "6000.3.7f1",
+    "renderer": "Direct3D11",
+    "flipModelSwapchain": false
+  },
+  "latestFullTests": [
+    {
+      "mode": "EditMode",
+      "passed": 59,
+      "total": 59,
+      "endedAt": "2026-10-14 04:59:27Z"
+    },
+    {
+      "mode": "PlayMode",
+      "passed": 10,
+      "total": 10,
+      "endedAt": "2026-10-14 04:59:41Z"
+    }
+  ],
+  "fullTestsMatchLatestSource": false,
+  "testScopeNote": "After full tests, screenshot probe, candidate shader and button autosizing changed. Core was not changed. Latest EXE only ran non-networked Visual audit; new images are not reviewed.",
+  "olderPlayerReportsMatchLatestBinary": false,
+  "pending": [
+    "Review release_original_shader.png / release_explicit_alpha.png / release_ldr.png",
+    "Choose and validate rendering correction; candidate shader is not bound in main app",
+    "Verify button captions and contrast",
+    "Rebuild and run appropriate final regression, real UI/memory and window checks",
+    "Finish license packaging and delivery/architecture/protocol documentation"
+  ],
+  "frozenImportedFilesLastVerified": 862,
+  "frozenImportedMismatches": 0,
+  "sources": [
+    {
+      "path": "Assets/App/AgentPet.meta",
+      "sha256": "40F4E870316D036625268BFF74B98E2D11FB78E0809FBD80725801D59E885135"
+    },
+    {
+      "path": "Assets/App/AgentPet/Agent.meta",
+      "sha256": "4E4E6AD1CF7418207B83A9AD99428FE04C90B418BFDBB7EE9C2C86B6F4087067"
+    },
+    {
+      "path": "Assets/App/AgentPet/Agent/Permissions.meta",
+      "sha256": "30C1D4E8D19622CEAA8909116884A47128322CE39CE634A37DBABC40046A5F72"
+    },
+    {
+      "path": "Assets/App/AgentPet/Agent/ToolCalling.meta",
+      "sha256": "259D138E82B68243F2097CA185E5F4BD58B69DC872908AD3BC5E117569904F0B"
+    },
+    {
+      "path": "Assets/App/AgentPet/Agent/Tools.meta",
+      "sha256": "8E7D1D4A0CC8F1AAEADA47E491DE41BE9CAFEC91B248C1436F93E07C9565B485"
+    },
+    {
+      "path": "Assets/App/AgentPet/Animation.meta",
+      "sha256": "7CBDE7F2EB7F72C37B085AB743504974DAB29F37EFA31F1C55B01404810DA447"
+    },
+    {
+      "path": "Assets/App/AgentPet/Interaction.meta",
+      "sha256": "C1F0411B1ABBF4868540DB503E8E3F42FD2BACCCD36D5757FB03794CF3ED53C9"
+    },
+    {
+      "path": "Assets/App/AgentPet/PetPresentation.cs",
+      "sha256": "A15721B0BFC5EB86961C9B45B218B45C2BB6BA88197FF9BF59D616C9AE3A687E"
+    },
+    {
+      "path": "Assets/App/AgentPet/PetPresentation.cs.meta",
+      "sha256": "693009A36C7416FF2B6558B5DA281197E86EE1EA33C3C32B52399CA9C5D95EFD"
+    },
+    {
+      "path": "Assets/App/AgentPet/Runtime.meta",
+      "sha256": "6DE9A7DF6D602D774F2D763910E800AC4D8CAE4F8B8DC82B1E445DBFDE669EE5"
+    },
+    {
+      "path": "Assets/App/AgentPet/UI.meta",
+      "sha256": "8FF0A45E78AA31136D1A3DC6B25FC320F2010DFAD1A63D7EDE928481100C36B1"
+    },
+    {
+      "path": "Assets/App/AgentPet/Window.meta",
+      "sha256": "3A6E44DBCBC948F4AB0510ED0004A7B371C30D06BFD22E28F6A51D7C4D767364"
+    },
+    {
+      "path": "Assets/App/AgentPet/Window/DesktopWindowPrototype.cs",
+      "sha256": "09D95C7F399B445970370C020CEA7C5B536403E911C8667F5CAD586AA2AF2086"
+    },
+    {
+      "path": "Assets/App/AgentPet/Window/DesktopWindowPrototype.cs.meta",
+      "sha256": "DD74F9E46B8857E84ADE461E9113BE804A66980C93B876CF94B97C6066ED5EE4"
+    },
+    {
+      "path": "Assets/App/Bootstrap.meta",
+      "sha256": "5B4D206928B45912F433DC217CDB7A0CC69BA506E320423842A0881A2D4AA83F"
+    },
+    {
+      "path": "Assets/App/Bootstrap/AppController.cs",
+      "sha256": "3302DBC1AFA65E8D0033216CF03191E4FC985FC98EAB13A8F54A4619BD320D8F"
+    },
+    {
+      "path": "Assets/App/Bootstrap/AppController.cs.meta",
+      "sha256": "305A9C79053104AEAFAFE418374AF00FAFC45758CF2415298FB4181FAD08B0A7"
+    },
+    {
+      "path": "Assets/App/Bootstrap/AppRoot.cs",
+      "sha256": "3CD305D2ADCD3031D66A669CC3AC03BBE01BE9B062C1851E35B586BEEE58976E"
+    },
+    {
+      "path": "Assets/App/Bootstrap/AppRoot.cs.meta",
+      "sha256": "6037448C119A91C198CB1898C071B80ABC07FC084D81C96B2797E7CB4CA45240"
+    },
+    {
+      "path": "Assets/App/Bootstrap/AppRoot.prefab",
+      "sha256": "8F886D00FB206C80E6E42E3D8591431999A393ADA45F5B027ECA3F1A697391B5"
+    },
+    {
+      "path": "Assets/App/Bootstrap/AppRoot.prefab.meta",
+      "sha256": "A9FFBA41CC7992F92CD2BC0BE0041E6C9DD7A2D884019B29D4A3D164275D2A4A"
+    },
+    {
+      "path": "Assets/App/Bootstrap/BootstrapEntry.cs",
+      "sha256": "D7195B3A62E666EEACFD49AD74F4D15A5206E88C2883DF79EFED49A0B681767F"
+    },
+    {
+      "path": "Assets/App/Bootstrap/BootstrapEntry.cs.meta",
+      "sha256": "F305B1E7756DAE9C16FE85E98299F2114BF03E2BCF0383DF018512B57042B4E3"
+    },
+    {
+      "path": "Assets/App/Bootstrap/SingleInstanceGuard.cs",
+      "sha256": "013D841467597872CB9156BA8D3D7AE87D51E9EAB7635B6325E41097034903B9"
+    },
+    {
+      "path": "Assets/App/Bootstrap/SingleInstanceGuard.cs.meta",
+      "sha256": "A2938FBF450ECAAC3DFC2BC54E785F0A76AE3A5EFF467968B4F6526CD67FBC8E"
+    },
+    {
+      "path": "Assets/App/Companion.meta",
+      "sha256": "68F85AEB7F6411610BDDB7CE1EA485CBFAC99AD7CE166543B0F805C2917CF894"
+    },
+    {
+      "path": "Assets/App/Companion/BGM.meta",
+      "sha256": "5ADCD207C332DA139BF581DCC27035B892AC380925171B51932CBAB00BFF9A2B"
+    },
+    {
+      "path": "Assets/App/Companion/BGM/BgmManager.cs",
+      "sha256": "CAC1F5C09CF80C80E8ABA3879CD21CDCC8F89DA03B16BB79B4B1C6C44137E540"
+    },
+    {
+      "path": "Assets/App/Companion/BGM/BgmManager.cs.meta",
+      "sha256": "32294E74D98BC463617E35539B0838C97279495FFA4F76C7178056E9E6FCBD17"
+    },
+    {
+      "path": "Assets/App/Companion/CompanionPanels.cs",
+      "sha256": "83D28884B0883AB187CE036E904D7A3C65456B0171D7765C37A61207770B3B66"
+    },
+    {
+      "path": "Assets/App/Companion/CompanionPanels.cs.meta",
+      "sha256": "6DC77E81B5AAD167E65DDC24D2CDF122BA973D551ED25B6B664D201F4611DE47"
+    },
+    {
+      "path": "Assets/App/Companion/CompanionPresentation.cs",
+      "sha256": "4A1FE6A9F85B7BA3DC7A93EAE0977F1FB5E45D4AD21ED80C88A578FB441504B0"
+    },
+    {
+      "path": "Assets/App/Companion/CompanionPresentation.cs.meta",
+      "sha256": "0782156F6EC0DAC188C0B9D85202A5E11D2C0199199FB17FF285D7E09C45521D"
+    },
+    {
+      "path": "Assets/App/Companion/CompanionScreen.cs",
+      "sha256": "2B4F09ADAEA609B4F22FA8C878756CF686D7F429C25102CFCE9533F13F2FCA48"
+    },
+    {
+      "path": "Assets/App/Companion/CompanionScreen.cs.meta",
+      "sha256": "545BF4D97ED7C1815E424C786381B072BA71D75BD8276F3A3CAEE79465FF760B"
+    },
+    {
+      "path": "Assets/App/Companion/CompanionTone.cs",
+      "sha256": "629FC9F0E9DA9535E3E967F0D62410AB3FC280B837ED6731C2F0D7E84645407D"
+    },
+    {
+      "path": "Assets/App/Companion/CompanionTone.cs.meta",
+      "sha256": "E1A86638C5EC7FFF25558048FF3E38879B31BF2A95A3DEC23B50F88BCFFB4B11"
+    },
+    {
+      "path": "Assets/App/Companion/CompanionTone.shader",
+      "sha256": "4FB2A46AF85C256BF1AFF061424F3DFABEE23BCEBEDE308A3F221A057B18E099"
+    },
+    {
+      "path": "Assets/App/Companion/CompanionTone.shader.meta",
+      "sha256": "90DE411BA58DCE2A613B75E343BCE78553CA1E3272A6BE212FE9284AC35A3DB4"
+    },
+    {
+      "path": "Assets/App/Companion/Dialogue.meta",
+      "sha256": "893E0A2A0283BCD302054A3437574ECCD53E723EDB5ADDB646C200B5F4AAEB9E"
+    },
+    {
+      "path": "Assets/App/Companion/Runtime.meta",
+      "sha256": "4F37665A9E04A291BE0B4264B80244076D5F67BB2D5394482E8C75A423E2F5DD"
+    },
+    {
+      "path": "Assets/App/Companion/Spine.meta",
+      "sha256": "BAB39A446C52B2B8893AA4B5AF10CEAAE35923036F6066A043006EE72A43197D"
+    },
+    {
+      "path": "Assets/App/Companion/SpineStraightAlpha.shader",
+      "sha256": "4DCFA684DA6DD6D399345DE924F658A6E5E58FAF810674FFF7C2408F738A1470"
+    },
+    {
+      "path": "Assets/App/Companion/SpineStraightAlpha.shader.meta",
+      "sha256": "BEB8B2CD4076B83C355C083A97B1561AF6C25E710704C0C0B154B93E59904DCB"
+    },
+    {
+      "path": "Assets/App/Companion/UI.meta",
+      "sha256": "CFCD958B3D6BC25F16412C08B1138FCF6D9CC31B36925807406AEC40DC3806EF"
+    },
+    {
+      "path": "Assets/App/Companion/Voice.meta",
+      "sha256": "7AC341742946C3D68EE25771A41C2C9BFB788DA5B1E8AA0CFFBCC3539EDA9A60"
+    },
+    {
+      "path": "Assets/App/Core.meta",
+      "sha256": "0249EEB82611A3D2AC393496D3D98A132176E5069360335063BF9012F01E69F2"
+    },
+    {
+      "path": "Assets/App/Core/AssemblyInfo.cs",
+      "sha256": "91E32CE607BE868DB3AFD0914BBE61166D8C748274B015B96ABA806E4EDBB808"
+    },
+    {
+      "path": "Assets/App/Core/AssemblyInfo.cs.meta",
+      "sha256": "3838899A430B3E8752C6D751FE46ADD32744084B972324DA21B91A8874EA552F"
+    },
+    {
+      "path": "Assets/App/Core/Audio.meta",
+      "sha256": "A9F1B740CF86D7DD1CADE23112CD7B00CD66F329BE7D2BB050DA5BD1DF594A3D"
+    },
+    {
+      "path": "Assets/App/Core/Character.meta",
+      "sha256": "FE09F4018CB6D853DFCF62CA4C70AF7753B68162E1AFC421AB17938D9CF9F18F"
+    },
+    {
+      "path": "Assets/App/Core/Character/CharacterCore.cs",
+      "sha256": "199EC79CB5C86F2BB8D9673D34C8C9D1340CC8031927070B68C0BCCA10E7737D"
+    },
+    {
+      "path": "Assets/App/Core/Character/CharacterCore.cs.meta",
+      "sha256": "6820E70E5CA6D57736F8C8E3D0E3A90F420F002C84B8EEFF42959767DC07E517"
+    },
+    {
+      "path": "Assets/App/Core/Character/CharacterModels.cs",
+      "sha256": "8B616A2DE095D0A0E18E1229A1AAA1D0B3C686CADE5997ED44647EE06C7BE7B3"
+    },
+    {
+      "path": "Assets/App/Core/Character/CharacterModels.cs.meta",
+      "sha256": "97288B64AD13A9E80CD81D8D942F3650837C5A8BB991541D1A25BFED19B8EB1D"
+    },
+    {
+      "path": "Assets/App/Core/Character/CompanionInteraction.cs",
+      "sha256": "A517ED075CD5DE375091A10045B39200C9EE69C7E4C4D8A30794C9502A1206F1"
+    },
+    {
+      "path": "Assets/App/Core/Character/CompanionInteraction.cs.meta",
+      "sha256": "8CF7923B1E084CCC8BF595707CB0504E198C66CD555A2408BB5FA5426DDD291D"
+    },
+    {
+      "path": "Assets/App/Core/Character/DialoguePresentation.cs",
+      "sha256": "E7AC0EC4FC658AD00AC594A2E9F1FCE4871C8AD96BE05C69257214A16330DE57"
+    },
+    {
+      "path": "Assets/App/Core/Character/DialoguePresentation.cs.meta",
+      "sha256": "4BB77919A6FE98E9C815B9B9C4A1066803056B37E0DF7F053457F9AA3F999332"
+    },
+    {
+      "path": "Assets/App/Core/Config.meta",
+      "sha256": "68BB5C7D3DCC0FCB8BED9A28DBD2F9A5F8E89EA975783F56CBD97B96777E3D9B"
+    },
+    {
+      "path": "Assets/App/Core/Config/ConfigService.cs",
+      "sha256": "A54D3E5B4529E49670417809ACEC1BFF73C0A427DDC24D2BB09AD69DCC57E798"
+    },
+    {
+      "path": "Assets/App/Core/Config/ConfigService.cs.meta",
+      "sha256": "8C2EDE74A66FDC4C81AA39AA773E0D276852BA4145D7235F3285671043FFAC09"
+    },
+    {
+      "path": "Assets/App/Core/Config/LocalSecrets.cs",
+      "sha256": "739BE177A3E6EE473F6054C019FD7B658248E6F8B3D68D97C07F8225AECA8685"
+    },
+    {
+      "path": "Assets/App/Core/Config/LocalSecrets.cs.meta",
+      "sha256": "A5B1306CD647DD97C816143A1F6DCC3AC6453D13B12E0E49347137E145887574"
+    },
+    {
+      "path": "Assets/App/Core/Config/UserDataPaths.cs",
+      "sha256": "EDDF4ED5CF57D40E21DC193D2BE910A0A80EF7C456CDD212F504D99A79FFF684"
+    },
+    {
+      "path": "Assets/App/Core/Config/UserDataPaths.cs.meta",
+      "sha256": "4416708AD74773311A870BD6D2073EBD2286B29FF38EC2B8A0A46EE1D1A57F7D"
+    },
+    {
+      "path": "Assets/App/Core/GiftCompanion.Core.asmdef",
+      "sha256": "86861AA3A2C25CB33386B37BC306DEC795CC754B1EB165E37734D73B9E4D0DE1"
+    },
+    {
+      "path": "Assets/App/Core/GiftCompanion.Core.asmdef.meta",
+      "sha256": "1CFB5E59C1C64A478D95D95C0B5D7048C756DEC8F9C4BEFDBC21FB72D007D9FD"
+    },
+    {
+      "path": "Assets/App/Core/LLM.meta",
+      "sha256": "85DAB055452FD543063A02195E2B2606EF7660E7940F7AD9657ACE5E5AD52F4D"
+    },
+    {
+      "path": "Assets/App/Core/LLM/DeepSeekApiClient.cs",
+      "sha256": "939501FBD19B38776B744376E572482B68E0E3F8AE6FACA9826AB2D9806F2483"
+    },
+    {
+      "path": "Assets/App/Core/LLM/DeepSeekApiClient.cs.meta",
+      "sha256": "58D6DF68DE69FBD9E653BE49A920758585B3720E60DEEDD0C73AF2D5AE63015C"
+    },
+    {
+      "path": "Assets/App/Core/LLM/LLMService.cs",
+      "sha256": "E8FCDC5A3C1E127296D8A66B80C8E7C3DA34577423368EB97F42E496BC80F0C0"
+    },
+    {
+      "path": "Assets/App/Core/LLM/LLMService.cs.meta",
+      "sha256": "B2113F77DCD0740488D8B44532BBD604536AFD1C7D9841BF62462EC0B1585757"
+    },
+    {
+      "path": "Assets/App/Core/Logging.meta",
+      "sha256": "A804FE7BE8B38F19E8521FDD0B5B60318E9ED343A1525F143FDA26A723A3469C"
+    },
+    {
+      "path": "Assets/App/Core/Logging/Logger.cs",
+      "sha256": "A243659CD25BB521BEE72D23319BB1DFAED908551C6ADFF4E23FAA3238F7BBA3"
+    },
+    {
+      "path": "Assets/App/Core/Logging/Logger.cs.meta",
+      "sha256": "DC59BE7B964EBBCBB66D52B0E08BBCEB2F1C0678137748141577FD0E7ACD6D4A"
+    },
+    {
+      "path": "Assets/App/Core/Memory.meta",
+      "sha256": "78C5F26DA713981B058785E8BF319FED71AB0A3482802618C84DDF8EA423E8F2"
+    },
+    {
+      "path": "Assets/App/Core/Memory/ConversationHistoryService.cs",
+      "sha256": "EF2CD4ACD76DF088AEA25C68E2EDEAF6030DD33C541C02DB86A2E98FD293E553"
+    },
+    {
+      "path": "Assets/App/Core/Memory/ConversationHistoryService.cs.meta",
+      "sha256": "5844A8B07E5F03A15E7DB41CF36E70A002B7D73CF0DDB1F8D1653AA0C47E6CB3"
+    },
+    {
+      "path": "Assets/App/Core/Memory/ConversationModels.cs",
+      "sha256": "65B53EA7D2B7053FC26C94EC0B23F1C96AE8883845296F79C639577A79A4A63D"
+    },
+    {
+      "path": "Assets/App/Core/Memory/ConversationModels.cs.meta",
+      "sha256": "9850DEFD175DE29811DFC10FA6FD66B650EA938A05121B01F8FB2D69616B1349"
+    },
+    {
+      "path": "Assets/App/Core/Memory/MemoryExtractor.cs",
+      "sha256": "E53A665C1D2025DED9E1C545D6638B85A8F0A86F8C8C0D829F7652800E436466"
+    },
+    {
+      "path": "Assets/App/Core/Memory/MemoryExtractor.cs.meta",
+      "sha256": "CB10BDAB02C1E2B0756279E9B5608C5565DBF216BBBA233366A28F20D8FF5B41"
+    },
+    {
+      "path": "Assets/App/Core/Memory/MemoryModels.cs",
+      "sha256": "7CB7E1E695692416FBB74DE903177BB4AC10103A0809DD626536D8CAEB78DE42"
+    },
+    {
+      "path": "Assets/App/Core/Memory/MemoryModels.cs.meta",
+      "sha256": "D852EAA3757FD6972F921E97D93121FE5FC385F6B503BBC0AF6F756FCA8B4581"
+    },
+    {
+      "path": "Assets/App/Core/Memory/MemoryService.cs",
+      "sha256": "6C364947CD527E73C8EDAFECB4AD351B67652C99EC5E8A7F19BB8F3465CBECA4"
+    },
+    {
+      "path": "Assets/App/Core/Memory/MemoryService.cs.meta",
+      "sha256": "5146A8D6584B2F715088BDD31085898C29DF196091D940E3E7F47B9B4F40DFF9"
+    },
+    {
+      "path": "Assets/App/Core/Memory/PromptBuilder.cs",
+      "sha256": "C1B8D89799DFFADD23D489246C7FC0B26F8EB141F5CC2FB015E386979024B8FD"
+    },
+    {
+      "path": "Assets/App/Core/Memory/PromptBuilder.cs.meta",
+      "sha256": "41CB9CD3D6E710DBFAA6004CB14145BE7CE753D71F6397EC4CECDB90C36E2DCC"
+    },
+    {
+      "path": "Assets/App/Core/Memory/SessionSummarizer.cs",
+      "sha256": "9CDB91FA16341C8088AD3820AD9356A9F755AEFBDFCD520D91D965F7CD2D568F"
+    },
+    {
+      "path": "Assets/App/Core/Memory/SessionSummarizer.cs.meta",
+      "sha256": "1BB4CC86DCE9E8F4742E7D6C36CD7F4B8A60A1E7A71003F8EC62C5D530A256B7"
+    },
+    {
+      "path": "Assets/App/Core/Persistence.meta",
+      "sha256": "8419A5FD2441BEE3A193697BE7E319F60ED6B058F778F1BCFE13FD86910D87D6"
+    },
+    {
+      "path": "Assets/App/Core/Persistence/ConversationHistoryStore.cs",
+      "sha256": "3702F9AED0A72E9A53E72BB06C4C2C86B449FD1FB441B3639D7586C765F4A438"
+    },
+    {
+      "path": "Assets/App/Core/Persistence/ConversationHistoryStore.cs.meta",
+      "sha256": "F6B91FE85FEAEAECA72106E09B29D4C0BC2B7AEA29B65F6A8FE9BB33D21AB07E"
+    },
+    {
+      "path": "Assets/App/Core/Persistence/ConversationStore.cs",
+      "sha256": "61BF77F4ABABB470E104D7A3846102407682A1954015DF769DB30A4BCFC39E7A"
+    },
+    {
+      "path": "Assets/App/Core/Persistence/ConversationStore.cs.meta",
+      "sha256": "E8F3B9F380789D3E28A6A7AC023EFE4D23BB7B579654CEA2D07F7A4901DE5D05"
+    },
+    {
+      "path": "Assets/App/Core/Persistence/DatabaseService.cs",
+      "sha256": "384C0E1B1D443EE85E1979E50953B9654D74D83BAC3B481814FE1AE5EFCF3693"
+    },
+    {
+      "path": "Assets/App/Core/Persistence/DatabaseService.cs.meta",
+      "sha256": "F88A5E32BF21312B0A66B436968FAE4733F3022118FFCEE4934833C712755E91"
+    },
+    {
+      "path": "Assets/App/Core/Persistence/MemoryForgetting.cs",
+      "sha256": "862E8B396D237179F12F14BF573DA1A43C41A7F65A84ADC2650A3539DD115DB3"
+    },
+    {
+      "path": "Assets/App/Core/Persistence/MemoryForgetting.cs.meta",
+      "sha256": "95DC097BB4E3E9DC139882FFD2C3C30523C6BA12E22C9FB0FE44FD4206FCD85C"
+    },
+    {
+      "path": "Assets/App/Core/Persistence/MemoryRetrieval.cs",
+      "sha256": "4E76F7F96454E0D7C05928C17BB9D293611ABF382894B24EB32350A27E75FF5C"
+    },
+    {
+      "path": "Assets/App/Core/Persistence/MemoryRetrieval.cs.meta",
+      "sha256": "2131A56E2EA84F0033BB98684033B9653F5B3F82ACD1C9B1D9DDAF067F4D876C"
+    },
+    {
+      "path": "Assets/App/Core/Persistence/MemoryStore.cs",
+      "sha256": "DCA18A9980ED7546CBD2E3D5CE559142CE0FDBA643B8FD2C9EDD34340730D4A2"
+    },
+    {
+      "path": "Assets/App/Core/Persistence/MemoryStore.cs.meta",
+      "sha256": "E113278E84742267A625F87EB99632CF8D26F87C608809044944CF49752BF608"
+    },
+    {
+      "path": "Assets/App/Core/Persistence/SessionSummaryStore.cs",
+      "sha256": "C93AC9D23AD6F85BAC4F8F6F1D5E0A3B4A88A912759067EA51EBFADC00FFAA38"
+    },
+    {
+      "path": "Assets/App/Core/Persistence/SessionSummaryStore.cs.meta",
+      "sha256": "D0892C89749BB9367726403F6951AC0A686F7DB104DA3E033138BA91A3B8EB72"
+    },
+    {
+      "path": "Assets/App/Core/Persistence/SqliteConnection.cs",
+      "sha256": "97518CDEE140DD60F5E4AB7ECD754D3397293C8FCF3615B7D1CEED40EBC33A21"
+    },
+    {
+      "path": "Assets/App/Core/Persistence/SqliteConnection.cs.meta",
+      "sha256": "D188567D6EC493701AB66548C0A1EE4A71EA6F55F9DC0D98D42F44707639EC09"
+    },
+    {
+      "path": "Assets/App/Core/Persistence/SqlitePhase0Store.cs",
+      "sha256": "6BB540871601FB79481AC0D2B7A7037810C5E7D54061CD5C6369AB6059F89B22"
+    },
+    {
+      "path": "Assets/App/Core/Persistence/SqlitePhase0Store.cs.meta",
+      "sha256": "165E7272BC0AD987CD79963A05960AAABDFE713DEFFB56BEDD414394FF2527D5"
+    },
+    {
+      "path": "Assets/App/GiftCompanion.Runtime.asmdef",
+      "sha256": "73EFECCAE4C02EC03A8126FDCFEBB3D6C546E4A794195AAEE7A6C8FD12B950C5"
+    },
+    {
+      "path": "Assets/App/GiftCompanion.Runtime.asmdef.meta",
+      "sha256": "91DF5E05232CA4770D3A4F78EC786ABAC8574688BFCB988E6BE55506FE7BFA82"
+    },
+    {
+      "path": "Assets/App/RuntimeAssemblyInfo.cs",
+      "sha256": "CC26C80813459985613276367358F3CA42531FFB41103236B8617038B039A041"
+    },
+    {
+      "path": "Assets/App/RuntimeAssemblyInfo.cs.meta",
+      "sha256": "A992E6D57CFA05DC812B083DCFD4F631984A3C7AB42249E60A7B51428B17F751"
+    },
+    {
+      "path": "Assets/App/SharedUI.meta",
+      "sha256": "575A9BE9F788BC987CE5E54855A1EA4E837E22316E7744A9FE7A83B87888CB62"
+    },
+    {
+      "path": "Assets/App/SharedUI/CompanionUIFactory.cs",
+      "sha256": "AE128B3E103A36F3D2F905FD430D14BAB5227FF43B89A3CB1784064537F84A93"
+    },
+    {
+      "path": "Assets/App/SharedUI/CompanionUIFactory.cs.meta",
+      "sha256": "3C4B57A29C1C2E6D7103DC4C1899A54710C9B4528ED6CA43B107C259E6479F31"
+    },
+    {
+      "path": "Assets/App/SharedUI/Fonts.meta",
+      "sha256": "8AE7A17A69C8F2FC968A0DD4840B6FF51C3D29D61A4620B880A9B8FB9FCDCBEC"
+    },
+    {
+      "path": "Assets/App/SharedUI/HomeScreen.cs",
+      "sha256": "5FAA4E12D0D81D7BB93ADCF4536F07ED042736C96B77B6AF1B788DBBEADA46BF"
+    },
+    {
+      "path": "Assets/App/SharedUI/HomeScreen.cs.meta",
+      "sha256": "56C8165DBFBB7A4119554EF82A4E44E5F1097ECAFD6D2A71AB1942F1761B2DD7"
+    },
+    {
+      "path": "Assets/App/SharedUI/ModeSceneController.cs",
+      "sha256": "4C7DB4C8B50D4BC62DACDD8C687FA51A62A570ED56F399AE79AF37792DF721B9"
+    },
+    {
+      "path": "Assets/App/SharedUI/ModeSceneController.cs.meta",
+      "sha256": "FC9817B2F92ACFAB9EDDA24642D7C43B22D121E27352823C0B1EC27025D8FFE3"
+    },
+    {
+      "path": "Assets/App/SharedUI/Resources.meta",
+      "sha256": "37F46240A6612F75E505CCA4E3F603F7B04FB0ECEECBCD452F49C79F40CF28AC"
+    },
+    {
+      "path": "Assets/App/SharedUI/Resources/Fonts.meta",
+      "sha256": "07AD742A0CDD6B97287FB28BE8998250474D8B5D97A2BD3C8D2AB85BD6CC1D14"
+    },
+    {
+      "path": "Assets/App/SharedUI/Resources/Fonts/NotoSansCJKsc-Regular.otf",
+      "sha256": "2C76254F6FC379FDDFCE0A7E84FB5385BB135D3E399294F6EEB6680D0365B74B"
+    },
+    {
+      "path": "Assets/App/SharedUI/Resources/Fonts/NotoSansCJKsc-Regular.otf.meta",
+      "sha256": "092F6C53E7E78249C4494D9351F795F9AC031A2A147939A6FA7230872FB5CB70"
+    },
+    {
+      "path": "Assets/App/SharedUI/Resources/Fonts/OFL.txt",
+      "sha256": "6A73F9541C2DE74158C0E7CF6B0A58EF774F5A780BF191F2D7EC9CC53EFE2BF2"
+    },
+    {
+      "path": "Assets/App/SharedUI/Resources/Fonts/OFL.txt.meta",
+      "sha256": "C3949FFF33CA11B95AFFF873AF720A6DBCB51B788B8F05237FF9635C1A3C7174"
+    },
+    {
+      "path": "Assets/App/Validation.meta",
+      "sha256": "61FF78946F12995D0027F91723E78B0830A1FEA8CBE2C245A47EA23374614CFA"
+    },
+    {
+      "path": "Assets/App/Validation/Phase0PlayerProbe.cs",
+      "sha256": "176A88664DABDC152A51E475BDA6E41E35C0925F01C75406BFBE229943C4BBF8"
+    },
+    {
+      "path": "Assets/App/Validation/Phase0PlayerProbe.cs.meta",
+      "sha256": "AAD9D4024FF83A4606A8652089C3AF7959D29CBD338108BDB70D9FA3D5B296F6"
+    },
+    {
+      "path": "Assets/App/Validation/Phase1PlayerProbe.cs",
+      "sha256": "D0B3853F932F16E733083934B9E742A61F191D3731E69D0AABE50FBED0D2A353"
+    },
+    {
+      "path": "Assets/App/Validation/Phase1PlayerProbe.cs.meta",
+      "sha256": "B5E762B7802AAF9DCC22BB29F263AF9131D8A021625C19CD9BD65687533E2FEA"
+    },
+    {
+      "path": "Assets/App/Validation/Phase2AcceptanceRunner.cs",
+      "sha256": "C5D24F8D616C5CCF6FCEDA336F50398160DDF375FB07F11EEB0E2007162F3FDF"
+    },
+    {
+      "path": "Assets/App/Validation/Phase2AcceptanceRunner.cs.meta",
+      "sha256": "56747ADF8BE0EE910A462DE3E6CA93DBE2C9C4EE98D2D1C1F012B52AE42EE2A5"
+    },
+    {
+      "path": "Assets/App/Validation/Phase2DevelopmentPanel.cs",
+      "sha256": "64308950BB9A7AD84BF32520EC426A279A0B6F22C5D3FAEE68B49EA537E2C9B9"
+    },
+    {
+      "path": "Assets/App/Validation/Phase2DevelopmentPanel.cs.meta",
+      "sha256": "301BC2679DCA7D53FC7BFF9EBE66F74B072DA2AD8B87BA842E14E382B64E915E"
+    },
+    {
+      "path": "Assets/App/Validation/Phase2PlayerProbe.cs",
+      "sha256": "9C3D64A9C85DAAC105E66C50033A28D08D1EC0E41D71C1E45677EE9AF426253D"
+    },
+    {
+      "path": "Assets/App/Validation/Phase2PlayerProbe.cs.meta",
+      "sha256": "BAC71EF347E4D95AD4982E544B7F5B8A8BB58C98F0E8271C5ACE799A8400A66B"
+    },
+    {
+      "path": "Assets/App/Validation/Phase3PlayerProbe.cs",
+      "sha256": "F373388209EB811949DC54BC3A191548C9F3AE8246D1E38CB6DEBC1D504E776C"
+    },
+    {
+      "path": "Assets/App/Validation/Phase3PlayerProbe.cs.meta",
+      "sha256": "C8A2F998FAAD90DD8F620E29A6E3C4CAA18F47DBBEA6F0595985DF9E61454566"
+    },
+    {
+      "path": "Assets/Characters/MainCharacter/Config/behavior.json",
+      "sha256": "AADBA9FCEC3F7F10AE35CF83BBB686CD659C2A028D468EC6D98799BC8EF28F3B"
+    },
+    {
+      "path": "Assets/Characters/MainCharacter/Config/behavior.json.meta",
+      "sha256": "3EEED7A61C539F72B721F4E3213F5DC865437D9A312E6F80771934642F54166A"
+    },
+    {
+      "path": "Assets/Characters/MainCharacter/Config/character_manifest.json",
+      "sha256": "5DE21C962CE337BE913E006A6E37D11CDDA93C84083B35245DF728C7EED4C447"
+    },
+    {
+      "path": "Assets/Characters/MainCharacter/Config/character_manifest.json.meta",
+      "sha256": "034D2CF018DCC5FA14D36AA5526014B526E3B9F4A974776D4BD6A9E1F51F9DC2"
+    },
+    {
+      "path": "Assets/Characters/MainCharacter/Config/expression_map.json",
+      "sha256": "BA2BEAF80EA9D0FD8687833D1D6AA6D93E6FADCE31DB0DAF6D93E1EF3F3CC273"
+    },
+    {
+      "path": "Assets/Characters/MainCharacter/Config/expression_map.json.meta",
+      "sha256": "862C0FDB134F350469A6977147ABD45538779E6853CD89D02EE64B5BE5837E79"
+    },
+    {
+      "path": "Assets/Characters/MainCharacter/Config/identity.json",
+      "sha256": "A2A144C5E4F930EF20A650352384A03879F9B4F848E4D96DFD320D17154E9DCC"
+    },
+    {
+      "path": "Assets/Characters/MainCharacter/Config/identity.json.meta",
+      "sha256": "5618D78ADAD5ACD7685AFA3A92C2EF592A190C61D15160D053D900BDC31171E4"
+    },
+    {
+      "path": "Assets/Editor/CharacterAssetSetup.cs",
+      "sha256": "40D7023C71A3F07C7B551A324C4423C366AB65C6CFACB9E56C46241DF6FA6F16"
+    },
+    {
+      "path": "Assets/Editor/CharacterAssetSetup.cs.meta",
+      "sha256": "50B170B0E9F8D0F95A759A60A4C6CA7719B68488ECCA72FBCB4BDC7E232198BF"
+    },
+    {
+      "path": "Assets/Editor/DeepSeekPhase0Probe.cs",
+      "sha256": "D37CD9A523BDEEAA9EB0961971B883C921DF9F246A33BD654F154CA3F6826F22"
+    },
+    {
+      "path": "Assets/Editor/DeepSeekPhase0Probe.cs.meta",
+      "sha256": "645DC8867F6C6D57D50D23581936A5780E772EB917DC768A33939D8371FFDDB6"
+    },
+    {
+      "path": "Assets/Editor/GiftCompanion.Editor.asmdef",
+      "sha256": "7187839045F4D28E852F9334A44D00AA7D15ABBC0F1D39557775E978A44AD652"
+    },
+    {
+      "path": "Assets/Editor/GiftCompanion.Editor.asmdef.meta",
+      "sha256": "4E1E9C7B0761C1A3107569695A7BF2C472289F3BC225836CF38D8E3E9A566AD5"
+    },
+    {
+      "path": "Assets/Editor/Phase0Build.cs",
+      "sha256": "44DC0F069EA9575C73B97093F883C5583D94EA563E9C9722A658EDE4F8BC47E8"
+    },
+    {
+      "path": "Assets/Editor/Phase0Build.cs.meta",
+      "sha256": "FDA782AC3F397DEFE8C15A1D87C9478C09328B2FBBE454273C51CF0BC5A064F5"
+    },
+    {
+      "path": "Assets/Editor/Phase1Build.cs",
+      "sha256": "3C07F4B3DB84B79127E939F3F40E254B26C21B4C35A58D5C7BBA3B8CBA574676"
+    },
+    {
+      "path": "Assets/Editor/Phase1Build.cs.meta",
+      "sha256": "252AA089AB1BFD923881A3F02432EDB78143339FFF569FB0DA62C3597DE94D27"
+    },
+    {
+      "path": "Assets/Editor/Phase1CoreProbe.cs",
+      "sha256": "1559595D0A11744C552F809FF09BB676E90ACFE7946EC92738C5EF0C38ED9C73"
+    },
+    {
+      "path": "Assets/Editor/Phase1CoreProbe.cs.meta",
+      "sha256": "B2785B28AE0B9276ECC2FA51F510FAFC67E7A471B812C04708310FCD7AD4CD8C"
+    },
+    {
+      "path": "Assets/Editor/Phase2Build.cs",
+      "sha256": "EC8F3578F24409632DA71E7936E7724B343DDCD234801DC179ACB4EF3F7936E9"
+    },
+    {
+      "path": "Assets/Editor/Phase2Build.cs.meta",
+      "sha256": "F96A2C62A516D83483CD0A1B7E37F4EF1EB31BCBAFB5662C4315966CD67908E5"
+    },
+    {
+      "path": "Assets/Editor/Phase2CoreProbe.cs",
+      "sha256": "556761636ED8CC051C53BE1C614A390467F60EFE7F55706D567190EF73C0E4D7"
+    },
+    {
+      "path": "Assets/Editor/Phase2CoreProbe.cs.meta",
+      "sha256": "ED76E9D2B81FA27D8C721E6B0C485207402C67497C220E4439672D9A335DD831"
+    },
+    {
+      "path": "Assets/Editor/Phase2DevelopmentMenu.cs",
+      "sha256": "8B128CF9724CDFF8C30C95665A42E3EA9385DF9CBE37D2AF435AA8F9ECA4BA45"
+    },
+    {
+      "path": "Assets/Editor/Phase2DevelopmentMenu.cs.meta",
+      "sha256": "F500360B3455DB16F5841C5BBD7166C261F67088AA901807A8CA4C9EA80C6973"
+    },
+    {
+      "path": "Assets/Editor/Phase3Build.cs",
+      "sha256": "C3B0CF79DCBDAC5C8E1A6C733BDDAA4C2F0F48D86B378C174D31CF2CCEF3DBF8"
+    },
+    {
+      "path": "Assets/Editor/Phase3Build.cs.meta",
+      "sha256": "C78432145E8F9335368801759770582745657E5728EB39031107080481B0C423"
+    },
+    {
+      "path": "Assets/Editor/Phase3Setup.cs",
+      "sha256": "D6A8844038C9443F932257B9F138FA27AA6641683992C8586BB83CBF15301996"
+    },
+    {
+      "path": "Assets/Editor/Phase3Setup.cs.meta",
+      "sha256": "57B1A3A537B4DDB3C08EF854E20C73D3873F11DF8BD05846A5763694F7002E8D"
+    },
+    {
+      "path": "Assets/Editor/SkeletonProjectSetup.cs",
+      "sha256": "CC7E0AE4574A81699F4E22ADC3AB97A7021989FD93002A47CE47324B23B9BD67"
+    },
+    {
+      "path": "Assets/Editor/SkeletonProjectSetup.cs.meta",
+      "sha256": "EC8C414BD736FE8D317BF1749CB4F8837C2CDA539A16209D61B71A32B423FD52"
+    },
+    {
+      "path": "Assets/Editor/SpineSettings.asset.meta",
+      "sha256": "4FE094FF592629349EB2E89713BB22EBEB25EACF7678ABE44615B4884AF02519"
+    },
+    {
+      "path": "Assets/Scenes/AgentPet.unity",
+      "sha256": "3BB768EA30B6AF3B92A99C63BBB5358CBC6153D551304CB15251022F4E2556D9"
+    },
+    {
+      "path": "Assets/Scenes/AgentPet.unity.meta",
+      "sha256": "C491705FA14D7F5349BCCC1BD37FADD8B4E681C859EEB87F0D18ADA117E9187F"
+    },
+    {
+      "path": "Assets/Scenes/Bootstrap.unity",
+      "sha256": "41A096A29D78BAD06790A2F262CAF4E1497811EB6233871A35AAAFCA088FDADB"
+    },
+    {
+      "path": "Assets/Scenes/Bootstrap.unity.meta",
+      "sha256": "3746F7F8700DEC08AA1D44DA7ED5079B5A36D6C463F81DFAD4D6538782A66AC4"
+    },
+    {
+      "path": "Assets/Scenes/Companion.unity",
+      "sha256": "7BBAFF2D8EAA6AB7936B208CE0D436614A7C56EE1AE95FA455D02A3A38D9FD8A"
+    },
+    {
+      "path": "Assets/Scenes/Companion.unity.meta",
+      "sha256": "CE996B28E240F4663449836C7EFFDB4C07B047B58303E2B65EB895070A058590"
+    },
+    {
+      "path": "Assets/Scenes/Home.unity",
+      "sha256": "82472EEDC0993645D1B8B067DE11348F22CB7BF2691963F7A212ECCA86C73EFE"
+    },
+    {
+      "path": "Assets/Scenes/Home.unity.meta",
+      "sha256": "E5A7114F17FFDF9895399624692EA13459C7B6AC3D76C03C04D28F67E417C490"
+    },
+    {
+      "path": "Assets/Tests/EditMode.meta",
+      "sha256": "E0EFF69B022BB4D0AD52365F0932F90231B3AF85683E703B051B62A0986DADFC"
+    },
+    {
+      "path": "Assets/Tests/EditMode/CharacterCoreTests.cs",
+      "sha256": "D27121DF630A6E2A936506C3B70971867796DC20476FB7A5C40C9E1E398D4EAD"
+    },
+    {
+      "path": "Assets/Tests/EditMode/CharacterCoreTests.cs.meta",
+      "sha256": "B7271CA7681C5315F00DB7CC2224D6839B646361B4958FD7CB06439BF975F47F"
+    },
+    {
+      "path": "Assets/Tests/EditMode/CompanionProtocolTests.cs",
+      "sha256": "E69B23AB5A16C6DB88B960474CA2304D04EA5BC945EEBBD3360BD7900258510E"
+    },
+    {
+      "path": "Assets/Tests/EditMode/CompanionProtocolTests.cs.meta",
+      "sha256": "ED7C5369B23AFF1C402B0B7D2162D97CF59DFDB259DBA263C63A482BD791F21C"
+    },
+    {
+      "path": "Assets/Tests/EditMode/ConversationHistoryTests.cs",
+      "sha256": "2023B19746DEEF4FD4CF092113E041FCE9C9A262244D6A9CE5239E336CBA804B"
+    },
+    {
+      "path": "Assets/Tests/EditMode/ConversationHistoryTests.cs.meta",
+      "sha256": "97E6D18B42C1578CBC628C0474D6603EA9A7A287EBCD3DA72382A8A72AE7D564"
+    },
+    {
+      "path": "Assets/Tests/EditMode/ConversationTests.cs",
+      "sha256": "3D873958AB26833039A19D86ED1B5334493B368FF04068D584EAADD482E5D907"
+    },
+    {
+      "path": "Assets/Tests/EditMode/ConversationTests.cs.meta",
+      "sha256": "796C652183C22927EE63DCBEF1AE8965CAB665B62F9CA1D75A4FD5C9C30C57CF"
+    },
+    {
+      "path": "Assets/Tests/EditMode/DeepSeekApiTests.cs",
+      "sha256": "4543150F31438C80C93153CBE7DDE7DBB06774C71F8B42E1EBA9FB935FA054F4"
+    },
+    {
+      "path": "Assets/Tests/EditMode/DeepSeekApiTests.cs.meta",
+      "sha256": "553AACEC2FB56DCCD3CFE6253309CF404EC434E7FE434ECB267726C622D5A5D1"
+    },
+    {
+      "path": "Assets/Tests/EditMode/DialoguePipelineTests.cs",
+      "sha256": "8AE620BD18F75FB371D036C0D4E144C1E2D637BF398F9DC8FFADE1B851F0A656"
+    },
+    {
+      "path": "Assets/Tests/EditMode/DialoguePipelineTests.cs.meta",
+      "sha256": "A4A6F8F8CFE7E03E307938C873075D24D6BE36C662AC4719A41EB288F7E93F78"
+    },
+    {
+      "path": "Assets/Tests/EditMode/FoundationTests.cs",
+      "sha256": "115542E1E89740FAE27CAC4000C8AB5B7B9DE34DDC6B17D10F0DB83F4A0FA2EE"
+    },
+    {
+      "path": "Assets/Tests/EditMode/FoundationTests.cs.meta",
+      "sha256": "2472352CB8CF3C84EEECAA4BF88CD6C4BA72A1A5829A1F61C849974293308FC7"
+    },
+    {
+      "path": "Assets/Tests/EditMode/GiftCompanion.EditModeTests.asmdef",
+      "sha256": "0D672CC0C74BECC6CB7F84A076C99962B8C9B0FB14448F3B063305864233DA05"
+    },
+    {
+      "path": "Assets/Tests/EditMode/GiftCompanion.EditModeTests.asmdef.meta",
+      "sha256": "00EE984C9CF55BE9F3F1EB3BE2B6639201F296D29A72A23A80BF7AA04C425ACE"
+    },
+    {
+      "path": "Assets/Tests/EditMode/MemoryExtractionTests.cs",
+      "sha256": "1720FD96B3BDBE3844673A258FF5D19F08AFFAE11FF6C3B55F405FF3EA452286"
+    },
+    {
+      "path": "Assets/Tests/EditMode/MemoryExtractionTests.cs.meta",
+      "sha256": "4DE58304A0448907353896DCBA4EE19B4F52EFD65625B3F20C07C91F5D275D89"
+    },
+    {
+      "path": "Assets/Tests/EditMode/MemoryLifecycleTests.cs",
+      "sha256": "A6C709C04E21B436369A4D3429FFF9CA9FC376EC6CB3571C818B19FCA1081CF8"
+    },
+    {
+      "path": "Assets/Tests/EditMode/MemoryLifecycleTests.cs.meta",
+      "sha256": "308FF8BF52C99746BFFDC6AE282FF81473DA90D0C307C6D83A0FE82B2966FBDB"
+    },
+    {
+      "path": "Assets/Tests/EditMode/MemoryRetrievalTests.cs",
+      "sha256": "018AABEAE9677035D2BE32E591298F31BBFFF14E5874BDF712A492D66F3A0322"
+    },
+    {
+      "path": "Assets/Tests/EditMode/MemoryRetrievalTests.cs.meta",
+      "sha256": "ED0DA18426849CD75A3BD562002906334AEC519282233358C400CDAEC0FD0E66"
+    },
+    {
+      "path": "Assets/Tests/EditMode/MemoryTransportTests.cs",
+      "sha256": "FFF309A70694CDD81D8317067B1BDBDF7D530C34563BC292B8605C9B3BA73018"
+    },
+    {
+      "path": "Assets/Tests/EditMode/MemoryTransportTests.cs.meta",
+      "sha256": "10ACC2D0511549A32A860AE27139559A6EC6EE0733EF9953DCBC52CAABE45053"
+    },
+    {
+      "path": "Assets/Tests/EditMode/SqlitePhase0Tests.cs",
+      "sha256": "AAA743876F8746B5111F34E2E949939277D703375A293988766C5D8033E66D44"
+    },
+    {
+      "path": "Assets/Tests/EditMode/SqlitePhase0Tests.cs.meta",
+      "sha256": "61C11AF85550741F5EACE8E94B1AC6460F4CB90FEABDAD34FCC0A6004C7EDFA0"
+    },
+    {
+      "path": "Assets/Tests/EditMode/TestDatabase.cs",
+      "sha256": "47E5D7D1EE560487A07EECB25548199B602180692D0A32B7666912CB8508E325"
+    },
+    {
+      "path": "Assets/Tests/EditMode/TestDatabase.cs.meta",
+      "sha256": "24ACC6D38904706E43EDC58BD54209D19E3D6B9C5BEF1388C3013D42C2055816"
+    },
+    {
+      "path": "Assets/Tests/PlayMode.meta",
+      "sha256": "BAFD53DA591BD413A364564610A46D03B170B330CF9F37F72D8603C700A0609D"
+    },
+    {
+      "path": "Assets/Tests/PlayMode/CharacterPlaybackTests.cs",
+      "sha256": "95BA21B416508F96E86F01772A14E89094E1A980EE5193D7DB4FD7E7A246BB37"
+    },
+    {
+      "path": "Assets/Tests/PlayMode/CharacterPlaybackTests.cs.meta",
+      "sha256": "BAA94E951C10C01BB71DB4FEFC084136F16F190FDB2A8D7BA0588410DA0B9C3F"
+    },
+    {
+      "path": "Assets/Tests/PlayMode/CompanionScreenTests.cs",
+      "sha256": "6A65B1BFBE849A702D7D473E347E128643091B9DFB37ED79021E83B5654F5DB6"
+    },
+    {
+      "path": "Assets/Tests/PlayMode/CompanionScreenTests.cs.meta",
+      "sha256": "F84505BD78E47A5C2C1D0F83ED0B3D25C51BCAD6146B9EFD819BC5849A8DED63"
+    },
+    {
+      "path": "Assets/Tests/PlayMode/GiftCompanion.PlayModeTests.asmdef",
+      "sha256": "6F0CA6CC015FDCF9A0B0F40A7334F8F57B243A007A26790545D63BD83054211E"
+    },
+    {
+      "path": "Assets/Tests/PlayMode/GiftCompanion.PlayModeTests.asmdef.meta",
+      "sha256": "5817534AC931D4E6E7DA699556E1BC2539F03D9CB45A40C45203252052B4E2B9"
+    },
+    {
+      "path": "Assets/Tests/PlayMode/PlayTestData.cs",
+      "sha256": "E787F225B772BF0AF4D51D40E1CE6A55DE2BB7984A31543A301FF25CC7E649BC"
+    },
+    {
+      "path": "Assets/Tests/PlayMode/PlayTestData.cs.meta",
+      "sha256": "B53375EAC953CBBE4C1F58D65928D9EF3DB9F44D1C0CBFE4898C559F97138512"
+    },
+    {
+      "path": "Assets/Tests/PlayMode/SceneLifecycleTests.cs",
+      "sha256": "DC4B2B73972ADC9860F27D66C599B68BB75B906EEAF1CC9B088770CF6FFE05EB"
+    },
+    {
+      "path": "Assets/Tests/PlayMode/SceneLifecycleTests.cs.meta",
+      "sha256": "69E45D78980D1318EC9098A46E57A025B8DD5B1F71E71F0AE37293A747051E12"
+    },
+    {
+      "path": "Packages/manifest.json",
+      "sha256": "51C53202FCBC2578A30606ABAC32890A51C6E72A582410506F5CC7540510699F"
+    },
+    {
+      "path": "Packages/packages-lock.json",
+      "sha256": "96936822C912CB90DED345E3D07E58BEB59DA541B576C3D4FB24846F9C8F2F58"
+    },
+    {
+      "path": "ProjectSettings/EditorBuildSettings.asset",
+      "sha256": "BF99945DF90513DF1A7D8CE677283C0614F6A89FD6C7F425125D601A399177DB"
+    },
+    {
+      "path": "ProjectSettings/GraphicsSettings.asset",
+      "sha256": "444C8978A575D77C1A0DDE2CDB84AD88877E3B75A36A4F142E9D60344C74EF3A"
+    },
+    {
+      "path": "ProjectSettings/ProjectSettings.asset",
+      "sha256": "F130EE775617B3C03181AD2BD763CE3735752C9C250741DF332DFA9311CBFB0C"
+    },
+    {
+      "path": "ProjectSettings/ProjectVersion.txt",
+      "sha256": "50F1BF3FB4196CE6DDF6DBD0EB2EF8C2227A18B5FF762C90E1CB4FEAB8A06B4A"
+    },
+    {
+      "path": "Tools/Build-Phase3.ps1",
+      "sha256": "A878FB0F22178AE6DB7D9CA05178564131CCDCBC49B2F891748BACB4D03229D7"
+    },
+    {
+      "path": "Tools/Start-Phase3.ps1",
+      "sha256": "9AE50DA5318CF454374A7338E9BE3B9596BE81DE98C7C90AF7268BBEC10B5CA4"
+    },
+    {
+      "path": "Tools/Test-Phase3.ps1",
+      "sha256": "BB7B15BDE3E07D32E7BC18975AA81204E95AC3B919E33040C233CB240705F667"
+    },
+    {
+      "path": "Tools/Test-Phase3MemoryPlayer.ps1",
+      "sha256": "04D3BE2EF77A391A41B05FA44D3207B11CCC9FB05F29D36D4B40E1F16C31829A"
+    },
+    {
+      "path": "Tools/Test-Phase3UIPlayer.ps1",
+      "sha256": "A04088A569F03D92F9C35B08212F22AFEDE4345225F68243BAE3DC3F584DE137"
+    }
+  ],
+  "binaries": [
+    {
+      "path": "Builds/Phase3/GiftCompanion.exe",
+      "sha256": "4BF762016829B0C975960CF300AAC5A5BB1F84D25745F2AA8F4A508F9AF5243F"
+    },
+    {
+      "path": "Builds/Phase3/GiftCompanion_Data/Managed/GiftCompanion.Core.dll",
+      "sha256": "B4DA6F53C343D10DF2DA60A480747B3DFA8F23266D65724340891B97178FF3D6"
+    },
+    {
+      "path": "Builds/Phase3/GiftCompanion_Data/Managed/GiftCompanion.Runtime.dll",
+      "sha256": "E2085752DC22C6460F30F529C95B55CC7F4B02D42192BB336AA18412B504D043"
+    }
+  ],
+  "evidence": [
+    {
+      "path": "Docs/Validation/Phase3/3A.after.png",
+      "sha256": "DBF06A486FC00542E399801A7FA075A6C285BF6EFD74716C8BD69BBECFD55303"
+    },
+    {
+      "path": "Docs/Validation/Phase3/3A.before.png",
+      "sha256": "28C2522F222021BF0C4E1D565B6FC3D6F06AD6B244F8CEC76E82F04CCDAF8580"
+    },
+    {
+      "path": "Docs/Validation/Phase3/3A.visual.json",
+      "sha256": "56535632D1889D8533AA1AC9A1E84FDFECFFD7F6DB3BF8BDF166074EEC2D2AB6"
+    },
+    {
+      "path": "Docs/Validation/Phase3/3A.visual.log",
+      "sha256": "41D7FB89BFD6B0E8B8E4ABA29D5682E74C03FCAC971926AE4016BECA82394D0D"
+    },
+    {
+      "path": "Docs/Validation/Phase3/3B.EditMode.log",
+      "sha256": "71686ED4692A5BF8E4DF99A8CE10D7A8CC097A2DB10AA1177DE19A8FEA8CD65A"
+    },
+    {
+      "path": "Docs/Validation/Phase3/3B.EditMode.xml",
+      "sha256": "D35D83F5BED862177BF171FFCD16263B16D4E909BA9FC836785D22C43CA54AA2"
+    },
+    {
+      "path": "Docs/Validation/Phase3/3B.first_compile.log",
+      "sha256": "AC515B255C02095EB5C33E21BE51DBE9CBE1C634E595EEB24390DABF21C9868F"
+    },
+    {
+      "path": "Docs/Validation/Phase3/3B.first_tests.log",
+      "sha256": "ED607CA0A635547BE6E5A1DD0B3CC129A8D1F57E00115D2611AC677666099F1A"
+    },
+    {
+      "path": "Docs/Validation/Phase3/3B.first_tests.xml",
+      "sha256": "FFB9787E7AA0821CE7352D3CEEDC7AF9E842B054E8FAA93AC8CE1C6A0F489969"
+    },
+    {
+      "path": "Docs/Validation/Phase3/3B.PlayMode.log",
+      "sha256": "DBBACE2AF7724259F8B3E58A49AF9BD22AEE828C7AFA6E73955F841B4BB5FF94"
+    },
+    {
+      "path": "Docs/Validation/Phase3/3B.PlayMode.xml",
+      "sha256": "8800BA3D0D61116B24E5FB862B6E064E2E79DF2832240F67EAAC8471D03446B3"
+    },
+    {
+      "path": "Docs/Validation/Phase3/3C.EditMode.log",
+      "sha256": "7D643D8C0167F70F87FC76CDD604F0C9C980EE7FC47B49D183CABC86AAF327FD"
+    },
+    {
+      "path": "Docs/Validation/Phase3/3C.EditMode.xml",
+      "sha256": "CE8A2D797E2F9D0FFCA5E9EDD789EB833D6EC8C593E587AFD23562A8207CC615"
+    },
+    {
+      "path": "Docs/Validation/Phase3/3C.PlayMode.log",
+      "sha256": "8BD84B1A2B73C2D16ECB2EE65E45DD6500869CF148749FB36F6EB02A2B59A12E"
+    },
+    {
+      "path": "Docs/Validation/Phase3/3C.PlayMode.xml",
+      "sha256": "81AF1E7CB14B061CF62934B8A91A5DCCAEE7F3B31EB6A5B3A0D02807CDB7398F"
+    },
+    {
+      "path": "Docs/Validation/Phase3/3D.EditMode.log",
+      "sha256": "ACCAB1521F58CA55D019F030F74C28FAC7A6B37E026CE5F951F0C86C8E96E3A2"
+    },
+    {
+      "path": "Docs/Validation/Phase3/3D.EditMode.xml",
+      "sha256": "809A68E4FDDCAE0A9141F48608D0FAB1740B47FCCC28E3953B91C72D0B832B5E"
+    },
+    {
+      "path": "Docs/Validation/Phase3/3D.PlayMode.log",
+      "sha256": "FC646C7793BB4F67F7FE560E511417FCDF183354D0C6094142ED05840AF89CE9"
+    },
+    {
+      "path": "Docs/Validation/Phase3/3D.PlayMode.xml",
+      "sha256": "3243163BC813517579706091AE7E95D719EB7F818A65231E721ECACA70D0A746"
+    },
+    {
+      "path": "Docs/Validation/Phase3/3E.EditMode.log",
+      "sha256": "EE82B36FA4BA4F870242E578623FF16765255F525BFDFDD9C037FCE7EB2D4362"
+    },
+    {
+      "path": "Docs/Validation/Phase3/3E.EditMode.xml",
+      "sha256": "53BCB15C8353D943B11997D5B101A10BC7247D04E076E2C83696A88CD13E9C0F"
+    },
+    {
+      "path": "Docs/Validation/Phase3/3E.PlayMode.log",
+      "sha256": "4EACC6A08978C86FD7E59D09E8043D07986D69F91D308ADC09C0AE1B307A0972"
+    },
+    {
+      "path": "Docs/Validation/Phase3/3E.PlayMode.xml",
+      "sha256": "F5B97070F3BBA72368286F457650A3838E3CB4F8A7DC24CF2B6918C380F8B0B7"
+    },
+    {
+      "path": "Docs/Validation/Phase3/first_player_build.json",
+      "sha256": "DBD31896731C0F7902C4477F622F04B8C94B76D15A1EEAE1503770F55EEB869E"
+    },
+    {
+      "path": "Docs/Validation/Phase3/first_player_build.log",
+      "sha256": "58764D930E215CA8D2372832D2D3AB3D95F9D8D90BACA9AB2A6AFEDDCBCD5C7E"
+    },
+    {
+      "path": "Docs/Validation/Phase3/FirstUI/history_write.png",
+      "sha256": "C9B6A452366C5EED4AE3F02FFD3D8B5039248D7961F61C99172057B1F38F4EF2"
+    },
+    {
+      "path": "Docs/Validation/Phase3/FirstUI/player_build.json",
+      "sha256": "33DFED416C44F59827513870DF545F7417F3849BDDDA8A80FD60EE222280E420"
+    },
+    {
+      "path": "Docs/Validation/Phase3/FirstUI/player_build.log",
+      "sha256": "100F123780EFBFB9F90986F52FE923C9A4EAA68B5805DCE0AF0AA85CCACC195D"
+    },
+    {
+      "path": "Docs/Validation/Phase3/FirstUI/reply_write.png",
+      "sha256": "BF44FD99317C019C32C7D70F6D406262F8DDBE988F305CBE3FAD7575646A5735"
+    },
+    {
+      "path": "Docs/Validation/Phase3/FirstUI/resized_write.png",
+      "sha256": "7D75A3A42D90C5DE75A896E812AD024C74F51094FB25911CF662C28267C54BF3"
+    },
+    {
+      "path": "Docs/Validation/Phase3/FirstUI/settings_write.png",
+      "sha256": "201CEBE3C6AD708CBD1E96AA35A063A89E304636F95100F1B3C6144BB667EC72"
+    },
+    {
+      "path": "Docs/Validation/Phase3/FirstUI/ui_nokey.json",
+      "sha256": "B18C1DCFC5ECB608AA4B02830D5AD8492F42BD4B3C5BE9D7CC55777DF90D4DFA"
+    },
+    {
+      "path": "Docs/Validation/Phase3/FirstUI/ui_write.json",
+      "sha256": "1C7C58446C456374312AE74CC555906A37D85A6221D46DD56A634A3FC34AD620"
+    },
+    {
+      "path": "Docs/Validation/Phase3/font_provenance.json",
+      "sha256": "5A7A68F80E13080601E6027F4709F76A70AAC67406EC196ED7CED76287A3CDDF"
+    },
+    {
+      "path": "Docs/Validation/Phase3/history_nokey.png",
+      "sha256": "399AC7460AEE09940CE8F2B34E4F98084D49F22187BADA5C41194227ACA35D41"
+    },
+    {
+      "path": "Docs/Validation/Phase3/history_write.png",
+      "sha256": "C9B6A452366C5EED4AE3F02FFD3D8B5039248D7961F61C99172057B1F38F4EF2"
+    },
+    {
+      "path": "Docs/Validation/Phase3/home_nokey.png",
+      "sha256": "BA80E41775E56E82B7B6D1FA23269E5DB8622FEF263E2320CF1529A821B7DCF2"
+    },
+    {
+      "path": "Docs/Validation/Phase3/home_visual.png",
+      "sha256": "86881EF5546476E8DD3029D06D7910DB7FF5C37042C4EDDB9F66FC6B9D657598"
+    },
+    {
+      "path": "Docs/Validation/Phase3/home_write.png",
+      "sha256": "BA80E41775E56E82B7B6D1FA23269E5DB8622FEF263E2320CF1529A821B7DCF2"
+    },
+    {
+      "path": "Docs/Validation/Phase3/installation.json",
+      "sha256": "11C11DB30F4B3F6C758722BA3E27EEA08145B7D212F6A157451E364B48475280"
+    },
+    {
+      "path": "Docs/Validation/Phase3/installation.log",
+      "sha256": "40BD351B9F8F5FE3C06E562182355BF06551B3B39CAE644C4EB4F22329DF929B"
+    },
+    {
+      "path": "Docs/Validation/Phase3/menu_nokey.png",
+      "sha256": "218C5B1DEA9DF3226949EA6E9105DB93976CFE596B7B60F38B650C3E4E4AAC30"
+    },
+    {
+      "path": "Docs/Validation/Phase3/menu_write.png",
+      "sha256": "43C69C8D509959B306823B9E33B24508E55CF7D375DC5BD0683F3AB836DA3923"
+    },
+    {
+      "path": "Docs/Validation/Phase3/NotoSansCJK-Notice.txt",
+      "sha256": "3005E77560B2D4B2FB38159CDB0ADBF06B40F5BFDBE5065E6274A0AA25551681"
+    },
+    {
+      "path": "Docs/Validation/Phase3/player_build.json",
+      "sha256": "65E1AD56CB937A2635F1E43E11EE2E440DF555636C34D0B6B0E99F8142CC83B7"
+    },
+    {
+      "path": "Docs/Validation/Phase3/player_build.log",
+      "sha256": "50ED27F0B3BA675E458DD7C400BF0AC0EDC922D3A9F63D6B75F989582D12533F"
+    },
+    {
+      "path": "Docs/Validation/Phase3/player_nokey.json",
+      "sha256": "F233B0710B74B2278FB88BC7CC5896189C260F6A8A6921282A92B0958F248E98"
+    },
+    {
+      "path": "Docs/Validation/Phase3/player_nokey.log",
+      "sha256": "6E5105B6ED994200C3065CA13E00D54F05F1189AC1D1024D19F8F467B94DCE45"
+    },
+    {
+      "path": "Docs/Validation/Phase3/player_restore.json",
+      "sha256": "5DC6127035C8F855E92712580B76D0F2C4339E5D7EF78B8C3EEBED477B47CE34"
+    },
+    {
+      "path": "Docs/Validation/Phase3/player_restore.log",
+      "sha256": "FC5C9A7D5922F9E2478DCA1FB2FE90D2AE458E71E94A18279197F8E8F4E2D370"
+    },
+    {
+      "path": "Docs/Validation/Phase3/player_run.json",
+      "sha256": "D6826C92EF7AA207CA6E14AF441DCE7F1A3E862054FC78A0E717074045CE80A9"
+    },
+    {
+      "path": "Docs/Validation/Phase3/player_write.json",
+      "sha256": "A011F969000670E7679AC794D8AE420ED257F7EB67EBD3B5765A04446178BFDD"
+    },
+    {
+      "path": "Docs/Validation/Phase3/player_write.log",
+      "sha256": "FAB8E49992570D662898AE1C239C542806420FDA7CF12C482E7C5D9F27BC2C67"
+    },
+    {
+      "path": "Docs/Validation/Phase3/release_explicit_alpha.png",
+      "sha256": "EE634E4970D17B4C342C82CDAEFBFE656149059D2E01CA6DB166BD379A391FEC"
+    },
+    {
+      "path": "Docs/Validation/Phase3/release_ldr.png",
+      "sha256": "324F683A05C8778EB8E61D26AF13D50D071C629E821FC6C39AF132592142015F"
+    },
+    {
+      "path": "Docs/Validation/Phase3/release_original_shader.png",
+      "sha256": "DB3A286AD2985BB4BF7113AB599D5C6989503A36CE2E6F5C02FA1809D1ADB2BF"
+    },
+    {
+      "path": "Docs/Validation/Phase3/release_shader_audit.json",
+      "sha256": "A5F5327CAF2C4C92A9D0865A68ECB8107CD06128DCDAB67EFC8149E1EE802A3F"
+    },
+    {
+      "path": "Docs/Validation/Phase3/release_shader_audit.log",
+      "sha256": "2440C9961BCA6C47109EC76D9941641D3A7843352F4446972C8D5B9186770561"
+    },
+    {
+      "path": "Docs/Validation/Phase3/reply_nokey.png",
+      "sha256": "F5ACF1F01532DB081C6DCEBC107B0AD9F7C05C05CAC16C13A7AB710874A6522A"
+    },
+    {
+      "path": "Docs/Validation/Phase3/reply_write.png",
+      "sha256": "BF44FD99317C019C32C7D70F6D406262F8DDBE988F305CBE3FAD7575646A5735"
+    },
+    {
+      "path": "Docs/Validation/Phase3/resized_nokey.png",
+      "sha256": "2CAFB252F44AF4F4BAB3FF1EA9D1937F8327184F50A116C63684541C66847950"
+    },
+    {
+      "path": "Docs/Validation/Phase3/resized_write.png",
+      "sha256": "7D75A3A42D90C5DE75A896E812AD024C74F51094FB25911CF662C28267C54BF3"
+    },
+    {
+      "path": "Docs/Validation/Phase3/settings_nokey.png",
+      "sha256": "487637E28259751C31B2D84407C85D8BDECB42D32113197703509BB61C923718"
+    },
+    {
+      "path": "Docs/Validation/Phase3/settings_write.png",
+      "sha256": "201CEBE3C6AD708CBD1E96AA35A063A89E304636F95100F1B3C6144BB667EC72"
+    },
+    {
+      "path": "Docs/Validation/Phase3/Spine-Runtimes-License.txt",
+      "sha256": "B7D2B2B56859642E036E7EA8DA16C5751C51F61F7CF02AC085DE0D68DDFA9DAC"
+    },
+    {
+      "path": "Docs/Validation/Phase3/ui_nokey.json",
+      "sha256": "B18C1DCFC5ECB608AA4B02830D5AD8492F42BD4B3C5BE9D7CC55777DF90D4DFA"
+    },
+    {
+      "path": "Docs/Validation/Phase3/ui_nokey.log",
+      "sha256": "22F1712B6B9FF6CF285A6DD334A4F706065D7EA6B2C5FC24F8B0DB5A14FB0D99"
+    },
+    {
+      "path": "Docs/Validation/Phase3/ui_run.json",
+      "sha256": "CEC572F375E956748497CAE84A29F35C82001E69CFC31F8DFCEE078449CE3F56"
+    },
+    {
+      "path": "Docs/Validation/Phase3/ui_write.json",
+      "sha256": "1C7C58446C456374312AE74CC555906A37D85A6221D46DD56A634A3FC34AD620"
+    },
+    {
+      "path": "Docs/Validation/Phase3/ui_write.log",
+      "sha256": "A3D086C03866907BF73D1BAEA0A58E52E6402BD5C1AE23DE80464659A2187434"
+    }
+  ]
+}

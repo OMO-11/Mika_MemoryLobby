@@ -1,0 +1,916 @@
+{
+  "schemaVersion": 1,
+  "auditDate": "2026-10-07",
+  "timezone": "Asia/Shanghai",
+  "verdict": "NOT_READY_FOR_SPINE_INTEGRATION",
+  "basis": "local file inventory and metadata consistency only",
+  "runtimePlaybackPerformed": false,
+  "rawSkeletonParsedThisRun": false,
+  "standard": {
+    "file": "项目总宪法.md",
+    "sha256": "b79b82929af33d8e369258593784fe068bdc42c945301004f9bce172b97b999a"
+  },
+  "inventory": [
+    {
+      "path": "Material/mika_spine/bg_pattern.mjs",
+      "bytes": 325,
+      "sha256": "e4a9019a649a26968d95da6d428b3840f4d174ea00dcf562b2749d61fe1c08f3"
+    },
+    {
+      "path": "Material/mika_spine/export_layers.mjs",
+      "bytes": 3811,
+      "sha256": "95b0f05d1dc8c803763a29aded9e49d4d33f04789eb84fca401a57b38fa28626"
+    },
+    {
+      "path": "Material/mika_spine/export_manifest.mjs",
+      "bytes": 7404,
+      "sha256": "4a6ff442e962f9f82e1ec913eb2aea067c4b223a01c32504b56e0bc7659df956"
+    },
+    {
+      "path": "Material/mika_spine/export_metadata.mjs",
+      "bytes": 4371,
+      "sha256": "0151552dd32c10f3559ad5595601caaa871305ca4776561d8ce4ba573bf391fb"
+    },
+    {
+      "path": "Material/mika_spine/inspect_spine.mjs",
+      "bytes": 2397,
+      "sha256": "c1993d42b6ffd03efa14ab862f82bc540c22cd52736945c98ab13db6adf07ef7"
+    },
+    {
+      "path": "Material/mika_spine/output/CH0069_home.metadata.json",
+      "bytes": 180746,
+      "sha256": "86f35ad2e63b5381d3871addf4afb34c3be64bf1905d28ee3a3383c5c4de7ea7"
+    },
+    {
+      "path": "Material/mika_spine/output/CH0294_home.metadata.json",
+      "bytes": 113927,
+      "sha256": "69fa01b2caa4f813859e6b5afc7845d8d8944ea6463c46e209b9f7889c1ba635"
+    },
+    {
+      "path": "Material/mika_spine/package-lock.json",
+      "bytes": 15854,
+      "sha256": "d49d1d170984d681beadb271d0cc68eb9fdede582a6768c48b0c149cb164441a"
+    },
+    {
+      "path": "Material/mika_spine/package.json",
+      "bytes": 518,
+      "sha256": "debef7a3ae0586f714060e62358798c82f9b5175a4177e50ec9d47ccb728e7d5"
+    },
+    {
+      "path": "Material/mika_spine/player/index.html",
+      "bytes": 1199,
+      "sha256": "5feff88cc61c97ee6dc5d21f68f78800ad8fa29284746b2e8f17b491934c8613"
+    },
+    {
+      "path": "Material/mika_spine/player/player.mjs",
+      "bytes": 10103,
+      "sha256": "f0a78842834036bc455bd21b9f0c92217f4fac2b3e1655b3080ee46084ce54f6"
+    },
+    {
+      "path": "Material/mika_spine/serve.mjs",
+      "bytes": 2498,
+      "sha256": "a6413922a14363a408257290e61de97472d1b55a642b1601e97870a86f687753"
+    }
+  ],
+  "rawAssetsInSpecifiedDirectory": [],
+  "rawSpineFilesInMaterial": [],
+  "browserDeliverablePath": "Material/deliverables/Mika_MemoryLobby_Spine",
+  "browserDeliverableExists": false,
+  "unity": {
+    "projectVersion": "m_EditorVersion: 6000.6.4f1\nm_EditorVersionWithRevision: 6000.6.4f1 (12bfff696524)\n",
+    "packages": {
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.2.2",
+        "com.unity.test-framework": "1.8.0",
+        "com.unity.ugui": "2.6.0",
+        "com.unity.modules.audio": "1.0.0",
+        "com.unity.modules.imgui": "1.0.0",
+        "com.unity.modules.ui": "1.0.0"
+      }
+    },
+    "companionFiles": [
+      "GiftCompanion/Assets/Characters/MainCharacter/Companion/.gitkeep"
+    ],
+    "characterManifest": {
+      "schemaVersion": 1,
+      "characterId": "main-character",
+      "status": "awaiting-assets",
+      "companion": {
+        "idle": null,
+        "thinking": null,
+        "speaking": null,
+        "emotions": {},
+        "actions": {},
+        "touchAreas": []
+      },
+      "pet": {
+        "idle": null,
+        "states": {},
+        "emotions": {},
+        "actions": {},
+        "touchAreas": []
+      },
+      "bgmPlaylist": [],
+      "voice": {
+        "enabled": false,
+        "config": null
+      }
+    },
+    "expressionMap": {
+      "schemaVersion": 1,
+      "status": "awaiting-assets",
+      "emotions": {
+        "neutral": null,
+        "happy": null,
+        "shy": null,
+        "concern": null,
+        "sad": null,
+        "surprised": null,
+        "annoyed": null,
+        "sleepy": null
+      }
+    }
+  },
+  "officialReference": {
+    "url": "https://esotericsoftware.com/spine-unity-installation",
+    "spine42DocumentedUnityMaximum": "6000.3",
+    "spine43Reads42Exports": false
+  },
+  "models": [
+    {
+      "name": "CH0069_home",
+      "spine": {
+        "exportVersion": "4.2.33",
+        "hash": "5c8f3b8b-b8ac63e",
+        "fps": 0,
+        "imagesPath": null,
+        "audioPath": null,
+        "setupBounds": {
+          "x": -1730,
+          "y": -315,
+          "width": 3460,
+          "height": 2568.1
+        }
+      },
+      "counts": {
+        "bones": 743,
+        "slots": 294,
+        "skins": 1,
+        "events": 15,
+        "animations": 52,
+        "ikConstraints": 20,
+        "transformConstraints": 94,
+        "pathConstraints": 0,
+        "physicsConstraints": 0,
+        "atlasRegions": 380,
+        "atlasPages": 4
+      },
+      "metadataChecks": {
+        "animationCountMatches": true,
+        "uniqueAnimationNames": true,
+        "pageCountMatches": true,
+        "regionCountMatches": true,
+        "pageRegionCountMatches": true,
+        "slotCountMatches": true,
+        "eventCountMatches": true,
+        "allRegionPagesKnown": true,
+        "allBackgroundSlotsKnown": true
+      },
+      "allMetadataChecksPass": true,
+      "historicalIntegrity": {
+        "attachmentsResolved": 414,
+        "regionAttachments": 0,
+        "meshAttachments": 414,
+        "missingAttachments": []
+      },
+      "texturePages": [
+        {
+          "name": "CH0069_home.png",
+          "width": 2048,
+          "height": 2048,
+          "regions": 305,
+          "minFilter": "9729"
+        },
+        {
+          "name": "CH0069_home2.png",
+          "width": 2048,
+          "height": 2048,
+          "regions": 6,
+          "minFilter": "9729"
+        },
+        {
+          "name": "CH0069_home3.png",
+          "width": 2048,
+          "height": 2048,
+          "regions": 43,
+          "minFilter": "9729"
+        },
+        {
+          "name": "CH0069_home4.png",
+          "width": 2048,
+          "height": 2048,
+          "regions": 26,
+          "minFilter": "9729"
+        }
+      ],
+      "texturePagesPresentInSpecifiedDirectory": [
+        {
+          "name": "CH0069_home.png",
+          "matchingFiles": []
+        },
+        {
+          "name": "CH0069_home2.png",
+          "matchingFiles": []
+        },
+        {
+          "name": "CH0069_home3.png",
+          "matchingFiles": []
+        },
+        {
+          "name": "CH0069_home4.png",
+          "matchingFiles": []
+        }
+      ],
+      "estimatedRGBA32WithoutMipmapsMiB": 64,
+      "animations": [
+        {
+          "name": "Dev_add",
+          "durationSeconds": 0.3333,
+          "timelines": 218
+        },
+        {
+          "name": "Dev_BG_Cut2",
+          "durationSeconds": 3.3333,
+          "timelines": 453
+        },
+        {
+          "name": "Dev_Curtain",
+          "durationSeconds": 3.3333,
+          "timelines": 271
+        },
+        {
+          "name": "Dev_Curtain2",
+          "durationSeconds": 3.3333,
+          "timelines": 193
+        },
+        {
+          "name": "Dev_eye",
+          "durationSeconds": 3.3333,
+          "timelines": 14
+        },
+        {
+          "name": "Dev_flow",
+          "durationSeconds": 3.3333,
+          "timelines": 72
+        },
+        {
+          "name": "Dev_Hair",
+          "durationSeconds": 3.3333,
+          "timelines": 158
+        },
+        {
+          "name": "Dev_Hair2",
+          "durationSeconds": 3.3333,
+          "timelines": 163
+        },
+        {
+          "name": "Dev_Halo",
+          "durationSeconds": 0,
+          "timelines": 0
+        },
+        {
+          "name": "Dev_Idle_1",
+          "durationSeconds": 3.3333,
+          "timelines": 689
+        },
+        {
+          "name": "Dev_LookEnd_01_M",
+          "durationSeconds": 0.4333,
+          "timelines": 18
+        },
+        {
+          "name": "Dev_Look_01_M",
+          "durationSeconds": 0,
+          "timelines": 4
+        },
+        {
+          "name": "Dev_PatEnd_01_M",
+          "durationSeconds": 0.3333,
+          "timelines": 18
+        },
+        {
+          "name": "Dev_Pat_01_M",
+          "durationSeconds": 0,
+          "timelines": 18
+        },
+        {
+          "name": "Dev_pos",
+          "durationSeconds": 3.3333,
+          "timelines": 42
+        },
+        {
+          "name": "Dev_Set",
+          "durationSeconds": 3.3333,
+          "timelines": 664
+        },
+        {
+          "name": "Dev_Skut",
+          "durationSeconds": 3.3333,
+          "timelines": 69
+        },
+        {
+          "name": "Dev_Talk_01_M",
+          "durationSeconds": 15.6667,
+          "timelines": 83
+        },
+        {
+          "name": "Dev_Talk_02_M",
+          "durationSeconds": 18,
+          "timelines": 83
+        },
+        {
+          "name": "Dev_Talk_03_M",
+          "durationSeconds": 20,
+          "timelines": 83
+        },
+        {
+          "name": "Dev_Talk_04_M",
+          "durationSeconds": 19.3333,
+          "timelines": 85
+        },
+        {
+          "name": "Dev_Talk_05_M",
+          "durationSeconds": 35.3333,
+          "timelines": 84
+        },
+        {
+          "name": "Dummy",
+          "durationSeconds": 0.0333,
+          "timelines": 1
+        },
+        {
+          "name": "Idle_01",
+          "durationSeconds": 33.3333,
+          "timelines": 694
+        },
+        {
+          "name": "LookEnd_01_A",
+          "durationSeconds": 0.4333,
+          "timelines": 6
+        },
+        {
+          "name": "LookEnd_01_M",
+          "durationSeconds": 0.4333,
+          "timelines": 12
+        },
+        {
+          "name": "Look_01_M",
+          "durationSeconds": 0,
+          "timelines": 4
+        },
+        {
+          "name": "PatEnd_01_A",
+          "durationSeconds": 0.3333,
+          "timelines": 7
+        },
+        {
+          "name": "PatEnd_01_M",
+          "durationSeconds": 0.3333,
+          "timelines": 11
+        },
+        {
+          "name": "Pat_01_A",
+          "durationSeconds": 0,
+          "timelines": 7
+        },
+        {
+          "name": "Pat_01_M",
+          "durationSeconds": 0,
+          "timelines": 11
+        },
+        {
+          "name": "Start_Idle_01",
+          "durationSeconds": 20,
+          "timelines": 1007
+        },
+        {
+          "name": "Talk_01_A",
+          "durationSeconds": 15.6667,
+          "timelines": 19
+        },
+        {
+          "name": "Talk_01_A_CN",
+          "durationSeconds": 15.6667,
+          "timelines": 19
+        },
+        {
+          "name": "Talk_01_M",
+          "durationSeconds": 15.6667,
+          "timelines": 64
+        },
+        {
+          "name": "Talk_01_M_CN",
+          "durationSeconds": 15.6667,
+          "timelines": 64
+        },
+        {
+          "name": "Talk_02_A",
+          "durationSeconds": 18,
+          "timelines": 19
+        },
+        {
+          "name": "Talk_02_A_CN",
+          "durationSeconds": 18,
+          "timelines": 19
+        },
+        {
+          "name": "Talk_02_M",
+          "durationSeconds": 18,
+          "timelines": 64
+        },
+        {
+          "name": "Talk_02_M_CN",
+          "durationSeconds": 18,
+          "timelines": 64
+        },
+        {
+          "name": "Talk_03_A",
+          "durationSeconds": 20,
+          "timelines": 19
+        },
+        {
+          "name": "Talk_03_A_CN",
+          "durationSeconds": 20,
+          "timelines": 19
+        },
+        {
+          "name": "Talk_03_M",
+          "durationSeconds": 20,
+          "timelines": 64
+        },
+        {
+          "name": "Talk_03_M_CN",
+          "durationSeconds": 20,
+          "timelines": 64
+        },
+        {
+          "name": "Talk_04_A",
+          "durationSeconds": 19.3333,
+          "timelines": 19
+        },
+        {
+          "name": "Talk_04_A_CN",
+          "durationSeconds": 19.3333,
+          "timelines": 19
+        },
+        {
+          "name": "Talk_04_M",
+          "durationSeconds": 19.3333,
+          "timelines": 66
+        },
+        {
+          "name": "Talk_04_M_CN",
+          "durationSeconds": 19.3333,
+          "timelines": 66
+        },
+        {
+          "name": "Talk_05_A",
+          "durationSeconds": 35.3333,
+          "timelines": 19
+        },
+        {
+          "name": "Talk_05_A_CN",
+          "durationSeconds": 35.3333,
+          "timelines": 19
+        },
+        {
+          "name": "Talk_05_M",
+          "durationSeconds": 35.3333,
+          "timelines": 65
+        },
+        {
+          "name": "Talk_05_M_CN",
+          "durationSeconds": 35.3333,
+          "timelines": 65
+        }
+      ],
+      "events": [
+        "CH0069_MemorialLobby_0",
+        "CH0069_MemorialLobby_1_1",
+        "CH0069_MemorialLobby_1_2",
+        "CH0069_MemorialLobby_2_1",
+        "CH0069_MemorialLobby_2_2",
+        "CH0069_MemorialLobby_3_1",
+        "CH0069_MemorialLobby_3_2",
+        "CH0069_MemorialLobby_4_1",
+        "CH0069_MemorialLobby_4_2",
+        "CH0069_MemorialLobby_4_3",
+        "CH0069_MemorialLobby_5_1",
+        "CH0069_MemorialLobby_5_2",
+        "CH0069_MemorialLobby_5_3",
+        "CH0069_MemorialLobby_5_4",
+        "Talk"
+      ],
+      "zeroDurationAnimations": [
+        {
+          "name": "Dev_Halo",
+          "durationSeconds": 0,
+          "timelines": 0
+        },
+        {
+          "name": "Dev_Look_01_M",
+          "durationSeconds": 0,
+          "timelines": 4
+        },
+        {
+          "name": "Dev_Pat_01_M",
+          "durationSeconds": 0,
+          "timelines": 18
+        },
+        {
+          "name": "Look_01_M",
+          "durationSeconds": 0,
+          "timelines": 4
+        },
+        {
+          "name": "Pat_01_A",
+          "durationSeconds": 0,
+          "timelines": 7
+        },
+        {
+          "name": "Pat_01_M",
+          "durationSeconds": 0,
+          "timelines": 11
+        }
+      ],
+      "namedThinkingAnimations": [],
+      "namedEmotionAnimations": [],
+      "backgroundSlots": [
+        "BG_01",
+        "Window_02",
+        "Window_01",
+        "Window_Flower_12",
+        "Window_Flower_11",
+        "Window_Flower_10",
+        "Window_Flower_09",
+        "Window_Flower_08",
+        "Window_Flower_07",
+        "Window_Flower_06",
+        "Window_Flower_05",
+        "Window_Flower_04",
+        "Window_Flower_03",
+        "Window_Flower_02",
+        "Window_Flower_01",
+        "Window_Flower_pot_02",
+        "Window_Flower_pot_01",
+        "BG_02_Light",
+        "radiator_01",
+        "Table_base_01",
+        "Table_Mirror_03",
+        "Table_Mirror_02",
+        "Table_Mirror_01",
+        "Table_Flower_07",
+        "Table_Flower_06",
+        "Table_Flower_05",
+        "Table_Flower_04",
+        "Table_Flower_03",
+        "Table_Flower_02",
+        "Table_Flower_01",
+        "Table_Flower_Pot_01",
+        "Table_03",
+        "Table_02",
+        "Table_01",
+        "Mood_1",
+        "mood_Light_03",
+        "mood_Light_01",
+        "L_Curtain_Layer_01",
+        "L_Curtain_Layer_01_02",
+        "L_Curtain_Layer_02",
+        "L_Curtain_Layer_03",
+        "L_Curtain_Layer_03_02",
+        "R_Curtain_Layer_01",
+        "R_Curtain_Layer_01_02",
+        "R_Curtain_Layer_02",
+        "R_Curtain_Layer_03",
+        "R_Curtain_Layer_03_02",
+        "BG_F_Wall",
+        "BG_Box",
+        "BG_Bed",
+        "BG_Pillow",
+        "Char_BG_Screen_02",
+        "BG_screen_01",
+        "BG_Bed_cover",
+        "L_Index_02_light",
+        "FX_Screen_01"
+      ],
+      "blendModeSlotCounts": {
+        "0": 284,
+        "1": 10
+      }
+    },
+    {
+      "name": "CH0294_home",
+      "spine": {
+        "exportVersion": "4.2.33",
+        "hash": "-154e1e85-2ffc2cd1",
+        "fps": 30,
+        "imagesPath": "./images/",
+        "audioPath": "./VOC_CN/",
+        "setupBounds": {
+          "x": -2531.2,
+          "y": -1619,
+          "width": 4470.5,
+          "height": 3882.8
+        }
+      },
+      "counts": {
+        "bones": 441,
+        "slots": 215,
+        "skins": 1,
+        "events": 27,
+        "animations": 31,
+        "ikConstraints": 22,
+        "transformConstraints": 78,
+        "pathConstraints": 0,
+        "physicsConstraints": 37,
+        "atlasRegions": 257,
+        "atlasPages": 4
+      },
+      "metadataChecks": {
+        "animationCountMatches": true,
+        "uniqueAnimationNames": true,
+        "pageCountMatches": true,
+        "regionCountMatches": true,
+        "pageRegionCountMatches": true,
+        "slotCountMatches": true,
+        "eventCountMatches": true,
+        "allRegionPagesKnown": true,
+        "allBackgroundSlotsKnown": true
+      },
+      "allMetadataChecksPass": true,
+      "historicalIntegrity": {
+        "attachmentsResolved": 264,
+        "regionAttachments": 4,
+        "meshAttachments": 260,
+        "missingAttachments": []
+      },
+      "texturePages": [
+        {
+          "name": "CH0294_home.png",
+          "width": 2048,
+          "height": 2048,
+          "regions": 199,
+          "minFilter": "9729"
+        },
+        {
+          "name": "CH0294_home_2.png",
+          "width": 2048,
+          "height": 1024,
+          "regions": 1,
+          "minFilter": "9729"
+        },
+        {
+          "name": "CH0294_home_3.png",
+          "width": 2048,
+          "height": 2048,
+          "regions": 8,
+          "minFilter": "9729"
+        },
+        {
+          "name": "CH0294_home_4.png",
+          "width": 2048,
+          "height": 1024,
+          "regions": 49,
+          "minFilter": "9729"
+        }
+      ],
+      "texturePagesPresentInSpecifiedDirectory": [
+        {
+          "name": "CH0294_home.png",
+          "matchingFiles": []
+        },
+        {
+          "name": "CH0294_home_2.png",
+          "matchingFiles": []
+        },
+        {
+          "name": "CH0294_home_3.png",
+          "matchingFiles": []
+        },
+        {
+          "name": "CH0294_home_4.png",
+          "matchingFiles": []
+        }
+      ],
+      "estimatedRGBA32WithoutMipmapsMiB": 48,
+      "animations": [
+        {
+          "name": "Dummy",
+          "durationSeconds": 0.0333,
+          "timelines": 1
+        },
+        {
+          "name": "Eye_Close_01",
+          "durationSeconds": 0.3667,
+          "timelines": 14
+        },
+        {
+          "name": "Idle_01",
+          "durationSeconds": 12,
+          "timelines": 291
+        },
+        {
+          "name": "LookEnd_01_A",
+          "durationSeconds": 0.6667,
+          "timelines": 4
+        },
+        {
+          "name": "LookEnd_01_M",
+          "durationSeconds": 0.6667,
+          "timelines": 39
+        },
+        {
+          "name": "Look_01_M",
+          "durationSeconds": 0.3333,
+          "timelines": 33
+        },
+        {
+          "name": "PatEnd_01_A",
+          "durationSeconds": 1.1667,
+          "timelines": 9
+        },
+        {
+          "name": "PatEnd_01_M",
+          "durationSeconds": 1.1667,
+          "timelines": 45
+        },
+        {
+          "name": "Pat_01_A",
+          "durationSeconds": 0.3333,
+          "timelines": 9
+        },
+        {
+          "name": "Pat_01_M",
+          "durationSeconds": 0.3333,
+          "timelines": 37
+        },
+        {
+          "name": "Start_Idle_01",
+          "durationSeconds": 21.6667,
+          "timelines": 573
+        },
+        {
+          "name": "Talk_01_A",
+          "durationSeconds": 20.6667,
+          "timelines": 13
+        },
+        {
+          "name": "Talk_01_A_CN",
+          "durationSeconds": 20.6667,
+          "timelines": 13
+        },
+        {
+          "name": "Talk_01_M",
+          "durationSeconds": 20.6667,
+          "timelines": 98
+        },
+        {
+          "name": "Talk_01_M_CN",
+          "durationSeconds": 20.6667,
+          "timelines": 98
+        },
+        {
+          "name": "Talk_02_A",
+          "durationSeconds": 18.8333,
+          "timelines": 13
+        },
+        {
+          "name": "Talk_02_A_CN",
+          "durationSeconds": 18.8333,
+          "timelines": 13
+        },
+        {
+          "name": "Talk_02_M",
+          "durationSeconds": 18.8333,
+          "timelines": 78
+        },
+        {
+          "name": "Talk_02_M_CN",
+          "durationSeconds": 18.8333,
+          "timelines": 78
+        },
+        {
+          "name": "Talk_03_A",
+          "durationSeconds": 20.8333,
+          "timelines": 13
+        },
+        {
+          "name": "Talk_03_A_CN",
+          "durationSeconds": 20.8333,
+          "timelines": 13
+        },
+        {
+          "name": "Talk_03_M",
+          "durationSeconds": 20.8333,
+          "timelines": 101
+        },
+        {
+          "name": "Talk_03_M_CN",
+          "durationSeconds": 20.8333,
+          "timelines": 101
+        },
+        {
+          "name": "Talk_04_A",
+          "durationSeconds": 24.1667,
+          "timelines": 13
+        },
+        {
+          "name": "Talk_04_A_CN",
+          "durationSeconds": 24.1667,
+          "timelines": 13
+        },
+        {
+          "name": "Talk_04_M",
+          "durationSeconds": 24.1667,
+          "timelines": 74
+        },
+        {
+          "name": "Talk_04_M_CN",
+          "durationSeconds": 24.1667,
+          "timelines": 74
+        },
+        {
+          "name": "Talk_05_A",
+          "durationSeconds": 13.1667,
+          "timelines": 9
+        },
+        {
+          "name": "Talk_05_A_CN",
+          "durationSeconds": 13.1667,
+          "timelines": 9
+        },
+        {
+          "name": "Talk_05_M",
+          "durationSeconds": 13.1667,
+          "timelines": 84
+        },
+        {
+          "name": "Talk_05_M_CN",
+          "durationSeconds": 13.1667,
+          "timelines": 84
+        }
+      ],
+      "events": [
+        "CH0294_MemorialLobby_1_1",
+        "CH0294_MemorialLobby_1_2",
+        "CH0294_MemorialLobby_2_1",
+        "CH0294_MemorialLobby_2_2",
+        "CH0294_MemorialLobby_2_3",
+        "CH0294_MemorialLobby_3_1",
+        "CH0294_MemorialLobby_3_2",
+        "CH0294_MemorialLobby_3_3",
+        "CH0294_MemorialLobby_4_1",
+        "CH0294_MemorialLobby_4_2",
+        "CH0294_MemorialLobby_4_3",
+        "CH0294_MemorialLobby_5_1",
+        "CH0294_MemorialLobby_5_2",
+        "Talk",
+        "Sound/CH0294_MemorialLobby_1_1",
+        "Sound/CH0294_MemorialLobby_1_2",
+        "Sound/CH0294_MemorialLobby_2_1",
+        "Sound/CH0294_MemorialLobby_2_2",
+        "Sound/CH0294_MemorialLobby_2_3",
+        "Sound/CH0294_MemorialLobby_3_1",
+        "Sound/CH0294_MemorialLobby_3_2",
+        "Sound/CH0294_MemorialLobby_3_3",
+        "Sound/CH0294_MemorialLobby_4_1",
+        "Sound/CH0294_MemorialLobby_4_2",
+        "Sound/CH0294_MemorialLobby_4_3",
+        "Sound/CH0294_MemorialLobby_5_1",
+        "Sound/CH0294_MemorialLobby_5_2"
+      ],
+      "zeroDurationAnimations": [],
+      "namedThinkingAnimations": [],
+      "namedEmotionAnimations": [],
+      "backgroundSlots": [
+        "BG_03",
+        "BG_fx03",
+        "BG_02",
+        "BG_02_sha",
+        "BG_Wave1",
+        "BG_Wave2",
+        "BG_Wave3",
+        "BG_Wave4",
+        "BG_Wave5",
+        "FX_light_02",
+        "FX_light_03",
+        "FX_light_01",
+        "FX_light_04"
+      ],
+      "blendModeSlotCounts": {
+        "0": 209,
+        "1": 6
+      }
+    }
+  ]
+}

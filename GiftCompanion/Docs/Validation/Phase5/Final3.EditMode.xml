@@ -1,0 +1,912 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="134" result="Passed" total="134" passed="134" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-18 10:41:24Z" end-time="2026-10-18 10:42:11Z" duration="46.2980158">
+  <test-suite type="TestSuite" id="1000" name="GiftCompanion" fullname="GiftCompanion" runstate="Runnable" testcasecount="134" result="Passed" start-time="2026-10-18 10:41:24Z" end-time="2026-10-18 10:42:11Z" duration="46.298016" total="134" passed="134" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="EditMode" />
+    </properties>
+    <test-suite type="Assembly" id="1163" name="GiftCompanion.EditModeTests.dll" fullname="W:/Machine/VSCode/Mika_Gift/GiftCompanion/Library/ScriptAssemblies/GiftCompanion.EditModeTests.dll" runstate="Runnable" testcasecount="134" result="Passed" start-time="2026-10-18 10:41:24Z" end-time="2026-10-18 10:42:11Z" duration="46.286539" total="134" passed="134" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="2796" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="EditMode" />
+        <property name="EditorOnly" value="True" />
+      </properties>
+      <test-suite type="TestSuite" id="1164" name="GiftCompanion" fullname="GiftCompanion" runstate="Runnable" testcasecount="134" result="Passed" start-time="2026-10-18 10:41:24Z" end-time="2026-10-18 10:42:11Z" duration="46.285761" total="134" passed="134" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1165" name="Tests" fullname="GiftCompanion.Tests" runstate="Runnable" testcasecount="134" result="Passed" start-time="2026-10-18 10:41:24Z" end-time="2026-10-18 10:42:11Z" duration="46.285063" total="134" passed="134" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestFixture" id="1001" name="AgentToolTests" fullname="GiftCompanion.Tests.AgentToolTests" classname="GiftCompanion.Tests.AgentToolTests" runstate="Runnable" testcasecount="20" result="Passed" start-time="2026-10-18 10:41:24Z" end-time="2026-10-18 10:41:32Z" duration="7.554421" total="20" passed="20" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-suite type="ParameterizedMethod" id="1023" name="ApplicationRegistryRejectsCommandAndScriptTargets" fullname="GiftCompanion.Tests.AgentToolTests.ApplicationRegistryRejectsCommandAndScriptTargets" classname="GiftCompanion.Tests.AgentToolTests" runstate="Runnable" testcasecount="5" result="Passed" start-time="2026-10-18 10:41:24Z" end-time="2026-10-18 10:41:25Z" duration="0.698619" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1018" name="ApplicationRegistryRejectsCommandAndScriptTargets(&quot;cmd.exe&quot;)" fullname="GiftCompanion.Tests.AgentToolTests.ApplicationRegistryRejectsCommandAndScriptTargets(&quot;cmd.exe&quot;)" methodname="ApplicationRegistryRejectsCommandAndScriptTargets" classname="GiftCompanion.Tests.AgentToolTests" runstate="Runnable" seed="1730988020" result="Passed" start-time="2026-10-18 10:41:24Z" end-time="2026-10-18 10:41:25Z" duration="0.310205" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1019" name="ApplicationRegistryRejectsCommandAndScriptTargets(&quot;powershell.exe&quot;)" fullname="GiftCompanion.Tests.AgentToolTests.ApplicationRegistryRejectsCommandAndScriptTargets(&quot;powershell.exe&quot;)" methodname="ApplicationRegistryRejectsCommandAndScriptTargets" classname="GiftCompanion.Tests.AgentToolTests" runstate="Runnable" seed="1304799367" result="Passed" start-time="2026-10-18 10:41:25Z" end-time="2026-10-18 10:41:25Z" duration="0.079586" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1020" name="ApplicationRegistryRejectsCommandAndScriptTargets(&quot;python.exe&quot;)" fullname="GiftCompanion.Tests.AgentToolTests.ApplicationRegistryRejectsCommandAndScriptTargets(&quot;python.exe&quot;)" methodname="ApplicationRegistryRejectsCommandAndScriptTargets" classname="GiftCompanion.Tests.AgentToolTests" runstate="Runnable" seed="1411013123" result="Passed" start-time="2026-10-18 10:41:25Z" end-time="2026-10-18 10:41:25Z" duration="0.101300" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1021" name="ApplicationRegistryRejectsCommandAndScriptTargets(&quot;wscript.exe&quot;)" fullname="GiftCompanion.Tests.AgentToolTests.ApplicationRegistryRejectsCommandAndScriptTargets(&quot;wscript.exe&quot;)" methodname="ApplicationRegistryRejectsCommandAndScriptTargets" classname="GiftCompanion.Tests.AgentToolTests" runstate="Runnable" seed="2102374602" result="Passed" start-time="2026-10-18 10:41:25Z" end-time="2026-10-18 10:41:25Z" duration="0.100441" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1022" name="ApplicationRegistryRejectsCommandAndScriptTargets(&quot;anything.cmd&quot;)" fullname="GiftCompanion.Tests.AgentToolTests.ApplicationRegistryRejectsCommandAndScriptTargets(&quot;anything.cmd&quot;)" methodname="ApplicationRegistryRejectsCommandAndScriptTargets" classname="GiftCompanion.Tests.AgentToolTests" runstate="Runnable" seed="1475197665" result="Passed" start-time="2026-10-18 10:41:25Z" end-time="2026-10-18 10:41:25Z" duration="0.100080" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-case id="1002" name="CompleteNativeCallsExecuteBeforeStreamingAndAuditContainsNoArguments" fullname="GiftCompanion.Tests.AgentToolTests.CompleteNativeCallsExecuteBeforeStreamingAndAuditContainsNoArguments" methodname="CompleteNativeCallsExecuteBeforeStreamingAndAuditContainsNoArguments" classname="GiftCompanion.Tests.AgentToolTests" runstate="Runnable" seed="1985532701" result="Passed" start-time="2026-10-18 10:41:25Z" end-time="2026-10-18 10:41:26Z" duration="0.412535" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1015" name="CrashRecoveryMarksUnknownWithoutReplayingAndIdsAreUnique" fullname="GiftCompanion.Tests.AgentToolTests.CrashRecoveryMarksUnknownWithoutReplayingAndIdsAreUnique" methodname="CrashRecoveryMarksUnknownWithoutReplayingAndIdsAreUnique" classname="GiftCompanion.Tests.AgentToolTests" runstate="Runnable" seed="854428178" result="Passed" start-time="2026-10-18 10:41:26Z" end-time="2026-10-18 10:41:26Z" duration="0.294874" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1003" name="DenialAndMissingConfirmationNeverExecuteOrClaimSuccess" fullname="GiftCompanion.Tests.AgentToolTests.DenialAndMissingConfirmationNeverExecuteOrClaimSuccess" methodname="DenialAndMissingConfirmationNeverExecuteOrClaimSuccess" classname="GiftCompanion.Tests.AgentToolTests" runstate="Runnable" seed="1192527656" result="Passed" start-time="2026-10-18 10:41:26Z" end-time="2026-10-18 10:41:26Z" duration="0.557454" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1004" name="ExactSensitivePermissionIsRequiredAndAllowedOnlyOnce" fullname="GiftCompanion.Tests.AgentToolTests.ExactSensitivePermissionIsRequiredAndAllowedOnlyOnce" methodname="ExactSensitivePermissionIsRequiredAndAllowedOnlyOnce" classname="GiftCompanion.Tests.AgentToolTests" runstate="Runnable" seed="1689709982" result="Passed" start-time="2026-10-18 10:41:26Z" end-time="2026-10-18 10:41:27Z" duration="0.510933" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1007" name="ExecutionFailureUsesObservedFailureInsteadOfModelSuccess" fullname="GiftCompanion.Tests.AgentToolTests.ExecutionFailureUsesObservedFailureInsteadOfModelSuccess" methodname="ExecutionFailureUsesObservedFailureInsteadOfModelSuccess" classname="GiftCompanion.Tests.AgentToolTests" runstate="Runnable" seed="1570587223" result="Passed" start-time="2026-10-18 10:41:27Z" end-time="2026-10-18 10:41:28Z" duration="1.209735" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1014" name="FragmentedToolCallsAreOnlyCompleteAfterNormalToolFinish" fullname="GiftCompanion.Tests.AgentToolTests.FragmentedToolCallsAreOnlyCompleteAfterNormalToolFinish" methodname="FragmentedToolCallsAreOnlyCompleteAfterNormalToolFinish" classname="GiftCompanion.Tests.AgentToolTests" runstate="Runnable" seed="1549051684" result="Passed" start-time="2026-10-18 10:41:28Z" end-time="2026-10-18 10:41:28Z" duration="0.103160" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1005" name="IdenticalCallsWithDifferentIdsDoNotRepeatSideEffects" fullname="GiftCompanion.Tests.AgentToolTests.IdenticalCallsWithDifferentIdsDoNotRepeatSideEffects" methodname="IdenticalCallsWithDifferentIdsDoNotRepeatSideEffects" classname="GiftCompanion.Tests.AgentToolTests" runstate="Runnable" seed="365356683" result="Passed" start-time="2026-10-18 10:41:28Z" end-time="2026-10-18 10:41:30Z" duration="2.118079" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1008" name="OversizeBatchIsRejectedBeforeAnyExecution" fullname="GiftCompanion.Tests.AgentToolTests.OversizeBatchIsRejectedBeforeAnyExecution" methodname="OversizeBatchIsRejectedBeforeAnyExecution" classname="GiftCompanion.Tests.AgentToolTests" runstate="Runnable" seed="262751755" result="Passed" start-time="2026-10-18 10:41:30Z" end-time="2026-10-18 10:41:30Z" duration="0.161175" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1006" name="PostExecutionNetworkFailureRetainsActualResultAndNeverRetries" fullname="GiftCompanion.Tests.AgentToolTests.PostExecutionNetworkFailureRetainsActualResultAndNeverRetries" methodname="PostExecutionNetworkFailureRetainsActualResultAndNeverRetries" classname="GiftCompanion.Tests.AgentToolTests" runstate="Runnable" seed="1676009396" result="Passed" start-time="2026-10-18 10:41:30Z" end-time="2026-10-18 10:41:31Z" duration="0.416718" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1016" name="ToolTurnsRemainInHistoryButAreExcludedFromAutomaticMemoryAndDiary" fullname="GiftCompanion.Tests.AgentToolTests.ToolTurnsRemainInHistoryButAreExcludedFromAutomaticMemoryAndDiary" methodname="ToolTurnsRemainInHistoryButAreExcludedFromAutomaticMemoryAndDiary" classname="GiftCompanion.Tests.AgentToolTests" runstate="Runnable" seed="1578419928" result="Passed" start-time="2026-10-18 10:41:31Z" end-time="2026-10-18 10:41:31Z" duration="0.337892" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-suite type="ParameterizedMethod" id="1013" name="UnknownAndMalformedArgumentsAreRejected" fullname="GiftCompanion.Tests.AgentToolTests.UnknownAndMalformedArgumentsAreRejected" classname="GiftCompanion.Tests.AgentToolTests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-10-18 10:41:31Z" end-time="2026-10-18 10:41:32Z" duration="0.402185" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1009" name="UnknownAndMalformedArgumentsAreRejected(&quot;shell&quot;,&quot;{}&quot;)" fullname="GiftCompanion.Tests.AgentToolTests.UnknownAndMalformedArgumentsAreRejected(&quot;shell&quot;,&quot;{}&quot;)" methodname="UnknownAndMalformedArgumentsAreRejected" classname="GiftCompanion.Tests.AgentToolTests" runstate="Runnable" seed="1416066823" result="Passed" start-time="2026-10-18 10:41:31Z" end-time="2026-10-18 10:41:31Z" duration="0.098245" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1010" name="UnknownAndMalformedArgumentsAreRejected(&quot;get_current_time&quot;,&quot;{\&quot;command\&quot;:\&quot;anything\&quot;}&quot;)" fullname="GiftCompanion.Tests.AgentToolTests.UnknownAndMalformedArgumentsAreRejected(&quot;get_current_time&quot;,&quot;{\&quot;command\&quot;:\&quot;anything\&quot;}&quot;)" methodname="UnknownAndMalformedArgumentsAreRejected" classname="GiftCompanion.Tests.AgentToolTests" runstate="Runnable" seed="1806925837" result="Passed" start-time="2026-10-18 10:41:31Z" end-time="2026-10-18 10:41:31Z" duration="0.100207" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1011" name="UnknownAndMalformedArgumentsAreRejected(&quot;set_volume&quot;,&quot;{\&quot;percent\&quot;:\&quot;100\&quot;}&quot;)" fullname="GiftCompanion.Tests.AgentToolTests.UnknownAndMalformedArgumentsAreRejected(&quot;set_volume&quot;,&quot;{\&quot;percent\&quot;:\&quot;100\&quot;}&quot;)" methodname="UnknownAndMalformedArgumentsAreRejected" classname="GiftCompanion.Tests.AgentToolTests" runstate="Runnable" seed="1211281714" result="Passed" start-time="2026-10-18 10:41:31Z" end-time="2026-10-18 10:41:32Z" duration="0.102977" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1012" name="UnknownAndMalformedArgumentsAreRejected(&quot;set_clipboard&quot;,&quot;{\&quot;text\&quot;:\&quot;one\&quot;,\&quot;text\&quot;:\&quot;two\&quot;}&quot;)" fullname="GiftCompanion.Tests.AgentToolTests.UnknownAndMalformedArgumentsAreRejected(&quot;set_clipboard&quot;,&quot;{\&quot;text\&quot;:\&quot;one\&quot;,\&quot;text\&quot;:\&quot;two\&quot;}&quot;)" methodname="UnknownAndMalformedArgumentsAreRejected" classname="GiftCompanion.Tests.AgentToolTests" runstate="Runnable" seed="2134397246" result="Passed" start-time="2026-10-18 10:41:32Z" end-time="2026-10-18 10:41:32Z" duration="0.099583" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-case id="1017" name="V9MigrationPreservesHistoryAndUsesNativeBackup" fullname="GiftCompanion.Tests.AgentToolTests.V9MigrationPreservesHistoryAndUsesNativeBackup" methodname="V9MigrationPreservesHistoryAndUsesNativeBackup" classname="GiftCompanion.Tests.AgentToolTests" runstate="Runnable" seed="895938358" result="Passed" start-time="2026-10-18 10:41:32Z" end-time="2026-10-18 10:41:32Z" duration="0.311651" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1024" name="CharacterCoreTests" fullname="GiftCompanion.Tests.CharacterCoreTests" classname="GiftCompanion.Tests.CharacterCoreTests" runstate="Runnable" testcasecount="6" result="Passed" start-time="2026-10-18 10:41:32Z" end-time="2026-10-18 10:41:32Z" duration="0.043653" total="6" passed="6" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1027" name="ActiveModesMustPassThroughHome" fullname="GiftCompanion.Tests.CharacterCoreTests.ActiveModesMustPassThroughHome" methodname="ActiveModesMustPassThroughHome" classname="GiftCompanion.Tests.CharacterCoreTests" runstate="Runnable" seed="1639574470" result="Passed" start-time="2026-10-18 10:41:32Z" end-time="2026-10-18 10:41:32Z" duration="0.022094" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1028" name="CanceledSwitchDoesNotChangeState" fullname="GiftCompanion.Tests.CharacterCoreTests.CanceledSwitchDoesNotChangeState" methodname="CanceledSwitchDoesNotChangeState" classname="GiftCompanion.Tests.CharacterCoreTests" runstate="Runnable" seed="2129061424" result="Passed" start-time="2026-10-18 10:41:32Z" end-time="2026-10-18 10:41:32Z" duration="0.002139" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1030" name="CancellationAfterPersistenceCommitStillCommitsTheMode" fullname="GiftCompanion.Tests.CharacterCoreTests.CancellationAfterPersistenceCommitStillCommitsTheMode" methodname="CancellationAfterPersistenceCommitStillCommitsTheMode" classname="GiftCompanion.Tests.CharacterCoreTests" runstate="Runnable" seed="2070985064" result="Passed" start-time="2026-10-18 10:41:32Z" end-time="2026-10-18 10:41:32Z" duration="0.002631" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1025" name="ModeSwitchSavesDetachedSnapshotBeforeChangingState" fullname="GiftCompanion.Tests.CharacterCoreTests.ModeSwitchSavesDetachedSnapshotBeforeChangingState" methodname="ModeSwitchSavesDetachedSnapshotBeforeChangingState" classname="GiftCompanion.Tests.CharacterCoreTests" runstate="Runnable" seed="557477702" result="Passed" start-time="2026-10-18 10:41:32Z" end-time="2026-10-18 10:41:32Z" duration="0.001665" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1026" name="SaveFailureLeavesModeAndStateUnchanged" fullname="GiftCompanion.Tests.CharacterCoreTests.SaveFailureLeavesModeAndStateUnchanged" methodname="SaveFailureLeavesModeAndStateUnchanged" classname="GiftCompanion.Tests.CharacterCoreTests" runstate="Runnable" seed="1147910318" result="Passed" start-time="2026-10-18 10:41:32Z" end-time="2026-10-18 10:41:32Z" duration="0.001316" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1029" name="UnconfiguredLLMDoesNotPretendToAnswer" fullname="GiftCompanion.Tests.CharacterCoreTests.UnconfiguredLLMDoesNotPretendToAnswer" methodname="UnconfiguredLLMDoesNotPretendToAnswer" classname="GiftCompanion.Tests.CharacterCoreTests" runstate="Runnable" seed="1195018337" result="Passed" start-time="2026-10-18 10:41:32Z" end-time="2026-10-18 10:41:32Z" duration="0.011806" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1031" name="CompanionProtocolTests" fullname="GiftCompanion.Tests.CompanionProtocolTests" classname="GiftCompanion.Tests.CompanionProtocolTests" runstate="Runnable" testcasecount="7" result="Passed" start-time="2026-10-18 10:41:32Z" end-time="2026-10-18 10:41:34Z" duration="2.447938" total="7" passed="7" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1032" name="CompositionAndItsCommitFrameDoNotSubmit" fullname="GiftCompanion.Tests.CompanionProtocolTests.CompositionAndItsCommitFrameDoNotSubmit" methodname="CompositionAndItsCommitFrameDoNotSubmit" classname="GiftCompanion.Tests.CompanionProtocolTests" runstate="Runnable" seed="1644095303" result="Passed" start-time="2026-10-18 10:41:32Z" end-time="2026-10-18 10:41:32Z" duration="0.000891" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1035" name="CoreCommitsRawBodyMoodAndDependenciesTogetherAndProjectsBackgroundInputs" fullname="GiftCompanion.Tests.CompanionProtocolTests.CoreCommitsRawBodyMoodAndDependenciesTogetherAndProjectsBackgroundInputs" methodname="CoreCommitsRawBodyMoodAndDependenciesTogetherAndProjectsBackgroundInputs" classname="GiftCompanion.Tests.CompanionProtocolTests" runstate="Runnable" seed="1891323718" result="Passed" start-time="2026-10-18 10:41:32Z" end-time="2026-10-18 10:41:33Z" duration="0.651642" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1033" name="EverySplitPreservesBodyAndAppliesOnlyInitialMetadata" fullname="GiftCompanion.Tests.CompanionProtocolTests.EverySplitPreservesBodyAndAppliesOnlyInitialMetadata" methodname="EverySplitPreservesBodyAndAppliesOnlyInitialMetadata" classname="GiftCompanion.Tests.CompanionProtocolTests" runstate="Runnable" seed="735002835" result="Passed" start-time="2026-10-18 10:41:33Z" end-time="2026-10-18 10:41:33Z" duration="0.003649" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-suite type="ParameterizedMethod" id="1039" name="FailedOrCanceledPresentationCannotChangeSavedMoodOrCreateAssistant" fullname="GiftCompanion.Tests.CompanionProtocolTests.FailedOrCanceledPresentationCannotChangeSavedMoodOrCreateAssistant" classname="GiftCompanion.Tests.CompanionProtocolTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-10-18 10:41:33Z" end-time="2026-10-18 10:41:34Z" duration="1.366342" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1037" name="FailedOrCanceledPresentationCannotChangeSavedMoodOrCreateAssistant(False)" fullname="GiftCompanion.Tests.CompanionProtocolTests.FailedOrCanceledPresentationCannotChangeSavedMoodOrCreateAssistant(False)" methodname="FailedOrCanceledPresentationCannotChangeSavedMoodOrCreateAssistant" classname="GiftCompanion.Tests.CompanionProtocolTests" runstate="Runnable" seed="127587135" result="Passed" start-time="2026-10-18 10:41:33Z" end-time="2026-10-18 10:41:33Z" duration="0.721712" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1038" name="FailedOrCanceledPresentationCannotChangeSavedMoodOrCreateAssistant(True)" fullname="GiftCompanion.Tests.CompanionProtocolTests.FailedOrCanceledPresentationCannotChangeSavedMoodOrCreateAssistant(True)" methodname="FailedOrCanceledPresentationCannotChangeSavedMoodOrCreateAssistant" classname="GiftCompanion.Tests.CompanionProtocolTests" runstate="Runnable" seed="31309598" result="Passed" start-time="2026-10-18 10:41:33Z" end-time="2026-10-18 10:41:34Z" duration="0.642714" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-case id="1034" name="InvalidUnknownAndOversizedHeadersFallBackWithoutLeakingControlText" fullname="GiftCompanion.Tests.CompanionProtocolTests.InvalidUnknownAndOversizedHeadersFallBackWithoutLeakingControlText" methodname="InvalidUnknownAndOversizedHeadersFallBackWithoutLeakingControlText" classname="GiftCompanion.Tests.CompanionProtocolTests" runstate="Runnable" seed="91359281" result="Passed" start-time="2026-10-18 10:41:34Z" end-time="2026-10-18 10:41:34Z" duration="0.000965" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1036" name="V6MigrationRetainsLiteralLegacyHeadersAndBacksUpBeforeAddingProjection" fullname="GiftCompanion.Tests.CompanionProtocolTests.V6MigrationRetainsLiteralLegacyHeadersAndBacksUpBeforeAddingProjection" methodname="V6MigrationRetainsLiteralLegacyHeadersAndBacksUpBeforeAddingProjection" classname="GiftCompanion.Tests.CompanionProtocolTests" runstate="Runnable" seed="918889122" result="Passed" start-time="2026-10-18 10:41:34Z" end-time="2026-10-18 10:41:34Z" duration="0.422170" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1040" name="ConversationHistoryTests" fullname="GiftCompanion.Tests.ConversationHistoryTests" classname="GiftCompanion.Tests.ConversationHistoryTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-10-18 10:41:34Z" end-time="2026-10-18 10:41:39Z" duration="4.227978" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1041" name="EqualTimeCursorPagesBothModesAndPreservesForgottenHistoryAndBodyProjection" fullname="GiftCompanion.Tests.ConversationHistoryTests.EqualTimeCursorPagesBothModesAndPreservesForgottenHistoryAndBodyProjection" methodname="EqualTimeCursorPagesBothModesAndPreservesForgottenHistoryAndBodyProjection" classname="GiftCompanion.Tests.ConversationHistoryTests" runstate="Runnable" seed="84674706" result="Passed" start-time="2026-10-18 10:41:34Z" end-time="2026-10-18 10:41:39Z" duration="4.226266" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1042" name="ConversationTests" fullname="GiftCompanion.Tests.ConversationTests" classname="GiftCompanion.Tests.ConversationTests" runstate="Runnable" testcasecount="5" result="Passed" start-time="2026-10-18 10:41:39Z" end-time="2026-10-18 10:41:42Z" duration="2.889352" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1047" name="CanceledPersistenceAndFailedMigrationDoNotLeaveHalfACommit" fullname="GiftCompanion.Tests.ConversationTests.CanceledPersistenceAndFailedMigrationDoNotLeaveHalfACommit" methodname="CanceledPersistenceAndFailedMigrationDoNotLeaveHalfACommit" classname="GiftCompanion.Tests.ConversationTests" runstate="Runnable" seed="1152357650" result="Passed" start-time="2026-10-18 10:41:39Z" end-time="2026-10-18 10:41:39Z" duration="0.272540" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1045" name="FailureDuringCompletionRollsBackAssistantStateAndExtractionTogether" fullname="GiftCompanion.Tests.ConversationTests.FailureDuringCompletionRollsBackAssistantStateAndExtractionTogether" methodname="FailureDuringCompletionRollsBackAssistantStateAndExtractionTogether" classname="GiftCompanion.Tests.ConversationTests" runstate="Runnable" seed="788492876" result="Passed" start-time="2026-10-18 10:41:39Z" end-time="2026-10-18 10:41:40Z" duration="0.601823" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1044" name="RecoveryRetainsInterruptedUserAndDoesNotReplayOrFabricateAssistant" fullname="GiftCompanion.Tests.ConversationTests.RecoveryRetainsInterruptedUserAndDoesNotReplayOrFabricateAssistant" methodname="RecoveryRetainsInterruptedUserAndDoesNotReplayOrFabricateAssistant" classname="GiftCompanion.Tests.ConversationTests" runstate="Runnable" seed="33027151" result="Passed" start-time="2026-10-18 10:41:40Z" end-time="2026-10-18 10:41:40Z" duration="0.494263" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1046" name="SaveBeforeHttpFailureAndTruncationNeverBecomeCompleteTurns" fullname="GiftCompanion.Tests.ConversationTests.SaveBeforeHttpFailureAndTruncationNeverBecomeCompleteTurns" methodname="SaveBeforeHttpFailureAndTruncationNeverBecomeCompleteTurns" classname="GiftCompanion.Tests.ConversationTests" runstate="Runnable" seed="1964269160" result="Passed" start-time="2026-10-18 10:41:40Z" end-time="2026-10-18 10:41:41Z" duration="0.556244" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1043" name="V1UpgradePreservesStateAndBackupAndRawTurnsSurviveReopen" fullname="GiftCompanion.Tests.ConversationTests.V1UpgradePreservesStateAndBackupAndRawTurnsSurviveReopen" methodname="V1UpgradePreservesStateAndBackupAndRawTurnsSurviveReopen" classname="GiftCompanion.Tests.ConversationTests" runstate="Runnable" seed="897053591" result="Passed" start-time="2026-10-18 10:41:41Z" end-time="2026-10-18 10:41:42Z" duration="0.962365" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1048" name="DeepSeekApiTests" fullname="GiftCompanion.Tests.DeepSeekApiTests" classname="GiftCompanion.Tests.DeepSeekApiTests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-10-18 10:41:42Z" end-time="2026-10-18 10:41:42Z" duration="0.043446" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1052" name="CanceledRequestDoesNotSend" fullname="GiftCompanion.Tests.DeepSeekApiTests.CanceledRequestDoesNotSend" methodname="CanceledRequestDoesNotSend" classname="GiftCompanion.Tests.DeepSeekApiTests" runstate="Runnable" seed="1274981243" result="Passed" start-time="2026-10-18 10:41:42Z" end-time="2026-10-18 10:41:42Z" duration="0.011805" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1050" name="HttpErrorsDoNotExposeResponseSecrets" fullname="GiftCompanion.Tests.DeepSeekApiTests.HttpErrorsDoNotExposeResponseSecrets" methodname="HttpErrorsDoNotExposeResponseSecrets" classname="GiftCompanion.Tests.DeepSeekApiTests" runstate="Runnable" seed="960327088" result="Passed" start-time="2026-10-18 10:41:42Z" end-time="2026-10-18 10:41:42Z" duration="0.015961" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1049" name="StreamingHandlesHeartbeatRoleUnicodeAndDone" fullname="GiftCompanion.Tests.DeepSeekApiTests.StreamingHandlesHeartbeatRoleUnicodeAndDone" methodname="StreamingHandlesHeartbeatRoleUnicodeAndDone" classname="GiftCompanion.Tests.DeepSeekApiTests" runstate="Runnable" seed="549606138" result="Passed" start-time="2026-10-18 10:41:42Z" end-time="2026-10-18 10:41:42Z" duration="0.010422" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1051" name="TruncatedStreamIsNotReportedAsSuccess" fullname="GiftCompanion.Tests.DeepSeekApiTests.TruncatedStreamIsNotReportedAsSuccess" methodname="TruncatedStreamIsNotReportedAsSuccess" classname="GiftCompanion.Tests.DeepSeekApiTests" runstate="Runnable" seed="976813668" result="Passed" start-time="2026-10-18 10:41:42Z" end-time="2026-10-18 10:41:42Z" duration="0.002128" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1053" name="DialoguePipelineTests" fullname="GiftCompanion.Tests.DialoguePipelineTests" classname="GiftCompanion.Tests.DialoguePipelineTests" runstate="Runnable" testcasecount="7" result="Passed" start-time="2026-10-18 10:41:42Z" end-time="2026-10-18 10:41:43Z" duration="1.644465" total="7" passed="7" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1061" name="ConfiguredTimeoutIsDistinctFromCallerCancellation" fullname="GiftCompanion.Tests.DialoguePipelineTests.ConfiguredTimeoutIsDistinctFromCallerCancellation" methodname="ConfiguredTimeoutIsDistinctFromCallerCancellation" classname="GiftCompanion.Tests.DialoguePipelineTests" runstate="Runnable" seed="1486650104" result="Passed" start-time="2026-10-18 10:41:42Z" end-time="2026-10-18 10:41:43Z" duration="1.363069" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-suite type="ParameterizedMethod" id="1058" name="HttpFailureMapsToSafeCodeWithoutCommittingState" fullname="GiftCompanion.Tests.DialoguePipelineTests.HttpFailureMapsToSafeCodeWithoutCommittingState" classname="GiftCompanion.Tests.DialoguePipelineTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-10-18 10:41:43Z" end-time="2026-10-18 10:41:43Z" duration="0.004598" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1055" name="HttpFailureMapsToSafeCodeWithoutCommittingState(401,&quot;Unauthorized&quot;)" fullname="GiftCompanion.Tests.DialoguePipelineTests.HttpFailureMapsToSafeCodeWithoutCommittingState(401,&quot;Unauthorized&quot;)" methodname="HttpFailureMapsToSafeCodeWithoutCommittingState" classname="GiftCompanion.Tests.DialoguePipelineTests" runstate="Runnable" seed="406490261" result="Passed" start-time="2026-10-18 10:41:43Z" end-time="2026-10-18 10:41:43Z" duration="0.002173" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1056" name="HttpFailureMapsToSafeCodeWithoutCommittingState(429,&quot;RateLimited&quot;)" fullname="GiftCompanion.Tests.DialoguePipelineTests.HttpFailureMapsToSafeCodeWithoutCommittingState(429,&quot;RateLimited&quot;)" methodname="HttpFailureMapsToSafeCodeWithoutCommittingState" classname="GiftCompanion.Tests.DialoguePipelineTests" runstate="Runnable" seed="1683396148" result="Passed" start-time="2026-10-18 10:41:43Z" end-time="2026-10-18 10:41:43Z" duration="0.000845" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1057" name="HttpFailureMapsToSafeCodeWithoutCommittingState(503,&quot;HttpError&quot;)" fullname="GiftCompanion.Tests.DialoguePipelineTests.HttpFailureMapsToSafeCodeWithoutCommittingState(503,&quot;HttpError&quot;)" methodname="HttpFailureMapsToSafeCodeWithoutCommittingState" classname="GiftCompanion.Tests.DialoguePipelineTests" runstate="Runnable" seed="1466492628" result="Passed" start-time="2026-10-18 10:41:43Z" end-time="2026-10-18 10:41:43Z" duration="0.000882" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-case id="1060" name="PauseCancelsActiveRequestRejectsDuplicatesAndAllowsNextRequest" fullname="GiftCompanion.Tests.DialoguePipelineTests.PauseCancelsActiveRequestRejectsDuplicatesAndAllowsNextRequest" methodname="PauseCancelsActiveRequestRejectsDuplicatesAndAllowsNextRequest" classname="GiftCompanion.Tests.DialoguePipelineTests" runstate="Runnable" seed="1911645108" result="Passed" start-time="2026-10-18 10:41:43Z" end-time="2026-10-18 10:41:43Z" duration="0.260518" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1054" name="SharedCoreStreamsTextAndCommitsOnlyCompleteReply" fullname="GiftCompanion.Tests.DialoguePipelineTests.SharedCoreStreamsTextAndCommitsOnlyCompleteReply" methodname="SharedCoreStreamsTextAndCommitsOnlyCompleteReply" classname="GiftCompanion.Tests.DialoguePipelineTests" runstate="Runnable" seed="2034155001" result="Passed" start-time="2026-10-18 10:41:43Z" end-time="2026-10-18 10:41:43Z" duration="0.012437" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1059" name="TruncatedPartialReplyIsNotSuccess" fullname="GiftCompanion.Tests.DialoguePipelineTests.TruncatedPartialReplyIsNotSuccess" methodname="TruncatedPartialReplyIsNotSuccess" classname="GiftCompanion.Tests.DialoguePipelineTests" runstate="Runnable" seed="290372845" result="Passed" start-time="2026-10-18 10:41:43Z" end-time="2026-10-18 10:41:43Z" duration="0.002207" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1062" name="ExpressionDiaryTests" fullname="GiftCompanion.Tests.ExpressionDiaryTests" classname="GiftCompanion.Tests.ExpressionDiaryTests" runstate="Runnable" testcasecount="12" result="Passed" start-time="2026-10-18 10:41:43Z" end-time="2026-10-18 10:41:43Z" duration="0.070941" total="12" passed="12" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1076" name="BuiltInVoiceFallbackUpgradesAndPlayerDefinedMappingSurvives" fullname="GiftCompanion.Tests.ExpressionDiaryTests.BuiltInVoiceFallbackUpgradesAndPlayerDefinedMappingSurvives" methodname="BuiltInVoiceFallbackUpgradesAndPlayerDefinedMappingSurvives" classname="GiftCompanion.Tests.ExpressionDiaryTests" runstate="Runnable" seed="1000866932" result="Passed" start-time="2026-10-18 10:41:43Z" end-time="2026-10-18 10:41:43Z" duration="0.029568" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1068" name="CompanionHistoryShowsBoundedProtocolExamplesWithoutChangingStoredOrAgentPetBody" fullname="GiftCompanion.Tests.ExpressionDiaryTests.CompanionHistoryShowsBoundedProtocolExamplesWithoutChangingStoredOrAgentPetBody" methodname="CompanionHistoryShowsBoundedProtocolExamplesWithoutChangingStoredOrAgentPetBody" classname="GiftCompanion.Tests.ExpressionDiaryTests" runstate="Runnable" seed="1466483899" result="Passed" start-time="2026-10-18 10:41:43Z" end-time="2026-10-18 10:41:43Z" duration="0.009078" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1069" name="CompanionProtocolExamplesConsumePromptBudgetAndCannotSplitHistoryPairs" fullname="GiftCompanion.Tests.ExpressionDiaryTests.CompanionProtocolExamplesConsumePromptBudgetAndCannotSplitHistoryPairs" methodname="CompanionProtocolExamplesConsumePromptBudgetAndCannotSplitHistoryPairs" classname="GiftCompanion.Tests.ExpressionDiaryTests" runstate="Runnable" seed="1788763581" result="Passed" start-time="2026-10-18 10:41:43Z" end-time="2026-10-18 10:41:43Z" duration="0.001958" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-suite type="ParameterizedMethod" id="1075" name="InvalidParagraphProtocolCannotCreateDiary" fullname="GiftCompanion.Tests.ExpressionDiaryTests.InvalidParagraphProtocolCannotCreateDiary" classname="GiftCompanion.Tests.ExpressionDiaryTests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-10-18 10:41:43Z" end-time="2026-10-18 10:41:43Z" duration="0.011914" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1071" name="InvalidParagraphProtocolCannotCreateDiary(&quot;{\&quot;paragraphs\&quot;:[]}&quot;)" fullname="GiftCompanion.Tests.ExpressionDiaryTests.InvalidParagraphProtocolCannotCreateDiary(&quot;{\&quot;paragraphs\&quot;:[]}&quot;)" methodname="InvalidParagraphProtocolCannotCreateDiary" classname="GiftCompanion.Tests.ExpressionDiaryTests" runstate="Runnable" seed="2128580471" result="Passed" start-time="2026-10-18 10:41:43Z" end-time="2026-10-18 10:41:43Z" duration="0.008033" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1072" name="InvalidParagraphProtocolCannotCreateDiary(&quot;{\&quot;paragraphs\&quot;:[12]}&quot;)" fullname="GiftCompanion.Tests.ExpressionDiaryTests.InvalidParagraphProtocolCannotCreateDiary(&quot;{\&quot;paragraphs\&quot;:[12]}&quot;)" methodname="InvalidParagraphProtocolCannotCreateDiary" classname="GiftCompanion.Tests.ExpressionDiaryTests" runstate="Runnable" seed="1489709705" result="Passed" start-time="2026-10-18 10:41:43Z" end-time="2026-10-18 10:41:43Z" duration="0.001392" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1073" name="InvalidParagraphProtocolCannotCreateDiary(&quot;{\&quot;paragraphs\&quot;:[\&quot;\&quot;]}&quot;)" fullname="GiftCompanion.Tests.ExpressionDiaryTests.InvalidParagraphProtocolCannotCreateDiary(&quot;{\&quot;paragraphs\&quot;:[\&quot;\&quot;]}&quot;)" methodname="InvalidParagraphProtocolCannotCreateDiary" classname="GiftCompanion.Tests.ExpressionDiaryTests" runstate="Runnable" seed="1534944986" result="Passed" start-time="2026-10-18 10:41:43Z" end-time="2026-10-18 10:41:43Z" duration="0.000394" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1074" name="InvalidParagraphProtocolCannotCreateDiary(&quot;{\&quot;paragraphs\&quot;:[\&quot;&lt;META&gt;\&quot;]}&quot;)" fullname="GiftCompanion.Tests.ExpressionDiaryTests.InvalidParagraphProtocolCannotCreateDiary(&quot;{\&quot;paragraphs\&quot;:[\&quot;&lt;META&gt;\&quot;]}&quot;)" methodname="InvalidParagraphProtocolCannotCreateDiary" classname="GiftCompanion.Tests.ExpressionDiaryTests" runstate="Runnable" seed="718434144" result="Passed" start-time="2026-10-18 10:41:43Z" end-time="2026-10-18 10:41:43Z" duration="0.000604" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-case id="1070" name="LongStructuredAndLegacyDiariesAreSplitWithoutRewritingContentOrBreakingSurrogates" fullname="GiftCompanion.Tests.ExpressionDiaryTests.LongStructuredAndLegacyDiariesAreSplitWithoutRewritingContentOrBreakingSurrogates" methodname="LongStructuredAndLegacyDiariesAreSplitWithoutRewritingContentOrBreakingSurrogates" classname="GiftCompanion.Tests.ExpressionDiaryTests" runstate="Runnable" seed="216763822" result="Passed" start-time="2026-10-18 10:41:43Z" end-time="2026-10-18 10:41:43Z" duration="0.008443" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-suite type="ParameterizedMethod" id="1067" name="VoiceIntentSurvivesEveryStreamSplitWithoutExpandingPersistentMood" fullname="GiftCompanion.Tests.ExpressionDiaryTests.VoiceIntentSurvivesEveryStreamSplitWithoutExpandingPersistentMood" classname="GiftCompanion.Tests.ExpressionDiaryTests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-10-18 10:41:43Z" end-time="2026-10-18 10:41:43Z" duration="0.008287" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1063" name="VoiceIntentSurvivesEveryStreamSplitWithoutExpandingPersistentMood(&quot;annoyed&quot;)" fullname="GiftCompanion.Tests.ExpressionDiaryTests.VoiceIntentSurvivesEveryStreamSplitWithoutExpandingPersistentMood(&quot;annoyed&quot;)" methodname="VoiceIntentSurvivesEveryStreamSplitWithoutExpandingPersistentMood" classname="GiftCompanion.Tests.ExpressionDiaryTests" runstate="Runnable" seed="1326127018" result="Passed" start-time="2026-10-18 10:41:43Z" end-time="2026-10-18 10:41:43Z" duration="0.001143" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1064" name="VoiceIntentSurvivesEveryStreamSplitWithoutExpandingPersistentMood(&quot;sad&quot;)" fullname="GiftCompanion.Tests.ExpressionDiaryTests.VoiceIntentSurvivesEveryStreamSplitWithoutExpandingPersistentMood(&quot;sad&quot;)" methodname="VoiceIntentSurvivesEveryStreamSplitWithoutExpandingPersistentMood" classname="GiftCompanion.Tests.ExpressionDiaryTests" runstate="Runnable" seed="810165414" result="Passed" start-time="2026-10-18 10:41:43Z" end-time="2026-10-18 10:41:43Z" duration="0.001017" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1065" name="VoiceIntentSurvivesEveryStreamSplitWithoutExpandingPersistentMood(&quot;hesitant&quot;)" fullname="GiftCompanion.Tests.ExpressionDiaryTests.VoiceIntentSurvivesEveryStreamSplitWithoutExpandingPersistentMood(&quot;hesitant&quot;)" methodname="VoiceIntentSurvivesEveryStreamSplitWithoutExpandingPersistentMood" classname="GiftCompanion.Tests.ExpressionDiaryTests" runstate="Runnable" seed="1172181236" result="Passed" start-time="2026-10-18 10:41:43Z" end-time="2026-10-18 10:41:43Z" duration="0.004322" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1066" name="VoiceIntentSurvivesEveryStreamSplitWithoutExpandingPersistentMood(&quot;flat&quot;)" fullname="GiftCompanion.Tests.ExpressionDiaryTests.VoiceIntentSurvivesEveryStreamSplitWithoutExpandingPersistentMood(&quot;flat&quot;)" methodname="VoiceIntentSurvivesEveryStreamSplitWithoutExpandingPersistentMood" classname="GiftCompanion.Tests.ExpressionDiaryTests" runstate="Runnable" seed="1137576543" result="Passed" start-time="2026-10-18 10:41:43Z" end-time="2026-10-18 10:41:43Z" duration="0.000832" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+          </test-suite>
+          <test-suite type="TestFixture" id="1077" name="FoundationTests" fullname="GiftCompanion.Tests.FoundationTests" classname="GiftCompanion.Tests.FoundationTests" runstate="Runnable" testcasecount="5" result="Passed" start-time="2026-10-18 10:41:43Z" end-time="2026-10-18 10:41:44Z" duration="0.500670" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1081" name="MigrationFailureRollsBackVersionAndBacksUpExistingDatabase" fullname="GiftCompanion.Tests.FoundationTests.MigrationFailureRollsBackVersionAndBacksUpExistingDatabase" methodname="MigrationFailureRollsBackVersionAndBacksUpExistingDatabase" classname="GiftCompanion.Tests.FoundationTests" runstate="Runnable" seed="290339527" result="Passed" start-time="2026-10-18 10:41:43Z" end-time="2026-10-18 10:41:43Z" duration="0.027003" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1082" name="NewerSchemaCorruptionAndUnwritablePathFailWithoutRamFallback" fullname="GiftCompanion.Tests.FoundationTests.NewerSchemaCorruptionAndUnwritablePathFailWithoutRamFallback" methodname="NewerSchemaCorruptionAndUnwritablePathFailWithoutRamFallback" classname="GiftCompanion.Tests.FoundationTests" runstate="Runnable" seed="2127266648" result="Passed" start-time="2026-10-18 10:41:43Z" end-time="2026-10-18 10:41:43Z" duration="0.064472" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1079" name="SettingsPersistAndCorruptOriginalSurvivesDefaultFallbackAndSave" fullname="GiftCompanion.Tests.FoundationTests.SettingsPersistAndCorruptOriginalSurvivesDefaultFallbackAndSave" methodname="SettingsPersistAndCorruptOriginalSurvivesDefaultFallbackAndSave" classname="GiftCompanion.Tests.FoundationTests" runstate="Runnable" seed="1600476476" result="Passed" start-time="2026-10-18 10:41:43Z" end-time="2026-10-18 10:41:43Z" duration="0.054339" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1080" name="StatePersistsDetachedAcrossReopenAndCanceledWriteDoesNotReplaceIt" fullname="GiftCompanion.Tests.FoundationTests.StatePersistsDetachedAcrossReopenAndCanceledWriteDoesNotReplaceIt" methodname="StatePersistsDetachedAcrossReopenAndCanceledWriteDoesNotReplaceIt" classname="GiftCompanion.Tests.FoundationTests" runstate="Runnable" seed="1316430197" result="Passed" start-time="2026-10-18 10:41:43Z" end-time="2026-10-18 10:41:44Z" duration="0.350812" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1078" name="ValidationPathsAreIsolatedAndOrdinaryPlayerStartupIgnoresOverrides" fullname="GiftCompanion.Tests.FoundationTests.ValidationPathsAreIsolatedAndOrdinaryPlayerStartupIgnoresOverrides" methodname="ValidationPathsAreIsolatedAndOrdinaryPlayerStartupIgnoresOverrides" classname="GiftCompanion.Tests.FoundationTests" runstate="Runnable" seed="640874496" result="Passed" start-time="2026-10-18 10:41:44Z" end-time="2026-10-18 10:41:44Z" duration="0.002582" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1083" name="MemoryExtractionTests" fullname="GiftCompanion.Tests.MemoryExtractionTests" classname="GiftCompanion.Tests.MemoryExtractionTests" runstate="Runnable" testcasecount="5" result="Passed" start-time="2026-10-18 10:41:44Z" end-time="2026-10-18 10:41:47Z" duration="3.405716" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1088" name="BackgroundFailureIsRetryableAndForegroundCancelsOnlyTheBackgroundJob" fullname="GiftCompanion.Tests.MemoryExtractionTests.BackgroundFailureIsRetryableAndForegroundCancelsOnlyTheBackgroundJob" methodname="BackgroundFailureIsRetryableAndForegroundCancelsOnlyTheBackgroundJob" classname="GiftCompanion.Tests.MemoryExtractionTests" runstate="Runnable" seed="580259629" result="Passed" start-time="2026-10-18 10:41:44Z" end-time="2026-10-18 10:41:45Z" duration="0.815793" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1087" name="CaseSensitiveFactValueChangeCreatesANewActiveVersion" fullname="GiftCompanion.Tests.MemoryExtractionTests.CaseSensitiveFactValueChangeCreatesANewActiveVersion" methodname="CaseSensitiveFactValueChangeCreatesANewActiveVersion" classname="GiftCompanion.Tests.MemoryExtractionTests" runstate="Runnable" seed="1556535945" result="Passed" start-time="2026-10-18 10:41:45Z" end-time="2026-10-18 10:41:45Z" duration="0.653137" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1085" name="DuplicateFactsAreLinkedAndCorrectionsRetainHistoryWithOneActiveValue" fullname="GiftCompanion.Tests.MemoryExtractionTests.DuplicateFactsAreLinkedAndCorrectionsRetainHistoryWithOneActiveValue" methodname="DuplicateFactsAreLinkedAndCorrectionsRetainHistoryWithOneActiveValue" classname="GiftCompanion.Tests.MemoryExtractionTests" runstate="Runnable" seed="1445635753" result="Passed" start-time="2026-10-18 10:41:45Z" end-time="2026-10-18 10:41:46Z" duration="0.999254" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1084" name="ExtractorRejectsUnsupportedEvidenceAssistantSourceAndUnknownLoopIds" fullname="GiftCompanion.Tests.MemoryExtractionTests.ExtractorRejectsUnsupportedEvidenceAssistantSourceAndUnknownLoopIds" methodname="ExtractorRejectsUnsupportedEvidenceAssistantSourceAndUnknownLoopIds" classname="GiftCompanion.Tests.MemoryExtractionTests" runstate="Runnable" seed="1454228113" result="Passed" start-time="2026-10-18 10:41:46Z" end-time="2026-10-18 10:41:47Z" duration="0.250178" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1086" name="OpenLoopRequiresAnExistingCandidateToResolve" fullname="GiftCompanion.Tests.MemoryExtractionTests.OpenLoopRequiresAnExistingCandidateToResolve" methodname="OpenLoopRequiresAnExistingCandidateToResolve" classname="GiftCompanion.Tests.MemoryExtractionTests" runstate="Runnable" seed="1026077449" result="Passed" start-time="2026-10-18 10:41:47Z" end-time="2026-10-18 10:41:47Z" duration="0.684420" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1089" name="MemoryLifecycleTests" fullname="GiftCompanion.Tests.MemoryLifecycleTests" classname="GiftCompanion.Tests.MemoryLifecycleTests" runstate="Runnable" testcasecount="9" result="Passed" start-time="2026-10-18 10:41:47Z" end-time="2026-10-18 10:41:55Z" duration="7.997004" total="9" passed="9" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1094" name="ClosingModeDoesNotWaitForSummaryAndCanceledSummaryRecoversAsPending" fullname="GiftCompanion.Tests.MemoryLifecycleTests.ClosingModeDoesNotWaitForSummaryAndCanceledSummaryRecoversAsPending" methodname="ClosingModeDoesNotWaitForSummaryAndCanceledSummaryRecoversAsPending" classname="GiftCompanion.Tests.MemoryLifecycleTests" runstate="Runnable" seed="1566935577" result="Passed" start-time="2026-10-18 10:41:47Z" end-time="2026-10-18 10:41:48Z" duration="0.865981" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1096" name="CoreForgetCancelsForegroundBeforeMutationAndAllowsNextRequest" fullname="GiftCompanion.Tests.MemoryLifecycleTests.CoreForgetCancelsForegroundBeforeMutationAndAllowsNextRequest" methodname="CoreForgetCancelsForegroundBeforeMutationAndAllowsNextRequest" classname="GiftCompanion.Tests.MemoryLifecycleTests" runstate="Runnable" seed="1106234365" result="Passed" start-time="2026-10-18 10:41:48Z" end-time="2026-10-18 10:41:49Z" duration="1.153247" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1093" name="CorrectionInvalidatesOldAssistantRepetitionAndInFlightSummary" fullname="GiftCompanion.Tests.MemoryLifecycleTests.CorrectionInvalidatesOldAssistantRepetitionAndInFlightSummary" methodname="CorrectionInvalidatesOldAssistantRepetitionAndInFlightSummary" classname="GiftCompanion.Tests.MemoryLifecycleTests" runstate="Runnable" seed="647497987" result="Passed" start-time="2026-10-18 10:41:49Z" end-time="2026-10-18 10:41:50Z" duration="0.954408" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1091" name="ForgetExcludesDependentRepliesSummariesAndOldTasksButKeepsIndependentFactAndRawHistory" fullname="GiftCompanion.Tests.MemoryLifecycleTests.ForgetExcludesDependentRepliesSummariesAndOldTasksButKeepsIndependentFactAndRawHistory" methodname="ForgetExcludesDependentRepliesSummariesAndOldTasksButKeepsIndependentFactAndRawHistory" classname="GiftCompanion.Tests.MemoryLifecycleTests" runstate="Runnable" seed="322094083" result="Passed" start-time="2026-10-18 10:41:50Z" end-time="2026-10-18 10:41:51Z" duration="0.970775" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1092" name="ForgetPendingTurnAndRestartCannotReviveItButANewStatementCanBeRemembered" fullname="GiftCompanion.Tests.MemoryLifecycleTests.ForgetPendingTurnAndRestartCannotReviveItButANewStatementCanBeRemembered" methodname="ForgetPendingTurnAndRestartCannotReviveItButANewStatementCanBeRemembered" classname="GiftCompanion.Tests.MemoryLifecycleTests" runstate="Runnable" seed="1747882651" result="Passed" start-time="2026-10-18 10:41:51Z" end-time="2026-10-18 10:41:52Z" duration="0.882196" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1098" name="IndependentFactReplySurvivesRepeatedExclusionPropagationAndCanLaterBeForgotten" fullname="GiftCompanion.Tests.MemoryLifecycleTests.IndependentFactReplySurvivesRepeatedExclusionPropagationAndCanLaterBeForgotten" methodname="IndependentFactReplySurvivesRepeatedExclusionPropagationAndCanLaterBeForgotten" classname="GiftCompanion.Tests.MemoryLifecycleTests" runstate="Runnable" seed="1798575290" result="Passed" start-time="2026-10-18 10:41:52Z" end-time="2026-10-18 10:41:53Z" duration="0.802028" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1095" name="SummaryRejectsExtraFieldsOversizedTextAndMalformedJson" fullname="GiftCompanion.Tests.MemoryLifecycleTests.SummaryRejectsExtraFieldsOversizedTextAndMalformedJson" methodname="SummaryRejectsExtraFieldsOversizedTextAndMalformedJson" classname="GiftCompanion.Tests.MemoryLifecycleTests" runstate="Runnable" seed="922038603" result="Passed" start-time="2026-10-18 10:41:53Z" end-time="2026-10-18 10:41:53Z" duration="0.099153" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1090" name="SummaryThresholdAndExitRetainRawTextAndProvenanceAcrossReopen" fullname="GiftCompanion.Tests.MemoryLifecycleTests.SummaryThresholdAndExitRetainRawTextAndProvenanceAcrossReopen" methodname="SummaryThresholdAndExitRetainRawTextAndProvenanceAcrossReopen" classname="GiftCompanion.Tests.MemoryLifecycleTests" runstate="Runnable" seed="1356969845" result="Passed" start-time="2026-10-18 10:41:53Z" end-time="2026-10-18 10:41:55Z" duration="1.769830" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1097" name="V4UpgradeRetainsFactsAndRawMessagesAndCreatesNativeV4Backup" fullname="GiftCompanion.Tests.MemoryLifecycleTests.V4UpgradeRetainsFactsAndRawMessagesAndCreatesNativeV4Backup" methodname="V4UpgradeRetainsFactsAndRawMessagesAndCreatesNativeV4Backup" classname="GiftCompanion.Tests.MemoryLifecycleTests" runstate="Runnable" seed="424126709" result="Passed" start-time="2026-10-18 10:41:55Z" end-time="2026-10-18 10:41:55Z" duration="0.497288" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1099" name="MemoryRetrievalTests" fullname="GiftCompanion.Tests.MemoryRetrievalTests" classname="GiftCompanion.Tests.MemoryRetrievalTests" runstate="Runnable" testcasecount="6" result="Passed" start-time="2026-10-18 10:41:55Z" end-time="2026-10-18 10:42:01Z" duration="5.512925" total="6" passed="6" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1105" name="ContextRevisionChangeRejectsAStaleReplyWithoutPartialCommit" fullname="GiftCompanion.Tests.MemoryRetrievalTests.ContextRevisionChangeRejectsAStaleReplyWithoutPartialCommit" methodname="ContextRevisionChangeRejectsAStaleReplyWithoutPartialCommit" classname="GiftCompanion.Tests.MemoryRetrievalTests" runstate="Runnable" seed="508091190" result="Passed" start-time="2026-10-18 10:41:55Z" end-time="2026-10-18 10:41:56Z" duration="0.747772" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1101" name="LongTermEventIsRetrievedAfterItLeavesRecentContextAndAcrossReopen" fullname="GiftCompanion.Tests.MemoryRetrievalTests.LongTermEventIsRetrievedAfterItLeavesRecentContextAndAcrossReopen" methodname="LongTermEventIsRetrievedAfterItLeavesRecentContextAndAcrossReopen" classname="GiftCompanion.Tests.MemoryRetrievalTests" runstate="Runnable" seed="901045559" result="Passed" start-time="2026-10-18 10:41:56Z" end-time="2026-10-18 10:41:57Z" duration="1.352095" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1100" name="NativeFtsFindsNaturalChineseJapaneseAndSingleCharacterWithoutQueryInjection" fullname="GiftCompanion.Tests.MemoryRetrievalTests.NativeFtsFindsNaturalChineseJapaneseAndSingleCharacterWithoutQueryInjection" methodname="NativeFtsFindsNaturalChineseJapaneseAndSingleCharacterWithoutQueryInjection" classname="GiftCompanion.Tests.MemoryRetrievalTests" runstate="Runnable" seed="1052818711" result="Passed" start-time="2026-10-18 10:41:57Z" end-time="2026-10-18 10:41:59Z" duration="1.205288" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1103" name="PromptBudgetPreservesIdentityRolesAndOneCurrentMessage" fullname="GiftCompanion.Tests.MemoryRetrievalTests.PromptBudgetPreservesIdentityRolesAndOneCurrentMessage" methodname="PromptBudgetPreservesIdentityRolesAndOneCurrentMessage" classname="GiftCompanion.Tests.MemoryRetrievalTests" runstate="Runnable" seed="937202694" result="Passed" start-time="2026-10-18 10:41:59Z" end-time="2026-10-18 10:41:59Z" duration="0.148902" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1102" name="RankingUsesImportanceWhenRelevanceMatchesAndInactiveFactsLeaveSearch" fullname="GiftCompanion.Tests.MemoryRetrievalTests.RankingUsesImportanceWhenRelevanceMatchesAndInactiveFactsLeaveSearch" methodname="RankingUsesImportanceWhenRelevanceMatchesAndInactiveFactsLeaveSearch" classname="GiftCompanion.Tests.MemoryRetrievalTests" runstate="Runnable" seed="1980154532" result="Passed" start-time="2026-10-18 10:41:59Z" end-time="2026-10-18 10:42:00Z" duration="1.023315" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1104" name="SharedCoreKeepsUnextractedRecentTurnAfterSwitchAndPassesActualContextToLlm" fullname="GiftCompanion.Tests.MemoryRetrievalTests.SharedCoreKeepsUnextractedRecentTurnAfterSwitchAndPassesActualContextToLlm" methodname="SharedCoreKeepsUnextractedRecentTurnAfterSwitchAndPassesActualContextToLlm" classname="GiftCompanion.Tests.MemoryRetrievalTests" runstate="Runnable" seed="1254072022" result="Passed" start-time="2026-10-18 10:42:00Z" end-time="2026-10-18 10:42:01Z" duration="1.034033" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1106" name="MemoryTransportTests" fullname="GiftCompanion.Tests.MemoryTransportTests" classname="GiftCompanion.Tests.MemoryTransportTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-10-18 10:42:01Z" end-time="2026-10-18 10:42:01Z" duration="0.011988" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1107" name="JsonTransportUsesLowBudgetAndRejectsDeclaredTruncation" fullname="GiftCompanion.Tests.MemoryTransportTests.JsonTransportUsesLowBudgetAndRejectsDeclaredTruncation" methodname="JsonTransportUsesLowBudgetAndRejectsDeclaredTruncation" classname="GiftCompanion.Tests.MemoryTransportTests" runstate="Runnable" seed="932437839" result="Passed" start-time="2026-10-18 10:42:01Z" end-time="2026-10-18 10:42:01Z" duration="0.008757" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1108" name="StreamingRequestRetainsHistoryRolesAndRejectsLengthFinish" fullname="GiftCompanion.Tests.MemoryTransportTests.StreamingRequestRetainsHistoryRolesAndRejectsLengthFinish" methodname="StreamingRequestRetainsHistoryRolesAndRejectsLengthFinish" classname="GiftCompanion.Tests.MemoryTransportTests" runstate="Runnable" seed="541615982" result="Passed" start-time="2026-10-18 10:42:01Z" end-time="2026-10-18 10:42:01Z" duration="0.002303" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1109" name="PetSettingsTests" fullname="GiftCompanion.Tests.PetSettingsTests" classname="GiftCompanion.Tests.PetSettingsTests" runstate="Runnable" testcasecount="10" result="Passed" start-time="2026-10-18 10:42:01Z" end-time="2026-10-18 10:42:01Z" duration="0.019863" total="10" passed="10" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1119" name="DragOverridesAnAlreadyStartedHeadPatAndCancellationCannotClick" fullname="GiftCompanion.Tests.PetSettingsTests.DragOverridesAnAlreadyStartedHeadPatAndCancellationCannotClick" methodname="DragOverridesAnAlreadyStartedHeadPatAndCancellationCannotClick" classname="GiftCompanion.Tests.PetSettingsTests" runstate="Runnable" seed="280017255" result="Passed" start-time="2026-10-18 10:42:01Z" end-time="2026-10-18 10:42:01Z" duration="0.000820" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-suite type="ParameterizedMethod" id="1118" name="HotkeyRequiresAnExplicitSupportedNonReservedCombination" fullname="GiftCompanion.Tests.PetSettingsTests.HotkeyRequiresAnExplicitSupportedNonReservedCombination" classname="GiftCompanion.Tests.PetSettingsTests" runstate="Runnable" testcasecount="8" result="Passed" start-time="2026-10-18 10:42:01Z" end-time="2026-10-18 10:42:01Z" duration="0.002284" total="8" passed="8" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1110" name="HotkeyRequiresAnExplicitSupportedNonReservedCombination(&quot;Ctrl+Alt+Space&quot;,True)" fullname="GiftCompanion.Tests.PetSettingsTests.HotkeyRequiresAnExplicitSupportedNonReservedCombination(&quot;Ctrl+Alt+Space&quot;,True)" methodname="HotkeyRequiresAnExplicitSupportedNonReservedCombination" classname="GiftCompanion.Tests.PetSettingsTests" runstate="Runnable" seed="1822255209" result="Passed" start-time="2026-10-18 10:42:01Z" end-time="2026-10-18 10:42:01Z" duration="0.000798" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1111" name="HotkeyRequiresAnExplicitSupportedNonReservedCombination(&quot;alt+shift+M&quot;,True)" fullname="GiftCompanion.Tests.PetSettingsTests.HotkeyRequiresAnExplicitSupportedNonReservedCombination(&quot;alt+shift+M&quot;,True)" methodname="HotkeyRequiresAnExplicitSupportedNonReservedCombination" classname="GiftCompanion.Tests.PetSettingsTests" runstate="Runnable" seed="215765431" result="Passed" start-time="2026-10-18 10:42:01Z" end-time="2026-10-18 10:42:01Z" duration="0.000124" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1112" name="HotkeyRequiresAnExplicitSupportedNonReservedCombination(&quot;Ctrl+F11&quot;,True)" fullname="GiftCompanion.Tests.PetSettingsTests.HotkeyRequiresAnExplicitSupportedNonReservedCombination(&quot;Ctrl+F11&quot;,True)" methodname="HotkeyRequiresAnExplicitSupportedNonReservedCombination" classname="GiftCompanion.Tests.PetSettingsTests" runstate="Runnable" seed="1306687184" result="Passed" start-time="2026-10-18 10:42:01Z" end-time="2026-10-18 10:42:01Z" duration="0.000058" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1113" name="HotkeyRequiresAnExplicitSupportedNonReservedCombination(&quot;Alt+Space&quot;,False)" fullname="GiftCompanion.Tests.PetSettingsTests.HotkeyRequiresAnExplicitSupportedNonReservedCombination(&quot;Alt+Space&quot;,False)" methodname="HotkeyRequiresAnExplicitSupportedNonReservedCombination" classname="GiftCompanion.Tests.PetSettingsTests" runstate="Runnable" seed="639891102" result="Passed" start-time="2026-10-18 10:42:01Z" end-time="2026-10-18 10:42:01Z" duration="0.000041" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1114" name="HotkeyRequiresAnExplicitSupportedNonReservedCombination(&quot;F12&quot;,False)" fullname="GiftCompanion.Tests.PetSettingsTests.HotkeyRequiresAnExplicitSupportedNonReservedCombination(&quot;F12&quot;,False)" methodname="HotkeyRequiresAnExplicitSupportedNonReservedCombination" classname="GiftCompanion.Tests.PetSettingsTests" runstate="Runnable" seed="399992176" result="Passed" start-time="2026-10-18 10:42:01Z" end-time="2026-10-18 10:42:01Z" duration="0.000036" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1115" name="HotkeyRequiresAnExplicitSupportedNonReservedCombination(&quot;Ctrl+Ctrl+M&quot;,False)" fullname="GiftCompanion.Tests.PetSettingsTests.HotkeyRequiresAnExplicitSupportedNonReservedCombination(&quot;Ctrl+Ctrl+M&quot;,False)" methodname="HotkeyRequiresAnExplicitSupportedNonReservedCombination" classname="GiftCompanion.Tests.PetSettingsTests" runstate="Runnable" seed="1369115533" result="Passed" start-time="2026-10-18 10:42:01Z" end-time="2026-10-18 10:42:01Z" duration="0.000043" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1116" name="HotkeyRequiresAnExplicitSupportedNonReservedCombination(&quot;Win+M&quot;,False)" fullname="GiftCompanion.Tests.PetSettingsTests.HotkeyRequiresAnExplicitSupportedNonReservedCombination(&quot;Win+M&quot;,False)" methodname="HotkeyRequiresAnExplicitSupportedNonReservedCombination" classname="GiftCompanion.Tests.PetSettingsTests" runstate="Runnable" seed="599211630" result="Passed" start-time="2026-10-18 10:42:01Z" end-time="2026-10-18 10:42:01Z" duration="0.000047" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1117" name="HotkeyRequiresAnExplicitSupportedNonReservedCombination(&quot;Shift+M&quot;,False)" fullname="GiftCompanion.Tests.PetSettingsTests.HotkeyRequiresAnExplicitSupportedNonReservedCombination(&quot;Shift+M&quot;,False)" methodname="HotkeyRequiresAnExplicitSupportedNonReservedCombination" classname="GiftCompanion.Tests.PetSettingsTests" runstate="Runnable" seed="883142125" result="Passed" start-time="2026-10-18 10:42:01Z" end-time="2026-10-18 10:42:01Z" duration="0.000040" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-case id="1120" name="PetConfigurationRoundTripsAndInvalidFileIsPreserved" fullname="GiftCompanion.Tests.PetSettingsTests.PetConfigurationRoundTripsAndInvalidFileIsPreserved" methodname="PetConfigurationRoundTripsAndInvalidFileIsPreserved" classname="GiftCompanion.Tests.PetSettingsTests" runstate="Runnable" seed="216757947" result="Passed" start-time="2026-10-18 10:42:01Z" end-time="2026-10-18 10:42:01Z" duration="0.015661" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1121" name="PlayerFilesTests" fullname="GiftCompanion.Tests.PlayerFilesTests" classname="GiftCompanion.Tests.PlayerFilesTests" runstate="Runnable" testcasecount="5" result="Passed" start-time="2026-10-18 10:42:01Z" end-time="2026-10-18 10:42:01Z" duration="0.358770" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1124" name="ConcurrentImportsKeepEveryEntryAndUnchangedSelectionsDoNotRewriteDamagedFiles" fullname="GiftCompanion.Tests.PlayerFilesTests.ConcurrentImportsKeepEveryEntryAndUnchangedSelectionsDoNotRewriteDamagedFiles" methodname="ConcurrentImportsKeepEveryEntryAndUnchangedSelectionsDoNotRewriteDamagedFiles" classname="GiftCompanion.Tests.PlayerFilesTests" runstate="Runnable" seed="1773472590" result="Passed" start-time="2026-10-18 10:42:01Z" end-time="2026-10-18 10:42:01Z" duration="0.103120" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1122" name="InterruptedFileProviderCommitRecoversOnlyAnIntactChecksummedDocument" fullname="GiftCompanion.Tests.PlayerFilesTests.InterruptedFileProviderCommitRecoversOnlyAnIntactChecksummedDocument" methodname="InterruptedFileProviderCommitRecoversOnlyAnIntactChecksummedDocument" classname="GiftCompanion.Tests.PlayerFilesTests" runstate="Runnable" seed="1179976904" result="Passed" start-time="2026-10-18 10:42:01Z" end-time="2026-10-18 10:42:01Z" duration="0.018755" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1125" name="MusicCatalogUsesRelativeFilesAndManualSelectionPersistsAndInvalidFileIsPreserved" fullname="GiftCompanion.Tests.PlayerFilesTests.MusicCatalogUsesRelativeFilesAndManualSelectionPersistsAndInvalidFileIsPreserved" methodname="MusicCatalogUsesRelativeFilesAndManualSelectionPersistsAndInvalidFileIsPreserved" classname="GiftCompanion.Tests.PlayerFilesTests" runstate="Runnable" seed="191949771" result="Passed" start-time="2026-10-18 10:42:01Z" end-time="2026-10-18 10:42:01Z" duration="0.081197" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1123" name="PlayerCardSavesAndReloadsWithoutChangingCharacterIdAndKeepsBackup" fullname="GiftCompanion.Tests.PlayerFilesTests.PlayerCardSavesAndReloadsWithoutChangingCharacterIdAndKeepsBackup" methodname="PlayerCardSavesAndReloadsWithoutChangingCharacterIdAndKeepsBackup" classname="GiftCompanion.Tests.PlayerFilesTests" runstate="Runnable" seed="1399888903" result="Passed" start-time="2026-10-18 10:42:01Z" end-time="2026-10-18 10:42:01Z" duration="0.009919" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1126" name="SpaceImportCopiesOnlyResourcePackageAndRejectsEscapingOrMissingPages" fullname="GiftCompanion.Tests.PlayerFilesTests.SpaceImportCopiesOnlyResourcePackageAndRejectsEscapingOrMissingPages" methodname="SpaceImportCopiesOnlyResourcePackageAndRejectsEscapingOrMissingPages" classname="GiftCompanion.Tests.PlayerFilesTests" runstate="Runnable" seed="418321369" result="Passed" start-time="2026-10-18 10:42:01Z" end-time="2026-10-18 10:42:01Z" duration="0.144378" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1127" name="RelationshipDiaryTests" fullname="GiftCompanion.Tests.RelationshipDiaryTests" classname="GiftCompanion.Tests.RelationshipDiaryTests" runstate="Runnable" testcasecount="6" result="Passed" start-time="2026-10-18 10:42:01Z" end-time="2026-10-18 10:42:08Z" duration="7.013899" total="6" passed="6" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1128" name="DiaryUsesTheSharedHttpTransportWithItsLargerBoundedOutputBudget" fullname="GiftCompanion.Tests.RelationshipDiaryTests.DiaryUsesTheSharedHttpTransportWithItsLargerBoundedOutputBudget" methodname="DiaryUsesTheSharedHttpTransportWithItsLargerBoundedOutputBudget" classname="GiftCompanion.Tests.RelationshipDiaryTests" runstate="Runnable" seed="1697600248" result="Passed" start-time="2026-10-18 10:42:01Z" end-time="2026-10-18 10:42:01Z" duration="0.287464" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1129" name="EntireHistoryIsPagedExportedAndReusedAndForgettingRedactsDerivedFiles" fullname="GiftCompanion.Tests.RelationshipDiaryTests.EntireHistoryIsPagedExportedAndReusedAndForgettingRedactsDerivedFiles" methodname="EntireHistoryIsPagedExportedAndReusedAndForgettingRedactsDerivedFiles" classname="GiftCompanion.Tests.RelationshipDiaryTests" runstate="Runnable" seed="85579247" result="Passed" start-time="2026-10-18 10:42:01Z" end-time="2026-10-18 10:42:06Z" duration="5.070494" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1131" name="FailedMarkdownExportCanBeRepairedWithoutRegeneratingOrLosingDatabaseEntry" fullname="GiftCompanion.Tests.RelationshipDiaryTests.FailedMarkdownExportCanBeRepairedWithoutRegeneratingOrLosingDatabaseEntry" methodname="FailedMarkdownExportCanBeRepairedWithoutRegeneratingOrLosingDatabaseEntry" classname="GiftCompanion.Tests.RelationshipDiaryTests" runstate="Runnable" seed="472627031" result="Passed" start-time="2026-10-18 10:42:06Z" end-time="2026-10-18 10:42:07Z" duration="0.399935" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1130" name="ForgettingDuringGenerationRejectsOldResultAndCancellationLeavesNoDiary" fullname="GiftCompanion.Tests.RelationshipDiaryTests.ForgettingDuringGenerationRejectsOldResultAndCancellationLeavesNoDiary" methodname="ForgettingDuringGenerationRejectsOldResultAndCancellationLeavesNoDiary" classname="GiftCompanion.Tests.RelationshipDiaryTests" runstate="Runnable" seed="1127682707" result="Passed" start-time="2026-10-18 10:42:07Z" end-time="2026-10-18 10:42:07Z" duration="0.450864" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1132" name="KaomojiPolicyAffectsNextRequestedDiaryAndPreservesPreviouslyExportedDiary" fullname="GiftCompanion.Tests.RelationshipDiaryTests.KaomojiPolicyAffectsNextRequestedDiaryAndPreservesPreviouslyExportedDiary" methodname="KaomojiPolicyAffectsNextRequestedDiaryAndPreservesPreviouslyExportedDiary" classname="GiftCompanion.Tests.RelationshipDiaryTests" runstate="Runnable" seed="166160611" result="Passed" start-time="2026-10-18 10:42:07Z" end-time="2026-10-18 10:42:08Z" duration="0.401599" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1133" name="VersionSevenMigrationKeepsConversationsAndBacksUpBeforeAddingDiaries" fullname="GiftCompanion.Tests.RelationshipDiaryTests.VersionSevenMigrationKeepsConversationsAndBacksUpBeforeAddingDiaries" methodname="VersionSevenMigrationKeepsConversationsAndBacksUpBeforeAddingDiaries" classname="GiftCompanion.Tests.RelationshipDiaryTests" runstate="Runnable" seed="635566079" result="Passed" start-time="2026-10-18 10:42:08Z" end-time="2026-10-18 10:42:08Z" duration="0.399985" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1134" name="SpeechLocalizationTests" fullname="GiftCompanion.Tests.SpeechLocalizationTests" classname="GiftCompanion.Tests.SpeechLocalizationTests" runstate="Runnable" testcasecount="10" result="Passed" start-time="2026-10-18 10:42:08Z" end-time="2026-10-18 10:42:08Z" duration="0.058305" total="10" passed="10" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1143" name="CanceledLateTranslationDoesNotReleaseGateEarlyOrPopulateCache" fullname="GiftCompanion.Tests.SpeechLocalizationTests.CanceledLateTranslationDoesNotReleaseGateEarlyOrPopulateCache" methodname="CanceledLateTranslationDoesNotReleaseGateEarlyOrPopulateCache" classname="GiftCompanion.Tests.SpeechLocalizationTests" runstate="Runnable" seed="1966857405" result="Passed" start-time="2026-10-18 10:42:08Z" end-time="2026-10-18 10:42:08Z" duration="0.047317" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1144" name="DefaultIsJapaneseAndLanguageProfilesArePairedWithoutMutatingFileSettings" fullname="GiftCompanion.Tests.SpeechLocalizationTests.DefaultIsJapaneseAndLanguageProfilesArePairedWithoutMutatingFileSettings" methodname="DefaultIsJapaneseAndLanguageProfilesArePairedWithoutMutatingFileSettings" classname="GiftCompanion.Tests.SpeechLocalizationTests" runstate="Runnable" seed="1421291432" result="Passed" start-time="2026-10-18 10:42:08Z" end-time="2026-10-18 10:42:08Z" duration="0.000992" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1145" name="EmotionalTranslationsHaveSeparateCacheEntriesAndReceiveOnlyTextAndEmotion" fullname="GiftCompanion.Tests.SpeechLocalizationTests.EmotionalTranslationsHaveSeparateCacheEntriesAndReceiveOnlyTextAndEmotion" methodname="EmotionalTranslationsHaveSeparateCacheEntriesAndReceiveOnlyTextAndEmotion" classname="GiftCompanion.Tests.SpeechLocalizationTests" runstate="Runnable" seed="1971383910" result="Passed" start-time="2026-10-18 10:42:08Z" end-time="2026-10-18 10:42:08Z" duration="0.001767" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-suite type="ParameterizedMethod" id="1142" name="InvalidTranslationCannotReachTtsOrEnterCache" fullname="GiftCompanion.Tests.SpeechLocalizationTests.InvalidTranslationCannotReachTtsOrEnterCache" classname="GiftCompanion.Tests.SpeechLocalizationTests" runstate="Runnable" testcasecount="6" result="Passed" start-time="2026-10-18 10:42:08Z" end-time="2026-10-18 10:42:08Z" duration="0.004394" total="6" passed="6" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1136" name="InvalidTranslationCannotReachTtsOrEnterCache(&quot;{\&quot;text\&quot;:\&quot;中文回复\&quot;}&quot;)" fullname="GiftCompanion.Tests.SpeechLocalizationTests.InvalidTranslationCannotReachTtsOrEnterCache(&quot;{\&quot;text\&quot;:\&quot;中文回复\&quot;}&quot;)" methodname="InvalidTranslationCannotReachTtsOrEnterCache" classname="GiftCompanion.Tests.SpeechLocalizationTests" runstate="Runnable" seed="455602109" result="Passed" start-time="2026-10-18 10:42:08Z" end-time="2026-10-18 10:42:08Z" duration="0.002508" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1137" name="InvalidTranslationCannotReachTtsOrEnterCache(&quot;{\&quot;text\&quot;:\&quot;hello\&quot;}&quot;)" fullname="GiftCompanion.Tests.SpeechLocalizationTests.InvalidTranslationCannotReachTtsOrEnterCache(&quot;{\&quot;text\&quot;:\&quot;hello\&quot;}&quot;)" methodname="InvalidTranslationCannotReachTtsOrEnterCache" classname="GiftCompanion.Tests.SpeechLocalizationTests" runstate="Runnable" seed="1981961852" result="Passed" start-time="2026-10-18 10:42:08Z" end-time="2026-10-18 10:42:08Z" duration="0.000326" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1138" name="InvalidTranslationCannotReachTtsOrEnterCache(&quot;{\&quot;text\&quot;:\&quot;先生だよ&lt;META&gt;\&quot;}&quot;)" fullname="GiftCompanion.Tests.SpeechLocalizationTests.InvalidTranslationCannotReachTtsOrEnterCache(&quot;{\&quot;text\&quot;:\&quot;先生だよ&lt;META&gt;\&quot;}&quot;)" methodname="InvalidTranslationCannotReachTtsOrEnterCache" classname="GiftCompanion.Tests.SpeechLocalizationTests" runstate="Runnable" seed="1607320150" result="Passed" start-time="2026-10-18 10:42:08Z" end-time="2026-10-18 10:42:08Z" duration="0.000210" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1139" name="InvalidTranslationCannotReachTtsOrEnterCache(&quot;{\&quot;text\&quot;:\&quot;先生だよ\&quot;,\&quot;role\&quot;:\&quot;assistant\&quot;}&quot;)" fullname="GiftCompanion.Tests.SpeechLocalizationTests.InvalidTranslationCannotReachTtsOrEnterCache(&quot;{\&quot;text\&quot;:\&quot;先生だよ\&quot;,\&quot;role\&quot;:\&quot;assistant\&quot;}&quot;)" methodname="InvalidTranslationCannotReachTtsOrEnterCache" classname="GiftCompanion.Tests.SpeechLocalizationTests" runstate="Runnable" seed="553716539" result="Passed" start-time="2026-10-18 10:42:08Z" end-time="2026-10-18 10:42:08Z" duration="0.000214" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1140" name="InvalidTranslationCannotReachTtsOrEnterCache(&quot;{\&quot;text\&quot;:\&quot;先生だよ\&quot;,\&quot;text\&quot;:\&quot;別の言葉だよ\&quot;}&quot;)" fullname="GiftCompanion.Tests.SpeechLocalizationTests.InvalidTranslationCannotReachTtsOrEnterCache(&quot;{\&quot;text\&quot;:\&quot;先生だよ\&quot;,\&quot;text\&quot;:\&quot;別の言葉だよ\&quot;}&quot;)" methodname="InvalidTranslationCannotReachTtsOrEnterCache" classname="GiftCompanion.Tests.SpeechLocalizationTests" runstate="Runnable" seed="426014058" result="Passed" start-time="2026-10-18 10:42:08Z" end-time="2026-10-18 10:42:08Z" duration="0.000177" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1141" name="InvalidTranslationCannotReachTtsOrEnterCache(&quot;{\&quot;text\&quot;:\&quot;先生だよ\&quot;} trailing&quot;)" fullname="GiftCompanion.Tests.SpeechLocalizationTests.InvalidTranslationCannotReachTtsOrEnterCache(&quot;{\&quot;text\&quot;:\&quot;先生だよ\&quot;} trailing&quot;)" methodname="InvalidTranslationCannotReachTtsOrEnterCache" classname="GiftCompanion.Tests.SpeechLocalizationTests" runstate="Runnable" seed="1658242341" result="Passed" start-time="2026-10-18 10:42:08Z" end-time="2026-10-18 10:42:08Z" duration="0.000167" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-case id="1135" name="TranslationUsesOnlySuppliedChineseAndBoundedCacheWithoutChangingSource" fullname="GiftCompanion.Tests.SpeechLocalizationTests.TranslationUsesOnlySuppliedChineseAndBoundedCacheWithoutChangingSource" methodname="TranslationUsesOnlySuppliedChineseAndBoundedCacheWithoutChangingSource" classname="GiftCompanion.Tests.SpeechLocalizationTests" runstate="Runnable" seed="426227883" result="Passed" start-time="2026-10-18 10:42:08Z" end-time="2026-10-18 10:42:08Z" duration="0.002688" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1146" name="SqlitePhase0Tests" fullname="GiftCompanion.Tests.SqlitePhase0Tests" classname="GiftCompanion.Tests.SqlitePhase0Tests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-10-18 10:42:08Z" end-time="2026-10-18 10:42:08Z" duration="0.144364" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1148" name="ConcurrentWritesAreSerializedAndCancellationDoesNotAddAMessage" fullname="GiftCompanion.Tests.SqlitePhase0Tests.ConcurrentWritesAreSerializedAndCancellationDoesNotAddAMessage" methodname="ConcurrentWritesAreSerializedAndCancellationDoesNotAddAMessage" classname="GiftCompanion.Tests.SqlitePhase0Tests" runstate="Runnable" seed="1680800849" result="Passed" start-time="2026-10-18 10:42:08Z" end-time="2026-10-18 10:42:08Z" duration="0.129128" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1147" name="OriginalMessagesPersistAcrossReopenAndFts5SearchesThem" fullname="GiftCompanion.Tests.SqlitePhase0Tests.OriginalMessagesPersistAcrossReopenAndFts5SearchesThem" methodname="OriginalMessagesPersistAcrossReopenAndFts5SearchesThem" classname="GiftCompanion.Tests.SqlitePhase0Tests" runstate="Runnable" seed="1037730966" result="Passed" start-time="2026-10-18 10:42:08Z" end-time="2026-10-18 10:42:08Z" duration="0.014307" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1149" name="VoicePolishTests" fullname="GiftCompanion.Tests.VoicePolishTests" classname="GiftCompanion.Tests.VoicePolishTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-10-18 10:42:08Z" end-time="2026-10-18 10:42:08Z" duration="0.028658" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1151" name="BuiltInLocalizationUpgradesButCustomInstructionIsPreserved" fullname="GiftCompanion.Tests.VoicePolishTests.BuiltInLocalizationUpgradesButCustomInstructionIsPreserved" methodname="BuiltInLocalizationUpgradesButCustomInstructionIsPreserved" classname="GiftCompanion.Tests.VoicePolishTests" runstate="Runnable" seed="1419805872" result="Passed" start-time="2026-10-18 10:42:08Z" end-time="2026-10-18 10:42:08Z" duration="0.014229" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1152" name="EmotionReferenceSelectionAndBreathAreIndependentFilesAndInvalidPathsAreRejected" fullname="GiftCompanion.Tests.VoicePolishTests.EmotionReferenceSelectionAndBreathAreIndependentFilesAndInvalidPathsAreRejected" methodname="EmotionReferenceSelectionAndBreathAreIndependentFilesAndInvalidPathsAreRejected" classname="GiftCompanion.Tests.VoicePolishTests" runstate="Runnable" seed="1551689032" result="Passed" start-time="2026-10-18 10:42:08Z" end-time="2026-10-18 10:42:08Z" duration="0.002041" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1150" name="JapaneseDefaultMigrationPreservesVolumesAndLaterExplicitChineseChoice" fullname="GiftCompanion.Tests.VoicePolishTests.JapaneseDefaultMigrationPreservesVolumesAndLaterExplicitChineseChoice" methodname="JapaneseDefaultMigrationPreservesVolumesAndLaterExplicitChineseChoice" classname="GiftCompanion.Tests.VoicePolishTests" runstate="Runnable" seed="924495257" result="Passed" start-time="2026-10-18 10:42:08Z" end-time="2026-10-18 10:42:08Z" duration="0.011466" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1153" name="VoiceTests" fullname="GiftCompanion.Tests.VoiceTests" classname="GiftCompanion.Tests.VoiceTests" runstate="Runnable" testcasecount="9" result="Passed" start-time="2026-10-18 10:42:08Z" end-time="2026-10-18 10:42:11Z" duration="2.305137" total="9" passed="9" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1157" name="CacheBelongsToCommittedMessageAndMissingFileCannotAdvertiseReplay" fullname="GiftCompanion.Tests.VoiceTests.CacheBelongsToCommittedMessageAndMissingFileCannotAdvertiseReplay" methodname="CacheBelongsToCommittedMessageAndMissingFileCannotAdvertiseReplay" classname="GiftCompanion.Tests.VoiceTests" runstate="Runnable" seed="886371205" result="Passed" start-time="2026-10-18 10:42:08Z" end-time="2026-10-18 10:42:09Z" duration="0.554752" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1158" name="FailedTurnCannotOwnCacheAndRecoveryPreservesIndexedAudioAndUnknownFiles" fullname="GiftCompanion.Tests.VoiceTests.FailedTurnCannotOwnCacheAndRecoveryPreservesIndexedAudioAndUnknownFiles" methodname="FailedTurnCannotOwnCacheAndRecoveryPreservesIndexedAudioAndUnknownFiles" classname="GiftCompanion.Tests.VoiceTests" runstate="Runnable" seed="1647178528" result="Passed" start-time="2026-10-18 10:42:09Z" end-time="2026-10-18 10:42:10Z" duration="0.651365" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1161" name="InvalidInterpreterFailsWithoutLeavingAnUnstartedProcessObject" fullname="GiftCompanion.Tests.VoiceTests.InvalidInterpreterFailsWithoutLeavingAnUnstartedProcessObject" methodname="InvalidInterpreterFailsWithoutLeavingAnUnstartedProcessObject" classname="GiftCompanion.Tests.VoiceTests" runstate="Runnable" seed="911383983" result="Passed" start-time="2026-10-18 10:42:10Z" end-time="2026-10-18 10:42:10Z" duration="0.582572" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1155" name="LongUnpunctuatedUnicodeIsBoundedAndCleanupDoesNotExposeControlMarkup" fullname="GiftCompanion.Tests.VoiceTests.LongUnpunctuatedUnicodeIsBoundedAndCleanupDoesNotExposeControlMarkup" methodname="LongUnpunctuatedUnicodeIsBoundedAndCleanupDoesNotExposeControlMarkup" classname="GiftCompanion.Tests.VoiceTests" runstate="Runnable" seed="215130173" result="Passed" start-time="2026-10-18 10:42:10Z" end-time="2026-10-18 10:42:10Z" duration="0.004260" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1162" name="OccupiedPortNeverAdoptsOrStopsForeignListener" fullname="GiftCompanion.Tests.VoiceTests.OccupiedPortNeverAdoptsOrStopsForeignListener" methodname="OccupiedPortNeverAdoptsOrStopsForeignListener" classname="GiftCompanion.Tests.VoiceTests" runstate="Runnable" seed="200370764" result="Passed" start-time="2026-10-18 10:42:10Z" end-time="2026-10-18 10:42:10Z" duration="0.045844" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1154" name="SegmentsFollowSentenceBoundariesAndFlushTailAcrossArbitraryDeltas" fullname="GiftCompanion.Tests.VoiceTests.SegmentsFollowSentenceBoundariesAndFlushTailAcrossArbitraryDeltas" methodname="SegmentsFollowSentenceBoundariesAndFlushTailAcrossArbitraryDeltas" classname="GiftCompanion.Tests.VoiceTests" runstate="Runnable" seed="1530086924" result="Passed" start-time="2026-10-18 10:42:10Z" end-time="2026-10-18 10:42:10Z" duration="0.000763" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1159" name="VersionEightMigrationBacksUpAndPreservesHistoryAndDiaryTables" fullname="GiftCompanion.Tests.VoiceTests.VersionEightMigrationBacksUpAndPreservesHistoryAndDiaryTables" methodname="VersionEightMigrationBacksUpAndPreservesHistoryAndDiaryTables" classname="GiftCompanion.Tests.VoiceTests" runstate="Runnable" seed="1636880870" result="Passed" start-time="2026-10-18 10:42:10Z" end-time="2026-10-18 10:42:11Z" duration="0.451511" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1160" name="VoiceConfigurationFileIsIndependentAndInvalidOriginalIsPreserved" fullname="GiftCompanion.Tests.VoiceTests.VoiceConfigurationFileIsIndependentAndInvalidOriginalIsPreserved" methodname="VoiceConfigurationFileIsIndependentAndInvalidOriginalIsPreserved" classname="GiftCompanion.Tests.VoiceTests" runstate="Runnable" seed="1054699980" result="Passed" start-time="2026-10-18 10:42:11Z" end-time="2026-10-18 10:42:11Z" duration="0.009664" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1156" name="WaveDecoderChecksActualRiffLengthAndPcmFrames" fullname="GiftCompanion.Tests.VoiceTests.WaveDecoderChecksActualRiffLengthAndPcmFrames" methodname="WaveDecoderChecksActualRiffLengthAndPcmFrames" classname="GiftCompanion.Tests.VoiceTests" runstate="Runnable" seed="310430472" result="Passed" start-time="2026-10-18 10:42:11Z" end-time="2026-10-18 10:42:11Z" duration="0.002467" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[Saving results to: W:\Machine\VSCode\Mika_Gift\GiftCompanion\Docs\Validation\Phase5\Final3.EditMode.xml
+]]></output>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

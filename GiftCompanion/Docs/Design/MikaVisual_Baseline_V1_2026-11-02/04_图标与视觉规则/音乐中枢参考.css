@@ -1,0 +1,12 @@
+.music-hub{position:absolute;left:20px;top:14px;padding:9px 10px 12px;z-index:10;max-width:430px;color:#fff7f4;text-shadow:0 2px 6px #171529b3}
+.music-heading{display:flex;gap:13px;align-items:center;height:44px}
+.mark-icon{width:44px;height:44px;flex-shrink:0;border:1px solid #f7e9e56b;border-radius:50%;display:grid;place-items:center;background:#25274055;color:#efccdb;padding:6px}
+.mark-icon svg{width:31px;height:31px;stroke-width:1.25}.mark-icon:hover{background:#403853aa}
+.brand{font:italic 26px Georgia,serif;letter-spacing:1px;background:none;border:0;color:inherit;text-shadow:inherit;min-height:44px;text-align:left;padding:0 8px 0 0;max-width:350px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.brand:hover{transform:none}.brand.paused{opacity:.7}
+.sky-clock{position:absolute;inset:0;width:1280px;height:720px;pointer-events:none;z-index:0;overflow:hidden}.sky-clock text{font-variant-numeric:tabular-nums}
+.hub-actions{position:relative;display:flex;gap:11px;margin:6px 0 0 55px;width:max-content;padding:0;border:0;border-radius:0;background:transparent;opacity:0;visibility:hidden;pointer-events:none;transform:translateY(-4px);transition:opacity .18s,transform .18s,visibility .18s}
+.music-hub:hover .hub-actions,.music-hub:has(:focus-visible) .hub-actions,.music-hub.pinned .hub-actions,.view-controls .hub-actions{opacity:1;visibility:visible;pointer-events:auto;transform:translateY(0)}
+.hub-button{border:0;background:transparent;color:#f4e9efb3;width:44px;height:44px;display:grid;place-items:center;border-radius:0;padding:10px;filter:drop-shadow(0 1px 2px #14112699)}.hub-button:hover,.hub-button[aria-expanded=true],.hub-button:focus-visible{background:transparent;color:#fff9f2;filter:drop-shadow(0 0 5px #f5deffa6)}.hub-button svg{width:22px;height:22px}
+.volume-wrap{position:relative}.volume-popover{position:absolute;top:44px;left:-107px;display:flex;align-items:center;gap:9px;background:transparent;border:0;padding:6px 0;border-radius:0;width:181px;height:44px;opacity:0;visibility:hidden;pointer-events:none;transition:opacity .18s}
+.volume-wrap.open .volume-popover{opacity:1;visibility:visible;pointer-events:auto}.volume-popover input{width:105px;accent-color:#eac3d3;cursor:pointer}.volume-popover output{font-size:12px;min-width:32px}

@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "status": "phase3-explicit-fallbacks",
+  "emotions": {
+    "neutral": {"supported": true, "visual": "base", "fallback": "neutral"},
+    "happy": {"supported": false, "fallback": "neutral"},
+    "shy": {"supported": false, "fallback": "neutral"},
+    "concern": {"supported": false, "fallback": "neutral"},
+    "sad": {"supported": false, "fallback": "neutral"},
+    "surprised": {"supported": false, "fallback": "neutral"},
+    "annoyed": {"supported": false, "fallback": "neutral"},
+    "sleepy": {"supported": false, "fallback": "neutral"}
+  }
+}

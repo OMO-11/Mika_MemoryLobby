@@ -1,0 +1,176 @@
+{
+  "revision": 6,
+  "heldPoses": [
+    {
+      "name": "Confused",
+      "holdSeconds": 0.6119999999999998,
+      "maximumHoldBodyAngularChangeDegrees": 0.0,
+      "passed": true
+    },
+    {
+      "name": "Success",
+      "holdSeconds": 0.612,
+      "maximumHoldBodyAngularChangeDegrees": 0.0,
+      "passed": true
+    },
+    {
+      "name": "HeadClick",
+      "holdSeconds": 0.216,
+      "maximumHoldBodyAngularChangeDegrees": 0.17245846124184028,
+      "passed": true
+    },
+    {
+      "name": "BodyClick",
+      "holdSeconds": 0.5200000000000002,
+      "maximumHoldBodyAngularChangeDegrees": 0.0,
+      "passed": true
+    }
+  ],
+  "footContacts": [
+    {
+      "name": "Wave",
+      "maximumToeContactError": 0.0007070649214129546,
+      "contactToleranceMeters": 0.001,
+      "maximumHeelRiseMeters": 0.006656229496002197,
+      "minimumAnkleHeightChange": -0.0007123649120330811,
+      "passed": true
+    },
+    {
+      "name": "Success",
+      "maximumToeContactError": 1.2659907991365585e-07,
+      "contactToleranceMeters": 0.001,
+      "maximumHeelRiseMeters": 0.01127786934375763,
+      "minimumAnkleHeightChange": -9.313225746154785e-08,
+      "passed": true
+    },
+    {
+      "name": "BodyClick",
+      "maximumToeContactError": 1.3078451863108956e-07,
+      "contactToleranceMeters": 0.001,
+      "maximumHeelRiseMeters": 1.043081283569336e-07,
+      "minimumAnkleHeightChange": -9.313225746154785e-08,
+      "passed": true
+    }
+  ],
+  "confusedHeldHeadAngleDegrees": 22.692185073890776,
+  "actualSkinnedMeshFollowThrough": [
+    {
+      "name": "Wave",
+      "maximumActualMeshDisplacementMeters": {
+        "hair": 0.13241616683333002,
+        "cloth": 0.06926350310724874
+      },
+      "maximumProjectedFollowThroughPixelsAt160Canvas": {
+        "hair": 14.846043940431885,
+        "cloth": 6.94781787043975
+      }
+    },
+    {
+      "name": "Success",
+      "maximumActualMeshDisplacementMeters": {
+        "hair": 0.13919274372156837,
+        "cloth": 0.053231168951212916
+      },
+      "maximumProjectedFollowThroughPixelsAt160Canvas": {
+        "hair": 9.344820460262033,
+        "cloth": 3.8305074712920835
+      }
+    },
+    {
+      "name": "Confused",
+      "maximumActualMeshDisplacementMeters": {
+        "hair": 0.12200060553301371,
+        "cloth": 0.04987158735005899
+      },
+      "maximumProjectedFollowThroughPixelsAt160Canvas": {
+        "hair": 13.740598445049022,
+        "cloth": 5.333655472668486
+      }
+    },
+    {
+      "name": "HeadClick",
+      "maximumActualMeshDisplacementMeters": {
+        "hair": 0.13369117304716815,
+        "cloth": 0.05980833226630042
+      },
+      "maximumProjectedFollowThroughPixelsAt160Canvas": {
+        "hair": 9.986472028722094,
+        "cloth": 6.313128798864815
+      }
+    },
+    {
+      "name": "BodyClick",
+      "maximumActualMeshDisplacementMeters": {
+        "hair": 0.13370652223924678,
+        "cloth": 0.05369334583033222
+      },
+      "maximumProjectedFollowThroughPixelsAt160Canvas": {
+        "hair": 10.23304581521559,
+        "cloth": 5.051058341490668
+      }
+    },
+    {
+      "name": "Thinking",
+      "maximumActualMeshDisplacementMeters": {
+        "hair": 0.03226966271904275,
+        "cloth": 0.006864401523488376
+      },
+      "maximumProjectedFollowThroughPixelsAt160Canvas": {
+        "hair": 3.5429536021999732,
+        "cloth": 0.6629858354848993
+      }
+    },
+    {
+      "name": "Working",
+      "maximumActualMeshDisplacementMeters": {
+        "hair": 0.03835443300300144,
+        "cloth": 0.010885669545421727
+      },
+      "maximumProjectedFollowThroughPixelsAt160Canvas": {
+        "hair": 2.1520831682963744,
+        "cloth": 0.6904190340853299
+      }
+    },
+    {
+      "name": "HeadPat",
+      "maximumActualMeshDisplacementMeters": {
+        "hair": 0.05899789036397809,
+        "cloth": 0.0033981768882344783
+      },
+      "maximumProjectedFollowThroughPixelsAt160Canvas": {
+        "hair": 4.260367546737467,
+        "cloth": 0.28277642341529236
+      }
+    },
+    {
+      "name": "Sleep",
+      "maximumActualMeshDisplacementMeters": {
+        "hair": 0.07051602136078622,
+        "cloth": 0.0012724820782028944
+      },
+      "maximumProjectedFollowThroughPixelsAt160Canvas": {
+        "hair": 4.4738485691811,
+        "cloth": 0.11104599838153399
+      }
+    }
+  ],
+  "visibleSecondaryMotionThresholdPassed": true,
+  "sourceBodiesAndStaticEmotionsPreserved": true,
+  "untouchedFaceProfiles": [
+    "Idle",
+    "Walk",
+    "Thinking",
+    "Working",
+    "HeadPat",
+    "Dragging",
+    "Sleep",
+    "HeadPat_Enter",
+    "HeadPat_Exit",
+    "Dragging_Enter",
+    "Dragging_Exit",
+    "Sleep_Enter",
+    "Sleep_Exit"
+  ],
+  "passed": true,
+  "qualityIsHumanJudgment": true
+}

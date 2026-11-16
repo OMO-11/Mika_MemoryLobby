@@ -1,0 +1,2063 @@
+{
+  "schemaVersion": 1,
+  "characterId": "CHDDD",
+  "sourceCharacter": "CH0069",
+  "scope": "AgentPet-3D",
+  "date": "2026-10-11",
+  "pathBase": "workspace-root",
+  "purpose": "交接资源清单；不是当前控制器可直接反序列化的 ActionMap，也不是已经接入主程序的声明",
+  "freeze": {
+    "experimentsEndedByUser": true,
+    "artModifiedByConsolidation": false,
+    "blenderRevision": 17,
+    "latestKnownBodyRefinementRevision": 8,
+    "latestKnownSuccessFaceTimingRevision": 9,
+    "unityDeliveryRevision": 7,
+    "fullySynchronized": false,
+    "integratedInMainProgram": false,
+    "specialExpressionVersions": {
+      "Squeeze": 15,
+      "Omega": 17
+    },
+    "sourceBlendSHA256": "2c594c7c5ae4f27631bc8eea93b6f61768e94a40af5468927dd6c78a31bf3e36"
+  },
+  "counts": {
+    "bodyClips": 18,
+    "publicLogicalActions": 12,
+    "loopClips": 7,
+    "oneShotResponses": 5,
+    "enterExitClips": 6,
+    "actionFaceProfiles": 18,
+    "actionFaceBoneClips": 18,
+    "staticExpressionAssets": 9,
+    "sharedEmotionEnum": 8,
+    "specialExpressionAssets": 2,
+    "legacyNeutralTransitionExamples": 8,
+    "unity7ExportedClips": 45,
+    "sourceAnimatedClips": 33
+  },
+  "renderContract": {
+    "rig": "Generic",
+    "authoringFps": 30,
+    "rootMotion": false,
+    "weaponsVisible": false,
+    "unityVersion": "6000.3.7f1",
+    "verifiedPipeline": "Built-in",
+    "verifiedColorSpace": "Gamma",
+    "verifiedGraphicsAPI": "Direct3D11",
+    "secondaryMotion": "baked-bone-animation",
+    "frameDurationFormula": "(lastFrame-firstFrame)/fps",
+    "shapeDataRange": [
+      0,
+      1
+    ],
+    "unityBlendShapeWeightRange": [
+      0,
+      100
+    ],
+    "timeUnit": "seconds"
+  },
+  "layers": [
+    {
+      "role": "BaseAnimation",
+      "unityLayer": 0,
+      "unityName": "Body",
+      "ownsHead": true
+    },
+    {
+      "role": "Emotion",
+      "unityLayer": 1,
+      "unityName": "Emotion",
+      "ownsHead": false,
+      "requiresActionFaceProfiles": true
+    },
+    {
+      "role": "ProceduralRig",
+      "implemented": false,
+      "purpose": "鼠标 LookAt 与微小修正"
+    }
+  ],
+  "sharedEmotionAllowlist": [
+    "neutral",
+    "happy",
+    "shy",
+    "concern",
+    "sad",
+    "surprised",
+    "annoyed",
+    "sleepy"
+  ],
+  "actions": [
+    {
+      "name": "Idle",
+      "clip": "PetV2_Idle",
+      "faceClip": "PetV2_FaceProcess_Idle",
+      "shapeAction": "PetV2_Shapes_Idle",
+      "mouthAction": "PetV2_Mouth_Idle",
+      "durationSeconds": 4.0,
+      "frames": [
+        1,
+        121
+      ],
+      "loop": true,
+      "source": "Cafe source with polish",
+      "logicalAction": "Idle",
+      "enterClip": "",
+      "exitClip": "",
+      "nextAction": "",
+      "transitionSeconds": 0.28,
+      "tier": "daily",
+      "intensity": "low",
+      "recommendedFrequency": "State-driven; host owns scheduling",
+      "publicLogicalAction": true,
+      "stage": "loop",
+      "intentEmotion": "neutral",
+      "intentEmotionIsSharedEnum": true,
+      "displayName": "自然待机",
+      "trigger": "默认或无其他状态",
+      "bodyPhases": [
+        "放松站姿",
+        "轻呼吸与重心微调",
+        "自然循环"
+      ],
+      "faceSequence": "neutral 与短眨眼",
+      "triggerKind": "state",
+      "aliases": [
+        "idle"
+      ],
+      "runtime": {
+        "unityDeliveryRevision": 7,
+        "clipPresent": true,
+        "profilePresent": true,
+        "integratedInMainProgram": false,
+        "hasKnownBodyChangesAfterUnity7": false,
+        "hasKnownFaceChangesAfterUnity7": false,
+        "latestPackageFullySynchronized": false
+      },
+      "faceData": {
+        "profileName": "Idle",
+        "fps": 30,
+        "sampleCount": 121,
+        "sampleFields": [
+          "annoyed",
+          "blink",
+          "browLift",
+          "gazeX",
+          "gazeY",
+          "mouthWeights",
+          "sad",
+          "sleepy"
+        ],
+        "authoringProfilePath": "Material/CHDDD/Blender/action_face_profiles_v2.json",
+        "deliveredProfilePath": "Material/CHDDD/Unity/action_face_profiles_v2.json",
+        "samplingClock": "body Animator normalizedTime",
+        "manualPresetOverridesActionFace": true
+      }
+    },
+    {
+      "name": "Walk",
+      "clip": "PetV2_Walk",
+      "faceClip": "PetV2_FaceProcess_Walk",
+      "shapeAction": "PetV2_Shapes_Walk",
+      "mouthAction": "PetV2_Mouth_Walk",
+      "durationSeconds": 1.3333333333333333,
+      "frames": [
+        1,
+        41
+      ],
+      "loop": true,
+      "source": "Cafe source with polish",
+      "logicalAction": "Walk",
+      "enterClip": "",
+      "exitClip": "",
+      "nextAction": "",
+      "transitionSeconds": 0.28,
+      "tier": "daily",
+      "intensity": "low",
+      "recommendedFrequency": "State-driven; host owns scheduling",
+      "publicLogicalAction": true,
+      "stage": "loop",
+      "intentEmotion": "neutral",
+      "intentEmotionIsSharedEnum": true,
+      "displayName": "原地行走",
+      "trigger": "宿主移动期间",
+      "bodyPhases": [
+        "来源 Café 步态",
+        "自然发衣跟随",
+        "宿主决定停止"
+      ],
+      "faceSequence": "neutral 与自然眨眼",
+      "triggerKind": "state",
+      "aliases": [
+        "walk"
+      ],
+      "runtime": {
+        "unityDeliveryRevision": 7,
+        "clipPresent": true,
+        "profilePresent": true,
+        "integratedInMainProgram": false,
+        "hasKnownBodyChangesAfterUnity7": false,
+        "hasKnownFaceChangesAfterUnity7": false,
+        "latestPackageFullySynchronized": false
+      },
+      "faceData": {
+        "profileName": "Walk",
+        "fps": 30,
+        "sampleCount": 41,
+        "sampleFields": [
+          "annoyed",
+          "blink",
+          "browLift",
+          "gazeX",
+          "gazeY",
+          "mouthWeights",
+          "sad",
+          "sleepy"
+        ],
+        "authoringProfilePath": "Material/CHDDD/Blender/action_face_profiles_v2.json",
+        "deliveredProfilePath": "Material/CHDDD/Unity/action_face_profiles_v2.json",
+        "samplingClock": "body Animator normalizedTime",
+        "manualPresetOverridesActionFace": true
+      }
+    },
+    {
+      "name": "Thinking",
+      "clip": "PetV2_Thinking",
+      "faceClip": "PetV2_FaceProcess_Thinking",
+      "shapeAction": "PetV2_Shapes_Thinking",
+      "mouthAction": "PetV2_Mouth_Thinking",
+      "durationSeconds": 4.8,
+      "frames": [
+        1,
+        145
+      ],
+      "loop": true,
+      "source": "Authored V2 performance",
+      "logicalAction": "Thinking",
+      "enterClip": "",
+      "exitClip": "",
+      "nextAction": "",
+      "transitionSeconds": 0.28,
+      "tier": "daily",
+      "intensity": "low",
+      "recommendedFrequency": "State-driven; host owns scheduling",
+      "publicLogicalAction": true,
+      "stage": "loop",
+      "intentEmotion": "concern",
+      "intentEmotionIsSharedEnum": true,
+      "displayName": "思考",
+      "trigger": "等待 LLM / 解析意图",
+      "bodyPhases": [
+        "轻托下巴",
+        "头肩和视线配合",
+        "低强度循环"
+      ],
+      "faceSequence": "思考、关切与轻微眼眉嘴变化",
+      "triggerKind": "state",
+      "aliases": [
+        "thinking"
+      ],
+      "runtime": {
+        "unityDeliveryRevision": 7,
+        "clipPresent": true,
+        "profilePresent": true,
+        "integratedInMainProgram": false,
+        "hasKnownBodyChangesAfterUnity7": false,
+        "hasKnownFaceChangesAfterUnity7": false,
+        "latestPackageFullySynchronized": false
+      },
+      "faceData": {
+        "profileName": "Thinking",
+        "fps": 30,
+        "sampleCount": 145,
+        "sampleFields": [
+          "annoyed",
+          "blink",
+          "browLift",
+          "gazeX",
+          "gazeY",
+          "mouthWeights",
+          "sad",
+          "sleepy"
+        ],
+        "authoringProfilePath": "Material/CHDDD/Blender/action_face_profiles_v2.json",
+        "deliveredProfilePath": "Material/CHDDD/Unity/action_face_profiles_v2.json",
+        "samplingClock": "body Animator normalizedTime",
+        "manualPresetOverridesActionFace": true
+      }
+    },
+    {
+      "name": "Working",
+      "clip": "PetV2_Working",
+      "faceClip": "PetV2_FaceProcess_Working",
+      "shapeAction": "PetV2_Shapes_Working",
+      "mouthAction": "PetV2_Mouth_Working",
+      "durationSeconds": 3.6,
+      "frames": [
+        1,
+        109
+      ],
+      "loop": true,
+      "source": "Authored V2 performance",
+      "logicalAction": "Working",
+      "enterClip": "",
+      "exitClip": "",
+      "nextAction": "",
+      "transitionSeconds": 0.28,
+      "tier": "daily",
+      "intensity": "low",
+      "recommendedFrequency": "State-driven; host owns scheduling",
+      "publicLogicalAction": true,
+      "stage": "loop",
+      "intentEmotion": "neutral",
+      "intentEmotionIsSharedEnum": true,
+      "displayName": "专注工作",
+      "trigger": "工具执行期间",
+      "bodyPhases": [
+        "稍前倾",
+        "小幅规律手部动作",
+        "专注循环"
+      ],
+      "faceSequence": "专注与自然眼眉嘴变化",
+      "triggerKind": "state",
+      "aliases": [
+        "working"
+      ],
+      "runtime": {
+        "unityDeliveryRevision": 7,
+        "clipPresent": true,
+        "profilePresent": true,
+        "integratedInMainProgram": false,
+        "hasKnownBodyChangesAfterUnity7": false,
+        "hasKnownFaceChangesAfterUnity7": false,
+        "latestPackageFullySynchronized": false
+      },
+      "faceData": {
+        "profileName": "Working",
+        "fps": 30,
+        "sampleCount": 109,
+        "sampleFields": [
+          "annoyed",
+          "blink",
+          "browLift",
+          "gazeX",
+          "gazeY",
+          "mouthWeights",
+          "sad",
+          "sleepy"
+        ],
+        "authoringProfilePath": "Material/CHDDD/Blender/action_face_profiles_v2.json",
+        "deliveredProfilePath": "Material/CHDDD/Unity/action_face_profiles_v2.json",
+        "samplingClock": "body Animator normalizedTime",
+        "manualPresetOverridesActionFace": true
+      }
+    },
+    {
+      "name": "HeadPat",
+      "clip": "PetV2_HeadPat",
+      "faceClip": "PetV2_FaceProcess_HeadPat",
+      "shapeAction": "PetV2_Shapes_HeadPat",
+      "mouthAction": "PetV2_Mouth_HeadPat",
+      "durationSeconds": 4.6,
+      "frames": [
+        1,
+        139
+      ],
+      "loop": true,
+      "source": "Authored V2 performance",
+      "logicalAction": "HeadPat",
+      "enterClip": "PetV2_HeadPat_Enter",
+      "exitClip": "PetV2_HeadPat_Exit",
+      "nextAction": "",
+      "transitionSeconds": 0.28,
+      "tier": "emotion",
+      "intensity": "medium",
+      "recommendedFrequency": "State-driven; host owns scheduling",
+      "publicLogicalAction": true,
+      "stage": "loop",
+      "intentEmotion": "happy",
+      "intentEmotionIsSharedEnum": true,
+      "displayName": "持续摸头",
+      "trigger": "头部长按成立",
+      "bodyPhases": [
+        "Enter 接受触摸",
+        "低头放松与轻摇",
+        "释放走 Exit"
+      ],
+      "faceSequence": "接受触摸、舒服、放松",
+      "triggerKind": "touch",
+      "aliases": [
+        "headpat"
+      ],
+      "runtime": {
+        "unityDeliveryRevision": 7,
+        "clipPresent": true,
+        "profilePresent": true,
+        "integratedInMainProgram": false,
+        "hasKnownBodyChangesAfterUnity7": false,
+        "hasKnownFaceChangesAfterUnity7": false,
+        "latestPackageFullySynchronized": false
+      },
+      "faceData": {
+        "profileName": "HeadPat",
+        "fps": 30,
+        "sampleCount": 139,
+        "sampleFields": [
+          "annoyed",
+          "blink",
+          "browLift",
+          "gazeX",
+          "gazeY",
+          "mouthWeights",
+          "sad",
+          "sleepy"
+        ],
+        "authoringProfilePath": "Material/CHDDD/Blender/action_face_profiles_v2.json",
+        "deliveredProfilePath": "Material/CHDDD/Unity/action_face_profiles_v2.json",
+        "samplingClock": "body Animator normalizedTime",
+        "manualPresetOverridesActionFace": true
+      }
+    },
+    {
+      "name": "Dragging",
+      "clip": "PetV2_Dragging",
+      "faceClip": "PetV2_FaceProcess_Dragging",
+      "shapeAction": "PetV2_Shapes_Dragging",
+      "mouthAction": "PetV2_Mouth_Dragging",
+      "durationSeconds": 11.233333333333333,
+      "frames": [
+        1,
+        338
+      ],
+      "loop": true,
+      "source": "CH0069_Formation_Pickup; original GLB #29",
+      "logicalAction": "Dragging",
+      "enterClip": "PetV2_Dragging_Enter",
+      "exitClip": "PetV2_Dragging_Exit",
+      "nextAction": "",
+      "transitionSeconds": 0.28,
+      "tier": "emotion",
+      "intensity": "medium",
+      "recommendedFrequency": "State-driven; host owns scheduling",
+      "publicLogicalAction": true,
+      "stage": "loop",
+      "intentEmotion": "happy",
+      "intentEmotionIsSharedEnum": true,
+      "displayName": "原版举起",
+      "trigger": "真实拖动开始",
+      "bodyPhases": [
+        "Enter 拿起",
+        "原动画 29 循环",
+        "释放走 Exit"
+      ],
+      "faceSequence": "举起专属过程；排除原眼部缩放",
+      "triggerKind": "drag",
+      "aliases": [
+        "dragging"
+      ],
+      "runtime": {
+        "unityDeliveryRevision": 7,
+        "clipPresent": true,
+        "profilePresent": true,
+        "integratedInMainProgram": false,
+        "hasKnownBodyChangesAfterUnity7": false,
+        "hasKnownFaceChangesAfterUnity7": false,
+        "latestPackageFullySynchronized": false
+      },
+      "faceData": {
+        "profileName": "Dragging",
+        "fps": 30,
+        "sampleCount": 338,
+        "sampleFields": [
+          "annoyed",
+          "blink",
+          "browLift",
+          "gazeX",
+          "gazeY",
+          "mouthWeights",
+          "sad",
+          "sleepy"
+        ],
+        "authoringProfilePath": "Material/CHDDD/Blender/action_face_profiles_v2.json",
+        "deliveredProfilePath": "Material/CHDDD/Unity/action_face_profiles_v2.json",
+        "samplingClock": "body Animator normalizedTime",
+        "manualPresetOverridesActionFace": true
+      }
+    },
+    {
+      "name": "Sleep",
+      "clip": "PetV2_Sleep",
+      "faceClip": "PetV2_FaceProcess_Sleep",
+      "shapeAction": "PetV2_Shapes_Sleep",
+      "mouthAction": "PetV2_Mouth_Sleep",
+      "durationSeconds": 6.0,
+      "frames": [
+        1,
+        181
+      ],
+      "loop": true,
+      "source": "Authored V2 performance",
+      "logicalAction": "Sleep",
+      "enterClip": "PetV2_Sleep_Enter",
+      "exitClip": "PetV2_Sleep_Exit",
+      "nextAction": "",
+      "transitionSeconds": 0.28,
+      "tier": "daily",
+      "intensity": "low",
+      "recommendedFrequency": "State-driven; host owns scheduling",
+      "publicLogicalAction": true,
+      "stage": "loop",
+      "intentEmotion": "sleepy",
+      "intentEmotionIsSharedEnum": true,
+      "displayName": "原地打盹",
+      "trigger": "宿主进入休息状态",
+      "bodyPhases": [
+        "Enter 呵欠渐闭眼",
+        "低头慢呼吸",
+        "唤醒走 Exit"
+      ],
+      "faceSequence": "闭眼与柔和困倦眉",
+      "triggerKind": "state",
+      "aliases": [
+        "sleep"
+      ],
+      "runtime": {
+        "unityDeliveryRevision": 7,
+        "clipPresent": true,
+        "profilePresent": true,
+        "integratedInMainProgram": false,
+        "hasKnownBodyChangesAfterUnity7": false,
+        "hasKnownFaceChangesAfterUnity7": false,
+        "latestPackageFullySynchronized": false
+      },
+      "faceData": {
+        "profileName": "Sleep",
+        "fps": 30,
+        "sampleCount": 181,
+        "sampleFields": [
+          "annoyed",
+          "blink",
+          "browLift",
+          "gazeX",
+          "gazeY",
+          "mouthWeights",
+          "sad",
+          "sleepy"
+        ],
+        "authoringProfilePath": "Material/CHDDD/Blender/action_face_profiles_v2.json",
+        "deliveredProfilePath": "Material/CHDDD/Unity/action_face_profiles_v2.json",
+        "samplingClock": "body Animator normalizedTime",
+        "manualPresetOverridesActionFace": true
+      }
+    },
+    {
+      "name": "Wave",
+      "clip": "PetV2_Wave",
+      "faceClip": "PetV2_FaceProcess_Wave",
+      "shapeAction": "PetV2_Shapes_Wave",
+      "mouthAction": "PetV2_Mouth_Wave",
+      "durationSeconds": 3.6,
+      "frames": [
+        1,
+        109
+      ],
+      "loop": false,
+      "source": "Authored V2 performance",
+      "logicalAction": "Wave",
+      "enterClip": "",
+      "exitClip": "",
+      "nextAction": "Idle",
+      "transitionSeconds": 0.18,
+      "tier": "special",
+      "intensity": "high",
+      "keyPoseSeconds": 1.08,
+      "holdSeconds": 0.32,
+      "intent": "探身挥手，同时轻扇翅膀；最后一挥直接接上收手。",
+      "footPolicy": "Right toe pivot; left foot planted",
+      "recommendedFrequency": "Welcome or deliberate greeting; never repeated by idle scheduler",
+      "publicLogicalAction": true,
+      "stage": "one-shot",
+      "intentEmotion": "happy",
+      "intentEmotionIsSharedEnum": true,
+      "displayName": "挥手问候",
+      "trigger": "低频问候 / 欢迎回来",
+      "bodyPhases": [
+        "收身预备",
+        "探身单手招手两次并扇翼",
+        "直接收手、发衣延迟收稳"
+      ],
+      "faceSequence": "注意用户、明快微笑、短眨眼、放松",
+      "triggerKind": "greeting",
+      "aliases": [
+        "wave"
+      ],
+      "runtime": {
+        "unityDeliveryRevision": 7,
+        "clipPresent": true,
+        "profilePresent": true,
+        "integratedInMainProgram": false,
+        "hasKnownBodyChangesAfterUnity7": false,
+        "hasKnownFaceChangesAfterUnity7": false,
+        "latestPackageFullySynchronized": false
+      },
+      "faceData": {
+        "profileName": "Wave",
+        "fps": 30,
+        "sampleCount": 109,
+        "sampleFields": [
+          "annoyed",
+          "blink",
+          "browLift",
+          "gazeX",
+          "gazeY",
+          "mouthWeights",
+          "sad",
+          "sleepy"
+        ],
+        "authoringProfilePath": "Material/CHDDD/Blender/action_face_profiles_v2.json",
+        "deliveredProfilePath": "Material/CHDDD/Unity/action_face_profiles_v2.json",
+        "samplingClock": "body Animator normalizedTime",
+        "manualPresetOverridesActionFace": true
+      }
+    },
+    {
+      "name": "Success",
+      "clip": "PetV2_Success",
+      "faceClip": "PetV2_FaceProcess_Success",
+      "shapeAction": "PetV2_Shapes_Success",
+      "mouthAction": "PetV2_Mouth_Success",
+      "durationSeconds": 3.4,
+      "frames": [
+        1,
+        103
+      ],
+      "loop": false,
+      "source": "Authored V2 performance",
+      "logicalAction": "Success",
+      "enterClip": "",
+      "exitClip": "",
+      "nextAction": "Idle",
+      "transitionSeconds": 0.18,
+      "tier": "emotion",
+      "intensity": "medium-high",
+      "keyPoseSeconds": 1.1,
+      "holdSeconds": 0.61,
+      "intent": "原有挺胸与踮脚不变，双臂向斜上方展开成Y形，闭眼、上弧笑眉，缓冲回落。",
+      "footPolicy": "Both toes planted; heels rise, no airborne jump",
+      "recommendedFrequency": "Single response to meaningful success; avoid repeated tool-event playback",
+      "publicLogicalAction": true,
+      "stage": "one-shot",
+      "intentEmotion": "happy",
+      "intentEmotionIsSharedEnum": true,
+      "displayName": "欢呼庆祝",
+      "trigger": "工具成功 / 明确夸奖",
+      "bodyPhases": [
+        "收手下沉蓄势",
+        "挺胸踮脚、双臂向头顶斜上展开 Y 形",
+        "关键姿态停留、缓冲落回"
+      ],
+      "faceSequence": "起举迅速闭眼，约 0.65–0.67 秒闭合；上弧笑眉欢呼后恢复",
+      "triggerKind": "outcome",
+      "aliases": [
+        "success",
+        "succeed",
+        "Succeed"
+      ],
+      "runtime": {
+        "unityDeliveryRevision": 7,
+        "clipPresent": true,
+        "profilePresent": true,
+        "integratedInMainProgram": false,
+        "hasKnownBodyChangesAfterUnity7": true,
+        "hasKnownFaceChangesAfterUnity7": true,
+        "latestPackageFullySynchronized": false
+      },
+      "faceData": {
+        "profileName": "Success",
+        "fps": 30,
+        "sampleCount": 103,
+        "sampleFields": [
+          "annoyed",
+          "blink",
+          "browLift",
+          "gazeX",
+          "gazeY",
+          "happy",
+          "mouthWeights",
+          "sad",
+          "sleepy"
+        ],
+        "authoringProfilePath": "Material/CHDDD/Blender/action_face_profiles_v2.json",
+        "deliveredProfilePath": "Material/CHDDD/Unity/action_face_profiles_v2.json",
+        "samplingClock": "body Animator normalizedTime",
+        "manualPresetOverridesActionFace": true
+      }
+    },
+    {
+      "name": "Confused",
+      "clip": "PetV2_Confused",
+      "faceClip": "PetV2_FaceProcess_Confused",
+      "shapeAction": "PetV2_Shapes_Confused",
+      "mouthAction": "PetV2_Mouth_Confused",
+      "durationSeconds": 3.4,
+      "frames": [
+        1,
+        103
+      ],
+      "loop": false,
+      "source": "Authored V2 performance",
+      "logicalAction": "Confused",
+      "enterClip": "",
+      "exitClip": "",
+      "nextAction": "Idle",
+      "transitionSeconds": 0.28,
+      "tier": "emotion",
+      "intensity": "medium-high",
+      "keyPoseSeconds": 1.45,
+      "holdSeconds": 0.61,
+      "intent": "停下、后缩、歪头，掌心向内轻挠头两次，再缓慢收手恢复。",
+      "footPolicy": "Both feet planted",
+      "recommendedFrequency": "One readable reaction; not a continuous loop",
+      "publicLogicalAction": true,
+      "stage": "one-shot",
+      "intentEmotion": "confused",
+      "intentEmotionIsSharedEnum": false,
+      "displayName": "疑惑挠头",
+      "trigger": "工具失败 / 疑惑回应",
+      "bodyPhases": [
+        "停下稍后缩",
+        "歪头约 23 度、掌心朝自己挠头两次",
+        "可读停留后连续收手恢复"
+      ],
+      "faceSequence": "疑问、略担心、缓和",
+      "triggerKind": "outcome",
+      "aliases": [
+        "confused"
+      ],
+      "runtime": {
+        "unityDeliveryRevision": 7,
+        "clipPresent": true,
+        "profilePresent": true,
+        "integratedInMainProgram": false,
+        "hasKnownBodyChangesAfterUnity7": false,
+        "hasKnownFaceChangesAfterUnity7": false,
+        "latestPackageFullySynchronized": false
+      },
+      "faceData": {
+        "profileName": "Confused",
+        "fps": 30,
+        "sampleCount": 103,
+        "sampleFields": [
+          "annoyed",
+          "blink",
+          "browLift",
+          "gazeX",
+          "gazeY",
+          "mouthWeights",
+          "sad",
+          "sleepy"
+        ],
+        "authoringProfilePath": "Material/CHDDD/Blender/action_face_profiles_v2.json",
+        "deliveredProfilePath": "Material/CHDDD/Unity/action_face_profiles_v2.json",
+        "samplingClock": "body Animator normalizedTime",
+        "manualPresetOverridesActionFace": true
+      }
+    },
+    {
+      "name": "HeadClick",
+      "clip": "PetV2_HeadClick",
+      "faceClip": "PetV2_FaceProcess_HeadClick",
+      "shapeAction": "PetV2_Shapes_HeadClick",
+      "mouthAction": "PetV2_Mouth_HeadClick",
+      "durationSeconds": 1.8,
+      "frames": [
+        1,
+        55
+      ],
+      "loop": false,
+      "source": "Authored V2 performance",
+      "logicalAction": "HeadClick",
+      "enterClip": "",
+      "exitClip": "",
+      "nextAction": "Idle",
+      "transitionSeconds": 0.1,
+      "tier": "special",
+      "intensity": "high-short",
+      "keyPoseSeconds": 0.4,
+      "holdSeconds": 0.22,
+      "intent": "闭眼受惊，双手捂住头顶两侧，放下双手后抿嘴、皱眉佯装生气，再恢复。",
+      "footPolicy": "Both feet planted",
+      "recommendedFrequency": "Sudden click only; must be throttled by the interaction host",
+      "publicLogicalAction": true,
+      "stage": "one-shot",
+      "intentEmotion": "surprised",
+      "intentEmotionIsSharedEnum": true,
+      "displayName": "头部短点受惊与佯怒",
+      "trigger": "头部短点击",
+      "bodyPhases": [
+        "缩身后撤、双手护头",
+        "放下手并认出用户",
+        "抿嘴假生气后恢复"
+      ],
+      "faceSequence": "闭眼三角嘴 -A- 受惊，随后皱眉抿嘴；不使用笑嘴",
+      "triggerKind": "touch",
+      "aliases": [
+        "headclick"
+      ],
+      "runtime": {
+        "unityDeliveryRevision": 7,
+        "clipPresent": true,
+        "profilePresent": true,
+        "integratedInMainProgram": false,
+        "hasKnownBodyChangesAfterUnity7": true,
+        "hasKnownFaceChangesAfterUnity7": true,
+        "latestPackageFullySynchronized": false
+      },
+      "faceData": {
+        "profileName": "HeadClick",
+        "fps": 30,
+        "sampleCount": 55,
+        "sampleFields": [
+          "annoyed",
+          "blink",
+          "browLift",
+          "gazeX",
+          "gazeY",
+          "happy",
+          "mouthWeights",
+          "sad",
+          "sleepy"
+        ],
+        "authoringProfilePath": "Material/CHDDD/Blender/action_face_profiles_v2.json",
+        "deliveredProfilePath": "Material/CHDDD/Unity/action_face_profiles_v2.json",
+        "samplingClock": "body Animator normalizedTime",
+        "manualPresetOverridesActionFace": true
+      }
+    },
+    {
+      "name": "BodyClick",
+      "clip": "PetV2_BodyClick",
+      "faceClip": "PetV2_FaceProcess_BodyClick",
+      "shapeAction": "PetV2_Shapes_BodyClick",
+      "mouthAction": "PetV2_Mouth_BodyClick",
+      "durationSeconds": 2.6,
+      "frames": [
+        1,
+        79
+      ],
+      "loop": false,
+      "source": "Authored V2 performance",
+      "logicalAction": "BodyClick",
+      "enterClip": "",
+      "exitClip": "",
+      "nextAction": "Idle",
+      "transitionSeconds": 0.12,
+      "tier": "emotion",
+      "intensity": "medium-high",
+      "keyPoseSeconds": 1.05,
+      "holdSeconds": 0.52,
+      "intent": "保留后缩、收肩、双手近胸和回望，尾段翅膀轻轻抖动后收稳。",
+      "footPolicy": "Toe pivots during inward foot turn",
+      "recommendedFrequency": "Single shy response; not constant idle behavior",
+      "publicLogicalAction": true,
+      "stage": "one-shot",
+      "intentEmotion": "shy",
+      "intentEmotionIsSharedEnum": true,
+      "displayName": "身体点击害羞回应",
+      "trigger": "身体短点击",
+      "bodyPhases": [
+        "收肩蜷身、手近胸、脚尖内扣",
+        "后缩停留、移开视线再回望",
+        "尾段轻抖翅膀并收稳"
+      ],
+      "faceSequence": "惊觉、害羞、回望、放松",
+      "triggerKind": "touch",
+      "aliases": [
+        "bodyclick"
+      ],
+      "runtime": {
+        "unityDeliveryRevision": 7,
+        "clipPresent": true,
+        "profilePresent": true,
+        "integratedInMainProgram": false,
+        "hasKnownBodyChangesAfterUnity7": false,
+        "hasKnownFaceChangesAfterUnity7": false,
+        "latestPackageFullySynchronized": false
+      },
+      "faceData": {
+        "profileName": "BodyClick",
+        "fps": 30,
+        "sampleCount": 79,
+        "sampleFields": [
+          "annoyed",
+          "blink",
+          "browLift",
+          "gazeX",
+          "gazeY",
+          "mouthWeights",
+          "sad",
+          "sleepy"
+        ],
+        "authoringProfilePath": "Material/CHDDD/Blender/action_face_profiles_v2.json",
+        "deliveredProfilePath": "Material/CHDDD/Unity/action_face_profiles_v2.json",
+        "samplingClock": "body Animator normalizedTime",
+        "manualPresetOverridesActionFace": true
+      }
+    },
+    {
+      "name": "HeadPat_Enter",
+      "clip": "PetV2_HeadPat_Enter",
+      "faceClip": "PetV2_FaceProcess_HeadPat_Enter",
+      "shapeAction": "PetV2_Shapes_HeadPat_Enter",
+      "mouthAction": "PetV2_Mouth_HeadPat_Enter",
+      "durationSeconds": 0.9,
+      "frames": [
+        1,
+        28
+      ],
+      "loop": false,
+      "source": "Authored V2 performance",
+      "logicalAction": "HeadPat",
+      "enterClip": "",
+      "exitClip": "PetV2_HeadPat_Exit",
+      "nextAction": "HeadPat",
+      "transitionSeconds": 0.28,
+      "tier": "emotion",
+      "intensity": "medium",
+      "recommendedFrequency": "State-driven; host owns scheduling",
+      "publicLogicalAction": false,
+      "stage": "enter",
+      "intentEmotion": "happy",
+      "intentEmotionIsSharedEnum": true,
+      "displayName": "从站姿进入接受摸头，脸部同步放松",
+      "trigger": "内部流转，不直接暴露给业务 / LLM",
+      "triggerKind": "internal",
+      "aliases": [],
+      "runtime": {
+        "unityDeliveryRevision": 7,
+        "clipPresent": true,
+        "profilePresent": true,
+        "integratedInMainProgram": false,
+        "hasKnownBodyChangesAfterUnity7": false,
+        "hasKnownFaceChangesAfterUnity7": false,
+        "latestPackageFullySynchronized": false
+      },
+      "faceData": {
+        "profileName": "HeadPat_Enter",
+        "fps": 30,
+        "sampleCount": 28,
+        "sampleFields": [
+          "annoyed",
+          "blink",
+          "browLift",
+          "gazeX",
+          "gazeY",
+          "mouthWeights",
+          "sad",
+          "sleepy"
+        ],
+        "authoringProfilePath": "Material/CHDDD/Blender/action_face_profiles_v2.json",
+        "deliveredProfilePath": "Material/CHDDD/Unity/action_face_profiles_v2.json",
+        "samplingClock": "body Animator normalizedTime",
+        "manualPresetOverridesActionFace": true
+      }
+    },
+    {
+      "name": "HeadPat_Exit",
+      "clip": "PetV2_HeadPat_Exit",
+      "faceClip": "PetV2_FaceProcess_HeadPat_Exit",
+      "shapeAction": "PetV2_Shapes_HeadPat_Exit",
+      "mouthAction": "PetV2_Mouth_HeadPat_Exit",
+      "durationSeconds": 1.1,
+      "frames": [
+        1,
+        34
+      ],
+      "loop": false,
+      "source": "Authored V2 performance",
+      "logicalAction": "HeadPat",
+      "enterClip": "",
+      "exitClip": "PetV2_HeadPat_Exit",
+      "nextAction": "Idle",
+      "transitionSeconds": 0.28,
+      "tier": "emotion",
+      "intensity": "medium",
+      "recommendedFrequency": "State-driven; host owns scheduling",
+      "publicLogicalAction": false,
+      "stage": "exit",
+      "intentEmotion": "neutral",
+      "intentEmotionIsSharedEnum": true,
+      "displayName": "释放后收回低头与轻摇，回到待机",
+      "trigger": "内部流转，不直接暴露给业务 / LLM",
+      "triggerKind": "internal",
+      "aliases": [],
+      "runtime": {
+        "unityDeliveryRevision": 7,
+        "clipPresent": true,
+        "profilePresent": true,
+        "integratedInMainProgram": false,
+        "hasKnownBodyChangesAfterUnity7": false,
+        "hasKnownFaceChangesAfterUnity7": false,
+        "latestPackageFullySynchronized": false
+      },
+      "faceData": {
+        "profileName": "HeadPat_Exit",
+        "fps": 30,
+        "sampleCount": 34,
+        "sampleFields": [
+          "annoyed",
+          "blink",
+          "browLift",
+          "gazeX",
+          "gazeY",
+          "mouthWeights",
+          "sad",
+          "sleepy"
+        ],
+        "authoringProfilePath": "Material/CHDDD/Blender/action_face_profiles_v2.json",
+        "deliveredProfilePath": "Material/CHDDD/Unity/action_face_profiles_v2.json",
+        "samplingClock": "body Animator normalizedTime",
+        "manualPresetOverridesActionFace": true
+      }
+    },
+    {
+      "name": "Dragging_Enter",
+      "clip": "PetV2_Dragging_Enter",
+      "faceClip": "PetV2_FaceProcess_Dragging_Enter",
+      "shapeAction": "PetV2_Shapes_Dragging_Enter",
+      "mouthAction": "PetV2_Mouth_Dragging_Enter",
+      "durationSeconds": 0.7,
+      "frames": [
+        1,
+        22
+      ],
+      "loop": false,
+      "source": "Authored V2 performance",
+      "logicalAction": "Dragging",
+      "enterClip": "",
+      "exitClip": "PetV2_Dragging_Exit",
+      "nextAction": "Dragging",
+      "transitionSeconds": 0.28,
+      "tier": "emotion",
+      "intensity": "medium",
+      "recommendedFrequency": "State-driven; host owns scheduling",
+      "publicLogicalAction": false,
+      "stage": "enter",
+      "intentEmotion": "surprised",
+      "intentEmotionIsSharedEnum": true,
+      "displayName": "进入被举起姿态，配合短暂惊觉",
+      "trigger": "内部流转，不直接暴露给业务 / LLM",
+      "triggerKind": "internal",
+      "aliases": [],
+      "runtime": {
+        "unityDeliveryRevision": 7,
+        "clipPresent": true,
+        "profilePresent": true,
+        "integratedInMainProgram": false,
+        "hasKnownBodyChangesAfterUnity7": false,
+        "hasKnownFaceChangesAfterUnity7": false,
+        "latestPackageFullySynchronized": false
+      },
+      "faceData": {
+        "profileName": "Dragging_Enter",
+        "fps": 30,
+        "sampleCount": 22,
+        "sampleFields": [
+          "annoyed",
+          "blink",
+          "browLift",
+          "gazeX",
+          "gazeY",
+          "mouthWeights",
+          "sad",
+          "sleepy"
+        ],
+        "authoringProfilePath": "Material/CHDDD/Blender/action_face_profiles_v2.json",
+        "deliveredProfilePath": "Material/CHDDD/Unity/action_face_profiles_v2.json",
+        "samplingClock": "body Animator normalizedTime",
+        "manualPresetOverridesActionFace": true
+      }
+    },
+    {
+      "name": "Dragging_Exit",
+      "clip": "PetV2_Dragging_Exit",
+      "faceClip": "PetV2_FaceProcess_Dragging_Exit",
+      "shapeAction": "PetV2_Shapes_Dragging_Exit",
+      "mouthAction": "PetV2_Mouth_Dragging_Exit",
+      "durationSeconds": 0.9,
+      "frames": [
+        1,
+        28
+      ],
+      "loop": false,
+      "source": "Authored V2 performance",
+      "logicalAction": "Dragging",
+      "enterClip": "",
+      "exitClip": "PetV2_Dragging_Exit",
+      "nextAction": "Idle",
+      "transitionSeconds": 0.28,
+      "tier": "emotion",
+      "intensity": "medium",
+      "recommendedFrequency": "State-driven; host owns scheduling",
+      "publicLogicalAction": false,
+      "stage": "exit",
+      "intentEmotion": "neutral",
+      "intentEmotionIsSharedEnum": true,
+      "displayName": "从举起缓冲放下，发衣收稳",
+      "trigger": "内部流转，不直接暴露给业务 / LLM",
+      "triggerKind": "internal",
+      "aliases": [],
+      "runtime": {
+        "unityDeliveryRevision": 7,
+        "clipPresent": true,
+        "profilePresent": true,
+        "integratedInMainProgram": false,
+        "hasKnownBodyChangesAfterUnity7": false,
+        "hasKnownFaceChangesAfterUnity7": false,
+        "latestPackageFullySynchronized": false
+      },
+      "faceData": {
+        "profileName": "Dragging_Exit",
+        "fps": 30,
+        "sampleCount": 28,
+        "sampleFields": [
+          "annoyed",
+          "blink",
+          "browLift",
+          "gazeX",
+          "gazeY",
+          "mouthWeights",
+          "sad",
+          "sleepy"
+        ],
+        "authoringProfilePath": "Material/CHDDD/Blender/action_face_profiles_v2.json",
+        "deliveredProfilePath": "Material/CHDDD/Unity/action_face_profiles_v2.json",
+        "samplingClock": "body Animator normalizedTime",
+        "manualPresetOverridesActionFace": true
+      }
+    },
+    {
+      "name": "Sleep_Enter",
+      "clip": "PetV2_Sleep_Enter",
+      "faceClip": "PetV2_FaceProcess_Sleep_Enter",
+      "shapeAction": "PetV2_Shapes_Sleep_Enter",
+      "mouthAction": "PetV2_Mouth_Sleep_Enter",
+      "durationSeconds": 2.2,
+      "frames": [
+        1,
+        67
+      ],
+      "loop": false,
+      "source": "Authored V2 performance",
+      "logicalAction": "Sleep",
+      "enterClip": "",
+      "exitClip": "PetV2_Sleep_Exit",
+      "nextAction": "Sleep",
+      "transitionSeconds": 0.28,
+      "tier": "daily",
+      "intensity": "low",
+      "recommendedFrequency": "State-driven; host owns scheduling",
+      "publicLogicalAction": false,
+      "stage": "enter",
+      "intentEmotion": "sleepy",
+      "intentEmotionIsSharedEnum": true,
+      "displayName": "掩嘴呵欠、低头、渐闭眼",
+      "trigger": "内部流转，不直接暴露给业务 / LLM",
+      "triggerKind": "internal",
+      "aliases": [],
+      "runtime": {
+        "unityDeliveryRevision": 7,
+        "clipPresent": true,
+        "profilePresent": true,
+        "integratedInMainProgram": false,
+        "hasKnownBodyChangesAfterUnity7": false,
+        "hasKnownFaceChangesAfterUnity7": false,
+        "latestPackageFullySynchronized": false
+      },
+      "faceData": {
+        "profileName": "Sleep_Enter",
+        "fps": 30,
+        "sampleCount": 67,
+        "sampleFields": [
+          "annoyed",
+          "blink",
+          "browLift",
+          "gazeX",
+          "gazeY",
+          "mouthWeights",
+          "sad",
+          "sleepy"
+        ],
+        "authoringProfilePath": "Material/CHDDD/Blender/action_face_profiles_v2.json",
+        "deliveredProfilePath": "Material/CHDDD/Unity/action_face_profiles_v2.json",
+        "samplingClock": "body Animator normalizedTime",
+        "manualPresetOverridesActionFace": true
+      }
+    },
+    {
+      "name": "Sleep_Exit",
+      "clip": "PetV2_Sleep_Exit",
+      "faceClip": "PetV2_FaceProcess_Sleep_Exit",
+      "shapeAction": "PetV2_Shapes_Sleep_Exit",
+      "mouthAction": "PetV2_Mouth_Sleep_Exit",
+      "durationSeconds": 1.8,
+      "frames": [
+        1,
+        55
+      ],
+      "loop": false,
+      "source": "Authored V2 performance",
+      "logicalAction": "Sleep",
+      "enterClip": "",
+      "exitClip": "PetV2_Sleep_Exit",
+      "nextAction": "Idle",
+      "transitionSeconds": 0.28,
+      "tier": "daily",
+      "intensity": "low",
+      "recommendedFrequency": "State-driven; host owns scheduling",
+      "publicLogicalAction": false,
+      "stage": "exit",
+      "intentEmotion": "neutral",
+      "intentEmotionIsSharedEnum": true,
+      "displayName": "唤醒、恢复站姿与睁眼",
+      "trigger": "内部流转，不直接暴露给业务 / LLM",
+      "triggerKind": "internal",
+      "aliases": [],
+      "runtime": {
+        "unityDeliveryRevision": 7,
+        "clipPresent": true,
+        "profilePresent": true,
+        "integratedInMainProgram": false,
+        "hasKnownBodyChangesAfterUnity7": false,
+        "hasKnownFaceChangesAfterUnity7": false,
+        "latestPackageFullySynchronized": false
+      },
+      "faceData": {
+        "profileName": "Sleep_Exit",
+        "fps": 30,
+        "sampleCount": 55,
+        "sampleFields": [
+          "annoyed",
+          "blink",
+          "browLift",
+          "gazeX",
+          "gazeY",
+          "mouthWeights",
+          "sad",
+          "sleepy"
+        ],
+        "authoringProfilePath": "Material/CHDDD/Blender/action_face_profiles_v2.json",
+        "deliveredProfilePath": "Material/CHDDD/Unity/action_face_profiles_v2.json",
+        "samplingClock": "body Animator normalizedTime",
+        "manualPresetOverridesActionFace": true
+      }
+    }
+  ],
+  "staticExpressions": [
+    {
+      "name": "neutral",
+      "clip": "PetV2_FaceStatic_Neutral",
+      "mouthTile": 300,
+      "blink": 0,
+      "eyeWide": 0,
+      "browSad": 0,
+      "browAnnoyed": 0,
+      "browSleepy": 0,
+      "sharedEmotionEnum": true,
+      "publicEmotion": true,
+      "fallbackSharedEmotion": "neutral",
+      "unity7Available": true,
+      "integratedInMainProgram": false
+    },
+    {
+      "name": "happy",
+      "clip": "PetV2_FaceStatic_Happy",
+      "mouthTile": 706,
+      "blink": 0.1,
+      "eyeWide": 0,
+      "browSad": 0,
+      "browAnnoyed": 0,
+      "browSleepy": 0,
+      "sharedEmotionEnum": true,
+      "publicEmotion": true,
+      "fallbackSharedEmotion": "happy",
+      "unity7Available": true,
+      "integratedInMainProgram": false
+    },
+    {
+      "name": "shy",
+      "clip": "PetV2_FaceStatic_Shy",
+      "mouthTile": 705,
+      "blink": 0.15,
+      "eyeWide": 0,
+      "browSad": 0,
+      "browAnnoyed": 0,
+      "browSleepy": 0,
+      "sharedEmotionEnum": true,
+      "publicEmotion": true,
+      "fallbackSharedEmotion": "shy",
+      "unity7Available": true,
+      "integratedInMainProgram": false
+    },
+    {
+      "name": "concern",
+      "clip": "PetV2_FaceStatic_Concern",
+      "mouthTile": 604,
+      "blink": 0.1,
+      "eyeWide": 0,
+      "browSad": 0.55,
+      "browAnnoyed": 0,
+      "browSleepy": 0,
+      "sharedEmotionEnum": true,
+      "publicEmotion": true,
+      "fallbackSharedEmotion": "concern",
+      "unity7Available": true,
+      "integratedInMainProgram": false
+    },
+    {
+      "name": "sad",
+      "clip": "PetV2_FaceStatic_Sad",
+      "mouthTile": 604,
+      "blink": 0.18,
+      "eyeWide": 0,
+      "browSad": 1,
+      "browAnnoyed": 0,
+      "browSleepy": 0,
+      "sharedEmotionEnum": true,
+      "publicEmotion": true,
+      "fallbackSharedEmotion": "sad",
+      "unity7Available": true,
+      "integratedInMainProgram": false
+    },
+    {
+      "name": "surprised",
+      "clip": "PetV2_FaceStatic_Surprised",
+      "mouthTile": 605,
+      "blink": 0,
+      "eyeWide": 0,
+      "browSad": 0,
+      "browAnnoyed": 0,
+      "browSleepy": 0,
+      "sharedEmotionEnum": true,
+      "publicEmotion": true,
+      "fallbackSharedEmotion": "surprised",
+      "unity7Available": true,
+      "integratedInMainProgram": false
+    },
+    {
+      "name": "annoyed",
+      "clip": "PetV2_FaceStatic_Annoyed",
+      "mouthTile": 305,
+      "blink": 0.42,
+      "eyeWide": 0,
+      "browSad": 0,
+      "browAnnoyed": 1,
+      "browSleepy": 0,
+      "sharedEmotionEnum": true,
+      "publicEmotion": true,
+      "fallbackSharedEmotion": "annoyed",
+      "unity7Available": true,
+      "integratedInMainProgram": false
+    },
+    {
+      "name": "sleepy",
+      "clip": "PetV2_FaceStatic_Sleepy",
+      "mouthTile": 305,
+      "blink": 1,
+      "eyeWide": 0,
+      "browSad": 0,
+      "browAnnoyed": 0,
+      "browSleepy": 1,
+      "sharedEmotionEnum": true,
+      "publicEmotion": true,
+      "fallbackSharedEmotion": "sleepy",
+      "unity7Available": true,
+      "integratedInMainProgram": false
+    },
+    {
+      "name": "confused",
+      "clip": "PetV2_FaceStatic_Confused",
+      "mouthTile": 401,
+      "blink": 0.08,
+      "eyeWide": 0,
+      "browSad": 0,
+      "browAnnoyed": 0,
+      "browSleepy": 0,
+      "sharedEmotionEnum": false,
+      "publicEmotion": false,
+      "fallbackSharedEmotion": "concern",
+      "unity7Available": true,
+      "integratedInMainProgram": false
+    }
+  ],
+  "legacyNeutralTransitions": {
+    "scope": "legacy-restoration-not-v2-45-clips",
+    "defaultSeconds": 0.5,
+    "presets": [
+      {
+        "emotion": "happy",
+        "durationSeconds": 0.5,
+        "frames": [
+          1,
+          16
+        ],
+        "boneAction": "Pet_Transition_NeutralToHappy",
+        "shapeAction": "Pet_TransitionShapes_NeutralToHappy",
+        "mouthAction": "Pet_TransitionMouth_NeutralToHappy",
+        "loop": false
+      },
+      {
+        "emotion": "shy",
+        "durationSeconds": 0.5,
+        "frames": [
+          1,
+          16
+        ],
+        "boneAction": "Pet_Transition_NeutralToShy",
+        "shapeAction": "Pet_TransitionShapes_NeutralToShy",
+        "mouthAction": "Pet_TransitionMouth_NeutralToShy",
+        "loop": false
+      },
+      {
+        "emotion": "concern",
+        "durationSeconds": 0.5,
+        "frames": [
+          1,
+          16
+        ],
+        "boneAction": "Pet_Transition_NeutralToConcern",
+        "shapeAction": "Pet_TransitionShapes_NeutralToConcern",
+        "mouthAction": "Pet_TransitionMouth_NeutralToConcern",
+        "loop": false
+      },
+      {
+        "emotion": "sad",
+        "durationSeconds": 0.5,
+        "frames": [
+          1,
+          16
+        ],
+        "boneAction": "Pet_Transition_NeutralToSad",
+        "shapeAction": "Pet_TransitionShapes_NeutralToSad",
+        "mouthAction": "Pet_TransitionMouth_NeutralToSad",
+        "loop": false
+      },
+      {
+        "emotion": "surprised",
+        "durationSeconds": 0.5,
+        "frames": [
+          1,
+          16
+        ],
+        "boneAction": "Pet_Transition_NeutralToSurprised",
+        "shapeAction": "Pet_TransitionShapes_NeutralToSurprised",
+        "mouthAction": "Pet_TransitionMouth_NeutralToSurprised",
+        "loop": false
+      },
+      {
+        "emotion": "annoyed",
+        "durationSeconds": 0.5,
+        "frames": [
+          1,
+          16
+        ],
+        "boneAction": "Pet_Transition_NeutralToAnnoyed",
+        "shapeAction": "Pet_TransitionShapes_NeutralToAnnoyed",
+        "mouthAction": "Pet_TransitionMouth_NeutralToAnnoyed",
+        "loop": false
+      },
+      {
+        "emotion": "sleepy",
+        "durationSeconds": 0.5,
+        "frames": [
+          1,
+          16
+        ],
+        "boneAction": "Pet_Transition_NeutralToSleepy",
+        "shapeAction": "Pet_TransitionShapes_NeutralToSleepy",
+        "mouthAction": "Pet_TransitionMouth_NeutralToSleepy",
+        "loop": false
+      },
+      {
+        "emotion": "confused",
+        "durationSeconds": 0.5,
+        "frames": [
+          1,
+          16
+        ],
+        "boneAction": "Pet_Transition_NeutralToConfused",
+        "shapeAction": "Pet_TransitionShapes_NeutralToConfused",
+        "mouthAction": "Pet_TransitionMouth_NeutralToConfused",
+        "loop": false
+      }
+    ]
+  },
+  "specialExpressions": [
+    {
+      "id": "Squeeze",
+      "aliases": [
+        "><",
+        ">o<"
+      ],
+      "revision": 15,
+      "status": "provisionally-retained-and-frozen-at-user-request",
+      "humanReview": "用户暂时保留 V15",
+      "fallbackEmotion": "happy",
+      "objects": [
+        "CHDDD_TestSqueeze_EyeLines"
+      ],
+      "texturePath": "Material/CHDDD/Textures/mika_squeeze_eyes_review.png",
+      "vectorSourcePath": "Material/CHDDD/Textures/mika_squeeze_eyes_review.svg",
+      "shapeAction": "Review9_TestSqueeze_Shapes",
+      "materialActions": {
+        "CHDDD_MouthAtlas": "Review9_TestSqueeze_Mouth",
+        "CHDDD_Face": "Review9_TestSqueeze_FaceMaterial",
+        "CHDDD_EyeMouth": "Review9_TestSqueeze_OldLashMaterial",
+        "Review9_SqueezeEyeLine": "Review9_TestSqueeze_EyeLineMaterial"
+      },
+      "blenderFunction": "preview_review9_expression",
+      "blenderOperator": "chddd.review9_expression",
+      "enabledExtraShapes": [
+        "Pet_BrowHappy_Review",
+        "Pet_TestRoundMouth_Review"
+      ],
+      "description": "Head 绑定镜像平面贴图，真实闭眼后显示 ><，原图集 605 加窄圆口形变；随后复原",
+      "durationSeconds": 2.4,
+      "authoringFps": 30,
+      "frames": [
+        1,
+        73
+      ],
+      "loop": false,
+      "sharedEmotionEnum": false,
+      "keyFrame": 37,
+      "headBone": "Bip001 Head",
+      "unityRenderVerified": true,
+      "includedInUnity7Package": false,
+      "integratedInMainProgram": false,
+      "runtimeEnabled": false,
+      "unitySamplePath": "Material/CHDDD/Integration/UnityExpressionReference/Assets/Review/expression_samples.json",
+      "unitySampleName": "Squeeze",
+      "unitySampleFps": 24,
+      "sampleCount": 58,
+      "sourceKeyNamesRetainedForCompatibility": true
+    },
+    {
+      "id": "Omega",
+      "aliases": [
+        "-ω-"
+      ],
+      "revision": 17,
+      "status": "frozen-at-user-request-after-unity-render-test",
+      "humanReview": "用户结束实验，未单独记录 V17 美术通过",
+      "fallbackEmotion": "sleepy",
+      "objects": [
+        "CHDDD_TestOmega_Eyes",
+        "CHDDD_TestOmega_Mouth"
+      ],
+      "shapeAction": "Review16_TestOmega_Shapes",
+      "materialActions": {
+        "Review16_OmegaEyeLine": "Review16_TestOmega_Eyes",
+        "Review16_OmegaMouth": "Review16_TestOmega_MouthLine",
+        "CHDDD_Face": "Review16_TestOmega_Face",
+        "CHDDD_EyeMouth": "Review16_TestOmega_OldLashes",
+        "CHDDD_MouthAtlas": "Review16_TestOmega_MouthAtlas"
+      },
+      "blenderFunction": "preview_review16_omega",
+      "blenderOperator": "chddd.review16_omega",
+      "eyeStrokeMultiplierVs16": 1.55,
+      "mouthStrokeMultiplierVs16": 1.65,
+      "description": "复制原眉毛几何与 UV 作为镜像眼线，独立圆弧 ω 嘴网格；真实闭眼，旧嘴淡出后复原",
+      "durationSeconds": 2.4,
+      "authoringFps": 30,
+      "frames": [
+        1,
+        73
+      ],
+      "loop": false,
+      "sharedEmotionEnum": false,
+      "keyFrame": 37,
+      "headBone": "Bip001 Head",
+      "unityRenderVerified": true,
+      "includedInUnity7Package": false,
+      "integratedInMainProgram": false,
+      "runtimeEnabled": false,
+      "unitySamplePath": "Material/CHDDD/Integration/UnityExpressionReference/Assets/Review/expression_samples.json",
+      "unitySampleName": "Omega",
+      "unitySampleFps": 24,
+      "sampleCount": 58,
+      "sourceKeyNamesRetainedForCompatibility": true
+    }
+  ],
+  "mouthAtlas": {
+    "texturePath": "Material/CHDDD/Textures/Character_Mouth.png",
+    "tiles": [
+      300,
+      706,
+      705,
+      604,
+      605,
+      305,
+      401,
+      200
+    ],
+    "slotCount": 8,
+    "triangleTile": 200,
+    "normalizeWeights": true,
+    "properties": [
+      "_MouthBlendEnabled",
+      "_MouthTiles0",
+      "_MouthTiles1",
+      "_MouthWeights0",
+      "_MouthWeights1"
+    ]
+  },
+  "sourceReuse": {
+    "Idle": "CH0069_Cafe_Idle",
+    "Walk": "CH0069_Cafe_Walk",
+    "Dragging": {
+      "oneBasedGLBIndex": 29,
+      "clip": "CH0069_Formation_Pickup",
+      "originalEyeScalingExcluded": true
+    }
+  },
+  "eventBindings": [
+    {
+      "event": "default",
+      "actionId": "Idle",
+      "suggestedSharedEmotion": null,
+      "basis": "§28/29",
+      "note": "状态驱动",
+      "bindingImplementedInMainProgram": false
+    },
+    {
+      "event": "move.started",
+      "actionId": "Walk",
+      "suggestedSharedEmotion": null,
+      "basis": "§29",
+      "note": "宿主负责移动",
+      "bindingImplementedInMainProgram": false
+    },
+    {
+      "event": "llm.waiting",
+      "actionId": "Thinking",
+      "suggestedSharedEmotion": "concern",
+      "basis": "§1/39",
+      "note": "与共享情绪分离",
+      "bindingImplementedInMainProgram": false
+    },
+    {
+      "event": "tool.executing",
+      "actionId": "Working",
+      "suggestedSharedEmotion": null,
+      "basis": "§39",
+      "note": "持续到实际结果或取消",
+      "bindingImplementedInMainProgram": false
+    },
+    {
+      "event": "tool.succeeded",
+      "actionId": "Success",
+      "suggestedSharedEmotion": "happy",
+      "basis": "§39",
+      "note": "只触发一次，动作内表情优先",
+      "bindingImplementedInMainProgram": false
+    },
+    {
+      "event": "tool.failed",
+      "actionId": "Confused",
+      "suggestedSharedEmotion": "concern",
+      "basis": "§39",
+      "note": "不把 confused 写入共享枚举",
+      "bindingImplementedInMainProgram": false
+    },
+    {
+      "event": "head.click",
+      "actionId": "HeadClick",
+      "suggestedSharedEmotion": null,
+      "basis": "§46",
+      "note": "短点、长按、拖动互斥",
+      "bindingImplementedInMainProgram": false
+    },
+    {
+      "event": "head.longPress",
+      "actionId": "HeadPat",
+      "suggestedSharedEmotion": null,
+      "basis": "§46",
+      "note": "释放调用 ReturnToIdle 一次",
+      "bindingImplementedInMainProgram": false
+    },
+    {
+      "event": "body.click",
+      "actionId": "BodyClick",
+      "suggestedSharedEmotion": null,
+      "basis": "§46 + 制作补充",
+      "note": "明确 Body Collider",
+      "bindingImplementedInMainProgram": false
+    },
+    {
+      "event": "drag.started",
+      "actionId": "Dragging",
+      "suggestedSharedEmotion": null,
+      "basis": "§46",
+      "note": "抢占 HeadPat；窗口移动由宿主处理",
+      "bindingImplementedInMainProgram": false
+    },
+    {
+      "event": "rest.entered",
+      "actionId": "Sleep",
+      "suggestedSharedEmotion": "sleepy",
+      "basis": "§28 + 制作方案",
+      "note": "宿主决定进入睡眠",
+      "bindingImplementedInMainProgram": false
+    },
+    {
+      "event": "greeting",
+      "actionId": "Wave",
+      "suggestedSharedEmotion": "happy",
+      "basis": "用户设计方向",
+      "note": "低频，按一次实际事件触发",
+      "bindingImplementedInMainProgram": false
+    }
+  ],
+  "hostPolicy": {
+    "implemented": false,
+    "requiredPriorityRelations": [
+      [
+        "Dragging",
+        "HeadPat"
+      ]
+    ],
+    "suggestedPriority": "拖动 > 直接触摸 > 工具状态和结果 > 主动问候 / 待机",
+    "specialPerformanceScheduling": "事件驱动、低频、同一事件去重；不按每帧重播，不无限排队",
+    "unknownActionFallback": "Idle",
+    "unknownEmotionFallback": "neutral",
+    "allowLLMBoneControl": false,
+    "exposeInternalTransitionClipsToLLM": false,
+    "exposeUnintegratedSpecialExpressionsToLLM": false,
+    "fixedOneShotNextAction": "Idle",
+    "restoreStillActiveHostStateAfterFeedback": true,
+    "resolvedActionAliasesAreHostResponsibility": true,
+    "requiresCancellationTokenForHostAsyncFlows": true
+  },
+  "controllerContract": {
+    "body": {
+      "type": "CHDDDBodyControllerV2",
+      "methods": [
+        "PlayAction(string,float=-1)",
+        "ReturnToIdle()",
+        "SetManualEmotion(string,float=.5)",
+        "ResumeActionExpressions(float=.28)"
+      ],
+      "currentActionIsLogicalNotStage": true,
+      "defaultBlendSeconds": 0.28,
+      "exitBlendSeconds": 0.15,
+      "manualModePersistsAcrossPlayAction": true,
+      "jsonDoesNotRebuildAnimatorTransitions": true
+    },
+    "face": {
+      "type": "CHDDDActionFaceControllerV2",
+      "sampledByBodyNormalizedTime": true,
+      "directFields": [
+        "blink",
+        "sad",
+        "annoyed",
+        "sleepy",
+        "mouthWeights"
+      ],
+      "fieldsNotDirectlyWrittenByCurrentCSharp": [
+        "gazeX",
+        "gazeY",
+        "browLift",
+        "happy"
+      ],
+      "eyeWideWrittenAs": 0,
+      "latestOptionalHappyField": {
+        "shape": "Pet_BrowHappy_Review",
+        "defaultValue": 0,
+        "requiresCSharpSampleAndBlendExtension": true
+      },
+      "newHappyBrowShapeSupportedByUnity7Controller": false
+    },
+    "manualEmotion": {
+      "type": "CHDDDExpressionController",
+      "defaultBlendSeconds": 0.5,
+      "easing": "smoothstep",
+      "unknownEmotion": "neutral"
+    },
+    "specialExpressionRuntimeControllerImplemented": false
+  },
+  "specialExpressionPorting": {
+    "samplePath": "Material/CHDDD/Integration/UnityExpressionReference/Assets/Review/expression_samples.json",
+    "sampleFps": 24,
+    "sampleIncludesExactEndPoint": false,
+    "explicitResetOnCompletionAndInterruption": true,
+    "resetFieldsToZero": [
+      "eyeSkinMask",
+      "oldEyeMask",
+      "squeeze",
+      "omegaEye",
+      "omegaMouth",
+      "hideMouth"
+    ],
+    "alwaysZeroShapes": [
+      "Pet_TestSqueeze_Review"
+    ],
+    "vertexMask": {
+      "name": "UnityReviewMasks",
+      "encoding": "LINEAR RGBA CORNER",
+      "R": "closed-eye skin",
+      "G": "closed-lid seam cleanup",
+      "B": "old eye inserts",
+      "A": 1
+    },
+    "shaderNames": [
+      "CHDDD/ReviewFace",
+      "CHDDD/ReviewEyeMouth",
+      "CHDDD/ReviewOverlay",
+      "CHDDD/ReviewMouthAtlas"
+    ],
+    "updateFaceNormalProperty": "_ReviewFaceNormal",
+    "editorReviewDriverIsPlayerAPI": false,
+    "referenceFBXContainsFull18BodyClips": false
+  },
+  "mainProgram": {
+    "projectPath": "GiftCompanion",
+    "manifestPath": "GiftCompanion/Assets/Characters/MainCharacter/Config/character_manifest.json",
+    "currentAssetStatus": "awaiting-assets",
+    "characterStillPlaceholder": true,
+    "targetManifestSection": "pet",
+    "sharedEnumCodePath": "GiftCompanion/Assets/App/Core/Character/CharacterModels.cs",
+    "spineCompanionUsesSeparateManifestAndAdapter": true
+  },
+  "excludedFromUse": [
+    "持枪 / 战斗来源动画",
+    "Pet_TestSqueeze_Review 失败形变",
+    "V8-V14 被后续替代的眼线实验",
+    "旧 V1 作为当前默认交付",
+    "将测试参考 FBX 替代全动作模型"
+  ],
+  "assets": [
+    {
+      "path": "项目总宪法.md",
+      "role": "normativeProjectManual",
+      "bytes": 32959,
+      "sha256": "b79b82929af33d8e369258593784fe068bdc42c945301004f9bce172b97b999a"
+    },
+    {
+      "path": "Material/CH0069/Model/CH0069.glb",
+      "role": "immutableSourceModel",
+      "bytes": 14295312,
+      "sha256": "57816e04521d12a9615cb5081fc7db90bb7fe0ae8f36d3cec3ed04dfad9b67a0"
+    },
+    {
+      "path": "Material/CH0069/Animations/animation_manifest.json",
+      "role": "sourceAnimationInventory",
+      "bytes": 7649472,
+      "sha256": "32fd5e8df7331320a2a4c2f9375110879c068d86cd83b09112966e42062ff2c4"
+    },
+    {
+      "path": "Material/CHDDD/SourceMetadata/source_provenance.json",
+      "role": "sourceProvenance",
+      "bytes": 160034,
+      "sha256": "8fc8c3b0c4a33980ca5917677a06e44a0f98eb52de126b23340874e2064236af"
+    },
+    {
+      "path": "Material/CHDDD/CHDDD_actions_v2.blend",
+      "role": "latestAuthoringModel",
+      "bytes": 30576670,
+      "sha256": "2c594c7c5ae4f27631bc8eea93b6f61768e94a40af5468927dd6c78a31bf3e36"
+    },
+    {
+      "path": "Material/CHDDD/Blender/body_action_map_v2.json",
+      "role": "latestAuthoringActionMap",
+      "bytes": 14600,
+      "sha256": "9557b7e5ecd1750cf0b9a4704819c6c05f287ce3392a4ccfc1c116efa7bb0caa"
+    },
+    {
+      "path": "Material/CHDDD/Blender/action_face_profiles_v2.json",
+      "role": "latestAuthoringFaceProfiles",
+      "bytes": 286394,
+      "sha256": "c170a3b2fe9d64f86634811befb0b016a44a1b9228ca1949326289ffe5c11a6d"
+    },
+    {
+      "path": "Material/CHDDD/Blender/expression_map_v2.json",
+      "role": "latestAuthoringStaticEmotions",
+      "bytes": 1993,
+      "sha256": "a2bf01785cc07b40790acb888736957806d755f17abce750c5480072634a0d7c"
+    },
+    {
+      "path": "Material/CHDDD/CHDDD_BodyControls_v2.py",
+      "role": "blenderBodyAndSpecialExpressionPreview",
+      "bytes": 6851,
+      "sha256": "f213b2a6302ae3149a5bc80010e67266cba46c819cbb13c94f2258a98fb8fe33"
+    },
+    {
+      "path": "Material/CHDDD/CHDDD_Controls.py",
+      "role": "blenderStandardEmotionPreview",
+      "bytes": 9019,
+      "sha256": "cfb40df782b9fbc1522050aa70d0ad6cc99e02aaeed2eab217dc1cc1ea30d6f5"
+    },
+    {
+      "path": "Material/CHDDD/CHDDD_Actions_v2.unitypackage",
+      "role": "verifiedFullUnityPackageRevision7",
+      "bytes": 16274401,
+      "sha256": "c1d507d93c9af95b0f3b9e8db26fd8dc7598eabfff3160a8a2e031484b53d7a4"
+    },
+    {
+      "path": "Material/CHDDD/Unity/CHDDD_Actions_v2.fbx",
+      "role": "unity7Model",
+      "bytes": 85123788,
+      "sha256": "0cf331b6319745c8a9916bb27e10b9202b2c9846485342248d929134178bd77e"
+    },
+    {
+      "path": "Material/CHDDD/Unity/CHDDD_Actions_v2.prefab",
+      "role": "unity7Prefab",
+      "bytes": 199473,
+      "sha256": "d8d5fc5bb5cf9bc3065b4d85e3e95d952e274a35d1019939b7927fec34210676"
+    },
+    {
+      "path": "Material/CHDDD/Unity/CHDDD_Actions_v2.controller",
+      "role": "unity7Animator",
+      "bytes": 51293,
+      "sha256": "5fca8d7cc66a1d7ccca3704b3b7fc511b9a95ad646ab1db307fc4e3bd9558a56"
+    },
+    {
+      "path": "Material/CHDDD/Unity/CHDDD_Face_v2.mask",
+      "role": "unity7FaceMaskExcludingHead",
+      "bytes": 23790,
+      "sha256": "c08dc3fcb97e6d43f49c4430ec598df4184fb1f530d836c982a9fdf8451aebc2"
+    },
+    {
+      "path": "Material/CHDDD/Unity/body_action_map_v2.json",
+      "role": "unity7ActionMap",
+      "bytes": 14382,
+      "sha256": "a35fb4dd58915c5950d704059e17339dd7ecd5953a8968468057b76784e94307"
+    },
+    {
+      "path": "Material/CHDDD/Unity/action_face_profiles_v2.json",
+      "role": "unity7FaceProfiles",
+      "bytes": 284424,
+      "sha256": "c8b3521ca42637852ac125400fa3defbd0ab53bd1d5da4fb350940924e6641db"
+    },
+    {
+      "path": "Material/CHDDD/Unity/expression_map_v2.json",
+      "role": "unity7StaticEmotions",
+      "bytes": 1993,
+      "sha256": "a2bf01785cc07b40790acb888736957806d755f17abce750c5480072634a0d7c"
+    },
+    {
+      "path": "Material/CHDDD/Unity/CHDDDBodyControllerV2.cs",
+      "role": "unityBodyPlaybackController",
+      "bytes": 4214,
+      "sha256": "2db9ad85a52c74b5757cf8540e3904eacc5cdba5f0fc7a4bed14c16c7802d66e"
+    },
+    {
+      "path": "Material/CHDDD/Unity/CHDDDActionFaceControllerV2.cs",
+      "role": "unityActionFaceController",
+      "bytes": 7620,
+      "sha256": "9214c0d7bffcf75f135e86981fc172c77999ee9efa81fd499f2b186f88bb7cc7"
+    },
+    {
+      "path": "Material/CHDDD/Unity/CHDDDExpressionController.cs",
+      "role": "unityManualEmotionController",
+      "bytes": 7087,
+      "sha256": "2e95b1288595d1e97c6b1ae3f45dc01dcf2842048af266a79ef5fb632c637d62"
+    },
+    {
+      "path": "Material/CHDDD/Textures/mika_squeeze_eyes_review.png",
+      "role": "squeeze15Texture",
+      "bytes": 23902,
+      "sha256": "05db95c38df6c0be4cd1d635e456a31470cc9e5a07077a7e34c21df8332a8754"
+    },
+    {
+      "path": "Material/CHDDD/Textures/mika_squeeze_eyes_review.svg",
+      "role": "squeeze15VectorSource",
+      "bytes": 572,
+      "sha256": "590df72e35bea38180f82343c6c1825bc0d6689b99ad95cc8de32898c40898ea"
+    },
+    {
+      "path": "Material/CHDDD/Integration/UnityExpressionReference/ProjectSettings/ProjectVersion.txt",
+      "role": "expressionReferenceEditorVersion",
+      "bytes": 83,
+      "sha256": "50f1bf3fb4196ce6ddf6dbd0eb2ef8c2227a18b5ff762c90e1cb4feab8a06b4a"
+    },
+    {
+      "path": "Material/CHDDD/Integration/UnityExpressionReference/Assets/Review/UnityExpressions.unity",
+      "role": "expressionReferenceScene",
+      "bytes": 215876,
+      "sha256": "0d110111015e43e13301782c1c7ccb6cb1080090104b353816d7b4ab36e230b5"
+    },
+    {
+      "path": "Material/CHDDD/Integration/UnityExpressionReference/Assets/Review/Model/CHDDD_ExpressionReview.fbx",
+      "role": "expressionReferenceModelNotFullBodyDelivery",
+      "bytes": 3653436,
+      "sha256": "00007ade53da93ae94f2ef2600fbd19dbb2ab657163af4dfc868f174c3da4129"
+    },
+    {
+      "path": "Material/CHDDD/Integration/UnityExpressionReference/Assets/Review/expression_samples.json",
+      "role": "unitySpecialExpressionSamples",
+      "bytes": 73899,
+      "sha256": "5639d86bc7b246515a6c93d3711bb0c734c5b22a6ee0ca98ae34b3163750443f"
+    },
+    {
+      "path": "Material/CHDDD/Integration/UnityExpressionReference/Assets/Review/Editor/CHDDDUnityExpressionReview.cs",
+      "role": "editorOnlyExpressionReviewDriver",
+      "bytes": 14218,
+      "sha256": "e348af4d5f167727236a594c79f87289fd4508895a25b67baf935f3e65554853"
+    },
+    {
+      "path": "Material/CHDDD/Reviews/UnityExpressionV17/unity_validation.json",
+      "role": "specialExpressionRenderValidation",
+      "bytes": 531,
+      "sha256": "3a0563854a470ef19504d018227601a16229be28de7afe648b263fb3228e77ab"
+    },
+    {
+      "path": "Material/CHDDD/Reviews/UnityExpressionV17/Preview/index.html",
+      "role": "specialExpressionUnityPreview",
+      "bytes": 5630,
+      "sha256": "105df73a343d0b0e7ac048f9c7701d7521f639e58e87d397d984f91de512ccf3"
+    },
+    {
+      "path": "Material/CHDDD/Reviews/V9_SecondReview/Preview/index.html",
+      "role": "latestBodyRefinementBlenderPreview",
+      "bytes": 6809,
+      "sha256": "370acf1e19128a0f2f19594b075f8e67754ddec42b350070575c50468608b93a"
+    },
+    {
+      "path": "Material/CHDDD/Previews/ActionsV2/readability.html",
+      "role": "unity7BodyReadabilityPreview",
+      "bytes": 10986,
+      "sha256": "38e4c28d171e8932fc9bf310154690255a285739ecd5f1b776028ae3712d9459"
+    },
+    {
+      "path": "Material/CHDDD/body_v2_unity_validation.json",
+      "role": "unity7FullPlaybackValidation",
+      "bytes": 2312,
+      "sha256": "58d4c9b7c5dca175400cf078fa0f6a7c81e72ca56e76b1b94cb9cf9d9f29f0e0"
+    },
+    {
+      "path": "Material/CHDDD/body_v2_revision7_unity_local_validation.json",
+      "role": "unity7LocalFaceValidation",
+      "bytes": 165,
+      "sha256": "a573d9eeea57ca50e4de40e3a2dd5bcd045d32975e41126e7198679f5ad95e47"
+    },
+    {
+      "path": "Material/CHDDD/recovery_validation.json",
+      "role": "blender17RecoveryValidation",
+      "bytes": 815,
+      "sha256": "b08956ff9f2ab1b66131088f50c6aa636fff63fb92e31f13fa6444274a11591b"
+    },
+    {
+      "path": "Docs/Production/CHDDD/主程序资源接入清单.md",
+      "role": "handoffGuide",
+      "bytes": 15797,
+      "sha256": "20af49a1b920b38132c82ed291abd5acaa542dea7d82fdfc86e5984c155deabe"
+    },
+    {
+      "path": "Docs/Production/CHDDD/动作与表情详解.md",
+      "role": "actionAndExpressionDetails",
+      "bytes": 16104,
+      "sha256": "772977eb01d1b440ab4265c3f7f9663f66cffa6c383e4bfcc019cd09add600d5"
+    }
+  ]
+}

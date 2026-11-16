@@ -1,0 +1,173 @@
+{
+  "name": "FX_MAT_Aura_Distort_Scroll_02",
+  "shader": {
+    "status": "resolved",
+    "name": "DSFX/FX_SHADER_AlphaBlend_Add_Distort_0",
+    "file": "Shaders/DSFX_FX_SHADER_AlphaBlend_Add_Distort_0__6006448949377491269.shader.json",
+    "serializedFile": "CAB-dfc5bcc011d85f284a539a56baf966f7",
+    "reference": {
+      "fileId": 1,
+      "pathId": 6006448949377491269
+    }
+  },
+  "renderQueue": 3000,
+  "shaderKeywords": null,
+  "textures": {
+    "_Tex_Distort": {
+      "texture": null,
+      "file": null,
+      "scale": [
+        1.0,
+        0.6000000238418579
+      ],
+      "offset": [
+        0.0,
+        0.23000000417232513
+      ],
+      "status": "unresolved-external",
+      "reference": {
+        "fileId": 14,
+        "pathId": -6998259684862556309
+      },
+      "externalFile": {
+        "cab": "CAB-0fd93406a79ff644f13b58a666115d67",
+        "archivePath": "archive:/CAB-0fd93406a79ff644f13b58a666115d67/CAB-0fd93406a79ff644f13b58a666115d67"
+      },
+      "error": "File cab-0fd93406a79ff644f13b58a666115d67 not found in the staged bundle scope"
+    },
+    "_Tex_Main": {
+      "texture": "FX_TEX_Circle_Glow_02",
+      "file": "Textures/Source/FX_TEX_Circle_Glow_02.png",
+      "scale": [
+        0.8999999761581421,
+        1.100000023841858
+      ],
+      "offset": [
+        0.5400000214576721,
+        -0.029999999329447746
+      ],
+      "sourceFormat": "50:ASTC_RGB_6x6",
+      "width": 128,
+      "height": 128,
+      "status": "exported"
+    },
+    "_Tex_Mask": {
+      "texture": null,
+      "file": null,
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0
+      ],
+      "status": "absent-in-source"
+    }
+  },
+  "floats": {
+    "_AlphaClip": 0.0,
+    "_Blend": 0.0,
+    "_BumpScale": 1.0,
+    "_Cull": 2.0,
+    "_Cull_Mode": 2.0,
+    "_Custom_Data_Distort_Power_Use": 0.0,
+    "_Custom_Data_GDistort_Power_Use": 0.0,
+    "_Custom_Data_MainMask_Offset_Use": 0.0,
+    "_Custom_Data_Offset_Use": 0.0,
+    "_Custom_Data_RDistort_Power_Use": 0.0,
+    "_Cutoff": 0.5,
+    "_Dis_Speed_X": -4.5,
+    "_Dis_Speed_Y": 0.0,
+    "_Distortion_Power_X": -0.5,
+    "_Distortion_Power_Y": 0.0,
+    "_DstBlend": 0.0,
+    "_EnvironmentReflections": 1.0,
+    "_GDistort_Power_X": 0.0,
+    "_GDistort_Power_Y": 0.0,
+    "_GDistort_Speed_X": 0.0,
+    "_GDistort_Speed_Y": 0.0,
+    "_GDistort_invert": 0.0,
+    "_GlossMapScale": 0.0,
+    "_Glossiness": 0.0,
+    "_GlossyReflections": 0.0,
+    "_Main_Distort_Use": 1.0,
+    "_Main_Distortion_Use": 1.0,
+    "_Main_Speed_X": 0.0,
+    "_Main_Speed_Y": 0.0,
+    "_Main_Texture_No": 0.0,
+    "_Mask_Distortion_Use": 0.0,
+    "_Mask_GDistort_Use": 0.0,
+    "_Mask_RDistort_Use": 0.0,
+    "_Mask_Speed_X": 0.0,
+    "_Mask_Speed_Y": 0.0,
+    "_Metallic": 0.0,
+    "_Multiply": 1.0,
+    "_OcclusionStrength": 1.0,
+    "_QueueOffset": 0.0,
+    "_RDistort_Power_X": 0.0,
+    "_RDistort_Power_Y": 0.0,
+    "_RDistort_Speed_X": 0.0,
+    "_RDistort_Speed_Y": 0.0,
+    "_RGBRGBA": 0.0,
+    "_ReceiveShadows": 1.0,
+    "_Smoothness": 0.5,
+    "_SmoothnessTextureChannel": 0.0,
+    "_SpecularHighlights": 1.0,
+    "_SrcBlend": 1.0,
+    "_Surface": 0.0,
+    "_WorkflowMode": 1.0,
+    "_ZOffsetFactor": 0.0,
+    "_ZOffsetUnits": 0.0,
+    "_ZTest_Mode": 4.0,
+    "_ZWrite": 1.0,
+    "_ZWrite_Mode": 0.0
+  },
+  "colors": {
+    "_BaseColor": [
+      0.5,
+      0.5,
+      0.5,
+      1.0
+    ],
+    "_Color": [
+      2.9960784912109375,
+      2.9960784912109375,
+      2.9960784912109375,
+      1.0
+    ],
+    "_EmissionColor": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "_G_Tilingxy_Offsetzw": [
+      1.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    "_R_Tilingxy_Offsetzw": [
+      1.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    "_SpecColor": [
+      0.19999995827674866,
+      0.19999995827674866,
+      0.19999995827674866,
+      1.0
+    ]
+  },
+  "ints": {},
+  "vectors": {},
+  "provenance": {
+    "bundle": "CAB-1de60467771e7319ddddaf8e2645428c",
+    "serializedFile": "CAB-1de60467771e7319ddddaf8e2645428c",
+    "classId": 21,
+    "pathId": 8207687041042492777
+  },
+  "logicalName": "FX_MAT_Aura_Distort_Scroll_02"
+}

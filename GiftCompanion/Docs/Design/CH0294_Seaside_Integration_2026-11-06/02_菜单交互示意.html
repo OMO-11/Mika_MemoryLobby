@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="zh-CN">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>海边大厅 · 菜单设计示意</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#111629;color:#fff7f3;font-family:"Microsoft YaHei",sans-serif}button{font:inherit;color:inherit;cursor:pointer}button:focus-visible,a:focus-visible{outline:2px solid #f4bfd5;outline-offset:4px}header{padding:18px 26px;display:flex;gap:16px;align-items:center;flex-wrap:wrap;font-size:14px;color:#d6d9ef}header b{color:#fff7f3}header a{color:#f4bfd5}main{position:relative;aspect-ratio:16/9;max-width:1440px;margin:auto;overflow:hidden;background:#191c48}.scene{position:absolute;inset:0;background:url('../../../../Material/CH0294_Seaside_交付整理_20261106/03_Previews/04_待机构图.png') center/cover}.music,.clock,.hint{position:absolute;text-shadow:0 1px 6px #17223a}.music{top:5%;left:5%;font:italic 24px Georgia,serif}.clock{right:4%;top:5%;font-size:28px}.hint{bottom:4%;left:5%;font-size:15px}.veil{position:absolute;inset:0;background:#0c112035;backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px)}.sheet{position:absolute;left:4.4%;top:8.8%;width:28.2%;height:82%;padding:30px;background:#252e5466;border:1px solid #fff4;border-radius:18px;box-shadow:0 12px 40px #0a0c2826;display:flex;flex-direction:column}.eyebrow{font-size:12px;color:#ebd7e6;letter-spacing:3px;margin:0 0 12px}h1{font-size:27px;font-weight:500;margin:0 0 24px}nav{display:flex;flex-direction:column;gap:7px;min-height:0;overflow:auto}nav button{background:transparent;border:1px solid transparent;border-radius:10px;padding:12px 16px;min-height:44px;text-align:left;font-size:19px}nav button:hover{background:#f4bfd51b;color:#ffe0eb;border-color:#f4bfd53b}.return{margin-top:auto;padding-top:15px;border-top:1px solid #fff2}.return button{background:transparent;border:0;color:#f4d4e2;padding:12px;min-height:44px;text-align:left;width:100%}.sheet small{font-size:12px;color:#ded5e4;margin-top:8px}.content{position:absolute;left:39%;top:15%;width:53%;padding:32px;background:#252e5466;border:1px solid #fff3;border-radius:18px}.content h2{font-size:24px;font-weight:500;margin:0 0 24px}.content p{line-height:1.8;color:#ede4ed}.space{display:flex;gap:16px;align-items:center;padding:18px 0;border-bottom:1px solid #fff2}.space span{flex:1}.space button,.back{background:#fff1;border:1px solid #fff4;border-radius:8px;padding:10px 14px;min-height:44px}.space button:disabled{color:#cfbed4;cursor:default}.back{margin-top:24px}footer{max-width:1440px;margin:auto;padding:20px 26px;color:#c6c6db;line-height:1.8;font-size:14px}[hidden]{display:none!important}@media(max-width:1000px){h1{font-size:20px;margin-bottom:12px}.sheet{padding:16px}nav{gap:0}nav button{padding:7px 10px;font-size:16px}.eyebrow{letter-spacing:1px}.sheet small{display:none}.content{padding:18px}.music{font-size:18px}.clock{font-size:22px}}@media(prefers-reduced-motion:no-preference){.sheet,.content{animation:appear .2s ease-out}@keyframes appear{from{opacity:0}to{opacity:1}}}
+</style>
+<header><b>海边记忆大厅 · 设计审核</b><span>静态资源截图 + 菜单交互示意，尚未接入 Unity</span><a href="01_设计方案.md">阅读完整方案</a></header>
+<main>
+ <div class="scene"></div>
+ <div class="music">♫ &nbsp;沿用当前音乐</div><div class="clock">21:36</div>
+ <div class="hint">Enter 说话 · Esc 菜单　（本页按 Esc 可预览开合）</div>
+ <div class="veil" id="veil"></div>
+ <section class="sheet" id="sheet" aria-label="海边菜单">
+  <p class="eyebrow">SEASIDE · MEMORY LOBBY</p><h1 id="title">海边记忆大厅</h1>
+  <nav aria-label="功能菜单">
+   <button data-page="聊天记录">聊天记录</button><button data-page="日记">日记</button>
+   <button data-page="陪伴空间">陪伴空间</button><button data-page="人物设定">人物设定</button><button data-page="设置">设置</button>
+  </nav>
+  <div class="return"><button id="close">← 回到未花</button></div><small>Esc 收起 · 动态背景继续播放</small>
+ </section>
+ <section class="content" id="content" hidden aria-label="内页示意">
+  <h2 id="pageTitle"></h2><div id="spaceList" hidden>
+   <div class="space"><span>记忆大厅<br><small>保留已有窗边运镜</small></span><button data-space="记忆大厅">进入</button></div>
+   <div class="space"><span>海边记忆大厅<br><small>Esc 直接打开菜单</small></span><button data-space="海边记忆大厅" disabled>当前空间</button></div>
+   <p>这里只演示选择反馈；不会切换真实程序或保存玩家配置。</p>
+  </div><p id="pageNote">此处接入当前项目已有页面。本示意不填充虚构的聊天、日记或人物资料。</p>
+  <button class="back" id="back">← 返回菜单</button>
+ </section>
+</main>
+<footer>审核重点：左侧菜单避开人物面部；半透明冷色玻璃、暖白文字与淡粉焦点。Unity 实现将采集持续运行的场景作为模糊背景，本页背景为交付包 PNG，时钟与音乐文字均为示意。点击背景或按 Esc 可收起，再按 Esc 可打开；内页 Esc 先返回菜单。</footer>
+<script>
+const sheet=document.getElementById('sheet'),veil=document.getElementById('veil'),content=document.getElementById('content'),spaceList=document.getElementById('spaceList'),pageNote=document.getElementById('pageNote');
+function closeMenu(){sheet.hidden=veil.hidden=content.hidden=true}
+function showMenu(){sheet.hidden=veil.hidden=false;content.hidden=true}
+function back(){if(!content.hidden){showMenu()}else if(!sheet.hidden){closeMenu()}else{showMenu()}}
+document.getElementById('close').onclick=closeMenu;document.getElementById('back').onclick=showMenu;veil.onclick=closeMenu;
+document.querySelectorAll('[data-page]').forEach(b=>b.onclick=()=>{content.hidden=false;document.getElementById('pageTitle').textContent=b.dataset.page;spaceList.hidden=b.dataset.page!=='陪伴空间';pageNote.hidden=!spaceList.hidden});
+document.querySelectorAll('[data-space]').forEach(b=>b.onclick=()=>{document.querySelectorAll('[data-space]').forEach(x=>{x.disabled=x===b;x.textContent=x===b?'当前空间':'进入'});document.getElementById('title').textContent=b.dataset.space+'（示意选择）'});
+document.addEventListener('keydown',e=>{if(e.key==='Escape'){e.preventDefault();back()}});
+</script>
+</html>

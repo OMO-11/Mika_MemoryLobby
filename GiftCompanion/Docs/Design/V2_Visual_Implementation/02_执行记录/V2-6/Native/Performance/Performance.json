@@ -1,0 +1,53 @@
+{
+  "passed": true,
+  "error": null,
+  "flags": {
+    "companionDefault": true,
+    "petDisabled": true,
+    "sixRoundTripsSameCore": true,
+    "sampleCount0": true,
+    "ambientContinues0": true,
+    "sampleCount1": true,
+    "ambientContinues1": true,
+    "sampleCount2": true,
+    "ambientContinues2": true,
+    "noVoiceProcess": true,
+    "savedShutdown": true
+  },
+  "metrics": [
+    {
+      "phase": "character",
+      "seconds": 19.9195576,
+      "frames": 1132,
+      "meanFps": 56.82857,
+      "p95Milliseconds": 31.5266037,
+      "p99Milliseconds": 33.2191
+    },
+    {
+      "phase": "window",
+      "seconds": 20.0673275,
+      "frames": 1099,
+      "meanFps": 54.7656364,
+      "p95Milliseconds": 32.426403,
+      "p99Milliseconds": 33.1745033
+    },
+    {
+      "phase": "settings",
+      "seconds": 19.9973087,
+      "frames": 1062,
+      "meanFps": 53.1071472,
+      "p95Milliseconds": 33.0672035,
+      "p99Milliseconds": 33.4284019
+    },
+    {
+      "privateStartMiB": 0.0,
+      "privateEndMiB": 0.0,
+      "screenWidth": 1280,
+      "screenHeight": 720,
+      "vsync": 1,
+      "targetFrameRate": -1
+    }
+  ],
+  "graphics": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "unity": "6000.3.7f1"
+}

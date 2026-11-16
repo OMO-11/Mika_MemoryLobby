@@ -1,0 +1,31 @@
+var g=UnityEngine.Object.FindFirstObjectByType<Spine.Unity.SkeletonGraphic>();var c=g.GetComponent<Mika.Seaside.SeasideLobbyController>();
+var cam=UnityEngine.Camera.main;var canvas=g.canvas;var scaler=canvas.GetComponent<UnityEngine.UI.CanvasScaler>();
+var oldTarget=cam.targetTexture;float oldScale=canvas.scaleFactor;bool oldScaler=scaler.enabled;
+var results=new System.Collections.Generic.List<object>();
+UnityEngine.Vector3[] referenceRoleVertices=null;
+try {
+    scaler.enabled=false;
+    foreach(int width in new[]{1652,1920,2520,1080}) {
+        int height=width==1080?1920:1080;
+        var target=new UnityEngine.RenderTexture(width,height,24);
+        try {
+            cam.targetTexture=target;target.Create();canvas.scaleFactor=UnityEngine.Mathf.Sqrt((float)width/1652f*(float)height/1080f);
+            UnityEngine.Canvas.ForceUpdateCanvases();cam.Render();UnityEngine.Canvas.ForceUpdateCanvases();c.FitViewport();
+            g.Initialize(true);c.ResetToIdle();g.Update(0);for(int i=0;i<30;i++)g.Update(1f/60f);
+            var head=g.Skeleton.FindBone("Head_Rot");float wx,wy;head.LocalToWorld(4.65f,0,out wx,out wy);
+            var world=g.transform.TransformPoint(new UnityEngine.Vector3(wx,wy,0)*g.MeshScale);
+            var screen=UnityEngine.RectTransformUtility.WorldToScreenPoint(cam,world);
+            g.LateUpdate();
+            float roleVertexMaxDelta=0;int roleVertexCount=0;
+            for(int i=0;i<g.TexturesMultipleCanvasRenderers.Count;i++)if(g.TexturesMultipleCanvasRenderers.Items[i].name=="CH0294_home") {
+                var vertices=g.MeshesMultipleCanvasRenderers.Items[i].vertices;roleVertexCount=vertices.Length;
+                if(referenceRoleVertices==null)referenceRoleVertices=(UnityEngine.Vector3[])vertices.Clone();
+                else {if(vertices.Length!=referenceRoleVertices.Length)throw new System.Exception("Role vertex count mismatch");for(int v=0;v<vertices.Length;v++)roleVertexMaxDelta=System.Math.Max(roleVertexMaxDelta,(vertices[v]-referenceRoleVertices[v]).magnitude);}
+            }
+            results.Add(new {width,height,foreheadNormalizedY=screen.y/height,visibleHeight=c.VisibleFrame.height,backgroundScale=c.BackgroundWidthScale,headA=head.A,headC=head.C,roleVertexCount,roleVertexMaxDelta,mappingFailures=c.BackgroundMappingFailures});
+        } finally {cam.targetTexture=oldTarget;target.Release();UnityEngine.Object.DestroyImmediate(target);}
+    }
+} finally {
+    cam.targetTexture=oldTarget;canvas.scaleFactor=oldScale;scaler.enabled=oldScaler;UnityEngine.Canvas.ForceUpdateCanvases();c.FitViewport();g.Initialize(true);c.ResetToIdle();
+}
+string json=Newtonsoft.Json.JsonConvert.SerializeObject(results,Newtonsoft.Json.Formatting.Indented);System.IO.File.WriteAllText("W:/Machine/VSCode/Mika_Gift/Material/Mika_memoryLobby_Seaside/Reports/CH0294/Interaction/framing_validation.json",json);return json;

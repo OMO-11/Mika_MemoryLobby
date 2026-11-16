@@ -1,0 +1,825 @@
+{
+  "character": "CH0069",
+  "bundleCount": 29,
+  "objectCount": 7708,
+  "objectTypeCounts": {
+    "Transform": 2259,
+    "GameObject": 2259,
+    "ParticleSystemRenderer": 775,
+    "ParticleSystem": 775,
+    "MonoBehaviour": 408,
+    "AudioClip": 327,
+    "Shader": 223,
+    "Material": 118,
+    "Texture2D": 83,
+    "AudioSource": 78,
+    "MeshFilter": 63,
+    "MeshRenderer": 63,
+    "Mesh": 60,
+    "MonoScript": 53,
+    "AnimationClip": 47,
+    "AssetBundle": 29,
+    "SkinnedMeshRenderer": 21,
+    "Animator": 18,
+    "TrailRenderer": 15,
+    "Light": 8,
+    "AnimatorOverrideController": 4,
+    "LookAtConstraint": 4,
+    "Camera": 4,
+    "AudioListener": 4,
+    "CapsuleCollider": 3,
+    "Sprite": 2,
+    "Avatar": 2,
+    "PlayableDirector": 2,
+    "NavMeshAgent": 1
+  },
+  "materials": 118,
+  "texturesInScope": 92,
+  "texturesReferenced": 73,
+  "texturesUnreferenced": [
+    "UISprite",
+    "Default-Checker",
+    "Background",
+    "Character_Mouth_Decagramaton",
+    "Character_Mouth_High",
+    "Character_Mouth_2",
+    "FX_TEX_Skillrange_04",
+    "FX_TEX_Skillrange_02",
+    "Character_Mouth_Black",
+    "Cha_Matcap_Cartoon_01",
+    "FX_TEX_Noise_01",
+    "FX_TEX_Gra_03a",
+    "FX_TEX_Gra_L_Line_08",
+    "FX_TEX_Skillrange_03",
+    "FX_TEX_Skillrange_01",
+    "FX_TEX_SkillRange_Rect_03",
+    "tex_terror_dissolve",
+    "tex_spine_scan_lines_128",
+    "tex_spine_scan_lines"
+  ],
+  "textureDecodeFailures": [],
+  "textureProperties": 266,
+  "texturePropertyStatuses": {
+    "absent-in-source": 45,
+    "exported": 104,
+    "unresolved-external": 117
+  },
+  "shaderStatuses": {
+    "resolved": 118
+  },
+  "shaderNames": [
+    {
+      "name": "DSFX/FX_SHADER_Additive_0",
+      "file": "Shaders/DSFX_FX_SHADER_Additive_0__-4115771715742154417.shader.json",
+      "properties": 8,
+      "subShaders": 1,
+      "materials": 4
+    },
+    {
+      "name": "DSFX/FX_SHADER_AlphaBlend_0",
+      "file": "Shaders/DSFX_FX_SHADER_AlphaBlend_0__-660637482714961986.shader.json",
+      "properties": 11,
+      "subShaders": 1,
+      "materials": 4
+    },
+    {
+      "name": "DSFX/FX_SHADER_AlphaBlend_Add_Distort_0",
+      "file": "Shaders/DSFX_FX_SHADER_AlphaBlend_Add_Distort_0__6006448949377491269.shader.json",
+      "properties": 23,
+      "subShaders": 1,
+      "materials": 28
+    },
+    {
+      "name": "DSFX/FX_SHADER_AlphaBlend_Add_Distort_Sp_0",
+      "file": "Shaders/DSFX_FX_SHADER_AlphaBlend_Add_Distort_Sp_0__-7661391696169625264.shader.json",
+      "properties": 20,
+      "subShaders": 1,
+      "materials": 3
+    },
+    {
+      "name": "DSFX/FX_SHADER_AlphaBlend_Add_Double_Distort_1a",
+      "file": "Shaders/DSFX_FX_SHADER_AlphaBlend_Add_Double_Distort_1a__4450463258115018475.shader.json",
+      "properties": 51,
+      "subShaders": 1,
+      "materials": 2
+    },
+    {
+      "name": "DSFX/FX_SHADER_AlphaBlend_Add_Mask_0_MXChar",
+      "file": "Shaders/DSFX_FX_SHADER_AlphaBlend_Add_Mask_0_MXChar__3621927111557840906.shader.json",
+      "properties": 28,
+      "subShaders": 1,
+      "materials": 1
+    },
+    {
+      "name": "DSFX/FX_SHADER_AlphaBlend_Add_Mask_0",
+      "file": "Shaders/DSFX_FX_SHADER_AlphaBlend_Add_Mask_0__9048613017353099110.shader.json",
+      "properties": 15,
+      "subShaders": 1,
+      "materials": 8
+    },
+    {
+      "name": "DSFX/FX_SHADER_AlphaBlend_Add",
+      "file": "Shaders/DSFX_FX_SHADER_AlphaBlend_Add__3898777625326355543.shader.json",
+      "properties": 11,
+      "subShaders": 1,
+      "materials": 15
+    },
+    {
+      "name": "DSFX/FX_SHADER_AlwaysView_Add",
+      "file": "Shaders/DSFX_FX_SHADER_AlwaysView_Add__1584433977853922739.shader.json",
+      "properties": 4,
+      "subShaders": 1,
+      "materials": 1
+    },
+    {
+      "name": "DSFX/FX_SHADER_Explosion_Smoke_Blur_Flowmap_0",
+      "file": "Shaders/DSFX_FX_SHADER_Explosion_Smoke_Blur_Flowmap_0__1850473241168910230.shader.json",
+      "properties": 22,
+      "subShaders": 1,
+      "materials": 2
+    },
+    {
+      "name": "DSFX/FX_SHADER_Multiplicative_0",
+      "file": "Shaders/DSFX_FX_SHADER_Multiplicative_0__-4464104027171258565.shader.json",
+      "properties": 9,
+      "subShaders": 1,
+      "materials": 1
+    },
+    {
+      "name": "DSFX/FX_SHADER_Step_0_MXChar",
+      "file": "Shaders/DSFX_FX_SHADER_Step_0_MXChar__-2498361731178882084.shader.json",
+      "properties": 33,
+      "subShaders": 1,
+      "materials": 1
+    },
+    {
+      "name": "DSFX/FX_SHADER_Step_0",
+      "file": "Shaders/DSFX_FX_SHADER_Step_0__1623461636472822082.shader.json",
+      "properties": 20,
+      "subShaders": 1,
+      "materials": 7
+    },
+    {
+      "name": "DSFX/FX_SHADER_Step_2side_0",
+      "file": "Shaders/DSFX_FX_SHADER_Step_2side_0__-3984670050576422439.shader.json",
+      "properties": 17,
+      "subShaders": 1,
+      "materials": 3
+    },
+    {
+      "name": "DSFX/FX_SHADER_Step_2side_Distort_0",
+      "file": "Shaders/DSFX_FX_SHADER_Step_2side_Distort_0__5592759411186919628.shader.json",
+      "properties": 25,
+      "subShaders": 1,
+      "materials": 1
+    },
+    {
+      "name": "DSFX/FX_SHADER_Step_Distort_0",
+      "file": "Shaders/DSFX_FX_SHADER_Step_Distort_0__-4662715053483388292.shader.json",
+      "properties": 28,
+      "subShaders": 1,
+      "materials": 17
+    },
+    {
+      "name": "Legacy Shaders/Particles/Alpha Blended Premultiply",
+      "file": "Shaders/Legacy_Shaders_Particles_Alpha_Blended_Premultiply__-6311608904141411874.shader.json",
+      "properties": 2,
+      "subShaders": 1,
+      "materials": 1
+    },
+    {
+      "name": "MX/C-Eyebrow",
+      "file": "Shaders/MX_C-Eyebrow__-1426215029351013349.shader.json",
+      "properties": 16,
+      "subShaders": 1,
+      "materials": 1
+    },
+    {
+      "name": "MX/C-EyesMouth",
+      "file": "Shaders/MX_C-EyesMouth__4090422124279144825.shader.json",
+      "properties": 13,
+      "subShaders": 1,
+      "materials": 1
+    },
+    {
+      "name": "MX/C-Face",
+      "file": "Shaders/MX_C-Face__-5291362573210086922.shader.json",
+      "properties": 27,
+      "subShaders": 1,
+      "materials": 1
+    },
+    {
+      "name": "MX/C-General/Layer4",
+      "file": "Shaders/MX_C-General_Layer4__3842354575187673020.shader.json",
+      "properties": 37,
+      "subShaders": 1,
+      "materials": 1
+    },
+    {
+      "name": "MX/C-Hair",
+      "file": "Shaders/MX_C-Hair__7510402755012584619.shader.json",
+      "properties": 37,
+      "subShaders": 1,
+      "materials": 1
+    },
+    {
+      "name": "MX/C-Halo/UnlitTextured",
+      "file": "Shaders/MX_C-Halo_UnlitTextured__-3862970092140889420.shader.json",
+      "properties": 14,
+      "subShaders": 1,
+      "materials": 1
+    },
+    {
+      "name": "MX/C-Simple",
+      "file": "Shaders/MX_C-Simple__-6980346964184212799.shader.json",
+      "properties": 20,
+      "subShaders": 1,
+      "materials": 2
+    },
+    {
+      "name": "MX/C-Weapon",
+      "file": "Shaders/MX_C-Weapon__-301851123381183171.shader.json",
+      "properties": 26,
+      "subShaders": 1,
+      "materials": 6
+    },
+    {
+      "name": "MX/VertexColor",
+      "file": "Shaders/MX_VertexColor__-4748460073302166418.shader.json",
+      "properties": 7,
+      "subShaders": 1,
+      "materials": 1
+    },
+    {
+      "name": "Skybox/Procedural",
+      "file": "Shaders/Skybox_Procedural__-6821589233416902178.shader.json",
+      "properties": 7,
+      "subShaders": 1,
+      "materials": 1
+    },
+    {
+      "name": "Sprites/Default",
+      "file": "Shaders/Sprites_Default__6340762012331174366.shader.json",
+      "properties": 7,
+      "subShaders": 1,
+      "materials": 1
+    },
+    {
+      "name": "Sprites/Mask",
+      "file": "Shaders/Sprites_Mask__-7252818451593664034.shader.json",
+      "properties": 6,
+      "subShaders": 1,
+      "materials": 1
+    },
+    {
+      "name": "Standard",
+      "file": "Shaders/Standard__8454733214968408542.shader.json",
+      "properties": 27,
+      "subShaders": 2,
+      "materials": 1
+    }
+  ],
+  "distinctShaderReferences": 30,
+  "eyemouth": [
+    {
+      "material": "CH0069_EyeMouth",
+      "textures": {
+        "_MainTex": "CH0069_EyeMouth",
+        "_MouthTileTex": "Character_Mouth"
+      },
+      "mouthTileCols": 8.0,
+      "mouthTileRows": 8.0
+    }
+  ],
+  "meshes": {
+    "count": 60,
+    "vertices": 74866,
+    "indices": 248667,
+    "decodeStatus": {
+      "decoded": 60
+    },
+    "blendShapes": {
+      "none-in-source": 60
+    },
+    "vertexBufferSource": {
+      "packed-in-compressed-mesh": 8,
+      "serialized-file": 46,
+      "resource-stream": 6
+    },
+    "indexBufferSource": {
+      "packed-in-compressed-mesh": 8,
+      "serialized-file": 52
+    },
+    "quantizedMeshes": 8,
+    "streamBackedMeshes": 6,
+    "subMeshTotal": 70
+  },
+  "hierarchy": {
+    "nodes": 2259,
+    "roots": 162,
+    "characterRoots": 38,
+    "characterRootNames": [
+      "CH0069",
+      "CH0069_Halo",
+      "CH0069_Mesh",
+      "Cafe_CH0069",
+      "Echelon_CH0069",
+      "FX_CH0069_Cafe_Reaction_Imotion_01",
+      "FX_CH0069_EX01_Motion_Cam_Cutin",
+      "FX_CH0069_EX01_Motion_Mesh_Cast",
+      "FX_CH0069_EX01_Motion_Mesh_Explosion",
+      "FX_CH0069_EX01_Motion_Mesh_Galaxy_Storm",
+      "FX_CH0069_EX01_Motion_Mesh_Hit01",
+      "FX_CH0069_EX01_Motion_Mesh_Muzzle",
+      "FX_CH0069_EX01_Motion_Mesh_Projectile_01",
+      "FX_CH0069_Ex01_Motion_CAM_BG_Sub_Obs_01",
+      "FX_CH0069_Ex01_Motion_CAM_Bip001_Flare",
+      "FX_CH0069_Ex01_Motion_CAM_Cam01",
+      "FX_CH0069_Ex01_Motion_CAM_Cutin_Terror_Mesh",
+      "FX_CH0069_Ex01_Motion_CAM_Eye_Emotion_L",
+      "FX_CH0069_Ex01_Motion_CAM_Eye_Emotion_R",
+      "FX_CH0069_Ex01_Motion_CAM_Halo",
+      "FX_CH0069_Ex01_Motion_CAM_Local_BG01",
+      "FX_CH0069_Ex01_Motion_CAM_Local_BG02",
+      "FX_CH0069_Ex01_Motion_CAM_Local_BG03",
+      "FX_CH0069_Ex01_Motion_CAM_Local_BG_Atlas",
+      "FX_CH0069_Ex01_Motion_CAM_Local_BG_Mesh",
+      "FX_CH0069_Formation_Pickup_Motion_01",
+      "FX_CH0069_Public_Motion_Mesh_Cast",
+      "FX_CH0069_Public_Motion_Mesh_Explo",
+      "FX_CH0069_Public_Motion_Mesh_Hit01",
+      "FX_CH0069_Public_Motion_Mesh_Meteor",
+      "FX_CH0069_Public_Motion_Mesh_Muzzle_1",
+      "FX_CH0069_Public_Motion_Mesh_Muzzle_Last",
+      "FX_CH0069_Public_Motion_Mesh_Projectile_01",
+      "FX_CH0069_Public_Motion_Mesh_Projectile_Last",
+      "FX_CH0069_Public_Motion_Mesh_Smoke",
+      "FX_CH0069_Victory_Random_Start_01",
+      "FX_CH0069_Victory_Start_01",
+      "Strategy_CH0069"
+    ],
+    "detached": 0,
+    "animators": 18,
+    "avatars": [
+      "CH0069_MeshAvatar",
+      "CH0069_HaloAvatar"
+    ],
+    "avatarTosPaths": 154
+  },
+  "renderers": {
+    "count": 874,
+    "byKind": {
+      "MeshRenderer": 63,
+      "ParticleSystemRenderer": 775,
+      "SkinnedMeshRenderer": 21,
+      "TrailRenderer": 15
+    },
+    "underCharacterRoot": 361,
+    "subMeshMaterialCountMatch": 866,
+    "subMeshMaterialMismatched": [
+      {
+        "kind": "ParticleSystemRenderer",
+        "node": "FX_CH0069_EX01_Motion_Mesh_Galaxy_Storm/FX_Bill/POS_0/POS/Helix_Planet",
+        "subMeshCount": 1,
+        "materialSlotCount": 2
+      },
+      {
+        "kind": "ParticleSystemRenderer",
+        "node": "FX_Public_FlashBang_Projectile/bullet",
+        "subMeshCount": 1,
+        "materialSlotCount": 2
+      },
+      {
+        "kind": "ParticleSystemRenderer",
+        "node": "FX_Public_HandGrenades_Projectile/bullet",
+        "subMeshCount": 1,
+        "materialSlotCount": 2
+      },
+      {
+        "kind": "ParticleSystemRenderer",
+        "node": "FX_Public_LandMine_Projectile/bullet",
+        "subMeshCount": 1,
+        "materialSlotCount": 2
+      },
+      {
+        "kind": "ParticleSystemRenderer",
+        "node": "FX_Public_Motion_HandGrenades/bullet",
+        "subMeshCount": 1,
+        "materialSlotCount": 2
+      },
+      {
+        "kind": "ParticleSystemRenderer",
+        "node": "FX_Public_Motion_SmokeGrenades/bullet",
+        "subMeshCount": 1,
+        "materialSlotCount": 2
+      },
+      {
+        "kind": "ParticleSystemRenderer",
+        "node": "FX_Public_SmokeGrenades_Explosion_3M/bullet (1)",
+        "subMeshCount": 1,
+        "materialSlotCount": 2
+      },
+      {
+        "kind": "ParticleSystemRenderer",
+        "node": "FX_Public_SmokeGrenades_Projectile/bullet",
+        "subMeshCount": 1,
+        "materialSlotCount": 2
+      }
+    ],
+    "materialSlots": {
+      "resolved": 163,
+      "unresolved-external": 794,
+      "none": 372
+    },
+    "meshStatus": {
+      "none": 476,
+      "unresolved-external": 255,
+      "in-scope": 65
+    },
+    "skinnedBones": 1123,
+    "skinnedBonesUnresolved": 0,
+    "blendShapeWeights": {
+      "FX_CH0069_EX01_Motion_Cam_Cutin/CH0069_Cutin_Mesh/CH0069_Cutin_Face_Outline": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "animations": {
+    "sourceClips": 47,
+    "withKeyframes": 33,
+    "withLength": 33,
+    "overrideControllers": 4,
+    "withoutKeyframes": [
+      "FX_ANIM_AR1_EX_Cut",
+      "FX_ANIM_AR2_EX_CUT",
+      "FX_ANIM_CAM_Panic",
+      "FX_ANIM_MG_EX",
+      "FX_ANIM_MG_EX_CS_FADE_Dirt",
+      "FX_ANIM_MG_EX_CS_FADE_Shiny",
+      "FX_ANIM_MG_EX_CS_FocusLine",
+      "FX_ANIM_MG_EX_GUIDE",
+      "FX_ANIM_SG_EX_Cut",
+      "FX_ANIM_SKILL_MG_EX_FXRoot",
+      "Recorded",
+      "Recorded",
+      "Recorded (2)_3",
+      "Recorded_1"
+    ],
+    "glbAnimations": 33,
+    "totalChannels": 13895,
+    "totalKeyframes": 113918,
+    "channelPaths": {
+      "rotation": 4859,
+      "scale": 4455,
+      "translation": 4581
+    },
+    "sourceCurveTotal": 0,
+    "genericBindingTotal": 14279,
+    "eventTotal": 55
+  },
+  "dataIssues": [],
+  "status": "PASS",
+  "failures": [],
+  "warnings": [
+    "FX_MAT_Circle_Glow_01a2._Texture: unresolved-external",
+    "FX_MAT_SkyColor_01._Tex_Main: unresolved-external",
+    "FX_MAT_SkyColor_01._Tex_Mask: unresolved-external",
+    "FX_MAT_Stretch_Scroll_16._Tex_Main: unresolved-external",
+    "FX_MAT_Stretch_Scroll_16._Tex_Mask: unresolved-external",
+    "FX_MAT_Lightnning_01g._Tex_Main: unresolved-external",
+    "FX_MAT_Lightnning_01g._Tex_Mask: unresolved-external",
+    "FX_MAT_Stretch_Step_36c._Tex_Mask: unresolved-external",
+    "FX_MAT_Frozen_02._Tex_DistortRG: unresolved-external",
+    "FX_MAT_Frozen_02._Tex_Main: unresolved-external",
+    "FX_MAT_Frozen_02._Tex_Mask: unresolved-external",
+    "FX_MAT_Fire_Distort_05c._Tex_Distort: unresolved-external",
+    "FX_MAT_Fire_Distort_05c._Tex_Main: unresolved-external",
+    "FX_MAT_Fire_Distort_05c._Tex_Mask: unresolved-external",
+    "FX_MAT_Smoke_RGB_01._FlowTexRGB: unresolved-external",
+    "FX_MAT_Gra_L_01a._Texture: unresolved-external",
+    "FX_MAT_Thin_Lightnning_04._Tex_Distort: unresolved-external",
+    "FX_MAT_Thin_Lightnning_04._Tex_Main: unresolved-external",
+    "FX_MAT_Thin_Lightnning_04._Tex_Mask: unresolved-external",
+    "FX_MAT_Fire_Distort_23b._Tex_Distort: unresolved-external",
+    "FX_MAT_Fire_Distort_23b._Tex_Main: unresolved-external",
+    "FX_MAT_Fire_Distort_23b._Tex_Mask: unresolved-external",
+    "FX_MAT_Stretch_Scroll_18b._Tex_Distort: unresolved-external",
+    "FX_MAT_Stretch_Scroll_18b._Tex_Main: unresolved-external",
+    "FX_MAT_Stretch_Scroll_18b._Tex_Mask: unresolved-external",
+    "FX_MAT_Bold_Lightnning_02._Tex_Distort: unresolved-external",
+    "FX_MAT_Bold_Lightnning_02._Tex_Mask: unresolved-external",
+    "FX_MAT_Circle_Glow_invert_08._Tex_Main: unresolved-external",
+    "FX_MAT_Skidmark_01._Tex_Main: unresolved-external",
+    "FX_MAT_Flare_38._Tex_Main: unresolved-external",
+    "FX_MAT_Flare_38._Tex_Mask: unresolved-external",
+    "FX_MAT_White_01c._Texture: unresolved-external",
+    "FX_MAT_Stretch_Scroll_17._Tex_Main: unresolved-external",
+    "FX_MAT_Stretch_Scroll_17._Tex_Mask: unresolved-external",
+    "FX_MAT_White_01a2._Texture: unresolved-external",
+    "FX_MAT_Stretch_Step_99a._Tex_Mask: unresolved-external",
+    "FX_MAT_SkyMesh_01._Tex_Mask: unresolved-external",
+    "FX_MAT_Muzzle_09._Texture: unresolved-external",
+    "FX_MAT_Aura_Distort_60._Tex_Distort: unresolved-external",
+    "FX_MAT_Aura_Distort_60._Tex_Main: unresolved-external",
+    "FX_MAT_Aura_Distort_60._Tex_Mask: unresolved-external",
+    "FX_MAT_Circle_Glow_01Z2._Texture: unresolved-external",
+    "FX_MAT_Stretch_Step_2Side_31._Tex_Main: unresolved-external",
+    "FX_MAT_Stretch_Step_2Side_31._Tex_Mask: unresolved-external",
+    "FX_MAT_Bold_Lightnning_03._Tex_Distort: unresolved-external",
+    "FX_MAT_Aura_Distort_60a._Tex_Main: unresolved-external",
+    "FX_MAT_Aura_Distort_60a._Tex_Mask: unresolved-external",
+    "FX_MAT_Frozen_03._Tex_Main: unresolved-external",
+    "FX_MAT_Frozen_03._Tex_Mask: unresolved-external",
+    "FX_MAT_Smoke_Distort_02c._Tex_Distort: unresolved-external",
+    "FX_MAT_Smoke_Distort_02c._Tex_Main: unresolved-external",
+    "FX_MAT_Smoke_Distort_02c._Tex_Mask: unresolved-external",
+    "FX_MAT_Gra_L_14a._Texture: unresolved-external",
+    "FX_MAT_Stretch_Scroll_18a._Tex_Distort: unresolved-external",
+    "FX_MAT_Stretch_Scroll_18a._Tex_Main: unresolved-external",
+    "FX_MAT_Stretch_Scroll_18a._Tex_Mask: unresolved-external",
+    "FX_MAT_Stretch_Step_83._Tex_Distort: unresolved-external",
+    "FX_MAT_Stretch_Step_83._Tex_Main: unresolved-external",
+    "FX_MAT_Stretch_Step_83._Tex_Mask: unresolved-external",
+    "FX_MAT_Smoke_Distort_08f._Tex_Distort: unresolved-external",
+    "FX_MAT_Smoke_Distort_08f._Tex_Main: unresolved-external",
+    "FX_MAT_Smoke_Distort_08f._Tex_Mask: unresolved-external",
+    "FX_MAT_Aura_Distort_59._Tex_Distort: unresolved-external",
+    "FX_MAT_Aura_Distort_59._Tex_Main: unresolved-external",
+    "FX_MAT_Aura_Distort_59._Tex_Mask: unresolved-external",
+    "FX_MAT_Speed_Line_36._Tex_Main: unresolved-external",
+    "FX_MAT_Noise_Distort_01c._Tex_Distort: unresolved-external",
+    "FX_MAT_Noise_Distort_01c._Tex_Main: unresolved-external",
+    "FX_MAT_Noise_Distort_01c._Tex_Mask: unresolved-external",
+    "FX_MAT_Grad_03._Tex_Mask: unresolved-external",
+    "FX_MAT_Circle_Glow_01z._Texture: unresolved-external",
+    "FX_MAT_Smoke_RGB_02._FlowTexRGB: unresolved-external",
+    "FX_MAT_Scroll_Gra_L_01c._Tex_Distort: unresolved-external",
+    "FX_MAT_Scroll_Gra_L_01c._Tex_Main: unresolved-external",
+    "FX_MAT_Scroll_Gra_L_01c._Tex_Mask: unresolved-external",
+    "FX_MAT_Speed_Line_35._Tex_Main: unresolved-external",
+    "FX_MAT_Bulletline_13._Texture: unresolved-external",
+    "FX_MAT_Smoke_Distort_01c._Tex_Distort: unresolved-external",
+    "FX_MAT_Smoke_Distort_01c._Tex_Main: unresolved-external",
+    "FX_MAT_Smoke_Distort_01c._Tex_Mask: unresolved-external",
+    "FX_MAT_Gra_W_27._Texture: unresolved-external",
+    "FX_MAT_Speed_Line_31a._Tex_Main: unresolved-external",
+    "FX_MAT_Speed_Line_31a._Tex_Mask: unresolved-external",
+    "FX_MAT_Aura_Gra_Distort_05._Tex_Distort: unresolved-external",
+    "FX_MAT_Stretch_Step_01._Tex_Distort: unresolved-external",
+    "FX_MAT_Halo_Trail_01._Tex_Main: unresolved-external",
+    "FX_MAT_Aura_Distort_11._Tex_Distort: unresolved-external",
+    "FX_MAT_Aura_Distort_11._Tex_Mask: unresolved-external",
+    "FX_MAT_Noise_Step_2Side_02._Tex_Main: unresolved-external",
+    "FX_MAT_BG_06._MainTex: unresolved-external",
+    "FX_MAT_Noise_Step_2Side_03._Tex_Mask: unresolved-external",
+    "FX_MAT_Aura_Gra_Distort_04._Tex_Distort: unresolved-external",
+    "FX_MAT_Aura_Gra_Distort_04._Tex_Main: unresolved-external",
+    "FX_MAT_Stretch_Step_03._Tex_Main: unresolved-external",
+    "FX_MAT_CH0151_Halo_02._Tex_Mask: unresolved-external",
+    "FX_MAT_Aura_Distort_09._Tex_Distort: unresolved-external",
+    "FX_MAT_Aura_Distort_12._Tex_Distort: unresolved-external",
+    "FX_MAT_Aura_Distort_12._Tex_Main: unresolved-external",
+    "FX_MAT_Grad_Distort_01b._Tex_Distort: unresolved-external",
+    "FX_MAT_Circle_Glow_50._Texture: unresolved-external",
+    "FX_MAT_BG_05._MainTex: unresolved-external",
+    "FX_MAT_Aura_Gra_Distort_06._Tex_Distort: unresolved-external",
+    "FX_MAT_Aura_Gra_Distort_06._Tex_Mask: unresolved-external",
+    "FX_MAT_Aura_Gra_Distort_03._Tex_Distort: unresolved-external",
+    "FX_MAT_Aura_Distort_03._Tex_Distort: unresolved-external",
+    "FX_MAT_Aura_Distort_03._Tex_Main: unresolved-external",
+    "FX_MAT_Flare_39._Texture: unresolved-external",
+    "FX_MAT_Aura_Distort_Scroll_01._Tex_Distort: unresolved-external",
+    "FX_MAT_Aura_Distort_01._Tex_Distort: unresolved-external",
+    "FX_MAT_Aura_Distort_01._Tex_Main: unresolved-external",
+    "FX_MAT_Stretch_Step_02._Tex_Mask: unresolved-external",
+    "FX_MAT_Aura_Distort_02._Tex_Distort: unresolved-external",
+    "FX_MAT_Aura_Distort_02._Tex_Main: unresolved-external",
+    "FX_MAT_Aura_Distort_Scroll_03._Tex_Distort: unresolved-external",
+    "FX_MAT_Aura_Distort_Scroll_03._Tex_Mask: unresolved-external",
+    "FX_MAT_Aura_Distort_08._Tex_Main: unresolved-external",
+    "FX_MAT_Aura_Distort_Scroll_02._Tex_Distort: unresolved-external"
+  ],
+  "missingCabs": [
+    {
+      "cab": "CAB-b71aaa10e4c4396bd5a8a1444396fb4e",
+      "references": 449
+    },
+    {
+      "cab": "CAB-75596d5df6960f438f213965177a76bc",
+      "references": 181
+    },
+    {
+      "cab": "CAB-e23e8bd00d385b050e64a3cf98307bc6",
+      "references": 106
+    },
+    {
+      "cab": "unity default resources",
+      "references": 80
+    },
+    {
+      "cab": "CAB-50bf638d27a61e906963ba0d23284fba",
+      "references": 67
+    },
+    {
+      "cab": "CAB-edac370133623f4522b2880c5768e440",
+      "references": 65
+    },
+    {
+      "cab": "CAB-5e9f3d9be59346ce9010bc3834b5a36f",
+      "references": 32
+    },
+    {
+      "cab": "CAB-d493b28fef7d4f18f8d0b2abb8bab6c3",
+      "references": 29
+    },
+    {
+      "cab": "CAB-99afc4cb6d0d37a32db2903782cbafbe",
+      "references": 28
+    },
+    {
+      "cab": "CAB-ad31807b6f9eb85ec09bcc1b2441d965",
+      "references": 9
+    },
+    {
+      "cab": "CAB-b3803502c331ccfa418b08fd24e4536d",
+      "references": 8
+    },
+    {
+      "cab": "CAB-2f577d6d26622f2e90ee629e0c1058bb",
+      "references": 8
+    },
+    {
+      "cab": "CAB-ed748f83b4c81bce5488e0cdd90d9dff",
+      "references": 6
+    },
+    {
+      "cab": "CAB-0fd93406a79ff644f13b58a666115d67",
+      "references": 5
+    },
+    {
+      "cab": "CAB-b2d5fda218cfa659185c644fac1f7378",
+      "references": 5
+    },
+    {
+      "cab": "CAB-f26015f122d0781d55b352e242b90f5b",
+      "references": 4
+    },
+    {
+      "cab": "CAB-29cac86f2c3895b0472d2447531fe479",
+      "references": 4
+    },
+    {
+      "cab": "CAB-ef530d7316250a019d762f6cb0a2ada6",
+      "references": 4
+    },
+    {
+      "cab": "CAB-c1a78da3af6f5b1d4818696e9823aeee",
+      "references": 3
+    },
+    {
+      "cab": "CAB-9d8bc20691da12af4c016ff56887d0cc",
+      "references": 3
+    },
+    {
+      "cab": "CAB-199413f57d17c54b4242ba42b3ffc7b0",
+      "references": 3
+    },
+    {
+      "cab": "CAB-30ff202d2cdfe9ab021ed113016cccf6",
+      "references": 3
+    },
+    {
+      "cab": "CAB-c71d12dde3ffc46893e3f2905614dfd8",
+      "references": 3
+    },
+    {
+      "cab": "CAB-8b9e325f0eb9209e38535291bc67221c",
+      "references": 3
+    },
+    {
+      "cab": "CAB-75c33f24a60c7797028859c2a994ba88",
+      "references": 3
+    },
+    {
+      "cab": "CAB-a0d206760ccca13cd47b721e4512c56e",
+      "references": 3
+    },
+    {
+      "cab": "CAB-9e0abf5b57741d3ba4b94dffa4366d32",
+      "references": 3
+    },
+    {
+      "cab": "CAB-3b4fb2998525d88311479e1bc190dcb8",
+      "references": 3
+    },
+    {
+      "cab": "CAB-a65438341acf691d251db6e8df8a2e49",
+      "references": 3
+    },
+    {
+      "cab": "CAB-4ee5fbd9df736e3d37093fb807c0e488",
+      "references": 2
+    },
+    {
+      "cab": "CAB-c60553c775dbdfe013130763f0268712",
+      "references": 2
+    },
+    {
+      "cab": "CAB-8401f2c7cf1999ffa9891eecdc0ba7ce",
+      "references": 2
+    },
+    {
+      "cab": "CAB-2d0b5ebcd8df0bcd28e446b43c05a933",
+      "references": 2
+    },
+    {
+      "cab": "CAB-5aae1c185ed2908e7c5bc3a4948c06d6",
+      "references": 2
+    },
+    {
+      "cab": "CAB-876f5991f9fd962f08a36ab4fd2caa6f",
+      "references": 2
+    },
+    {
+      "cab": "CAB-283bfd5ce4f31949eacb48b2ad445fd5",
+      "references": 2
+    },
+    {
+      "cab": "CAB-e9738d58823f9c0d6341a225ee4dc3fe",
+      "references": 2
+    },
+    {
+      "cab": "CAB-1846b971f4e474d1d801817835f0ca00",
+      "references": 2
+    },
+    {
+      "cab": "CAB-e15548f8f199ded9b81342017e3997e6",
+      "references": 2
+    },
+    {
+      "cab": "CAB-a7baf3c5fae35536b745f5fc1c0c1c4f",
+      "references": 2
+    },
+    {
+      "cab": "CAB-24fcee27a2fad4d5fc7ef5d223a01306",
+      "references": 2
+    },
+    {
+      "cab": "CAB-ee289021e02e04dc9adb895bc40c19b7",
+      "references": 2
+    },
+    {
+      "cab": "CAB-ab54eddb5e567ff11b91dca35c5b3d88",
+      "references": 2
+    },
+    {
+      "cab": "CAB-5d34bfce1fd51f18d3f2f533a00cdbc5",
+      "references": 2
+    },
+    {
+      "cab": "CAB-b62f534924f9e221dc6790ce66199939",
+      "references": 2
+    },
+    {
+      "cab": "CAB-98b688e1671a3886960261fe94437524",
+      "references": 2
+    },
+    {
+      "cab": "CAB-850d60c95044407db52447b7505cd6b3",
+      "references": 1
+    },
+    {
+      "cab": "CAB-891ca996989ba72f61880c39be55396a",
+      "references": 1
+    },
+    {
+      "cab": "CAB-3367e6602fc9462b3e9174af4fd2ebf5",
+      "references": 1
+    },
+    {
+      "cab": "CAB-ebfb7bee419c653b85ac6ab3a3e539c9",
+      "references": 1
+    },
+    {
+      "cab": "CAB-4a40450ca243dd2c0c3404d02b0cb261",
+      "references": 1
+    },
+    {
+      "cab": "CAB-b4bffa6fa4ed3406f0c8302cb15f6966",
+      "references": 1
+    },
+    {
+      "cab": "CAB-78697f2915b051a1f9d39cb15cc34699",
+      "references": 1
+    },
+    {
+      "cab": "CAB-51aee1687f67d9120f38c04d8a3631c4",
+      "references": 1
+    },
+    {
+      "cab": "CAB-1128999959220a7bd48802471926e0d3",
+      "references": 1
+    }
+  ]
+}

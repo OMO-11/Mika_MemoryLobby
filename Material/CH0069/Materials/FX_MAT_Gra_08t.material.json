@@ -1,0 +1,182 @@
+{
+  "name": "FX_MAT_Gra_08t",
+  "shader": {
+    "status": "resolved",
+    "name": "DSFX/FX_SHADER_AlphaBlend_Add",
+    "file": "Shaders/DSFX_FX_SHADER_AlphaBlend_Add__3898777625326355543.shader.json",
+    "serializedFile": "CAB-dfc5bcc011d85f284a539a56baf966f7",
+    "reference": {
+      "fileId": 1,
+      "pathId": 3898777625326355543
+    }
+  },
+  "renderQueue": -1,
+  "shaderKeywords": null,
+  "textures": {
+    "_Texture": {
+      "texture": "FX_TEX_Gra_L_Line_08t_Clamp",
+      "file": "Textures/Source/FX_TEX_Gra_L_Line_08t_Clamp.png",
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "offset": [
+        -0.10000000149011612,
+        0.0
+      ],
+      "sourceFormat": "51:ASTC_RGB_8x8",
+      "width": 128,
+      "height": 128,
+      "status": "exported"
+    }
+  },
+  "floats": {
+    "_AlphaClip": 0.0,
+    "_BCustom_Data_Use": 1.0,
+    "_BDisappear_Offset": 0.0,
+    "_BStep_Glow_Value": 20.0,
+    "_Blend": 0.0,
+    "_BumpScale": 1.0,
+    "_ClearCoatMask": 0.0,
+    "_ClearCoatSmoothness": 0.0,
+    "_Color_Custom_Data_Use": 1.0,
+    "_Cull": 2.0,
+    "_Cull_Mode": 2.0,
+    "_Custom_Data_Distort_Power_Use": 1.0,
+    "_Custom_Data_MainMask_Offset_Use": 1.0,
+    "_Custom_Data_Offset_Use": 1.0,
+    "_Cutoff": 0.5,
+    "_DetailAlbedoMapScale": 1.0,
+    "_DetailNormalMapScale": 1.0,
+    "_Dis_Speed_X": 0.0,
+    "_Dis_Speed_Y": 0.0,
+    "_Distortion_Power_X": 0.0,
+    "_Distortion_Power_Y": 0.0,
+    "_DstBlend": 10.0,
+    "_DstBlendAlpha": 10.0,
+    "_EmissionStrength": 0.0,
+    "_EnvironmentReflections": 1.0,
+    "_FlowSpeed": 0.0,
+    "_Flowspeed_Data_Use": 0.0,
+    "_GColor_Sharpness": 20.0,
+    "_GCustom_Data_Use": 1.0,
+    "_GDisappear_Offset": 0.0,
+    "_GlossMapScale": 0.0,
+    "_Glossiness": 0.0,
+    "_GlossyReflections": 0.0,
+    "_Main_Distortion_Use": 1.0,
+    "_Main_Speed_X": 0.0,
+    "_Main_Speed_Y": 0.0,
+    "_Main_Texture_No": 0.0,
+    "_Mask_Distortion_Use": 0.0,
+    "_Mask_Speed_X": 0.0,
+    "_Mask_Speed_Y": 0.0,
+    "_Metallic": 0.0,
+    "_Multiply": 1.0,
+    "_Mutiply": 1.0,
+    "_OcclusionStrength": 1.0,
+    "_Parallax": 0.004999999888241291,
+    "_QueueOffset": 0.0,
+    "_RGBRGBA": 0.0,
+    "_ReceiveShadows": 1.0,
+    "_ReflectAnglePower": 2.0,
+    "_ReflectBaseAmount": 0.0,
+    "_ReflectStrength": 0.0,
+    "_ShadowAttenRefl": 0.0,
+    "_ShadowAttenSpec": 0.20000000298023224,
+    "_Shadow_Color_Multiply": 0.5,
+    "_Shadow_Glow_Value": 20.0,
+    "_Shadow_Value": 0.0,
+    "_Shadow_Value_Data_Use": 0.0,
+    "_Smoothness": 0.5,
+    "_SmoothnessTextureChannel": 0.0,
+    "_SpecPower": 1.0,
+    "_SpecularHighlights": 1.0,
+    "_SrcBlend": 5.0,
+    "_SrcBlendAlpha": 1.0,
+    "_Surface": 0.0,
+    "_WorkflowMode": 1.0,
+    "_ZOffsetFactor": 0.0,
+    "_ZOffsetUnits": 0.0,
+    "_ZTest_Mode": 4.0,
+    "_ZWrite": 0.0,
+    "_ZWrite_Mode": 0.0
+  },
+  "colors": {
+    "_BaseColor": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "_CodeAddColor": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "_CodeAddRimColor": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "_CodeMultiplyColor": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "_Color": [
+      11.98431396484375,
+      11.98431396484375,
+      11.98431396484375,
+      1.0
+    ],
+    "_EmissionColor": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "_GColor": [
+      1.0,
+      1.0,
+      1.0,
+      0.0
+    ],
+    "_RColor": [
+      1.4142135381698608,
+      1.4142135381698608,
+      1.4142135381698608,
+      1.0
+    ],
+    "_SpecColor": [
+      0.19999995827674866,
+      0.19999995827674866,
+      0.19999995827674866,
+      1.0
+    ],
+    "_SpecLightColor": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "_SpecLightDir": [
+      0.0,
+      0.9399999976158142,
+      0.34200000762939453,
+      0.0
+    ]
+  },
+  "ints": {},
+  "vectors": {},
+  "provenance": {
+    "bundle": "CAB-82e06f023ef01137da1dfdbb883bb380",
+    "serializedFile": "CAB-82e06f023ef01137da1dfdbb883bb380",
+    "classId": 21,
+    "pathId": -7527723805407314796
+  },
+  "logicalName": "FX_MAT_Gra_08t"
+}

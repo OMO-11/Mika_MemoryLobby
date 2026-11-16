@@ -1,0 +1,43 @@
+{
+  "passed": true,
+  "reviewedAtUtc": "2026-10-14T08:10:36.606412+00:00",
+  "mainShader": "GiftCompanion/SpineStraightAlpha",
+  "hdrRetained": true,
+  "scope": "Assistant reviewed same-frame shader comparison, real UI and window images; user aesthetic/IME acceptance pending.",
+  "metrics": [
+    {
+      "file": "release_original_shader.png",
+      "width": 1280,
+      "height": 720,
+      "clippedPixels": 254655,
+      "meanBrightness": 0.770582153231663
+    },
+    {
+      "file": "release_explicit_alpha.png",
+      "width": 1280,
+      "height": 720,
+      "clippedPixels": 1744,
+      "meanBrightness": 0.5836977336941721
+    },
+    {
+      "file": "release_ldr.png",
+      "width": 1280,
+      "height": 720,
+      "clippedPixels": 112,
+      "meanBrightness": 0.5813694299768518
+    },
+    {
+      "file": "3E.editor.final.png",
+      "width": 1280,
+      "height": 720,
+      "clippedPixels": 1632,
+      "meanBrightness": 0.5894652252972948
+    }
+  ],
+  "checkedImages": [
+    "reply_write.png",
+    "history_write.png",
+    "resized_write.png",
+    "Window/window_composition.png"
+  ]
+}

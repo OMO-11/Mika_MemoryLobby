@@ -1,0 +1,67 @@
+// Unity MCP execute_code method body. Temporary preview scene, no saved asset changes.
+var asset=UnityEditor.AssetDatabase.LoadAssetAtPath<Spine.Unity.SkeletonDataAsset>("Assets/New Folder/CH0294_home_SkeletonData.asset");
+var preview=new UnityEditor.PreviewRenderUtility();
+var outputs=new System.Collections.Generic.List<object>();
+var temporaryMaterials=new System.Collections.Generic.List<UnityEngine.Material>();
+var originalScene=UnityEngine.SceneManagement.SceneManager.GetActiveScene();
+bool dirtyBefore=originalScene.isDirty;
+try {
+    var go=new UnityEngine.GameObject("CH0294 temporary audit preview");
+    go.hideFlags=UnityEngine.HideFlags.HideAndDontSave;
+    preview.AddSingleGO(go);
+    var sa=Spine.Unity.SkeletonAnimation.AddToGameObject(go,asset);
+    sa.enabled=false;
+    var cam=preview.camera;
+    cam.orthographic=true;
+    cam.clearFlags=UnityEngine.CameraClearFlags.SolidColor;
+    cam.backgroundColor=new UnityEngine.Color(0.025f,0.025f,0.045f,1);
+    cam.nearClipPlane=0.1f; cam.farClipPlane=200;
+    for(int shot=0;shot<8;shot++) {
+        bool straight=shot>=4;
+        int sample=shot%4;
+        if(shot==4) foreach(var original in ((Spine.Unity.SpineAtlasAsset)asset.atlasAssets[0]).materials) {
+            var clone=new UnityEngine.Material(original);
+            clone.hideFlags=UnityEngine.HideFlags.HideAndDontSave;
+            clone.EnableKeyword("_STRAIGHT_ALPHA_INPUT");
+            clone.SetFloat("_StraightAlphaInput",1);
+            temporaryMaterials.Add(clone);
+            sa.CustomMaterialOverride[original]=clone;
+        }
+        sa.Initialize(true);
+        sa.AnimationState.SetAnimation(0,"Idle_01",true);
+        float time=sample==0?0.5f:sample==1?6f:2f;
+        if(sample==3) {
+            sa.AnimationState.SetAnimation(1,"Talk_01_M_CN",false);
+            sa.AnimationState.SetAnimation(2,"Talk_01_A_CN",false);
+        }
+        sa.Update(0);
+        int steps=(int)System.Math.Round(time*30);
+        for(int i=0;i<steps;i++) sa.Update(1f/30f);
+        sa.LateUpdate();
+        bool full=sample<2;
+        int width=full?1280:1600, height=full?1112:900;
+        cam.aspect=(float)width/height;
+        cam.orthographicSize=full?20.5f:11f;
+        cam.transform.position=full?new UnityEngine.Vector3(-2.96f,3.224f,-100):new UnityEngine.Vector3(1.5f,8f,-100);
+        cam.transform.rotation=UnityEngine.Quaternion.identity;
+        preview.BeginPreview(new UnityEngine.Rect(0,0,width,height),UnityEngine.GUIStyle.none);
+        preview.Render(true,false);
+        var image=preview.EndPreview();
+        var previous=UnityEngine.RenderTexture.active;
+        UnityEngine.RenderTexture.active=image as UnityEngine.RenderTexture;
+        var png=new UnityEngine.Texture2D(width,height,UnityEngine.TextureFormat.RGB24,false);
+        png.ReadPixels(new UnityEngine.Rect(0,0,width,height),0,0); png.Apply();
+        UnityEngine.RenderTexture.active=previous;
+        string name=sample==0?"unity_idle_t0.5_full.png":sample==1?"unity_idle_t6_full.png":sample==2?"unity_idle_t2_viewport.png":"unity_talk01_layered_t2_viewport.png";
+        if(straight) name=name.Replace("unity_","unity_straight_");
+        System.IO.File.WriteAllBytes("W:/Machine/VSCode/Mika_Gift/Material/Mika_memoryLobby_Seaside/Reports/CH0294/"+name,png.EncodeToPNG());
+        UnityEngine.Object.DestroyImmediate(png);
+        var mesh=go.GetComponent<UnityEngine.MeshFilter>().sharedMesh;
+        outputs.Add(new {file=name,time,straightAlphaInput=straight,tracks=sample==3?"Idle_01 + Talk_01_M_CN + Talk_01_A_CN":"Idle_01",width,height,
+            vertices=mesh.vertexCount,triangles=mesh.triangles.Length/3,submeshes=mesh.subMeshCount,
+            materials=go.GetComponent<UnityEngine.MeshRenderer>().sharedMaterials.Length});
+    }
+} finally { preview.Cleanup(); foreach(var material in temporaryMaterials) UnityEngine.Object.DestroyImmediate(material); }
+string json=Newtonsoft.Json.JsonConvert.SerializeObject(new {outputs,dirtyBefore,dirtyAfter=originalScene.isDirty,method="PreviewRenderUtility.Render(allowScriptableRenderPipeline:true); current imported materials; no post processing recreation"},Newtonsoft.Json.Formatting.Indented);
+System.IO.File.WriteAllText("W:/Machine/VSCode/Mika_Gift/Material/Mika_memoryLobby_Seaside/Reports/CH0294/unity_render.json",json);
+return json;

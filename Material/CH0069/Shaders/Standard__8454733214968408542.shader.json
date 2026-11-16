@@ -1,0 +1,596 @@
+{
+  "name": "Standard",
+  "assetName": null,
+  "shaderIsBaked": true,
+  "assetGuid": null,
+  "dependencies": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 1733509626429008350
+    }
+  ],
+  "provenance": {
+    "bundle": "CAB-82335ec62e008f890ad4bf87d2a330ec",
+    "classId": 48,
+    "pathId": 8454733214968408542
+  },
+  "parsedForm": {
+    "name": "Standard",
+    "fallbackName": "VertexLit",
+    "customEditorName": "StandardShaderGUI",
+    "keywordNames": [
+      "STEREO_INSTANCING_ON",
+      "UNITY_SINGLE_PASS_STEREO",
+      "STEREO_MULTIVIEW_ON",
+      "STEREO_CUBEMAP_RENDER_ON",
+      "FOG_LINEAR",
+      "FOG_EXP",
+      "FOG_EXP2",
+      "INSTANCING_ON",
+      "_NORMALMAP",
+      "_ALPHATEST_ON",
+      "_ALPHABLEND_ON",
+      "_ALPHAPREMULTIPLY_ON",
+      "_METALLICGLOSSMAP",
+      "_PARALLAXMAP",
+      "DIRECTIONAL",
+      "LIGHTPROBE_SH",
+      "SHADOWS_SHADOWMASK",
+      "DYNAMICLIGHTMAP_ON",
+      "LIGHTMAP_ON",
+      "LIGHTMAP_SHADOW_MIXING",
+      "DIRLIGHTMAP_COMBINED",
+      "SHADOWS_SCREEN",
+      "VERTEXLIGHT_ON",
+      "_EMISSION",
+      "_DETAIL_MULX2",
+      "_SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A",
+      "_SPECULARHIGHLIGHTS_OFF",
+      "_GLOSSYREFLECTIONS_OFF",
+      "POINT",
+      "SPOT",
+      "POINT_COOKIE",
+      "DIRECTIONAL_COOKIE",
+      "SHADOWS_DEPTH",
+      "SHADOWS_SOFT",
+      "SHADOWS_CUBE",
+      "UNITY_HDR_ON",
+      "EDITOR_VISUALIZATION"
+    ],
+    "keywordFlags": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "properties": [
+      {
+        "m_Attributes": [],
+        "m_DefTexture": {
+          "m_DefaultName": "",
+          "m_TexDim": 1
+        },
+        "m_DefValue_0_": 1.0,
+        "m_DefValue_1_": 1.0,
+        "m_DefValue_2_": 1.0,
+        "m_DefValue_3_": 1.0,
+        "m_Description": "Color",
+        "m_Flags": 0,
+        "m_Name": "_Color",
+        "m_Type": 0
+      },
+      {
+        "m_Attributes": [],
+        "m_DefTexture": {
+          "m_DefaultName": "white",
+          "m_TexDim": 2
+        },
+        "m_DefValue_0_": 0.0,
+        "m_DefValue_1_": 0.0,
+        "m_DefValue_2_": 0.0,
+        "m_DefValue_3_": 0.0,
+        "m_Description": "Albedo",
+        "m_Flags": 0,
+        "m_Name": "_MainTex",
+        "m_Type": 4
+      },
+      {
+        "m_Attributes": [],
+        "m_DefTexture": {
+          "m_DefaultName": "",
+          "m_TexDim": 1
+        },
+        "m_DefValue_0_": 0.5,
+        "m_DefValue_1_": 0.0,
+        "m_DefValue_2_": 1.0,
+        "m_DefValue_3_": 0.0,
+        "m_Description": "Alpha Cutoff",
+        "m_Flags": 0,
+        "m_Name": "_Cutoff",
+        "m_Type": 3
+      },
+      {
+        "m_Attributes": [],
+        "m_DefTexture": {
+          "m_DefaultName": "",
+          "m_TexDim": 1
+        },
+        "m_DefValue_0_": 0.5,
+        "m_DefValue_1_": 0.0,
+        "m_DefValue_2_": 1.0,
+        "m_DefValue_3_": 0.0,
+        "m_Description": "Smoothness",
+        "m_Flags": 0,
+        "m_Name": "_Glossiness",
+        "m_Type": 3
+      },
+      {
+        "m_Attributes": [],
+        "m_DefTexture": {
+          "m_DefaultName": "",
+          "m_TexDim": 1
+        },
+        "m_DefValue_0_": 1.0,
+        "m_DefValue_1_": 0.0,
+        "m_DefValue_2_": 1.0,
+        "m_DefValue_3_": 0.0,
+        "m_Description": "Smoothness Scale",
+        "m_Flags": 0,
+        "m_Name": "_GlossMapScale",
+        "m_Type": 3
+      },
+      {
+        "m_Attributes": [
+          "Enum(Metallic Alpha,0,Albedo Alpha,1)"
+        ],
+        "m_DefTexture": {
+          "m_DefaultName": "",
+          "m_TexDim": 1
+        },
+        "m_DefValue_0_": 0.0,
+        "m_DefValue_1_": 0.0,
+        "m_DefValue_2_": 0.0,
+        "m_DefValue_3_": 0.0,
+        "m_Description": "Smoothness texture channel",
+        "m_Flags": 0,
+        "m_Name": "_SmoothnessTextureChannel",
+        "m_Type": 2
+      },
+      {
+        "m_Attributes": [],
+        "m_DefTexture": {
+          "m_DefaultName": "",
+          "m_TexDim": 1
+        },
+        "m_DefValue_0_": 0.0,
+        "m_DefValue_1_": 0.0,
+        "m_DefValue_2_": 1.0,
+        "m_DefValue_3_": 0.0,
+        "m_Description": "Metallic",
+        "m_Flags": 32,
+        "m_Name": "_Metallic",
+        "m_Type": 3
+      },
+      {
+        "m_Attributes": [],
+        "m_DefTexture": {
+          "m_DefaultName": "white",
+          "m_TexDim": 2
+        },
+        "m_DefValue_0_": 0.0,
+        "m_DefValue_1_": 0.0,
+        "m_DefValue_2_": 0.0,
+        "m_DefValue_3_": 0.0,
+        "m_Description": "Metallic",
+        "m_Flags": 0,
+        "m_Name": "_MetallicGlossMap",
+        "m_Type": 4
+      },
+      {
+        "m_Attributes": [
+          "ToggleOff"
+        ],
+        "m_DefTexture": {
+          "m_DefaultName": "",
+          "m_TexDim": 1
+        },
+        "m_DefValue_0_": 1.0,
+        "m_DefValue_1_": 0.0,
+        "m_DefValue_2_": 0.0,
+        "m_DefValue_3_": 0.0,
+        "m_Description": "Specular Highlights",
+        "m_Flags": 0,
+        "m_Name": "_SpecularHighlights",
+        "m_Type": 2
+      },
+      {
+        "m_Attributes": [
+          "ToggleOff"
+        ],
+        "m_DefTexture": {
+          "m_DefaultName": "",
+          "m_TexDim": 1
+        },
+        "m_DefValue_0_": 1.0,
+        "m_DefValue_1_": 0.0,
+        "m_DefValue_2_": 0.0,
+        "m_DefValue_3_": 0.0,
+        "m_Description": "Glossy Reflections",
+        "m_Flags": 0,
+        "m_Name": "_GlossyReflections",
+        "m_Type": 2
+      },
+      {
+        "m_Attributes": [],
+        "m_DefTexture": {
+          "m_DefaultName": "",
+          "m_TexDim": 1
+        },
+        "m_DefValue_0_": 1.0,
+        "m_DefValue_1_": 0.0,
+        "m_DefValue_2_": 0.0,
+        "m_DefValue_3_": 0.0,
+        "m_Description": "Scale",
+        "m_Flags": 0,
+        "m_Name": "_BumpScale",
+        "m_Type": 2
+      },
+      {
+        "m_Attributes": [],
+        "m_DefTexture": {
+          "m_DefaultName": "bump",
+          "m_TexDim": 2
+        },
+        "m_DefValue_0_": 0.0,
+        "m_DefValue_1_": 0.0,
+        "m_DefValue_2_": 0.0,
+        "m_DefValue_3_": 0.0,
+        "m_Description": "Normal Map",
+        "m_Flags": 8,
+        "m_Name": "_BumpMap",
+        "m_Type": 4
+      },
+      {
+        "m_Attributes": [],
+        "m_DefTexture": {
+          "m_DefaultName": "",
+          "m_TexDim": 1
+        },
+        "m_DefValue_0_": 0.019999999552965164,
+        "m_DefValue_1_": 0.004999999888241291,
+        "m_DefValue_2_": 0.07999999821186066,
+        "m_DefValue_3_": 0.0,
+        "m_Description": "Height Scale",
+        "m_Flags": 0,
+        "m_Name": "_Parallax",
+        "m_Type": 3
+      },
+      {
+        "m_Attributes": [],
+        "m_DefTexture": {
+          "m_DefaultName": "black",
+          "m_TexDim": 2
+        },
+        "m_DefValue_0_": 0.0,
+        "m_DefValue_1_": 0.0,
+        "m_DefValue_2_": 0.0,
+        "m_DefValue_3_": 0.0,
+        "m_Description": "Height Map",
+        "m_Flags": 0,
+        "m_Name": "_ParallaxMap",
+        "m_Type": 4
+      },
+      {
+        "m_Attributes": [],
+        "m_DefTexture": {
+          "m_DefaultName": "",
+          "m_TexDim": 1
+        },
+        "m_DefValue_0_": 1.0,
+        "m_DefValue_1_": 0.0,
+        "m_DefValue_2_": 1.0,
+        "m_DefValue_3_": 0.0,
+        "m_Description": "Strength",
+        "m_Flags": 0,
+        "m_Name": "_OcclusionStrength",
+        "m_Type": 3
+      },
+      {
+        "m_Attributes": [],
+        "m_DefTexture": {
+          "m_DefaultName": "white",
+          "m_TexDim": 2
+        },
+        "m_DefValue_0_": 0.0,
+        "m_DefValue_1_": 0.0,
+        "m_DefValue_2_": 0.0,
+        "m_DefValue_3_": 0.0,
+        "m_Description": "Occlusion",
+        "m_Flags": 0,
+        "m_Name": "_OcclusionMap",
+        "m_Type": 4
+      },
+      {
+        "m_Attributes": [],
+        "m_DefTexture": {
+          "m_DefaultName": "",
+          "m_TexDim": 1
+        },
+        "m_DefValue_0_": 0.0,
+        "m_DefValue_1_": 0.0,
+        "m_DefValue_2_": 0.0,
+        "m_DefValue_3_": 1.0,
+        "m_Description": "Color",
+        "m_Flags": 0,
+        "m_Name": "_EmissionColor",
+        "m_Type": 0
+      },
+      {
+        "m_Attributes": [],
+        "m_DefTexture": {
+          "m_DefaultName": "white",
+          "m_TexDim": 2
+        },
+        "m_DefValue_0_": 0.0,
+        "m_DefValue_1_": 0.0,
+        "m_DefValue_2_": 0.0,
+        "m_DefValue_3_": 0.0,
+        "m_Description": "Emission",
+        "m_Flags": 0,
+        "m_Name": "_EmissionMap",
+        "m_Type": 4
+      },
+      {
+        "m_Attributes": [],
+        "m_DefTexture": {
+          "m_DefaultName": "white",
+          "m_TexDim": 2
+        },
+        "m_DefValue_0_": 0.0,
+        "m_DefValue_1_": 0.0,
+        "m_DefValue_2_": 0.0,
+        "m_DefValue_3_": 0.0,
+        "m_Description": "Detail Mask",
+        "m_Flags": 0,
+        "m_Name": "_DetailMask",
+        "m_Type": 4
+      },
+      {
+        "m_Attributes": [],
+        "m_DefTexture": {
+          "m_DefaultName": "grey",
+          "m_TexDim": 2
+        },
+        "m_DefValue_0_": 0.0,
+        "m_DefValue_1_": 0.0,
+        "m_DefValue_2_": 0.0,
+        "m_DefValue_3_": 0.0,
+        "m_Description": "Detail Albedo x2",
+        "m_Flags": 0,
+        "m_Name": "_DetailAlbedoMap",
+        "m_Type": 4
+      },
+      {
+        "m_Attributes": [],
+        "m_DefTexture": {
+          "m_DefaultName": "",
+          "m_TexDim": 1
+        },
+        "m_DefValue_0_": 1.0,
+        "m_DefValue_1_": 0.0,
+        "m_DefValue_2_": 0.0,
+        "m_DefValue_3_": 0.0,
+        "m_Description": "Scale",
+        "m_Flags": 0,
+        "m_Name": "_DetailNormalMapScale",
+        "m_Type": 2
+      },
+      {
+        "m_Attributes": [],
+        "m_DefTexture": {
+          "m_DefaultName": "bump",
+          "m_TexDim": 2
+        },
+        "m_DefValue_0_": 0.0,
+        "m_DefValue_1_": 0.0,
+        "m_DefValue_2_": 0.0,
+        "m_DefValue_3_": 0.0,
+        "m_Description": "Normal Map",
+        "m_Flags": 8,
+        "m_Name": "_DetailNormalMap",
+        "m_Type": 4
+      },
+      {
+        "m_Attributes": [
+          "Enum(UV0,0,UV1,1)"
+        ],
+        "m_DefTexture": {
+          "m_DefaultName": "",
+          "m_TexDim": 1
+        },
+        "m_DefValue_0_": 0.0,
+        "m_DefValue_1_": 0.0,
+        "m_DefValue_2_": 0.0,
+        "m_DefValue_3_": 0.0,
+        "m_Description": "UV Set for secondary textures",
+        "m_Flags": 0,
+        "m_Name": "_UVSec",
+        "m_Type": 2
+      },
+      {
+        "m_Attributes": [],
+        "m_DefTexture": {
+          "m_DefaultName": "",
+          "m_TexDim": 1
+        },
+        "m_DefValue_0_": 0.0,
+        "m_DefValue_1_": 0.0,
+        "m_DefValue_2_": 0.0,
+        "m_DefValue_3_": 0.0,
+        "m_Description": "__mode",
+        "m_Flags": 1,
+        "m_Name": "_Mode",
+        "m_Type": 2
+      },
+      {
+        "m_Attributes": [],
+        "m_DefTexture": {
+          "m_DefaultName": "",
+          "m_TexDim": 1
+        },
+        "m_DefValue_0_": 1.0,
+        "m_DefValue_1_": 0.0,
+        "m_DefValue_2_": 0.0,
+        "m_DefValue_3_": 0.0,
+        "m_Description": "__src",
+        "m_Flags": 1,
+        "m_Name": "_SrcBlend",
+        "m_Type": 2
+      },
+      {
+        "m_Attributes": [],
+        "m_DefTexture": {
+          "m_DefaultName": "",
+          "m_TexDim": 1
+        },
+        "m_DefValue_0_": 0.0,
+        "m_DefValue_1_": 0.0,
+        "m_DefValue_2_": 0.0,
+        "m_DefValue_3_": 0.0,
+        "m_Description": "__dst",
+        "m_Flags": 1,
+        "m_Name": "_DstBlend",
+        "m_Type": 2
+      },
+      {
+        "m_Attributes": [],
+        "m_DefTexture": {
+          "m_DefaultName": "",
+          "m_TexDim": 1
+        },
+        "m_DefValue_0_": 1.0,
+        "m_DefValue_1_": 0.0,
+        "m_DefValue_2_": 0.0,
+        "m_DefValue_3_": 0.0,
+        "m_Description": "__zw",
+        "m_Flags": 1,
+        "m_Name": "_ZWrite",
+        "m_Type": 2
+      }
+    ],
+    "subShaders": [
+      {
+        "m_LOD": 300,
+        "m_Passes": [],
+        "m_Tags": {
+          "tags": [
+            [
+              "PerformanceChecks",
+              "False"
+            ],
+            [
+              "RenderType",
+              "Opaque"
+            ]
+          ]
+        }
+      },
+      {
+        "m_LOD": 150,
+        "m_Passes": [],
+        "m_Tags": {
+          "tags": [
+            [
+              "PerformanceChecks",
+              "False"
+            ],
+            [
+              "RenderType",
+              "Opaque"
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "propertyTypes": {
+    "0": "Color",
+    "1": "Vector",
+    "2": "Float",
+    "3": "Range",
+    "4": "TexEnv",
+    "5": "Int",
+    "6": "Keywords",
+    "7": "Bool"
+  },
+  "compiledPrograms": {
+    "platforms": [
+      9,
+      18
+    ],
+    "stageCounts": [
+      1,
+      1
+    ],
+    "compressedLengths": [
+      [
+        5
+      ],
+      [
+        5
+      ]
+    ],
+    "decompressedLengths": [
+      [
+        4
+      ],
+      [
+        4
+      ]
+    ],
+    "offsets": [
+      [
+        0
+      ],
+      [
+        5
+      ]
+    ],
+    "blobBytes": 10,
+    "blobSha256": "42059b0d3f1b6806bf04505799a8df35e3cbe26f353b04c2b877f89a7e271b56"
+  },
+  "nonModifiableTextures": []
+}

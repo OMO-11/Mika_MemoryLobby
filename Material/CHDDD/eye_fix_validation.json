@@ -1,0 +1,32 @@
+{
+  "irisVertices": 68,
+  "irisUnchangedForAllShapes": true,
+  "blendShapes": [
+    "Pet_Blink",
+    "Pet_EyeWide",
+    "Pet_BrowSad",
+    "Pet_BrowAnnoyed",
+    "Pet_BrowSleepy"
+  ],
+  "sideViewCloseups": [
+    "eye_fix_sad_left.png",
+    "eye_fix_sad.png",
+    "eye_fix_sad_right.png",
+    "eye_fix_annoyed_left.png",
+    "eye_fix_annoyed.png",
+    "eye_fix_annoyed_right.png",
+    "eye_fix_sleepy_left.png",
+    "eye_fix_sleepy.png",
+    "eye_fix_sleepy_right.png"
+  ],
+  "blinkSamples": [
+    0,
+    0.25,
+    0.5,
+    0.75,
+    1
+  ],
+  "eyeFix": "Existing upper/lower skin rims and lashes close over unchanged eyes",
+  "visualReview": "Reviewed front and +/-20 degree closeups, five blink weights and eight neutral-to-expression transition rows. Closed contours form soft arcs; no exposed socket seen in these views.",
+  "visualReviewScope": "Blender Eevee previews; Unity runtime validation is reported separately"
+}

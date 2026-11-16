@@ -1,0 +1,50 @@
+var g=UnityEngine.Object.FindFirstObjectByType<Spine.Unity.SkeletonGraphic>();
+if(!UnityEngine.Application.isPlaying || !UnityEditor.EditorApplication.isPaused)throw new System.Exception("Run in paused Play mode to avoid Spine edit-mode preview pose overrides.");
+var c=g.GetComponent<Mika.Seaside.SeasideLobbyController>();
+string output="W:/Machine/VSCode/Mika_Gift/Material/Mika_memoryLobby_Seaside/Reports/CH0294/EntranceTransition/";
+var checks=new System.Collections.Generic.List<object>();
+g.Initialize(true);c.AmbientExpressionsEnabled=false;
+foreach(int fps in new[]{10,30,60,120}) {
+    c.PlayEntrance();bool initialBlock=!c.BeginPatFeedback();float cut=-1;float cutAlpha=-1;float finished=-1;bool revealBlocked=true;
+    for(int n=1;n<=fps*16;n++) {
+        c.AdvanceInteraction(1f/fps);g.Update(1f/fps);
+        bool idle=g.AnimationState.GetCurrent(0).Animation.Name=="Idle_01";
+        if(idle && cut<0){cut=(float)n/fps;cutAlpha=c.EntranceFlashAlpha;}
+        if(idle && c.IsEntrancePlaying)revealBlocked &= !c.BeginPatFeedback();
+        if(!c.IsEntrancePlaying){finished=(float)n/fps;break;}
+    }
+    bool idleSpeed=g.AnimationState.GetCurrent(0).TimeScale==1f;
+    bool patWorks=c.BeginPatFeedback();
+    bool passed=initialBlock&&revealBlocked&&cutAlpha==1f&&finished>0&&finished<15f&&c.EntranceFlashAlpha==0&&idleSpeed&&patWorks;
+    checks.Add(new {fps,cut,cutAlpha,finished,initialBlock,revealBlocked,idleSpeed,patWorks,passed});
+    if(!passed)throw new System.Exception("Entrance validation failed: "+fps);
+}
+c.PlayEntrance();for(int n=0;n<810;n++){c.AdvanceInteraction(1f/60f);g.Update(1f/60f);}
+c.ResetToIdle();bool resetClean=!c.IsEntrancePlaying&&c.EntranceFlashAlpha==0;
+c.PlayEntrance();bool replayClean=c.IsEntrancePlaying&&c.EntranceFlashAlpha==0&&g.AnimationState.GetCurrent(0).TrackTime==0;
+checks.Add(new {resetClean,replayClean});
+if(!resetClean||!replayClean)throw new System.Exception("Reset/replay failed");
+var camera=UnityEngine.Camera.main;var canvas=g.canvas;var scaler=canvas.GetComponent<UnityEngine.UI.CanvasScaler>();
+var oldTarget=camera.targetTexture;var oldColor=camera.backgroundColor;float oldScale=canvas.scaleFactor;bool oldScaler=scaler.enabled;
+var target=new UnityEngine.RenderTexture(800,450,24,UnityEngine.RenderTextureFormat.ARGB32,UnityEngine.RenderTextureReadWrite.sRGB);
+var png=new UnityEngine.Texture2D(800,450,UnityEngine.TextureFormat.RGBA32,false);
+var samples=new System.Collections.Generic.List<object>();
+try {
+    scaler.enabled=false;camera.targetTexture=target;camera.backgroundColor=UnityEngine.Color.clear;canvas.scaleFactor=UnityEngine.Mathf.Sqrt(800f/1652f*450f/1080f);target.Create();
+    UnityEngine.Canvas.ForceUpdateCanvases();camera.Render();UnityEngine.Canvas.ForceUpdateCanvases();c.FitViewport();
+    string folder=output+"Frames";System.IO.Directory.CreateDirectory(folder);
+    g.Initialize(true);c.PlayEntrance();g.Update(0f);
+    for(int frame=0;frame<187;frame++) {
+        if(frame>0)for(int i=0;i<5;i++){c.AdvanceInteraction(1f/60f);g.Update(1f/60f);}
+        g.LateUpdate();UnityEngine.Canvas.ForceUpdateCanvases();camera.Render();
+        var old=UnityEngine.RenderTexture.active;UnityEngine.RenderTexture.active=target;png.ReadPixels(new UnityEngine.Rect(0,0,800,450),0,0);png.Apply();UnityEngine.RenderTexture.active=old;
+        System.IO.File.WriteAllBytes(folder+"/frame_"+frame.ToString("D3")+".png",png.EncodeToPNG());
+        samples.Add(new {time=frame/12f,alpha=c.EntranceFlashAlpha,track=g.AnimationState.GetCurrent(0).Animation.Name,entrance=c.IsEntrancePlaying});
+    }
+} finally {
+    camera.targetTexture=oldTarget;camera.backgroundColor=oldColor;canvas.scaleFactor=oldScale;scaler.enabled=oldScaler;
+    target.Release();UnityEngine.Object.DestroyImmediate(target);UnityEngine.Object.DestroyImmediate(png);
+    UnityEngine.Canvas.ForceUpdateCanvases();c.FitViewport();g.Initialize(true);c.AmbientExpressionsEnabled=true;c.ResetToIdle();
+}
+string json=Newtonsoft.Json.JsonConvert.SerializeObject(new {checks,samples},Newtonsoft.Json.Formatting.Indented);
+System.IO.File.WriteAllText(output+"validation.json",json);return Newtonsoft.Json.JsonConvert.SerializeObject(checks);

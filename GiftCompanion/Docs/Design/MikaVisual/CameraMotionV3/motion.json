@@ -1,0 +1,91 @@
+{
+  "version": 3,
+  "durationSeconds": 11.6,
+  "framesPerSecond": 15,
+  "captureSize": [
+    960,
+    540
+  ],
+  "forward": [
+    1,
+    4.2
+  ],
+  "windowHold": [
+    4.2,
+    8.4
+  ],
+  "return": [
+    8.4,
+    10.8
+  ],
+  "targetCamera": {
+    "center": [
+      920,
+      244
+    ],
+    "zoom": 1.95,
+    "rotationDegrees": -10
+  },
+  "pane": [
+    [
+      907.1975,
+      -40.66349
+    ],
+    [
+      1266.30969,
+      133.05426
+    ],
+    [
+      1213.43616,
+      507.610626
+    ],
+    [
+      756.0764363090652,
+      276.41551378227746
+    ]
+  ],
+  "note": "2.5D reference; persistent scene-fixed time/menu; no production UI modifications",
+  "characterPassOffset": [
+    -700,
+    300
+  ],
+  "meteorStartSeconds": [
+    4.9,
+    6.75
+  ],
+  "worldUi": {
+    "clock": {
+      "origin": [
+        1030,
+        100
+      ],
+      "angleDegrees": 26.816574824784176,
+      "font": "300 56px \"Segoe UI Light\", \"Segoe UI\", sans-serif",
+      "alpha": 0.76,
+      "layout": "two spaced groups without separator",
+      "minuteOffset": 84
+    },
+    "menu": {
+      "origin": [
+        886,
+        125
+      ],
+      "angleDegrees": 26.816574824784176,
+      "font": "17px KaiTi, STKaiti, serif",
+      "alpha": 0.78,
+      "layout": "single vertical column",
+      "lineHeight": 27,
+      "items": [
+        "聊天记录",
+        "日记",
+        "陪伴空间",
+        "人物设定",
+        "设置",
+        "回到未花"
+      ]
+    }
+  },
+  "persistentWorldUi": true,
+  "nearCurtainDepth": 1.05,
+  "layerSource": "../CameraMotionV1/Layers"
+}

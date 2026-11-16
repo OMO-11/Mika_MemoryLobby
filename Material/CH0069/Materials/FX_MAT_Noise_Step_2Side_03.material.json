@@ -1,0 +1,129 @@
+{
+  "name": "FX_MAT_Noise_Step_2Side_03",
+  "shader": {
+    "status": "resolved",
+    "name": "DSFX/FX_SHADER_Step_2side_0",
+    "file": "Shaders/DSFX_FX_SHADER_Step_2side_0__-3984670050576422439.shader.json",
+    "serializedFile": "CAB-dfc5bcc011d85f284a539a56baf966f7",
+    "reference": {
+      "fileId": 1,
+      "pathId": -3984670050576422439
+    }
+  },
+  "renderQueue": -1,
+  "shaderKeywords": null,
+  "textures": {
+    "_Tex_Main": {
+      "texture": null,
+      "file": null,
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0
+      ],
+      "status": "absent-in-source"
+    },
+    "_Tex_Mask": {
+      "texture": null,
+      "file": null,
+      "scale": [
+        3.0,
+        1.0
+      ],
+      "offset": [
+        -0.5400000214576721,
+        0.23000000417232513
+      ],
+      "status": "unresolved-external",
+      "reference": {
+        "fileId": 2,
+        "pathId": -299349330037621542
+      },
+      "externalFile": {
+        "cab": "CAB-50bf638d27a61e906963ba0d23284fba",
+        "archivePath": "archive:/CAB-50bf638d27a61e906963ba0d23284fba/CAB-50bf638d27a61e906963ba0d23284fba"
+      },
+      "error": "File cab-50bf638d27a61e906963ba0d23284fba not found in the staged bundle scope"
+    }
+  },
+  "floats": {
+    "_AlphaClip_Value": 0.10000000149011612,
+    "_BCustom_Data_Use": 1.0,
+    "_BDisappear_Offset": 0.0,
+    "_Color_Custom_Data_Use": 1.0,
+    "_Cull_Mode": 0.0,
+    "_Custom_Data_Distort_Power_Use": 0.0,
+    "_Custom_Data_MainMask_Offset_Use": 0.0,
+    "_Custom_Data_Main_Offset_Use": 0.0,
+    "_Custom_Data_Mask_Offset_Use": 0.0,
+    "_Custom_Data_Offset_Use": 0.0,
+    "_Custom_Data_Use": 1.0,
+    "_Dis_Speed_X": -2.7799999713897705,
+    "_Dis_Speed_Y": 0.0,
+    "_Distortion_Power_X": -0.6399999856948853,
+    "_Distortion_Power_Y": 0.0,
+    "_GColor_Sharpness": 20.0,
+    "_GCustom_Data_Use": 1.0,
+    "_GDisappear_Offset": 0.0,
+    "_Main_Distortion_Use": 1.0,
+    "_Main_Speed_X": 0.0,
+    "_Main_Speed_Y": 0.0,
+    "_Main_Texture_No": 0.0,
+    "_Mask_Distortion_Use": 0.0,
+    "_Mask_Speed_X": 0.0,
+    "_Mask_Speed_Y": 0.0,
+    "_Multiply": 1.0,
+    "_RGBRGBA": 1.0,
+    "_Shadow_Color_Multiply": 1.0,
+    "_Shadow_Value": 0.5,
+    "_Step_Custom_DataVertex_color_Use": 0.0,
+    "_Step_Power": 0.2930000126361847,
+    "_Step_Scroll_Use": 1.0,
+    "_Vertex_Alpha_Use": 0.0,
+    "_ZWrite_Mode": 1.0
+  },
+  "colors": {
+    "_BackFacesColor": [
+      0.7490196228027344,
+      0.7490196228027344,
+      0.7490196228027344,
+      1.0
+    ],
+    "_Color": [
+      14.259474754333496,
+      14.259474754333496,
+      14.259474754333496,
+      1.0
+    ],
+    "_FrontFacesColor": [
+      8.0,
+      8.0,
+      8.0,
+      1.0
+    ],
+    "_GColor": [
+      1.0,
+      0.29894590377807617,
+      0.0,
+      0.0
+    ],
+    "_MainColor": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "ints": {},
+  "vectors": {},
+  "provenance": {
+    "bundle": "CAB-1de60467771e7319ddddaf8e2645428c",
+    "serializedFile": "CAB-1de60467771e7319ddddaf8e2645428c",
+    "classId": 21,
+    "pathId": -7988803106978689324
+  },
+  "logicalName": "FX_MAT_Noise_Step_2Side_03"
+}

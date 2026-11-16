@@ -1,0 +1,129 @@
+{
+  "scope": "Conservative inference trim; both languages must be re-tested after application.",
+  "applied": false,
+  "beforeBytes": 10002554470,
+  "afterBytes": 10002554470,
+  "records": [
+    {
+      "path": "runtime/Lib/site-packages/cmake",
+      "reason": "Native build tooling; delivered v4 inference uses prebuilt wheels.",
+      "bytes": 82180804,
+      "observedLoaded": false,
+      "moved": false
+    },
+    {
+      "path": "runtime/Lib/site-packages/gradio",
+      "reason": "Training/browser UI is outside the embedded /tts API.",
+      "bytes": 64860900,
+      "observedLoaded": false,
+      "moved": false
+    },
+    {
+      "path": "runtime/Lib/site-packages/gradio_client",
+      "reason": "Training/browser UI client.",
+      "bytes": 932035,
+      "observedLoaded": false,
+      "moved": false
+    },
+    {
+      "path": "runtime/Lib/site-packages/ctranslate2",
+      "reason": "ASR backend; not GPT-SoVITS v4 synthesis.",
+      "bytes": 64891113,
+      "observedLoaded": false,
+      "moved": false
+    },
+    {
+      "path": "runtime/Lib/site-packages/faster_whisper",
+      "reason": "ASR transcription is outside the supplied trained-voice inference.",
+      "bytes": 1363089,
+      "observedLoaded": false,
+      "moved": false
+    },
+    {
+      "path": "runtime/Lib/site-packages/funasr",
+      "reason": "ASR training/transcription.",
+      "bytes": 2736082,
+      "observedLoaded": false,
+      "moved": false
+    },
+    {
+      "path": "runtime/Lib/site-packages/modelscope",
+      "reason": "ASR/model download tooling; all required inference weights are local.",
+      "bytes": 22277555,
+      "observedLoaded": false,
+      "moved": false
+    },
+    {
+      "path": "runtime/Lib/site-packages/mecab_ko_dic",
+      "reason": "Korean-only dictionary; this bundle targets Chinese and Japanese.",
+      "bytes": 223214600,
+      "observedLoaded": false,
+      "moved": false
+    },
+    {
+      "path": "runtime/Lib/site-packages/eunjeon",
+      "reason": "Korean-only tokenizer.",
+      "bytes": 117122422,
+      "observedLoaded": false,
+      "moved": false
+    },
+    {
+      "path": "runtime/Lib/site-packages/pyarrow",
+      "reason": "Training dataset interchange.",
+      "bytes": 70689173,
+      "observedLoaded": false,
+      "moved": false
+    },
+    {
+      "path": "runtime/Lib/site-packages/av",
+      "reason": "ASR video/media decoder; inference audio uses ffmpeg and soundfile.",
+      "bytes": 4221107,
+      "observedLoaded": true,
+      "moved": false
+    },
+    {
+      "path": "runtime/Lib/site-packages/av.libs",
+      "reason": "ASR decoder native libraries.",
+      "bytes": 81791703,
+      "observedLoaded": false,
+      "moved": false
+    },
+    {
+      "path": "runtime/Lib/site-packages/wordfreq",
+      "reason": "Unused general word-frequency dataset.",
+      "bytes": 60282467,
+      "observedLoaded": true,
+      "moved": false
+    },
+    {
+      "path": "runtime/Lib/site-packages/datasets",
+      "reason": "Training dataset tooling.",
+      "bytes": 1975341,
+      "observedLoaded": false,
+      "moved": false
+    },
+    {
+      "path": "runtime/Lib/site-packages/onnx",
+      "reason": "ONNX model authoring; retain onnxruntime for G2PW inference.",
+      "bytes": 24101138,
+      "observedLoaded": false,
+      "moved": false
+    },
+    {
+      "path": "runtime/Lib/site-packages/ipadic",
+      "reason": "Unused MeCab dictionary; Japanese uses bundled pyopenjtalk dictionary.",
+      "bytes": 52936839,
+      "observedLoaded": true,
+      "moved": false
+    },
+    {
+      "path": "runtime/Lib/site-packages/torch/include",
+      "reason": "C++ extension headers; v4 inference does not compile extensions.",
+      "bytes": 24954761,
+      "observedLoaded": false,
+      "moved": false
+    }
+  ],
+  "originalArchivesModified": false,
+  "backup": ".ToolsCache/VoiceTrim"
+}

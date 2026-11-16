@@ -1,0 +1,296 @@
+{
+  "name": "FX_MAT_Frozen_02",
+  "shader": {
+    "status": "resolved",
+    "name": "DSFX/FX_SHADER_AlphaBlend_Add_Double_Distort_1a",
+    "file": "Shaders/DSFX_FX_SHADER_AlphaBlend_Add_Double_Distort_1a__4450463258115018475.shader.json",
+    "serializedFile": "CAB-d412320f324bd723748bfca5264855a8",
+    "reference": {
+      "fileId": 8,
+      "pathId": 4450463258115018475
+    }
+  },
+  "renderQueue": -1,
+  "shaderKeywords": null,
+  "textures": {
+    "_Tex_DistortRG": {
+      "texture": null,
+      "file": null,
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0
+      ],
+      "status": "unresolved-external",
+      "reference": {
+        "fileId": 2,
+        "pathId": 7620003500705164416
+      },
+      "externalFile": {
+        "cab": "CAB-50bf638d27a61e906963ba0d23284fba",
+        "archivePath": "archive:/CAB-50bf638d27a61e906963ba0d23284fba/CAB-50bf638d27a61e906963ba0d23284fba"
+      },
+      "error": "File cab-50bf638d27a61e906963ba0d23284fba not found in the staged bundle scope"
+    },
+    "_Tex_Main": {
+      "texture": null,
+      "file": null,
+      "scale": [
+        0.800000011920929,
+        0.5
+      ],
+      "offset": [
+        0.0,
+        0.0
+      ],
+      "status": "unresolved-external",
+      "reference": {
+        "fileId": 2,
+        "pathId": 297475669833859094
+      },
+      "externalFile": {
+        "cab": "CAB-50bf638d27a61e906963ba0d23284fba",
+        "archivePath": "archive:/CAB-50bf638d27a61e906963ba0d23284fba/CAB-50bf638d27a61e906963ba0d23284fba"
+      },
+      "error": "File cab-50bf638d27a61e906963ba0d23284fba not found in the staged bundle scope"
+    },
+    "_Tex_Mask": {
+      "texture": null,
+      "file": null,
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        -0.10000000149011612
+      ],
+      "status": "unresolved-external",
+      "reference": {
+        "fileId": 9,
+        "pathId": 4419709763144647160
+      },
+      "externalFile": {
+        "cab": "CAB-850d60c95044407db52447b7505cd6b3",
+        "archivePath": "archive:/CAB-850d60c95044407db52447b7505cd6b3/CAB-850d60c95044407db52447b7505cd6b3"
+      },
+      "error": "File cab-850d60c95044407db52447b7505cd6b3 not found in the staged bundle scope"
+    }
+  },
+  "floats": {
+    "_AlphaPremultiplyOn": 0.0,
+    "_Alphaclip_Value": 0.0,
+    "_Cull": 2.0,
+    "_Cull_Mode": 2.0,
+    "_Dis_Speed_X": 0.0,
+    "_Dis_Speed_Y": 0.0,
+    "_Distortion_Power_X": 0.0,
+    "_Distortion_Power_Y": 0.0,
+    "_DstBlend": 10.0,
+    "_DstBlendAlpha": 10.0,
+    "_GDistort_Power_X": 0.0,
+    "_GDistort_Power_Y": 0.33000001311302185,
+    "_GDistort_Speed_X": 0.0,
+    "_GDistort_Speed_Y": -0.30000001192092896,
+    "_Main_Distort_Use": 0.0,
+    "_Main_Speed_X": 0.0,
+    "_Main_Speed_Y": 0.0,
+    "_Mask_Distort_Use": 0.0,
+    "_Mask_Speed_X": 0.0,
+    "_Mask_Speed_Y": 0.0,
+    "_Multiply": 0.5,
+    "_RDistort_Power_X": 0.0,
+    "_RDistort_Power_Y": -0.5,
+    "_RDistort_Speed_X": 0.0,
+    "_RDistort_Speed_Y": -0.20000000298023224,
+    "_RGBRGBA": 0.0,
+    "_SrcBlend": 1.0,
+    "_SrcBlendAlpha": 1.0,
+    "_Tex_Main_Distort": 3.0,
+    "_Tex_Mask_Distort": 2.0,
+    "_Tex_Mask_Speed_X": 0.0,
+    "_Tex_Mask_Speed_Y": 0.0,
+    "_ZOffsetFactor": 0.0,
+    "_ZOffsetUnits": 0.0,
+    "_ZTest": 4.0,
+    "_ZTest_Mode": 4.0,
+    "_ZWrite": 0.0,
+    "_ZWrite_Mode": 0.0
+  },
+  "colors": {
+    "_Color": [
+      3.999999523162842,
+      3.999999523162842,
+      3.999999523162842,
+      1.0
+    ],
+    "_CustomData_DistortOffsetG_CD1XYXY": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "_CustomData_DistortOffsetG_CD2XYXY": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "_CustomData_DistortOffsetR_CD1XYXY": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "_CustomData_DistortOffsetR_CD2XYXY": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "_CustomData_DistortOffset_CD1XYXY": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "_CustomData_DistortOffset_CD2XYXY": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "_CustomData_DistortPowerG_CD2XYXY": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "_CustomData_DistortPowerR_CD2XYXY": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "_CustomData_DistortPower_CD2XYXY": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "_CustomData_DistortTilingG_CD1XYXY": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "_CustomData_DistortTilingG_CD2XYXY": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "_CustomData_DistortTilingR_CD1XYXY": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "_CustomData_DistortTilingR_CD2XYXY": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "_CustomData_DistortTiling_CD1XYXY": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "_CustomData_DistortTiling_CD2XYXY": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "_CustomData_MainOffset_CD1XYXY": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "_CustomData_MainOffset_CD2XYXY": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "_CustomData_MainTiling_CD1XYXY": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "_CustomData_MainTiling_CD2XYXY": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "_CustomData_MaskOffset_CD1XYXY": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "_CustomData_MaskOffset_CD2XYXY": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "_CustomData_MaskTiling_CD1XYXY": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "_CustomData_MaskTiling_CD2XYXY": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "_GTilingxyOffsetzw": [
+      1.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    "_Main_Color": [
+      0.42823275923728943,
+      2.3041696548461914,
+      5.34031343460083,
+      1.0
+    ],
+    "_RTilingxyOffsetzw": [
+      1.0,
+      1.0,
+      0.0,
+      0.0
+    ]
+  },
+  "ints": {},
+  "vectors": {},
+  "provenance": {
+    "bundle": "CAB-82e06f023ef01137da1dfdbb883bb380",
+    "serializedFile": "CAB-82e06f023ef01137da1dfdbb883bb380",
+    "classId": 21,
+    "pathId": -7316317808009056134
+  },
+  "logicalName": "FX_MAT_Frozen_02"
+}

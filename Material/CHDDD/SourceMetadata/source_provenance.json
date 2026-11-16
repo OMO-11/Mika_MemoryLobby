@@ -1,0 +1,4653 @@
+{
+  "character": "CH0069",
+  "region": "cn",
+  "platform": "android",
+  "exporter": {
+    "name": "build_source_package.py",
+    "version": "1.1",
+    "scriptSha256": "80d732254c54350930fc06d7581f3defbcfee6dae6157777c7b421aa37e25660",
+    "python": "3.12.10",
+    "unityPy": "1.25.0",
+    "generatedAt": "2026-10-07T09:21:01+00:00",
+    "pillow": "12.3.0",
+    "previewModel": {
+      "source": "CH0069.glb",
+      "sha256": "57816e04521d12a9615cb5081fc7db90bb7fe0ae8f36d3cec3ed04dfad9b67a0",
+      "generator": "SharpGLTF 1.0.2+d7bbcc6e95bbf573debf4c4c1750aa08fcb1bb83"
+    },
+    "cabIndex": {
+      "file": "cab_index.json",
+      "sha256": "1a2151eaad5de2584e0386a1417e286a628b88fc2ba7ee1a238aa8970e067fca",
+      "entries": 3138
+    }
+  },
+  "buildOptions": {
+    "bundleScope": 29,
+    "previewModelProvided": true,
+    "cabIndexUsed": true
+  },
+  "sourceBundles": [
+    {
+      "file": "MX_unitybuiltinshaders_181655154.bundle",
+      "bytes": 229200,
+      "sha256": "3b8628d9cfef5c7262f423cd0ad315d6998eb5e6384b9ce9c63586134a48dbd4"
+    },
+    {
+      "file": "assets-_mx-characters-_mxcommon-_mxdependency-animationclips-2026-06-04_assets_all_2175814206.bundle",
+      "bytes": 23840,
+      "sha256": "62fbb791b83af8cce7593d6402b0f7c682b416e76260725a09385d2a59c56e81"
+    },
+    {
+      "file": "assets-_mx-characters-_mxcommon-_mxdependency-assets-2026-06-04_assets_all_678877923.bundle",
+      "bytes": 17384,
+      "sha256": "faf79a6e22a33229eb89b4ad9d901a762b950601219f267e2aaf8614be6b803d"
+    },
+    {
+      "file": "assets-_mx-characters-_mxcommon-_mxdependency-audio-2026-06-04_assets_all_689159419.bundle",
+      "bytes": 2733218,
+      "sha256": "f60ee0789de85aaafdcb8db877949884f990b7fe97b2a73613429a69acb88f3c"
+    },
+    {
+      "file": "assets-_mx-characters-_mxcommon-_mxdependency-materials-2026-06-04_assets_all_985291158.bundle",
+      "bytes": 16308,
+      "sha256": "239fc8557dd681b6111106e953f35cc6938c194e6d949182ad5a7611914fc44d"
+    },
+    {
+      "file": "assets-_mx-characters-_mxcommon-_mxdependency-meshes-2026-06-04_assets_all_3252575281.bundle",
+      "bytes": 289473,
+      "sha256": "1484952169c0cf38374801854edbe33ea9a8e3c6361e34fa1ac69f161b02cdb4"
+    },
+    {
+      "file": "assets-_mx-characters-_mxcommon-_mxdependency-prefabs-2026-06-04_assets_all_204660534.bundle",
+      "bytes": 230862,
+      "sha256": "f20b48862e1bbb4cc37d97645e0e1c786d6123927b4fb33f454451e9df9d0aa0"
+    },
+    {
+      "file": "assets-_mx-characters-_mxcommon-_mxdependency-textures-2026-06-04_assets_all_2517503615.bundle",
+      "bytes": 664255,
+      "sha256": "b2bad1c4e73e84d47d5e0a0918d6ba672b619d489351ffa4c1857cd8cafb7955"
+    },
+    {
+      "file": "assets-_mx-characters-ch0069-_mxdependency-animationclips-2026-06-04_assets_all_4274693775.bundle",
+      "bytes": 7646758,
+      "sha256": "bbadb797b21b23ee8c60be31ac3f66fb382de916f99d93221c4ceea1499ba443"
+    },
+    {
+      "file": "assets-_mx-characters-ch0069-_mxdependency-assets-2026-06-04_assets_all_3653494458.bundle",
+      "bytes": 4329,
+      "sha256": "005e1b7388ba74ba9bbbe874c0e58ae77b15d16c5a222704d7851cc532581203"
+    },
+    {
+      "file": "assets-_mx-characters-ch0069-_mxdependency-audio-2026-06-04_assets_all_2062886056.bundle",
+      "bytes": 204710,
+      "sha256": "cb2f29cabac3780695cf7f5366c0a3ab5c085f5ddcd547e0fc2a6a152148a439"
+    },
+    {
+      "file": "assets-_mx-characters-ch0069-_mxdependency-materials-2026-06-04_assets_all_1304349087.bundle",
+      "bytes": 14247,
+      "sha256": "3d47681fe550f46bb52f32807a9b92cc336e957beca954a83974033ef273885b"
+    },
+    {
+      "file": "assets-_mx-characters-ch0069-_mxdependency-meshes-2026-06-04_assets_all_3392833374.bundle",
+      "bytes": 2116260,
+      "sha256": "ec1c2239c3a360efc6aed1c6978ae7be3f5446d9723d6f83bb5cbcdb8a0d97bf"
+    },
+    {
+      "file": "assets-_mx-characters-ch0069-_mxdependency-prefabs-2026-06-04_assets_all_4209514697.bundle",
+      "bytes": 254163,
+      "sha256": "2314c8173f61925b6f45bee3b20c598870fe064d5c10402bafe08bbae43ab32e"
+    },
+    {
+      "file": "assets-_mx-characters-ch0069-_mxdependency-textures-2026-06-04_assets_all_2081985992.bundle",
+      "bytes": 649258,
+      "sha256": "944a2fe3f7b62620c438fbe3c9b7097eb0907f1ef6489fea661efac89b8344ee"
+    },
+    {
+      "file": "assets-_mx-shaderlibrary-_mxdependency-others-2026-06-04_assets_all_2011233233.bundle",
+      "bytes": 1118,
+      "sha256": "5ac05ca8337fde738ec80f8bc80107e370c3cc85a1f280c17eb199fffc369640"
+    },
+    {
+      "file": "assets-_mx-shaders-_mxdependency-others-2026-06-04_assets_all_1701034934.bundle",
+      "bytes": 1288,
+      "sha256": "f781f0706c96e829fd274b2c5952f8c8826770e462d587f1d7d00e37168bb079"
+    },
+    {
+      "file": "assets-_mx-shaders-_mxdependency-shaders-2026-06-04_assets_all_2197323829.bundle",
+      "bytes": 2464123,
+      "sha256": "6b13a44eed43e73aea10de16f21c30f58602fcd25bcbcab4eb51bd35ccac7247"
+    },
+    {
+      "file": "assets-_mx-shaders-_mxdependency-textures-2026-06-04_assets_all_2074138948.bundle",
+      "bytes": 4242,
+      "sha256": "190d8d52e38a87ddb66148773da484b0c39ec1808781531bc9750696a166a3f6"
+    },
+    {
+      "file": "assets-_mx-undercover-shader-_mxdependency-shaders-2026-06-04_assets_all_2252558643.bundle",
+      "bytes": 24580,
+      "sha256": "8483f8315af85d0cf81d6d0ed45c398480f9b22985428c8b2f641bcb8c654293"
+    },
+    {
+      "file": "assets-spine-runtime-spine-unity-_mxdependency-shaders-2026-06-04_assets_all_3431662195.bundle",
+      "bytes": 22130,
+      "sha256": "87275e2dea886c3115ca19f9156c1640a33950c109da050afbdca0c940a197f5"
+    },
+    {
+      "file": "character-ch0069-_mxload-animatorcontrollers-2026-06-04_assets_all_3814663785.bundle",
+      "bytes": 3002,
+      "sha256": "24cde5f3f5250d82cedb8af59647fb3f2e1d14e43ca40fbbc1fcb639fe1df9e3"
+    },
+    {
+      "file": "character-ch0069-_mxload-prefabs-2026-06-04_assets_all_3717167012.bundle",
+      "bytes": 143739,
+      "sha256": "f7d0747fd4995b4cfc5eac925f25ca62e3d06d6b068850c7532af4c59a18ec62"
+    },
+    {
+      "file": "character-ch0069-_mxload-timelines-2026-06-04_assets_all_2891142736.bundle",
+      "bytes": 18260,
+      "sha256": "51f5c3b6093f8d17155e5c968ad486ff86cf3f20fd92b73b5256646ae653649e"
+    },
+    {
+      "file": "packages-com.unity.render-pipelines.universal-shaders-_mxdependency-shaders-2026-06-04_assets_all_3141635734.bundle",
+      "bytes": 18934,
+      "sha256": "9fd75c3f82381ba3a0eee76e4856b58e87542a2c58f3c59690e6c7373ff1142a"
+    },
+    {
+      "file": "packages-com.unity.render-pipelines.universal-shaders-particles-_mxdependency-shaders-2026-06-04_assets_all_356853247.bundle",
+      "bytes": 186476,
+      "sha256": "b6d8148ecbc931a276daa7d5ff70960e558cad3bdfb63a9d2412a13d39da7969"
+    },
+    {
+      "file": "packages-com.unity.render-pipelines.universal-shaders-utils-_mxdependency-shaders-2026-06-04_assets_all_3042738042.bundle",
+      "bytes": 18067,
+      "sha256": "b357c4ef78f4b17a441d67efa5b5690cc63355eda73ffa8fdb41e92311fa1ee2"
+    },
+    {
+      "file": "prologdepengroup-assets-_mx-characters-_mxcommon-_mxprolog-2026-06-04_assets_all_2046193372.bundle",
+      "bytes": 358422,
+      "sha256": "09c68e150f6a0c9fe87feaadeb7056db303c6a9a712bb782d1ef1ef2c253ff20"
+    },
+    {
+      "file": "prologdepengroup-assets-_mx-shaders-_mxprolog-2026-06-04_assets_all_2597697046.bundle",
+      "bytes": 1818023,
+      "sha256": "f4a3e4611b0c866ffeb7526e438d9ca1746befdbd81dd5dfb610242524eebcb3"
+    }
+  ],
+  "materials": {
+    "Sprites-Mask": {
+      "bundle": "CAB-82335ec62e008f890ad4bf87d2a330ec",
+      "serializedFile": "CAB-82335ec62e008f890ad4bf87d2a330ec",
+      "classId": 21,
+      "pathId": -3400190046253454882
+    },
+    "Default-Particle": {
+      "bundle": "CAB-82335ec62e008f890ad4bf87d2a330ec",
+      "serializedFile": "CAB-82335ec62e008f890ad4bf87d2a330ec",
+      "classId": 21,
+      "pathId": 1121017724734892510
+    },
+    "Default-Skybox": {
+      "bundle": "CAB-82335ec62e008f890ad4bf87d2a330ec",
+      "serializedFile": "CAB-82335ec62e008f890ad4bf87d2a330ec",
+      "classId": 21,
+      "pathId": 4793396232713628126
+    },
+    "Sprites-Default": {
+      "bundle": "CAB-82335ec62e008f890ad4bf87d2a330ec",
+      "serializedFile": "CAB-82335ec62e008f890ad4bf87d2a330ec",
+      "classId": 21,
+      "pathId": 6232642690341693918
+    },
+    "Default-Material": {
+      "bundle": "CAB-82335ec62e008f890ad4bf87d2a330ec",
+      "serializedFile": "CAB-82335ec62e008f890ad4bf87d2a330ec",
+      "classId": 21,
+      "pathId": 7244492029509593566
+    },
+    "FX_MAT_Circle_Glow_01a2": {
+      "bundle": "CAB-82e06f023ef01137da1dfdbb883bb380",
+      "serializedFile": "CAB-82e06f023ef01137da1dfdbb883bb380",
+      "classId": 21,
+      "pathId": -9201420676375535783
+    },
+    "FX_MAT_SkyColor_01": {
+      "bundle": "CAB-82e06f023ef01137da1dfdbb883bb380",
+      "serializedFile": "CAB-82e06f023ef01137da1dfdbb883bb380",
+      "classId": 21,
+      "pathId": -8869399143160202019
+    },
+    "FX_MAT_Frozen_01": {
+      "bundle": "CAB-82e06f023ef01137da1dfdbb883bb380",
+      "serializedFile": "CAB-82e06f023ef01137da1dfdbb883bb380",
+      "classId": 21,
+      "pathId": -8858927824592013788
+    },
+    "FX_MAT_Stretch_Scroll_16": {
+      "bundle": "CAB-82e06f023ef01137da1dfdbb883bb380",
+      "serializedFile": "CAB-82e06f023ef01137da1dfdbb883bb380",
+      "classId": 21,
+      "pathId": -8843517453228491156
+    },
+    "FX_MAT_Light_06": {
+      "bundle": "CAB-82e06f023ef01137da1dfdbb883bb380",
+      "serializedFile": "CAB-82e06f023ef01137da1dfdbb883bb380",
+      "classId": 21,
+      "pathId": -8824191428017458096
+    },
+    "FX_MAT_Circle_Ring_12": {
+      "bundle": "CAB-82e06f023ef01137da1dfdbb883bb380",
+      "serializedFile": "CAB-82e06f023ef01137da1dfdbb883bb380",
+      "classId": 21,
+      "pathId": -8687048767755260479
+    },
+    "FX_MAT_Lightnning_01g": {
+      "bundle": "CAB-82e06f023ef01137da1dfdbb883bb380",
+      "serializedFile": "CAB-82e06f023ef01137da1dfdbb883bb380",
+      "classId": 21,
+      "pathId": -8530429799158277438
+    },
+    "FX_MAT_Stretch_Step_36c": {
+      "bundle": "CAB-82e06f023ef01137da1dfdbb883bb380",
+      "serializedFile": "CAB-82e06f023ef01137da1dfdbb883bb380",
+      "classId": 21,
+      "pathId": -8321759173451634748
+    },
+    "FX_MAT_Star_c": {
+      "bundle": "CAB-82e06f023ef01137da1dfdbb883bb380",
+      "serializedFile": "CAB-82e06f023ef01137da1dfdbb883bb380",
+      "classId": 21,
+      "pathId": -7722336451341451952
+    },
+    "FX_MAT_Flare_37": {
+      "bundle": "CAB-82e06f023ef01137da1dfdbb883bb380",
+      "serializedFile": "CAB-82e06f023ef01137da1dfdbb883bb380",
+      "classId": 21,
+      "pathId": -7656470895257532601
+    },
+    "Common_HandGrenades": {
+      "bundle": "CAB-82e06f023ef01137da1dfdbb883bb380",
+      "serializedFile": "CAB-82e06f023ef01137da1dfdbb883bb380",
+      "classId": 21,
+      "pathId": -7647146160559006030
+    },
+    "FX_MAT_Gra_08t": {
+      "bundle": "CAB-82e06f023ef01137da1dfdbb883bb380",
+      "serializedFile": "CAB-82e06f023ef01137da1dfdbb883bb380",
+      "classId": 21,
+      "pathId": -7527723805407314796
+    },
+    "FX_MAT_Frozen_02": {
+      "bundle": "CAB-82e06f023ef01137da1dfdbb883bb380",
+      "serializedFile": "CAB-82e06f023ef01137da1dfdbb883bb380",
+      "classId": 21,
+      "pathId": -7316317808009056134
+    },
+    "FX_MAT_Fire_Distort_05c": {
+      "bundle": "CAB-82e06f023ef01137da1dfdbb883bb380",
+      "serializedFile": "CAB-82e06f023ef01137da1dfdbb883bb380",
+      "classId": 21,
+      "pathId": -7073518602684524825
+    },
+    "FX_MAT_Smoke_RGB_01": {
+      "bundle": "CAB-82e06f023ef01137da1dfdbb883bb380",
+      "serializedFile": "CAB-82e06f023ef01137da1dfdbb883bb380",
+      "classId": 21,
+      "pathId": -6335671308835758498
+    },
+    "FX_MAT_Gra_L_01a": {
+      "bundle": "CAB-82e06f023ef01137da1dfdbb883bb380",
+      "serializedFile": "CAB-82e06f023ef01137da1dfdbb883bb380",
+      "classId": 21,
+      "pathId": -6185296434866226131
+    },
+    "FX_MAT_Thin_Lightnning_04": {
+      "bundle": "CAB-82e06f023ef01137da1dfdbb883bb380",
+      "serializedFile": "CAB-82e06f023ef01137da1dfdbb883bb380",
+      "classId": 21,
+      "pathId": -5182313595424680917
+    },
+    "FX_MAT_Fire_Distort_23b": {
+      "bundle": "CAB-82e06f023ef01137da1dfdbb883bb380",
+      "serializedFile": "CAB-82e06f023ef01137da1dfdbb883bb380",
+      "classId": 21,
+      "pathId": -4935485117868579626
+    },
+    "FX_MAT_Stretch_Scroll_18b": {
+      "bundle": "CAB-82e06f023ef01137da1dfdbb883bb380",
+      "serializedFile": "CAB-82e06f023ef01137da1dfdbb883bb380",
+      "classId": 21,
+      "pathId": -4452639200374769409
+    },
+    "FX_MAT_Lightning_62g": {
+      "bundle": "CAB-82e06f023ef01137da1dfdbb883bb380",
+      "serializedFile": "CAB-82e06f023ef01137da1dfdbb883bb380",
+      "classId": 21,
+      "pathId": -4318854509974426893
+    },
+    "FX_MAT_Bold_Lightnning_02": {
+      "bundle": "CAB-82e06f023ef01137da1dfdbb883bb380",
+      "serializedFile": "CAB-82e06f023ef01137da1dfdbb883bb380",
+      "classId": 21,
+      "pathId": -4068275074212804387
+    },
+    "FX_MAT_Img_Imo_05g": {
+      "bundle": "CAB-82e06f023ef01137da1dfdbb883bb380",
+      "serializedFile": "CAB-82e06f023ef01137da1dfdbb883bb380",
+      "classId": 21,
+      "pathId": -3656705417089952335
+    },
+    "FX_MAT_Circle_Glow_invert_08": {
+      "bundle": "CAB-82e06f023ef01137da1dfdbb883bb380",
+      "serializedFile": "CAB-82e06f023ef01137da1dfdbb883bb380",
+      "classId": 21,
+      "pathId": -3538069482318412631
+    },
+    "FX_MAT_Skidmark_01": {
+      "bundle": "CAB-82e06f023ef01137da1dfdbb883bb380",
+      "serializedFile": "CAB-82e06f023ef01137da1dfdbb883bb380",
+      "classId": 21,
+      "pathId": -2982591386072076300
+    },
+    "FX_MAT_Flare_38": {
+      "bundle": "CAB-82e06f023ef01137da1dfdbb883bb380",
+      "serializedFile": "CAB-82e06f023ef01137da1dfdbb883bb380",
+      "classId": 21,
+      "pathId": -2818494566968268117
+    },
+    "FX_MAT_White_01c": {
+      "bundle": "CAB-82e06f023ef01137da1dfdbb883bb380",
+      "serializedFile": "CAB-82e06f023ef01137da1dfdbb883bb380",
+      "classId": 21,
+      "pathId": -2650121140487521325
+    },
+    "FX_MAT_Stretch_Scroll_17": {
+      "bundle": "CAB-82e06f023ef01137da1dfdbb883bb380",
+      "serializedFile": "CAB-82e06f023ef01137da1dfdbb883bb380",
+      "classId": 21,
+      "pathId": -2111075794123760865
+    },
+    "Common_MolotovCocktail": {
+      "bundle": "CAB-82e06f023ef01137da1dfdbb883bb380",
+      "serializedFile": "CAB-82e06f023ef01137da1dfdbb883bb380",
+      "classId": 21,
+      "pathId": -1113004667773585358
+    },
+    "FX_MAT_White_01a2": {
+      "bundle": "CAB-82e06f023ef01137da1dfdbb883bb380",
+      "serializedFile": "CAB-82e06f023ef01137da1dfdbb883bb380",
+      "classId": 21,
+      "pathId": -988913953944541310
+    },
+    "FX_MAT_Stretch_Step_99a": {
+      "bundle": "CAB-82e06f023ef01137da1dfdbb883bb380",
+      "serializedFile": "CAB-82e06f023ef01137da1dfdbb883bb380",
+      "classId": 21,
+      "pathId": -909998203729073179
+    },
+    "FX_MAT_SkyMesh_01": {
+      "bundle": "CAB-82e06f023ef01137da1dfdbb883bb380",
+      "serializedFile": "CAB-82e06f023ef01137da1dfdbb883bb380",
+      "classId": 21,
+      "pathId": -804178776609539397
+    },
+    "FX_MAT_Muzzle_09": {
+      "bundle": "CAB-82e06f023ef01137da1dfdbb883bb380",
+      "serializedFile": "CAB-82e06f023ef01137da1dfdbb883bb380",
+      "classId": 21,
+      "pathId": -307174751484315415
+    },
+    "FX_MAT_Aura_Distort_60": {
+      "bundle": "CAB-82e06f023ef01137da1dfdbb883bb380",
+      "serializedFile": "CAB-82e06f023ef01137da1dfdbb883bb380",
+      "classId": 21,
+      "pathId": 529296202609546619
+    },
+    "FX_MAT_Circle_Glow_01Z2": {
+      "bundle": "CAB-82e06f023ef01137da1dfdbb883bb380",
+      "serializedFile": "CAB-82e06f023ef01137da1dfdbb883bb380",
+      "classId": 21,
+      "pathId": 546923550485375668
+    },
+    "FX_MAT_World_Halo_01": {
+      "bundle": "CAB-82e06f023ef01137da1dfdbb883bb380",
+      "serializedFile": "CAB-82e06f023ef01137da1dfdbb883bb380",
+      "classId": 21,
+      "pathId": 556572217435953335
+    },
+    "FX_MAT_Stretch_Step_2Side_31": {
+      "bundle": "CAB-82e06f023ef01137da1dfdbb883bb380",
+      "serializedFile": "CAB-82e06f023ef01137da1dfdbb883bb380",
+      "classId": 21,
+      "pathId": 1628218013812324898
+    },
+    "FX_MAT_Bold_Lightnning_03": {
+      "bundle": "CAB-82e06f023ef01137da1dfdbb883bb380",
+      "serializedFile": "CAB-82e06f023ef01137da1dfdbb883bb380",
+      "classId": 21,
+      "pathId": 1649584800381482056
+    },
+    "FX_MAT_Aura_Distort_60a": {
+      "bundle": "CAB-82e06f023ef01137da1dfdbb883bb380",
+      "serializedFile": "CAB-82e06f023ef01137da1dfdbb883bb380",
+      "classId": 21,
+      "pathId": 2063757059799729693
+    },
+    "FX_MAT_Gra_09t": {
+      "bundle": "CAB-82e06f023ef01137da1dfdbb883bb380",
+      "serializedFile": "CAB-82e06f023ef01137da1dfdbb883bb380",
+      "classId": 21,
+      "pathId": 2283167501518699233
+    },
+    "FX_MAT_Frozen_03": {
+      "bundle": "CAB-82e06f023ef01137da1dfdbb883bb380",
+      "serializedFile": "CAB-82e06f023ef01137da1dfdbb883bb380",
+      "classId": 21,
+      "pathId": 2877427265099264953
+    },
+    "FX_MAT_Smoke_Distort_02c": {
+      "bundle": "CAB-82e06f023ef01137da1dfdbb883bb380",
+      "serializedFile": "CAB-82e06f023ef01137da1dfdbb883bb380",
+      "classId": 21,
+      "pathId": 3032870316559327564
+    },
+    "FX_MAT_Gra_L_14a": {
+      "bundle": "CAB-82e06f023ef01137da1dfdbb883bb380",
+      "serializedFile": "CAB-82e06f023ef01137da1dfdbb883bb380",
+      "classId": 21,
+      "pathId": 3443838723833828577
+    },
+    "FX_MAT_Stretch_Scroll_18a": {
+      "bundle": "CAB-82e06f023ef01137da1dfdbb883bb380",
+      "serializedFile": "CAB-82e06f023ef01137da1dfdbb883bb380",
+      "classId": 21,
+      "pathId": 3595980593018695312
+    },
+    "FX_MAT_Stretch_Step_83": {
+      "bundle": "CAB-82e06f023ef01137da1dfdbb883bb380",
+      "serializedFile": "CAB-82e06f023ef01137da1dfdbb883bb380",
+      "classId": 21,
+      "pathId": 3786150567523165887
+    },
+    "FX_MAT_Smoke_Distort_08f": {
+      "bundle": "CAB-82e06f023ef01137da1dfdbb883bb380",
+      "serializedFile": "CAB-82e06f023ef01137da1dfdbb883bb380",
+      "classId": 21,
+      "pathId": 4330277737968525657
+    },
+    "FX_MAT_Aura_Distort_59": {
+      "bundle": "CAB-82e06f023ef01137da1dfdbb883bb380",
+      "serializedFile": "CAB-82e06f023ef01137da1dfdbb883bb380",
+      "classId": 21,
+      "pathId": 4343021385342556452
+    },
+    "FX_MAT_Speed_Line_36": {
+      "bundle": "CAB-82e06f023ef01137da1dfdbb883bb380",
+      "serializedFile": "CAB-82e06f023ef01137da1dfdbb883bb380",
+      "classId": 21,
+      "pathId": 4862580587564392098
+    },
+    "FX_MAT_Noise_Distort_01c": {
+      "bundle": "CAB-82e06f023ef01137da1dfdbb883bb380",
+      "serializedFile": "CAB-82e06f023ef01137da1dfdbb883bb380",
+      "classId": 21,
+      "pathId": 4983797651479286303
+    },
+    "MonsterShadow": {
+      "bundle": "CAB-82e06f023ef01137da1dfdbb883bb380",
+      "serializedFile": "CAB-82e06f023ef01137da1dfdbb883bb380",
+      "classId": 21,
+      "pathId": 5715902645836450953
+    },
+    "FX_MAT_Grad_03": {
+      "bundle": "CAB-82e06f023ef01137da1dfdbb883bb380",
+      "serializedFile": "CAB-82e06f023ef01137da1dfdbb883bb380",
+      "classId": 21,
+      "pathId": 5998016637984928856
+    },
+    "FX_MAT_Circle_Glow_01z": {
+      "bundle": "CAB-82e06f023ef01137da1dfdbb883bb380",
+      "serializedFile": "CAB-82e06f023ef01137da1dfdbb883bb380",
+      "classId": 21,
+      "pathId": 6182999488559279425
+    },
+    "FX_MAT_Smoke_RGB_02": {
+      "bundle": "CAB-82e06f023ef01137da1dfdbb883bb380",
+      "serializedFile": "CAB-82e06f023ef01137da1dfdbb883bb380",
+      "classId": 21,
+      "pathId": 6191797388537932202
+    },
+    "FX_MAT_Img_Font_Text_01f": {
+      "bundle": "CAB-82e06f023ef01137da1dfdbb883bb380",
+      "serializedFile": "CAB-82e06f023ef01137da1dfdbb883bb380",
+      "classId": 21,
+      "pathId": 6274178751539688715
+    },
+    "Common_SmokeGrenades": {
+      "bundle": "CAB-82e06f023ef01137da1dfdbb883bb380",
+      "serializedFile": "CAB-82e06f023ef01137da1dfdbb883bb380",
+      "classId": 21,
+      "pathId": 6974326925544027191
+    },
+    "FX_MAT_Scroll_Gra_L_01c": {
+      "bundle": "CAB-82e06f023ef01137da1dfdbb883bb380",
+      "serializedFile": "CAB-82e06f023ef01137da1dfdbb883bb380",
+      "classId": 21,
+      "pathId": 7761841887770140048
+    },
+    "FX_MAT_Speed_Line_35": {
+      "bundle": "CAB-82e06f023ef01137da1dfdbb883bb380",
+      "serializedFile": "CAB-82e06f023ef01137da1dfdbb883bb380",
+      "classId": 21,
+      "pathId": 7852455329801655447
+    },
+    "FX_MAT_Bulletline_13": {
+      "bundle": "CAB-82e06f023ef01137da1dfdbb883bb380",
+      "serializedFile": "CAB-82e06f023ef01137da1dfdbb883bb380",
+      "classId": 21,
+      "pathId": 8359858043459563428
+    },
+    "FX_MAT_Smoke_Distort_01c": {
+      "bundle": "CAB-82e06f023ef01137da1dfdbb883bb380",
+      "serializedFile": "CAB-82e06f023ef01137da1dfdbb883bb380",
+      "classId": 21,
+      "pathId": 8369867671536578541
+    },
+    "FX_MAT_Gra_W_27": {
+      "bundle": "CAB-82e06f023ef01137da1dfdbb883bb380",
+      "serializedFile": "CAB-82e06f023ef01137da1dfdbb883bb380",
+      "classId": 21,
+      "pathId": 8533229055044714809
+    },
+    "FX_MAT_Speed_Line_31a": {
+      "bundle": "CAB-82e06f023ef01137da1dfdbb883bb380",
+      "serializedFile": "CAB-82e06f023ef01137da1dfdbb883bb380",
+      "classId": 21,
+      "pathId": 8575105944613747112
+    },
+    "FX_MAT_Aura_Gra_Distort_05": {
+      "bundle": "CAB-1de60467771e7319ddddaf8e2645428c",
+      "serializedFile": "CAB-1de60467771e7319ddddaf8e2645428c",
+      "classId": 21,
+      "pathId": -9183667224498055998
+    },
+    "FX_MAT_Stretch_Step_01": {
+      "bundle": "CAB-1de60467771e7319ddddaf8e2645428c",
+      "serializedFile": "CAB-1de60467771e7319ddddaf8e2645428c",
+      "classId": 21,
+      "pathId": -9074890853541589012
+    },
+    "FX_MAT_Halo_Trail_01": {
+      "bundle": "CAB-1de60467771e7319ddddaf8e2645428c",
+      "serializedFile": "CAB-1de60467771e7319ddddaf8e2645428c",
+      "classId": 21,
+      "pathId": -8800977538661071168
+    },
+    "FX_MAT_Noise_Step_2Side_01": {
+      "bundle": "CAB-1de60467771e7319ddddaf8e2645428c",
+      "serializedFile": "CAB-1de60467771e7319ddddaf8e2645428c",
+      "classId": 21,
+      "pathId": -8734237891775835604
+    },
+    "FX_MAT_Aura_Distort_11": {
+      "bundle": "CAB-1de60467771e7319ddddaf8e2645428c",
+      "serializedFile": "CAB-1de60467771e7319ddddaf8e2645428c",
+      "classId": 21,
+      "pathId": -8491399104724766578
+    },
+    "FX_MAT_Noise_Step_2Side_02": {
+      "bundle": "CAB-1de60467771e7319ddddaf8e2645428c",
+      "serializedFile": "CAB-1de60467771e7319ddddaf8e2645428c",
+      "classId": 21,
+      "pathId": -8474923147456565286
+    },
+    "FX_MAT_BG_06": {
+      "bundle": "CAB-1de60467771e7319ddddaf8e2645428c",
+      "serializedFile": "CAB-1de60467771e7319ddddaf8e2645428c",
+      "classId": 21,
+      "pathId": -8334246192443684383
+    },
+    "CH0069_Weapon": {
+      "bundle": "CAB-1de60467771e7319ddddaf8e2645428c",
+      "serializedFile": "CAB-1de60467771e7319ddddaf8e2645428c",
+      "classId": 21,
+      "pathId": -8144688684796393933
+    },
+    "FX_MAT_Noise_Step_2Side_03": {
+      "bundle": "CAB-1de60467771e7319ddddaf8e2645428c",
+      "serializedFile": "CAB-1de60467771e7319ddddaf8e2645428c",
+      "classId": 21,
+      "pathId": -7988803106978689324
+    },
+    "FX_MAT_Aura_Gra_Distort_04": {
+      "bundle": "CAB-1de60467771e7319ddddaf8e2645428c",
+      "serializedFile": "CAB-1de60467771e7319ddddaf8e2645428c",
+      "classId": 21,
+      "pathId": -7828900230602273080
+    },
+    "FX_MAT_Stretch_Step_03": {
+      "bundle": "CAB-1de60467771e7319ddddaf8e2645428c",
+      "serializedFile": "CAB-1de60467771e7319ddddaf8e2645428c",
+      "classId": 21,
+      "pathId": -7076686822945534872
+    },
+    "FX_MAT_Grad_L_08": {
+      "bundle": "CAB-1de60467771e7319ddddaf8e2645428c",
+      "serializedFile": "CAB-1de60467771e7319ddddaf8e2645428c",
+      "classId": 21,
+      "pathId": -6698512575790246254
+    },
+    "FX_MAT_CH0151_Halo_02": {
+      "bundle": "CAB-1de60467771e7319ddddaf8e2645428c",
+      "serializedFile": "CAB-1de60467771e7319ddddaf8e2645428c",
+      "classId": 21,
+      "pathId": -4424058627445745099
+    },
+    "FX_MAT_Aura_Distort_09": {
+      "bundle": "CAB-1de60467771e7319ddddaf8e2645428c",
+      "serializedFile": "CAB-1de60467771e7319ddddaf8e2645428c",
+      "classId": 21,
+      "pathId": -4309141960309470947
+    },
+    "FX_MAT_Aura_Distort_12": {
+      "bundle": "CAB-1de60467771e7319ddddaf8e2645428c",
+      "serializedFile": "CAB-1de60467771e7319ddddaf8e2645428c",
+      "classId": 21,
+      "pathId": -4303835110970561630
+    },
+    "FX_MAT_Grad_Distort_01b": {
+      "bundle": "CAB-1de60467771e7319ddddaf8e2645428c",
+      "serializedFile": "CAB-1de60467771e7319ddddaf8e2645428c",
+      "classId": 21,
+      "pathId": -4240709321749742066
+    },
+    "FX_MAT_Circle_Glow_50": {
+      "bundle": "CAB-1de60467771e7319ddddaf8e2645428c",
+      "serializedFile": "CAB-1de60467771e7319ddddaf8e2645428c",
+      "classId": 21,
+      "pathId": -3710132078407444811
+    },
+    "FX_MAT_Gra_4": {
+      "bundle": "CAB-1de60467771e7319ddddaf8e2645428c",
+      "serializedFile": "CAB-1de60467771e7319ddddaf8e2645428c",
+      "classId": 21,
+      "pathId": -2612017476612202250
+    },
+    "FX_MAT_Flare_38__-2176871393402489566": {
+      "bundle": "CAB-1de60467771e7319ddddaf8e2645428c",
+      "serializedFile": "CAB-1de60467771e7319ddddaf8e2645428c",
+      "classId": 21,
+      "pathId": -2176871393402489566
+    },
+    "FX_MAT_Stretch_Step_05": {
+      "bundle": "CAB-1de60467771e7319ddddaf8e2645428c",
+      "serializedFile": "CAB-1de60467771e7319ddddaf8e2645428c",
+      "classId": 21,
+      "pathId": -1782445678489250817
+    },
+    "FX_MAT_Img_Warband_02": {
+      "bundle": "CAB-1de60467771e7319ddddaf8e2645428c",
+      "serializedFile": "CAB-1de60467771e7319ddddaf8e2645428c",
+      "classId": 21,
+      "pathId": -1561038831263257323
+    },
+    "FX_MAT_Img_Warband_01": {
+      "bundle": "CAB-1de60467771e7319ddddaf8e2645428c",
+      "serializedFile": "CAB-1de60467771e7319ddddaf8e2645428c",
+      "classId": 21,
+      "pathId": -276421129258519861
+    },
+    "FX_MAT_Noise_Step_13": {
+      "bundle": "CAB-1de60467771e7319ddddaf8e2645428c",
+      "serializedFile": "CAB-1de60467771e7319ddddaf8e2645428c",
+      "classId": 21,
+      "pathId": 123502688946738247
+    },
+    "FX_MAT_BG_05": {
+      "bundle": "CAB-1de60467771e7319ddddaf8e2645428c",
+      "serializedFile": "CAB-1de60467771e7319ddddaf8e2645428c",
+      "classId": 21,
+      "pathId": 280405470703826385
+    },
+    "FX_MAT_Aura_Gra_Distort_06": {
+      "bundle": "CAB-1de60467771e7319ddddaf8e2645428c",
+      "serializedFile": "CAB-1de60467771e7319ddddaf8e2645428c",
+      "classId": 21,
+      "pathId": 574503736549847883
+    },
+    "FX_MAT_BG_Atlas_01": {
+      "bundle": "CAB-1de60467771e7319ddddaf8e2645428c",
+      "serializedFile": "CAB-1de60467771e7319ddddaf8e2645428c",
+      "classId": 21,
+      "pathId": 774758875340707329
+    },
+    "FX_MAT_Aura_Gra_Distort_03": {
+      "bundle": "CAB-1de60467771e7319ddddaf8e2645428c",
+      "serializedFile": "CAB-1de60467771e7319ddddaf8e2645428c",
+      "classId": 21,
+      "pathId": 1006751098600459672
+    },
+    "FX_MAT_Aura_Distort_03": {
+      "bundle": "CAB-1de60467771e7319ddddaf8e2645428c",
+      "serializedFile": "CAB-1de60467771e7319ddddaf8e2645428c",
+      "classId": 21,
+      "pathId": 1725065318764445636
+    },
+    "CH0069_Halo": {
+      "bundle": "CAB-1de60467771e7319ddddaf8e2645428c",
+      "serializedFile": "CAB-1de60467771e7319ddddaf8e2645428c",
+      "classId": 21,
+      "pathId": 2369479788782513410
+    },
+    "FX_MAT_Flare_39": {
+      "bundle": "CAB-1de60467771e7319ddddaf8e2645428c",
+      "serializedFile": "CAB-1de60467771e7319ddddaf8e2645428c",
+      "classId": 21,
+      "pathId": 2541246296942290939
+    },
+    "FX_MAT_Noise_Step_12": {
+      "bundle": "CAB-1de60467771e7319ddddaf8e2645428c",
+      "serializedFile": "CAB-1de60467771e7319ddddaf8e2645428c",
+      "classId": 21,
+      "pathId": 3111619555194662008
+    },
+    "CH0069_Body": {
+      "bundle": "CAB-1de60467771e7319ddddaf8e2645428c",
+      "serializedFile": "CAB-1de60467771e7319ddddaf8e2645428c",
+      "classId": 21,
+      "pathId": 3128324192897461352
+    },
+    "CH0069_Hair": {
+      "bundle": "CAB-1de60467771e7319ddddaf8e2645428c",
+      "serializedFile": "CAB-1de60467771e7319ddddaf8e2645428c",
+      "classId": 21,
+      "pathId": 3129366841415261526
+    },
+    "FX_MAT_Aura_Distort_10": {
+      "bundle": "CAB-1de60467771e7319ddddaf8e2645428c",
+      "serializedFile": "CAB-1de60467771e7319ddddaf8e2645428c",
+      "classId": 21,
+      "pathId": 3412739264966367615
+    },
+    "FX_MAT_Aura_Gra_Distort_02": {
+      "bundle": "CAB-1de60467771e7319ddddaf8e2645428c",
+      "serializedFile": "CAB-1de60467771e7319ddddaf8e2645428c",
+      "classId": 21,
+      "pathId": 3874427649425947186
+    },
+    "FX_MAT_Aura_Gra_Distort_07": {
+      "bundle": "CAB-1de60467771e7319ddddaf8e2645428c",
+      "serializedFile": "CAB-1de60467771e7319ddddaf8e2645428c",
+      "classId": 21,
+      "pathId": 4858204669644186603
+    },
+    "CH0069_Eyebrow": {
+      "bundle": "CAB-1de60467771e7319ddddaf8e2645428c",
+      "serializedFile": "CAB-1de60467771e7319ddddaf8e2645428c",
+      "classId": 21,
+      "pathId": 5360098837195802678
+    },
+    "CH0069_Face": {
+      "bundle": "CAB-1de60467771e7319ddddaf8e2645428c",
+      "serializedFile": "CAB-1de60467771e7319ddddaf8e2645428c",
+      "classId": 21,
+      "pathId": 5528091050566859804
+    },
+    "FX_MAT_Aura_Distort_Scroll_01": {
+      "bundle": "CAB-1de60467771e7319ddddaf8e2645428c",
+      "serializedFile": "CAB-1de60467771e7319ddddaf8e2645428c",
+      "classId": 21,
+      "pathId": 6045386867397609429
+    },
+    "FX_MAT_Aura_Distort_01": {
+      "bundle": "CAB-1de60467771e7319ddddaf8e2645428c",
+      "serializedFile": "CAB-1de60467771e7319ddddaf8e2645428c",
+      "classId": 21,
+      "pathId": 6729251708863200103
+    },
+    "FX_MAT_Stretch_Step_02": {
+      "bundle": "CAB-1de60467771e7319ddddaf8e2645428c",
+      "serializedFile": "CAB-1de60467771e7319ddddaf8e2645428c",
+      "classId": 21,
+      "pathId": 6824033762862636591
+    },
+    "FX_MAT_Aura_Distort_02": {
+      "bundle": "CAB-1de60467771e7319ddddaf8e2645428c",
+      "serializedFile": "CAB-1de60467771e7319ddddaf8e2645428c",
+      "classId": 21,
+      "pathId": 6944301294396162707
+    },
+    "CH0069_EyeMouth": {
+      "bundle": "CAB-1de60467771e7319ddddaf8e2645428c",
+      "serializedFile": "CAB-1de60467771e7319ddddaf8e2645428c",
+      "classId": 21,
+      "pathId": 7070117275902672829
+    },
+    "FX_MAT_Aura_Distort_Scroll_03": {
+      "bundle": "CAB-1de60467771e7319ddddaf8e2645428c",
+      "serializedFile": "CAB-1de60467771e7319ddddaf8e2645428c",
+      "classId": 21,
+      "pathId": 7355535223575203106
+    },
+    "FX_MAT_Gra_L_03": {
+      "bundle": "CAB-1de60467771e7319ddddaf8e2645428c",
+      "serializedFile": "CAB-1de60467771e7319ddddaf8e2645428c",
+      "classId": 21,
+      "pathId": 7391124297902816683
+    },
+    "FX_MAT_Img_Window_Light_03": {
+      "bundle": "CAB-1de60467771e7319ddddaf8e2645428c",
+      "serializedFile": "CAB-1de60467771e7319ddddaf8e2645428c",
+      "classId": 21,
+      "pathId": 7463993697065885520
+    },
+    "FX_MAT_Aura_Distort_08": {
+      "bundle": "CAB-1de60467771e7319ddddaf8e2645428c",
+      "serializedFile": "CAB-1de60467771e7319ddddaf8e2645428c",
+      "classId": 21,
+      "pathId": 8150602037596811019
+    },
+    "FX_MAT_Aura_Distort_Scroll_02": {
+      "bundle": "CAB-1de60467771e7319ddddaf8e2645428c",
+      "serializedFile": "CAB-1de60467771e7319ddddaf8e2645428c",
+      "classId": 21,
+      "pathId": 8207687041042492777
+    },
+    "FX_MAT_Stretch_Step_04": {
+      "bundle": "CAB-1de60467771e7319ddddaf8e2645428c",
+      "serializedFile": "CAB-1de60467771e7319ddddaf8e2645428c",
+      "classId": 21,
+      "pathId": 8368422588891416917
+    },
+    "FX_MAT_Aura_Gra_Distort_01a": {
+      "bundle": "CAB-1de60467771e7319ddddaf8e2645428c",
+      "serializedFile": "CAB-1de60467771e7319ddddaf8e2645428c",
+      "classId": 21,
+      "pathId": 9209637691768453498
+    },
+    "Bullet_01": {
+      "bundle": "CAB-b171383cf56fd7b8ffd04b2becfa2716",
+      "serializedFile": "CAB-b171383cf56fd7b8ffd04b2becfa2716",
+      "classId": 21,
+      "pathId": -3808518393460578204
+    },
+    "FX_MAT_Stretch_Step_109_Heli": {
+      "bundle": "CAB-b171383cf56fd7b8ffd04b2becfa2716",
+      "serializedFile": "CAB-b171383cf56fd7b8ffd04b2becfa2716",
+      "classId": 21,
+      "pathId": 6212521524426312894
+    },
+    "Common_FlashBang": {
+      "bundle": "CAB-b171383cf56fd7b8ffd04b2becfa2716",
+      "serializedFile": "CAB-b171383cf56fd7b8ffd04b2becfa2716",
+      "classId": 21,
+      "pathId": 6334290798534532261
+    }
+  },
+  "textures": {
+    "Default-Particle": {
+      "name": "Default-Particle",
+      "logicalName": "Default-Particle",
+      "file": "Textures/Source/Default-Particle.png",
+      "width": 64,
+      "height": 64,
+      "sourceFormat": "4:RGBA32",
+      "mipCount": 7,
+      "imageCount": 1,
+      "colorSpace": "1",
+      "textureDimension": "2",
+      "filterMode": 1,
+      "wrapMode": [
+        0,
+        0,
+        0
+      ],
+      "anisoLevel": 1,
+      "mipBias": 0.0,
+      "isReadable": false,
+      "streamingMipmaps": false,
+      "samplerSettings": "GLTextureSettings(m_Aniso=1, m_FilterMode=1, m_MipBias=0.0, m_WrapMode=None, m_WrapU=0, m_WrapV=0, m_WrapW=0)",
+      "bytes": 4086,
+      "sha256": "bbf31dafa9428b7248d42798a0fd68c358f36d4cf5bd073af8aa54b7b37ff617",
+      "bundle": "CAB-82335ec62e008f890ad4bf87d2a330ec",
+      "pathId": -6903108498810639906,
+      "classId": 28,
+      "discoveredBy": "bundle-scan",
+      "referencedBy": [
+        "Default-Particle"
+      ]
+    },
+    "UISprite": {
+      "name": "UISprite",
+      "logicalName": "UISprite",
+      "file": "Textures/Source/UISprite.png",
+      "width": 32,
+      "height": 32,
+      "sourceFormat": "4:RGBA32",
+      "mipCount": 6,
+      "imageCount": 1,
+      "colorSpace": "1",
+      "textureDimension": "2",
+      "filterMode": 1,
+      "wrapMode": [
+        1,
+        1,
+        1
+      ],
+      "anisoLevel": 16,
+      "mipBias": 0.0,
+      "isReadable": false,
+      "streamingMipmaps": false,
+      "samplerSettings": "GLTextureSettings(m_Aniso=16, m_FilterMode=1, m_MipBias=0.0, m_WrapMode=None, m_WrapU=1, m_WrapV=1, m_WrapW=1)",
+      "bytes": 710,
+      "sha256": "ed8f09a99f1b67860351020af1d6eed114e3528039306006d730e29cc2343eaf",
+      "bundle": "CAB-82335ec62e008f890ad4bf87d2a330ec",
+      "pathId": -1845768158025651746,
+      "classId": 28,
+      "discoveredBy": "bundle-scan",
+      "referencedBy": []
+    },
+    "Default-Checker": {
+      "name": "Default-Checker",
+      "logicalName": "Default-Checker",
+      "file": "Textures/Source/Default-Checker.png",
+      "width": 64,
+      "height": 64,
+      "sourceFormat": "3:RGB24",
+      "mipCount": 7,
+      "imageCount": 1,
+      "colorSpace": "1",
+      "textureDimension": "2",
+      "filterMode": 1,
+      "wrapMode": [
+        0,
+        0,
+        0
+      ],
+      "anisoLevel": 1,
+      "mipBias": 0.0,
+      "isReadable": false,
+      "streamingMipmaps": false,
+      "samplerSettings": "GLTextureSettings(m_Aniso=1, m_FilterMode=1, m_MipBias=0.0, m_WrapMode=None, m_WrapU=0, m_WrapV=0, m_WrapW=0)",
+      "bytes": 199,
+      "sha256": "75314da7f7065449cf358e7ef26764cd6d24cabfa15a37afdfb0380c0e12a359",
+      "bundle": "CAB-82335ec62e008f890ad4bf87d2a330ec",
+      "pathId": 7221101049281407454,
+      "classId": 28,
+      "discoveredBy": "bundle-scan",
+      "referencedBy": []
+    },
+    "Background": {
+      "name": "Background",
+      "logicalName": "Background",
+      "file": "Textures/Source/Background.png",
+      "width": 32,
+      "height": 32,
+      "sourceFormat": "4:RGBA32",
+      "mipCount": 6,
+      "imageCount": 1,
+      "colorSpace": "1",
+      "textureDimension": "2",
+      "filterMode": 1,
+      "wrapMode": [
+        1,
+        1,
+        1
+      ],
+      "anisoLevel": 16,
+      "mipBias": 0.0,
+      "isReadable": false,
+      "streamingMipmaps": false,
+      "samplerSettings": "GLTextureSettings(m_Aniso=16, m_FilterMode=1, m_MipBias=0.0, m_WrapMode=None, m_WrapU=1, m_WrapV=1, m_WrapW=1)",
+      "bytes": 648,
+      "sha256": "cc41c8095c32bf9cf67e7ff8b8a1e2fdb89c8d69033a1d29ceb510295ec06a2b",
+      "bundle": "CAB-82335ec62e008f890ad4bf87d2a330ec",
+      "pathId": 8715840493188442590,
+      "classId": 28,
+      "discoveredBy": "bundle-scan",
+      "referencedBy": []
+    },
+    "FX_TEX_Star_c": {
+      "name": "FX_TEX_Star_c",
+      "logicalName": "FX_TEX_Star_c",
+      "file": "Textures/Source/FX_TEX_Star_c.png",
+      "width": 256,
+      "height": 256,
+      "sourceFormat": "48:ASTC_RGB_4x4",
+      "mipCount": 9,
+      "imageCount": 1,
+      "colorSpace": "1",
+      "textureDimension": "2",
+      "filterMode": 1,
+      "wrapMode": [
+        0,
+        0,
+        0
+      ],
+      "anisoLevel": 1,
+      "mipBias": 0.0,
+      "isReadable": false,
+      "streamingMipmaps": false,
+      "samplerSettings": "GLTextureSettings(m_Aniso=1, m_FilterMode=1, m_MipBias=0.0, m_WrapMode=None, m_WrapU=0, m_WrapV=0, m_WrapW=0)",
+      "bytes": 9708,
+      "sha256": "5332f6fdcee2ef269170ad201bda346b8e6782bc739603d41d397e994ff48546",
+      "bundle": "CAB-9638ab408fb9c9083d9e63134c29f6ab",
+      "pathId": -8867636872201253168,
+      "classId": 28,
+      "discoveredBy": "bundle-scan",
+      "referencedBy": [
+        "FX_MAT_Star_c"
+      ]
+    },
+    "FX_TEX_World_Halo_01": {
+      "name": "FX_TEX_World_Halo_01",
+      "logicalName": "FX_TEX_World_Halo_01",
+      "file": "Textures/Source/FX_TEX_World_Halo_01.png",
+      "width": 256,
+      "height": 256,
+      "sourceFormat": "51:ASTC_RGB_8x8",
+      "mipCount": 1,
+      "imageCount": 1,
+      "colorSpace": "1",
+      "textureDimension": "2",
+      "filterMode": 1,
+      "wrapMode": [
+        1,
+        1,
+        1
+      ],
+      "anisoLevel": 1,
+      "mipBias": 0.0,
+      "isReadable": false,
+      "streamingMipmaps": false,
+      "samplerSettings": "GLTextureSettings(m_Aniso=1, m_FilterMode=1, m_MipBias=0.0, m_WrapMode=None, m_WrapU=1, m_WrapV=1, m_WrapW=1)",
+      "bytes": 34169,
+      "sha256": "3bd1b81f6e836ddcfee11cc0747400d20c9328ccc412014d944c9f39f16785f2",
+      "bundle": "CAB-9638ab408fb9c9083d9e63134c29f6ab",
+      "pathId": -8251002842981193544,
+      "classId": 28,
+      "discoveredBy": "bundle-scan",
+      "referencedBy": [
+        "FX_MAT_World_Halo_01"
+      ]
+    },
+    "FX_TEX_Line_S_01": {
+      "name": "FX_TEX_Line_S_01",
+      "logicalName": "FX_TEX_Line_S_01",
+      "file": "Textures/Source/FX_TEX_Line_S_01.png",
+      "width": 256,
+      "height": 256,
+      "sourceFormat": "48:ASTC_RGB_4x4",
+      "mipCount": 1,
+      "imageCount": 1,
+      "colorSpace": "1",
+      "textureDimension": "2",
+      "filterMode": 1,
+      "wrapMode": [
+        1,
+        1,
+        1
+      ],
+      "anisoLevel": 1,
+      "mipBias": 0.0,
+      "isReadable": false,
+      "streamingMipmaps": false,
+      "samplerSettings": "GLTextureSettings(m_Aniso=1, m_FilterMode=1, m_MipBias=0.0, m_WrapMode=None, m_WrapU=1, m_WrapV=1, m_WrapW=1)",
+      "bytes": 27305,
+      "sha256": "2a831fd498a986c0b2f05fd8dc023a14e42b87947e040cc312bd96002932e5a6",
+      "bundle": "CAB-9638ab408fb9c9083d9e63134c29f6ab",
+      "pathId": -7803911220340778014,
+      "classId": 28,
+      "discoveredBy": "bundle-scan",
+      "referencedBy": [
+        "FX_MAT_Circle_Glow_invert_08"
+      ]
+    },
+    "FX_TEX_Smoke_RGB_02": {
+      "name": "FX_TEX_Smoke_RGB_02",
+      "logicalName": "FX_TEX_Smoke_RGB_02",
+      "file": "Textures/Source/FX_TEX_Smoke_RGB_02.png",
+      "width": 256,
+      "height": 256,
+      "sourceFormat": "48:ASTC_RGB_4x4",
+      "mipCount": 1,
+      "imageCount": 1,
+      "colorSpace": "0",
+      "textureDimension": "2",
+      "filterMode": 1,
+      "wrapMode": [
+        1,
+        1,
+        1
+      ],
+      "anisoLevel": 1,
+      "mipBias": 0.0,
+      "isReadable": false,
+      "streamingMipmaps": false,
+      "samplerSettings": "GLTextureSettings(m_Aniso=1, m_FilterMode=1, m_MipBias=0.0, m_WrapMode=None, m_WrapU=1, m_WrapV=1, m_WrapW=1)",
+      "bytes": 86490,
+      "sha256": "535cb077e5366491a1d72127146e56e079eb074906244c3f544396966ba72c7a",
+      "bundle": "CAB-9638ab408fb9c9083d9e63134c29f6ab",
+      "pathId": -7579937228463388263,
+      "classId": 28,
+      "discoveredBy": "bundle-scan",
+      "referencedBy": [
+        "FX_MAT_Smoke_RGB_02"
+      ]
+    },
+    "FX_TEX_Noise_32": {
+      "name": "FX_TEX_Noise_32",
+      "logicalName": "FX_TEX_Noise_32",
+      "file": "Textures/Source/FX_TEX_Noise_32.png",
+      "width": 256,
+      "height": 256,
+      "sourceFormat": "48:ASTC_RGB_4x4",
+      "mipCount": 1,
+      "imageCount": 1,
+      "colorSpace": "1",
+      "textureDimension": "2",
+      "filterMode": 1,
+      "wrapMode": [
+        0,
+        0,
+        0
+      ],
+      "anisoLevel": 1,
+      "mipBias": 0.0,
+      "isReadable": false,
+      "streamingMipmaps": false,
+      "samplerSettings": "GLTextureSettings(m_Aniso=1, m_FilterMode=1, m_MipBias=0.0, m_WrapMode=None, m_WrapU=0, m_WrapV=0, m_WrapW=0)",
+      "bytes": 51148,
+      "sha256": "4afe7b9e8d4587d68627fdbb052358491cb6998395d0a5b4a05ae85c5342c376",
+      "bundle": "CAB-9638ab408fb9c9083d9e63134c29f6ab",
+      "pathId": -7386714157200424493,
+      "classId": 28,
+      "discoveredBy": "bundle-scan",
+      "referencedBy": [
+        "FX_MAT_Stretch_Scroll_16",
+        "FX_MAT_Stretch_Scroll_17"
+      ]
+    },
+    "FX_TEX_Light_01c": {
+      "name": "FX_TEX_Light_01c",
+      "logicalName": "FX_TEX_Light_01c",
+      "file": "Textures/Source/FX_TEX_Light_01c.png",
+      "width": 256,
+      "height": 256,
+      "sourceFormat": "48:ASTC_RGB_4x4",
+      "mipCount": 1,
+      "imageCount": 1,
+      "colorSpace": "1",
+      "textureDimension": "2",
+      "filterMode": 1,
+      "wrapMode": [
+        1,
+        1,
+        1
+      ],
+      "anisoLevel": 1,
+      "mipBias": 0.0,
+      "isReadable": false,
+      "streamingMipmaps": false,
+      "samplerSettings": "GLTextureSettings(m_Aniso=1, m_FilterMode=1, m_MipBias=0.0, m_WrapMode=None, m_WrapU=1, m_WrapV=1, m_WrapW=1)",
+      "bytes": 6221,
+      "sha256": "83f695f4cd99c51ce48275309ec4652fbffdcb64fa7963e5471cc641b8bc2dcf",
+      "bundle": "CAB-9638ab408fb9c9083d9e63134c29f6ab",
+      "pathId": -7116664833267177466,
+      "classId": 28,
+      "discoveredBy": "bundle-scan",
+      "referencedBy": [
+        "FX_MAT_Light_06"
+      ]
+    },
+    "FX_TEX_Ring_03": {
+      "name": "FX_TEX_Ring_03",
+      "logicalName": "FX_TEX_Ring_03",
+      "file": "Textures/Source/FX_TEX_Ring_03.png",
+      "width": 256,
+      "height": 256,
+      "sourceFormat": "48:ASTC_RGB_4x4",
+      "mipCount": 1,
+      "imageCount": 1,
+      "colorSpace": "1",
+      "textureDimension": "2",
+      "filterMode": 1,
+      "wrapMode": [
+        1,
+        1,
+        1
+      ],
+      "anisoLevel": 1,
+      "mipBias": 0.0,
+      "isReadable": false,
+      "streamingMipmaps": false,
+      "samplerSettings": "GLTextureSettings(m_Aniso=1, m_FilterMode=1, m_MipBias=0.0, m_WrapMode=None, m_WrapU=1, m_WrapV=1, m_WrapW=1)",
+      "bytes": 44048,
+      "sha256": "4e54336d53a898f3c4ceaf50d245a330eb8a8fa22e4023864891aa398359dcdb",
+      "bundle": "CAB-9638ab408fb9c9083d9e63134c29f6ab",
+      "pathId": -5951258743579680007,
+      "classId": 28,
+      "discoveredBy": "bundle-scan",
+      "referencedBy": [
+        "FX_MAT_Circle_Ring_12"
+      ]
+    },
+    "FX_TEX_Img_Font_05h": {
+      "name": "FX_TEX_Img_Font_05h",
+      "logicalName": "FX_TEX_Img_Font_05h",
+      "file": "Textures/Source/FX_TEX_Img_Font_05h.png",
+      "width": 128,
+      "height": 128,
+      "sourceFormat": "51:ASTC_RGB_8x8",
+      "mipCount": 1,
+      "imageCount": 1,
+      "colorSpace": "1",
+      "textureDimension": "2",
+      "filterMode": 1,
+      "wrapMode": [
+        1,
+        1,
+        1
+      ],
+      "anisoLevel": 1,
+      "mipBias": 0.0,
+      "isReadable": false,
+      "streamingMipmaps": false,
+      "samplerSettings": "GLTextureSettings(m_Aniso=1, m_FilterMode=1, m_MipBias=0.0, m_WrapMode=None, m_WrapU=1, m_WrapV=1, m_WrapW=1)",
+      "bytes": 3895,
+      "sha256": "fbcf53a581614a539e12128dded6990c5e34d5e232a4a43de8d5330b23588c8b",
+      "bundle": "CAB-9638ab408fb9c9083d9e63134c29f6ab",
+      "pathId": -3828990523506094197,
+      "classId": 28,
+      "discoveredBy": "bundle-scan",
+      "referencedBy": [
+        "FX_MAT_Img_Font_Text_01f"
+      ]
+    },
+    "FX_TEX_Img_Imo_05g": {
+      "name": "FX_TEX_Img_Imo_05g",
+      "logicalName": "FX_TEX_Img_Imo_05g",
+      "file": "Textures/Source/FX_TEX_Img_Imo_05g.png",
+      "width": 128,
+      "height": 128,
+      "sourceFormat": "48:ASTC_RGB_4x4",
+      "mipCount": 1,
+      "imageCount": 1,
+      "colorSpace": "1",
+      "textureDimension": "2",
+      "filterMode": 1,
+      "wrapMode": [
+        1,
+        1,
+        1
+      ],
+      "anisoLevel": 1,
+      "mipBias": 0.0,
+      "isReadable": false,
+      "streamingMipmaps": false,
+      "samplerSettings": "GLTextureSettings(m_Aniso=1, m_FilterMode=1, m_MipBias=0.0, m_WrapMode=None, m_WrapU=1, m_WrapV=1, m_WrapW=1)",
+      "bytes": 2142,
+      "sha256": "b6d225e71459fc2167cedd532b14b440515ee141bce75f7e554438812f29a09e",
+      "bundle": "CAB-9638ab408fb9c9083d9e63134c29f6ab",
+      "pathId": -2915862896193119555,
+      "classId": 28,
+      "discoveredBy": "bundle-scan",
+      "referencedBy": [
+        "FX_MAT_Img_Imo_05g"
+      ]
+    },
+    "Character_Mouth_Decagramaton": {
+      "name": "Character_Mouth_Decagramaton",
+      "logicalName": "Character_Mouth_Decagramaton",
+      "file": "Textures/Source/Character_Mouth_Decagramaton.png",
+      "width": 1024,
+      "height": 1024,
+      "sourceFormat": "49:ASTC_RGB_5x5",
+      "mipCount": 1,
+      "imageCount": 1,
+      "colorSpace": "1",
+      "textureDimension": "2",
+      "filterMode": 1,
+      "wrapMode": [
+        1,
+        1,
+        1
+      ],
+      "anisoLevel": 1,
+      "mipBias": 0.0,
+      "isReadable": false,
+      "streamingMipmaps": false,
+      "samplerSettings": "GLTextureSettings(m_Aniso=1, m_FilterMode=1, m_MipBias=0.0, m_WrapMode=None, m_WrapU=1, m_WrapV=1, m_WrapW=1)",
+      "bytes": 101900,
+      "sha256": "a25e32659723c3256c5af38912d4a1aa078b3c3c7eac4e2a1692e6d5f0dc13a8",
+      "bundle": "CAB-9638ab408fb9c9083d9e63134c29f6ab",
+      "pathId": -2900406192562834918,
+      "classId": 28,
+      "discoveredBy": "bundle-scan",
+      "referencedBy": []
+    },
+    "FX_TEX_Noise_12c": {
+      "name": "FX_TEX_Noise_12c",
+      "logicalName": "FX_TEX_Noise_12c",
+      "file": "Textures/Source/FX_TEX_Noise_12c.png",
+      "width": 256,
+      "height": 256,
+      "sourceFormat": "50:ASTC_RGB_6x6",
+      "mipCount": 1,
+      "imageCount": 1,
+      "colorSpace": "1",
+      "textureDimension": "2",
+      "filterMode": 1,
+      "wrapMode": [
+        0,
+        0,
+        0
+      ],
+      "anisoLevel": 1,
+      "mipBias": 0.0,
+      "isReadable": false,
+      "streamingMipmaps": false,
+      "samplerSettings": "GLTextureSettings(m_Aniso=1, m_FilterMode=1, m_MipBias=0.0, m_WrapMode=None, m_WrapU=0, m_WrapV=0, m_WrapW=0)",
+      "bytes": 44033,
+      "sha256": "00f1df0dfae38351bd6c467ea3e351f4d2459c97b72bf01ccb7e0c8bdaf00475",
+      "bundle": "CAB-9638ab408fb9c9083d9e63134c29f6ab",
+      "pathId": -1187647640535559322,
+      "classId": 28,
+      "discoveredBy": "bundle-scan",
+      "referencedBy": [
+        "FX_MAT_Stretch_Step_36c",
+        "FX_MAT_Stretch_Step_99a",
+        "FX_MAT_Aura_Distort_08"
+      ]
+    },
+    "FX_TEX_Mask_14c": {
+      "name": "FX_TEX_Mask_14c",
+      "logicalName": "FX_TEX_Mask_14c",
+      "file": "Textures/Source/FX_TEX_Mask_14c.png",
+      "width": 256,
+      "height": 256,
+      "sourceFormat": "48:ASTC_RGB_4x4",
+      "mipCount": 1,
+      "imageCount": 1,
+      "colorSpace": "1",
+      "textureDimension": "2",
+      "filterMode": 1,
+      "wrapMode": [
+        1,
+        1,
+        1
+      ],
+      "anisoLevel": 1,
+      "mipBias": 0.0,
+      "isReadable": false,
+      "streamingMipmaps": false,
+      "samplerSettings": "GLTextureSettings(m_Aniso=1, m_FilterMode=1, m_MipBias=0.0, m_WrapMode=None, m_WrapU=1, m_WrapV=1, m_WrapW=1)",
+      "bytes": 23922,
+      "sha256": "783deb574b172826e1950bd4375f569e34be1d4c0460a952ab8361a5a9f426fc",
+      "bundle": "CAB-9638ab408fb9c9083d9e63134c29f6ab",
+      "pathId": -952509674904811036,
+      "classId": 28,
+      "discoveredBy": "bundle-scan",
+      "referencedBy": [
+        "FX_MAT_Speed_Line_36"
+      ]
+    },
+    "Character_Mouth_High": {
+      "name": "Character_Mouth_High",
+      "logicalName": "Character_Mouth_High",
+      "file": "Textures/Source/Character_Mouth_High.png",
+      "width": 2048,
+      "height": 2048,
+      "sourceFormat": "51:ASTC_RGB_8x8",
+      "mipCount": 1,
+      "imageCount": 1,
+      "colorSpace": "1",
+      "textureDimension": "2",
+      "filterMode": 1,
+      "wrapMode": [
+        1,
+        1,
+        1
+      ],
+      "anisoLevel": 1,
+      "mipBias": 0.0,
+      "isReadable": false,
+      "streamingMipmaps": false,
+      "samplerSettings": "GLTextureSettings(m_Aniso=1, m_FilterMode=1, m_MipBias=0.0, m_WrapMode=None, m_WrapU=1, m_WrapV=1, m_WrapW=1)",
+      "bytes": 200435,
+      "sha256": "6e15d4688a954a0ef16803182a4e67f4e405e8e9e7f0d6039d83154ff8598a1d",
+      "bundle": "CAB-9638ab408fb9c9083d9e63134c29f6ab",
+      "pathId": -733691384249938393,
+      "classId": 28,
+      "discoveredBy": "bundle-scan",
+      "referencedBy": []
+    },
+    "FX_TEX_Bokeh_01a": {
+      "name": "FX_TEX_Bokeh_01a",
+      "logicalName": "FX_TEX_Bokeh_01a",
+      "file": "Textures/Source/FX_TEX_Bokeh_01a.png",
+      "width": 128,
+      "height": 64,
+      "sourceFormat": "49:ASTC_RGB_5x5",
+      "mipCount": 1,
+      "imageCount": 1,
+      "colorSpace": "1",
+      "textureDimension": "2",
+      "filterMode": 1,
+      "wrapMode": [
+        0,
+        0,
+        0
+      ],
+      "anisoLevel": 1,
+      "mipBias": 0.0,
+      "isReadable": false,
+      "streamingMipmaps": false,
+      "samplerSettings": "GLTextureSettings(m_Aniso=1, m_FilterMode=1, m_MipBias=0.0, m_WrapMode=None, m_WrapU=0, m_WrapV=0, m_WrapW=0)",
+      "bytes": 6938,
+      "sha256": "ade6ccd6ce470cb13452f2cf7179cc4a79e706617428b238509e92403f68007c",
+      "bundle": "CAB-9638ab408fb9c9083d9e63134c29f6ab",
+      "pathId": -18524987226872683,
+      "classId": 28,
+      "discoveredBy": "bundle-scan",
+      "referencedBy": [
+        "FX_MAT_SkyMesh_01"
+      ]
+    },
+    "Character_Mouth_2": {
+      "name": "Character_Mouth_2",
+      "logicalName": "Character_Mouth_2",
+      "file": "Textures/Source/Character_Mouth_2.png",
+      "width": 1024,
+      "height": 1024,
+      "sourceFormat": "49:ASTC_RGB_5x5",
+      "mipCount": 1,
+      "imageCount": 1,
+      "colorSpace": "1",
+      "textureDimension": "2",
+      "filterMode": 1,
+      "wrapMode": [
+        1,
+        1,
+        1
+      ],
+      "anisoLevel": 1,
+      "mipBias": 0.0,
+      "isReadable": false,
+      "streamingMipmaps": false,
+      "samplerSettings": "GLTextureSettings(m_Aniso=1, m_FilterMode=1, m_MipBias=0.0, m_WrapMode=None, m_WrapU=1, m_WrapV=1, m_WrapW=1)",
+      "bytes": 83910,
+      "sha256": "4fde5f992df6b87e4e7644d22504cf9dc85131762239f1770eba1ce7c925b647",
+      "bundle": "CAB-9638ab408fb9c9083d9e63134c29f6ab",
+      "pathId": 10686768087718567,
+      "classId": 28,
+      "discoveredBy": "bundle-scan",
+      "referencedBy": []
+    },
+    "FX_TEX_Gra_L_Line_08t_Clamp": {
+      "name": "FX_TEX_Gra_L_Line_08t_Clamp",
+      "logicalName": "FX_TEX_Gra_L_Line_08t_Clamp",
+      "file": "Textures/Source/FX_TEX_Gra_L_Line_08t_Clamp.png",
+      "width": 128,
+      "height": 128,
+      "sourceFormat": "51:ASTC_RGB_8x8",
+      "mipCount": 1,
+      "imageCount": 1,
+      "colorSpace": "1",
+      "textureDimension": "2",
+      "filterMode": 1,
+      "wrapMode": [
+        1,
+        1,
+        1
+      ],
+      "anisoLevel": 1,
+      "mipBias": 0.0,
+      "isReadable": false,
+      "streamingMipmaps": false,
+      "samplerSettings": "GLTextureSettings(m_Aniso=1, m_FilterMode=1, m_MipBias=0.0, m_WrapMode=None, m_WrapU=1, m_WrapV=1, m_WrapW=1)",
+      "bytes": 679,
+      "sha256": "247c4b51c4555b79ed08d8aaf2f333b6a42c8ae55bf59e94fd167b4803501409",
+      "bundle": "CAB-9638ab408fb9c9083d9e63134c29f6ab",
+      "pathId": 18933423689439669,
+      "classId": 28,
+      "discoveredBy": "bundle-scan",
+      "referencedBy": [
+        "FX_MAT_Gra_08t",
+        "FX_MAT_Gra_09t"
+      ]
+    },
+    "FX_TEX_Line_01c": {
+      "name": "FX_TEX_Line_01c",
+      "logicalName": "FX_TEX_Line_01c",
+      "file": "Textures/Source/FX_TEX_Line_01c.png",
+      "width": 256,
+      "height": 256,
+      "sourceFormat": "48:ASTC_RGB_4x4",
+      "mipCount": 1,
+      "imageCount": 1,
+      "colorSpace": "1",
+      "textureDimension": "2",
+      "filterMode": 1,
+      "wrapMode": [
+        1,
+        1,
+        1
+      ],
+      "anisoLevel": 1,
+      "mipBias": 0.0,
+      "isReadable": false,
+      "streamingMipmaps": false,
+      "samplerSettings": "GLTextureSettings(m_Aniso=1, m_FilterMode=1, m_MipBias=0.0, m_WrapMode=None, m_WrapU=1, m_WrapV=1, m_WrapW=1)",
+      "bytes": 4146,
+      "sha256": "1e301381f33fd3e5790d5acc93beb87e40639e75f6f953cb50db4cba2e7f6ebc",
+      "bundle": "CAB-9638ab408fb9c9083d9e63134c29f6ab",
+      "pathId": 303411281051787712,
+      "classId": 28,
+      "discoveredBy": "bundle-scan",
+      "referencedBy": [
+        "FX_MAT_Grad_03"
+      ]
+    },
+    "FX_TEX_Flare_36": {
+      "name": "FX_TEX_Flare_36",
+      "logicalName": "FX_TEX_Flare_36",
+      "file": "Textures/Source/FX_TEX_Flare_36.png",
+      "width": 256,
+      "height": 128,
+      "sourceFormat": "48:ASTC_RGB_4x4",
+      "mipCount": 1,
+      "imageCount": 1,
+      "colorSpace": "1",
+      "textureDimension": "2",
+      "filterMode": 1,
+      "wrapMode": [
+        1,
+        1,
+        1
+      ],
+      "anisoLevel": 1,
+      "mipBias": 0.0,
+      "isReadable": false,
+      "streamingMipmaps": false,
+      "samplerSettings": "GLTextureSettings(m_Aniso=1, m_FilterMode=1, m_MipBias=0.0, m_WrapMode=None, m_WrapU=1, m_WrapV=1, m_WrapW=1)",
+      "bytes": 1918,
+      "sha256": "e83db8744152e7205508de5cdc924c059cef319faf8ba5476442947276c73d3c",
+      "bundle": "CAB-9638ab408fb9c9083d9e63134c29f6ab",
+      "pathId": 1139141270948242967,
+      "classId": 28,
+      "discoveredBy": "bundle-scan",
+      "referencedBy": [
+        "FX_MAT_Flare_37"
+      ]
+    },
+    "FX_TEX_Skillrange_04": {
+      "name": "FX_TEX_Skillrange_04",
+      "logicalName": "FX_TEX_Skillrange_04",
+      "file": "Textures/Source/FX_TEX_Skillrange_04.png",
+      "width": 512,
+      "height": 512,
+      "sourceFormat": "51:ASTC_RGB_8x8",
+      "mipCount": 1,
+      "imageCount": 1,
+      "colorSpace": "1",
+      "textureDimension": "2",
+      "filterMode": 1,
+      "wrapMode": [
+        1,
+        1,
+        1
+      ],
+      "anisoLevel": 1,
+      "mipBias": 0.0,
+      "isReadable": false,
+      "streamingMipmaps": false,
+      "samplerSettings": "GLTextureSettings(m_Aniso=1, m_FilterMode=1, m_MipBias=0.0, m_WrapMode=None, m_WrapU=1, m_WrapV=1, m_WrapW=1)",
+      "bytes": 71677,
+      "sha256": "878ca9b8f72dc78e2d572259180bbf9aa23141b516aa7f3cca7459f8a38049ce",
+      "bundle": "CAB-9638ab408fb9c9083d9e63134c29f6ab",
+      "pathId": 1279194031121611416,
+      "classId": 28,
+      "discoveredBy": "bundle-scan",
+      "referencedBy": []
+    },
+    "FX_TEX_Skillrange_02": {
+      "name": "FX_TEX_Skillrange_02",
+      "logicalName": "FX_TEX_Skillrange_02",
+      "file": "Textures/Source/FX_TEX_Skillrange_02.png",
+      "width": 512,
+      "height": 512,
+      "sourceFormat": "51:ASTC_RGB_8x8",
+      "mipCount": 1,
+      "imageCount": 1,
+      "colorSpace": "1",
+      "textureDimension": "2",
+      "filterMode": 1,
+      "wrapMode": [
+        1,
+        1,
+        1
+      ],
+      "anisoLevel": 1,
+      "mipBias": 0.0,
+      "isReadable": false,
+      "streamingMipmaps": false,
+      "samplerSettings": "GLTextureSettings(m_Aniso=1, m_FilterMode=1, m_MipBias=0.0, m_WrapMode=None, m_WrapU=1, m_WrapV=1, m_WrapW=1)",
+      "bytes": 38340,
+      "sha256": "6412ae4f8bf3c4e64d4ba818dab1947c477dada3bbdef64bf2385e45dbd49b18",
+      "bundle": "CAB-9638ab408fb9c9083d9e63134c29f6ab",
+      "pathId": 1852843161307593057,
+      "classId": 28,
+      "discoveredBy": "bundle-scan",
+      "referencedBy": []
+    },
+    "Character_Mouth_Black": {
+      "name": "Character_Mouth_Black",
+      "logicalName": "Character_Mouth_Black",
+      "file": "Textures/Source/Character_Mouth_Black.png",
+      "width": 1024,
+      "height": 1024,
+      "sourceFormat": "49:ASTC_RGB_5x5",
+      "mipCount": 1,
+      "imageCount": 1,
+      "colorSpace": "1",
+      "textureDimension": "2",
+      "filterMode": 1,
+      "wrapMode": [
+        0,
+        0,
+        0
+      ],
+      "anisoLevel": 1,
+      "mipBias": 0.0,
+      "isReadable": false,
+      "streamingMipmaps": false,
+      "samplerSettings": "GLTextureSettings(m_Aniso=1, m_FilterMode=1, m_MipBias=0.0, m_WrapMode=None, m_WrapU=0, m_WrapV=0, m_WrapW=0)",
+      "bytes": 140408,
+      "sha256": "aa7d6c75aed12c8250ed64e62f96c749e629c74b40040867489aa130a2d79805",
+      "bundle": "CAB-9638ab408fb9c9083d9e63134c29f6ab",
+      "pathId": 1945212228747792130,
+      "classId": 28,
+      "discoveredBy": "bundle-scan",
+      "referencedBy": []
+    },
+    "FX_TEX_Smoke_RGB_01": {
+      "name": "FX_TEX_Smoke_RGB_01",
+      "logicalName": "FX_TEX_Smoke_RGB_01",
+      "file": "Textures/Source/FX_TEX_Smoke_RGB_01.png",
+      "width": 256,
+      "height": 256,
+      "sourceFormat": "48:ASTC_RGB_4x4",
+      "mipCount": 1,
+      "imageCount": 1,
+      "colorSpace": "0",
+      "textureDimension": "2",
+      "filterMode": 1,
+      "wrapMode": [
+        1,
+        1,
+        1
+      ],
+      "anisoLevel": 1,
+      "mipBias": 0.0,
+      "isReadable": false,
+      "streamingMipmaps": false,
+      "samplerSettings": "GLTextureSettings(m_Aniso=1, m_FilterMode=1, m_MipBias=0.0, m_WrapMode=None, m_WrapU=1, m_WrapV=1, m_WrapW=1)",
+      "bytes": 90855,
+      "sha256": "9e46653ec5b68707c415e35910328b5deb4b32c876dbc73b93c702b661e4db20",
+      "bundle": "CAB-9638ab408fb9c9083d9e63134c29f6ab",
+      "pathId": 2428414282770909407,
+      "classId": 28,
+      "discoveredBy": "bundle-scan",
+      "referencedBy": [
+        "FX_MAT_Smoke_RGB_01"
+      ]
+    },
+    "FX_TEX_Bold_Lightnning_01": {
+      "name": "FX_TEX_Bold_Lightnning_01",
+      "logicalName": "FX_TEX_Bold_Lightnning_01",
+      "file": "Textures/Source/FX_TEX_Bold_Lightnning_01.png",
+      "width": 256,
+      "height": 256,
+      "sourceFormat": "50:ASTC_RGB_6x6",
+      "mipCount": 1,
+      "imageCount": 1,
+      "colorSpace": "1",
+      "textureDimension": "2",
+      "filterMode": 1,
+      "wrapMode": [
+        1,
+        1,
+        1
+      ],
+      "anisoLevel": 1,
+      "mipBias": 0.0,
+      "isReadable": false,
+      "streamingMipmaps": false,
+      "samplerSettings": "GLTextureSettings(m_Aniso=1, m_FilterMode=1, m_MipBias=0.0, m_WrapMode=None, m_WrapU=1, m_WrapV=1, m_WrapW=1)",
+      "bytes": 24293,
+      "sha256": "72d203d5239bf5edc2963f087de069df9f1fd071d0fba7d03103c5975a6c3d80",
+      "bundle": "CAB-9638ab408fb9c9083d9e63134c29f6ab",
+      "pathId": 2697253209689083166,
+      "classId": 28,
+      "discoveredBy": "bundle-scan",
+      "referencedBy": [
+        "FX_MAT_Bold_Lightnning_02",
+        "FX_MAT_Bold_Lightnning_03"
+      ]
+    },
+    "Cha_Matcap_Cartoon_01": {
+      "name": "Cha_Matcap_Cartoon_01",
+      "logicalName": "Cha_Matcap_Cartoon_01",
+      "file": "Textures/Source/Cha_Matcap_Cartoon_01.png",
+      "width": 64,
+      "height": 64,
+      "sourceFormat": "51:ASTC_RGB_8x8",
+      "mipCount": 1,
+      "imageCount": 1,
+      "colorSpace": "1",
+      "textureDimension": "2",
+      "filterMode": 1,
+      "wrapMode": [
+        1,
+        1,
+        1
+      ],
+      "anisoLevel": 1,
+      "mipBias": 0.0,
+      "isReadable": false,
+      "streamingMipmaps": false,
+      "samplerSettings": "GLTextureSettings(m_Aniso=1, m_FilterMode=1, m_MipBias=0.0, m_WrapMode=None, m_WrapU=1, m_WrapV=1, m_WrapW=1)",
+      "bytes": 661,
+      "sha256": "f0779db5d2a24e5d87df4247e71ba3eb8bb4b2f84f386eb56830f9ccbee13389",
+      "bundle": "CAB-9638ab408fb9c9083d9e63134c29f6ab",
+      "pathId": 3221402221456861287,
+      "classId": 28,
+      "discoveredBy": "bundle-scan",
+      "referencedBy": []
+    },
+    "FX_TEX_Noise_01": {
+      "name": "FX_TEX_Noise_01",
+      "logicalName": "FX_TEX_Noise_01",
+      "file": "Textures/Source/FX_TEX_Noise_01.png",
+      "width": 128,
+      "height": 128,
+      "sourceFormat": "51:ASTC_RGB_8x8",
+      "mipCount": 1,
+      "imageCount": 1,
+      "colorSpace": "0",
+      "textureDimension": "2",
+      "filterMode": 1,
+      "wrapMode": [
+        0,
+        0,
+        0
+      ],
+      "anisoLevel": 1,
+      "mipBias": 0.0,
+      "isReadable": false,
+      "streamingMipmaps": false,
+      "samplerSettings": "GLTextureSettings(m_Aniso=1, m_FilterMode=1, m_MipBias=0.0, m_WrapMode=None, m_WrapU=0, m_WrapV=0, m_WrapW=0)",
+      "bytes": 20431,
+      "sha256": "777056234fd9698d8739c8ef93fd6f68f6d3e37f4e7945ace8a8c9775c83018e",
+      "bundle": "CAB-9638ab408fb9c9083d9e63134c29f6ab",
+      "pathId": 3390253178198521728,
+      "classId": 28,
+      "discoveredBy": "bundle-scan",
+      "referencedBy": []
+    },
+    "FX_TEX_Gra_03a": {
+      "name": "FX_TEX_Gra_03a",
+      "logicalName": "FX_TEX_Gra_03a",
+      "file": "Textures/Source/FX_TEX_Gra_03a.png",
+      "width": 128,
+      "height": 128,
+      "sourceFormat": "48:ASTC_RGB_4x4",
+      "mipCount": 1,
+      "imageCount": 1,
+      "colorSpace": "1",
+      "textureDimension": "2",
+      "filterMode": 1,
+      "wrapMode": [
+        1,
+        1,
+        1
+      ],
+      "anisoLevel": 1,
+      "mipBias": 0.0,
+      "isReadable": false,
+      "streamingMipmaps": false,
+      "samplerSettings": "GLTextureSettings(m_Aniso=1, m_FilterMode=1, m_MipBias=0.0, m_WrapMode=None, m_WrapU=1, m_WrapV=1, m_WrapW=1)",
+      "bytes": 4131,
+      "sha256": "7da326fe73d4d454063a08a23b9ad0817332a66e4975b8566755bfa0ddfc9d40",
+      "bundle": "CAB-9638ab408fb9c9083d9e63134c29f6ab",
+      "pathId": 3700044906051109037,
+      "classId": 28,
+      "discoveredBy": "bundle-scan",
+      "referencedBy": []
+    },
+    "FX_TEX_Skidmark_01": {
+      "name": "FX_TEX_Skidmark_01",
+      "logicalName": "FX_TEX_Skidmark_01",
+      "file": "Textures/Source/FX_TEX_Skidmark_01.png",
+      "width": 32,
+      "height": 32,
+      "sourceFormat": "51:ASTC_RGB_8x8",
+      "mipCount": 1,
+      "imageCount": 1,
+      "colorSpace": "1",
+      "textureDimension": "2",
+      "filterMode": 1,
+      "wrapMode": [
+        0,
+        0,
+        0
+      ],
+      "anisoLevel": 1,
+      "mipBias": 0.0,
+      "isReadable": false,
+      "streamingMipmaps": false,
+      "samplerSettings": "GLTextureSettings(m_Aniso=1, m_FilterMode=1, m_MipBias=0.0, m_WrapMode=None, m_WrapU=0, m_WrapV=0, m_WrapW=0)",
+      "bytes": 743,
+      "sha256": "80168231260bfbac22f3745aa29dc4a482854da13e2dfc1eb71c28201923c02e",
+      "bundle": "CAB-9638ab408fb9c9083d9e63134c29f6ab",
+      "pathId": 3952716522996186438,
+      "classId": 28,
+      "discoveredBy": "bundle-scan",
+      "referencedBy": [
+        "FX_MAT_Skidmark_01"
+      ]
+    },
+    "FX_TEX_Gra_L_Line_08": {
+      "name": "FX_TEX_Gra_L_Line_08",
+      "logicalName": "FX_TEX_Gra_L_Line_08",
+      "file": "Textures/Source/FX_TEX_Gra_L_Line_08.png",
+      "width": 16,
+      "height": 128,
+      "sourceFormat": "51:ASTC_RGB_8x8",
+      "mipCount": 1,
+      "imageCount": 1,
+      "colorSpace": "1",
+      "textureDimension": "2",
+      "filterMode": 1,
+      "wrapMode": [
+        1,
+        1,
+        1
+      ],
+      "anisoLevel": 1,
+      "mipBias": 0.0,
+      "isReadable": false,
+      "streamingMipmaps": false,
+      "samplerSettings": "GLTextureSettings(m_Aniso=1, m_FilterMode=1, m_MipBias=0.0, m_WrapMode=None, m_WrapU=1, m_WrapV=1, m_WrapW=1)",
+      "bytes": 464,
+      "sha256": "b3d322bd01e753e5d7831176020b84373df33b592ec8193acdac49ca05d8916f",
+      "bundle": "CAB-9638ab408fb9c9083d9e63134c29f6ab",
+      "pathId": 5994523700522866845,
+      "classId": 28,
+      "discoveredBy": "bundle-scan",
+      "referencedBy": []
+    },
+    "FX_TEX_Skillrange_03": {
+      "name": "FX_TEX_Skillrange_03",
+      "logicalName": "FX_TEX_Skillrange_03",
+      "file": "Textures/Source/FX_TEX_Skillrange_03.png",
+      "width": 512,
+      "height": 512,
+      "sourceFormat": "51:ASTC_RGB_8x8",
+      "mipCount": 1,
+      "imageCount": 1,
+      "colorSpace": "1",
+      "textureDimension": "2",
+      "filterMode": 1,
+      "wrapMode": [
+        1,
+        1,
+        1
+      ],
+      "anisoLevel": 1,
+      "mipBias": 0.0,
+      "isReadable": false,
+      "streamingMipmaps": false,
+      "samplerSettings": "GLTextureSettings(m_Aniso=1, m_FilterMode=1, m_MipBias=0.0, m_WrapMode=None, m_WrapU=1, m_WrapV=1, m_WrapW=1)",
+      "bytes": 40350,
+      "sha256": "bb743451d78ed3dbdefb8701002e8d0b02b2c87f6bb148279fd8e3c95ca969cf",
+      "bundle": "CAB-9638ab408fb9c9083d9e63134c29f6ab",
+      "pathId": 6362371825869842831,
+      "classId": 28,
+      "discoveredBy": "bundle-scan",
+      "referencedBy": []
+    },
+    "FX_TEX_Skillrange_01": {
+      "name": "FX_TEX_Skillrange_01",
+      "logicalName": "FX_TEX_Skillrange_01",
+      "file": "Textures/Source/FX_TEX_Skillrange_01.png",
+      "width": 512,
+      "height": 512,
+      "sourceFormat": "51:ASTC_RGB_8x8",
+      "mipCount": 1,
+      "imageCount": 1,
+      "colorSpace": "1",
+      "textureDimension": "2",
+      "filterMode": 1,
+      "wrapMode": [
+        1,
+        1,
+        1
+      ],
+      "anisoLevel": 1,
+      "mipBias": 0.0,
+      "isReadable": false,
+      "streamingMipmaps": false,
+      "samplerSettings": "GLTextureSettings(m_Aniso=1, m_FilterMode=1, m_MipBias=0.0, m_WrapMode=None, m_WrapU=1, m_WrapV=1, m_WrapW=1)",
+      "bytes": 40768,
+      "sha256": "c51d11ed976e4cd00bbb824e2f0de0c7fd51ca4df042747be5ae2091412c0e31",
+      "bundle": "CAB-9638ab408fb9c9083d9e63134c29f6ab",
+      "pathId": 6832865861769682814,
+      "classId": 28,
+      "discoveredBy": "bundle-scan",
+      "referencedBy": []
+    },
+    "FX_TEX_SkillRange_Rect_03": {
+      "name": "FX_TEX_SkillRange_Rect_03",
+      "logicalName": "FX_TEX_SkillRange_Rect_03",
+      "file": "Textures/Source/FX_TEX_SkillRange_Rect_03.png",
+      "width": 256,
+      "height": 256,
+      "sourceFormat": "50:ASTC_RGB_6x6",
+      "mipCount": 1,
+      "imageCount": 1,
+      "colorSpace": "1",
+      "textureDimension": "2",
+      "filterMode": 1,
+      "wrapMode": [
+        1,
+        1,
+        1
+      ],
+      "anisoLevel": 1,
+      "mipBias": 0.0,
+      "isReadable": false,
+      "streamingMipmaps": false,
+      "samplerSettings": "GLTextureSettings(m_Aniso=1, m_FilterMode=1, m_MipBias=0.0, m_WrapMode=None, m_WrapU=1, m_WrapV=1, m_WrapW=1)",
+      "bytes": 14203,
+      "sha256": "74d4a8e922b800943a959165508cf4c7fed684c5fd8d396833df390b4da2f783",
+      "bundle": "CAB-9638ab408fb9c9083d9e63134c29f6ab",
+      "pathId": 8516732931076173111,
+      "classId": 28,
+      "discoveredBy": "bundle-scan",
+      "referencedBy": []
+    },
+    "FX_TEX_Noise_01__-8932051794382314044": {
+      "name": "FX_TEX_Noise_01",
+      "logicalName": "FX_TEX_Noise_01__-8932051794382314044",
+      "file": "Textures/Source/FX_TEX_Noise_01__-8932051794382314044.png",
+      "width": 256,
+      "height": 256,
+      "sourceFormat": "50:ASTC_RGB_6x6",
+      "mipCount": 1,
+      "imageCount": 1,
+      "colorSpace": "1",
+      "textureDimension": "2",
+      "filterMode": 1,
+      "wrapMode": [
+        0,
+        0,
+        0
+      ],
+      "anisoLevel": 1,
+      "mipBias": 0.0,
+      "isReadable": false,
+      "streamingMipmaps": false,
+      "samplerSettings": "GLTextureSettings(m_Aniso=1, m_FilterMode=1, m_MipBias=0.0, m_WrapMode=None, m_WrapU=0, m_WrapV=0, m_WrapW=0)",
+      "bytes": 41114,
+      "sha256": "906cca9c3f2bce5630e990bb10b9942bf2021e1bc88930cdf9c46722b063e660",
+      "bundle": "CAB-90bce978bc36a07bb2687fa442eadeeb",
+      "pathId": -8932051794382314044,
+      "classId": 28,
+      "discoveredBy": "bundle-scan",
+      "referencedBy": [
+        "FX_MAT_Aura_Gra_Distort_02",
+        "FX_MAT_Aura_Gra_Distort_01a"
+      ]
+    },
+    "CH0069_Hair_Mask": {
+      "name": "CH0069_Hair_Mask",
+      "logicalName": "CH0069_Hair_Mask",
+      "file": "Textures/Source/CH0069_Hair_Mask.png",
+      "width": 512,
+      "height": 512,
+      "sourceFormat": "49:ASTC_RGB_5x5",
+      "mipCount": 1,
+      "imageCount": 1,
+      "colorSpace": "0",
+      "textureDimension": "2",
+      "filterMode": 1,
+      "wrapMode": [
+        1,
+        1,
+        1
+      ],
+      "anisoLevel": 1,
+      "mipBias": 0.0,
+      "isReadable": false,
+      "streamingMipmaps": false,
+      "samplerSettings": "GLTextureSettings(m_Aniso=1, m_FilterMode=1, m_MipBias=0.0, m_WrapMode=None, m_WrapU=1, m_WrapV=1, m_WrapW=1)",
+      "bytes": 111562,
+      "sha256": "067cfe25362599a0b24ecf128a5907a8c880df6af2a79778c4788b442d010877",
+      "bundle": "CAB-90bce978bc36a07bb2687fa442eadeeb",
+      "pathId": -8883086949304781406,
+      "classId": 28,
+      "discoveredBy": "bundle-scan",
+      "referencedBy": [
+        "CH0069_Hair"
+      ]
+    },
+    "FX_TEX_Gra_L_Line_06": {
+      "name": "FX_TEX_Gra_L_Line_06",
+      "logicalName": "FX_TEX_Gra_L_Line_06",
+      "file": "Textures/Source/FX_TEX_Gra_L_Line_06.png",
+      "width": 128,
+      "height": 128,
+      "sourceFormat": "50:ASTC_RGB_6x6",
+      "mipCount": 1,
+      "imageCount": 1,
+      "colorSpace": "1",
+      "textureDimension": "2",
+      "filterMode": 1,
+      "wrapMode": [
+        0,
+        0,
+        0
+      ],
+      "anisoLevel": 1,
+      "mipBias": 0.0,
+      "isReadable": false,
+      "streamingMipmaps": false,
+      "samplerSettings": "GLTextureSettings(m_Aniso=1, m_FilterMode=1, m_MipBias=0.0, m_WrapMode=None, m_WrapU=0, m_WrapV=0, m_WrapW=0)",
+      "bytes": 1483,
+      "sha256": "07735dd8d1ea2c92c3a9c3d68ab1b1f05890155042ac283e15e059b6a17f18a4",
+      "bundle": "CAB-90bce978bc36a07bb2687fa442eadeeb",
+      "pathId": -8814016408796732161,
+      "classId": 28,
+      "discoveredBy": "bundle-scan",
+      "referencedBy": [
+        "FX_MAT_Gra_4"
+      ]
+    },
+    "FX_TEX_Grad_Mask_02": {
+      "name": "FX_TEX_Grad_Mask_02",
+      "logicalName": "FX_TEX_Grad_Mask_02",
+      "file": "Textures/Source/FX_TEX_Grad_Mask_02.png",
+      "width": 256,
+      "height": 256,
+      "sourceFormat": "50:ASTC_RGB_6x6",
+      "mipCount": 1,
+      "imageCount": 1,
+      "colorSpace": "1",
+      "textureDimension": "2",
+      "filterMode": 1,
+      "wrapMode": [
+        0,
+        0,
+        0
+      ],
+      "anisoLevel": 1,
+      "mipBias": 0.0,
+      "isReadable": false,
+      "streamingMipmaps": false,
+      "samplerSettings": "GLTextureSettings(m_Aniso=1, m_FilterMode=1, m_MipBias=0.0, m_WrapMode=None, m_WrapU=0, m_WrapV=0, m_WrapW=0)",
+      "bytes": 8549,
+      "sha256": "f65a140417e6dccd36f034c538d9594edd3d05cd4c622a6dd8fca30905f5cebd",
+      "bundle": "CAB-90bce978bc36a07bb2687fa442eadeeb",
+      "pathId": -8787390603737333144,
+      "classId": 28,
+      "discoveredBy": "bundle-scan",
+      "referencedBy": [
+        "FX_MAT_Aura_Gra_Distort_03"
+      ]
+    },
+    "FX_TEX_Noise_Stars_03a": {
+      "name": "FX_TEX_Noise_Stars_03a",
+      "logicalName": "FX_TEX_Noise_Stars_03a",
+      "file": "Textures/Source/FX_TEX_Noise_Stars_03a.png",
+      "width": 128,
+      "height": 128,
+      "sourceFormat": "50:ASTC_RGB_6x6",
+      "mipCount": 1,
+      "imageCount": 1,
+      "colorSpace": "1",
+      "textureDimension": "2",
+      "filterMode": 1,
+      "wrapMode": [
+        0,
+        0,
+        0
+      ],
+      "anisoLevel": 1,
+      "mipBias": 0.0,
+      "isReadable": false,
+      "streamingMipmaps": false,
+      "samplerSettings": "GLTextureSettings(m_Aniso=1, m_FilterMode=1, m_MipBias=0.0, m_WrapMode=None, m_WrapU=0, m_WrapV=0, m_WrapW=0)",
+      "bytes": 5992,
+      "sha256": "ac8631f72d8ea6d09cc28e17c8f4374936adf13558348a87b9eb2f8f38e6d3f7",
+      "bundle": "CAB-90bce978bc36a07bb2687fa442eadeeb",
+      "pathId": -7988498688260707427,
+      "classId": 28,
+      "discoveredBy": "bundle-scan",
+      "referencedBy": [
+        "FX_MAT_Noise_Step_13",
+        "FX_MAT_Noise_Step_12"
+      ]
+    },
+    "CH0069_Body": {
+      "name": "CH0069_Body",
+      "logicalName": "CH0069_Body",
+      "file": "Textures/Source/CH0069_Body.png",
+      "width": 512,
+      "height": 512,
+      "sourceFormat": "49:ASTC_RGB_5x5",
+      "mipCount": 1,
+      "imageCount": 1,
+      "colorSpace": "1",
+      "textureDimension": "2",
+      "filterMode": 1,
+      "wrapMode": [
+        1,
+        1,
+        1
+      ],
+      "anisoLevel": 1,
+      "mipBias": 0.0,
+      "isReadable": false,
+      "streamingMipmaps": false,
+      "samplerSettings": "GLTextureSettings(m_Aniso=1, m_FilterMode=1, m_MipBias=0.0, m_WrapMode=None, m_WrapU=1, m_WrapV=1, m_WrapW=1)",
+      "bytes": 40529,
+      "sha256": "847102489cf3b73375a6f268b2f5431bbea2616cc8d7d7703e882ebde08a3bca",
+      "bundle": "CAB-90bce978bc36a07bb2687fa442eadeeb",
+      "pathId": -5821372343525643732,
+      "classId": 28,
+      "discoveredBy": "bundle-scan",
+      "referencedBy": [
+        "CH0069_Body"
+      ]
+    },
+    "CH0069_Weapon_Mask": {
+      "name": "CH0069_Weapon_Mask",
+      "logicalName": "CH0069_Weapon_Mask",
+      "file": "Textures/Source/CH0069_Weapon_Mask.png",
+      "width": 256,
+      "height": 256,
+      "sourceFormat": "51:ASTC_RGB_8x8",
+      "mipCount": 1,
+      "imageCount": 1,
+      "colorSpace": "0",
+      "textureDimension": "2",
+      "filterMode": 1,
+      "wrapMode": [
+        1,
+        1,
+        1
+      ],
+      "anisoLevel": 1,
+      "mipBias": 0.0,
+      "isReadable": false,
+      "streamingMipmaps": false,
+      "samplerSettings": "GLTextureSettings(m_Aniso=1, m_FilterMode=1, m_MipBias=0.0, m_WrapMode=None, m_WrapU=1, m_WrapV=1, m_WrapW=1)",
+      "bytes": 33605,
+      "sha256": "a248a2e7219871d875366f52a51f751f2fb73b2fb8ccc4ba0ed7e7fde3af0d70",
+      "bundle": "CAB-90bce978bc36a07bb2687fa442eadeeb",
+      "pathId": -5109148417041188287,
+      "classId": 28,
+      "discoveredBy": "bundle-scan",
+      "referencedBy": [
+        "CH0069_Weapon"
+      ]
+    },
+    "FX_TEX_Terror_Warband_01a": {
+      "name": "FX_TEX_Terror_Warband_01a",
+      "logicalName": "FX_TEX_Terror_Warband_01a",
+      "file": "Textures/Source/FX_TEX_Terror_Warband_01a.png",
+      "width": 256,
+      "height": 256,
+      "sourceFormat": "50:ASTC_RGB_6x6",
+      "mipCount": 1,
+      "imageCount": 1,
+      "colorSpace": "1",
+      "textureDimension": "2",
+      "filterMode": 1,
+      "wrapMode": [
+        1,
+        1,
+        1
+      ],
+      "anisoLevel": 1,
+      "mipBias": 0.0,
+      "isReadable": false,
+      "streamingMipmaps": false,
+      "samplerSettings": "GLTextureSettings(m_Aniso=1, m_FilterMode=1, m_MipBias=0.0, m_WrapMode=None, m_WrapU=1, m_WrapV=1, m_WrapW=1)",
+      "bytes": 87774,
+      "sha256": "4532b168243843f65ab8c314291981ae737996c61e2799f2ca7922b07e523c1f",
+      "bundle": "CAB-90bce978bc36a07bb2687fa442eadeeb",
+      "pathId": -4925724871680573400,
+      "classId": 28,
+      "discoveredBy": "bundle-scan",
+      "referencedBy": [
+        "FX_MAT_Img_Warband 01"
+      ]
+    },
+    "FX_TEX_Grad_Glow_01": {
+      "name": "FX_TEX_Grad_Glow_01",
+      "logicalName": "FX_TEX_Grad_Glow_01",
+      "file": "Textures/Source/FX_TEX_Grad_Glow_01.png",
+      "width": 128,
+      "height": 128,
+      "sourceFormat": "50:ASTC_RGB_6x6",
+      "mipCount": 1,
+      "imageCount": 1,
+      "colorSpace": "1",
+      "textureDimension": "2",
+      "filterMode": 1,
+      "wrapMode": [
+        1,
+        1,
+        1
+      ],
+      "anisoLevel": 1,
+      "mipBias": 0.0,
+      "isReadable": false,
+      "streamingMipmaps": false,
+      "samplerSettings": "GLTextureSettings(m_Aniso=1, m_FilterMode=1, m_MipBias=0.0, m_WrapMode=None, m_WrapU=1, m_WrapV=1, m_WrapW=1)",
+      "bytes": 6934,
+      "sha256": "7fbb489aa2e5d0e6a96cf07e7bffc41637443c460c5b3e13fbbd00db97a99f7d",
+      "bundle": "CAB-90bce978bc36a07bb2687fa442eadeeb",
+      "pathId": -4359944936470224242,
+      "classId": 28,
+      "discoveredBy": "bundle-scan",
+      "referencedBy": [
+        "FX_MAT_Aura_Distort_09",
+        "FX_MAT_Aura_Distort_10"
+      ]
+    },
+    "FX_TEX_Img_BG_Obs_01": {
+      "name": "FX_TEX_Img_BG_Obs_01",
+      "logicalName": "FX_TEX_Img_BG_Obs_01",
+      "file": "Textures/Source/FX_TEX_Img_BG_Obs_01.png",
+      "width": 512,
+      "height": 512,
+      "sourceFormat": "50:ASTC_RGB_6x6",
+      "mipCount": 1,
+      "imageCount": 1,
+      "colorSpace": "1",
+      "textureDimension": "2",
+      "filterMode": 1,
+      "wrapMode": [
+        1,
+        1,
+        1
+      ],
+      "anisoLevel": 1,
+      "mipBias": 0.0,
+      "isReadable": false,
+      "streamingMipmaps": false,
+      "samplerSettings": "GLTextureSettings(m_Aniso=1, m_FilterMode=1, m_MipBias=0.0, m_WrapMode=None, m_WrapU=1, m_WrapV=1, m_WrapW=1)",
+      "bytes": 280322,
+      "sha256": "71499e58d0989b985d216e2e249cbf0099fff229ca7ebc81897dec1926b9fea0",
+      "bundle": "CAB-90bce978bc36a07bb2687fa442eadeeb",
+      "pathId": -3286460464579052962,
+      "classId": 28,
+      "discoveredBy": "bundle-scan",
+      "referencedBy": [
+        "FX_MAT_BG_Atlas_01"
+      ]
+    },
+    "FX_TEX_Stained_Glass_01": {
+      "name": "FX_TEX_Stained_Glass_01",
+      "logicalName": "FX_TEX_Stained_Glass_01",
+      "file": "Textures/Source/FX_TEX_Stained_Glass_01.png",
+      "width": 128,
+      "height": 128,
+      "sourceFormat": "50:ASTC_RGB_6x6",
+      "mipCount": 1,
+      "imageCount": 1,
+      "colorSpace": "1",
+      "textureDimension": "2",
+      "filterMode": 1,
+      "wrapMode": [
+        1,
+        1,
+        1
+      ],
+      "anisoLevel": 1,
+      "mipBias": 0.0,
+      "isReadable": false,
+      "streamingMipmaps": false,
+      "samplerSettings": "GLTextureSettings(m_Aniso=1, m_FilterMode=1, m_MipBias=0.0, m_WrapMode=None, m_WrapU=1, m_WrapV=1, m_WrapW=1)",
+      "bytes": 7267,
+      "sha256": "e51d3e8d774a9bc1914fa5b494d029f4d0dfdbf50e444e3002239f6e3c65ec52",
+      "bundle": "CAB-90bce978bc36a07bb2687fa442eadeeb",
+      "pathId": -2623805844305756037,
+      "classId": 28,
+      "discoveredBy": "bundle-scan",
+      "referencedBy": [
+        "FX_MAT_Flare_38"
+      ]
+    },
+    "FX_TEX_Circle_Glow_02": {
+      "name": "FX_TEX_Circle_Glow_02",
+      "logicalName": "FX_TEX_Circle_Glow_02",
+      "file": "Textures/Source/FX_TEX_Circle_Glow_02.png",
+      "width": 128,
+      "height": 128,
+      "sourceFormat": "50:ASTC_RGB_6x6",
+      "mipCount": 1,
+      "imageCount": 1,
+      "colorSpace": "1",
+      "textureDimension": "2",
+      "filterMode": 1,
+      "wrapMode": [
+        1,
+        1,
+        1
+      ],
+      "anisoLevel": 1,
+      "mipBias": 0.0,
+      "isReadable": false,
+      "streamingMipmaps": false,
+      "samplerSettings": "GLTextureSettings(m_Aniso=1, m_FilterMode=1, m_MipBias=0.0, m_WrapMode=None, m_WrapU=1, m_WrapV=1, m_WrapW=1)",
+      "bytes": 6300,
+      "sha256": "f37910d51fdbca8d8e1bc3fee22e3bbbeabcbe05ce36920afa69d7783733354b",
+      "bundle": "CAB-90bce978bc36a07bb2687fa442eadeeb",
+      "pathId": -2012668056431797955,
+      "classId": 28,
+      "discoveredBy": "bundle-scan",
+      "referencedBy": [
+        "FX_MAT_Aura_Distort_11",
+        "FX_MAT_Aura_Distort_Scroll_01",
+        "FX_MAT_Aura_Distort_Scroll_03",
+        "FX_MAT_Aura_Distort_Scroll_02"
+      ]
+    },
+    "FX_TEX_Grad_Mask_01": {
+      "name": "FX_TEX_Grad_Mask_01",
+      "logicalName": "FX_TEX_Grad_Mask_01",
+      "file": "Textures/Source/FX_TEX_Grad_Mask_01.png",
+      "width": 256,
+      "height": 256,
+      "sourceFormat": "50:ASTC_RGB_6x6",
+      "mipCount": 1,
+      "imageCount": 1,
+      "colorSpace": "1",
+      "textureDimension": "2",
+      "filterMode": 1,
+      "wrapMode": [
+        1,
+        0,
+        1
+      ],
+      "anisoLevel": 1,
+      "mipBias": 0.0,
+      "isReadable": false,
+      "streamingMipmaps": false,
+      "samplerSettings": "GLTextureSettings(m_Aniso=1, m_FilterMode=1, m_MipBias=0.0, m_WrapMode=None, m_WrapU=1, m_WrapV=0, m_WrapW=1)",
+      "bytes": 11488,
+      "sha256": "12f9298840333656f8c03b0a8748b5db5e0a9161146dbadf33cf9b94d6a8c9f6",
+      "bundle": "CAB-90bce978bc36a07bb2687fa442eadeeb",
+      "pathId": -1354630238852729898,
+      "classId": 28,
+      "discoveredBy": "bundle-scan",
+      "referencedBy": [
+        "FX_MAT_Aura_Gra_Distort_01a"
+      ]
+    },
+    "CH0069_Weapon": {
+      "name": "CH0069_Weapon",
+      "logicalName": "CH0069_Weapon",
+      "file": "Textures/Source/CH0069_Weapon.png",
+      "width": 256,
+      "height": 256,
+      "sourceFormat": "51:ASTC_RGB_8x8",
+      "mipCount": 1,
+      "imageCount": 1,
+      "colorSpace": "1",
+      "textureDimension": "2",
+      "filterMode": 1,
+      "wrapMode": [
+        1,
+        1,
+        1
+      ],
+      "anisoLevel": 1,
+      "mipBias": 0.0,
+      "isReadable": false,
+      "streamingMipmaps": false,
+      "samplerSettings": "GLTextureSettings(m_Aniso=1, m_FilterMode=1, m_MipBias=0.0, m_WrapMode=None, m_WrapU=1, m_WrapV=1, m_WrapW=1)",
+      "bytes": 15448,
+      "sha256": "c7aa69c7ffca32ab4015a677658941086921bfd480c63b371e8b22f2628d572a",
+      "bundle": "CAB-90bce978bc36a07bb2687fa442eadeeb",
+      "pathId": -1009791922393751232,
+      "classId": 28,
+      "discoveredBy": "bundle-scan",
+      "referencedBy": [
+        "CH0069_Weapon"
+      ]
+    },
+    "FX_TEX_Scroll_Wave_02": {
+      "name": "FX_TEX_Scroll_Wave_02",
+      "logicalName": "FX_TEX_Scroll_Wave_02",
+      "file": "Textures/Source/FX_TEX_Scroll_Wave_02.png",
+      "width": 128,
+      "height": 128,
+      "sourceFormat": "50:ASTC_RGB_6x6",
+      "mipCount": 1,
+      "imageCount": 1,
+      "colorSpace": "1",
+      "textureDimension": "2",
+      "filterMode": 1,
+      "wrapMode": [
+        0,
+        0,
+        0
+      ],
+      "anisoLevel": 1,
+      "mipBias": 0.0,
+      "isReadable": false,
+      "streamingMipmaps": false,
+      "samplerSettings": "GLTextureSettings(m_Aniso=1, m_FilterMode=1, m_MipBias=0.0, m_WrapMode=None, m_WrapU=0, m_WrapV=0, m_WrapW=0)",
+      "bytes": 8842,
+      "sha256": "b7c181e89e2038e80a03953c864a9963351b7ef7849d4a4c583407438b8786f2",
+      "bundle": "CAB-90bce978bc36a07bb2687fa442eadeeb",
+      "pathId": -845789712788221097,
+      "classId": 28,
+      "discoveredBy": "bundle-scan",
+      "referencedBy": [
+        "FX_MAT_Aura_Distort_02"
+      ]
+    },
+    "FX_TEX_Grad_Mask_03": {
+      "name": "FX_TEX_Grad_Mask_03",
+      "logicalName": "FX_TEX_Grad_Mask_03",
+      "file": "Textures/Source/FX_TEX_Grad_Mask_03.png",
+      "width": 256,
+      "height": 256,
+      "sourceFormat": "50:ASTC_RGB_6x6",
+      "mipCount": 1,
+      "imageCount": 1,
+      "colorSpace": "1",
+      "textureDimension": "2",
+      "filterMode": 1,
+      "wrapMode": [
+        1,
+        0,
+        1
+      ],
+      "anisoLevel": 1,
+      "mipBias": 0.0,
+      "isReadable": false,
+      "streamingMipmaps": false,
+      "samplerSettings": "GLTextureSettings(m_Aniso=1, m_FilterMode=1, m_MipBias=0.0, m_WrapMode=None, m_WrapU=1, m_WrapV=0, m_WrapW=1)",
+      "bytes": 13208,
+      "sha256": "e12845c8b1b6affe7e7e3191bf6faa266b152b1ed33b9014132c6ecb46272910",
+      "bundle": "CAB-90bce978bc36a07bb2687fa442eadeeb",
+      "pathId": -787205573877310904,
+      "classId": 28,
+      "discoveredBy": "bundle-scan",
+      "referencedBy": [
+        "FX_MAT_Aura_Gra_Distort_02"
+      ]
+    },
+    "CH0069_Hair_Spec": {
+      "name": "CH0069_Hair_Spec",
+      "logicalName": "CH0069_Hair_Spec",
+      "file": "Textures/Source/CH0069_Hair_Spec.png",
+      "width": 512,
+      "height": 512,
+      "sourceFormat": "49:ASTC_RGB_5x5",
+      "mipCount": 1,
+      "imageCount": 1,
+      "colorSpace": "0",
+      "textureDimension": "2",
+      "filterMode": 1,
+      "wrapMode": [
+        1,
+        1,
+        1
+      ],
+      "anisoLevel": 1,
+      "mipBias": 0.0,
+      "isReadable": false,
+      "streamingMipmaps": false,
+      "samplerSettings": "GLTextureSettings(m_Aniso=1, m_FilterMode=1, m_MipBias=0.0, m_WrapMode=None, m_WrapU=1, m_WrapV=1, m_WrapW=1)",
+      "bytes": 307048,
+      "sha256": "bce1b8f918390b4b43cda3297db965d6443da58bdab0acccdf80bbc262152d05",
+      "bundle": "CAB-90bce978bc36a07bb2687fa442eadeeb",
+      "pathId": -623835365053720814,
+      "classId": 28,
+      "discoveredBy": "bundle-scan",
+      "referencedBy": [
+        "CH0069_Hair"
+      ]
+    },
+    "FX_TEX_Circle_Glow_03_Clamp": {
+      "name": "FX_TEX_Circle_Glow_03_Clamp",
+      "logicalName": "FX_TEX_Circle_Glow_03_Clamp",
+      "file": "Textures/Source/FX_TEX_Circle_Glow_03_Clamp.png",
+      "width": 128,
+      "height": 128,
+      "sourceFormat": "50:ASTC_RGB_6x6",
+      "mipCount": 1,
+      "imageCount": 1,
+      "colorSpace": "1",
+      "textureDimension": "2",
+      "filterMode": 1,
+      "wrapMode": [
+        1,
+        1,
+        1
+      ],
+      "anisoLevel": 1,
+      "mipBias": 0.0,
+      "isReadable": false,
+      "streamingMipmaps": false,
+      "samplerSettings": "GLTextureSettings(m_Aniso=1, m_FilterMode=1, m_MipBias=0.0, m_WrapMode=None, m_WrapU=1, m_WrapV=1, m_WrapW=1)",
+      "bytes": 5602,
+      "sha256": "55385b829a62fda49e4864c695b87e8cef1c08d26b140189457178c368680c6b",
+      "bundle": "CAB-90bce978bc36a07bb2687fa442eadeeb",
+      "pathId": -137513302633946888,
+      "classId": 28,
+      "discoveredBy": "bundle-scan",
+      "referencedBy": [
+        "FX_MAT_Noise_Step_13",
+        "FX_MAT_Noise_Step_12",
+        "FX_MAT_Gra_L_03"
+      ]
+    },
+    "FX_TEX_Light_Column_01": {
+      "name": "FX_TEX_Light_Column_01",
+      "logicalName": "FX_TEX_Light_Column_01",
+      "file": "Textures/Source/FX_TEX_Light_Column_01.png",
+      "width": 128,
+      "height": 128,
+      "sourceFormat": "50:ASTC_RGB_6x6",
+      "mipCount": 1,
+      "imageCount": 1,
+      "colorSpace": "1",
+      "textureDimension": "2",
+      "filterMode": 1,
+      "wrapMode": [
+        1,
+        1,
+        1
+      ],
+      "anisoLevel": 1,
+      "mipBias": 0.0,
+      "isReadable": false,
+      "streamingMipmaps": false,
+      "samplerSettings": "GLTextureSettings(m_Aniso=1, m_FilterMode=1, m_MipBias=0.0, m_WrapMode=None, m_WrapU=1, m_WrapV=1, m_WrapW=1)",
+      "bytes": 4568,
+      "sha256": "695a0a8a7094588eefb23b565d3c53b6ef367295749f21d7860b7992916ad00f",
+      "bundle": "CAB-90bce978bc36a07bb2687fa442eadeeb",
+      "pathId": -57618580504357219,
+      "classId": 28,
+      "discoveredBy": "bundle-scan",
+      "referencedBy": [
+        "FX_MAT_Img_Window_Light_03"
+      ]
+    },
+    "CH0069_Body_Mask": {
+      "name": "CH0069_Body_Mask",
+      "logicalName": "CH0069_Body_Mask",
+      "file": "Textures/Source/CH0069_Body_Mask.png",
+      "width": 512,
+      "height": 512,
+      "sourceFormat": "49:ASTC_RGB_5x5",
+      "mipCount": 1,
+      "imageCount": 1,
+      "colorSpace": "0",
+      "textureDimension": "2",
+      "filterMode": 1,
+      "wrapMode": [
+        1,
+        1,
+        1
+      ],
+      "anisoLevel": 1,
+      "mipBias": 0.0,
+      "isReadable": false,
+      "streamingMipmaps": false,
+      "samplerSettings": "GLTextureSettings(m_Aniso=1, m_FilterMode=1, m_MipBias=0.0, m_WrapMode=None, m_WrapU=1, m_WrapV=1, m_WrapW=1)",
+      "bytes": 60457,
+      "sha256": "725e3f029962d99aa167eda726f0536b0dae47caf85806c49143367d5fdbbf87",
+      "bundle": "CAB-90bce978bc36a07bb2687fa442eadeeb",
+      "pathId": 67396997850877732,
+      "classId": 28,
+      "discoveredBy": "bundle-scan",
+      "referencedBy": [
+        "CH0069_Body"
+      ]
+    },
+    "CH0069_EyeMouth": {
+      "name": "CH0069_EyeMouth",
+      "logicalName": "CH0069_EyeMouth",
+      "file": "Textures/Source/CH0069_EyeMouth.png",
+      "width": 256,
+      "height": 256,
+      "sourceFormat": "51:ASTC_RGB_8x8",
+      "mipCount": 1,
+      "imageCount": 1,
+      "colorSpace": "1",
+      "textureDimension": "2",
+      "filterMode": 1,
+      "wrapMode": [
+        1,
+        1,
+        1
+      ],
+      "anisoLevel": 1,
+      "mipBias": 0.0,
+      "isReadable": false,
+      "streamingMipmaps": false,
+      "samplerSettings": "GLTextureSettings(m_Aniso=1, m_FilterMode=1, m_MipBias=0.0, m_WrapMode=None, m_WrapU=1, m_WrapV=1, m_WrapW=1)",
+      "bytes": 24162,
+      "sha256": "74d077cd0f5dd1211407da50cedf4ba9f2aceb86c57694336659c9c3578ddb70",
+      "bundle": "CAB-90bce978bc36a07bb2687fa442eadeeb",
+      "pathId": 112449910508342417,
+      "classId": 28,
+      "discoveredBy": "bundle-scan",
+      "referencedBy": [
+        "CH0069_EyeMouth"
+      ]
+    },
+    "CH0069_Hair": {
+      "name": "CH0069_Hair",
+      "logicalName": "CH0069_Hair",
+      "file": "Textures/Source/CH0069_Hair.png",
+      "width": 512,
+      "height": 512,
+      "sourceFormat": "51:ASTC_RGB_8x8",
+      "mipCount": 1,
+      "imageCount": 1,
+      "colorSpace": "1",
+      "textureDimension": "2",
+      "filterMode": 1,
+      "wrapMode": [
+        1,
+        1,
+        1
+      ],
+      "anisoLevel": 1,
+      "mipBias": 0.0,
+      "isReadable": false,
+      "streamingMipmaps": false,
+      "samplerSettings": "GLTextureSettings(m_Aniso=1, m_FilterMode=1, m_MipBias=0.0, m_WrapMode=None, m_WrapU=1, m_WrapV=1, m_WrapW=1)",
+      "bytes": 40716,
+      "sha256": "8567dfe1dfcafecfe4967013c193f1c8bf926d27ab36ce81b3d339f2d17d99c2",
+      "bundle": "CAB-90bce978bc36a07bb2687fa442eadeeb",
+      "pathId": 525564420645789237,
+      "classId": 28,
+      "discoveredBy": "bundle-scan",
+      "referencedBy": [
+        "CH0069_Hair"
+      ]
+    },
+    "FX_TEX_Gra_L_02": {
+      "name": "FX_TEX_Gra_L_02",
+      "logicalName": "FX_TEX_Gra_L_02",
+      "file": "Textures/Source/FX_TEX_Gra_L_02.png",
+      "width": 128,
+      "height": 128,
+      "sourceFormat": "50:ASTC_RGB_6x6",
+      "mipCount": 1,
+      "imageCount": 1,
+      "colorSpace": "1",
+      "textureDimension": "2",
+      "filterMode": 1,
+      "wrapMode": [
+        1,
+        1,
+        1
+      ],
+      "anisoLevel": 1,
+      "mipBias": 0.0,
+      "isReadable": false,
+      "streamingMipmaps": false,
+      "samplerSettings": "GLTextureSettings(m_Aniso=1, m_FilterMode=1, m_MipBias=0.0, m_WrapMode=None, m_WrapU=1, m_WrapV=1, m_WrapW=1)",
+      "bytes": 5880,
+      "sha256": "5c8d720291d9795c306f359e5692b086bcace3b811103a3321982d1ea5829a5a",
+      "bundle": "CAB-90bce978bc36a07bb2687fa442eadeeb",
+      "pathId": 1716430402348890872,
+      "classId": 28,
+      "discoveredBy": "bundle-scan",
+      "referencedBy": [
+        "FX_MAT_Grad_L_08",
+        "FX_MAT_Grad_Distort_01b"
+      ]
+    },
+    "FX_TEX_Trail_01": {
+      "name": "FX_TEX_Trail_01",
+      "logicalName": "FX_TEX_Trail_01",
+      "file": "Textures/Source/FX_TEX_Trail_01.png",
+      "width": 128,
+      "height": 64,
+      "sourceFormat": "50:ASTC_RGB_6x6",
+      "mipCount": 1,
+      "imageCount": 1,
+      "colorSpace": "1",
+      "textureDimension": "2",
+      "filterMode": 1,
+      "wrapMode": [
+        0,
+        0,
+        0
+      ],
+      "anisoLevel": 1,
+      "mipBias": 0.0,
+      "isReadable": false,
+      "streamingMipmaps": false,
+      "samplerSettings": "GLTextureSettings(m_Aniso=1, m_FilterMode=1, m_MipBias=0.0, m_WrapMode=None, m_WrapU=0, m_WrapV=0, m_WrapW=0)",
+      "bytes": 5134,
+      "sha256": "4d29e95f6167f9ce466aef45982fde7f7e49195e052e87aaa19bab01125e8f36",
+      "bundle": "CAB-90bce978bc36a07bb2687fa442eadeeb",
+      "pathId": 2497059232417318193,
+      "classId": 28,
+      "discoveredBy": "bundle-scan",
+      "referencedBy": [
+        "FX_MAT_Halo_Trail_01"
+      ]
+    },
+    "FX_TEX_Noise_Stars_03": {
+      "name": "FX_TEX_Noise_Stars_03",
+      "logicalName": "FX_TEX_Noise_Stars_03",
+      "file": "Textures/Source/FX_TEX_Noise_Stars_03.png",
+      "width": 128,
+      "height": 128,
+      "sourceFormat": "50:ASTC_RGB_6x6",
+      "mipCount": 1,
+      "imageCount": 1,
+      "colorSpace": "1",
+      "textureDimension": "2",
+      "filterMode": 1,
+      "wrapMode": [
+        0,
+        0,
+        0
+      ],
+      "anisoLevel": 1,
+      "mipBias": 0.0,
+      "isReadable": false,
+      "streamingMipmaps": false,
+      "samplerSettings": "GLTextureSettings(m_Aniso=1, m_FilterMode=1, m_MipBias=0.0, m_WrapMode=None, m_WrapU=0, m_WrapV=0, m_WrapW=0)",
+      "bytes": 4652,
+      "sha256": "ebbd755a01e413c371ba501f95afef24e770e1ff902e365e30ef13efa91c6b0a",
+      "bundle": "CAB-90bce978bc36a07bb2687fa442eadeeb",
+      "pathId": 3352789492494288815,
+      "classId": 28,
+      "discoveredBy": "bundle-scan",
+      "referencedBy": [
+        "FX_MAT_Aura_Distort_03"
+      ]
+    },
+    "FX_TEX_Noise_02": {
+      "name": "FX_TEX_Noise_02",
+      "logicalName": "FX_TEX_Noise_02",
+      "file": "Textures/Source/FX_TEX_Noise_02.png",
+      "width": 256,
+      "height": 256,
+      "sourceFormat": "50:ASTC_RGB_6x6",
+      "mipCount": 1,
+      "imageCount": 1,
+      "colorSpace": "1",
+      "textureDimension": "2",
+      "filterMode": 1,
+      "wrapMode": [
+        0,
+        0,
+        0
+      ],
+      "anisoLevel": 1,
+      "mipBias": 0.0,
+      "isReadable": false,
+      "streamingMipmaps": false,
+      "samplerSettings": "GLTextureSettings(m_Aniso=1, m_FilterMode=1, m_MipBias=0.0, m_WrapMode=None, m_WrapU=0, m_WrapV=0, m_WrapW=0)",
+      "bytes": 80838,
+      "sha256": "87d1593294789dbc865d0f7fc5bd132edd399672d8041a92dc3cc63bf33d6159",
+      "bundle": "CAB-90bce978bc36a07bb2687fa442eadeeb",
+      "pathId": 3500764199649977745,
+      "classId": 28,
+      "discoveredBy": "bundle-scan",
+      "referencedBy": [
+        "FX_MAT_Aura_Distort_10"
+      ]
+    },
+    "FX_TEX_Grad_Glow_02": {
+      "name": "FX_TEX_Grad_Glow_02",
+      "logicalName": "FX_TEX_Grad_Glow_02",
+      "file": "Textures/Source/FX_TEX_Grad_Glow_02.png",
+      "width": 128,
+      "height": 128,
+      "sourceFormat": "50:ASTC_RGB_6x6",
+      "mipCount": 1,
+      "imageCount": 1,
+      "colorSpace": "1",
+      "textureDimension": "2",
+      "filterMode": 1,
+      "wrapMode": [
+        1,
+        1,
+        1
+      ],
+      "anisoLevel": 1,
+      "mipBias": 0.0,
+      "isReadable": false,
+      "streamingMipmaps": false,
+      "samplerSettings": "GLTextureSettings(m_Aniso=1, m_FilterMode=1, m_MipBias=0.0, m_WrapMode=None, m_WrapU=1, m_WrapV=1, m_WrapW=1)",
+      "bytes": 9247,
+      "sha256": "fa8a0782d63ce04824aa6ade66b3b52a04a2b6911f15f0176a933e0b245f1e3f",
+      "bundle": "CAB-90bce978bc36a07bb2687fa442eadeeb",
+      "pathId": 3648454219235127072,
+      "classId": 28,
+      "discoveredBy": "bundle-scan",
+      "referencedBy": [
+        "FX_MAT_Aura_Distort_09",
+        "FX_MAT_Aura_Distort_10"
+      ]
+    },
+    "FX_TEX_Mask_11_Uclamp": {
+      "name": "FX_TEX_Mask_11_Uclamp",
+      "logicalName": "FX_TEX_Mask_11_Uclamp",
+      "file": "Textures/Source/FX_TEX_Mask_11_Uclamp.png",
+      "width": 128,
+      "height": 128,
+      "sourceFormat": "50:ASTC_RGB_6x6",
+      "mipCount": 1,
+      "imageCount": 1,
+      "colorSpace": "0",
+      "textureDimension": "2",
+      "filterMode": 1,
+      "wrapMode": [
+        1,
+        0,
+        0
+      ],
+      "anisoLevel": 1,
+      "mipBias": 0.0,
+      "isReadable": false,
+      "streamingMipmaps": false,
+      "samplerSettings": "GLTextureSettings(m_Aniso=1, m_FilterMode=1, m_MipBias=0.0, m_WrapMode=None, m_WrapU=1, m_WrapV=0, m_WrapW=0)",
+      "bytes": 2248,
+      "sha256": "5aede058b4e803685e5ba8f9cdc640c11d901a3e4116ef235dc3fe73b827a399",
+      "bundle": "CAB-90bce978bc36a07bb2687fa442eadeeb",
+      "pathId": 4192043068546023137,
+      "classId": 28,
+      "discoveredBy": "bundle-scan",
+      "referencedBy": [
+        "FX_MAT_Aura_Gra_Distort_05"
+      ]
+    },
+    "FX_TEX_Noise_Distort_01": {
+      "name": "FX_TEX_Noise_Distort_01",
+      "logicalName": "FX_TEX_Noise_Distort_01",
+      "file": "Textures/Source/FX_TEX_Noise_Distort_01.png",
+      "width": 128,
+      "height": 128,
+      "sourceFormat": "50:ASTC_RGB_6x6",
+      "mipCount": 8,
+      "imageCount": 1,
+      "colorSpace": "0",
+      "textureDimension": "2",
+      "filterMode": 1,
+      "wrapMode": [
+        0,
+        0,
+        0
+      ],
+      "anisoLevel": 1,
+      "mipBias": 0.0,
+      "isReadable": false,
+      "streamingMipmaps": false,
+      "samplerSettings": "GLTextureSettings(m_Aniso=1, m_FilterMode=1, m_MipBias=0.0, m_WrapMode=None, m_WrapU=0, m_WrapV=0, m_WrapW=0)",
+      "bytes": 10506,
+      "sha256": "dd1605107e6246ecb470466429577c10faab1baa28acf857f7abb3c5820f5820",
+      "bundle": "CAB-90bce978bc36a07bb2687fa442eadeeb",
+      "pathId": 4245258016917233106,
+      "classId": 28,
+      "discoveredBy": "bundle-scan",
+      "referencedBy": [
+        "FX_MAT_Aura_Distort_12"
+      ]
+    },
+    "FX_TEX_Scroll_Wave_01": {
+      "name": "FX_TEX_Scroll_Wave_01",
+      "logicalName": "FX_TEX_Scroll_Wave_01",
+      "file": "Textures/Source/FX_TEX_Scroll_Wave_01.png",
+      "width": 128,
+      "height": 128,
+      "sourceFormat": "50:ASTC_RGB_6x6",
+      "mipCount": 1,
+      "imageCount": 1,
+      "colorSpace": "1",
+      "textureDimension": "2",
+      "filterMode": 1,
+      "wrapMode": [
+        0,
+        0,
+        0
+      ],
+      "anisoLevel": 1,
+      "mipBias": 0.0,
+      "isReadable": false,
+      "streamingMipmaps": false,
+      "samplerSettings": "GLTextureSettings(m_Aniso=1, m_FilterMode=1, m_MipBias=0.0, m_WrapMode=None, m_WrapU=0, m_WrapV=0, m_WrapW=0)",
+      "bytes": 5361,
+      "sha256": "929edef3fefbe3097a87a5dfc21c7808cd1461f9297b99da355829b8af500966",
+      "bundle": "CAB-90bce978bc36a07bb2687fa442eadeeb",
+      "pathId": 4977821212393819591,
+      "classId": 28,
+      "discoveredBy": "bundle-scan",
+      "referencedBy": [
+        "FX_MAT_Aura_Distort_01"
+      ]
+    },
+    "FX_TEX_Grad_Mask_04": {
+      "name": "FX_TEX_Grad_Mask_04",
+      "logicalName": "FX_TEX_Grad_Mask_04",
+      "file": "Textures/Source/FX_TEX_Grad_Mask_04.png",
+      "width": 128,
+      "height": 128,
+      "sourceFormat": "50:ASTC_RGB_6x6",
+      "mipCount": 1,
+      "imageCount": 1,
+      "colorSpace": "1",
+      "textureDimension": "2",
+      "filterMode": 1,
+      "wrapMode": [
+        1,
+        1,
+        1
+      ],
+      "anisoLevel": 1,
+      "mipBias": 0.0,
+      "isReadable": false,
+      "streamingMipmaps": false,
+      "samplerSettings": "GLTextureSettings(m_Aniso=1, m_FilterMode=1, m_MipBias=0.0, m_WrapMode=None, m_WrapU=1, m_WrapV=1, m_WrapW=1)",
+      "bytes": 8194,
+      "sha256": "8b39095c348b71e9953d316f4d2bef6098f6374a39f1ba8829d7ad32721a1d3b",
+      "bundle": "CAB-90bce978bc36a07bb2687fa442eadeeb",
+      "pathId": 5204000835068491917,
+      "classId": 28,
+      "discoveredBy": "bundle-scan",
+      "referencedBy": [
+        "FX_MAT_Stretch_Step_01",
+        "FX_MAT_Stretch_Step_05",
+        "FX_MAT_Stretch_Step_02"
+      ]
+    },
+    "CH0069_Face": {
+      "name": "CH0069_Face",
+      "logicalName": "CH0069_Face",
+      "file": "Textures/Source/CH0069_Face.png",
+      "width": 128,
+      "height": 128,
+      "sourceFormat": "49:ASTC_RGB_5x5",
+      "mipCount": 1,
+      "imageCount": 1,
+      "colorSpace": "1",
+      "textureDimension": "2",
+      "filterMode": 1,
+      "wrapMode": [
+        1,
+        1,
+        1
+      ],
+      "anisoLevel": 1,
+      "mipBias": 0.0,
+      "isReadable": false,
+      "streamingMipmaps": false,
+      "samplerSettings": "GLTextureSettings(m_Aniso=1, m_FilterMode=1, m_MipBias=0.0, m_WrapMode=None, m_WrapU=1, m_WrapV=1, m_WrapW=1)",
+      "bytes": 7067,
+      "sha256": "0e3fe71aeb82d881a0863ab5588eb73f8013c7101b2ef05d189148e02e61538a",
+      "bundle": "CAB-90bce978bc36a07bb2687fa442eadeeb",
+      "pathId": 5645516346303370970,
+      "classId": 28,
+      "discoveredBy": "bundle-scan",
+      "referencedBy": [
+        "CH0069_Eyebrow",
+        "CH0069_Face"
+      ]
+    },
+    "FX_TEX_Gra_L_01_clamp": {
+      "name": "FX_TEX_Gra_L_01_clamp",
+      "logicalName": "FX_TEX_Gra_L_01_clamp",
+      "file": "Textures/Source/FX_TEX_Gra_L_01_clamp.png",
+      "width": 256,
+      "height": 256,
+      "sourceFormat": "50:ASTC_RGB_6x6",
+      "mipCount": 1,
+      "imageCount": 1,
+      "colorSpace": "1",
+      "textureDimension": "2",
+      "filterMode": 1,
+      "wrapMode": [
+        1,
+        1,
+        1
+      ],
+      "anisoLevel": 1,
+      "mipBias": 0.0,
+      "isReadable": false,
+      "streamingMipmaps": false,
+      "samplerSettings": "GLTextureSettings(m_Aniso=1, m_FilterMode=1, m_MipBias=0.0, m_WrapMode=None, m_WrapU=1, m_WrapV=1, m_WrapW=1)",
+      "bytes": 31410,
+      "sha256": "97c822a5e0103625957f6b64871b540eefd85af1162341f8bad22e3ce006665e",
+      "bundle": "CAB-90bce978bc36a07bb2687fa442eadeeb",
+      "pathId": 6053507106650481465,
+      "classId": 28,
+      "discoveredBy": "bundle-scan",
+      "referencedBy": [
+        "FX_MAT_Aura_Gra_Distort_06"
+      ]
+    },
+    "FX_TEX_Shock_Wave_01": {
+      "name": "FX_TEX_Shock_Wave_01",
+      "logicalName": "FX_TEX_Shock_Wave_01",
+      "file": "Textures/Source/FX_TEX_Shock_Wave_01.png",
+      "width": 128,
+      "height": 128,
+      "sourceFormat": "50:ASTC_RGB_6x6",
+      "mipCount": 1,
+      "imageCount": 1,
+      "colorSpace": "1",
+      "textureDimension": "2",
+      "filterMode": 1,
+      "wrapMode": [
+        1,
+        1,
+        1
+      ],
+      "anisoLevel": 1,
+      "mipBias": 0.0,
+      "isReadable": false,
+      "streamingMipmaps": false,
+      "samplerSettings": "GLTextureSettings(m_Aniso=1, m_FilterMode=1, m_MipBias=0.0, m_WrapMode=None, m_WrapU=1, m_WrapV=1, m_WrapW=1)",
+      "bytes": 7788,
+      "sha256": "a702984765bc8a121136433387342c39e3f8a5f1ed5539cdbbdc81ace2d38910",
+      "bundle": "CAB-90bce978bc36a07bb2687fa442eadeeb",
+      "pathId": 6284267709430793602,
+      "classId": 28,
+      "discoveredBy": "bundle-scan",
+      "referencedBy": [
+        "FX_MAT_Stretch_Step_04"
+      ]
+    },
+    "FX_TEX_Snow_Noise_01": {
+      "name": "FX_TEX_Snow_Noise_01",
+      "logicalName": "FX_TEX_Snow_Noise_01",
+      "file": "Textures/Source/FX_TEX_Snow_Noise_01.png",
+      "width": 256,
+      "height": 256,
+      "sourceFormat": "50:ASTC_RGB_6x6",
+      "mipCount": 1,
+      "imageCount": 1,
+      "colorSpace": "1",
+      "textureDimension": "2",
+      "filterMode": 1,
+      "wrapMode": [
+        0,
+        0,
+        0
+      ],
+      "anisoLevel": 1,
+      "mipBias": 0.0,
+      "isReadable": false,
+      "streamingMipmaps": false,
+      "samplerSettings": "GLTextureSettings(m_Aniso=1, m_FilterMode=1, m_MipBias=0.0, m_WrapMode=None, m_WrapU=0, m_WrapV=0, m_WrapW=0)",
+      "bytes": 36019,
+      "sha256": "421d23258c3cc2063e2fa95c98c1932b1d6f8ee4e0a32b5780bf5617994b914a",
+      "bundle": "CAB-90bce978bc36a07bb2687fa442eadeeb",
+      "pathId": 7333178199116553477,
+      "classId": 28,
+      "discoveredBy": "bundle-scan",
+      "referencedBy": [
+        "FX_MAT_Noise_Step_2Side_01"
+      ]
+    },
+    "FX_TEX_Fog_Grad_01": {
+      "name": "FX_TEX_Fog_Grad_01",
+      "logicalName": "FX_TEX_Fog_Grad_01",
+      "file": "Textures/Source/FX_TEX_Fog_Grad_01.png",
+      "width": 128,
+      "height": 128,
+      "sourceFormat": "49:ASTC_RGB_5x5",
+      "mipCount": 1,
+      "imageCount": 1,
+      "colorSpace": "1",
+      "textureDimension": "2",
+      "filterMode": 1,
+      "wrapMode": [
+        1,
+        1,
+        1
+      ],
+      "anisoLevel": 1,
+      "mipBias": 0.0,
+      "isReadable": false,
+      "streamingMipmaps": false,
+      "samplerSettings": "GLTextureSettings(m_Aniso=1, m_FilterMode=1, m_MipBias=0.0, m_WrapMode=None, m_WrapU=1, m_WrapV=1, m_WrapW=1)",
+      "bytes": 6263,
+      "sha256": "2a40f886422d7f623bbd805145e6c320cc853e13754353f96da8107ea23edf45",
+      "bundle": "CAB-90bce978bc36a07bb2687fa442eadeeb",
+      "pathId": 8363841198402785627,
+      "classId": 28,
+      "discoveredBy": "bundle-scan",
+      "referencedBy": [
+        "FX_MAT_Stretch_Step_01",
+        "FX_MAT_Stretch_Step_05",
+        "FX_MAT_Stretch_Step_04"
+      ]
+    },
+    "FX_TEX_Terror_Warband_01b": {
+      "name": "FX_TEX_Terror_Warband_01b",
+      "logicalName": "FX_TEX_Terror_Warband_01b",
+      "file": "Textures/Source/FX_TEX_Terror_Warband_01b.png",
+      "width": 128,
+      "height": 64,
+      "sourceFormat": "50:ASTC_RGB_6x6",
+      "mipCount": 1,
+      "imageCount": 1,
+      "colorSpace": "1",
+      "textureDimension": "2",
+      "filterMode": 1,
+      "wrapMode": [
+        1,
+        1,
+        1
+      ],
+      "anisoLevel": 1,
+      "mipBias": 0.0,
+      "isReadable": false,
+      "streamingMipmaps": false,
+      "samplerSettings": "GLTextureSettings(m_Aniso=1, m_FilterMode=1, m_MipBias=0.0, m_WrapMode=None, m_WrapU=1, m_WrapV=1, m_WrapW=1)",
+      "bytes": 7705,
+      "sha256": "21aaa821a0cd5407a9b710ff57ac2b28f44f39732d5b707eda1a0ac676f5907d",
+      "bundle": "CAB-90bce978bc36a07bb2687fa442eadeeb",
+      "pathId": 8425667109420341705,
+      "classId": 28,
+      "discoveredBy": "bundle-scan",
+      "referencedBy": [
+        "FX_MAT_Img_Warband 02"
+      ]
+    },
+    "CH0069_Halo": {
+      "name": "CH0069_Halo",
+      "logicalName": "CH0069_Halo",
+      "file": "Textures/Source/CH0069_Halo.png",
+      "width": 32,
+      "height": 32,
+      "sourceFormat": "49:ASTC_RGB_5x5",
+      "mipCount": 1,
+      "imageCount": 1,
+      "colorSpace": "1",
+      "textureDimension": "2",
+      "filterMode": 1,
+      "wrapMode": [
+        1,
+        1,
+        1
+      ],
+      "anisoLevel": 1,
+      "mipBias": 0.0,
+      "isReadable": false,
+      "streamingMipmaps": false,
+      "samplerSettings": "GLTextureSettings(m_Aniso=1, m_FilterMode=1, m_MipBias=0.0, m_WrapMode=None, m_WrapU=1, m_WrapV=1, m_WrapW=1)",
+      "bytes": 876,
+      "sha256": "f0a2e0c00717016020afb783c068efd9b58f30c52f7f9d7cc2969a13b0789220",
+      "bundle": "CAB-90bce978bc36a07bb2687fa442eadeeb",
+      "pathId": 9220995388287178638,
+      "classId": 28,
+      "discoveredBy": "bundle-scan",
+      "referencedBy": [
+        "CH0069_Halo"
+      ]
+    },
+    "tex_terror_dissolve": {
+      "name": "tex_terror_dissolve",
+      "logicalName": "tex_terror_dissolve",
+      "file": "Textures/Source/tex_terror_dissolve.png",
+      "width": 64,
+      "height": 64,
+      "sourceFormat": "50:ASTC_RGB_6x6",
+      "mipCount": 1,
+      "imageCount": 1,
+      "colorSpace": "0",
+      "textureDimension": "2",
+      "filterMode": 0,
+      "wrapMode": [
+        0,
+        0,
+        0
+      ],
+      "anisoLevel": 1,
+      "mipBias": 0.0,
+      "isReadable": false,
+      "streamingMipmaps": false,
+      "samplerSettings": "GLTextureSettings(m_Aniso=1, m_FilterMode=0, m_MipBias=0.0, m_WrapMode=None, m_WrapU=0, m_WrapV=0, m_WrapW=0)",
+      "bytes": 4699,
+      "sha256": "1bc495bae263a80d1d0b37fbf3b984b7a430dfd7c327b46a02e93c9a09092af2",
+      "bundle": "CAB-a1f37cecbffaf7deb399e9350040c55f",
+      "pathId": -6834094942524625179,
+      "classId": 28,
+      "discoveredBy": "bundle-scan",
+      "referencedBy": []
+    },
+    "tex_spine_scan_lines_128": {
+      "name": "tex_spine_scan_lines_128",
+      "logicalName": "tex_spine_scan_lines_128",
+      "file": "Textures/Source/tex_spine_scan_lines_128.png",
+      "width": 128,
+      "height": 128,
+      "sourceFormat": "52:ASTC_RGB_10x10",
+      "mipCount": 1,
+      "imageCount": 1,
+      "colorSpace": "0",
+      "textureDimension": "2",
+      "filterMode": 1,
+      "wrapMode": [
+        0,
+        0,
+        0
+      ],
+      "anisoLevel": 1,
+      "mipBias": 0.0,
+      "isReadable": false,
+      "streamingMipmaps": false,
+      "samplerSettings": "GLTextureSettings(m_Aniso=1, m_FilterMode=1, m_MipBias=0.0, m_WrapMode=None, m_WrapU=0, m_WrapV=0, m_WrapW=0)",
+      "bytes": 513,
+      "sha256": "bd6fb9a1174224582a031988bfb19788cb910dac66cd3fafdac19fc9d495571c",
+      "bundle": "CAB-a1f37cecbffaf7deb399e9350040c55f",
+      "pathId": 1405053136413004643,
+      "classId": 28,
+      "discoveredBy": "bundle-scan",
+      "referencedBy": []
+    },
+    "tex_spine_scan_lines": {
+      "name": "tex_spine_scan_lines",
+      "logicalName": "tex_spine_scan_lines",
+      "file": "Textures/Source/tex_spine_scan_lines.png",
+      "width": 32,
+      "height": 32,
+      "sourceFormat": "52:ASTC_RGB_10x10",
+      "mipCount": 1,
+      "imageCount": 1,
+      "colorSpace": "0",
+      "textureDimension": "2",
+      "filterMode": 1,
+      "wrapMode": [
+        0,
+        0,
+        0
+      ],
+      "anisoLevel": 1,
+      "mipBias": 0.0,
+      "isReadable": false,
+      "streamingMipmaps": false,
+      "samplerSettings": "GLTextureSettings(m_Aniso=1, m_FilterMode=1, m_MipBias=0.0, m_WrapMode=None, m_WrapU=0, m_WrapV=0, m_WrapW=0)",
+      "bytes": 211,
+      "sha256": "21b670548908d7fdcd2bbd13ea0ad07e94b6bddd7d257da778f3a819dfdff76a",
+      "bundle": "CAB-a1f37cecbffaf7deb399e9350040c55f",
+      "pathId": 8353148530398349924,
+      "classId": 28,
+      "discoveredBy": "bundle-scan",
+      "referencedBy": []
+    },
+    "Common_Grenades": {
+      "name": "Common_Grenades",
+      "logicalName": "Common_Grenades",
+      "file": "Textures/Source/Common_Grenades.png",
+      "width": 16,
+      "height": 16,
+      "sourceFormat": "49:ASTC_RGB_5x5",
+      "mipCount": 1,
+      "imageCount": 1,
+      "colorSpace": "1",
+      "textureDimension": "2",
+      "filterMode": 0,
+      "wrapMode": [
+        1,
+        1,
+        1
+      ],
+      "anisoLevel": 1,
+      "mipBias": 0.0,
+      "isReadable": false,
+      "streamingMipmaps": false,
+      "samplerSettings": "GLTextureSettings(m_Aniso=1, m_FilterMode=0, m_MipBias=0.0, m_WrapMode=None, m_WrapU=1, m_WrapV=1, m_WrapW=1)",
+      "bytes": 252,
+      "sha256": "babfda1e6e47bb90c0635def61f3fc040acb70fd477c89666e37876baf1f1860",
+      "bundle": "CAB-b171383cf56fd7b8ffd04b2becfa2716",
+      "pathId": -4782549667036353149,
+      "classId": 28,
+      "discoveredBy": "bundle-scan",
+      "referencedBy": [
+        "Common_HandGrenades",
+        "Common_MolotovCocktail",
+        "Common_SmokeGrenades",
+        "Common_FlashBang"
+      ]
+    },
+    "FX_TEX_Noise_02_Heli": {
+      "name": "FX_TEX_Noise_02_Heli",
+      "logicalName": "FX_TEX_Noise_02_Heli",
+      "file": "Textures/Source/FX_TEX_Noise_02_Heli.png",
+      "width": 128,
+      "height": 128,
+      "sourceFormat": "51:ASTC_RGB_8x8",
+      "mipCount": 1,
+      "imageCount": 1,
+      "colorSpace": "1",
+      "textureDimension": "2",
+      "filterMode": 1,
+      "wrapMode": [
+        0,
+        0,
+        0
+      ],
+      "anisoLevel": 1,
+      "mipBias": 0.0,
+      "isReadable": false,
+      "streamingMipmaps": false,
+      "samplerSettings": "GLTextureSettings(m_Aniso=1, m_FilterMode=1, m_MipBias=0.0, m_WrapMode=None, m_WrapU=0, m_WrapV=0, m_WrapW=0)",
+      "bytes": 11331,
+      "sha256": "6c4e7f68ff6f3214739b766ac24ccadb3a338912fa798c1cbbbfc0ada539b82f",
+      "bundle": "CAB-b171383cf56fd7b8ffd04b2becfa2716",
+      "pathId": -757548725098065653,
+      "classId": 28,
+      "discoveredBy": "bundle-scan",
+      "referencedBy": [
+        "FX_MAT_Frozen_03",
+        "FX_MAT_Stretch_Step_109_Heli"
+      ]
+    },
+    "Bullet_01": {
+      "name": "Bullet_01",
+      "logicalName": "Bullet_01",
+      "file": "Textures/Source/Bullet_01.png",
+      "width": 64,
+      "height": 64,
+      "sourceFormat": "51:ASTC_RGB_8x8",
+      "mipCount": 1,
+      "imageCount": 1,
+      "colorSpace": "1",
+      "textureDimension": "2",
+      "filterMode": 1,
+      "wrapMode": [
+        0,
+        0,
+        0
+      ],
+      "anisoLevel": 1,
+      "mipBias": 0.0,
+      "isReadable": false,
+      "streamingMipmaps": false,
+      "samplerSettings": "GLTextureSettings(m_Aniso=1, m_FilterMode=1, m_MipBias=0.0, m_WrapMode=None, m_WrapU=0, m_WrapV=0, m_WrapW=0)",
+      "bytes": 674,
+      "sha256": "26774d823e3e8d19dfdadb00b6f315e7dd07ac7a61debf827c5ef755984784c6",
+      "bundle": "CAB-b171383cf56fd7b8ffd04b2becfa2716",
+      "pathId": 3884355278954834748,
+      "classId": 28,
+      "discoveredBy": "bundle-scan",
+      "referencedBy": [
+        "Bullet_01"
+      ]
+    },
+    "Common_Grenades_Mask": {
+      "name": "Common_Grenades_Mask",
+      "logicalName": "Common_Grenades_Mask",
+      "file": "Textures/Source/Common_Grenades_Mask.png",
+      "width": 16,
+      "height": 16,
+      "sourceFormat": "50:ASTC_RGB_6x6",
+      "mipCount": 1,
+      "imageCount": 1,
+      "colorSpace": "0",
+      "textureDimension": "2",
+      "filterMode": 1,
+      "wrapMode": [
+        0,
+        0,
+        0
+      ],
+      "anisoLevel": 1,
+      "mipBias": 0.0,
+      "isReadable": false,
+      "streamingMipmaps": false,
+      "samplerSettings": "GLTextureSettings(m_Aniso=1, m_FilterMode=1, m_MipBias=0.0, m_WrapMode=None, m_WrapU=0, m_WrapV=0, m_WrapW=0)",
+      "bytes": 149,
+      "sha256": "6b30b5c9ec26a05df305c53127ebaf7b3e9f59e7aac822eac60b2389f5891c67",
+      "bundle": "CAB-b171383cf56fd7b8ffd04b2becfa2716",
+      "pathId": 5259872734998290202,
+      "classId": 28,
+      "discoveredBy": "bundle-scan",
+      "referencedBy": [
+        "Common_HandGrenades",
+        "Common_MolotovCocktail",
+        "Common_SmokeGrenades",
+        "Common_FlashBang"
+      ]
+    },
+    "Character_Mouth": {
+      "name": "Character_Mouth",
+      "logicalName": "Character_Mouth",
+      "file": "Textures/Source/Character_Mouth.png",
+      "width": 1024,
+      "height": 1024,
+      "sourceFormat": "49:ASTC_RGB_5x5",
+      "mipCount": 1,
+      "imageCount": 1,
+      "colorSpace": "1",
+      "textureDimension": "2",
+      "filterMode": 1,
+      "wrapMode": [
+        0,
+        0,
+        0
+      ],
+      "anisoLevel": 1,
+      "mipBias": 0.0,
+      "isReadable": false,
+      "streamingMipmaps": false,
+      "samplerSettings": "GLTextureSettings(m_Aniso=1, m_FilterMode=1, m_MipBias=0.0, m_WrapMode=None, m_WrapU=0, m_WrapV=0, m_WrapW=0)",
+      "bytes": 153374,
+      "sha256": "752382752938e66b05daf57b5489efa09d157881e54da770553d8ab887782173",
+      "bundle": "CAB-b171383cf56fd7b8ffd04b2becfa2716",
+      "pathId": 6943113984227578831,
+      "classId": 28,
+      "discoveredBy": "bundle-scan",
+      "referencedBy": [
+        "CH0069_EyeMouth"
+      ]
+    },
+    "Bullet_01_Mask": {
+      "name": "Bullet_01_Mask",
+      "logicalName": "Bullet_01_Mask",
+      "file": "Textures/Source/Bullet_01_Mask.png",
+      "width": 64,
+      "height": 64,
+      "sourceFormat": "50:ASTC_RGB_6x6",
+      "mipCount": 1,
+      "imageCount": 1,
+      "colorSpace": "0",
+      "textureDimension": "2",
+      "filterMode": 1,
+      "wrapMode": [
+        0,
+        0,
+        0
+      ],
+      "anisoLevel": 1,
+      "mipBias": 0.0,
+      "isReadable": false,
+      "streamingMipmaps": false,
+      "samplerSettings": "GLTextureSettings(m_Aniso=1, m_FilterMode=1, m_MipBias=0.0, m_WrapMode=None, m_WrapU=0, m_WrapV=0, m_WrapW=0)",
+      "bytes": 2048,
+      "sha256": "141af97a543108e7d764efd0b8921b11880bd93ed3acdaad11d25953cba0c659",
+      "bundle": "CAB-b171383cf56fd7b8ffd04b2becfa2716",
+      "pathId": 7669885982840257864,
+      "classId": 28,
+      "discoveredBy": "bundle-scan",
+      "referencedBy": [
+        "Bullet_01"
+      ]
+    },
+    "tex_green_128": {
+      "name": "tex_green_128",
+      "logicalName": "tex_green_128",
+      "file": "Textures/Source/tex_green_128.png",
+      "width": 16,
+      "height": 16,
+      "sourceFormat": "53:ASTC_RGB_12x12",
+      "mipCount": 1,
+      "imageCount": 1,
+      "colorSpace": "0",
+      "textureDimension": "2",
+      "filterMode": 1,
+      "wrapMode": [
+        0,
+        0,
+        0
+      ],
+      "anisoLevel": 1,
+      "mipBias": 0.0,
+      "isReadable": false,
+      "streamingMipmaps": false,
+      "samplerSettings": "GLTextureSettings(m_Aniso=1, m_FilterMode=1, m_MipBias=0.0, m_WrapMode=None, m_WrapU=0, m_WrapV=0, m_WrapW=0)",
+      "bytes": 94,
+      "sha256": "14eef2c9d3c4edbea98dfa0090f9f396965fd926443d9fa6e43381c3e71e2f87",
+      "bundle": "CAB-dfc5bcc011d85f284a539a56baf966f7",
+      "pathId": 1536054353023387004,
+      "classId": 28,
+      "discoveredBy": "bundle-scan",
+      "referencedBy": [
+        "CH0069_Face"
+      ]
+    },
+    "FX_TEX_Snow_Noise_02": {
+      "name": "FX_TEX_Snow_Noise_02",
+      "logicalName": "FX_TEX_Snow_Noise_02",
+      "file": "Textures/Source/FX_TEX_Snow_Noise_02.png",
+      "width": 256,
+      "height": 256,
+      "sourceFormat": "51:ASTC_RGB_8x8",
+      "mipCount": 1,
+      "imageCount": 1,
+      "colorSpace": "1",
+      "textureDimension": "2",
+      "filterMode": 1,
+      "wrapMode": [
+        0,
+        0,
+        0
+      ],
+      "anisoLevel": 1,
+      "mipBias": 0.0,
+      "isReadable": false,
+      "streamingMipmaps": false,
+      "samplerSettings": "GLTextureSettings(m_Aniso=1, m_FilterMode=1, m_MipBias=0.0, m_WrapMode=None, m_WrapU=0, m_WrapV=0, m_WrapW=0)",
+      "bytes": 30047,
+      "sha256": "a935b8fd893dd82adfdd89a89f4b1bcad2aed0e6219a62fac6add59dc591f3c8",
+      "bundle": "CAB-1b449aacd369e1aded70c4e4f5824b72",
+      "pathId": -5905287922899803573,
+      "classId": 28,
+      "discoveredBy": "bundle-scan",
+      "referencedBy": [
+        "FX_MAT_Frozen_01"
+      ],
+      "externalReference": {
+        "cab": "CAB-1b449aacd369e1aded70c4e4f5824b72",
+        "providerBundle": "CAB-1b449aacd369e1aded70c4e4f5824b72",
+        "pathId": -5905287922899803573,
+        "referencedByMaterial": "FX_MAT_Frozen_01"
+      }
+    },
+    "FX_TEX_Lightning_12": {
+      "name": "FX_TEX_Lightning_12",
+      "logicalName": "FX_TEX_Lightning_12",
+      "file": "Textures/Source/FX_TEX_Lightning_12.png",
+      "width": 256,
+      "height": 256,
+      "sourceFormat": "48:ASTC_RGB_4x4",
+      "mipCount": 1,
+      "imageCount": 1,
+      "colorSpace": "1",
+      "textureDimension": "2",
+      "filterMode": 1,
+      "wrapMode": [
+        1,
+        1,
+        1
+      ],
+      "anisoLevel": 1,
+      "mipBias": 0.0,
+      "isReadable": false,
+      "streamingMipmaps": false,
+      "samplerSettings": "GLTextureSettings(m_Aniso=1, m_FilterMode=1, m_MipBias=0.0, m_WrapMode=None, m_WrapU=1, m_WrapV=1, m_WrapW=1)",
+      "bytes": 15347,
+      "sha256": "452ed0a27deddb5840327020d9f428e57013ddd10dfebc19870602793310fbb6",
+      "bundle": "CAB-5555e18498154f4b3a037b55fc7a8456",
+      "pathId": 5610734655406114363,
+      "classId": 28,
+      "discoveredBy": "bundle-scan",
+      "referencedBy": [
+        "FX_MAT_Lightning_62g"
+      ],
+      "externalReference": {
+        "cab": "CAB-5555e18498154f4b3a037b55fc7a8456",
+        "providerBundle": "CAB-5555e18498154f4b3a037b55fc7a8456",
+        "pathId": 5610734655406114363,
+        "referencedByMaterial": "FX_MAT_Lightning_62g"
+      }
+    },
+    "FX_TEX_Noise_Dot_01": {
+      "name": "FX_TEX_Noise_Dot_01",
+      "logicalName": "FX_TEX_Noise_Dot_01",
+      "file": "Textures/Source/FX_TEX_Noise_Dot_01.png",
+      "width": 128,
+      "height": 128,
+      "sourceFormat": "50:ASTC_RGB_6x6",
+      "mipCount": 1,
+      "imageCount": 1,
+      "colorSpace": "1",
+      "textureDimension": "2",
+      "filterMode": 1,
+      "wrapMode": [
+        0,
+        0,
+        0
+      ],
+      "anisoLevel": 1,
+      "mipBias": 0.0,
+      "isReadable": false,
+      "streamingMipmaps": false,
+      "samplerSettings": "GLTextureSettings(m_Aniso=1, m_FilterMode=1, m_MipBias=0.0, m_WrapMode=None, m_WrapU=0, m_WrapV=0, m_WrapW=0)",
+      "bytes": 14728,
+      "sha256": "eb45490bc09e1c034708c567cff0e0b034d4d26fb0276be091538422c4dade1c",
+      "bundle": "CAB-45ac4b92bfe72e63691e27db9098a687",
+      "pathId": 3554185363852115893,
+      "classId": 28,
+      "discoveredBy": "bundle-scan",
+      "referencedBy": [
+        "FX_MAT_Noise_Step_2Side_02"
+      ],
+      "externalReference": {
+        "cab": "CAB-45ac4b92bfe72e63691e27db9098a687",
+        "providerBundle": "CAB-45ac4b92bfe72e63691e27db9098a687",
+        "pathId": 3554185363852115893,
+        "referencedByMaterial": "FX_MAT_Noise_Step_2Side_02"
+      }
+    },
+    "FX_TEX_Mutsuki_Newyear_03": {
+      "name": "FX_TEX_Mutsuki_Newyear_03",
+      "logicalName": "FX_TEX_Mutsuki_Newyear_03",
+      "file": "Textures/Source/FX_TEX_Mutsuki_Newyear_03.png",
+      "width": 256,
+      "height": 256,
+      "sourceFormat": "51:ASTC_RGB_8x8",
+      "mipCount": 1,
+      "imageCount": 1,
+      "colorSpace": "1",
+      "textureDimension": "2",
+      "filterMode": 1,
+      "wrapMode": [
+        0,
+        0,
+        0
+      ],
+      "anisoLevel": 1,
+      "mipBias": 0.0,
+      "isReadable": false,
+      "streamingMipmaps": false,
+      "samplerSettings": "GLTextureSettings(m_Aniso=1, m_FilterMode=1, m_MipBias=0.0, m_WrapMode=None, m_WrapU=0, m_WrapV=0, m_WrapW=0)",
+      "bytes": 14301,
+      "sha256": "a22d30b0b77a4a7d177c61543679cc5bd0cfb00bc1620358752e9e7d5a867c69",
+      "bundle": "CAB-52033febe6bf15d58dcbbdeefe17ef7e",
+      "pathId": -123897531223406191,
+      "classId": 28,
+      "discoveredBy": "bundle-scan",
+      "referencedBy": [
+        "FX_MAT_Stretch_Step_03",
+        "FX_MAT_Aura_Gra_Distort_07",
+        "FX_MAT_Aura_Distort_08"
+      ],
+      "externalReference": {
+        "cab": "CAB-52033febe6bf15d58dcbbdeefe17ef7e",
+        "providerBundle": "CAB-52033febe6bf15d58dcbbdeefe17ef7e",
+        "pathId": -123897531223406191,
+        "referencedByMaterial": "FX_MAT_Aura_Distort_08"
+      }
+    },
+    "FX_TEX_Stretch_Scroll_01": {
+      "name": "FX_TEX_Stretch_Scroll_01",
+      "logicalName": "FX_TEX_Stretch_Scroll_01",
+      "file": "Textures/Source/FX_TEX_Stretch_Scroll_01.png",
+      "width": 128,
+      "height": 128,
+      "sourceFormat": "48:ASTC_RGB_4x4",
+      "mipCount": 1,
+      "imageCount": 1,
+      "colorSpace": "1",
+      "textureDimension": "2",
+      "filterMode": 1,
+      "wrapMode": [
+        0,
+        0,
+        0
+      ],
+      "anisoLevel": 1,
+      "mipBias": 0.0,
+      "isReadable": false,
+      "streamingMipmaps": false,
+      "samplerSettings": "GLTextureSettings(m_Aniso=1, m_FilterMode=1, m_MipBias=0.0, m_WrapMode=None, m_WrapU=0, m_WrapV=0, m_WrapW=0)",
+      "bytes": 9279,
+      "sha256": "ad6e20059434ff185f5ab85582de00ed1fb6ac7ec2e94a08d37153f1ef557410",
+      "bundle": "CAB-b8e3f7403d67e9649c13f9888f9b5f2b",
+      "pathId": -5909670990641271477,
+      "classId": 28,
+      "discoveredBy": "bundle-scan",
+      "referencedBy": [
+        "FX_MAT_Stretch_Step_05",
+        "FX_MAT_Stretch_Step_02"
+      ],
+      "externalReference": {
+        "cab": "CAB-b8e3f7403d67e9649c13f9888f9b5f2b",
+        "providerBundle": "CAB-b8e3f7403d67e9649c13f9888f9b5f2b",
+        "pathId": -5909670990641271477,
+        "referencedByMaterial": "FX_MAT_Stretch_Step_02"
+      }
+    },
+    "FX_TEX_Noise_04": {
+      "name": "FX_TEX_Noise_04",
+      "logicalName": "FX_TEX_Noise_04",
+      "file": "Textures/Source/FX_TEX_Noise_04.png",
+      "width": 256,
+      "height": 256,
+      "sourceFormat": "50:ASTC_RGB_6x6",
+      "mipCount": 1,
+      "imageCount": 1,
+      "colorSpace": "1",
+      "textureDimension": "2",
+      "filterMode": 1,
+      "wrapMode": [
+        0,
+        0,
+        0
+      ],
+      "anisoLevel": 1,
+      "mipBias": 0.0,
+      "isReadable": false,
+      "streamingMipmaps": false,
+      "samplerSettings": "GLTextureSettings(m_Aniso=1, m_FilterMode=1, m_MipBias=0.0, m_WrapMode=None, m_WrapU=0, m_WrapV=0, m_WrapW=0)",
+      "bytes": 80838,
+      "sha256": "87d1593294789dbc865d0f7fc5bd132edd399672d8041a92dc3cc63bf33d6159",
+      "bundle": "CAB-3406a8f337277d929dfa59936e074729",
+      "pathId": 6044037305657602482,
+      "classId": 28,
+      "discoveredBy": "bundle-scan",
+      "referencedBy": [
+        "FX_MAT_Img_Warband 02",
+        "FX_MAT_Img_Warband 01"
+      ],
+      "externalReference": {
+        "cab": "CAB-3406a8f337277d929dfa59936e074729",
+        "providerBundle": "CAB-3406a8f337277d929dfa59936e074729",
+        "pathId": 6044037305657602482,
+        "referencedByMaterial": "FX_MAT_Img_Warband 01"
+      }
+    },
+    "FX_TEX_Gra_L_01a_Clamp": {
+      "name": "FX_TEX_Gra_L_01a_Clamp",
+      "logicalName": "FX_TEX_Gra_L_01a_Clamp",
+      "file": "Textures/Source/FX_TEX_Gra_L_01a_Clamp.png",
+      "width": 128,
+      "height": 128,
+      "sourceFormat": "51:ASTC_RGB_8x8",
+      "mipCount": 1,
+      "imageCount": 1,
+      "colorSpace": "1",
+      "textureDimension": "2",
+      "filterMode": 1,
+      "wrapMode": [
+        1,
+        1,
+        1
+      ],
+      "anisoLevel": 1,
+      "mipBias": 0.0,
+      "isReadable": false,
+      "streamingMipmaps": false,
+      "samplerSettings": "GLTextureSettings(m_Aniso=1, m_FilterMode=1, m_MipBias=0.0, m_WrapMode=None, m_WrapU=1, m_WrapV=1, m_WrapW=1)",
+      "bytes": 1710,
+      "sha256": "0bf50f5ed2ab6d61e2113d81393fb54e1def0f90ae0b67efe2c4e11f3ce64792",
+      "bundle": "CAB-cbec6335b035e9784fecda2df84ab522",
+      "pathId": 5329810135856044651,
+      "classId": 28,
+      "discoveredBy": "bundle-scan",
+      "referencedBy": [
+        "FX_MAT_Aura_Gra_Distort_07"
+      ],
+      "externalReference": {
+        "cab": "CAB-cbec6335b035e9784fecda2df84ab522",
+        "providerBundle": "CAB-cbec6335b035e9784fecda2df84ab522",
+        "pathId": 5329810135856044651,
+        "referencedByMaterial": "FX_MAT_Aura_Gra_Distort_07"
+      }
+    },
+    "FX_TEX_Gra_L_01_Clamp__6097669726735502529": {
+      "name": "FX_TEX_Gra_L_01_Clamp",
+      "logicalName": "FX_TEX_Gra_L_01_Clamp__6097669726735502529",
+      "file": "Textures/Source/FX_TEX_Gra_L_01_Clamp__6097669726735502529.png",
+      "width": 128,
+      "height": 128,
+      "sourceFormat": "51:ASTC_RGB_8x8",
+      "mipCount": 1,
+      "imageCount": 1,
+      "colorSpace": "1",
+      "textureDimension": "2",
+      "filterMode": 1,
+      "wrapMode": [
+        1,
+        1,
+        1
+      ],
+      "anisoLevel": 1,
+      "mipBias": 0.0,
+      "isReadable": false,
+      "streamingMipmaps": false,
+      "samplerSettings": "GLTextureSettings(m_Aniso=1, m_FilterMode=1, m_MipBias=0.0, m_WrapMode=None, m_WrapU=1, m_WrapV=1, m_WrapW=1)",
+      "bytes": 528,
+      "sha256": "957e349463fb4d964e58ac4221a69eb3e0e90ece6bbaab3b0105ecaab52f7fa8",
+      "bundle": "CAB-bf4f81129d29b116ada7fad04eba7ec1",
+      "pathId": 6097669726735502529,
+      "classId": 28,
+      "discoveredBy": "bundle-scan",
+      "referencedBy": [
+        "FX_MAT_Gra_L_03"
+      ],
+      "externalReference": {
+        "cab": "CAB-bf4f81129d29b116ada7fad04eba7ec1",
+        "providerBundle": "CAB-bf4f81129d29b116ada7fad04eba7ec1",
+        "pathId": 6097669726735502529,
+        "referencedByMaterial": "FX_MAT_Gra_L_03"
+      }
+    },
+    "FX_TEX_CH0164_Smoke_Scroll_02": {
+      "name": "FX_TEX_CH0164_Smoke_Scroll_02",
+      "logicalName": "FX_TEX_CH0164_Smoke_Scroll_02",
+      "file": "Textures/Source/FX_TEX_CH0164_Smoke_Scroll_02.png",
+      "width": 256,
+      "height": 256,
+      "sourceFormat": "51:ASTC_RGB_8x8",
+      "mipCount": 1,
+      "imageCount": 1,
+      "colorSpace": "1",
+      "textureDimension": "2",
+      "filterMode": 1,
+      "wrapMode": [
+        0,
+        0,
+        0
+      ],
+      "anisoLevel": 1,
+      "mipBias": 0.0,
+      "isReadable": false,
+      "streamingMipmaps": false,
+      "samplerSettings": "GLTextureSettings(m_Aniso=1, m_FilterMode=1, m_MipBias=0.0, m_WrapMode=None, m_WrapU=0, m_WrapV=0, m_WrapW=0)",
+      "bytes": 34806,
+      "sha256": "a6f496d0fc2752c636cf315f4ccd548493ba5cc1bd8ff218a76849a35992ddf3",
+      "bundle": "CAB-7d3b6403224413c9fefdeb2f35ad8999",
+      "pathId": -4831052889359079210,
+      "classId": 28,
+      "discoveredBy": "bundle-scan",
+      "referencedBy": [
+        "FX_MAT_Stretch_Step_04"
+      ],
+      "externalReference": {
+        "cab": "CAB-7d3b6403224413c9fefdeb2f35ad8999",
+        "providerBundle": "CAB-7d3b6403224413c9fefdeb2f35ad8999",
+        "pathId": -4831052889359079210,
+        "referencedByMaterial": "FX_MAT_Stretch_Step_04"
+      }
+    }
+  },
+  "meshes": {
+    "Bullet_01": {
+      "bundle": "CAB-60e997738ff0dbd21a9c96ad8e1c4c09",
+      "serializedFile": "CAB-60e997738ff0dbd21a9c96ad8e1c4c09",
+      "classId": 43,
+      "pathId": -2789966546222252709
+    },
+    "Bullet_01_Shell": {
+      "bundle": "CAB-60e997738ff0dbd21a9c96ad8e1c4c09",
+      "serializedFile": "CAB-60e997738ff0dbd21a9c96ad8e1c4c09",
+      "classId": 43,
+      "pathId": -3135920817893042625
+    },
+    "Bullet_01_Warhead": {
+      "bundle": "CAB-b171383cf56fd7b8ffd04b2becfa2716",
+      "serializedFile": "CAB-b171383cf56fd7b8ffd04b2becfa2716",
+      "classId": 43,
+      "pathId": -2885662879940870560
+    },
+    "CH0069_Body": {
+      "bundle": "CAB-60a97d3739463d22ba4d42eb38225aad",
+      "serializedFile": "CAB-60a97d3739463d22ba4d42eb38225aad",
+      "classId": 43,
+      "pathId": 2602092564290567
+    },
+    "CH0069_Halo": {
+      "bundle": "CAB-60a97d3739463d22ba4d42eb38225aad",
+      "serializedFile": "CAB-60a97d3739463d22ba4d42eb38225aad",
+      "classId": 43,
+      "pathId": 1000708557478899233
+    },
+    "CH0069_Weapon": {
+      "bundle": "CAB-60a97d3739463d22ba4d42eb38225aad",
+      "serializedFile": "CAB-60a97d3739463d22ba4d42eb38225aad",
+      "classId": 43,
+      "pathId": 7724267021661215751
+    },
+    "Circle001": {
+      "bundle": "CAB-60e997738ff0dbd21a9c96ad8e1c4c09",
+      "serializedFile": "CAB-60e997738ff0dbd21a9c96ad8e1c4c09",
+      "classId": 43,
+      "pathId": 8474691888473394048
+    },
+    "Common_FlashBang": {
+      "bundle": "CAB-60e997738ff0dbd21a9c96ad8e1c4c09",
+      "serializedFile": "CAB-60e997738ff0dbd21a9c96ad8e1c4c09",
+      "classId": 43,
+      "pathId": 8984042786195455626
+    },
+    "Common_HandGrenade": {
+      "bundle": "CAB-60e997738ff0dbd21a9c96ad8e1c4c09",
+      "serializedFile": "CAB-60e997738ff0dbd21a9c96ad8e1c4c09",
+      "classId": 43,
+      "pathId": 7758465734171764185
+    },
+    "Common_MolotovCocktail": {
+      "bundle": "CAB-60e997738ff0dbd21a9c96ad8e1c4c09",
+      "serializedFile": "CAB-60e997738ff0dbd21a9c96ad8e1c4c09",
+      "classId": 43,
+      "pathId": 6296876063284561452
+    },
+    "Common_SmokeGrenades": {
+      "bundle": "CAB-60e997738ff0dbd21a9c96ad8e1c4c09",
+      "serializedFile": "CAB-60e997738ff0dbd21a9c96ad8e1c4c09",
+      "classId": 43,
+      "pathId": 4173272837209388907
+    },
+    "Ellect_Floor01": {
+      "bundle": "CAB-60e997738ff0dbd21a9c96ad8e1c4c09",
+      "serializedFile": "CAB-60e997738ff0dbd21a9c96ad8e1c4c09",
+      "classId": 43,
+      "pathId": 8896166827367232880
+    },
+    "Ellect_Floor02": {
+      "bundle": "CAB-60e997738ff0dbd21a9c96ad8e1c4c09",
+      "serializedFile": "CAB-60e997738ff0dbd21a9c96ad8e1c4c09",
+      "classId": 43,
+      "pathId": -8553117482102917776
+    },
+    "Ellectric002": {
+      "bundle": "CAB-60e997738ff0dbd21a9c96ad8e1c4c09",
+      "serializedFile": "CAB-60e997738ff0dbd21a9c96ad8e1c4c09",
+      "classId": 43,
+      "pathId": -321476621639537627
+    },
+    "Ellectric002_002": {
+      "bundle": "CAB-60e997738ff0dbd21a9c96ad8e1c4c09",
+      "serializedFile": "CAB-60e997738ff0dbd21a9c96ad8e1c4c09",
+      "classId": 43,
+      "pathId": -7574120542708113801
+    },
+    "Ellectric002_1": {
+      "bundle": "CAB-60e997738ff0dbd21a9c96ad8e1c4c09",
+      "serializedFile": "CAB-60e997738ff0dbd21a9c96ad8e1c4c09",
+      "classId": 43,
+      "pathId": -8280872108964192649
+    },
+    "Ellectric002__6406627820126289910": {
+      "bundle": "CAB-60e997738ff0dbd21a9c96ad8e1c4c09",
+      "serializedFile": "CAB-60e997738ff0dbd21a9c96ad8e1c4c09",
+      "classId": 43,
+      "pathId": 6406627820126289910
+    },
+    "FX_Cylinder_Ring_004_In001": {
+      "bundle": "CAB-60a97d3739463d22ba4d42eb38225aad",
+      "serializedFile": "CAB-60a97d3739463d22ba4d42eb38225aad",
+      "classId": 43,
+      "pathId": 690256298765783024
+    },
+    "FX_Cylinder_Ring_004_In002": {
+      "bundle": "CAB-60a97d3739463d22ba4d42eb38225aad",
+      "serializedFile": "CAB-60a97d3739463d22ba4d42eb38225aad",
+      "classId": 43,
+      "pathId": -7125257661690015760
+    },
+    "FX_Halo_Trail_01": {
+      "bundle": "CAB-60a97d3739463d22ba4d42eb38225aad",
+      "serializedFile": "CAB-60a97d3739463d22ba4d42eb38225aad",
+      "classId": 43,
+      "pathId": -5088435980891986212
+    },
+    "FX_MESH_CH0081_Skidmark_01": {
+      "bundle": "CAB-60e997738ff0dbd21a9c96ad8e1c4c09",
+      "serializedFile": "CAB-60e997738ff0dbd21a9c96ad8e1c4c09",
+      "classId": 43,
+      "pathId": -6388636628375818159
+    },
+    "FX_MESH_Cone_UV_01": {
+      "bundle": "CAB-60a97d3739463d22ba4d42eb38225aad",
+      "serializedFile": "CAB-60a97d3739463d22ba4d42eb38225aad",
+      "classId": 43,
+      "pathId": -2893895467341454038
+    },
+    "FX_MESH_Eye_Round_01": {
+      "bundle": "CAB-60a97d3739463d22ba4d42eb38225aad",
+      "serializedFile": "CAB-60a97d3739463d22ba4d42eb38225aad",
+      "classId": 43,
+      "pathId": -1114463697792740876
+    },
+    "FX_MESH_Eye_Round_01R": {
+      "bundle": "CAB-60a97d3739463d22ba4d42eb38225aad",
+      "serializedFile": "CAB-60a97d3739463d22ba4d42eb38225aad",
+      "classId": 43,
+      "pathId": 4641398801927033332
+    },
+    "FX_MESH_Guide_Line_01g": {
+      "bundle": "CAB-60e997738ff0dbd21a9c96ad8e1c4c09",
+      "serializedFile": "CAB-60e997738ff0dbd21a9c96ad8e1c4c09",
+      "classId": 43,
+      "pathId": -5399852801311020863
+    },
+    "FX_MESH_Guide_Line_02g": {
+      "bundle": "CAB-60e997738ff0dbd21a9c96ad8e1c4c09",
+      "serializedFile": "CAB-60e997738ff0dbd21a9c96ad8e1c4c09",
+      "classId": 43,
+      "pathId": -6152605404233766719
+    },
+    "FX_MESH_Halo_01": {
+      "bundle": "CAB-60e997738ff0dbd21a9c96ad8e1c4c09",
+      "serializedFile": "CAB-60e997738ff0dbd21a9c96ad8e1c4c09",
+      "classId": 43,
+      "pathId": -851749946953435639
+    },
+    "FX_MESH_Quad_Half_L": {
+      "bundle": "CAB-60a97d3739463d22ba4d42eb38225aad",
+      "serializedFile": "CAB-60a97d3739463d22ba4d42eb38225aad",
+      "classId": 43,
+      "pathId": 7221320387568512154
+    },
+    "FX_MESH_Quad_Half_R": {
+      "bundle": "CAB-60a97d3739463d22ba4d42eb38225aad",
+      "serializedFile": "CAB-60a97d3739463d22ba4d42eb38225aad",
+      "classId": 43,
+      "pathId": -3441133922090832742
+    },
+    "FX_MESH_Spin_01": {
+      "bundle": "CAB-60a97d3739463d22ba4d42eb38225aad",
+      "serializedFile": "CAB-60a97d3739463d22ba4d42eb38225aad",
+      "classId": 43,
+      "pathId": -7577106220566736250
+    },
+    "FX_Mesh_Sphere_UV_01": {
+      "bundle": "CAB-60a97d3739463d22ba4d42eb38225aad",
+      "serializedFile": "CAB-60a97d3739463d22ba4d42eb38225aad",
+      "classId": 43,
+      "pathId": -6873301784920868077
+    },
+    "FX_Sphere_002": {
+      "bundle": "CAB-60a97d3739463d22ba4d42eb38225aad",
+      "serializedFile": "CAB-60a97d3739463d22ba4d42eb38225aad",
+      "classId": 43,
+      "pathId": 3590100928887397979
+    },
+    "FX_Sphere_Half_002": {
+      "bundle": "CAB-60a97d3739463d22ba4d42eb38225aad",
+      "serializedFile": "CAB-60a97d3739463d22ba4d42eb38225aad",
+      "classId": 43,
+      "pathId": 6220313864133942875
+    },
+    "FX_Sphere_Half_003": {
+      "bundle": "CAB-60a97d3739463d22ba4d42eb38225aad",
+      "serializedFile": "CAB-60a97d3739463d22ba4d42eb38225aad",
+      "classId": 43,
+      "pathId": -475373838657511845
+    },
+    "FX_Twist_005": {
+      "bundle": "CAB-60a97d3739463d22ba4d42eb38225aad",
+      "serializedFile": "CAB-60a97d3739463d22ba4d42eb38225aad",
+      "classId": 43,
+      "pathId": -5407235117155135197
+    },
+    "Hieronymus_rock_02_Destroy": {
+      "bundle": "CAB-60a97d3739463d22ba4d42eb38225aad",
+      "serializedFile": "CAB-60a97d3739463d22ba4d42eb38225aad",
+      "classId": 43,
+      "pathId": -3606194658136282736
+    },
+    "Line001": {
+      "bundle": "CAB-60e997738ff0dbd21a9c96ad8e1c4c09",
+      "serializedFile": "CAB-60e997738ff0dbd21a9c96ad8e1c4c09",
+      "classId": 43,
+      "pathId": -3679234906122072772
+    },
+    "OL_Bullet_01": {
+      "bundle": "CAB-60e997738ff0dbd21a9c96ad8e1c4c09",
+      "serializedFile": "CAB-60e997738ff0dbd21a9c96ad8e1c4c09",
+      "classId": 43,
+      "pathId": 8584475722457695786
+    },
+    "OL_Bullet_01_Shell": {
+      "bundle": "CAB-60e997738ff0dbd21a9c96ad8e1c4c09",
+      "serializedFile": "CAB-60e997738ff0dbd21a9c96ad8e1c4c09",
+      "classId": 43,
+      "pathId": 1138898032174566978
+    },
+    "OL_Bullet_01_Warhead": {
+      "bundle": "CAB-60e997738ff0dbd21a9c96ad8e1c4c09",
+      "serializedFile": "CAB-60e997738ff0dbd21a9c96ad8e1c4c09",
+      "classId": 43,
+      "pathId": 5718883432847959110
+    },
+    "OL_CH0069_Body": {
+      "bundle": "CAB-60a97d3739463d22ba4d42eb38225aad",
+      "serializedFile": "CAB-60a97d3739463d22ba4d42eb38225aad",
+      "classId": 43,
+      "pathId": -1622892405349074081
+    },
+    "OL_CH0069_Weapon": {
+      "bundle": "CAB-60a97d3739463d22ba4d42eb38225aad",
+      "serializedFile": "CAB-60a97d3739463d22ba4d42eb38225aad",
+      "classId": 43,
+      "pathId": 4091618583101907841
+    },
+    "OL_CH0069_Weapon001": {
+      "bundle": "CAB-60a97d3739463d22ba4d42eb38225aad",
+      "serializedFile": "CAB-60a97d3739463d22ba4d42eb38225aad",
+      "classId": 43,
+      "pathId": 5235695831380244922
+    },
+    "OL_Common_FlashBang": {
+      "bundle": "CAB-60e997738ff0dbd21a9c96ad8e1c4c09",
+      "serializedFile": "CAB-60e997738ff0dbd21a9c96ad8e1c4c09",
+      "classId": 43,
+      "pathId": 2862393342153933858
+    },
+    "OL_Common_HandGrenade": {
+      "bundle": "CAB-60e997738ff0dbd21a9c96ad8e1c4c09",
+      "serializedFile": "CAB-60e997738ff0dbd21a9c96ad8e1c4c09",
+      "classId": 43,
+      "pathId": -2946939354501576458
+    },
+    "OL_Common_MolotovCocktail": {
+      "bundle": "CAB-60e997738ff0dbd21a9c96ad8e1c4c09",
+      "serializedFile": "CAB-60e997738ff0dbd21a9c96ad8e1c4c09",
+      "classId": 43,
+      "pathId": 7206229150066943276
+    },
+    "OL_Common_SmokeGrenades": {
+      "bundle": "CAB-60e997738ff0dbd21a9c96ad8e1c4c09",
+      "serializedFile": "CAB-60e997738ff0dbd21a9c96ad8e1c4c09",
+      "classId": 43,
+      "pathId": -4470276538122309844
+    },
+    "Object001": {
+      "bundle": "CAB-60a97d3739463d22ba4d42eb38225aad",
+      "serializedFile": "CAB-60a97d3739463d22ba4d42eb38225aad",
+      "classId": 43,
+      "pathId": 6288598959856732066
+    },
+    "Plane005": {
+      "bundle": "CAB-60e997738ff0dbd21a9c96ad8e1c4c09",
+      "serializedFile": "CAB-60e997738ff0dbd21a9c96ad8e1c4c09",
+      "classId": 43,
+      "pathId": -8454183164166263771
+    },
+    "Plane005_1": {
+      "bundle": "CAB-60e997738ff0dbd21a9c96ad8e1c4c09",
+      "serializedFile": "CAB-60e997738ff0dbd21a9c96ad8e1c4c09",
+      "classId": 43,
+      "pathId": -6704901410367611273
+    },
+    "Plane005_2": {
+      "bundle": "CAB-60e997738ff0dbd21a9c96ad8e1c4c09",
+      "serializedFile": "CAB-60e997738ff0dbd21a9c96ad8e1c4c09",
+      "classId": 43,
+      "pathId": -2188798860580299145
+    },
+    "Plane005__-4792304211771047946": {
+      "bundle": "CAB-60e997738ff0dbd21a9c96ad8e1c4c09",
+      "serializedFile": "CAB-60e997738ff0dbd21a9c96ad8e1c4c09",
+      "classId": 43,
+      "pathId": -4792304211771047946
+    },
+    "Plane008": {
+      "bundle": "CAB-60e997738ff0dbd21a9c96ad8e1c4c09",
+      "serializedFile": "CAB-60e997738ff0dbd21a9c96ad8e1c4c09",
+      "classId": 43,
+      "pathId": 317506487546167286
+    },
+    "Sphere001": {
+      "bundle": "CAB-60a97d3739463d22ba4d42eb38225aad",
+      "serializedFile": "CAB-60a97d3739463d22ba4d42eb38225aad",
+      "classId": 43,
+      "pathId": 8557269347438090978
+    },
+    "Sphere002": {
+      "bundle": "CAB-60a97d3739463d22ba4d42eb38225aad",
+      "serializedFile": "CAB-60a97d3739463d22ba4d42eb38225aad",
+      "classId": 43,
+      "pathId": -7707723512876377374
+    },
+    "Sphere003": {
+      "bundle": "CAB-60a97d3739463d22ba4d42eb38225aad",
+      "serializedFile": "CAB-60a97d3739463d22ba4d42eb38225aad",
+      "classId": 43,
+      "pathId": 2724005079132789474
+    },
+    "Sweeper_Shadow": {
+      "bundle": "CAB-60e997738ff0dbd21a9c96ad8e1c4c09",
+      "serializedFile": "CAB-60e997738ff0dbd21a9c96ad8e1c4c09",
+      "classId": 43,
+      "pathId": 1348419096806640635
+    },
+    "Terror_Nun_Yustina_SR007": {
+      "bundle": "CAB-60a97d3739463d22ba4d42eb38225aad",
+      "serializedFile": "CAB-60a97d3739463d22ba4d42eb38225aad",
+      "classId": 43,
+      "pathId": 372146982166819536
+    },
+    "fx_Snow": {
+      "bundle": "CAB-60e997738ff0dbd21a9c96ad8e1c4c09",
+      "serializedFile": "CAB-60e997738ff0dbd21a9c96ad8e1c4c09",
+      "classId": 43,
+      "pathId": -106296489801312655
+    },
+    "sb_CH0151_bg_01": {
+      "bundle": "CAB-60a97d3739463d22ba4d42eb38225aad",
+      "serializedFile": "CAB-60a97d3739463d22ba4d42eb38225aad",
+      "classId": 43,
+      "pathId": 5419370970083829794
+    }
+  },
+  "animationClips": {
+    "CH0069_Cafe_Idle#-5905037783361450905": {
+      "bundle": "CAB-96581ad079f442afe33fe580b5e756e0",
+      "serializedFile": "CAB-96581ad079f442afe33fe580b5e756e0",
+      "classId": 74,
+      "pathId": -5905037783361450905
+    },
+    "CH0069_Cafe_Reaction#6817957784461517603": {
+      "bundle": "CAB-96581ad079f442afe33fe580b5e756e0",
+      "serializedFile": "CAB-96581ad079f442afe33fe580b5e756e0",
+      "classId": 74,
+      "pathId": 6817957784461517603
+    },
+    "CH0069_Cafe_Walk#3357998475726917459": {
+      "bundle": "CAB-96581ad079f442afe33fe580b5e756e0",
+      "serializedFile": "CAB-96581ad079f442afe33fe580b5e756e0",
+      "classId": 74,
+      "pathId": 3357998475726917459
+    },
+    "CH0069_Exs#3749176414220937176": {
+      "bundle": "CAB-96581ad079f442afe33fe580b5e756e0",
+      "serializedFile": "CAB-96581ad079f442afe33fe580b5e756e0",
+      "classId": 74,
+      "pathId": 3749176414220937176
+    },
+    "CH0069_Formation_Idle#2914933829305006132": {
+      "bundle": "CAB-96581ad079f442afe33fe580b5e756e0",
+      "serializedFile": "CAB-96581ad079f442afe33fe580b5e756e0",
+      "classId": 74,
+      "pathId": 2914933829305006132
+    },
+    "CH0069_Formation_Pickup#-1220610383732063167": {
+      "bundle": "CAB-96581ad079f442afe33fe580b5e756e0",
+      "serializedFile": "CAB-96581ad079f442afe33fe580b5e756e0",
+      "classId": 74,
+      "pathId": -1220610383732063167
+    },
+    "CH0069_Kneel_Attack_Delay#6417388865417062379": {
+      "bundle": "CAB-96581ad079f442afe33fe580b5e756e0",
+      "serializedFile": "CAB-96581ad079f442afe33fe580b5e756e0",
+      "classId": 74,
+      "pathId": 6417388865417062379
+    },
+    "CH0069_Kneel_Attack_End#-4892365965802755697": {
+      "bundle": "CAB-96581ad079f442afe33fe580b5e756e0",
+      "serializedFile": "CAB-96581ad079f442afe33fe580b5e756e0",
+      "classId": 74,
+      "pathId": -4892365965802755697
+    },
+    "CH0069_Kneel_Attack_Ing#-2693691855657649606": {
+      "bundle": "CAB-96581ad079f442afe33fe580b5e756e0",
+      "serializedFile": "CAB-96581ad079f442afe33fe580b5e756e0",
+      "classId": 74,
+      "pathId": -2693691855657649606
+    },
+    "CH0069_Kneel_Attack_Start#-7709221769374221219": {
+      "bundle": "CAB-96581ad079f442afe33fe580b5e756e0",
+      "serializedFile": "CAB-96581ad079f442afe33fe580b5e756e0",
+      "classId": 74,
+      "pathId": -7709221769374221219
+    },
+    "CH0069_Kneel_Idle#-8426788891790457443": {
+      "bundle": "CAB-96581ad079f442afe33fe580b5e756e0",
+      "serializedFile": "CAB-96581ad079f442afe33fe580b5e756e0",
+      "classId": 74,
+      "pathId": -8426788891790457443
+    },
+    "CH0069_Kneel_Reload#-3247344064566863893": {
+      "bundle": "CAB-96581ad079f442afe33fe580b5e756e0",
+      "serializedFile": "CAB-96581ad079f442afe33fe580b5e756e0",
+      "classId": 74,
+      "pathId": -3247344064566863893
+    },
+    "CH0069_Move_End_Kneel#-2343722559240259104": {
+      "bundle": "CAB-96581ad079f442afe33fe580b5e756e0",
+      "serializedFile": "CAB-96581ad079f442afe33fe580b5e756e0",
+      "classId": 74,
+      "pathId": -2343722559240259104
+    },
+    "CH0069_Move_End_Normal#1932695507065103059": {
+      "bundle": "CAB-96581ad079f442afe33fe580b5e756e0",
+      "serializedFile": "CAB-96581ad079f442afe33fe580b5e756e0",
+      "classId": 74,
+      "pathId": 1932695507065103059
+    },
+    "CH0069_Move_Ing#-5077698676733759374": {
+      "bundle": "CAB-96581ad079f442afe33fe580b5e756e0",
+      "serializedFile": "CAB-96581ad079f442afe33fe580b5e756e0",
+      "classId": 74,
+      "pathId": -5077698676733759374
+    },
+    "CH0069_Move_Jump#-6569284281221280291": {
+      "bundle": "CAB-96581ad079f442afe33fe580b5e756e0",
+      "serializedFile": "CAB-96581ad079f442afe33fe580b5e756e0",
+      "classId": 74,
+      "pathId": -6569284281221280291
+    },
+    "CH0069_Normal_Attack_Delay#-2377636515798834042": {
+      "bundle": "CAB-96581ad079f442afe33fe580b5e756e0",
+      "serializedFile": "CAB-96581ad079f442afe33fe580b5e756e0",
+      "classId": 74,
+      "pathId": -2377636515798834042
+    },
+    "CH0069_Normal_Attack_End#2333143792755968407": {
+      "bundle": "CAB-96581ad079f442afe33fe580b5e756e0",
+      "serializedFile": "CAB-96581ad079f442afe33fe580b5e756e0",
+      "classId": 74,
+      "pathId": 2333143792755968407
+    },
+    "CH0069_Normal_Attack_Ing#624957949138688831": {
+      "bundle": "CAB-96581ad079f442afe33fe580b5e756e0",
+      "serializedFile": "CAB-96581ad079f442afe33fe580b5e756e0",
+      "classId": 74,
+      "pathId": 624957949138688831
+    },
+    "CH0069_Normal_Attack_Start#-7884283703369186546": {
+      "bundle": "CAB-96581ad079f442afe33fe580b5e756e0",
+      "serializedFile": "CAB-96581ad079f442afe33fe580b5e756e0",
+      "classId": 74,
+      "pathId": -7884283703369186546
+    },
+    "CH0069_Normal_Callsign#4490210746348055429": {
+      "bundle": "CAB-96581ad079f442afe33fe580b5e756e0",
+      "serializedFile": "CAB-96581ad079f442afe33fe580b5e756e0",
+      "classId": 74,
+      "pathId": 4490210746348055429
+    },
+    "CH0069_Normal_Idle#-372280974592797258": {
+      "bundle": "CAB-96581ad079f442afe33fe580b5e756e0",
+      "serializedFile": "CAB-96581ad079f442afe33fe580b5e756e0",
+      "classId": 74,
+      "pathId": -372280974592797258
+    },
+    "CH0069_Normal_Reload#3696971163859558184": {
+      "bundle": "CAB-96581ad079f442afe33fe580b5e756e0",
+      "serializedFile": "CAB-96581ad079f442afe33fe580b5e756e0",
+      "classId": 74,
+      "pathId": 3696971163859558184
+    },
+    "CH0069_Normal_Reload_Random#-6816250249818670456": {
+      "bundle": "CAB-96581ad079f442afe33fe580b5e756e0",
+      "serializedFile": "CAB-96581ad079f442afe33fe580b5e756e0",
+      "classId": 74,
+      "pathId": -6816250249818670456
+    },
+    "CH0069_Public01#-5409967962891617371": {
+      "bundle": "CAB-96581ad079f442afe33fe580b5e756e0",
+      "serializedFile": "CAB-96581ad079f442afe33fe580b5e756e0",
+      "classId": 74,
+      "pathId": -5409967962891617371
+    },
+    "CH0069_Victory_End#3000197657500114028": {
+      "bundle": "CAB-96581ad079f442afe33fe580b5e756e0",
+      "serializedFile": "CAB-96581ad079f442afe33fe580b5e756e0",
+      "classId": 74,
+      "pathId": 3000197657500114028
+    },
+    "CH0069_Victory_End_Random#4207739389762837786": {
+      "bundle": "CAB-96581ad079f442afe33fe580b5e756e0",
+      "serializedFile": "CAB-96581ad079f442afe33fe580b5e756e0",
+      "classId": 74,
+      "pathId": 4207739389762837786
+    },
+    "CH0069_Victory_Start#-4872748171819230158": {
+      "bundle": "CAB-96581ad079f442afe33fe580b5e756e0",
+      "serializedFile": "CAB-96581ad079f442afe33fe580b5e756e0",
+      "classId": 74,
+      "pathId": -4872748171819230158
+    },
+    "CH0069_Victory_Start_Random#8174039942305770547": {
+      "bundle": "CAB-96581ad079f442afe33fe580b5e756e0",
+      "serializedFile": "CAB-96581ad079f442afe33fe580b5e756e0",
+      "classId": 74,
+      "pathId": 8174039942305770547
+    },
+    "CH0069_Vital_Death#-8295177477863186441": {
+      "bundle": "CAB-96581ad079f442afe33fe580b5e756e0",
+      "serializedFile": "CAB-96581ad079f442afe33fe580b5e756e0",
+      "classId": 74,
+      "pathId": -8295177477863186441
+    },
+    "CH0069_Vital_Dying_Ing#8655070645011461887": {
+      "bundle": "CAB-96581ad079f442afe33fe580b5e756e0",
+      "serializedFile": "CAB-96581ad079f442afe33fe580b5e756e0",
+      "classId": 74,
+      "pathId": 8655070645011461887
+    },
+    "CH0069_Vital_Panic#-5521463088827391229": {
+      "bundle": "CAB-96581ad079f442afe33fe580b5e756e0",
+      "serializedFile": "CAB-96581ad079f442afe33fe580b5e756e0",
+      "classId": 74,
+      "pathId": -5521463088827391229
+    },
+    "CH0069_Vital_Retreat#-7075814032722187444": {
+      "bundle": "CAB-96581ad079f442afe33fe580b5e756e0",
+      "serializedFile": "CAB-96581ad079f442afe33fe580b5e756e0",
+      "classId": 74,
+      "pathId": -7075814032722187444
+    },
+    "FX_ANIM_AR1_EX_Cut#-3525807224381190851": {
+      "bundle": "CAB-4c7870075e2b9a4208e470d33c75da6b",
+      "serializedFile": "CAB-4c7870075e2b9a4208e470d33c75da6b",
+      "classId": 74,
+      "pathId": -3525807224381190851
+    },
+    "FX_ANIM_AR2_EX_CUT#-2737908014337393630": {
+      "bundle": "CAB-4c7870075e2b9a4208e470d33c75da6b",
+      "serializedFile": "CAB-4c7870075e2b9a4208e470d33c75da6b",
+      "classId": 74,
+      "pathId": -2737908014337393630
+    },
+    "FX_ANIM_CAM_Panic#8663082706723036063": {
+      "bundle": "CAB-4c7870075e2b9a4208e470d33c75da6b",
+      "serializedFile": "CAB-4c7870075e2b9a4208e470d33c75da6b",
+      "classId": 74,
+      "pathId": 8663082706723036063
+    },
+    "FX_ANIM_MG_EX#-6573421538198078411": {
+      "bundle": "CAB-4c7870075e2b9a4208e470d33c75da6b",
+      "serializedFile": "CAB-4c7870075e2b9a4208e470d33c75da6b",
+      "classId": 74,
+      "pathId": -6573421538198078411
+    },
+    "FX_ANIM_MG_EX_CS_FADE_Dirt#-574575887238501486": {
+      "bundle": "CAB-4c7870075e2b9a4208e470d33c75da6b",
+      "serializedFile": "CAB-4c7870075e2b9a4208e470d33c75da6b",
+      "classId": 74,
+      "pathId": -574575887238501486
+    },
+    "FX_ANIM_MG_EX_CS_FADE_Shiny#-43204400804825715": {
+      "bundle": "CAB-4c7870075e2b9a4208e470d33c75da6b",
+      "serializedFile": "CAB-4c7870075e2b9a4208e470d33c75da6b",
+      "classId": 74,
+      "pathId": -43204400804825715
+    },
+    "FX_ANIM_MG_EX_CS_FocusLine#8290020245905228753": {
+      "bundle": "CAB-4c7870075e2b9a4208e470d33c75da6b",
+      "serializedFile": "CAB-4c7870075e2b9a4208e470d33c75da6b",
+      "classId": 74,
+      "pathId": 8290020245905228753
+    },
+    "FX_ANIM_MG_EX_GUIDE#-8515896539418424023": {
+      "bundle": "CAB-4c7870075e2b9a4208e470d33c75da6b",
+      "serializedFile": "CAB-4c7870075e2b9a4208e470d33c75da6b",
+      "classId": 74,
+      "pathId": -8515896539418424023
+    },
+    "FX_ANIM_SG_EX_Cut#-4201632096926864682": {
+      "bundle": "CAB-4c7870075e2b9a4208e470d33c75da6b",
+      "serializedFile": "CAB-4c7870075e2b9a4208e470d33c75da6b",
+      "classId": 74,
+      "pathId": -4201632096926864682
+    },
+    "FX_ANIM_SKILL_MG_EX_FXRoot#-718112421019282652": {
+      "bundle": "CAB-4c7870075e2b9a4208e470d33c75da6b",
+      "serializedFile": "CAB-4c7870075e2b9a4208e470d33c75da6b",
+      "classId": 74,
+      "pathId": -718112421019282652
+    },
+    "Recorded#-5164820730139816227": {
+      "bundle": "CAB-92c3a49acf435bad9a759685558ca000",
+      "serializedFile": "CAB-92c3a49acf435bad9a759685558ca000",
+      "classId": 74,
+      "pathId": -5164820730139816227
+    },
+    "Recorded#-3866570453817561151": {
+      "bundle": "CAB-92c3a49acf435bad9a759685558ca000",
+      "serializedFile": "CAB-92c3a49acf435bad9a759685558ca000",
+      "classId": 74,
+      "pathId": -3866570453817561151
+    },
+    "Recorded (2)_3#5099718446477733825": {
+      "bundle": "CAB-92c3a49acf435bad9a759685558ca000",
+      "serializedFile": "CAB-92c3a49acf435bad9a759685558ca000",
+      "classId": 74,
+      "pathId": 5099718446477733825
+    },
+    "Recorded_1#-4453557521756262463": {
+      "bundle": "CAB-92c3a49acf435bad9a759685558ca000",
+      "serializedFile": "CAB-92c3a49acf435bad9a759685558ca000",
+      "classId": 74,
+      "pathId": -4453557521756262463
+    }
+  },
+  "skeleton": {
+    "avatars": [
+      {
+        "name": "CH0069_MeshAvatar",
+        "bundle": "CAB-60a97d3739463d22ba4d42eb38225aad",
+        "serializedFile": "CAB-60a97d3739463d22ba4d42eb38225aad",
+        "classId": 90,
+        "pathId": -5737396063921398777
+      },
+      {
+        "name": "CH0069_HaloAvatar",
+        "bundle": "CAB-60a97d3739463d22ba4d42eb38225aad",
+        "serializedFile": "CAB-60a97d3739463d22ba4d42eb38225aad",
+        "classId": 90,
+        "pathId": -3088066425098850783
+      }
+    ],
+    "animators": [
+      {
+        "bundle": "CAB-60a97d3739463d22ba4d42eb38225aad",
+        "serializedFile": "CAB-60a97d3739463d22ba4d42eb38225aad",
+        "classId": 95,
+        "pathId": -6905875491215692255
+      },
+      {
+        "bundle": "CAB-60a97d3739463d22ba4d42eb38225aad",
+        "serializedFile": "CAB-60a97d3739463d22ba4d42eb38225aad",
+        "classId": 95,
+        "pathId": -761762022422569977
+      },
+      {
+        "bundle": "CAB-7e7120380f6a6d3eb789374f7bb8771d",
+        "serializedFile": "CAB-7e7120380f6a6d3eb789374f7bb8771d",
+        "classId": 95,
+        "pathId": -4914159495279510527
+      },
+      {
+        "bundle": "CAB-7e7120380f6a6d3eb789374f7bb8771d",
+        "serializedFile": "CAB-7e7120380f6a6d3eb789374f7bb8771d",
+        "classId": 95,
+        "pathId": 6643405823809387521
+      },
+      {
+        "bundle": "CAB-7e7120380f6a6d3eb789374f7bb8771d",
+        "serializedFile": "CAB-7e7120380f6a6d3eb789374f7bb8771d",
+        "classId": 95,
+        "pathId": 6977619947556338689
+      },
+      {
+        "bundle": "CAB-7e7120380f6a6d3eb789374f7bb8771d",
+        "serializedFile": "CAB-7e7120380f6a6d3eb789374f7bb8771d",
+        "classId": 95,
+        "pathId": 7303998217029254145
+      },
+      {
+        "bundle": "CAB-61c3b9a27965ef3e9804a643ff30bff6",
+        "serializedFile": "CAB-61c3b9a27965ef3e9804a643ff30bff6",
+        "classId": 95,
+        "pathId": -7822709486389801927
+      },
+      {
+        "bundle": "CAB-61c3b9a27965ef3e9804a643ff30bff6",
+        "serializedFile": "CAB-61c3b9a27965ef3e9804a643ff30bff6",
+        "classId": 95,
+        "pathId": -7585704160483279686
+      },
+      {
+        "bundle": "CAB-61c3b9a27965ef3e9804a643ff30bff6",
+        "serializedFile": "CAB-61c3b9a27965ef3e9804a643ff30bff6",
+        "classId": 95,
+        "pathId": -6973227680039294420
+      },
+      {
+        "bundle": "CAB-61c3b9a27965ef3e9804a643ff30bff6",
+        "serializedFile": "CAB-61c3b9a27965ef3e9804a643ff30bff6",
+        "classId": 95,
+        "pathId": -6075158814272324669
+      },
+      {
+        "bundle": "CAB-61c3b9a27965ef3e9804a643ff30bff6",
+        "serializedFile": "CAB-61c3b9a27965ef3e9804a643ff30bff6",
+        "classId": 95,
+        "pathId": -3470854364904731591
+      },
+      {
+        "bundle": "CAB-61c3b9a27965ef3e9804a643ff30bff6",
+        "serializedFile": "CAB-61c3b9a27965ef3e9804a643ff30bff6",
+        "classId": 95,
+        "pathId": -3040081232827188038
+      },
+      {
+        "bundle": "CAB-61c3b9a27965ef3e9804a643ff30bff6",
+        "serializedFile": "CAB-61c3b9a27965ef3e9804a643ff30bff6",
+        "classId": 95,
+        "pathId": 4144734948121508803
+      },
+      {
+        "bundle": "CAB-61c3b9a27965ef3e9804a643ff30bff6",
+        "serializedFile": "CAB-61c3b9a27965ef3e9804a643ff30bff6",
+        "classId": 95,
+        "pathId": 4439956901024508460
+      },
+      {
+        "bundle": "CAB-61c3b9a27965ef3e9804a643ff30bff6",
+        "serializedFile": "CAB-61c3b9a27965ef3e9804a643ff30bff6",
+        "classId": 95,
+        "pathId": 4861265720985201196
+      },
+      {
+        "bundle": "CAB-61c3b9a27965ef3e9804a643ff30bff6",
+        "serializedFile": "CAB-61c3b9a27965ef3e9804a643ff30bff6",
+        "classId": 95,
+        "pathId": 5057871315875605036
+      },
+      {
+        "bundle": "CAB-61c3b9a27965ef3e9804a643ff30bff6",
+        "serializedFile": "CAB-61c3b9a27965ef3e9804a643ff30bff6",
+        "classId": 95,
+        "pathId": 5724131593820514860
+      },
+      {
+        "bundle": "CAB-61c3b9a27965ef3e9804a643ff30bff6",
+        "serializedFile": "CAB-61c3b9a27965ef3e9804a643ff30bff6",
+        "classId": 95,
+        "pathId": 8156509320200268332
+      }
+    ]
+  }
+}

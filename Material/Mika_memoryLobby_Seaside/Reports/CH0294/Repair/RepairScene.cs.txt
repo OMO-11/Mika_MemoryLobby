@@ -1,0 +1,82 @@
+const string scenePath="Assets/Seaside/Scenes/CH0294_Seaside_Repaired.unity";
+System.IO.Directory.CreateDirectory("Assets/Seaside/Scenes");
+System.IO.Directory.CreateDirectory("Assets/Seaside/Materials");
+UnityEditor.AssetDatabase.Refresh();
+var scene=UnityEngine.SceneManagement.SceneManager.GetActiveScene();
+if(scene.path!=scenePath && System.IO.File.Exists(scenePath)) throw new System.Exception("Repair scene already exists; refusing to overwrite it from another scene");
+if(!UnityEditor.SceneManagement.EditorSceneManager.SaveScene(scene,scenePath)) throw new System.Exception("Could not save repair scene");
+var asset=UnityEditor.AssetDatabase.LoadAssetAtPath<Spine.Unity.SkeletonDataAsset>("Assets/New Folder/CH0294_home_SkeletonData.asset");
+var atlas=(Spine.Unity.SpineAtlasAsset)asset.atlasAssets[0];
+foreach(var material in atlas.materials) {
+    material.SetFloat("_StraightAlphaInput",1);
+    material.EnableKeyword("_STRAIGHT_ALPHA_INPUT");
+    UnityEditor.EditorUtility.SetDirty(material);
+}
+const string uiPath="Assets/Seaside/Materials/CH0294_SkeletonGraphic_Straight.mat";
+var uiMaterial=UnityEditor.AssetDatabase.LoadAssetAtPath<UnityEngine.Material>(uiPath);
+if(uiMaterial==null) {
+    var shader=UnityEngine.Shader.Find("Spine/SkeletonGraphic");
+    if(shader==null) throw new System.Exception("UI Spine shader not found");
+    uiMaterial=new UnityEngine.Material(shader);
+    UnityEditor.AssetDatabase.CreateAsset(uiMaterial,uiPath);
+}
+uiMaterial.SetFloat("_StraightAlphaInput",1); uiMaterial.EnableKeyword("_STRAIGHT_ALPHA_INPUT");
+uiMaterial.SetFloat("_CanvasGroupCompatible",0); uiMaterial.DisableKeyword("_CANVAS_GROUP_COMPATIBLE");
+UnityEditor.EditorUtility.SetDirty(uiMaterial);
+var cam=UnityEngine.Camera.main;
+cam.orthographic=true; cam.orthographicSize=5f;
+cam.transform.position=new UnityEngine.Vector3(0,0,-10); cam.transform.rotation=UnityEngine.Quaternion.identity;
+cam.clearFlags=UnityEngine.CameraClearFlags.SolidColor; cam.backgroundColor=new UnityEngine.Color(0.03f,0.025f,0.08f,1);
+cam.nearClipPlane=0.1f; cam.farClipPlane=100f; cam.allowHDR=false; cam.allowMSAA=false;
+var cameraData=cam.GetComponent<UnityEngine.Rendering.Universal.UniversalAdditionalCameraData>();
+if(cameraData!=null) { cameraData.renderPostProcessing=false; cameraData.renderShadows=false; }
+foreach(var root in scene.GetRootGameObjects()) {
+    var volume=root.GetComponent<UnityEngine.Rendering.Volume>(); if(volume!=null) volume.enabled=false;
+}
+var canvasObject=UnityEngine.GameObject.Find("Seaside Canvas");
+if(canvasObject==null) canvasObject=new UnityEngine.GameObject("Seaside Canvas",typeof(UnityEngine.RectTransform),typeof(UnityEngine.Canvas),typeof(UnityEngine.UI.CanvasScaler));
+var canvas=canvasObject.GetComponent<UnityEngine.Canvas>();
+canvas.renderMode=UnityEngine.RenderMode.ScreenSpaceCamera; canvas.worldCamera=cam; canvas.planeDistance=5f;
+canvas.referencePixelsPerUnit=100f;
+var scaler=canvasObject.GetComponent<UnityEngine.UI.CanvasScaler>();
+scaler.uiScaleMode=UnityEngine.UI.CanvasScaler.ScaleMode.ScaleWithScreenSize;
+scaler.referenceResolution=new UnityEngine.Vector2(1652,1080);
+scaler.screenMatchMode=UnityEngine.UI.CanvasScaler.ScreenMatchMode.MatchWidthOrHeight; scaler.matchWidthOrHeight=0.5f;
+scaler.referencePixelsPerUnit=100f;
+var viewportObject=UnityEngine.GameObject.Find("Seaside Viewport");
+if(viewportObject==null) viewportObject=new UnityEngine.GameObject("Seaside Viewport",typeof(UnityEngine.RectTransform),typeof(UnityEngine.UI.RectMask2D));
+var viewport=(UnityEngine.RectTransform)viewportObject.transform;
+viewport.SetParent(canvasObject.transform,false); viewport.anchorMin=UnityEngine.Vector2.zero; viewport.anchorMax=UnityEngine.Vector2.one;
+viewport.offsetMin=UnityEngine.Vector2.zero; viewport.offsetMax=UnityEngine.Vector2.zero;
+Spine.Unity.SkeletonGraphic graphic=null;
+foreach(var root in scene.GetRootGameObjects()) { graphic=root.GetComponentInChildren<Spine.Unity.SkeletonGraphic>(true); if(graphic!=null) break; }
+if(graphic==null) throw new System.Exception("Existing SkeletonGraphic not found");
+graphic.gameObject.name="CH0294 Seaside Lobby";
+graphic.rectTransform.SetParent(viewport,false);
+graphic.rectTransform.sizeDelta=new UnityEngine.Vector2(10000,10000);
+var rootMotion=graphic.GetComponent<Spine.Unity.SkeletonRootMotion>(); if(rootMotion!=null) UnityEngine.Object.DestroyImmediate(rootMotion);
+var utility=graphic.GetComponent<Spine.Unity.SkeletonUtility>(); if(utility!=null) UnityEngine.Object.DestroyImmediate(utility);
+graphic.material=uiMaterial; graphic.allowMultipleCanvasRenderers=true; graphic.raycastTarget=false;
+graphic.freeze=false; graphic.timeScale=1; graphic.color=UnityEngine.Color.white;
+graphic.startingAnimation="Idle_01"; graphic.startingLoop=true;
+graphic.layoutScaleMode=Spine.Unity.SkeletonGraphic.LayoutMode.None;
+graphic.PhysicsPositionInheritanceFactor=UnityEngine.Vector2.zero; graphic.PhysicsRotationInheritanceFactor=0;
+graphic.MeshGenerator.settings.pmaVertexColors=true;
+graphic.MeshGenerator.settings.canvasGroupCompatible=false;
+graphic.canvasRenderer.cullTransparentMesh=false;
+graphic.Initialize(true);
+var controller=graphic.GetComponent<Mika.Seaside.SeasideLobbyController>();
+if(controller==null) controller=graphic.gameObject.AddComponent<Mika.Seaside.SeasideLobbyController>();
+controller.Configure(viewport,null);
+UnityEngine.Canvas.ForceUpdateCanvases(); controller.FitViewport(); controller.ResetToIdle();
+graphic.SetAllDirty(); graphic.Update(0); graphic.LateUpdate(); UnityEngine.Canvas.ForceUpdateCanvases();
+var buildScenes=new System.Collections.Generic.List<UnityEditor.EditorBuildSettingsScene>();
+buildScenes.Add(new UnityEditor.EditorBuildSettingsScene(scenePath,true));
+foreach(var previous in UnityEditor.EditorBuildSettings.scenes) if(previous.path!=scenePath)
+    buildScenes.Add(new UnityEditor.EditorBuildSettingsScene(previous.path,previous.path=="Assets/Scenes/SampleScene.unity"?false:previous.enabled));
+UnityEditor.EditorBuildSettings.scenes=buildScenes.ToArray();
+UnityEditor.AssetDatabase.SaveAssets();
+UnityEditor.SceneManagement.EditorSceneManager.MarkSceneDirty(scene);
+UnityEditor.SceneManagement.EditorSceneManager.SaveScene(scene);
+UnityEditor.Selection.activeGameObject=graphic.gameObject;
+return Newtonsoft.Json.JsonConvert.SerializeObject(new {scene=scenePath,canvas=canvas.renderMode.ToString(),multiple=graphic.allowMultipleCanvasRenderers,renderers=graphic.canvasRenderers.Count,material=uiPath,safeFrame=controller.SafeFrame.ToString(),ppu=graphic.MeshScale,viewport=viewport.rect.ToString()},Newtonsoft.Json.Formatting.Indented);

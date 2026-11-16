@@ -1,0 +1,30 @@
+var graphic=UnityEngine.Object.FindFirstObjectByType<Spine.Unity.SkeletonGraphic>();
+var controller=graphic.GetComponent<Mika.Seaside.SeasideLobbyController>();
+var camera=UnityEngine.Camera.main; var canvas=graphic.canvas;
+var scaler=canvas.GetComponent<UnityEngine.UI.CanvasScaler>();
+var previousTarget=camera.targetTexture; var previousColor=camera.backgroundColor; bool previousScaler=scaler.enabled; float previousScale=canvas.scaleFactor;
+string folder="W:/Machine/VSCode/Mika_Gift/Material/Mika_memoryLobby_Seaside/Reports/CH0294/Repair/LoopFrames";
+System.IO.Directory.CreateDirectory(folder);
+var target=new UnityEngine.RenderTexture(826,540,24,UnityEngine.RenderTextureFormat.ARGB32,UnityEngine.RenderTextureReadWrite.sRGB);
+var image=new UnityEngine.Texture2D(826,540,UnityEngine.TextureFormat.RGBA32,false);
+var coverage=new System.Collections.Generic.List<object>();
+try {
+    scaler.enabled=false; canvas.scaleFactor=0.5f; camera.targetTexture=target; camera.backgroundColor=UnityEngine.Color.clear; target.Create();
+    UnityEngine.Canvas.ForceUpdateCanvases(); camera.Render(); UnityEngine.Canvas.ForceUpdateCanvases(); controller.FitViewport();
+    graphic.Initialize(true); controller.ResetToIdle();
+    for(int frame=0;frame<120;frame++) {
+        if(frame>0) for(int step=0;step<3;step++) graphic.Update(1f/30f);
+        graphic.LateUpdate(); UnityEngine.Canvas.ForceUpdateCanvases(); camera.Render();
+        var previous=UnityEngine.RenderTexture.active; UnityEngine.RenderTexture.active=target;
+        image.ReadPixels(new UnityEngine.Rect(0,0,826,540),0,0); image.Apply(); UnityEngine.RenderTexture.active=previous;
+        int uncovered=0; foreach(var pixel in image.GetPixels32()) if(pixel.a<250) uncovered++;
+        coverage.Add(new {frame,time=frame/10f,uncoveredPixels=uncovered});
+        System.IO.File.WriteAllBytes(folder+"/idle_"+frame.ToString("D3")+".png",image.EncodeToPNG());
+    }
+} finally {
+    camera.targetTexture=previousTarget; camera.backgroundColor=previousColor; scaler.enabled=previousScaler; canvas.scaleFactor=previousScale;
+    target.Release(); UnityEngine.Object.DestroyImmediate(target); UnityEngine.Object.DestroyImmediate(image);
+    UnityEngine.Canvas.ForceUpdateCanvases(); controller.FitViewport(); graphic.Initialize(true); controller.ResetToIdle();
+}
+System.IO.File.WriteAllText(System.IO.Path.GetDirectoryName(folder)+"/loop_coverage.json",Newtonsoft.Json.JsonConvert.SerializeObject(coverage,Newtonsoft.Json.Formatting.Indented));
+return "Captured a full 12s Idle cycle at 10fps: 120 frames with alpha coverage checks.";

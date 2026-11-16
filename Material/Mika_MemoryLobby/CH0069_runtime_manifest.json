@@ -1,0 +1,1124 @@
+{
+  "schema": "mika-ch0069-runtime-handoff/1",
+  "generatedAt": "2026-11-06",
+  "timezone": "Asia/Shanghai",
+  "assetId": "CH0069_home",
+  "displayName": "CH0069 记忆大厅（躺卧托腮）",
+  "pathBase": "directory-containing-this-manifest",
+  "sourceDirectory": "W:/Machine/VSCode/Mika_Gift/Material/Mika_MemoryLobby",
+  "status": "processed_runtime_resources_ready_for_reuse",
+  "formallyIntegrated": false,
+  "baseline": "Original Start_Idle_01 entrance enabled; Pat10 remains disabled",
+  "runtime": {
+    "unity": "6000.3.7f1",
+    "spineUnityDeclaredVersion": "4.2.120",
+    "spineCsharpDeclaredVersion": "4.2.37",
+    "inputSystem": "1.18.0",
+    "urp": "17.3.0",
+    "ugui": "2.0.0"
+  },
+  "entryPoint": {
+    "scene": "MemoryLobby/Assets/CompanionValidation/CompanionValidation.unity",
+    "loaderType": "CompanionValidationBootstrap",
+    "profile": "MemoryLobby/Assets/CompanionValidation/CH0069Behavior.asset",
+    "enableLocalBehavior": true,
+    "preserveUnityMetaFiles": true,
+    "playIntroOnStartup": true,
+    "introAnimation": "Start_Idle_01",
+    "skipIntroMethod": "CompanionValidationBootstrap.SkipIntro()",
+    "replayIntroMethod": "CompanionValidationBootstrap.PlayIntro()"
+  },
+  "skeleton": {
+    "format": "Spine binary",
+    "exportVersion": "4.2.33",
+    "skeleton": "MemoryLobby/Assets/StreamingAssets/CH0069_Source/CH0069_home.skel.bytes",
+    "atlas": "MemoryLobby/Assets/StreamingAssets/CH0069_Source/CH0069_home.atlas.txt",
+    "textures": [
+      "MemoryLobby/Assets/StreamingAssets/CH0069_Source/CH0069_home.png",
+      "MemoryLobby/Assets/StreamingAssets/CH0069_Source/CH0069_home2.png",
+      "MemoryLobby/Assets/StreamingAssets/CH0069_Source/CH0069_home3.png",
+      "MemoryLobby/Assets/StreamingAssets/CH0069_Source/CH0069_home4.png"
+    ],
+    "scale": 0.01,
+    "sourceBoneCount": 743,
+    "sourceSlotCount": 294,
+    "sourceAnimationCount": 52,
+    "background": "embedded in the same skeleton; retain original draw order"
+  },
+  "rendering": {
+    "shader": "Spine/Skeleton",
+    "straightAlphaInput": 1,
+    "keyword": "_STRAIGHT_ALPHA_INPUT",
+    "textureColorSpace": "sRGB",
+    "filterMode": "Bilinear",
+    "wrapMode": "Clamp",
+    "mipmaps": false,
+    "referenceCamera": {
+      "orthographic": true,
+      "position": [
+        0,
+        9.7,
+        -100
+      ],
+      "orthographicSize": 9.5
+    }
+  },
+  "states": [
+    {
+      "id": "intro",
+      "kind": "original_animation",
+      "animation": "Start_Idle_01",
+      "loop": false,
+      "durationSeconds": 20.000001907348633,
+      "nextState": "idle",
+      "nextAnimation": "Idle_01",
+      "queueDelay": 0,
+      "entry": "CompanionValidationBootstrap.PlayIntro()",
+      "skip": "CompanionValidationBootstrap.SkipIntro()",
+      "localBehaviorEnabled": false,
+      "replayOnSkeletonRebuild": false
+    },
+    {
+      "id": "idle",
+      "kind": "animation_with_local_gaze",
+      "baseAnimation": "Idle_01",
+      "loop": true,
+      "controller": "CompanionLocalMotion",
+      "entry": "SetState(PresentationState.Idle)",
+      "extraHeadFollow": false,
+      "pointerIdleSeconds": 2.2,
+      "verificationGap": "Real focused-window mouse dwell timeout has not been separately verified"
+    },
+    {
+      "id": "thinking",
+      "kind": "runtime_behavior",
+      "baseAnimation": "Idle_01",
+      "controller": "CompanionLocalMotion",
+      "entry": "SetState(PresentationState.Thinking)",
+      "expressionPreset": "thinking_neutral",
+      "standaloneAnimation": null
+    },
+    {
+      "id": "speaking",
+      "kind": "audio_driven_runtime_behavior",
+      "baseAnimation": "Idle_01",
+      "controller": "CompanionSpeechDriver",
+      "entry": "Play(AudioClip)",
+      "controlMethods": [
+        "Pause()",
+        "Resume()",
+        "Stop()"
+      ],
+      "standaloneAnimation": null,
+      "lipSyncMode": "PCM RMS envelope; not phoneme lip sync",
+      "audioImportRequirement": "GetData must be available; reference clips use Decompress On Load",
+      "mouthBlendSeconds": 0.065
+    }
+  ],
+  "touch": {
+    "id": "head_pat",
+    "controller": "CompanionPointerInteraction",
+    "hitMode": "current mesh triangles",
+    "hitSlots": [
+      "Face",
+      "Ball_Hair_01",
+      "F_Hair_01",
+      "F_Hair_02"
+    ],
+    "holdSeconds": 0.25,
+    "dragThreshold": "max(5 screen pixels, 4% current head screen width)",
+    "tapFeedbackSeconds": 0.28,
+    "sourceMotion": "Pat_01_M",
+    "sourceRelease": "PatEnd_01_M",
+    "sourceMotionDurationSeconds": 0,
+    "sourceReleaseDurationSeconds": 0.3333333333333333,
+    "selection": "one equal-probability selection per valid gesture",
+    "presets": [
+      "pat_closed_eyes",
+      "pat_playful",
+      "pat_shy"
+    ],
+    "entryMethods": {
+      "input": "CompanionPointerInteraction.Process(position, down, heldButton, up, dt)",
+      "begin": "CompanionExpressionOverlay.BeginTouch(bool tap=false)",
+      "direction": "SetTouchDirection(Vector2 normalized)",
+      "release": "EndTouch()",
+      "cancel": "CompanionPointerInteraction.Cancel() / CompanionExpressionOverlay.CancelTouch()"
+    },
+    "speechHasMouthPriority": true,
+    "returnState": "Recompute from current dialogue state; do not overwrite Thinking or Speaking"
+  },
+  "expressionPresets": [
+    {
+      "id": "pat_closed_eyes",
+      "sourceAnimation": "Pat_01_A",
+      "sourceTime": 0,
+      "enabled": 1,
+      "closedEyes": 1,
+      "openMouth": "Mouse_Depressed_02",
+      "attachments": [
+        {
+          "slot": "L_Eyebrow_idle",
+          "attachment": "L_Eyebrow_eyeclose"
+        },
+        {
+          "slot": "L_Eyebrow_idle2",
+          "attachment": "L_Eyebrow_eyeclose"
+        },
+        {
+          "slot": "L_Eyelid_01_fill",
+          "attachment": "L_Eyelid_01_fill"
+        },
+        {
+          "slot": "Mouse_normal_01",
+          "attachment": "Mouse_Depressed_02_close"
+        },
+        {
+          "slot": "R_Eyebrow_idle",
+          "attachment": "R_Eyebrow_eyeclose"
+        },
+        {
+          "slot": "R_Eyebrow_idle2",
+          "attachment": "R_Eyebrow_eyeclose"
+        },
+        {
+          "slot": "R_Eyelid_01_fill",
+          "attachment": "R_Eyelid_01_fill"
+        }
+      ],
+      "gazeBias": {
+        "x": 0,
+        "y": 0
+      },
+      "sourceUse": "provenance of curated attachments, not instructions to play the entire Talk animation"
+    },
+    {
+      "id": "pat_playful",
+      "sourceAnimation": "Talk_01_A",
+      "sourceTime": 2,
+      "enabled": 1,
+      "closedEyes": 0,
+      "openMouth": "Mouse_doya_03",
+      "attachments": [
+        {
+          "slot": "L_Eyebrow_idle",
+          "attachment": "L_Eyebrow_doya"
+        },
+        {
+          "slot": "L_Eyebrow_idle2",
+          "attachment": "L_Eyebrow_doya"
+        },
+        {
+          "slot": "L_Eyelid_01_fill",
+          "attachment": "L_Eyelid_02_doya"
+        },
+        {
+          "slot": "L_Eye_idle_01",
+          "attachment": "L_Eye_idle_01"
+        },
+        {
+          "slot": "L_Eye_idle_02",
+          "attachment": "L_Eye_idle_02"
+        },
+        {
+          "slot": "L_Eye_idle_03",
+          "attachment": "L_Eye_idle_03"
+        },
+        {
+          "slot": "L_T_Eyebrow_idle",
+          "attachment": "L_T_Eyebrow_doya"
+        },
+        {
+          "slot": "L_T_Eyebrow_idle2",
+          "attachment": "L_T_Eyebrow_doya"
+        },
+        {
+          "slot": "Mouse_normal_01",
+          "attachment": "Mouse_doya_03_close"
+        },
+        {
+          "slot": "R_Eyebrow_idle",
+          "attachment": "R_Eyebrow_doya"
+        },
+        {
+          "slot": "R_Eyebrow_idle2",
+          "attachment": "R_Eyebrow_doya"
+        },
+        {
+          "slot": "R_Eyelid_01_fill",
+          "attachment": "R_Eyelid_02_doya"
+        },
+        {
+          "slot": "R_Eye_idle_01",
+          "attachment": "R_Eye_idle_01"
+        },
+        {
+          "slot": "R_Eye_idle_02",
+          "attachment": "R_Eye_idle_02"
+        },
+        {
+          "slot": "R_Eye_idle_03",
+          "attachment": "R_Eye_idle_03"
+        },
+        {
+          "slot": "R_T_Eyebrow_idle",
+          "attachment": "R_T_Eyebrow_doya"
+        },
+        {
+          "slot": "R_T_Eyebrow_idle2",
+          "attachment": "R_T_Eyebrow_doya"
+        }
+      ],
+      "gazeBias": {
+        "x": 0,
+        "y": 0
+      },
+      "sourceUse": "provenance of curated attachments, not instructions to play the entire Talk animation"
+    },
+    {
+      "id": "pat_shy",
+      "sourceAnimation": "Talk_03_A",
+      "sourceTime": 12,
+      "enabled": 1,
+      "closedEyes": 0,
+      "openMouth": "Mouse_shy",
+      "attachments": [
+        {
+          "slot": "L_Eyebrow_idle",
+          "attachment": "L_Eyebrow_Shy"
+        },
+        {
+          "slot": "L_Eyebrow_idle2",
+          "attachment": "L_Eyebrow_Shy"
+        },
+        {
+          "slot": "L_Eyelid_01_fill",
+          "attachment": null
+        },
+        {
+          "slot": "L_Eye_idle_01",
+          "attachment": "L_Eye_shy_01"
+        },
+        {
+          "slot": "L_Eye_idle_02",
+          "attachment": "L_Eye_shy_02"
+        },
+        {
+          "slot": "L_Eye_idle_03",
+          "attachment": null
+        },
+        {
+          "slot": "L_T_Eyebrow_idle",
+          "attachment": "L_T_Eyebrow_Talk02"
+        },
+        {
+          "slot": "L_T_Eyebrow_idle2",
+          "attachment": "L_T_Eyebrow_Talk02"
+        },
+        {
+          "slot": "Mouse_normal_01",
+          "attachment": "Mouse_shy_close"
+        },
+        {
+          "slot": "R_Eyebrow_idle",
+          "attachment": "R_Eyebrow_Shy"
+        },
+        {
+          "slot": "R_Eyebrow_idle2",
+          "attachment": "R_Eyebrow_Shy"
+        },
+        {
+          "slot": "R_Eyelid_01_fill",
+          "attachment": null
+        },
+        {
+          "slot": "R_Eye_idle_01",
+          "attachment": "R_Eye_shy_01"
+        },
+        {
+          "slot": "R_Eye_idle_02",
+          "attachment": "R_Eye_shy_02"
+        },
+        {
+          "slot": "R_Eye_idle_03",
+          "attachment": null
+        },
+        {
+          "slot": "R_T_Eyebrow_idle",
+          "attachment": "R_T_Eyebrow_Talk02"
+        },
+        {
+          "slot": "R_T_Eyebrow_idle2",
+          "attachment": "R_T_Eyebrow_Talk02"
+        }
+      ],
+      "gazeBias": {
+        "x": -0.12,
+        "y": 0.04
+      },
+      "sourceUse": "provenance of curated attachments, not instructions to play the entire Talk animation"
+    },
+    {
+      "id": "thinking_neutral",
+      "sourceAnimation": "Talk_03_A",
+      "sourceTime": 0.7,
+      "enabled": 1,
+      "closedEyes": 0,
+      "openMouth": null,
+      "attachments": [
+        {
+          "slot": "L_Eyebrow_idle",
+          "attachment": "L_Eyebrow_normal"
+        },
+        {
+          "slot": "L_Eyebrow_idle2",
+          "attachment": "L_Eyebrow_normal"
+        },
+        {
+          "slot": "L_Eyelid_01_fill",
+          "attachment": null
+        },
+        {
+          "slot": "L_Eye_idle_01",
+          "attachment": "L_Eye_idle_01"
+        },
+        {
+          "slot": "L_Eye_idle_02",
+          "attachment": "L_Eye_idle_02"
+        },
+        {
+          "slot": "L_Eye_idle_03",
+          "attachment": "L_Eye_idle_03"
+        },
+        {
+          "slot": "L_T_Eyebrow_idle",
+          "attachment": "L_T_Eyebrow_shy"
+        },
+        {
+          "slot": "L_T_Eyebrow_idle2",
+          "attachment": "L_T_Eyebrow_shy"
+        },
+        {
+          "slot": "Mouse_normal_01",
+          "attachment": "Mouse_normal_close"
+        },
+        {
+          "slot": "R_Eyebrow_idle",
+          "attachment": "R_Eyebrow_normal"
+        },
+        {
+          "slot": "R_Eyebrow_idle2",
+          "attachment": "R_Eyebrow_normal"
+        },
+        {
+          "slot": "R_Eyelid_01_fill",
+          "attachment": null
+        },
+        {
+          "slot": "R_Eye_idle_01",
+          "attachment": "R_Eye_idle_01"
+        },
+        {
+          "slot": "R_Eye_idle_02",
+          "attachment": "R_Eye_idle_02"
+        },
+        {
+          "slot": "R_Eye_idle_03",
+          "attachment": "R_Eye_idle_03"
+        },
+        {
+          "slot": "R_T_Eyebrow_idle",
+          "attachment": "R_T_Eyebrow_shy"
+        },
+        {
+          "slot": "R_T_Eyebrow_idle2",
+          "attachment": "R_T_Eyebrow_shy"
+        }
+      ],
+      "gazeBias": {
+        "x": 0,
+        "y": 0
+      },
+      "sourceUse": "provenance of curated attachments, not instructions to play the entire Talk animation"
+    }
+  ],
+  "behaviorProfile": {
+    "resourceFolder": "CH0069_Source",
+    "skeletonFile": "CH0069_home.skel.bytes",
+    "atlasFile": "CH0069_home.atlas.txt",
+    "textureFiles": [
+      "CH0069_home.png",
+      "CH0069_home2.png",
+      "CH0069_home3.png",
+      "CH0069_home4.png"
+    ],
+    "idleAnimation": "Idle_01",
+    "playIntroOnStartup": 1,
+    "introAnimation": "Start_Idle_01",
+    "gazeBone": "Touch_Eye_Key",
+    "headBone": "Head_Rot",
+    "mouthSlot": "Mouse_normal_01",
+    "closedMouth": "Mouse_normal_close",
+    "openMouth": "Mouse_normal_01",
+    "gazeCouplingConstraint": "Touch_Eye_Key",
+    "touchPointBone": "Touch_Point_Key",
+    "touchMotionAnimation": "Pat_01_M",
+    "touchReleaseAnimation": "PatEnd_01_M",
+    "headHitSlots": [
+      "Face",
+      "Ball_Hair_01",
+      "F_Hair_01",
+      "F_Hair_02"
+    ],
+    "expressionBlendSeconds": 0.16,
+    "mouthBlendSeconds": 0.065,
+    "eyesOnlyIdle": 1,
+    "pointerAttentionSeconds": 2.2,
+    "enablePat10Trial": 0,
+    "blinkAttachments": [
+      {
+        "slot": "L_Eyebrow_idle",
+        "attachment": "L_Eyebrow_eyeclose"
+      },
+      {
+        "slot": "L_Eyebrow_idle2",
+        "attachment": "L_Eyebrow_eyeclose"
+      },
+      {
+        "slot": "L_Eyelid_01_fill",
+        "attachment": "L_Eyelid_01_fill"
+      },
+      {
+        "slot": "R_Eyebrow_idle",
+        "attachment": "R_Eyebrow_eyeclose"
+      },
+      {
+        "slot": "R_Eyebrow_idle2",
+        "attachment": "R_Eyebrow_eyeclose"
+      },
+      {
+        "slot": "R_Eyelid_01_fill",
+        "attachment": "R_Eyelid_01_fill"
+      }
+    ],
+    "skeletonScale": 0.01,
+    "gazeLimit": {
+      "x": 0.48,
+      "y": 0.34
+    },
+    "headLimit": 1,
+    "headHitCenter": {
+      "x": 2,
+      "y": 2.2
+    },
+    "headHitRadius": {
+      "x": 3.3,
+      "y": 3.6
+    },
+    "headFollowEnabled": 1,
+    "touchExpressions": [
+      {
+        "id": "pat_closed_eyes",
+        "sourceAnimation": "Pat_01_A",
+        "sourceTime": 0,
+        "enabled": 1,
+        "closedEyes": 1,
+        "openMouth": "Mouse_Depressed_02",
+        "attachments": [
+          {
+            "slot": "L_Eyebrow_idle",
+            "attachment": "L_Eyebrow_eyeclose"
+          },
+          {
+            "slot": "L_Eyebrow_idle2",
+            "attachment": "L_Eyebrow_eyeclose"
+          },
+          {
+            "slot": "L_Eyelid_01_fill",
+            "attachment": "L_Eyelid_01_fill"
+          },
+          {
+            "slot": "Mouse_normal_01",
+            "attachment": "Mouse_Depressed_02_close"
+          },
+          {
+            "slot": "R_Eyebrow_idle",
+            "attachment": "R_Eyebrow_eyeclose"
+          },
+          {
+            "slot": "R_Eyebrow_idle2",
+            "attachment": "R_Eyebrow_eyeclose"
+          },
+          {
+            "slot": "R_Eyelid_01_fill",
+            "attachment": "R_Eyelid_01_fill"
+          }
+        ],
+        "gazeBias": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "id": "pat_playful",
+        "sourceAnimation": "Talk_01_A",
+        "sourceTime": 2,
+        "enabled": 1,
+        "closedEyes": 0,
+        "openMouth": "Mouse_doya_03",
+        "attachments": [
+          {
+            "slot": "L_Eyebrow_idle",
+            "attachment": "L_Eyebrow_doya"
+          },
+          {
+            "slot": "L_Eyebrow_idle2",
+            "attachment": "L_Eyebrow_doya"
+          },
+          {
+            "slot": "L_Eyelid_01_fill",
+            "attachment": "L_Eyelid_02_doya"
+          },
+          {
+            "slot": "L_Eye_idle_01",
+            "attachment": "L_Eye_idle_01"
+          },
+          {
+            "slot": "L_Eye_idle_02",
+            "attachment": "L_Eye_idle_02"
+          },
+          {
+            "slot": "L_Eye_idle_03",
+            "attachment": "L_Eye_idle_03"
+          },
+          {
+            "slot": "L_T_Eyebrow_idle",
+            "attachment": "L_T_Eyebrow_doya"
+          },
+          {
+            "slot": "L_T_Eyebrow_idle2",
+            "attachment": "L_T_Eyebrow_doya"
+          },
+          {
+            "slot": "Mouse_normal_01",
+            "attachment": "Mouse_doya_03_close"
+          },
+          {
+            "slot": "R_Eyebrow_idle",
+            "attachment": "R_Eyebrow_doya"
+          },
+          {
+            "slot": "R_Eyebrow_idle2",
+            "attachment": "R_Eyebrow_doya"
+          },
+          {
+            "slot": "R_Eyelid_01_fill",
+            "attachment": "R_Eyelid_02_doya"
+          },
+          {
+            "slot": "R_Eye_idle_01",
+            "attachment": "R_Eye_idle_01"
+          },
+          {
+            "slot": "R_Eye_idle_02",
+            "attachment": "R_Eye_idle_02"
+          },
+          {
+            "slot": "R_Eye_idle_03",
+            "attachment": "R_Eye_idle_03"
+          },
+          {
+            "slot": "R_T_Eyebrow_idle",
+            "attachment": "R_T_Eyebrow_doya"
+          },
+          {
+            "slot": "R_T_Eyebrow_idle2",
+            "attachment": "R_T_Eyebrow_doya"
+          }
+        ],
+        "gazeBias": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "id": "pat_shy",
+        "sourceAnimation": "Talk_03_A",
+        "sourceTime": 12,
+        "enabled": 1,
+        "closedEyes": 0,
+        "openMouth": "Mouse_shy",
+        "attachments": [
+          {
+            "slot": "L_Eyebrow_idle",
+            "attachment": "L_Eyebrow_Shy"
+          },
+          {
+            "slot": "L_Eyebrow_idle2",
+            "attachment": "L_Eyebrow_Shy"
+          },
+          {
+            "slot": "L_Eyelid_01_fill",
+            "attachment": null
+          },
+          {
+            "slot": "L_Eye_idle_01",
+            "attachment": "L_Eye_shy_01"
+          },
+          {
+            "slot": "L_Eye_idle_02",
+            "attachment": "L_Eye_shy_02"
+          },
+          {
+            "slot": "L_Eye_idle_03",
+            "attachment": null
+          },
+          {
+            "slot": "L_T_Eyebrow_idle",
+            "attachment": "L_T_Eyebrow_Talk02"
+          },
+          {
+            "slot": "L_T_Eyebrow_idle2",
+            "attachment": "L_T_Eyebrow_Talk02"
+          },
+          {
+            "slot": "Mouse_normal_01",
+            "attachment": "Mouse_shy_close"
+          },
+          {
+            "slot": "R_Eyebrow_idle",
+            "attachment": "R_Eyebrow_Shy"
+          },
+          {
+            "slot": "R_Eyebrow_idle2",
+            "attachment": "R_Eyebrow_Shy"
+          },
+          {
+            "slot": "R_Eyelid_01_fill",
+            "attachment": null
+          },
+          {
+            "slot": "R_Eye_idle_01",
+            "attachment": "R_Eye_shy_01"
+          },
+          {
+            "slot": "R_Eye_idle_02",
+            "attachment": "R_Eye_shy_02"
+          },
+          {
+            "slot": "R_Eye_idle_03",
+            "attachment": null
+          },
+          {
+            "slot": "R_T_Eyebrow_idle",
+            "attachment": "R_T_Eyebrow_Talk02"
+          },
+          {
+            "slot": "R_T_Eyebrow_idle2",
+            "attachment": "R_T_Eyebrow_Talk02"
+          }
+        ],
+        "gazeBias": {
+          "x": -0.12,
+          "y": 0.04
+        }
+      }
+    ],
+    "thinkingExpressions": [
+      {
+        "id": "thinking_neutral",
+        "sourceAnimation": "Talk_03_A",
+        "sourceTime": 0.7,
+        "enabled": 1,
+        "closedEyes": 0,
+        "openMouth": null,
+        "attachments": [
+          {
+            "slot": "L_Eyebrow_idle",
+            "attachment": "L_Eyebrow_normal"
+          },
+          {
+            "slot": "L_Eyebrow_idle2",
+            "attachment": "L_Eyebrow_normal"
+          },
+          {
+            "slot": "L_Eyelid_01_fill",
+            "attachment": null
+          },
+          {
+            "slot": "L_Eye_idle_01",
+            "attachment": "L_Eye_idle_01"
+          },
+          {
+            "slot": "L_Eye_idle_02",
+            "attachment": "L_Eye_idle_02"
+          },
+          {
+            "slot": "L_Eye_idle_03",
+            "attachment": "L_Eye_idle_03"
+          },
+          {
+            "slot": "L_T_Eyebrow_idle",
+            "attachment": "L_T_Eyebrow_shy"
+          },
+          {
+            "slot": "L_T_Eyebrow_idle2",
+            "attachment": "L_T_Eyebrow_shy"
+          },
+          {
+            "slot": "Mouse_normal_01",
+            "attachment": "Mouse_normal_close"
+          },
+          {
+            "slot": "R_Eyebrow_idle",
+            "attachment": "R_Eyebrow_normal"
+          },
+          {
+            "slot": "R_Eyebrow_idle2",
+            "attachment": "R_Eyebrow_normal"
+          },
+          {
+            "slot": "R_Eyelid_01_fill",
+            "attachment": null
+          },
+          {
+            "slot": "R_Eye_idle_01",
+            "attachment": "R_Eye_idle_01"
+          },
+          {
+            "slot": "R_Eye_idle_02",
+            "attachment": "R_Eye_idle_02"
+          },
+          {
+            "slot": "R_Eye_idle_03",
+            "attachment": "R_Eye_idle_03"
+          },
+          {
+            "slot": "R_T_Eyebrow_idle",
+            "attachment": "R_T_Eyebrow_shy"
+          },
+          {
+            "slot": "R_T_Eyebrow_idle2",
+            "attachment": "R_T_Eyebrow_shy"
+          }
+        ],
+        "gazeBias": {
+          "x": 0,
+          "y": 0
+        }
+      }
+    ]
+  },
+  "optionalAudio": [
+    {
+      "path": "MemoryLobby/Assets/CompanionValidation/Audio/CH0069_ExWeapon_Get.ogg",
+      "historicallyVerifiedDurationSeconds": 18.732
+    },
+    {
+      "path": "MemoryLobby/Assets/CompanionValidation/Audio/CH0069_Gachaget.ogg",
+      "historicallyVerifiedDurationSeconds": 15.845
+    }
+  ],
+  "disabled": {
+    "pat10": true,
+    "pat10TextureRequired": false,
+    "standaloneNewSpineProject": false,
+    "otherExpressionPNGsIncluded": false,
+    "eightEmotionMappingsReady": false
+  },
+  "llmActions": [],
+  "noActionValue": "none",
+  "unknownActionFallback": "No extra action; retain the current visual state",
+  "unknownEmotionFallback": "neutral",
+  "files": [
+    {
+      "path": "MemoryLobby/Assets/StreamingAssets/CH0069_Source/CH0069_home.skel.bytes",
+      "role": "skeleton",
+      "required": true,
+      "bytes": 2133067,
+      "sha256": "97d3f5ca2cb42c1af265926c1204c706e3535a13faee5c7b681037f3eb4b7a47",
+      "meta": {
+        "path": "MemoryLobby/Assets/StreamingAssets/CH0069_Source/CH0069_home.skel.bytes.meta",
+        "sha256": "422be8fed936b636f34f2bb6e7ca30a24b2fb260f73ea92bb30af59f0e1999ac"
+      },
+      "targetProjectPath": "Assets/StreamingAssets/CH0069_Source/CH0069_home.skel.bytes"
+    },
+    {
+      "path": "MemoryLobby/Assets/StreamingAssets/CH0069_Source/CH0069_home.atlas.txt",
+      "role": "atlas",
+      "required": true,
+      "bytes": 40785,
+      "sha256": "77611011a0b449a8deadb578da766311531bc02af30072eb9a2108e23fa1ad09",
+      "meta": {
+        "path": "MemoryLobby/Assets/StreamingAssets/CH0069_Source/CH0069_home.atlas.txt.meta",
+        "sha256": "2bf21c304564d70f52282ceb278d5661df4217c658215af9110019857ab3fc90"
+      },
+      "targetProjectPath": "Assets/StreamingAssets/CH0069_Source/CH0069_home.atlas.txt"
+    },
+    {
+      "path": "MemoryLobby/Assets/StreamingAssets/CH0069_Source/CH0069_home.png",
+      "role": "atlas_page",
+      "required": true,
+      "bytes": 3344923,
+      "sha256": "d802ed75f037229ebf1998b8d3606e24342d9e84f7b260edcdc69b511f4bef6d",
+      "meta": {
+        "path": "MemoryLobby/Assets/StreamingAssets/CH0069_Source/CH0069_home.png.meta",
+        "sha256": "9bf38d63014b1dd6ff08463118f33d27c174c32e533389cddc6cbb5afe04cd6c"
+      },
+      "targetProjectPath": "Assets/StreamingAssets/CH0069_Source/CH0069_home.png"
+    },
+    {
+      "path": "MemoryLobby/Assets/StreamingAssets/CH0069_Source/CH0069_home2.png",
+      "role": "atlas_page",
+      "required": true,
+      "bytes": 806386,
+      "sha256": "e4ff66dca5fe1b38a06234c056b27f28e1807c297d4c4dad3c01398296d58917",
+      "meta": {
+        "path": "MemoryLobby/Assets/StreamingAssets/CH0069_Source/CH0069_home2.png.meta",
+        "sha256": "feed29b2936e0d92b8845e8051a3ca47d7a48f83d8c1bc9a519cefc8d02a953f"
+      },
+      "targetProjectPath": "Assets/StreamingAssets/CH0069_Source/CH0069_home2.png"
+    },
+    {
+      "path": "MemoryLobby/Assets/StreamingAssets/CH0069_Source/CH0069_home3.png",
+      "role": "atlas_page",
+      "required": true,
+      "bytes": 3229193,
+      "sha256": "74ffb75d22d5b5fcc3277472bb8930ee8007b6118ccd48e31482e9133565acde",
+      "meta": {
+        "path": "MemoryLobby/Assets/StreamingAssets/CH0069_Source/CH0069_home3.png.meta",
+        "sha256": "23e1221a25b7fc22b97b63b3be22f088dfff557eee265a51e80bc1b1cf08f2d2"
+      },
+      "targetProjectPath": "Assets/StreamingAssets/CH0069_Source/CH0069_home3.png"
+    },
+    {
+      "path": "MemoryLobby/Assets/StreamingAssets/CH0069_Source/CH0069_home4.png",
+      "role": "atlas_page",
+      "required": true,
+      "bytes": 882611,
+      "sha256": "b138f30eed54eee4f34f83e1d7b88fdf78e18dd911fad6fc0ef09194cca8c30a",
+      "meta": {
+        "path": "MemoryLobby/Assets/StreamingAssets/CH0069_Source/CH0069_home4.png.meta",
+        "sha256": "bda9fecbb1d40f826c001e4302c3317feb1f37af68a63bbd7c7b250ab4eaf164"
+      },
+      "targetProjectPath": "Assets/StreamingAssets/CH0069_Source/CH0069_home4.png"
+    },
+    {
+      "path": "MemoryLobby/Assets/CompanionValidation/CH0069Behavior.asset",
+      "role": "behavior_profile",
+      "required": true,
+      "bytes": 5989,
+      "sha256": "df7f924f22fc84da66777bbd208e67f999010d2ccdcbdcb8238e097770817319",
+      "meta": {
+        "path": "MemoryLobby/Assets/CompanionValidation/CH0069Behavior.asset.meta",
+        "sha256": "04c4d72c657a03b0ca107f69be94df3d384cd2095b659c3ecb7af13e8a8036d6"
+      },
+      "targetProjectPath": "Assets/CompanionValidation/CH0069Behavior.asset"
+    },
+    {
+      "path": "MemoryLobby/Assets/CompanionValidation/Runtime/CompanionBehaviorProfile.cs",
+      "role": "profile_type",
+      "required": true,
+      "bytes": 2033,
+      "sha256": "7dd23d31ad9745aa72cbb2c1eea4a94fdc38aeb877794326c798370ca0c72d3c",
+      "meta": {
+        "path": "MemoryLobby/Assets/CompanionValidation/Runtime/CompanionBehaviorProfile.cs.meta",
+        "sha256": "3dc0686a2fd0dafcf6ef618c1a49bc17e904069ddc235757b003116b29f8c792"
+      },
+      "targetProjectPath": "Assets/CompanionValidation/Runtime/CompanionBehaviorProfile.cs"
+    },
+    {
+      "path": "MemoryLobby/Assets/CompanionValidation/Runtime/CompanionLocalMotion.cs",
+      "role": "idle_gaze_thinking",
+      "required": true,
+      "bytes": 9610,
+      "sha256": "00e5e659b563290787e7b004d15f61a7601969034261d973e765f77abb9f1439",
+      "meta": {
+        "path": "MemoryLobby/Assets/CompanionValidation/Runtime/CompanionLocalMotion.cs.meta",
+        "sha256": "3b1d056371542b807d12e6e2ad535cf503e8f3af5223c96797b450845b1b5132"
+      },
+      "targetProjectPath": "Assets/CompanionValidation/Runtime/CompanionLocalMotion.cs"
+    },
+    {
+      "path": "MemoryLobby/Assets/CompanionValidation/Runtime/CompanionExpressionOverlay.cs",
+      "role": "expression_and_pat",
+      "required": true,
+      "bytes": 15881,
+      "sha256": "81caf330dcf790b899bbfa8a8993854ea21e34669ffcdcafc222fc4cf0086625",
+      "meta": {
+        "path": "MemoryLobby/Assets/CompanionValidation/Runtime/CompanionExpressionOverlay.cs.meta",
+        "sha256": "c3b75c9d2da99285524974a7797a90b1d148886cbd0bfd39f33bb312e01e9e1f"
+      },
+      "targetProjectPath": "Assets/CompanionValidation/Runtime/CompanionExpressionOverlay.cs"
+    },
+    {
+      "path": "MemoryLobby/Assets/CompanionValidation/Runtime/CompanionPointerInteraction.cs",
+      "role": "head_hit_and_gesture",
+      "required": true,
+      "bytes": 6022,
+      "sha256": "0df9b8015ca6f8c050357c34b59d88b5afd771ee5c76f98c803a2f7619fc31f7",
+      "meta": {
+        "path": "MemoryLobby/Assets/CompanionValidation/Runtime/CompanionPointerInteraction.cs.meta",
+        "sha256": "fdc4d4425d7d974ee4ac055dd99bd49668dcfbd248af6c34b0a78c51a471d9f1"
+      },
+      "targetProjectPath": "Assets/CompanionValidation/Runtime/CompanionPointerInteraction.cs"
+    },
+    {
+      "path": "MemoryLobby/Assets/CompanionValidation/Runtime/CompanionSpeechDriver.cs",
+      "role": "audio_mouth",
+      "required": true,
+      "bytes": 4197,
+      "sha256": "ff578c677137f9a9260fb8b8f4219556d6e51b178bd26fb6700aa2e2eced1c9b",
+      "meta": {
+        "path": "MemoryLobby/Assets/CompanionValidation/Runtime/CompanionSpeechDriver.cs.meta",
+        "sha256": "3997ec9f54f12b451eb44ef2205bb45829a4081a1f37e38f43efce94b9f4bc2f"
+      },
+      "targetProjectPath": "Assets/CompanionValidation/Runtime/CompanionSpeechDriver.cs"
+    },
+    {
+      "path": "MemoryLobby/Assets/CompanionValidation/Runtime/CompanionValidationBootstrap.cs",
+      "role": "runtime_loader_and_demo",
+      "required": true,
+      "bytes": 10191,
+      "sha256": "e813317b6e69b8aa108dc75139ac8dfd7aa6865d415e97345efb9dafb55d3482",
+      "meta": {
+        "path": "MemoryLobby/Assets/CompanionValidation/Runtime/CompanionValidationBootstrap.cs.meta",
+        "sha256": "21485d1db96aee824b59374056969f764fd40f4a43549f28a74a4e76b1df5213"
+      },
+      "targetProjectPath": "Assets/CompanionValidation/Runtime/CompanionValidationBootstrap.cs"
+    },
+    {
+      "path": "MemoryLobby/Assets/CompanionValidation/Runtime/CompanionPat10Trial.cs",
+      "role": "compile_dependency_only_trial_disabled",
+      "required": true,
+      "bytes": 9514,
+      "sha256": "9d1b2db83689fbd7efa935bc9cd5cf5080f437ee73c13f0fe2919f21bc0cedf4",
+      "meta": {
+        "path": "MemoryLobby/Assets/CompanionValidation/Runtime/CompanionPat10Trial.cs.meta",
+        "sha256": "b6fac0eb2f216b728eae72fe33826df2c729b3794ad537102aa39890f5a22602"
+      },
+      "targetProjectPath": "Assets/CompanionValidation/Runtime/CompanionPat10Trial.cs"
+    },
+    {
+      "path": "MemoryLobby/Assets/CompanionValidation/CompanionValidation.unity",
+      "role": "working_reference_scene",
+      "required": false,
+      "bytes": 10713,
+      "sha256": "cefa3a1f84f5dc74ee2c72aa1b29114d49691b4b5bed98cc6218a04475fb6508",
+      "meta": {
+        "path": "MemoryLobby/Assets/CompanionValidation/CompanionValidation.unity.meta",
+        "sha256": "131166c014ff5140e0288e7b90e064871ebaf2b9e03d0d840b244cd8e3909da5"
+      },
+      "targetProjectPath": "Assets/CompanionValidation/CompanionValidation.unity"
+    },
+    {
+      "path": "MemoryLobby/Assets/CompanionValidation/Audio/CH0069_ExWeapon_Get.ogg",
+      "role": "optional_voice_sample",
+      "required": false,
+      "bytes": 121737,
+      "sha256": "862a7e0d0b62782a05c24dcbf77763a500630582f7475beb1151df00b9467a86",
+      "meta": {
+        "path": "MemoryLobby/Assets/CompanionValidation/Audio/CH0069_ExWeapon_Get.ogg.meta",
+        "sha256": "067c22dd84df5bddc83d8df810d3b5e1c0315f4dcbffdf0a261474d7c063cb58"
+      },
+      "targetProjectPath": "Assets/CompanionValidation/Audio/CH0069_ExWeapon_Get.ogg"
+    },
+    {
+      "path": "MemoryLobby/Assets/CompanionValidation/Audio/CH0069_Gachaget.ogg",
+      "role": "optional_voice_sample",
+      "required": false,
+      "bytes": 104746,
+      "sha256": "253f3ddc0c7a563e1e7abbfd5fc8c60117d09cfbf326f472d589dd947f31b0c4",
+      "meta": {
+        "path": "MemoryLobby/Assets/CompanionValidation/Audio/CH0069_Gachaget.ogg.meta",
+        "sha256": "753e04df2be45e101cdf46a95794d185b74aeb4a0a1c7043e4d4d29cc8d5e03e"
+      },
+      "targetProjectPath": "Assets/CompanionValidation/Audio/CH0069_Gachaget.ogg"
+    }
+  ],
+  "dependencies": {
+    "spineAssetsRoot": "MemoryLobby/Assets/Spine",
+    "projectPackagesManifest": "MemoryLobby/Packages/manifest.json",
+    "renderPipeline": "URP",
+    "notes": "Use the local tested runtime and shader assets together; package version strings are declarations, not cross-language compatibility guarantees. The Pat10 class is a compile dependency only."
+  },
+  "verification": {
+    "inventoryDate": "2026-11-06",
+    "method": "Real Unity Play Mode startup, original entrance frames, auto Idle, replay, skip; behavior regression and refreshed file hashes",
+    "checks": {
+      "allListedFilesExist": true,
+      "allMetaFilesExist": true,
+      "sixSourceFilesMatchHistoricalHashes": true,
+      "configuredExpressionAttachmentsResolved": true,
+      "pat10Disabled": true,
+      "introEnabledAndPat10StillDisabled": true
+    },
+    "lastUnityBehaviorCheck": {
+      "date": "2026-11-06",
+      "passed": 25,
+      "randomPresets": [
+        "pat_closed_eyes",
+        "pat_playful",
+        "pat_shy"
+      ]
+    },
+    "lastMouthAndTransitionChecks": {
+      "date": "2026-10-09 Asia/Shanghai",
+      "behaviorImprovementsPassed": 13,
+      "realVoiceChecksPassed": 9
+    },
+    "introPlayback": {
+      "date": "2026-11-06",
+      "realUnityPlayback": true,
+      "unityVersion": "6000.3.7f1",
+      "autoIdleAndControls": true,
+      "replayAndSuppression": true,
+      "skipAndControls": true,
+      "pat10Disabled": true,
+      "samples": [
+        {
+          "seconds": 1.0016182,
+          "animation": "Start_Idle_01",
+          "intro": true,
+          "motionEnabled": false,
+          "file": "intro_01.png"
+        },
+        {
+          "seconds": 5.00330209999998,
+          "animation": "Start_Idle_01",
+          "intro": true,
+          "motionEnabled": false,
+          "file": "intro_05.png"
+        },
+        {
+          "seconds": 10.0013482,
+          "animation": "Start_Idle_01",
+          "intro": true,
+          "motionEnabled": false,
+          "file": "intro_10.png"
+        },
+        {
+          "seconds": 15.0021286,
+          "animation": "Start_Idle_01",
+          "intro": true,
+          "motionEnabled": false,
+          "file": "intro_15.png"
+        },
+        {
+          "seconds": 21.0041479,
+          "animation": "Idle_01",
+          "intro": false,
+          "motionEnabled": true,
+          "file": "intro_21.png"
+        }
+      ]
+    },
+    "introReport": "CH0069_IntroPreview/unity_intro_review.json"
+  },
+  "notes": [
+    "This is a handoff inventory, not a replacement for the application's existing character_manifest schema.",
+    "Keep source animation names inside the visual adapter. State and touch are runtime behaviors, not additional Spine clips.",
+    "Only the listed files and dependencies are in scope; other materials in this directory are excluded.",
+    "Entrance is played once on startup. Keep local motion, expression, pointer and speech components disabled during entrance; restore on queued Idle Start. No new LLM action."
+  ]
+}

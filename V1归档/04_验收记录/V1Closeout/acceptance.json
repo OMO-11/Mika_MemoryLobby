@@ -1,0 +1,71 @@
+{
+  "passed": true,
+  "createdAtUtc": "2026-11-02T13:27:18.045223+00:00",
+  "playerAcceptance": "pending",
+  "schema": 10,
+  "backupFormat": 1,
+  "startupMode": "companion",
+  "petEntryEnabled": false,
+  "tests": {
+    "EditMode": {
+      "passed": true,
+      "count": 165,
+      "sha256": "24e0bcda235fcf36f21e6b7e6d66d7ba3e4612f33fc280d120bf2520a28aaa6d"
+    },
+    "PlayMode": {
+      "passed": true,
+      "count": 39,
+      "sha256": "8178e502555a4a2fa02bba9968a2722dffdba667c663a607c3334525ce711301"
+    }
+  },
+  "native": {
+    "passed": true,
+    "error": null,
+    "flags": {
+      "directCompanionStartup": true,
+      "entryFileCreated": true,
+      "noForcedTechnicalPanel": true,
+      "petRouteRejected": true,
+      "petButtonsHidden": true,
+      "maintenanceStillAccessible": true,
+      "sameCoreOnReturn": true,
+      "schemaUnchanged": true,
+      "noVoiceInIsolatedSilentTest": true,
+      "shutdownSaved": true
+    }
+  },
+  "package": {
+    "passed": true,
+    "bytes": 9541426614,
+    "files": 27782,
+    "manifestSha256": "037228c1a43c933d797d2f468aa753b8e4c5726490056208da2014c8916a74c2",
+    "oldManifestAndProgramsUnchanged": true,
+    "runtimeVerifiedAgainstPreviousRelease": true
+  },
+  "checks": {
+    "buildPassed": true,
+    "nativePassed": true,
+    "packagePassed": true,
+    "manifestMatches": true,
+    "packagedProgramsMatchValidatedBuild": true
+  },
+  "artifacts": [
+    {
+      "path": "GiftCompanion.exe",
+      "sha256": "4bf762016829b0c975960cf300aac5a5bb1f84d25745f2aa8f4a508f9af5243f"
+    },
+    {
+      "path": "GiftCompanion_Data/Managed/GiftCompanion.Core.dll",
+      "sha256": "6a77406c3d56a2e7445063b1f4ad501cb1792955176a2048862c83cc3192b44a"
+    },
+    {
+      "path": "GiftCompanion_Data/Managed/GiftCompanion.Runtime.dll",
+      "sha256": "15d6ad453135bd10bc4a8d91eaad53c476e93a2dd9cfc373c4f42495252f159d"
+    }
+  ],
+  "limits": [
+    "This round validates entry changes with silent isolated data, not new real API requests or voice quality.",
+    "Historical multi-mode tests explicitly opt in via isolated app_entry.json.",
+    "No database migration or model changes; previous device and long-use limitations remain."
+  ]
+}

@@ -1,0 +1,42 @@
+var graphic=UnityEngine.Object.FindFirstObjectByType<Spine.Unity.SkeletonGraphic>();
+var controller=graphic.GetComponent<Mika.Seaside.SeasideLobbyController>();
+var camera=UnityEngine.Camera.main; var canvas=graphic.canvas; var scaler=canvas.GetComponent<UnityEngine.UI.CanvasScaler>();
+var previousTarget=camera.targetTexture; float previousScale=canvas.scaleFactor; bool previousScaler=scaler.enabled;
+var previousColor=camera.backgroundColor;
+var target=new UnityEngine.RenderTexture(1280,720,24,UnityEngine.RenderTextureFormat.ARGB32,UnityEngine.RenderTextureReadWrite.sRGB);
+var png=new UnityEngine.Texture2D(1280,720,UnityEngine.TextureFormat.RGBA32,false);
+string output="W:/Machine/VSCode/Mika_Gift/Material/Mika_memoryLobby_Seaside/Reports/CH0294/Interaction/";
+var results=new System.Collections.Generic.List<object>();
+System.Action<float> step=seconds=> { int count=(int)System.Math.Round(seconds*60); for(int i=0;i<count;i++) {controller.AdvanceInteraction(1f/60f);graphic.Update(1f/60f);} };
+try {
+    scaler.enabled=false; camera.targetTexture=target; camera.backgroundColor=UnityEngine.Color.clear; target.Create();
+    canvas.scaleFactor=UnityEngine.Mathf.Sqrt(1280f/1652f*720f/1080f);
+    UnityEngine.Canvas.ForceUpdateCanvases(); camera.Render(); UnityEngine.Canvas.ForceUpdateCanvases(); controller.FitViewport();
+    for(int shot=0;shot<10;shot++) {
+        graphic.Initialize(true); controller.ResetToIdle(); controller.AmbientExpressionsEnabled=true;
+        step(0.5f);
+        string name="interaction_idle.png";
+        if(shot>=1 && shot<=4) {
+            controller.BeginPatFeedback(); step(shot==1?0.15f:1.5f);
+            name=shot==1?"pat_blend_in.png":"pat_held.png";
+            if(shot>=3) { controller.RequestEndPat(); step(shot==3?0.2f:1.5f); name=shot==3?"pat_blend_out.png":"pat_returned_idle.png"; }
+        } else if(shot>=5 && shot<=7) {
+            var kind=shot==5?Mika.Seaside.SeasideLobbyController.IdleExpression.ClosedEyeSmile:shot==6?Mika.Seaside.SeasideLobbyController.IdleExpression.PlayerGlance:Mika.Seaside.SeasideLobbyController.IdleExpression.ThoughtfulLook;
+            controller.PlayIdleExpression(kind); step(1f);
+            name=shot==5?"idle_closed_eye_smile.png":shot==6?"idle_player_glance.png":"idle_thoughtful.png";
+        } else if(shot>=8) { controller.PlayEntrance(); step(shot==8?10f:0f); name=shot==8?"entrance_closeup_t10.png":"entrance_start.png"; }
+        graphic.LateUpdate(); graphic.SetAllDirty(); UnityEngine.Canvas.ForceUpdateCanvases(); camera.Render();
+        var previous=UnityEngine.RenderTexture.active; UnityEngine.RenderTexture.active=target;
+        png.ReadPixels(new UnityEngine.Rect(0,0,1280,720),0,0); png.Apply(); UnityEngine.RenderTexture.active=previous;
+        System.IO.File.WriteAllBytes(output+name,png.EncodeToPNG());
+        int uncovered=0; foreach(var pixel in png.GetPixels32()) if(pixel.a<250) uncovered++;
+        var tracks=new System.Collections.Generic.List<string>(); for(int t=0;t<4;t++) { var entry=graphic.AnimationState.GetCurrent(t); tracks.Add(entry==null?null:entry.Animation.Name); }
+        results.Add(new {file=name,uncoveredPixels=uncovered,tracks,pat=controller.IsPatting,patEnding=controller.IsPatEnding,expression=controller.CurrentIdleExpression.ToString(),expressionWeight=controller.IdleExpressionWeight,visible=controller.VisibleFrame.ToString()});
+    }
+} finally {
+    camera.targetTexture=previousTarget; camera.backgroundColor=previousColor; canvas.scaleFactor=previousScale; scaler.enabled=previousScaler;
+    target.Release(); UnityEngine.Object.DestroyImmediate(target); UnityEngine.Object.DestroyImmediate(png);
+    UnityEngine.Canvas.ForceUpdateCanvases(); controller.FitViewport(); graphic.Initialize(true); controller.ResetToIdle();
+}
+string json=Newtonsoft.Json.JsonConvert.SerializeObject(results,Newtonsoft.Json.Formatting.Indented);
+System.IO.File.WriteAllText(output+"interaction_captures.json",json); return json;

@@ -1,0 +1,304 @@
+{
+  "name": "FX_MAT_Circle_Glow_01z",
+  "shader": {
+    "status": "resolved",
+    "name": "DSFX/FX_SHADER_Additive_0",
+    "file": "Shaders/DSFX_FX_SHADER_Additive_0__-4115771715742154417.shader.json",
+    "serializedFile": "CAB-dfc5bcc011d85f284a539a56baf966f7",
+    "reference": {
+      "fileId": 1,
+      "pathId": -4115771715742154417
+    }
+  },
+  "renderQueue": 3006,
+  "shaderKeywords": null,
+  "textures": {
+    "_Texture": {
+      "texture": null,
+      "file": null,
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0
+      ],
+      "status": "unresolved-external",
+      "reference": {
+        "fileId": 2,
+        "pathId": 2238028599995704187
+      },
+      "externalFile": {
+        "cab": "CAB-50bf638d27a61e906963ba0d23284fba",
+        "archivePath": "archive:/CAB-50bf638d27a61e906963ba0d23284fba/CAB-50bf638d27a61e906963ba0d23284fba"
+      },
+      "error": "File cab-50bf638d27a61e906963ba0d23284fba not found in the staged bundle scope"
+    }
+  },
+  "floats": {
+    "Vector1_31C41B97": -1.0,
+    "Vector1_3BF9E79E": -0.7799999713897705,
+    "Vector1_59C5C03": 0.11999999731779099,
+    "Vector1_671B8F3C": 12.0,
+    "Vector1_9D7C625B": 3.0,
+    "Vector1_A9AF81A2": 0.25,
+    "Vector1_C863176E": 30.0,
+    "Vector1_D5CFBC76": 0.10000000149011612,
+    "Vector1_EA282FF7": 0.0,
+    "Vector1_EA691D16": 0.30000001192092896,
+    "_1": 0.0,
+    "_BlendOp": 0.0,
+    "_CameraFadingEnabled": 0.0,
+    "_CameraFarFadeDistance": 2.0,
+    "_CameraNearFadeDistance": 1.0,
+    "_ColorMode": 4.0,
+    "_Cull": 0.0,
+    "_Cull_Mode": 2.0,
+    "_Custom_Data_Offset_Use": 0.0,
+    "_Custom_Data_Use": 0.0,
+    "_Cutoff": 0.5,
+    "_Dis_Speed_X": 0.0,
+    "_Dis_Speed_Y": -0.6899999976158142,
+    "_Disappear": 0.0,
+    "_DispPowX": 0.0,
+    "_DispPowY": 0.0,
+    "_Distortion_Power": -0.25,
+    "_Distortion_Power_X": 0.10000000149011612,
+    "_Distortion_Power_Y": 0.0,
+    "_DstBlend": 10.0,
+    "_EmissionEnabled": 0.0,
+    "_FlipbookMode": 0.0,
+    "_Float0": -0.25,
+    "_Float1": -0.28999999165534973,
+    "_Float13": 3.4117650985717773,
+    "_Float2": 1.0,
+    "_Float3": 0.05999999865889549,
+    "_Float4": 0.0,
+    "_Float5": 1.0,
+    "_Float6": -1.0,
+    "_Float7": 0.0,
+    "_Flowspeed": 0.0,
+    "_LightingEnabled": 0.0,
+    "_Main_Speed_": 0.0,
+    "_Main_Speed_X": 0.0,
+    "_Main_Speed_Y": 0.0,
+    "_Main_Texture_No": 1.0,
+    "_Mask_Speed_X": 0.0,
+    "_Mask_Speed_Y": 0.0,
+    "_Mode": 3.0,
+    "_Multiplier": 3.0,
+    "_Multiply": 2.0,
+    "_NoiseScale": 2.0,
+    "_RGBRGBA": 0.0,
+    "_RampPow": 1.0,
+    "_SelectChannel": 0.0,
+    "_SoftParticlesEnabled": 0.0,
+    "_SoftParticlesFarFadeDistance": 1.0,
+    "_SoftParticlesNearFadeDistance": 0.0,
+    "_Speed_X": -0.1899999976158142,
+    "_Speed_Y": -0.47999998927116394,
+    "_SrcBlend": 1.0,
+    "_Strength": 2.0,
+    "_ToggleSwitch0": 0.0,
+    "_USpeed": 0.0,
+    "_USpeed2": 0.0,
+    "_USpeed3": 0.0,
+    "_VSpeed": 0.0,
+    "_VSpeed2": 0.0,
+    "_VSpeed3": 0.0,
+    "_ZOffsetFactor": 0.0,
+    "_ZOffsetUnits": 0.0,
+    "_ZTest_Mode": 4.0,
+    "_ZWrite": 0.0,
+    "_ZWrite_Mode": 0.0,
+    "_cloud1": 0.0,
+    "_cloud2": 0.0,
+    "_distort_scale": 1.0,
+    "_texcoord": 1.0
+  },
+  "colors": {
+    "Color_3F08FBF5": [
+      3.2941176891326904,
+      1.3647059202194214,
+      0.95686274766922,
+      0.0
+    ],
+    "Color_98444634": [
+      5.992156982421875,
+      1.0352941751480103,
+      0.125490203499794,
+      0.0
+    ],
+    "Color_A95239E6": [
+      6.792452812194824,
+      0.6728373169898987,
+      0.6728373169898987,
+      0.0
+    ],
+    "Vector2_60957000": [
+      1.0,
+      1.0,
+      0.8500000238418579,
+      0.0
+    ],
+    "Vector2_65607CD3": [
+      0.0,
+      -1.0,
+      0.0,
+      0.0
+    ],
+    "Vector2_66DAD999": [
+      5.0,
+      5.0,
+      0.0,
+      0.0
+    ],
+    "Vector2_744FC188": [
+      1.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    "Vector2_82238DD6": [
+      0.0,
+      -1.0,
+      0.0,
+      0.0
+    ],
+    "Vector2_834F525B": [
+      1.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    "Vector2_862BBCA5": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "Vector2_9AD21926": [
+      0.0,
+      -1.0,
+      0.0,
+      0.0
+    ],
+    "Vector2_B49551FD": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "Vector2_D1F89673": [
+      0.20000000298023224,
+      0.20000000298023224,
+      0.0,
+      0.0
+    ],
+    "Vector4_3B0758B1": [
+      1.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    "Vector4_D37EBC07": [
+      1.0,
+      1.0,
+      -0.23000000417232513,
+      -2.3399999141693115
+    ],
+    "_CameraFadeParams": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "_Color": [
+      5.216475486755371,
+      5.216475486755371,
+      5.216475486755371,
+      1.0
+    ],
+    "_Color0": [
+      5.992156982421875,
+      1.0352941751480103,
+      0.125490203499794,
+      1.0
+    ],
+    "_Color1": [
+      0.0,
+      0.045440010726451874,
+      0.6132075786590576,
+      0.0
+    ],
+    "_ColorAddSubDiff": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "_Color_Inside": [
+      0.0,
+      0.05771365761756897,
+      0.3396225571632385,
+      0.0
+    ],
+    "_EmissionColor": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "_Panner1": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "_Panner2": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "_SoftParticleFadeParams": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "_TintColor": [
+      2.9960784912109375,
+      2.9960784912109375,
+      2.9960784912109375,
+      1.0
+    ],
+    "_Vector0": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "_Vector1": [
+      1.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    "_Vector2": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "ints": {},
+  "vectors": {},
+  "provenance": {
+    "bundle": "CAB-82e06f023ef01137da1dfdbb883bb380",
+    "serializedFile": "CAB-82e06f023ef01137da1dfdbb883bb380",
+    "classId": 21,
+    "pathId": 6182999488559279425
+  },
+  "logicalName": "FX_MAT_Circle_Glow_01z"
+}

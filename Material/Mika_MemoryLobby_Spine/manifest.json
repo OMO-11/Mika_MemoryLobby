@@ -1,0 +1,1890 @@
+{
+  "schema": "mika-memorylobby-spine/1",
+  "generatedAt": "2026-10-07",
+  "title": "圣园未花 记忆大厅 Spine 交付包 / Mika Memorial Lobby Spine deliverable",
+  "character": {
+    "names": [
+      "圣园",
+      "圣园未花",
+      "未花"
+    ],
+    "school": "Trinity",
+    "club": "Tea Party",
+    "cv": "东山奈央/龟娘",
+    "variants": {
+      "CH0069_home": {
+        "characterId": 10059,
+        "devName": "CH0069",
+        "scene": "卧室夜景（躺卧托腮）"
+      },
+      "CH0294_home": {
+        "characterId": 10122,
+        "devName": "CH0294",
+        "scene": "海边夜景（抱膝坐姿，泳装）"
+      }
+    }
+  },
+  "source": {
+    "project": "Blue Archive Asset Downloader v3.0.0",
+    "region": "cn",
+    "platform": "android",
+    "unityBundleGroup": "Assets/_MX/SpineLobbies/<skeletonName>/",
+    "dependencyBundles": [
+      "textassets",
+      "textures",
+      "materials",
+      "timelines",
+      "assets",
+      "prefabs"
+    ],
+    "reDownloadCommand": "ba-downloader assets sync --region cn --filter \"path~spinelobbies\"",
+    "note": "Assets were already present in this workspace; no new download was performed.",
+    "relatedDeliverables": [
+      "BA_Data/deliverables/Mika_MemorialLobby/voice_cn",
+      "BA_Data/deliverables/Mika_MemorialLobby/voice_jp",
+      "BA_Data/deliverables/Mika_MemorialLobby/shared_lobby_fx"
+    ]
+  },
+  "playbackVerified": {
+    "method": "spine-canvas 4.2.120 SkeletonRenderer with triangleRendering enabled and per-segment globalCompositeOperation",
+    "results": {
+      "CH0069_home": {
+        "parsed": true,
+        "animationsPlayed": [
+          "Idle_01",
+          "Talk_01_A"
+        ],
+        "distinctFramesConfirmed": true
+      },
+      "CH0294_home": {
+        "parsed": true,
+        "animationsPlayed": [
+          "Idle_01"
+        ],
+        "distinctFramesConfirmed": true
+      }
+    }
+  },
+  "skeletons": {
+    "CH0069_home": {
+      "spine": {
+        "exportVersion": "4.2.33",
+        "hash": "5c8f3b8b-b8ac63e",
+        "format": "binary .skel (Spine skeletal data format)",
+        "headerFps": 0,
+        "imagesPath": null,
+        "audioPath": null,
+        "setupBounds": {
+          "x": -1730,
+          "y": -315,
+          "width": 3460,
+          "height": 2568.1
+        },
+        "requiredRuntime": "Spine 4.2 patch release >= 4.2.120; 4.2.33 and 4.3.13 fail to parse this file",
+        "dialectNote": "BA writes one extra float (100.0) after the header height field"
+      },
+      "counts": {
+        "bones": 743,
+        "slots": 294,
+        "skins": 1,
+        "events": 15,
+        "animations": 52,
+        "ikConstraints": 20,
+        "transformConstraints": 94,
+        "pathConstraints": 0,
+        "physicsConstraints": 0,
+        "atlasRegions": 380,
+        "atlasPages": 4
+      },
+      "integrity": {
+        "attachmentsResolved": 414,
+        "regionAttachments": 0,
+        "meshAttachments": 414,
+        "missingAttachments": []
+      },
+      "files": {
+        "skeleton": "spine/CH0069_home/CH0069_home.skel",
+        "atlas": "spine/CH0069_home/CH0069_home.atlas",
+        "atlasPages": [
+          {
+            "file": "CH0069_home.png",
+            "width": 2048,
+            "height": 2048,
+            "regions": 305
+          },
+          {
+            "file": "CH0069_home2.png",
+            "width": 2048,
+            "height": 2048,
+            "regions": 6
+          },
+          {
+            "file": "CH0069_home3.png",
+            "width": 2048,
+            "height": 2048,
+            "regions": 43
+          },
+          {
+            "file": "CH0069_home4.png",
+            "width": 2048,
+            "height": 2048,
+            "regions": 26
+          }
+        ]
+      },
+      "animations": [
+        {
+          "name": "Dev_add",
+          "durationSeconds": 0.3333,
+          "timelines": 218
+        },
+        {
+          "name": "Dev_BG_Cut2",
+          "durationSeconds": 3.3333,
+          "timelines": 453
+        },
+        {
+          "name": "Dev_Curtain",
+          "durationSeconds": 3.3333,
+          "timelines": 271
+        },
+        {
+          "name": "Dev_Curtain2",
+          "durationSeconds": 3.3333,
+          "timelines": 193
+        },
+        {
+          "name": "Dev_eye",
+          "durationSeconds": 3.3333,
+          "timelines": 14
+        },
+        {
+          "name": "Dev_flow",
+          "durationSeconds": 3.3333,
+          "timelines": 72
+        },
+        {
+          "name": "Dev_Hair",
+          "durationSeconds": 3.3333,
+          "timelines": 158
+        },
+        {
+          "name": "Dev_Hair2",
+          "durationSeconds": 3.3333,
+          "timelines": 163
+        },
+        {
+          "name": "Dev_Halo",
+          "durationSeconds": 0,
+          "timelines": 0
+        },
+        {
+          "name": "Dev_Idle_1",
+          "durationSeconds": 3.3333,
+          "timelines": 689
+        },
+        {
+          "name": "Dev_LookEnd_01_M",
+          "durationSeconds": 0.4333,
+          "timelines": 18
+        },
+        {
+          "name": "Dev_Look_01_M",
+          "durationSeconds": 0,
+          "timelines": 4
+        },
+        {
+          "name": "Dev_PatEnd_01_M",
+          "durationSeconds": 0.3333,
+          "timelines": 18
+        },
+        {
+          "name": "Dev_Pat_01_M",
+          "durationSeconds": 0,
+          "timelines": 18
+        },
+        {
+          "name": "Dev_pos",
+          "durationSeconds": 3.3333,
+          "timelines": 42
+        },
+        {
+          "name": "Dev_Set",
+          "durationSeconds": 3.3333,
+          "timelines": 664
+        },
+        {
+          "name": "Dev_Skut",
+          "durationSeconds": 3.3333,
+          "timelines": 69
+        },
+        {
+          "name": "Dev_Talk_01_M",
+          "durationSeconds": 15.6667,
+          "timelines": 83
+        },
+        {
+          "name": "Dev_Talk_02_M",
+          "durationSeconds": 18,
+          "timelines": 83
+        },
+        {
+          "name": "Dev_Talk_03_M",
+          "durationSeconds": 20,
+          "timelines": 83
+        },
+        {
+          "name": "Dev_Talk_04_M",
+          "durationSeconds": 19.3333,
+          "timelines": 85
+        },
+        {
+          "name": "Dev_Talk_05_M",
+          "durationSeconds": 35.3333,
+          "timelines": 84
+        },
+        {
+          "name": "Dummy",
+          "durationSeconds": 0.0333,
+          "timelines": 1
+        },
+        {
+          "name": "Idle_01",
+          "durationSeconds": 33.3333,
+          "timelines": 694
+        },
+        {
+          "name": "LookEnd_01_A",
+          "durationSeconds": 0.4333,
+          "timelines": 6
+        },
+        {
+          "name": "LookEnd_01_M",
+          "durationSeconds": 0.4333,
+          "timelines": 12
+        },
+        {
+          "name": "Look_01_M",
+          "durationSeconds": 0,
+          "timelines": 4
+        },
+        {
+          "name": "PatEnd_01_A",
+          "durationSeconds": 0.3333,
+          "timelines": 7
+        },
+        {
+          "name": "PatEnd_01_M",
+          "durationSeconds": 0.3333,
+          "timelines": 11
+        },
+        {
+          "name": "Pat_01_A",
+          "durationSeconds": 0,
+          "timelines": 7
+        },
+        {
+          "name": "Pat_01_M",
+          "durationSeconds": 0,
+          "timelines": 11
+        },
+        {
+          "name": "Start_Idle_01",
+          "durationSeconds": 20,
+          "timelines": 1007
+        },
+        {
+          "name": "Talk_01_A",
+          "durationSeconds": 15.6667,
+          "timelines": 19
+        },
+        {
+          "name": "Talk_01_A_CN",
+          "durationSeconds": 15.6667,
+          "timelines": 19
+        },
+        {
+          "name": "Talk_01_M",
+          "durationSeconds": 15.6667,
+          "timelines": 64
+        },
+        {
+          "name": "Talk_01_M_CN",
+          "durationSeconds": 15.6667,
+          "timelines": 64
+        },
+        {
+          "name": "Talk_02_A",
+          "durationSeconds": 18,
+          "timelines": 19
+        },
+        {
+          "name": "Talk_02_A_CN",
+          "durationSeconds": 18,
+          "timelines": 19
+        },
+        {
+          "name": "Talk_02_M",
+          "durationSeconds": 18,
+          "timelines": 64
+        },
+        {
+          "name": "Talk_02_M_CN",
+          "durationSeconds": 18,
+          "timelines": 64
+        },
+        {
+          "name": "Talk_03_A",
+          "durationSeconds": 20,
+          "timelines": 19
+        },
+        {
+          "name": "Talk_03_A_CN",
+          "durationSeconds": 20,
+          "timelines": 19
+        },
+        {
+          "name": "Talk_03_M",
+          "durationSeconds": 20,
+          "timelines": 64
+        },
+        {
+          "name": "Talk_03_M_CN",
+          "durationSeconds": 20,
+          "timelines": 64
+        },
+        {
+          "name": "Talk_04_A",
+          "durationSeconds": 19.3333,
+          "timelines": 19
+        },
+        {
+          "name": "Talk_04_A_CN",
+          "durationSeconds": 19.3333,
+          "timelines": 19
+        },
+        {
+          "name": "Talk_04_M",
+          "durationSeconds": 19.3333,
+          "timelines": 66
+        },
+        {
+          "name": "Talk_04_M_CN",
+          "durationSeconds": 19.3333,
+          "timelines": 66
+        },
+        {
+          "name": "Talk_05_A",
+          "durationSeconds": 35.3333,
+          "timelines": 19
+        },
+        {
+          "name": "Talk_05_A_CN",
+          "durationSeconds": 35.3333,
+          "timelines": 19
+        },
+        {
+          "name": "Talk_05_M",
+          "durationSeconds": 35.3333,
+          "timelines": 65
+        },
+        {
+          "name": "Talk_05_M_CN",
+          "durationSeconds": 35.3333,
+          "timelines": 65
+        }
+      ],
+      "events": [
+        "CH0069_MemorialLobby_0",
+        "CH0069_MemorialLobby_1_1",
+        "CH0069_MemorialLobby_1_2",
+        "CH0069_MemorialLobby_2_1",
+        "CH0069_MemorialLobby_2_2",
+        "CH0069_MemorialLobby_3_1",
+        "CH0069_MemorialLobby_3_2",
+        "CH0069_MemorialLobby_4_1",
+        "CH0069_MemorialLobby_4_2",
+        "CH0069_MemorialLobby_4_3",
+        "CH0069_MemorialLobby_5_1",
+        "CH0069_MemorialLobby_5_2",
+        "CH0069_MemorialLobby_5_3",
+        "CH0069_MemorialLobby_5_4",
+        "Talk"
+      ],
+      "background": {
+        "embeddedInSkeleton": true,
+        "layerCount": 56,
+        "layerTable": "background/CH0069_home/layers.csv",
+        "flattenedRender": "background/CH0069_home/flattened_setup.png",
+        "sceneCanvas": {
+          "width": 3460,
+          "height": 2568
+        },
+        "layers": [
+          {
+            "drawOrder": 0,
+            "slot": "BG_01",
+            "bone": "BG_01",
+            "blendMode": "normal",
+            "region": "BG2/BG_01",
+            "atlasPage": "CH0069_home3.png",
+            "atlasRect": {
+              "x": 2,
+              "y": 1484,
+              "width": 456,
+              "height": 534
+            },
+            "atlasRegionRotated": true
+          },
+          {
+            "drawOrder": 1,
+            "slot": "Window_02",
+            "bone": "BG_Back",
+            "blendMode": "normal",
+            "region": "BG2/Window_02",
+            "atlasPage": "CH0069_home3.png",
+            "atlasRect": {
+              "x": 437,
+              "y": 118,
+              "width": 646,
+              "height": 458
+            },
+            "atlasRegionRotated": true
+          },
+          {
+            "drawOrder": 2,
+            "slot": "Window_01",
+            "bone": "BG_Back",
+            "blendMode": "normal",
+            "region": "BG2/Window_01",
+            "atlasPage": "CH0069_home3.png",
+            "atlasRect": {
+              "x": 1416,
+              "y": 28,
+              "width": 600,
+              "height": 746
+            },
+            "atlasRegionRotated": true
+          },
+          {
+            "drawOrder": 3,
+            "slot": "Window_Flower_12",
+            "bone": "Window_Flower_12",
+            "blendMode": "normal",
+            "region": "BG2/Window_Flower_12",
+            "atlasPage": "CH0069_home3.png",
+            "atlasRect": {
+              "x": 411,
+              "y": 1797,
+              "width": 68,
+              "height": 33
+            },
+            "atlasRegionRotated": false
+          },
+          {
+            "drawOrder": 4,
+            "slot": "Window_Flower_11",
+            "bone": "Window_Flower_11",
+            "blendMode": "normal",
+            "region": "BG2/Window_Flower_11",
+            "atlasPage": "CH0069_home3.png",
+            "atlasRect": {
+              "x": 526,
+              "y": 1969,
+              "width": 103,
+              "height": 50
+            },
+            "atlasRegionRotated": false
+          },
+          {
+            "drawOrder": 5,
+            "slot": "Window_Flower_10",
+            "bone": "Window_Flower_09",
+            "blendMode": "normal",
+            "region": "BG2/Window_Flower_10",
+            "atlasPage": "CH0069_home3.png",
+            "atlasRect": {
+              "x": 456,
+              "y": 1728,
+              "width": 35,
+              "height": 40
+            },
+            "atlasRegionRotated": false
+          },
+          {
+            "drawOrder": 6,
+            "slot": "Window_Flower_09",
+            "bone": "Window_Flower_09",
+            "blendMode": "normal",
+            "region": "BG2/Window_Flower_09",
+            "atlasPage": "CH0069_home3.png",
+            "atlasRect": {
+              "x": 197,
+              "y": 780,
+              "width": 53,
+              "height": 116
+            },
+            "atlasRegionRotated": false
+          },
+          {
+            "drawOrder": 7,
+            "slot": "Window_Flower_08",
+            "bone": "Window_Flower_08",
+            "blendMode": "normal",
+            "region": "BG2/Window_Flower_08",
+            "atlasPage": "CH0069_home3.png",
+            "atlasRect": {
+              "x": 777,
+              "y": 796,
+              "width": 29,
+              "height": 144
+            },
+            "atlasRegionRotated": false
+          },
+          {
+            "drawOrder": 8,
+            "slot": "Window_Flower_07",
+            "bone": "Window_Flower_07",
+            "blendMode": "normal",
+            "region": "BG2/Window_Flower_07",
+            "atlasPage": "CH0069_home3.png",
+            "atlasRect": {
+              "x": 808,
+              "y": 876,
+              "width": 29,
+              "height": 102
+            },
+            "atlasRegionRotated": false
+          },
+          {
+            "drawOrder": 9,
+            "slot": "Window_Flower_06",
+            "bone": "BG_Back",
+            "blendMode": "normal",
+            "region": "BG2/Window_Flower_06",
+            "atlasPage": "CH0069_home3.png",
+            "atlasRect": {
+              "x": 560,
+              "y": 1791,
+              "width": 26,
+              "height": 71
+            },
+            "atlasRegionRotated": false
+          },
+          {
+            "drawOrder": 10,
+            "slot": "Window_Flower_05",
+            "bone": "Window_Flower_05",
+            "blendMode": "normal",
+            "region": "BG2/Window_Flower_05",
+            "atlasPage": "CH0069_home3.png",
+            "atlasRect": {
+              "x": 2,
+              "y": 126,
+              "width": 63,
+              "height": 191
+            },
+            "atlasRegionRotated": false
+          },
+          {
+            "drawOrder": 11,
+            "slot": "Window_Flower_04",
+            "bone": "BG_Back",
+            "blendMode": "normal",
+            "region": "BG2/Window_Flower_04",
+            "atlasPage": "CH0069_home3.png",
+            "atlasRect": {
+              "x": 615,
+              "y": 1807,
+              "width": 33,
+              "height": 87
+            },
+            "atlasRegionRotated": false
+          },
+          {
+            "drawOrder": 12,
+            "slot": "Window_Flower_03",
+            "bone": "Window_Flower_03",
+            "blendMode": "normal",
+            "region": "BG2/Window_Flower_03",
+            "atlasPage": "CH0069_home3.png",
+            "atlasRect": {
+              "x": 329,
+              "y": 1907,
+              "width": 84,
+              "height": 108
+            },
+            "atlasRegionRotated": false
+          },
+          {
+            "drawOrder": 13,
+            "slot": "Window_Flower_02",
+            "bone": "Window_Flower_2",
+            "blendMode": "normal",
+            "region": "BG2/Window_Flower_02",
+            "atlasPage": "CH0069_home3.png",
+            "atlasRect": {
+              "x": 396,
+              "y": 1967,
+              "width": 40,
+              "height": 52
+            },
+            "atlasRegionRotated": false
+          },
+          {
+            "drawOrder": 14,
+            "slot": "Window_Flower_01",
+            "bone": "Window_Flower_1",
+            "blendMode": "normal",
+            "region": "BG2/Window_Flower_01",
+            "atlasPage": "CH0069_home3.png",
+            "atlasRect": {
+              "x": 357,
+              "y": 1957,
+              "width": 38,
+              "height": 62
+            },
+            "atlasRegionRotated": false
+          },
+          {
+            "drawOrder": 15,
+            "slot": "Window_Flower_pot_02",
+            "bone": "Window_Flower_pot_01",
+            "blendMode": "normal",
+            "region": "BG2/Window_Flower_pot_02",
+            "atlasPage": "CH0069_home3.png",
+            "atlasRect": {
+              "x": 215,
+              "y": 840,
+              "width": 136,
+              "height": 137
+            },
+            "atlasRegionRotated": false
+          },
+          {
+            "drawOrder": 16,
+            "slot": "Window_Flower_pot_01",
+            "bone": "Window_Flower_pot_01",
+            "blendMode": "normal",
+            "region": "BG2/Window_Flower_pot_01",
+            "atlasPage": "CH0069_home3.png",
+            "atlasRect": {
+              "x": 443,
+              "y": 1751,
+              "width": 128,
+              "height": 79
+            },
+            "atlasRegionRotated": false
+          },
+          {
+            "drawOrder": 17,
+            "slot": "BG_02_Light",
+            "bone": "BG_Back",
+            "blendMode": "normal",
+            "region": "BG2/BG_02_Light",
+            "atlasPage": "CH0069_home3.png",
+            "atlasRect": {
+              "x": 2,
+              "y": 979,
+              "width": 1400,
+              "height": 1039
+            },
+            "atlasRegionRotated": false
+          },
+          {
+            "drawOrder": 18,
+            "slot": "radiator_01",
+            "bone": "BG_Back",
+            "blendMode": "normal",
+            "region": "BG2/radiator_01",
+            "atlasPage": "CH0069_home3.png",
+            "atlasRect": {
+              "x": 2,
+              "y": 429,
+              "width": 746,
+              "height": 550
+            },
+            "atlasRegionRotated": true
+          },
+          {
+            "drawOrder": 19,
+            "slot": "Table_base_01",
+            "bone": "BG_Back",
+            "blendMode": "normal",
+            "region": "BG2/Table_base_01",
+            "atlasPage": "CH0069_home3.png",
+            "atlasRect": {
+              "x": 1404,
+              "y": 1658,
+              "width": 400,
+              "height": 361
+            },
+            "atlasRegionRotated": false
+          },
+          {
+            "drawOrder": 20,
+            "slot": "Table_Mirror_03",
+            "bone": "Table_Mirror_01",
+            "blendMode": "normal",
+            "region": "BG2/Table_Mirror_03",
+            "atlasPage": "CH0069_home3.png",
+            "atlasRect": {
+              "x": 699,
+              "y": 772,
+              "width": 81,
+              "height": 207
+            },
+            "atlasRegionRotated": false
+          },
+          {
+            "drawOrder": 21,
+            "slot": "Table_Mirror_02",
+            "bone": "Table_Mirror_01",
+            "blendMode": "normal",
+            "region": "BG2/Table_Mirror_02",
+            "atlasPage": "CH0069_home3.png",
+            "atlasRect": {
+              "x": 1259,
+              "y": 1145,
+              "width": 79,
+              "height": 152
+            },
+            "atlasRegionRotated": false
+          },
+          {
+            "drawOrder": 22,
+            "slot": "Table_Mirror_01",
+            "bone": "Table_Mirror_01",
+            "blendMode": "normal",
+            "region": "BG2/Table_Mirror_01",
+            "atlasPage": "CH0069_home3.png",
+            "atlasRect": {
+              "x": 2,
+              "y": 38,
+              "width": 213,
+              "height": 350
+            },
+            "atlasRegionRotated": false
+          },
+          {
+            "drawOrder": 23,
+            "slot": "Table_Flower_07",
+            "bone": "Table_Flower_07",
+            "blendMode": "normal",
+            "region": "BG2/Table_Flower_07",
+            "atlasPage": "CH0069_home3.png",
+            "atlasRect": {
+              "x": 390,
+              "y": 1826,
+              "width": 302,
+              "height": 194
+            },
+            "atlasRegionRotated": false
+          },
+          {
+            "drawOrder": 24,
+            "slot": "Table_Flower_06",
+            "bone": "Table_Flower_06",
+            "blendMode": "normal",
+            "region": "BG2/Table_Flower_06",
+            "atlasPage": "CH0069_home3.png",
+            "atlasRect": {
+              "x": 1550,
+              "y": 1657,
+              "width": 206,
+              "height": 148
+            },
+            "atlasRegionRotated": false
+          },
+          {
+            "drawOrder": 25,
+            "slot": "Table_Flower_05",
+            "bone": "Table_Flower_12",
+            "blendMode": "normal",
+            "region": "BG2/Table_Flower_05",
+            "atlasPage": "CH0069_home3.png",
+            "atlasRect": {
+              "x": 339,
+              "y": 886,
+              "width": 122,
+              "height": 92
+            },
+            "atlasRegionRotated": false
+          },
+          {
+            "drawOrder": 26,
+            "slot": "Table_Flower_04",
+            "bone": "Table_Flower_5",
+            "blendMode": "normal",
+            "region": "BG2/Table_Flower_04",
+            "atlasPage": "CH0069_home3.png",
+            "atlasRect": {
+              "x": 2,
+              "y": 739,
+              "width": 132,
+              "height": 129
+            },
+            "atlasRegionRotated": false
+          },
+          {
+            "drawOrder": 27,
+            "slot": "Table_Flower_03",
+            "bone": "Table_Flower_03",
+            "blendMode": "normal",
+            "region": "BG2/Table_Flower_03",
+            "atlasPage": "CH0069_home3.png",
+            "atlasRect": {
+              "x": 1302,
+              "y": 1233,
+              "width": 90,
+              "height": 108
+            },
+            "atlasRegionRotated": false
+          },
+          {
+            "drawOrder": 28,
+            "slot": "Table_Flower_02",
+            "bone": "Table_Flower_02",
+            "blendMode": "normal",
+            "region": "BG2/Table_Flower_02",
+            "atlasPage": "CH0069_home3.png",
+            "atlasRect": {
+              "x": 126,
+              "y": 772,
+              "width": 87,
+              "height": 95
+            },
+            "atlasRegionRotated": false
+          },
+          {
+            "drawOrder": 29,
+            "slot": "Table_Flower_01",
+            "bone": "Table_Flower_01",
+            "blendMode": "normal",
+            "region": "BG2/Table_Flower_01",
+            "atlasPage": "CH0069_home3.png",
+            "atlasRect": {
+              "x": 625,
+              "y": 576,
+              "width": 146,
+              "height": 131
+            },
+            "atlasRegionRotated": false
+          },
+          {
+            "drawOrder": 30,
+            "slot": "Table_Flower_Pot_01",
+            "bone": "Table_Flower_Pot_01",
+            "blendMode": "normal",
+            "region": "BG2/Table_Flower_Pot_01",
+            "atlasPage": "CH0069_home3.png",
+            "atlasRect": {
+              "x": 304,
+              "y": 359,
+              "width": 129,
+              "height": 169
+            },
+            "atlasRegionRotated": false
+          },
+          {
+            "drawOrder": 31,
+            "slot": "Table_03",
+            "bone": "BG_Back",
+            "blendMode": "normal",
+            "region": "BG2/Table_03",
+            "atlasPage": "CH0069_home3.png",
+            "atlasRect": {
+              "x": 688,
+              "y": 1888,
+              "width": 160,
+              "height": 112
+            },
+            "atlasRegionRotated": false
+          },
+          {
+            "drawOrder": 32,
+            "slot": "Table_02",
+            "bone": "BG_Back",
+            "blendMode": "normal",
+            "region": "BG2/Table_02",
+            "atlasPage": "CH0069_home3.png",
+            "atlasRect": {
+              "x": 2,
+              "y": 448,
+              "width": 73,
+              "height": 166
+            },
+            "atlasRegionRotated": false
+          },
+          {
+            "drawOrder": 33,
+            "slot": "Table_01",
+            "bone": "BG_Back",
+            "blendMode": "normal",
+            "region": "BG2/Table_01",
+            "atlasPage": "CH0069_home3.png",
+            "atlasRect": {
+              "x": 2,
+              "y": 870,
+              "width": 230,
+              "height": 108
+            },
+            "atlasRegionRotated": false
+          },
+          {
+            "drawOrder": 34,
+            "slot": "Mood_1",
+            "bone": "Mood_1",
+            "blendMode": "normal",
+            "region": "BG2/Mood_01",
+            "atlasPage": "CH0069_home3.png",
+            "atlasRect": {
+              "x": 623,
+              "y": 54,
+              "width": 300,
+              "height": 368
+            },
+            "atlasRegionRotated": false
+          },
+          {
+            "drawOrder": 35,
+            "slot": "mood_Light_03",
+            "bone": "Mood_1",
+            "blendMode": "normal",
+            "region": "BG2/mood_Light_03",
+            "atlasPage": "CH0069_home3.png",
+            "atlasRect": {
+              "x": 1345,
+              "y": 986,
+              "width": 500,
+              "height": 552
+            },
+            "atlasRegionRotated": true
+          },
+          {
+            "drawOrder": 36,
+            "slot": "mood_Light_01",
+            "bone": "Mood_1",
+            "blendMode": "normal",
+            "region": "BG2/mood_Light_01",
+            "atlasPage": "CH0069_home3.png",
+            "atlasRect": {
+              "x": 382,
+              "y": 1893,
+              "width": 15,
+              "height": 15
+            },
+            "atlasRegionRotated": false
+          },
+          {
+            "drawOrder": 37,
+            "slot": "L_Curtain_Layer_01",
+            "bone": "Top_cut_00",
+            "blendMode": "normal",
+            "region": "BG2/L_Curtain_Layer_01",
+            "atlasPage": "CH0069_home3.png",
+            "atlasRect": {
+              "x": 1428,
+              "y": 88,
+              "width": 573,
+              "height": 422
+            },
+            "atlasRegionRotated": true
+          },
+          {
+            "drawOrder": 38,
+            "slot": "L_Curtain_Layer_01_02",
+            "bone": "Top_cut_00",
+            "blendMode": "additive",
+            "region": "BG2/L_Curtain_Layer_01_02",
+            "atlasPage": "CH0069_home3.png",
+            "atlasRect": {
+              "x": 70,
+              "y": 6,
+              "width": 572,
+              "height": 422
+            },
+            "atlasRegionRotated": true
+          },
+          {
+            "drawOrder": 39,
+            "slot": "L_Curtain_Layer_02",
+            "bone": "Top_cut_00",
+            "blendMode": "normal",
+            "region": "BG2/L_Curtain_Layer_02",
+            "atlasPage": "CH0069_home3.png",
+            "atlasRect": {
+              "x": 906,
+              "y": 1036,
+              "width": 61,
+              "height": 121
+            },
+            "atlasRegionRotated": false
+          },
+          {
+            "drawOrder": 40,
+            "slot": "L_Curtain_Layer_03",
+            "bone": "Top_cut4",
+            "blendMode": "normal",
+            "region": "BG2/L_Curtain_Layer_03",
+            "atlasPage": "CH0069_home3.png",
+            "atlasRect": {
+              "x": 993,
+              "y": 616,
+              "width": 685,
+              "height": 618
+            },
+            "atlasRegionRotated": false
+          },
+          {
+            "drawOrder": 41,
+            "slot": "L_Curtain_Layer_03_02",
+            "bone": "Top_cut4",
+            "blendMode": "normal",
+            "region": "BG2/L_Curtain_Layer_03_02",
+            "atlasPage": "CH0069_home3.png",
+            "atlasRect": {
+              "x": 731,
+              "y": 369,
+              "width": 683,
+              "height": 616
+            },
+            "atlasRegionRotated": false
+          },
+          {
+            "drawOrder": 42,
+            "slot": "R_Curtain_Layer_01",
+            "bone": "cut2_134",
+            "blendMode": "normal",
+            "region": "BG2/R_Curtain_Layer_01",
+            "atlasPage": "CH0069_home3.png",
+            "atlasRect": {
+              "x": 798,
+              "y": 1066,
+              "width": 590,
+              "height": 869
+            },
+            "atlasRegionRotated": true
+          },
+          {
+            "drawOrder": 43,
+            "slot": "R_Curtain_Layer_01_02",
+            "bone": "cut2_134",
+            "blendMode": "additive",
+            "region": "BG/R_Curtain_Layer_01_02",
+            "atlasPage": "CH0069_home2.png",
+            "atlasRect": {
+              "x": 1046,
+              "y": 1332,
+              "width": 588,
+              "height": 873
+            },
+            "atlasRegionRotated": true
+          },
+          {
+            "drawOrder": 44,
+            "slot": "R_Curtain_Layer_02",
+            "bone": "cut2_134",
+            "blendMode": "normal",
+            "region": "BG/R_Curtain_Layer_02",
+            "atlasPage": "CH0069_home2.png",
+            "atlasRect": {
+              "x": 2,
+              "y": 1824,
+              "width": 154,
+              "height": 96
+            },
+            "atlasRegionRotated": false
+          },
+          {
+            "drawOrder": 45,
+            "slot": "R_Curtain_Layer_03",
+            "bone": "Top_cut_01",
+            "blendMode": "normal",
+            "region": "BG/R_Curtain_Layer_03",
+            "atlasPage": "CH0069_home2.png",
+            "atlasRect": {
+              "x": 2,
+              "y": 1209,
+              "width": 780,
+              "height": 710
+            },
+            "atlasRegionRotated": false
+          },
+          {
+            "drawOrder": 46,
+            "slot": "R_Curtain_Layer_03_02",
+            "bone": "Top_cut_01",
+            "blendMode": "additive",
+            "region": "BG/R_Curtain_Layer_03_02",
+            "atlasPage": "CH0069_home2.png",
+            "atlasRect": {
+              "x": 402,
+              "y": 1210,
+              "width": 778,
+              "height": 709
+            },
+            "atlasRegionRotated": true
+          },
+          {
+            "drawOrder": 47,
+            "slot": "BG_F_Wall",
+            "bone": "BG_Back",
+            "blendMode": "normal",
+            "region": "BG/BG_F_Wall",
+            "atlasPage": "CH0069_home2.png",
+            "atlasRect": {
+              "x": 994,
+              "y": 1226,
+              "width": 105,
+              "height": 750
+            },
+            "atlasRegionRotated": true
+          },
+          {
+            "drawOrder": 48,
+            "slot": "BG_Box",
+            "bone": "BG_Back",
+            "blendMode": "normal",
+            "region": "BG/BG_Box",
+            "atlasPage": "CH0069_home2.png",
+            "atlasRect": {
+              "x": 835,
+              "y": 1590,
+              "width": 281,
+              "height": 329
+            },
+            "atlasRegionRotated": false
+          },
+          {
+            "drawOrder": 49,
+            "slot": "BG_Bed",
+            "bone": "BG_F",
+            "blendMode": "normal",
+            "region": "BG_Bed",
+            "atlasPage": "CH0069_home.png",
+            "atlasRect": {
+              "x": 789,
+              "y": 1136,
+              "width": 911,
+              "height": 600
+            },
+            "atlasRegionRotated": true
+          },
+          {
+            "drawOrder": 50,
+            "slot": "BG_Pillow",
+            "bone": "BG_Pillow",
+            "blendMode": "normal",
+            "region": "BG_Pillow",
+            "atlasPage": "CH0069_home.png",
+            "atlasRect": {
+              "x": 1870,
+              "y": 1547,
+              "width": 500,
+              "height": 157
+            },
+            "atlasRegionRotated": true
+          },
+          {
+            "drawOrder": 51,
+            "slot": "Char_BG_Screen_02",
+            "bone": "Hip",
+            "blendMode": "normal",
+            "region": "Char_BG_Screen_02",
+            "atlasPage": "CH0069_home.png",
+            "atlasRect": {
+              "x": 2,
+              "y": 1195,
+              "width": 1000,
+              "height": 852
+            },
+            "atlasRegionRotated": false
+          },
+          {
+            "drawOrder": 52,
+            "slot": "BG_screen_01",
+            "bone": "BG_Pillow",
+            "blendMode": "additive",
+            "region": "BG_screen_01",
+            "atlasPage": "CH0069_home.png",
+            "atlasRect": {
+              "x": 1390,
+              "y": 1048,
+              "width": 550,
+              "height": 250
+            },
+            "atlasRegionRotated": true
+          },
+          {
+            "drawOrder": 119,
+            "slot": "BG_Bed_cover",
+            "bone": "BG_F",
+            "blendMode": "normal",
+            "region": "BG_Bed_cover",
+            "atlasPage": "CH0069_home.png",
+            "atlasRect": {
+              "x": 1581,
+              "y": 843,
+              "width": 330,
+              "height": 203
+            },
+            "atlasRegionRotated": false
+          },
+          {
+            "drawOrder": 251,
+            "slot": "L_Index_02_light",
+            "bone": "L_Index_02_light",
+            "blendMode": "normal",
+            "region": "L_Index_02_light",
+            "atlasPage": "CH0069_home.png",
+            "atlasRect": {
+              "x": 3,
+              "y": 1834,
+              "width": 20,
+              "height": 40
+            },
+            "atlasRegionRotated": false
+          },
+          {
+            "drawOrder": 293,
+            "slot": "FX_Screen_01",
+            "bone": "Light",
+            "blendMode": "additive",
+            "region": "F/FX_Screen_01",
+            "atlasPage": "CH0069_home4.png",
+            "atlasRect": {
+              "x": 2,
+              "y": 1201,
+              "width": 1440,
+              "height": 750
+            },
+            "atlasRegionRotated": false
+          }
+        ]
+      }
+    },
+    "CH0294_home": {
+      "spine": {
+        "exportVersion": "4.2.33",
+        "hash": "-154e1e85-2ffc2cd1",
+        "format": "binary .skel (Spine skeletal data format)",
+        "headerFps": 30,
+        "imagesPath": "./images/",
+        "audioPath": "./VOC_CN/",
+        "setupBounds": {
+          "x": -2531.2,
+          "y": -1619,
+          "width": 4470.5,
+          "height": 3882.8
+        },
+        "requiredRuntime": "Spine 4.2 patch release >= 4.2.120; 4.2.33 and 4.3.13 fail to parse this file",
+        "dialectNote": "BA writes one extra float (100.0) after the header height field"
+      },
+      "counts": {
+        "bones": 441,
+        "slots": 215,
+        "skins": 1,
+        "events": 27,
+        "animations": 31,
+        "ikConstraints": 22,
+        "transformConstraints": 78,
+        "pathConstraints": 0,
+        "physicsConstraints": 37,
+        "atlasRegions": 257,
+        "atlasPages": 4
+      },
+      "integrity": {
+        "attachmentsResolved": 264,
+        "regionAttachments": 4,
+        "meshAttachments": 260,
+        "missingAttachments": []
+      },
+      "files": {
+        "skeleton": "spine/CH0294_home/CH0294_home.skel",
+        "atlas": "spine/CH0294_home/CH0294_home.atlas",
+        "atlasPages": [
+          {
+            "file": "CH0294_home.png",
+            "width": 2048,
+            "height": 2048,
+            "regions": 199
+          },
+          {
+            "file": "CH0294_home_2.png",
+            "width": 2048,
+            "height": 1024,
+            "regions": 1
+          },
+          {
+            "file": "CH0294_home_3.png",
+            "width": 2048,
+            "height": 2048,
+            "regions": 8
+          },
+          {
+            "file": "CH0294_home_4.png",
+            "width": 2048,
+            "height": 1024,
+            "regions": 49
+          }
+        ]
+      },
+      "animations": [
+        {
+          "name": "Dummy",
+          "durationSeconds": 0.0333,
+          "timelines": 1
+        },
+        {
+          "name": "Eye_Close_01",
+          "durationSeconds": 0.3667,
+          "timelines": 14
+        },
+        {
+          "name": "Idle_01",
+          "durationSeconds": 12,
+          "timelines": 291
+        },
+        {
+          "name": "LookEnd_01_A",
+          "durationSeconds": 0.6667,
+          "timelines": 4
+        },
+        {
+          "name": "LookEnd_01_M",
+          "durationSeconds": 0.6667,
+          "timelines": 39
+        },
+        {
+          "name": "Look_01_M",
+          "durationSeconds": 0.3333,
+          "timelines": 33
+        },
+        {
+          "name": "PatEnd_01_A",
+          "durationSeconds": 1.1667,
+          "timelines": 9
+        },
+        {
+          "name": "PatEnd_01_M",
+          "durationSeconds": 1.1667,
+          "timelines": 45
+        },
+        {
+          "name": "Pat_01_A",
+          "durationSeconds": 0.3333,
+          "timelines": 9
+        },
+        {
+          "name": "Pat_01_M",
+          "durationSeconds": 0.3333,
+          "timelines": 37
+        },
+        {
+          "name": "Start_Idle_01",
+          "durationSeconds": 21.6667,
+          "timelines": 573
+        },
+        {
+          "name": "Talk_01_A",
+          "durationSeconds": 20.6667,
+          "timelines": 13
+        },
+        {
+          "name": "Talk_01_A_CN",
+          "durationSeconds": 20.6667,
+          "timelines": 13
+        },
+        {
+          "name": "Talk_01_M",
+          "durationSeconds": 20.6667,
+          "timelines": 98
+        },
+        {
+          "name": "Talk_01_M_CN",
+          "durationSeconds": 20.6667,
+          "timelines": 98
+        },
+        {
+          "name": "Talk_02_A",
+          "durationSeconds": 18.8333,
+          "timelines": 13
+        },
+        {
+          "name": "Talk_02_A_CN",
+          "durationSeconds": 18.8333,
+          "timelines": 13
+        },
+        {
+          "name": "Talk_02_M",
+          "durationSeconds": 18.8333,
+          "timelines": 78
+        },
+        {
+          "name": "Talk_02_M_CN",
+          "durationSeconds": 18.8333,
+          "timelines": 78
+        },
+        {
+          "name": "Talk_03_A",
+          "durationSeconds": 20.8333,
+          "timelines": 13
+        },
+        {
+          "name": "Talk_03_A_CN",
+          "durationSeconds": 20.8333,
+          "timelines": 13
+        },
+        {
+          "name": "Talk_03_M",
+          "durationSeconds": 20.8333,
+          "timelines": 101
+        },
+        {
+          "name": "Talk_03_M_CN",
+          "durationSeconds": 20.8333,
+          "timelines": 101
+        },
+        {
+          "name": "Talk_04_A",
+          "durationSeconds": 24.1667,
+          "timelines": 13
+        },
+        {
+          "name": "Talk_04_A_CN",
+          "durationSeconds": 24.1667,
+          "timelines": 13
+        },
+        {
+          "name": "Talk_04_M",
+          "durationSeconds": 24.1667,
+          "timelines": 74
+        },
+        {
+          "name": "Talk_04_M_CN",
+          "durationSeconds": 24.1667,
+          "timelines": 74
+        },
+        {
+          "name": "Talk_05_A",
+          "durationSeconds": 13.1667,
+          "timelines": 9
+        },
+        {
+          "name": "Talk_05_A_CN",
+          "durationSeconds": 13.1667,
+          "timelines": 9
+        },
+        {
+          "name": "Talk_05_M",
+          "durationSeconds": 13.1667,
+          "timelines": 84
+        },
+        {
+          "name": "Talk_05_M_CN",
+          "durationSeconds": 13.1667,
+          "timelines": 84
+        }
+      ],
+      "events": [
+        "CH0294_MemorialLobby_1_1",
+        "CH0294_MemorialLobby_1_2",
+        "CH0294_MemorialLobby_2_1",
+        "CH0294_MemorialLobby_2_2",
+        "CH0294_MemorialLobby_2_3",
+        "CH0294_MemorialLobby_3_1",
+        "CH0294_MemorialLobby_3_2",
+        "CH0294_MemorialLobby_3_3",
+        "CH0294_MemorialLobby_4_1",
+        "CH0294_MemorialLobby_4_2",
+        "CH0294_MemorialLobby_4_3",
+        "CH0294_MemorialLobby_5_1",
+        "CH0294_MemorialLobby_5_2",
+        "Talk",
+        "Sound/CH0294_MemorialLobby_1_1",
+        "Sound/CH0294_MemorialLobby_1_2",
+        "Sound/CH0294_MemorialLobby_2_1",
+        "Sound/CH0294_MemorialLobby_2_2",
+        "Sound/CH0294_MemorialLobby_2_3",
+        "Sound/CH0294_MemorialLobby_3_1",
+        "Sound/CH0294_MemorialLobby_3_2",
+        "Sound/CH0294_MemorialLobby_3_3",
+        "Sound/CH0294_MemorialLobby_4_1",
+        "Sound/CH0294_MemorialLobby_4_2",
+        "Sound/CH0294_MemorialLobby_4_3",
+        "Sound/CH0294_MemorialLobby_5_1",
+        "Sound/CH0294_MemorialLobby_5_2"
+      ],
+      "background": {
+        "embeddedInSkeleton": true,
+        "layerCount": 13,
+        "layerTable": "background/CH0294_home/layers.csv",
+        "flattenedRender": "background/CH0294_home/flattened_setup.png",
+        "sceneCanvas": {
+          "width": 4471,
+          "height": 3883
+        },
+        "layers": [
+          {
+            "drawOrder": 0,
+            "slot": "BG_03",
+            "bone": "bone83",
+            "blendMode": "normal",
+            "region": "00/BG_01_",
+            "atlasPage": "CH0294_home_2.png",
+            "atlasRect": {
+              "x": 2,
+              "y": 2,
+              "width": 1581,
+              "height": 1008
+            },
+            "atlasRegionRotated": false
+          },
+          {
+            "drawOrder": 1,
+            "slot": "BG_fx03",
+            "bone": "BG_B",
+            "blendMode": "normal",
+            "region": "01/BG_fx03",
+            "atlasPage": "CH0294_home_3.png",
+            "atlasRect": {
+              "x": 2,
+              "y": 1584,
+              "width": 1388,
+              "height": 207
+            },
+            "atlasRegionRotated": false
+          },
+          {
+            "drawOrder": 2,
+            "slot": "BG_02",
+            "bone": "BG",
+            "blendMode": "normal",
+            "region": "01/BG_02",
+            "atlasPage": "CH0294_home_3.png",
+            "atlasRect": {
+              "x": 1346,
+              "y": 329,
+              "width": 1281,
+              "height": 540
+            },
+            "atlasRegionRotated": true
+          },
+          {
+            "drawOrder": 3,
+            "slot": "BG_02_sha",
+            "bone": "BG_ctrl",
+            "blendMode": "normal",
+            "region": "01/BG_02_sha",
+            "atlasPage": "CH0294_home_3.png",
+            "atlasRect": {
+              "x": 941,
+              "y": 1587,
+              "width": 866,
+              "height": 204
+            },
+            "atlasRegionRotated": true
+          },
+          {
+            "drawOrder": 4,
+            "slot": "BG_Wave1",
+            "bone": "BG",
+            "blendMode": "normal",
+            "region": "01/BG_Wave1",
+            "atlasPage": "CH0294_home_3.png",
+            "atlasRect": {
+              "x": 2,
+              "y": 231,
+              "width": 1331,
+              "height": 522
+            },
+            "atlasRegionRotated": false
+          },
+          {
+            "drawOrder": 5,
+            "slot": "BG_Wave2",
+            "bone": "BG",
+            "blendMode": "normal",
+            "region": "01/BG_Wave2",
+            "atlasPage": "CH0294_home_3.png",
+            "atlasRect": {
+              "x": 2,
+              "y": 584,
+              "width": 1413,
+              "height": 861
+            },
+            "atlasRegionRotated": true
+          },
+          {
+            "drawOrder": 6,
+            "slot": "BG_Wave3",
+            "bone": "BG",
+            "blendMode": "normal",
+            "region": "01/BG_Wave3",
+            "atlasPage": "CH0294_home_3.png",
+            "atlasRect": {
+              "x": 2,
+              "y": 2,
+              "width": 1376,
+              "height": 367
+            },
+            "atlasRegionRotated": false
+          },
+          {
+            "drawOrder": 7,
+            "slot": "BG_Wave4",
+            "bone": "BG",
+            "blendMode": "normal",
+            "region": "01/BG_Wave4",
+            "atlasPage": "CH0294_home_3.png",
+            "atlasRect": {
+              "x": 2,
+              "y": 1328,
+              "width": 1341,
+              "height": 308
+            },
+            "atlasRegionRotated": false
+          },
+          {
+            "drawOrder": 8,
+            "slot": "BG_Wave5",
+            "bone": "BG",
+            "blendMode": "normal",
+            "region": "01/BG_Wave5",
+            "atlasPage": "CH0294_home_3.png",
+            "atlasRect": {
+              "x": 2,
+              "y": 1503,
+              "width": 1354,
+              "height": 226
+            },
+            "atlasRegionRotated": true
+          },
+          {
+            "drawOrder": 209,
+            "slot": "FX_light_02",
+            "bone": "FX",
+            "blendMode": "additive",
+            "region": "03/FX_light_02",
+            "atlasPage": "CH0294_home_4.png",
+            "atlasRect": {
+              "x": 538,
+              "y": 210,
+              "width": 665,
+              "height": 783
+            },
+            "atlasRegionRotated": false
+          },
+          {
+            "drawOrder": 210,
+            "slot": "FX_light_03",
+            "bone": "FX",
+            "blendMode": "additive",
+            "region": "03/FX_light_02",
+            "atlasPage": "CH0294_home_4.png",
+            "atlasRect": {
+              "x": 538,
+              "y": 210,
+              "width": 665,
+              "height": 783
+            },
+            "atlasRegionRotated": false
+          },
+          {
+            "drawOrder": 211,
+            "slot": "FX_light_01",
+            "bone": "PC",
+            "blendMode": "additive",
+            "region": "03/FX_light_01",
+            "atlasPage": "CH0294_home_4.png",
+            "atlasRect": {
+              "x": 2,
+              "y": 142,
+              "width": 851,
+              "height": 625
+            },
+            "atlasRegionRotated": true
+          },
+          {
+            "drawOrder": 212,
+            "slot": "FX_light_04",
+            "bone": "PC",
+            "blendMode": "additive",
+            "region": "03/FX_light_01",
+            "atlasPage": "CH0294_home_4.png",
+            "atlasRect": {
+              "x": 2,
+              "y": 142,
+              "width": 851,
+              "height": 625
+            },
+            "atlasRegionRotated": true
+          }
+        ]
+      }
+    }
+  },
+  "files": {
+    "spine": [
+      {
+        "path": "spine/CH0069_home/CH0069_home.atlas",
+        "bytes": 40785,
+        "sha256": "77611011a0b449a8deadb578da766311531bc02af30072eb9a2108e23fa1ad09"
+      },
+      {
+        "path": "spine/CH0069_home/CH0069_home.png",
+        "bytes": 3344923,
+        "sha256": "d802ed75f037229ebf1998b8d3606e24342d9e84f7b260edcdc69b511f4bef6d"
+      },
+      {
+        "path": "spine/CH0069_home/CH0069_home.skel",
+        "bytes": 2133067,
+        "sha256": "97d3f5ca2cb42c1af265926c1204c706e3535a13faee5c7b681037f3eb4b7a47"
+      },
+      {
+        "path": "spine/CH0069_home/CH0069_home2.png",
+        "bytes": 806386,
+        "sha256": "e4ff66dca5fe1b38a06234c056b27f28e1807c297d4c4dad3c01398296d58917"
+      },
+      {
+        "path": "spine/CH0069_home/CH0069_home3.png",
+        "bytes": 3229193,
+        "sha256": "74ffb75d22d5b5fcc3277472bb8930ee8007b6118ccd48e31482e9133565acde"
+      },
+      {
+        "path": "spine/CH0069_home/CH0069_home4.png",
+        "bytes": 882611,
+        "sha256": "b138f30eed54eee4f34f83e1d7b88fdf78e18dd911fad6fc0ef09194cca8c30a"
+      },
+      {
+        "path": "spine/CH0294_home/CH0294_home.atlas",
+        "bytes": 14312,
+        "sha256": "a236f32a0f1f8c21e621fc52e8aa2eaba1d7cde21a0d9fa576334279bb6af04e"
+      },
+      {
+        "path": "spine/CH0294_home/CH0294_home.png",
+        "bytes": 2343540,
+        "sha256": "53a530c7fe3694e4f8dc23e35af7aaa86690b398c19d56726131c46f4076da10"
+      },
+      {
+        "path": "spine/CH0294_home/CH0294_home.skel",
+        "bytes": 981442,
+        "sha256": "6577354f469857c8711bf5b175e9b6fa1b6646f37396cac25b75336a98412369"
+      },
+      {
+        "path": "spine/CH0294_home/CH0294_home_2.png",
+        "bytes": 1071465,
+        "sha256": "dad021dca47e7e3d03a94f28aca047daca88c0183d0c55e8ff7efe4818a51aae"
+      },
+      {
+        "path": "spine/CH0294_home/CH0294_home_3.png",
+        "bytes": 1969836,
+        "sha256": "b60f49947e5f54147bc95ce67f0b45918db26f012c56ada2b5fd8c23efcb639c"
+      },
+      {
+        "path": "spine/CH0294_home/CH0294_home_4.png",
+        "bytes": 661679,
+        "sha256": "ef6966db8515040bc09bc262b97b5419bd1de5af5d31f5e4816ce50c0af13574"
+      }
+    ],
+    "background": [
+      {
+        "path": "background/CH0069_home/flattened_setup.png",
+        "bytes": 8249007,
+        "sha256": "89c4402e850a2b2efd982ab374841ae18584186b4a8c38cd60fe2f741d67cf2b"
+      },
+      {
+        "path": "background/CH0069_home/flattened_t1.5.png",
+        "bytes": 8517308,
+        "sha256": "3ab865ce4d551208969b349487f49a3df53c57d51a8b954cd95172120a7a919f"
+      },
+      {
+        "path": "background/CH0069_home/layers.csv",
+        "bytes": 7621,
+        "sha256": "34320dbf9a5dbcde03edae8774c8b2b33e08f48d8eddaddfffabb3331d7c9322"
+      },
+      {
+        "path": "background/CH0294_home/flattened_setup.png",
+        "bytes": 9858663,
+        "sha256": "82119a351ed6a174e13ef14cf3912f1c36287d5b79d751abe29a5983ac369f2f"
+      },
+      {
+        "path": "background/CH0294_home/layers.csv",
+        "bytes": 1629,
+        "sha256": "044a21f7b567b7e2c9f02d716397811858c6ade77d38f65d0445ca9ffdeffc8d"
+      }
+    ],
+    "renders": [
+      {
+        "path": "renders/CH0069_home/Idle_01_t0.5.png",
+        "bytes": 8619207,
+        "sha256": "ce45d17571d8a9f5045a738051fb81fdbd97b54ce821dfb8f4d3824765676236"
+      },
+      {
+        "path": "renders/CH0069_home/Idle_01_t1.5_charOnly.png",
+        "bytes": 4520178,
+        "sha256": "09e8d6351c67783496970ec301c5549cd472c589bbb268b7aaa28e43d575f53c"
+      },
+      {
+        "path": "renders/CH0069_home/Idle_01_t8.0.png",
+        "bytes": 8734836,
+        "sha256": "8eac68b23a448c3943ae7a2dee5bb5c6ede9ae563d8154d45c0e9ec6da267b87"
+      },
+      {
+        "path": "renders/CH0069_home/Talk_01_A_t2.0.png",
+        "bytes": 8415219,
+        "sha256": "02fc76f47f3deb0d92108018b29b30284b34e0a3c19a9fd1aaa7f7879bf692f2"
+      },
+      {
+        "path": "renders/CH0294_home/Idle_01_t0.5.png",
+        "bytes": 10149393,
+        "sha256": "dd86e015b5c4ffbfb06907b993e399f5ed36f6f9a32990fbc5ca9e3f965656c5"
+      },
+      {
+        "path": "renders/CH0294_home/Idle_01_t1.5_charOnly.png",
+        "bytes": 4670758,
+        "sha256": "282a0f0e1f396c5e2511e98191fb2fe2ebb9112ccb46edab255503cc12f65c5e"
+      },
+      {
+        "path": "renders/CH0294_home/Idle_01_t6.0.png",
+        "bytes": 10252041,
+        "sha256": "866603d464e83a687ad9ebb9dc2b83306dbe2d89e527f1c3372010e28a48b19b"
+      }
+    ],
+    "metadata": [
+      {
+        "path": "metadata/CH0069_home.metadata.json",
+        "bytes": 180746,
+        "sha256": "86f35ad2e63b5381d3871addf4afb34c3be64bf1905d28ee3a3383c5c4de7ea7"
+      },
+      {
+        "path": "metadata/CH0294_home.metadata.json",
+        "bytes": 113927,
+        "sha256": "69fa01b2caa4f813859e6b5afc7845d8d8944ea6463c46e209b9f7889c1ba635"
+      }
+    ],
+    "preview": [
+      {
+        "path": "preview/index.html",
+        "bytes": 1199,
+        "sha256": "5feff88cc61c97ee6dc5d21f68f78800ad8fa29284746b2e8f17b491934c8613"
+      },
+      {
+        "path": "preview/player.bundle.js",
+        "bytes": 340826,
+        "sha256": "cb63521d88b126c3a95227a39eb3ccae0db00a7fbfb4a4a7070f2bb729b90d1c"
+      }
+    ]
+  },
+  "risks": [
+    "Skeleton header reports 4.2.33 but only spine-core >= 4.2.120 parses it; pick the newest 4.2 patch of any official runtime.",
+    "The two atlases use different text dialects (3.8-style xy/size/orig/offset vs 4.x bounds/offsets/rotate:90|270/scale).",
+    "spine-core 4.2 ignores the atlas 'scale' key; rendering is still correct, verified.",
+    "CH0069_home lacks nonessential data: fps 0, imagesPath/audioPath null, mesh width/height 0.",
+    "CH0294_home needs 4.2 PhysicsConstraint support for 37 hair/cloth constraints.",
+    "Canvas preview blending (additive/screen) and alpha handling approximate the in-game Unity renderer.",
+    "Background vs character slot split is a name/region heuristic defined in BA_Data/spine-lab/bg_pattern.mjs.",
+    "Assets belong to Nexon / Yostar / Shanghai Xingxiao; educational use only."
+  ]
+}

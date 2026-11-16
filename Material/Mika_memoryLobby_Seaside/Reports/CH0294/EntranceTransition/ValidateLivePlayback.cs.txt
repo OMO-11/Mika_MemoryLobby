@@ -1,0 +1,23 @@
+if(!UnityEngine.Application.isPlaying)throw new System.Exception("Enter Play mode first");
+UnityEditor.EditorApplication.isPaused=false;
+bool background=UnityEngine.Application.runInBackground;
+UnityEngine.Application.runInBackground=true;
+var view=typeof(UnityEditor.EditorWindow).Assembly.GetType("UnityEditor.GameView");
+UnityEditor.EditorWindow.GetWindow(view).Focus();
+var c=UnityEngine.Object.FindFirstObjectByType<Mika.Seaside.SeasideLobbyController>();
+c.PlayEntrance();
+var clock=System.Diagnostics.Stopwatch.StartNew();float start=UnityEngine.Time.time;float cut=-1;float alpha=-1;
+UnityEditor.EditorApplication.CallbackFunction tick=null;
+tick=()=>{
+    if(c==null || !UnityEditor.EditorApplication.isPlaying){UnityEditor.EditorApplication.update-=tick;return;}
+    var e=c.GetComponent<Spine.Unity.SkeletonGraphic>().AnimationState.GetCurrent(0);
+    if(e.Animation.Name=="Idle_01" && cut<0){cut=UnityEngine.Time.time-start;alpha=c.EntranceFlashAlpha;}
+    if(!c.IsEntrancePlaying || UnityEngine.Time.time-start>18){
+        var result=new {actualPlayMode=true,speed=c.EntranceSpeed,gameSeconds=UnityEngine.Time.time-start,wallSeconds=clock.Elapsed.TotalSeconds,cutSeconds=cut,cutAlpha=alpha,idle=e.Animation.Name,flash=c.EntranceFlashAlpha,passed=UnityEngine.Time.time-start>13 && UnityEngine.Time.time-start<15 && cut>13 && alpha==1f && c.EntranceFlashAlpha==0};
+        System.IO.File.WriteAllText(@"W:\Machine\VSCode\Mika_Gift\Material\Mika_memoryLobby_Seaside\Reports\CH0294\EntranceTransition\playmode_validation.json",Newtonsoft.Json.JsonConvert.SerializeObject(result,Newtonsoft.Json.Formatting.Indented));
+        UnityEngine.Application.runInBackground=background;
+        UnityEditor.EditorApplication.update-=tick;
+    }
+};
+UnityEditor.EditorApplication.update+=tick;
+return "Live playback timing started";

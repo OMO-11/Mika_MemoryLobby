@@ -1,0 +1,659 @@
+{
+  "passed": true,
+  "revision": 6,
+  "baselineRevision": 5,
+  "scope": [
+    "BodyClick",
+    "Confused",
+    "HeadClick",
+    "Success"
+  ],
+  "exactStageControlsMaximumError": 0.0,
+  "boundedInterpolation": true,
+  "sharedVelocityAndAccelerationAtJoins": true,
+  "controlJoinDiagnostics": [
+    {
+      "name": "BodyClick",
+      "phase": 0.13,
+      "deliberateHoldBoundary": false,
+      "maximumControlSpeedThroughKey": 58.4307193888911,
+      "maximumOneSidedVelocityDifference": 4.68833860622908e-06
+    },
+    {
+      "name": "BodyClick",
+      "phase": 0.35,
+      "deliberateHoldBoundary": true,
+      "maximumControlSpeedThroughKey": 7.513101252243358e-07,
+      "maximumOneSidedVelocityDifference": 1.5022649790807916e-06
+    },
+    {
+      "name": "BodyClick",
+      "phase": 0.55,
+      "deliberateHoldBoundary": true,
+      "maximumControlSpeedThroughKey": 1.3661960451827324e-06,
+      "maximumOneSidedVelocityDifference": 2.732392090365465e-06
+    },
+    {
+      "name": "BodyClick",
+      "phase": 0.7,
+      "deliberateHoldBoundary": false,
+      "maximumControlSpeedThroughKey": 46.28410289160278,
+      "maximumOneSidedVelocityDifference": 2.715072611181313e-06
+    },
+    {
+      "name": "BodyClick",
+      "phase": 0.96,
+      "deliberateHoldBoundary": true,
+      "maximumControlSpeedThroughKey": 2.560161823216333e-07,
+      "maximumOneSidedVelocityDifference": 5.120323646432666e-07
+    },
+    {
+      "name": "Confused",
+      "phase": 0.1,
+      "deliberateHoldBoundary": true,
+      "maximumControlSpeedThroughKey": 1.7358941391617572e-06,
+      "maximumOneSidedVelocityDifference": 3.4717882783235145e-06
+    },
+    {
+      "name": "Confused",
+      "phase": 0.22,
+      "deliberateHoldBoundary": false,
+      "maximumControlSpeedThroughKey": 73.52941337952501,
+      "maximumOneSidedVelocityDifference": 3.814815130454007e-06
+    },
+    {
+      "name": "Confused",
+      "phase": 0.4,
+      "deliberateHoldBoundary": true,
+      "maximumControlSpeedThroughKey": 8.318679078911372e-07,
+      "maximumOneSidedVelocityDifference": 1.6644463585180345e-06
+    },
+    {
+      "name": "Confused",
+      "phase": 0.58,
+      "deliberateHoldBoundary": true,
+      "maximumControlSpeedThroughKey": 6.000977492703896e-07,
+      "maximumOneSidedVelocityDifference": 1.2001954985407792e-06
+    },
+    {
+      "name": "Confused",
+      "phase": 0.76,
+      "deliberateHoldBoundary": false,
+      "maximumControlSpeedThroughKey": 62.801933175737894,
+      "maximumOneSidedVelocityDifference": 1.2001743171001507e-06
+    },
+    {
+      "name": "Confused",
+      "phase": 0.94,
+      "deliberateHoldBoundary": true,
+      "maximumControlSpeedThroughKey": 7.268190405360702e-07,
+      "maximumOneSidedVelocityDifference": 1.4536380810721404e-06
+    },
+    {
+      "name": "HeadClick",
+      "phase": 0.18,
+      "deliberateHoldBoundary": true,
+      "maximumControlSpeedThroughKey": 9.429790281956229e-07,
+      "maximumOneSidedVelocityDifference": 1.8859580563912457e-06
+    },
+    {
+      "name": "HeadClick",
+      "phase": 0.3,
+      "deliberateHoldBoundary": true,
+      "maximumControlSpeedThroughKey": 4.799716180059477e-07,
+      "maximumOneSidedVelocityDifference": 9.599432360118954e-07
+    },
+    {
+      "name": "HeadClick",
+      "phase": 0.55,
+      "deliberateHoldBoundary": true,
+      "maximumControlSpeedThroughKey": 4.799716180059477e-07,
+      "maximumOneSidedVelocityDifference": 9.599432360118954e-07
+    },
+    {
+      "name": "HeadClick",
+      "phase": 0.7,
+      "deliberateHoldBoundary": true,
+      "maximumControlSpeedThroughKey": 3.983480212355061e-07,
+      "maximumOneSidedVelocityDifference": 7.970513138388923e-07
+    },
+    {
+      "name": "HeadClick",
+      "phase": 0.96,
+      "deliberateHoldBoundary": true,
+      "maximumControlSpeedThroughKey": 3.982473947225407e-07,
+      "maximumOneSidedVelocityDifference": 7.964947894450814e-07
+    },
+    {
+      "name": "Success",
+      "phase": 0.15,
+      "deliberateHoldBoundary": false,
+      "maximumControlSpeedThroughKey": 25.000000518504702,
+      "maximumOneSidedVelocityDifference": 7.406666844414003e-06
+    },
+    {
+      "name": "Success",
+      "phase": 0.3,
+      "deliberateHoldBoundary": true,
+      "maximumControlSpeedThroughKey": 3.7033487387816417e-06,
+      "maximumOneSidedVelocityDifference": 7.4066974775632835e-06
+    },
+    {
+      "name": "Success",
+      "phase": 0.48,
+      "deliberateHoldBoundary": true,
+      "maximumControlSpeedThroughKey": 4.554756571906182e-06,
+      "maximumOneSidedVelocityDifference": 9.109513143812364e-06
+    },
+    {
+      "name": "Success",
+      "phase": 0.62,
+      "deliberateHoldBoundary": false,
+      "maximumControlSpeedThroughKey": 26.785714923227562,
+      "maximumOneSidedVelocityDifference": 9.109810820974671e-06
+    },
+    {
+      "name": "Success",
+      "phase": 0.76,
+      "deliberateHoldBoundary": false,
+      "maximumControlSpeedThroughKey": 9.179266441966538,
+      "maximumOneSidedVelocityDifference": 2.447020364115815e-06
+    },
+    {
+      "name": "Success",
+      "phase": 0.96,
+      "deliberateHoldBoundary": true,
+      "maximumControlSpeedThroughKey": 4.999625067411093e-07,
+      "maximumOneSidedVelocityDifference": 9.999250134822186e-07
+    }
+  ],
+  "acceptedPoseWorldComparison": [
+    {
+      "name": "BodyClick",
+      "phase": 0,
+      "maximumWorldPositionDifferenceMeters": 0.0,
+      "maximumWorldAngleDifferenceDegrees": 3.520199343504511e-06
+    },
+    {
+      "name": "BodyClick",
+      "phase": 0.13,
+      "maximumWorldPositionDifferenceMeters": 1.6151093936092166e-05,
+      "maximumWorldAngleDifferenceDegrees": 0.005516553232582291
+    },
+    {
+      "name": "BodyClick",
+      "phase": 0.35,
+      "maximumWorldPositionDifferenceMeters": 4.435768093151602e-06,
+      "maximumWorldAngleDifferenceDegrees": 0.001357744830573303
+    },
+    {
+      "name": "BodyClick",
+      "phase": 0.55,
+      "maximumWorldPositionDifferenceMeters": 3.656102462525754e-07,
+      "maximumWorldAngleDifferenceDegrees": 0.0001754395780978501
+    },
+    {
+      "name": "BodyClick",
+      "phase": 0.7,
+      "maximumWorldPositionDifferenceMeters": 7.959190609757244e-06,
+      "maximumWorldAngleDifferenceDegrees": 0.003991361132670849
+    },
+    {
+      "name": "BodyClick",
+      "phase": 0.96,
+      "maximumWorldPositionDifferenceMeters": 1.4203515794610576e-05,
+      "maximumWorldAngleDifferenceDegrees": 0.003743561672867492
+    },
+    {
+      "name": "BodyClick",
+      "phase": 1,
+      "maximumWorldPositionDifferenceMeters": 0.0,
+      "maximumWorldAngleDifferenceDegrees": 3.520199343504511e-06
+    },
+    {
+      "name": "Confused",
+      "phase": 0,
+      "maximumWorldPositionDifferenceMeters": 0.0,
+      "maximumWorldAngleDifferenceDegrees": 3.520199343504511e-06
+    },
+    {
+      "name": "Confused",
+      "phase": 0.1,
+      "maximumWorldPositionDifferenceMeters": 9.337848657639325e-06,
+      "maximumWorldAngleDifferenceDegrees": 0.002494002039816157
+    },
+    {
+      "name": "Confused",
+      "phase": 0.22,
+      "maximumWorldPositionDifferenceMeters": 1.4060712824097054e-05,
+      "maximumWorldAngleDifferenceDegrees": 0.0059586368524238015
+    },
+    {
+      "name": "Confused",
+      "phase": 0.4,
+      "maximumWorldPositionDifferenceMeters": 2.330025395997355e-05,
+      "maximumWorldAngleDifferenceDegrees": 0.009331730935219088
+    },
+    {
+      "name": "Confused",
+      "phase": 0.58,
+      "maximumWorldPositionDifferenceMeters": 7.775786580365262e-06,
+      "maximumWorldAngleDifferenceDegrees": 0.003059656572739106
+    },
+    {
+      "name": "Confused",
+      "phase": 0.76,
+      "maximumWorldPositionDifferenceMeters": 1.2523758914873351e-05,
+      "maximumWorldAngleDifferenceDegrees": 0.004184986541691705
+    },
+    {
+      "name": "Confused",
+      "phase": 0.94,
+      "maximumWorldPositionDifferenceMeters": 6.660545068331279e-06,
+      "maximumWorldAngleDifferenceDegrees": 0.005818834005800446
+    },
+    {
+      "name": "Confused",
+      "phase": 1,
+      "maximumWorldPositionDifferenceMeters": 0.0,
+      "maximumWorldAngleDifferenceDegrees": 3.520199343504511e-06
+    },
+    {
+      "name": "HeadClick",
+      "phase": 0,
+      "maximumWorldPositionDifferenceMeters": 0.0,
+      "maximumWorldAngleDifferenceDegrees": 3.520199343504511e-06
+    },
+    {
+      "name": "HeadClick",
+      "phase": 0.18,
+      "maximumWorldPositionDifferenceMeters": 0.00011953392009084056,
+      "maximumWorldAngleDifferenceDegrees": 0.0781841115715017
+    },
+    {
+      "name": "HeadClick",
+      "phase": 0.3,
+      "maximumWorldPositionDifferenceMeters": 2.6362950603649642e-05,
+      "maximumWorldAngleDifferenceDegrees": 0.022480150027249998
+    },
+    {
+      "name": "HeadClick",
+      "phase": 0.55,
+      "maximumWorldPositionDifferenceMeters": 5.098023718169657e-05,
+      "maximumWorldAngleDifferenceDegrees": 0.02596226530959021
+    },
+    {
+      "name": "HeadClick",
+      "phase": 0.7,
+      "maximumWorldPositionDifferenceMeters": 1.5145034727182284e-06,
+      "maximumWorldAngleDifferenceDegrees": 0.000781413642127145
+    },
+    {
+      "name": "HeadClick",
+      "phase": 0.96,
+      "maximumWorldPositionDifferenceMeters": 2.3720182125563857e-05,
+      "maximumWorldAngleDifferenceDegrees": 0.011087450594354764
+    },
+    {
+      "name": "HeadClick",
+      "phase": 1,
+      "maximumWorldPositionDifferenceMeters": 0.0,
+      "maximumWorldAngleDifferenceDegrees": 3.520199343504511e-06
+    },
+    {
+      "name": "Success",
+      "phase": 0,
+      "maximumWorldPositionDifferenceMeters": 0.0,
+      "maximumWorldAngleDifferenceDegrees": 3.520199343504511e-06
+    },
+    {
+      "name": "Success",
+      "phase": 0.15,
+      "maximumWorldPositionDifferenceMeters": 6.498910792654301e-05,
+      "maximumWorldAngleDifferenceDegrees": 0.031033885566087476
+    },
+    {
+      "name": "Success",
+      "phase": 0.3,
+      "maximumWorldPositionDifferenceMeters": 1.3337737967256007e-05,
+      "maximumWorldAngleDifferenceDegrees": 0.016530923878260627
+    },
+    {
+      "name": "Success",
+      "phase": 0.48,
+      "maximumWorldPositionDifferenceMeters": 4.153656919230924e-07,
+      "maximumWorldAngleDifferenceDegrees": 0.00023218405311836317
+    },
+    {
+      "name": "Success",
+      "phase": 0.62,
+      "maximumWorldPositionDifferenceMeters": 2.943724016695474e-05,
+      "maximumWorldAngleDifferenceDegrees": 0.018787566110043463
+    },
+    {
+      "name": "Success",
+      "phase": 0.76,
+      "maximumWorldPositionDifferenceMeters": 9.060359401557368e-06,
+      "maximumWorldAngleDifferenceDegrees": 0.005820321462951314
+    },
+    {
+      "name": "Success",
+      "phase": 0.96,
+      "maximumWorldPositionDifferenceMeters": 5.013494797882408e-06,
+      "maximumWorldAngleDifferenceDegrees": 0.0019902438962073206
+    },
+    {
+      "name": "Success",
+      "phase": 1,
+      "maximumWorldPositionDifferenceMeters": 0.0,
+      "maximumWorldAngleDifferenceDegrees": 3.520199343504511e-06
+    }
+  ],
+  "actualIntermediateAngularVelocities": [
+    {
+      "name": "BodyClick",
+      "phase": 0.13,
+      "worldAngularSpeedDegreesPerSecond": {
+        "before": {
+          "Bip001 Head": 0.9780134567318192,
+          "Bip001 Pelvis": 0.1594957130710576,
+          "Bip001 Spine1": 1.2787855174473994,
+          "Bip001 L Hand": 8.84831331362998,
+          "Bip001 R Hand": 11.56835396962267,
+          "Bip001 L UpperArm": 9.559673630766099,
+          "Bip001 R UpperArm": 11.875806949129924,
+          "Bip001 L Forearm": 8.848373245012604,
+          "Bip001 R Forearm": 11.568325979012387,
+          "Bip001 L Foot": 0.26354237976300615,
+          "Bip001 R Foot": 0.26368761974083355
+        },
+        "after": {
+          "Bip001 Head": 19.0563183705439,
+          "Bip001 Pelvis": 0.16562082486192178,
+          "Bip001 Spine1": 4.5307287803056875,
+          "Bip001 L Hand": 98.07244440250467,
+          "Bip001 R Hand": 55.40996260935486,
+          "Bip001 L UpperArm": 102.4068739956892,
+          "Bip001 R UpperArm": 57.217401462963885,
+          "Bip001 L Forearm": 97.95966366351362,
+          "Bip001 R Forearm": 55.34797295230472,
+          "Bip001 L Foot": 0.27100814845920457,
+          "Bip001 R Foot": 0.27032156847704053
+        }
+      }
+    },
+    {
+      "name": "BodyClick",
+      "phase": 0.7,
+      "worldAngularSpeedDegreesPerSecond": {
+        "before": {
+          "Bip001 Head": 1.939674541922666,
+          "Bip001 Pelvis": 0.5722625352563124,
+          "Bip001 Spine1": 1.4317963686279331,
+          "Bip001 L Hand": 4.2971669389993865,
+          "Bip001 R Hand": 3.029997568051446,
+          "Bip001 L UpperArm": 4.374034335420223,
+          "Bip001 R UpperArm": 4.213198503329218,
+          "Bip001 L Forearm": 4.296981082517257,
+          "Bip001 R Forearm": 3.0298031248630393,
+          "Bip001 L Foot": 0.5129969364570455,
+          "Bip001 R Foot": 0.5133825998643085
+        },
+        "after": {
+          "Bip001 Head": 21.41414706527136,
+          "Bip001 Pelvis": 0.5332926895101447,
+          "Bip001 Spine1": 12.098245478229922,
+          "Bip001 L Hand": 56.588989683630516,
+          "Bip001 R Hand": 35.27132278827457,
+          "Bip001 L UpperArm": 58.36712668848186,
+          "Bip001 R UpperArm": 44.762940224953695,
+          "Bip001 L Forearm": 56.541042154856996,
+          "Bip001 R Forearm": 35.24295332945394,
+          "Bip001 L Foot": 6.950134482028246,
+          "Bip001 R Foot": 6.950741870810879
+        }
+      }
+    },
+    {
+      "name": "Confused",
+      "phase": 0.22,
+      "worldAngularSpeedDegreesPerSecond": {
+        "before": {
+          "Bip001 Head": 1.7926898066564285,
+          "Bip001 Pelvis": 0.07565998113422004,
+          "Bip001 Spine1": 0.6257611580325406,
+          "Bip001 L Hand": 4.548473646141625,
+          "Bip001 R Hand": 1.3412596201125508,
+          "Bip001 L UpperArm": 3.821386889300851,
+          "Bip001 R UpperArm": 1.2245308978090945,
+          "Bip001 L Forearm": 3.6015419047261927,
+          "Bip001 R Forearm": 1.341420842363609,
+          "Bip001 L Foot": 0.0003622254809177146,
+          "Bip001 R Foot": 0.00020689703068738337
+        },
+        "after": {
+          "Bip001 Head": 22.25121260952757,
+          "Bip001 Pelvis": 0.07806113746063038,
+          "Bip001 Spine1": 0.6073141819560778,
+          "Bip001 L Hand": 34.49040255501766,
+          "Bip001 R Hand": 19.94863234910882,
+          "Bip001 L UpperArm": 31.76030861871391,
+          "Bip001 R UpperArm": 19.6169768193237,
+          "Bip001 L Forearm": 34.0301622321328,
+          "Bip001 R Forearm": 19.93643937765066,
+          "Bip001 L Foot": 0.0006428864533742277,
+          "Bip001 R Foot": 0.0008480448147277058
+        }
+      }
+    },
+    {
+      "name": "Confused",
+      "phase": 0.76,
+      "worldAngularSpeedDegreesPerSecond": {
+        "before": {
+          "Bip001 Head": 0.8518049352827972,
+          "Bip001 Pelvis": 0.0751791044261262,
+          "Bip001 Spine1": 0.1550656734242012,
+          "Bip001 L Hand": 4.244701654018014,
+          "Bip001 R Hand": 1.0074175741001568,
+          "Bip001 L UpperArm": 4.446724725138334,
+          "Bip001 R UpperArm": 0.8006649565193777,
+          "Bip001 L Forearm": 6.097932145205773,
+          "Bip001 R Forearm": 1.00754046764871,
+          "Bip001 L Foot": 0.000395141349191681,
+          "Bip001 R Foot": 5.2802983857960725e-05
+        },
+        "after": {
+          "Bip001 Head": 17.134753574090247,
+          "Bip001 Pelvis": 0.07287897907033236,
+          "Bip001 Spine1": 2.1622145351218496,
+          "Bip001 L Hand": 54.82028980424911,
+          "Bip001 R Hand": 17.45825954792843,
+          "Bip001 L UpperArm": 51.379558652506375,
+          "Bip001 R UpperArm": 3.5532876141043284,
+          "Bip001 L Forearm": 82.57491864036706,
+          "Bip001 R Forearm": 17.457532765149075,
+          "Bip001 L Foot": 0.00029538594051230194,
+          "Bip001 R Foot": 8.099607985145743e-05
+        }
+      }
+    },
+    {
+      "name": "Success",
+      "phase": 0.15,
+      "worldAngularSpeedDegreesPerSecond": {
+        "before": {
+          "Bip001 Head": 1.1127839393273162,
+          "Bip001 Pelvis": 0.13601918389872325,
+          "Bip001 Spine1": 0.5740774097568612,
+          "Bip001 L Hand": 8.657010179502151,
+          "Bip001 R Hand": 7.526561039466094,
+          "Bip001 L UpperArm": 7.20250329871005,
+          "Bip001 R UpperArm": 5.117023987942962,
+          "Bip001 L Forearm": 5.944104468824923,
+          "Bip001 R Forearm": 6.381595582529723,
+          "Bip001 L Foot": 1.5321480775768037,
+          "Bip001 R Foot": 1.5317170893645635
+        },
+        "after": {
+          "Bip001 Head": 1.1207744434514098,
+          "Bip001 Pelvis": 0.15687228655632482,
+          "Bip001 Spine1": 0.6205143188298501,
+          "Bip001 L Hand": 58.70037649165645,
+          "Bip001 R Hand": 82.42495802107786,
+          "Bip001 L UpperArm": 59.52183639032377,
+          "Bip001 R UpperArm": 73.59722055263296,
+          "Bip001 L Forearm": 39.89054666698436,
+          "Bip001 R Forearm": 77.06577228351874,
+          "Bip001 L Foot": 1.5855993309863756,
+          "Bip001 R Foot": 1.5853576763661228
+        }
+      }
+    },
+    {
+      "name": "Success",
+      "phase": 0.62,
+      "worldAngularSpeedDegreesPerSecond": {
+        "before": {
+          "Bip001 Head": 1.0069385900005572,
+          "Bip001 Pelvis": 0.13088575777049072,
+          "Bip001 Spine1": 0.5308853864781597,
+          "Bip001 L Hand": 5.031295252705635,
+          "Bip001 R Hand": 6.629378117076894,
+          "Bip001 L UpperArm": 3.8812128856611516,
+          "Bip001 R UpperArm": 4.31891832272309,
+          "Bip001 L Forearm": 4.391178814953942,
+          "Bip001 R Forearm": 5.30597521161086,
+          "Bip001 L Foot": 1.6356185179716722,
+          "Bip001 R Foot": 1.6357612868272955
+        },
+        "after": {
+          "Bip001 Head": 2.8982323859742283,
+          "Bip001 Pelvis": 0.12614169040564002,
+          "Bip001 Spine1": 0.507550443501729,
+          "Bip001 L Hand": 65.7686286014593,
+          "Bip001 R Hand": 84.6469088996939,
+          "Bip001 L UpperArm": 43.38492121449183,
+          "Bip001 R UpperArm": 58.688013112429495,
+          "Bip001 L Forearm": 48.78951428550032,
+          "Bip001 R Forearm": 60.06748395151516,
+          "Bip001 L Foot": 1.5932050067685408,
+          "Bip001 R Foot": 1.5932826619784786
+        }
+      }
+    },
+    {
+      "name": "Success",
+      "phase": 0.76,
+      "worldAngularSpeedDegreesPerSecond": {
+        "before": {
+          "Bip001 Head": 0.871191962448256,
+          "Bip001 Pelvis": 0.0,
+          "Bip001 Spine1": 0.3855016741467206,
+          "Bip001 L Hand": 5.891436340254482,
+          "Bip001 R Hand": 3.0456491456485946,
+          "Bip001 L UpperArm": 3.881816969377648,
+          "Bip001 R UpperArm": 2.1996147477880124,
+          "Bip001 L Forearm": 3.6846679056115796,
+          "Bip001 R Forearm": 2.395323147188673,
+          "Bip001 L Foot": 0.00015367925632528648,
+          "Bip001 R Foot": 7.244509618354395e-05
+        },
+        "after": {
+          "Bip001 Head": 3.4649888357832737,
+          "Bip001 Pelvis": 0.0,
+          "Bip001 Spine1": 0.3775318190781332,
+          "Bip001 L Hand": 94.24777141324084,
+          "Bip001 R Hand": 50.87687027710599,
+          "Bip001 L UpperArm": 68.30282987854727,
+          "Bip001 R UpperArm": 35.78348368909549,
+          "Bip001 L Forearm": 64.88850724375696,
+          "Bip001 R Forearm": 42.11716410464426,
+          "Bip001 L Foot": 8.099607985145743e-05,
+          "Bip001 R Foot": 0.000178375362687291
+        }
+      }
+    }
+  ],
+  "unchangedAnimationActions": [
+    "PetV2_Working",
+    "PetV2_Wave",
+    "PetV2_Walk",
+    "PetV2_Thinking",
+    "PetV2_Sleep_Exit",
+    "PetV2_Sleep_Enter",
+    "PetV2_Sleep",
+    "PetV2_Shapes_Working",
+    "PetV2_Shapes_Wave",
+    "PetV2_Shapes_Walk",
+    "PetV2_Shapes_Thinking",
+    "PetV2_Shapes_Success",
+    "PetV2_Shapes_Sleep_Exit",
+    "PetV2_Shapes_Sleep_Enter",
+    "PetV2_Shapes_Sleep",
+    "PetV2_Shapes_Idle",
+    "PetV2_Shapes_HeadPat_Exit",
+    "PetV2_Shapes_HeadPat_Enter",
+    "PetV2_Shapes_HeadPat",
+    "PetV2_Shapes_HeadClick",
+    "PetV2_Shapes_Dragging_Exit",
+    "PetV2_Shapes_Dragging_Enter",
+    "PetV2_Shapes_Dragging",
+    "PetV2_Shapes_Confused",
+    "PetV2_Shapes_BodyClick",
+    "PetV2_Mouth_Working",
+    "PetV2_Mouth_Wave",
+    "PetV2_Mouth_Walk",
+    "PetV2_Mouth_Thinking",
+    "PetV2_Mouth_Success",
+    "PetV2_Mouth_Sleep_Exit",
+    "PetV2_Mouth_Sleep_Enter",
+    "PetV2_Mouth_Sleep",
+    "PetV2_Mouth_Idle",
+    "PetV2_Mouth_HeadPat_Exit",
+    "PetV2_Mouth_HeadPat_Enter",
+    "PetV2_Mouth_HeadPat",
+    "PetV2_Mouth_HeadClick",
+    "PetV2_Mouth_Dragging_Exit",
+    "PetV2_Mouth_Dragging_Enter",
+    "PetV2_Mouth_Dragging",
+    "PetV2_Mouth_Confused",
+    "PetV2_Mouth_BodyClick",
+    "PetV2_Idle",
+    "PetV2_HeadPat_Exit",
+    "PetV2_HeadPat_Enter",
+    "PetV2_HeadPat",
+    "PetV2_FaceStatic_Surprised",
+    "PetV2_FaceStatic_Sleepy",
+    "PetV2_FaceStatic_Shy",
+    "PetV2_FaceStatic_Sad",
+    "PetV2_FaceStatic_Neutral",
+    "PetV2_FaceStatic_Happy",
+    "PetV2_FaceStatic_Confused",
+    "PetV2_FaceStatic_Concern",
+    "PetV2_FaceStatic_Annoyed",
+    "PetV2_FaceProcess_Working",
+    "PetV2_FaceProcess_Wave",
+    "PetV2_FaceProcess_Walk",
+    "PetV2_FaceProcess_Thinking",
+    "PetV2_FaceProcess_Success",
+    "PetV2_FaceProcess_Sleep_Exit",
+    "PetV2_FaceProcess_Sleep_Enter",
+    "PetV2_FaceProcess_Sleep",
+    "PetV2_FaceProcess_Idle",
+    "PetV2_FaceProcess_HeadPat_Exit",
+    "PetV2_FaceProcess_HeadPat_Enter",
+    "PetV2_FaceProcess_HeadPat",
+    "PetV2_FaceProcess_HeadClick",
+    "PetV2_FaceProcess_Dragging_Exit",
+    "PetV2_FaceProcess_Dragging_Enter",
+    "PetV2_FaceProcess_Dragging",
+    "PetV2_FaceProcess_Confused",
+    "PetV2_FaceProcess_BodyClick",
+    "PetV2_Dragging_Exit",
+    "PetV2_Dragging_Enter",
+    "PetV2_Dragging"
+  ],
+  "all18FacialTimelinesPreserved": true,
+  "visualReviewStillRequired": true
+}

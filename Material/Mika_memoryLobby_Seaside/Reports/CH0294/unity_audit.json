@@ -1,0 +1,1071 @@
+{
+  "testedAt": "2026-10-17T16:01:58.8909450+08:00",
+  "projectRoot": "W:\\Machine\\VSCode\\Mika_Gift\\Material\\Mika_MemoryLobby\\MemoryLobby_Seaside",
+  "unityVersion": "6000.3.7f1",
+  "pipeline": "UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset",
+  "activeScene": "Assets/Scenes/SampleScene.unity",
+  "activeSceneDirty": true,
+  "assetPath": "Assets/New Folder/CH0294_home_SkeletonData.asset",
+  "scale": 0.01,
+  "version": "4.2.33",
+  "hash": "-3457687886135959173",
+  "fps": 30.0,
+  "imagesPath": "./images/",
+  "audioPath": "./VOC_CN/",
+  "bounds": {
+    "x": -2531.2124,
+    "y": -1619.00024,
+    "width": 4470.5166,
+    "height": 3882.77661,
+    "referenceScale": 1.0
+  },
+  "bones": 441,
+  "slots": 215,
+  "skins": 1,
+  "ik": 22,
+  "transform": 78,
+  "path": 0,
+  "physics": 37,
+  "atlasRegions": 257,
+  "pages": [
+    {
+      "name": "CH0294_home.png",
+      "width": 2048,
+      "height": 2048,
+      "pmaDeclared": false,
+      "shader": "Spine/Skeleton",
+      "shaderSupported": true,
+      "straightAlphaKeyword": false,
+      "actualWidth": 2048,
+      "actualHeight": 2048,
+      "textureFormat": "RGBA32",
+      "estimatedRuntimeBytes": 33555328,
+      "sRGB": false,
+      "alphaIsTransparency": false,
+      "mipmaps": false,
+      "compression": "Uncompressed"
+    },
+    {
+      "name": "CH0294_home_2.png",
+      "width": 2048,
+      "height": 1024,
+      "pmaDeclared": false,
+      "shader": "Spine/Skeleton",
+      "shaderSupported": true,
+      "straightAlphaKeyword": false,
+      "actualWidth": 2048,
+      "actualHeight": 1024,
+      "textureFormat": "RGBA32",
+      "estimatedRuntimeBytes": 16778112,
+      "sRGB": false,
+      "alphaIsTransparency": false,
+      "mipmaps": false,
+      "compression": "Uncompressed"
+    },
+    {
+      "name": "CH0294_home_3.png",
+      "width": 2048,
+      "height": 2048,
+      "pmaDeclared": false,
+      "shader": "Spine/Skeleton",
+      "shaderSupported": true,
+      "straightAlphaKeyword": false,
+      "actualWidth": 2048,
+      "actualHeight": 2048,
+      "textureFormat": "RGBA32",
+      "estimatedRuntimeBytes": 33555328,
+      "sRGB": false,
+      "alphaIsTransparency": false,
+      "mipmaps": false,
+      "compression": "Uncompressed"
+    },
+    {
+      "name": "CH0294_home_4.png",
+      "width": 2048,
+      "height": 1024,
+      "pmaDeclared": false,
+      "shader": "Spine/Skeleton",
+      "shaderSupported": true,
+      "straightAlphaKeyword": false,
+      "actualWidth": 2048,
+      "actualHeight": 1024,
+      "textureFormat": "RGBA32",
+      "estimatedRuntimeBytes": 16778112,
+      "sRGB": false,
+      "alphaIsTransparency": false,
+      "mipmaps": false,
+      "compression": "Uncompressed"
+    }
+  ],
+  "blendModes": {
+    "Normal": 209,
+    "Additive": 6
+  },
+  "attachmentTypes": {
+    "MeshAttachment": 260,
+    "RegionAttachment": 4
+  },
+  "missingRegions": [],
+  "animations": [
+    {
+      "name": "Dummy",
+      "duration": 0.0333333351,
+      "frames": 4,
+      "finiteBones": true,
+      "finiteVertices": true,
+      "boneMovement": false,
+      "vertexPairsMax": 5430,
+      "timelineTypes": {
+        "TranslateTimeline": 1
+      },
+      "events": []
+    },
+    {
+      "name": "Eye_Close_01",
+      "duration": 0.366666675,
+      "frames": 14,
+      "finiteBones": true,
+      "finiteVertices": true,
+      "boneMovement": true,
+      "vertexPairsMax": 5430,
+      "timelineTypes": {
+        "AttachmentTimeline": 4,
+        "TranslateTimeline": 8,
+        "ScaleTimeline": 2
+      },
+      "events": []
+    },
+    {
+      "name": "Idle_01",
+      "duration": 12.000001,
+      "frames": 363,
+      "finiteBones": true,
+      "finiteVertices": true,
+      "boneMovement": true,
+      "vertexPairsMax": 5430,
+      "timelineTypes": {
+        "RotateTimeline": 179,
+        "TranslateTimeline": 74,
+        "ScaleTimeline": 15,
+        "ShearTimeline": 23
+      },
+      "events": []
+    },
+    {
+      "name": "LookEnd_01_A",
+      "duration": 0.6666667,
+      "frames": 23,
+      "finiteBones": true,
+      "finiteVertices": true,
+      "boneMovement": false,
+      "vertexPairsMax": 5430,
+      "timelineTypes": {
+        "AttachmentTimeline": 4
+      },
+      "events": []
+    },
+    {
+      "name": "LookEnd_01_M",
+      "duration": 0.6666667,
+      "frames": 23,
+      "finiteBones": true,
+      "finiteVertices": true,
+      "boneMovement": true,
+      "vertexPairsMax": 5430,
+      "timelineTypes": {
+        "TranslateTimeline": 10,
+        "RotateTimeline": 2,
+        "IkConstraintTimeline": 2,
+        "TransformConstraintTimeline": 2,
+        "PhysicsConstraintMixTimeline": 23
+      },
+      "events": []
+    },
+    {
+      "name": "Look_01_M",
+      "duration": 0.333333343,
+      "frames": 13,
+      "finiteBones": true,
+      "finiteVertices": true,
+      "boneMovement": false,
+      "vertexPairsMax": 5430,
+      "timelineTypes": {
+        "TranslateTimeline": 4,
+        "RotateTimeline": 2,
+        "IkConstraintTimeline": 2,
+        "TransformConstraintTimeline": 2,
+        "PhysicsConstraintMixTimeline": 23
+      },
+      "events": []
+    },
+    {
+      "name": "PatEnd_01_A",
+      "duration": 1.16666675,
+      "frames": 38,
+      "finiteBones": true,
+      "finiteVertices": true,
+      "boneMovement": false,
+      "vertexPairsMax": 5483,
+      "timelineTypes": {
+        "AttachmentTimeline": 9
+      },
+      "events": []
+    },
+    {
+      "name": "PatEnd_01_M",
+      "duration": 1.16666675,
+      "frames": 38,
+      "finiteBones": true,
+      "finiteVertices": true,
+      "boneMovement": true,
+      "vertexPairsMax": 5430,
+      "timelineTypes": {
+        "RGBATimeline": 1,
+        "RotateTimeline": 5,
+        "TranslateTimeline": 11,
+        "ScaleTimeline": 1,
+        "IkConstraintTimeline": 2,
+        "TransformConstraintTimeline": 2,
+        "PhysicsConstraintMixTimeline": 23
+      },
+      "events": []
+    },
+    {
+      "name": "Pat_01_A",
+      "duration": 0.333333343,
+      "frames": 13,
+      "finiteBones": true,
+      "finiteVertices": true,
+      "boneMovement": false,
+      "vertexPairsMax": 5344,
+      "timelineTypes": {
+        "AttachmentTimeline": 9
+      },
+      "events": []
+    },
+    {
+      "name": "Pat_01_M",
+      "duration": 0.333333343,
+      "frames": 13,
+      "finiteBones": true,
+      "finiteVertices": true,
+      "boneMovement": false,
+      "vertexPairsMax": 5430,
+      "timelineTypes": {
+        "RotateTimeline": 4,
+        "TranslateTimeline": 6,
+        "IkConstraintTimeline": 2,
+        "TransformConstraintTimeline": 2,
+        "PhysicsConstraintMixTimeline": 23
+      },
+      "events": []
+    },
+    {
+      "name": "Start_Idle_01",
+      "duration": 21.6666679,
+      "frames": 653,
+      "finiteBones": true,
+      "finiteVertices": true,
+      "boneMovement": true,
+      "vertexPairsMax": 5430,
+      "timelineTypes": {
+        "AttachmentTimeline": 89,
+        "RGBATimeline": 3,
+        "RotateTimeline": 253,
+        "TranslateTimeline": 145,
+        "ScaleTimeline": 38,
+        "ShearTimeline": 30,
+        "TransformConstraintTimeline": 3,
+        "PhysicsConstraintMixTimeline": 11,
+        "DeformTimeline": 1
+      },
+      "events": []
+    },
+    {
+      "name": "Talk_01_A",
+      "duration": 20.6666679,
+      "frames": 623,
+      "finiteBones": true,
+      "finiteVertices": true,
+      "boneMovement": false,
+      "vertexPairsMax": 5486,
+      "timelineTypes": {
+        "AttachmentTimeline": 13
+      },
+      "events": []
+    },
+    {
+      "name": "Talk_01_A_CN",
+      "duration": 20.6666679,
+      "frames": 623,
+      "finiteBones": true,
+      "finiteVertices": true,
+      "boneMovement": false,
+      "vertexPairsMax": 5486,
+      "timelineTypes": {
+        "AttachmentTimeline": 13
+      },
+      "events": []
+    },
+    {
+      "name": "Talk_01_M",
+      "duration": 20.6666679,
+      "frames": 623,
+      "finiteBones": true,
+      "finiteVertices": true,
+      "boneMovement": true,
+      "vertexPairsMax": 5430,
+      "timelineTypes": {
+        "TranslateTimeline": 40,
+        "ScaleTimeline": 9,
+        "RotateTimeline": 25,
+        "PhysicsConstraintMixTimeline": 23,
+        "EventTimeline": 1
+      },
+      "events": [
+        {
+          "name": "Sound/CH0294_MemorialLobby_1_1",
+          "time": 0.6666667,
+          "audioPath": "CH0294_MemorialLobby_1_1.wav"
+        },
+        {
+          "name": "Talk",
+          "time": 0.6666667,
+          "audioPath": null
+        },
+        {
+          "name": "Sound/CH0294_MemorialLobby_1_2",
+          "time": 5.50000048,
+          "audioPath": "CH0294_MemorialLobby_1_2.wav"
+        },
+        {
+          "name": "Talk",
+          "time": 5.50000048,
+          "audioPath": null
+        }
+      ]
+    },
+    {
+      "name": "Talk_01_M_CN",
+      "duration": 20.6666679,
+      "frames": 623,
+      "finiteBones": true,
+      "finiteVertices": true,
+      "boneMovement": true,
+      "vertexPairsMax": 5430,
+      "timelineTypes": {
+        "TranslateTimeline": 40,
+        "ScaleTimeline": 9,
+        "RotateTimeline": 25,
+        "PhysicsConstraintMixTimeline": 23,
+        "EventTimeline": 1
+      },
+      "events": [
+        {
+          "name": "Sound/CH0294_MemorialLobby_1_1",
+          "time": 0.6666667,
+          "audioPath": "CH0294_MemorialLobby_1_1.wav"
+        },
+        {
+          "name": "CH0294_MemorialLobby_1_1",
+          "time": 0.6666667,
+          "audioPath": "CH0294_MemorialLobby_1_1.ogg"
+        },
+        {
+          "name": "Talk",
+          "time": 0.6666667,
+          "audioPath": null
+        },
+        {
+          "name": "Sound/CH0294_MemorialLobby_1_2",
+          "time": 5.50000048,
+          "audioPath": "CH0294_MemorialLobby_1_2.wav"
+        },
+        {
+          "name": "CH0294_MemorialLobby_1_2",
+          "time": 5.50000048,
+          "audioPath": "CH0294_MemorialLobby_1_2.ogg"
+        },
+        {
+          "name": "Talk",
+          "time": 5.50000048,
+          "audioPath": null
+        }
+      ]
+    },
+    {
+      "name": "Talk_02_A",
+      "duration": 18.833334,
+      "frames": 568,
+      "finiteBones": true,
+      "finiteVertices": true,
+      "boneMovement": false,
+      "vertexPairsMax": 5483,
+      "timelineTypes": {
+        "AttachmentTimeline": 13
+      },
+      "events": []
+    },
+    {
+      "name": "Talk_02_A_CN",
+      "duration": 18.833334,
+      "frames": 568,
+      "finiteBones": true,
+      "finiteVertices": true,
+      "boneMovement": false,
+      "vertexPairsMax": 5483,
+      "timelineTypes": {
+        "AttachmentTimeline": 13
+      },
+      "events": []
+    },
+    {
+      "name": "Talk_02_M",
+      "duration": 18.833334,
+      "frames": 568,
+      "finiteBones": true,
+      "finiteVertices": true,
+      "boneMovement": true,
+      "vertexPairsMax": 5430,
+      "timelineTypes": {
+        "TranslateTimeline": 31,
+        "ScaleTimeline": 5,
+        "RotateTimeline": 18,
+        "PhysicsConstraintMixTimeline": 23,
+        "EventTimeline": 1
+      },
+      "events": [
+        {
+          "name": "Sound/CH0294_MemorialLobby_2_1",
+          "time": 2.16666675,
+          "audioPath": "CH0294_MemorialLobby_2_1.wav"
+        },
+        {
+          "name": "Talk",
+          "time": 2.16666675,
+          "audioPath": null
+        },
+        {
+          "name": "Sound/CH0294_MemorialLobby_2_2",
+          "time": 4.666667,
+          "audioPath": "CH0294_MemorialLobby_2_2.wav"
+        },
+        {
+          "name": "Talk",
+          "time": 4.666667,
+          "audioPath": null
+        },
+        {
+          "name": "Sound/CH0294_MemorialLobby_2_3",
+          "time": 8.166667,
+          "audioPath": "CH0294_MemorialLobby_2_3.wav"
+        },
+        {
+          "name": "Talk",
+          "time": 8.166667,
+          "audioPath": null
+        }
+      ]
+    },
+    {
+      "name": "Talk_02_M_CN",
+      "duration": 18.833334,
+      "frames": 568,
+      "finiteBones": true,
+      "finiteVertices": true,
+      "boneMovement": true,
+      "vertexPairsMax": 5430,
+      "timelineTypes": {
+        "TranslateTimeline": 31,
+        "ScaleTimeline": 5,
+        "RotateTimeline": 18,
+        "PhysicsConstraintMixTimeline": 23,
+        "EventTimeline": 1
+      },
+      "events": [
+        {
+          "name": "Sound/CH0294_MemorialLobby_2_1",
+          "time": 2.16666675,
+          "audioPath": "CH0294_MemorialLobby_2_1.wav"
+        },
+        {
+          "name": "CH0294_MemorialLobby_2_1",
+          "time": 2.16666675,
+          "audioPath": "CH0294_MemorialLobby_2_1.ogg"
+        },
+        {
+          "name": "Talk",
+          "time": 2.16666675,
+          "audioPath": null
+        },
+        {
+          "name": "Sound/CH0294_MemorialLobby_2_2",
+          "time": 4.666667,
+          "audioPath": "CH0294_MemorialLobby_2_2.wav"
+        },
+        {
+          "name": "CH0294_MemorialLobby_2_2",
+          "time": 4.666667,
+          "audioPath": "CH0294_MemorialLobby_2_2.ogg"
+        },
+        {
+          "name": "Talk",
+          "time": 4.666667,
+          "audioPath": null
+        },
+        {
+          "name": "Sound/CH0294_MemorialLobby_2_3",
+          "time": 8.166667,
+          "audioPath": "CH0294_MemorialLobby_2_3.wav"
+        },
+        {
+          "name": "CH0294_MemorialLobby_2_3",
+          "time": 8.166667,
+          "audioPath": "CH0294_MemorialLobby_2_3.ogg"
+        },
+        {
+          "name": "Talk",
+          "time": 8.166667,
+          "audioPath": null
+        }
+      ]
+    },
+    {
+      "name": "Talk_03_A",
+      "duration": 20.833334,
+      "frames": 628,
+      "finiteBones": true,
+      "finiteVertices": true,
+      "boneMovement": false,
+      "vertexPairsMax": 5491,
+      "timelineTypes": {
+        "AttachmentTimeline": 13
+      },
+      "events": []
+    },
+    {
+      "name": "Talk_03_A_CN",
+      "duration": 20.833334,
+      "frames": 628,
+      "finiteBones": true,
+      "finiteVertices": true,
+      "boneMovement": false,
+      "vertexPairsMax": 5491,
+      "timelineTypes": {
+        "AttachmentTimeline": 13
+      },
+      "events": []
+    },
+    {
+      "name": "Talk_03_M",
+      "duration": 20.833334,
+      "frames": 628,
+      "finiteBones": true,
+      "finiteVertices": true,
+      "boneMovement": true,
+      "vertexPairsMax": 5491,
+      "timelineTypes": {
+        "AttachmentTimeline": 12,
+        "TranslateTimeline": 33,
+        "ScaleTimeline": 8,
+        "RotateTimeline": 24,
+        "PhysicsConstraintMixTimeline": 23,
+        "EventTimeline": 1
+      },
+      "events": [
+        {
+          "name": "Sound/CH0294_MemorialLobby_3_1",
+          "time": 0.5,
+          "audioPath": "CH0294_MemorialLobby_3_1.wav"
+        },
+        {
+          "name": "Talk",
+          "time": 0.5,
+          "audioPath": null
+        },
+        {
+          "name": "Sound/CH0294_MemorialLobby_3_2",
+          "time": 2.83333349,
+          "audioPath": "CH0294_MemorialLobby_3_2.wav"
+        },
+        {
+          "name": "Talk",
+          "time": 2.83333349,
+          "audioPath": null
+        },
+        {
+          "name": "Sound/CH0294_MemorialLobby_3_3",
+          "time": 6.50000048,
+          "audioPath": "CH0294_MemorialLobby_3_3.wav"
+        },
+        {
+          "name": "Talk",
+          "time": 6.50000048,
+          "audioPath": null
+        }
+      ]
+    },
+    {
+      "name": "Talk_03_M_CN",
+      "duration": 20.833334,
+      "frames": 628,
+      "finiteBones": true,
+      "finiteVertices": true,
+      "boneMovement": true,
+      "vertexPairsMax": 5491,
+      "timelineTypes": {
+        "AttachmentTimeline": 12,
+        "TranslateTimeline": 33,
+        "ScaleTimeline": 8,
+        "RotateTimeline": 24,
+        "PhysicsConstraintMixTimeline": 23,
+        "EventTimeline": 1
+      },
+      "events": [
+        {
+          "name": "Sound/CH0294_MemorialLobby_3_1",
+          "time": 0.5,
+          "audioPath": "CH0294_MemorialLobby_3_1.wav"
+        },
+        {
+          "name": "CH0294_MemorialLobby_3_1",
+          "time": 0.5,
+          "audioPath": "CH0294_MemorialLobby_3_1.ogg"
+        },
+        {
+          "name": "Talk",
+          "time": 0.5,
+          "audioPath": null
+        },
+        {
+          "name": "Sound/CH0294_MemorialLobby_3_2",
+          "time": 2.83333349,
+          "audioPath": "CH0294_MemorialLobby_3_2.wav"
+        },
+        {
+          "name": "CH0294_MemorialLobby_3_2",
+          "time": 2.83333349,
+          "audioPath": "CH0294_MemorialLobby_3_2.ogg"
+        },
+        {
+          "name": "Talk",
+          "time": 2.83333349,
+          "audioPath": null
+        },
+        {
+          "name": "Sound/CH0294_MemorialLobby_3_3",
+          "time": 6.50000048,
+          "audioPath": "CH0294_MemorialLobby_3_3.wav"
+        },
+        {
+          "name": "CH0294_MemorialLobby_3_3",
+          "time": 6.50000048,
+          "audioPath": "CH0294_MemorialLobby_3_3.ogg"
+        },
+        {
+          "name": "Talk",
+          "time": 6.50000048,
+          "audioPath": null
+        }
+      ]
+    },
+    {
+      "name": "Talk_04_A",
+      "duration": 24.1666679,
+      "frames": 728,
+      "finiteBones": true,
+      "finiteVertices": true,
+      "boneMovement": false,
+      "vertexPairsMax": 5491,
+      "timelineTypes": {
+        "AttachmentTimeline": 13
+      },
+      "events": []
+    },
+    {
+      "name": "Talk_04_A_CN",
+      "duration": 24.1666679,
+      "frames": 728,
+      "finiteBones": true,
+      "finiteVertices": true,
+      "boneMovement": false,
+      "vertexPairsMax": 5491,
+      "timelineTypes": {
+        "AttachmentTimeline": 13
+      },
+      "events": []
+    },
+    {
+      "name": "Talk_04_M",
+      "duration": 24.1666679,
+      "frames": 728,
+      "finiteBones": true,
+      "finiteVertices": true,
+      "boneMovement": true,
+      "vertexPairsMax": 5430,
+      "timelineTypes": {
+        "TranslateTimeline": 29,
+        "ScaleTimeline": 3,
+        "RotateTimeline": 18,
+        "PhysicsConstraintMixTimeline": 23,
+        "EventTimeline": 1
+      },
+      "events": [
+        {
+          "name": "Sound/CH0294_MemorialLobby_4_1",
+          "time": 0.5,
+          "audioPath": "CH0294_MemorialLobby_4_1.wav"
+        },
+        {
+          "name": "Talk",
+          "time": 0.5,
+          "audioPath": null
+        },
+        {
+          "name": "Sound/CH0294_MemorialLobby_4_2",
+          "time": 5.666667,
+          "audioPath": "CH0294_MemorialLobby_4_2.wav"
+        },
+        {
+          "name": "Talk",
+          "time": 5.666667,
+          "audioPath": null
+        },
+        {
+          "name": "Sound/CH0294_MemorialLobby_4_3",
+          "time": 15.6666679,
+          "audioPath": "CH0294_MemorialLobby_4_3.wav"
+        },
+        {
+          "name": "Talk",
+          "time": 15.6666679,
+          "audioPath": null
+        }
+      ]
+    },
+    {
+      "name": "Talk_04_M_CN",
+      "duration": 24.1666679,
+      "frames": 728,
+      "finiteBones": true,
+      "finiteVertices": true,
+      "boneMovement": true,
+      "vertexPairsMax": 5430,
+      "timelineTypes": {
+        "TranslateTimeline": 29,
+        "ScaleTimeline": 3,
+        "RotateTimeline": 18,
+        "PhysicsConstraintMixTimeline": 23,
+        "EventTimeline": 1
+      },
+      "events": [
+        {
+          "name": "Sound/CH0294_MemorialLobby_4_1",
+          "time": 0.5,
+          "audioPath": "CH0294_MemorialLobby_4_1.wav"
+        },
+        {
+          "name": "CH0294_MemorialLobby_4_1",
+          "time": 0.5,
+          "audioPath": "CH0294_MemorialLobby_4_1.ogg"
+        },
+        {
+          "name": "Talk",
+          "time": 0.5,
+          "audioPath": null
+        },
+        {
+          "name": "Sound/CH0294_MemorialLobby_4_2",
+          "time": 5.666667,
+          "audioPath": "CH0294_MemorialLobby_4_2.wav"
+        },
+        {
+          "name": "CH0294_MemorialLobby_4_2",
+          "time": 5.666667,
+          "audioPath": "CH0294_MemorialLobby_4_2.ogg"
+        },
+        {
+          "name": "Talk",
+          "time": 5.666667,
+          "audioPath": null
+        },
+        {
+          "name": "Sound/CH0294_MemorialLobby_4_3",
+          "time": 15.6666679,
+          "audioPath": "CH0294_MemorialLobby_4_3.wav"
+        },
+        {
+          "name": "CH0294_MemorialLobby_4_3",
+          "time": 15.6666679,
+          "audioPath": "CH0294_MemorialLobby_4_3.ogg"
+        },
+        {
+          "name": "Talk",
+          "time": 15.6666679,
+          "audioPath": null
+        }
+      ]
+    },
+    {
+      "name": "Talk_05_A",
+      "duration": 13.166667,
+      "frames": 398,
+      "finiteBones": true,
+      "finiteVertices": true,
+      "boneMovement": false,
+      "vertexPairsMax": 5498,
+      "timelineTypes": {
+        "AttachmentTimeline": 9
+      },
+      "events": []
+    },
+    {
+      "name": "Talk_05_A_CN",
+      "duration": 13.166667,
+      "frames": 398,
+      "finiteBones": true,
+      "finiteVertices": true,
+      "boneMovement": false,
+      "vertexPairsMax": 5498,
+      "timelineTypes": {
+        "AttachmentTimeline": 9
+      },
+      "events": []
+    },
+    {
+      "name": "Talk_05_M",
+      "duration": 13.166667,
+      "frames": 398,
+      "finiteBones": true,
+      "finiteVertices": true,
+      "boneMovement": true,
+      "vertexPairsMax": 5430,
+      "timelineTypes": {
+        "TranslateTimeline": 33,
+        "ScaleTimeline": 9,
+        "RotateTimeline": 18,
+        "PhysicsConstraintMixTimeline": 23,
+        "EventTimeline": 1
+      },
+      "events": [
+        {
+          "name": "Sound/CH0294_MemorialLobby_5_1",
+          "time": 0.6666667,
+          "audioPath": "CH0294_MemorialLobby_5_1.wav"
+        },
+        {
+          "name": "Talk",
+          "time": 0.6666667,
+          "audioPath": null
+        },
+        {
+          "name": "Sound/CH0294_MemorialLobby_5_2",
+          "time": 3.16666675,
+          "audioPath": "CH0294_MemorialLobby_5_2.wav"
+        },
+        {
+          "name": "Talk",
+          "time": 3.16666675,
+          "audioPath": null
+        }
+      ]
+    },
+    {
+      "name": "Talk_05_M_CN",
+      "duration": 13.166667,
+      "frames": 398,
+      "finiteBones": true,
+      "finiteVertices": true,
+      "boneMovement": true,
+      "vertexPairsMax": 5430,
+      "timelineTypes": {
+        "TranslateTimeline": 33,
+        "ScaleTimeline": 9,
+        "RotateTimeline": 18,
+        "PhysicsConstraintMixTimeline": 23,
+        "EventTimeline": 1
+      },
+      "events": [
+        {
+          "name": "Sound/CH0294_MemorialLobby_5_1",
+          "time": 0.6666667,
+          "audioPath": "CH0294_MemorialLobby_5_1.wav"
+        },
+        {
+          "name": "CH0294_MemorialLobby_5_1",
+          "time": 0.6666667,
+          "audioPath": "CH0294_MemorialLobby_5_1.ogg"
+        },
+        {
+          "name": "Talk",
+          "time": 0.6666667,
+          "audioPath": null
+        },
+        {
+          "name": "Sound/CH0294_MemorialLobby_5_2",
+          "time": 3.16666675,
+          "audioPath": "CH0294_MemorialLobby_5_2.wav"
+        },
+        {
+          "name": "CH0294_MemorialLobby_5_2",
+          "time": 3.16666675,
+          "audioPath": "CH0294_MemorialLobby_5_2.ogg"
+        },
+        {
+          "name": "Talk",
+          "time": 3.16666675,
+          "audioPath": null
+        }
+      ]
+    }
+  ],
+  "totalFrames": 12975,
+  "eventDefinitions": [
+    {
+      "name": "CH0294_MemorialLobby_1_1",
+      "audioPath": "CH0294_MemorialLobby_1_1.ogg",
+      "stringValue": ""
+    },
+    {
+      "name": "CH0294_MemorialLobby_1_2",
+      "audioPath": "CH0294_MemorialLobby_1_2.ogg",
+      "stringValue": ""
+    },
+    {
+      "name": "CH0294_MemorialLobby_2_1",
+      "audioPath": "CH0294_MemorialLobby_2_1.ogg",
+      "stringValue": ""
+    },
+    {
+      "name": "CH0294_MemorialLobby_2_2",
+      "audioPath": "CH0294_MemorialLobby_2_2.ogg",
+      "stringValue": ""
+    },
+    {
+      "name": "CH0294_MemorialLobby_2_3",
+      "audioPath": "CH0294_MemorialLobby_2_3.ogg",
+      "stringValue": ""
+    },
+    {
+      "name": "CH0294_MemorialLobby_3_1",
+      "audioPath": "CH0294_MemorialLobby_3_1.ogg",
+      "stringValue": ""
+    },
+    {
+      "name": "CH0294_MemorialLobby_3_2",
+      "audioPath": "CH0294_MemorialLobby_3_2.ogg",
+      "stringValue": ""
+    },
+    {
+      "name": "CH0294_MemorialLobby_3_3",
+      "audioPath": "CH0294_MemorialLobby_3_3.ogg",
+      "stringValue": ""
+    },
+    {
+      "name": "CH0294_MemorialLobby_4_1",
+      "audioPath": "CH0294_MemorialLobby_4_1.ogg",
+      "stringValue": ""
+    },
+    {
+      "name": "CH0294_MemorialLobby_4_2",
+      "audioPath": "CH0294_MemorialLobby_4_2.ogg",
+      "stringValue": ""
+    },
+    {
+      "name": "CH0294_MemorialLobby_4_3",
+      "audioPath": "CH0294_MemorialLobby_4_3.ogg",
+      "stringValue": ""
+    },
+    {
+      "name": "CH0294_MemorialLobby_5_1",
+      "audioPath": "CH0294_MemorialLobby_5_1.ogg",
+      "stringValue": ""
+    },
+    {
+      "name": "CH0294_MemorialLobby_5_2",
+      "audioPath": "CH0294_MemorialLobby_5_2.ogg",
+      "stringValue": ""
+    },
+    {
+      "name": "Talk",
+      "audioPath": null,
+      "stringValue": ""
+    },
+    {
+      "name": "Sound/CH0294_MemorialLobby_1_1",
+      "audioPath": "CH0294_MemorialLobby_1_1.wav",
+      "stringValue": ""
+    },
+    {
+      "name": "Sound/CH0294_MemorialLobby_1_2",
+      "audioPath": "CH0294_MemorialLobby_1_2.wav",
+      "stringValue": ""
+    },
+    {
+      "name": "Sound/CH0294_MemorialLobby_2_1",
+      "audioPath": "CH0294_MemorialLobby_2_1.wav",
+      "stringValue": ""
+    },
+    {
+      "name": "Sound/CH0294_MemorialLobby_2_2",
+      "audioPath": "CH0294_MemorialLobby_2_2.wav",
+      "stringValue": ""
+    },
+    {
+      "name": "Sound/CH0294_MemorialLobby_2_3",
+      "audioPath": "CH0294_MemorialLobby_2_3.wav",
+      "stringValue": ""
+    },
+    {
+      "name": "Sound/CH0294_MemorialLobby_3_1",
+      "audioPath": "CH0294_MemorialLobby_3_1.wav",
+      "stringValue": ""
+    },
+    {
+      "name": "Sound/CH0294_MemorialLobby_3_2",
+      "audioPath": "CH0294_MemorialLobby_3_2.wav",
+      "stringValue": ""
+    },
+    {
+      "name": "Sound/CH0294_MemorialLobby_3_3",
+      "audioPath": "CH0294_MemorialLobby_3_3.wav",
+      "stringValue": ""
+    },
+    {
+      "name": "Sound/CH0294_MemorialLobby_4_1",
+      "audioPath": "CH0294_MemorialLobby_4_1.wav",
+      "stringValue": ""
+    },
+    {
+      "name": "Sound/CH0294_MemorialLobby_4_2",
+      "audioPath": "CH0294_MemorialLobby_4_2.wav",
+      "stringValue": ""
+    },
+    {
+      "name": "Sound/CH0294_MemorialLobby_4_3",
+      "audioPath": "CH0294_MemorialLobby_4_3.wav",
+      "stringValue": ""
+    },
+    {
+      "name": "Sound/CH0294_MemorialLobby_5_1",
+      "audioPath": "CH0294_MemorialLobby_5_1.wav",
+      "stringValue": ""
+    },
+    {
+      "name": "Sound/CH0294_MemorialLobby_5_2",
+      "audioPath": "CH0294_MemorialLobby_5_2.wav",
+      "stringValue": ""
+    }
+  ],
+  "sceneObjects": [
+    {
+      "name": "New SkeletonGraphic",
+      "hasCanvasAncestor": false,
+      "valid": true,
+      "material": "SkeletonGraphicDefault",
+      "multipleCanvasRenderers": false,
+      "active": true
+    }
+  ],
+  "method": "Unity Editor detached Skeleton + AnimationState, every animation once at 30Hz, finite bone matrices and world vertices. No realtime playback or audio verification."
+}

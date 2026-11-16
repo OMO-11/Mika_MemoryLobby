@@ -1,0 +1,107 @@
+{
+  "name": "FX_MAT_Aura_Distort_60a",
+  "shader": {
+    "status": "resolved",
+    "name": "DSFX/FX_SHADER_AlphaBlend_Add_Mask_0",
+    "file": "Shaders/DSFX_FX_SHADER_AlphaBlend_Add_Mask_0__9048613017353099110.shader.json",
+    "serializedFile": "CAB-dfc5bcc011d85f284a539a56baf966f7",
+    "reference": {
+      "fileId": 1,
+      "pathId": 9048613017353099110
+    }
+  },
+  "renderQueue": -1,
+  "shaderKeywords": null,
+  "textures": {
+    "_Tex_Main": {
+      "texture": null,
+      "file": null,
+      "scale": [
+        1.5,
+        0.10000000149011612
+      ],
+      "offset": [
+        -0.7900000214576721,
+        0.25
+      ],
+      "status": "unresolved-external",
+      "reference": {
+        "fileId": 2,
+        "pathId": 3194873870696549378
+      },
+      "externalFile": {
+        "cab": "CAB-50bf638d27a61e906963ba0d23284fba",
+        "archivePath": "archive:/CAB-50bf638d27a61e906963ba0d23284fba/CAB-50bf638d27a61e906963ba0d23284fba"
+      },
+      "error": "File cab-50bf638d27a61e906963ba0d23284fba not found in the staged bundle scope"
+    },
+    "_Tex_Mask": {
+      "texture": null,
+      "file": null,
+      "scale": [
+        1.5,
+        1.0
+      ],
+      "offset": [
+        -0.4000000059604645,
+        0.0
+      ],
+      "status": "unresolved-external",
+      "reference": {
+        "fileId": 2,
+        "pathId": -4665648324726393490
+      },
+      "externalFile": {
+        "cab": "CAB-50bf638d27a61e906963ba0d23284fba",
+        "archivePath": "archive:/CAB-50bf638d27a61e906963ba0d23284fba/CAB-50bf638d27a61e906963ba0d23284fba"
+      },
+      "error": "File cab-50bf638d27a61e906963ba0d23284fba not found in the staged bundle scope"
+    }
+  },
+  "floats": {
+    "_Cull_Mode": 2.0,
+    "_Custom_Data_Distort_Power_Use": 0.0,
+    "_Custom_Data_MainMask_Offset_Use": 1.0,
+    "_Custom_Data_Main_Offset_Use": 0.0,
+    "_Custom_Data_Mask_Offset_Use": 0.0,
+    "_Custom_Data_Offset_Use": 0.0,
+    "_Dis_Speed_X": 0.0,
+    "_Dis_Speed_Y": 0.0,
+    "_Distortion_Power_X": 0.0,
+    "_Distortion_Power_Y": 0.0,
+    "_Main_Distortion_Use": 0.0,
+    "_Main_Speed_X": 0.0,
+    "_Main_Speed_Y": 0.0,
+    "_Main_Texture_No": 0.0,
+    "_Mask_Distortion_Use": 0.0,
+    "_Mask_Speed_X": 0.0,
+    "_Mask_Speed_Y": 0.0,
+    "_Multiply": 1.0,
+    "_RGBRGBA": 1.0,
+    "_Step_Custom_DataVertex_color_Use": 0.0,
+    "_Step_Power": 1.0,
+    "_Step_Scroll_Use": 1.0,
+    "_Vertex_Alpha_Use": 0.0,
+    "_ZOffsetFactor": 0.0,
+    "_ZOffsetUnits": 0.0,
+    "_ZTest_Mode": 4.0,
+    "_ZWrite_Mode": 0.0
+  },
+  "colors": {
+    "_Color": [
+      1.4980392456054688,
+      1.4980392456054688,
+      1.4980392456054688,
+      1.0
+    ]
+  },
+  "ints": {},
+  "vectors": {},
+  "provenance": {
+    "bundle": "CAB-82e06f023ef01137da1dfdbb883bb380",
+    "serializedFile": "CAB-82e06f023ef01137da1dfdbb883bb380",
+    "classId": 21,
+    "pathId": 2063757059799729693
+  },
+  "logicalName": "FX_MAT_Aura_Distort_60a"
+}

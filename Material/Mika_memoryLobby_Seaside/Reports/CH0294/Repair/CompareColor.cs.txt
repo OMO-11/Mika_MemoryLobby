@@ -1,0 +1,38 @@
+var asset=UnityEditor.AssetDatabase.LoadAssetAtPath<Spine.Unity.SkeletonDataAsset>("Assets/New Folder/CH0294_home_SkeletonData.asset");
+var preview=new UnityEditor.PreviewRenderUtility();
+var temporary=new System.Collections.Generic.List<UnityEngine.Object>();
+try {
+    var go=new UnityEngine.GameObject("Temporary CH0294 color comparison");
+    go.hideFlags=UnityEngine.HideFlags.HideAndDontSave; preview.AddSingleGO(go);
+    var sa=Spine.Unity.SkeletonAnimation.AddToGameObject(go,asset); sa.enabled=false;
+    var cam=preview.camera; cam.orthographic=true; cam.aspect=1652f/1080f;
+    cam.orthographicSize=30f/cam.aspect/2f;
+    cam.transform.position=new UnityEngine.Vector3(2f,19.5f-cam.orthographicSize,-100);
+    cam.transform.rotation=UnityEngine.Quaternion.identity;
+    cam.clearFlags=UnityEngine.CameraClearFlags.SolidColor; cam.backgroundColor=UnityEngine.Color.black;
+    cam.nearClipPlane=0.1f; cam.farClipPlane=200;
+    for(int variant=0;variant<2;variant++) {
+        foreach(var original in ((Spine.Unity.SpineAtlasAsset)asset.atlasAssets[0]).materials) {
+            var clone=new UnityEngine.Material(original); temporary.Add(clone);
+            clone.EnableKeyword("_STRAIGHT_ALPHA_INPUT"); clone.SetFloat("_StraightAlphaInput",1);
+            if(variant==1) {
+                var texture=new UnityEngine.Texture2D(2,2,UnityEngine.TextureFormat.RGBA32,false,false);
+                texture.LoadImage(System.IO.File.ReadAllBytes(UnityEditor.AssetDatabase.GetAssetPath(original.mainTexture)));
+                texture.filterMode=UnityEngine.FilterMode.Bilinear; texture.wrapMode=UnityEngine.TextureWrapMode.Clamp;
+                clone.mainTexture=texture; temporary.Add(texture);
+            }
+            sa.CustomMaterialOverride[original]=clone;
+        }
+        sa.Initialize(true); sa.AnimationState.SetAnimation(0,"Idle_01",true); sa.Update(0);
+        for(int i=0;i<15;i++) sa.Update(1f/30f); sa.LateUpdate();
+        preview.BeginPreview(new UnityEngine.Rect(0,0,1652,1080),UnityEngine.GUIStyle.none); preview.Render(true,false);
+        var rendered=preview.EndPreview(); var previous=UnityEngine.RenderTexture.active;
+        UnityEngine.RenderTexture.active=rendered as UnityEngine.RenderTexture;
+        var image=new UnityEngine.Texture2D(1652,1080,UnityEngine.TextureFormat.RGB24,false);
+        image.ReadPixels(new UnityEngine.Rect(0,0,1652,1080),0,0); image.Apply(); UnityEngine.RenderTexture.active=previous;
+        string filename=variant==0?"candidate_linear_input.png":"candidate_srgb_input.png";
+        System.IO.File.WriteAllBytes("W:/Machine/VSCode/Mika_Gift/Material/Mika_memoryLobby_Seaside/Reports/CH0294/Repair/"+filename,image.EncodeToPNG());
+        UnityEngine.Object.DestroyImmediate(image);
+    }
+} finally { preview.Cleanup(); foreach(var item in temporary) UnityEngine.Object.DestroyImmediate(item); }
+return "Color and framing comparison saved";

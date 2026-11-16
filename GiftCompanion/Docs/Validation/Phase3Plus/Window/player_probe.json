@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "petPassed": true,
+  "homeRestored": true,
+  "sqlitePassed": true,
+  "sqliteVersion": "3.54.0",
+  "pet": {
+    "active": true,
+    "transparent": true,
+    "borderless": true,
+    "topmost": true,
+    "width": 600,
+    "height": 500,
+    "cameraAlpha": 0.0,
+    "roots": 1,
+    "mode": "AgentPet",
+    "renderer": "Direct3D11"
+  },
+  "home": {
+    "transparent": false,
+    "borderless": false,
+    "topmost": false,
+    "width": 1280,
+    "height": 720,
+    "cameraAlpha": 1.0,
+    "mode": "Home",
+    "switching": false
+  },
+  "scope": "Windows Player native window state and SQLite persistence; desktop composition recorded separately."
+}

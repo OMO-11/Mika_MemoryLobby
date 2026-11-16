@@ -1,0 +1,632 @@
+{
+  "passed": true,
+  "playerAcceptance": "pending",
+  "schema": 10,
+  "unity": "6000.3.7f1",
+  "tests": {
+    "EditMode": 136,
+    "PlayMode": 35
+  },
+  "buildBytes": 304674581,
+  "native": {
+    "live": {
+      "checks": 39,
+      "composition": {
+        "passed": true,
+        "backdropCorners": 4,
+        "transparentCornerPassesToOwnedBackdrop": true,
+        "clientWidth": 600,
+        "clientHeight": 500,
+        "scope": "Only owned probe client over temporary solid backdrop; no external desktop capture."
+      },
+      "verifiedAtUtc": "2026-10-18T11:05:00.3357451+00:00"
+    },
+    "nokey": {
+      "checks": 30,
+      "composition": {
+        "passed": true,
+        "backdropCorners": 4,
+        "transparentCornerPassesToOwnedBackdrop": true,
+        "clientWidth": 600,
+        "clientHeight": 500,
+        "scope": "Only owned probe client over temporary solid backdrop; no external desktop capture."
+      },
+      "verifiedAtUtc": "2026-10-18T11:05:32.34706+00:00"
+    }
+  },
+  "frozenFilesUnchanged": 35,
+  "artifacts": {
+    "GiftCompanion.exe": {
+      "bytes": 667648,
+      "sha256": "4bf762016829b0c975960cf300aac5a5bb1f84d25745f2aa8f4a508f9af5243f"
+    },
+    "GiftCompanion_Data/Managed/GiftCompanion.Core.dll": {
+      "bytes": 349696,
+      "sha256": "cefe4024bec1c5f3d98f52267f776b7f5a9057e8d7759a7c910937e19d24f626"
+    },
+    "GiftCompanion_Data/Managed/GiftCompanion.Runtime.dll": {
+      "bytes": 396288,
+      "sha256": "f43f3cc7dac4fd44fb69cbe2c77f418afbeed79e75d15e03ebdf11d451bf8ef9"
+    }
+  },
+  "sourceFiles": [
+    {
+      "path": "Assets/App/AgentPet/PetInteraction.cs",
+      "sha256": "95ad229323ae0eaec5253a2b8781332833e9504b4a4a9ebc1a3329a9c6032898"
+    },
+    {
+      "path": "Assets/App/AgentPet/PetPanels.cs",
+      "sha256": "9ca492b4c2cc521b7a7c27b306ccec694b870965007bd0107c65357a8566fe6e"
+    },
+    {
+      "path": "Assets/App/AgentPet/PetPresentation.cs",
+      "sha256": "a15721b0bfc5eb86961c9b45b218b45c2bb6ba88197ff9bf59d616c9ae3a687e"
+    },
+    {
+      "path": "Assets/App/AgentPet/PetScreen.cs",
+      "sha256": "5cb0739468ca92e8d8ea6a9c3a8e9f18a634188aaefc2c6ef8a401339332a96f"
+    },
+    {
+      "path": "Assets/App/AgentPet/PetToolsPanel.cs",
+      "sha256": "7233d5eb81227bce16f534c2ff435dbf0c5deb3188c52bebc8aafdd4424d73b7"
+    },
+    {
+      "path": "Assets/App/AgentPet/Tools/WindowsAgentNative.cs",
+      "sha256": "0884668afc270390c2d1933fd1ac512ecc4b95746e8d07abc0c69e2da0d6c085"
+    },
+    {
+      "path": "Assets/App/AgentPet/Tools/WindowsAgentPlatform.cs",
+      "sha256": "0d5e96a66d0e440e3d7d9471af0576298f29b35803fe7edc63172a9b49a5539b"
+    },
+    {
+      "path": "Assets/App/AgentPet/Window/DesktopWindowPrototype.cs",
+      "sha256": "723658a731965c5f6f9764415c51cdfdd2fd7b8783768a34e04a7a37dcf4d245"
+    },
+    {
+      "path": "Assets/App/AgentPet/Window/PetHotkeyHost.cs",
+      "sha256": "2e7de6791c70114069fe31f25e0aa69fd949164f2f07da1c6e4af5e8764ab09d"
+    },
+    {
+      "path": "Assets/App/AgentPet/Window/PetNative.cs",
+      "sha256": "3c5131dc2023246e7dfe09d6451179d0f2ed7b3d7df1fa967b9298928b74ac9f"
+    },
+    {
+      "path": "Assets/App/Bootstrap/AppController.cs",
+      "sha256": "73f6ba93e884cdf6fa0194b60cd246f8260f3279c97d2d6d6cb9b9efecae5356"
+    },
+    {
+      "path": "Assets/App/Bootstrap/AppRoot.cs",
+      "sha256": "b1ce34f3878f7327c7b5ad09049e4353a2f2fae8c924fb0a130e859030a7db35"
+    },
+    {
+      "path": "Assets/App/Bootstrap/BootstrapEntry.cs",
+      "sha256": "d7195b3a62e666eeacfd49ad74f4d15a5206e88c2883df79efed49a0b681767f"
+    },
+    {
+      "path": "Assets/App/Bootstrap/SingleInstanceGuard.cs",
+      "sha256": "013d841467597872cb9156ba8d3d7ae87d51e9eab7635b6325e41097034903b9"
+    },
+    {
+      "path": "Assets/App/Companion/BGM/BgmFilePlayer.cs",
+      "sha256": "8225c6affa2ebcb1b31ff28a0a76d65ca29af1cd9d4543ba25686ef80fc4dce3"
+    },
+    {
+      "path": "Assets/App/Companion/BGM/BgmManager.cs",
+      "sha256": "dbaac675f2ae27cc59df52cb31210e06c36b98ce9d06738c784dd620d3caafee"
+    },
+    {
+      "path": "Assets/App/Companion/CompanionLibraryPanels.cs",
+      "sha256": "67b34ca7a31761d2f0a805ce68be0655df66b45fee57506eef13838be58a9d4a"
+    },
+    {
+      "path": "Assets/App/Companion/CompanionPanels.cs",
+      "sha256": "e8de1e2dc0c64202310dc783b49a736711db36e7a06e7a616a3bc6d965dae55d"
+    },
+    {
+      "path": "Assets/App/Companion/CompanionPresentation.cs",
+      "sha256": "cba0d6ce6ad692f47c38af9b9ba3bc880e4a62255e7ff0e5c97cf1ddb23d3d8a"
+    },
+    {
+      "path": "Assets/App/Companion/CompanionScreen.cs",
+      "sha256": "ae5c0b7ea6046ad297442555c45a5a14378bb7de0c4b06d90420f6f343e3f6c1"
+    },
+    {
+      "path": "Assets/App/Companion/CompanionSpaces.cs",
+      "sha256": "cc46ad83c27d565e2cd6b92c5734ec043a53f4174c9427f17b18b1f591398f02"
+    },
+    {
+      "path": "Assets/App/Companion/CompanionTone.cs",
+      "sha256": "629fc9f0e9da9535e3e967f0d62410ab3fc280b837ed6731c2f0d7e84645407d"
+    },
+    {
+      "path": "Assets/App/Companion/CompanionVoiceUI.cs",
+      "sha256": "af810b89dbc169b32cec2c6fea6bd30b310339055d113c8009052ab624a4992d"
+    },
+    {
+      "path": "Assets/App/Companion/Voice/CompanionVoicePlayer.cs",
+      "sha256": "1c0ed9608d23b94261e6b7dc710e766295b9f3d81799a16741fd3fabf7e0c2d3"
+    },
+    {
+      "path": "Assets/App/Core/Agent/AgentContracts.cs",
+      "sha256": "bc659830d9676dc9bc98b88ad3d468637b6322bc66440ef8461693966467f4b2"
+    },
+    {
+      "path": "Assets/App/Core/Agent/AgentConversation.cs",
+      "sha256": "4baa795f2f8de1b6f3cfbddf8600a51ec605ec35dfa314f5f158108ea3589c63"
+    },
+    {
+      "path": "Assets/App/Core/Agent/AgentSettings.cs",
+      "sha256": "aa7f71e7b2b8f2ba1b01c0ae86dd71bd96a4cfd0849b1298442e472eb896e81d"
+    },
+    {
+      "path": "Assets/App/Core/AssemblyInfo.cs",
+      "sha256": "91e32ce607be868db3afd0914bbe61166d8c748274b015b96aba806e4edbb808"
+    },
+    {
+      "path": "Assets/App/Core/Audio/AudioCache.cs",
+      "sha256": "195e901cc2d57537b97b05f06ee6a35e75c59b7280c0717b2746e8f0bac3a4b3"
+    },
+    {
+      "path": "Assets/App/Core/Audio/SpeechLocalizer.cs",
+      "sha256": "2b7dc3dde0ae5e984741fe01a3cffa99b00fcec25e43208f2a79b7031b74ca4c"
+    },
+    {
+      "path": "Assets/App/Core/Audio/SpeechSegmenter.cs",
+      "sha256": "b2cbdf416f1864fd1d594cb9d58557efaa582aa7b718861e38ed667324fb988f"
+    },
+    {
+      "path": "Assets/App/Core/Audio/VoiceConfiguration.cs",
+      "sha256": "f6ac78e24a0e1b8ab2ea61d988d9df3061a26f69a12a0d8409375c8e2cd52acb"
+    },
+    {
+      "path": "Assets/App/Core/Audio/VoiceDelivery.cs",
+      "sha256": "e6e460a11d90bf069950ff9bf71f2b55943f447b1416b55c5778eba0dd3d520e"
+    },
+    {
+      "path": "Assets/App/Core/Audio/VoiceRuntimeManager.cs",
+      "sha256": "5b81441d9e2b5961c9df9e790b6f7ca3ecebe07de3116093672243d4f2959cd1"
+    },
+    {
+      "path": "Assets/App/Core/Audio/WaveAudio.cs",
+      "sha256": "4378a7dd34d616d0ad35af29ae670148fbfa09c2e7543901191e86f5fb068ce1"
+    },
+    {
+      "path": "Assets/App/Core/Character/CharacterCore.cs",
+      "sha256": "0e67e80ec0ae50daa705e89e4ed5feefd3c8e6b9a8a0e15ce55eb83ebc4adaa0"
+    },
+    {
+      "path": "Assets/App/Core/Character/CharacterModels.cs",
+      "sha256": "1d81a0b68dd681fa0c39725ce5905fa06c69aa7eb6bf30a29c327751a195f7b6"
+    },
+    {
+      "path": "Assets/App/Core/Character/CompanionInteraction.cs",
+      "sha256": "a517ed075cd5de375091a10045b39200c9ee69c7e4c4d8a30794c9502a1206f1"
+    },
+    {
+      "path": "Assets/App/Core/Character/DialoguePresentation.cs",
+      "sha256": "61b21eb8fcca4d8a1e35acee1955f37038f336157d87df5d72ab428d5ec45f33"
+    },
+    {
+      "path": "Assets/App/Core/Character/PetGesture.cs",
+      "sha256": "23fe9e35d0c4edef8b5e5b893810fc4f8e96ec9527ad16db2c6ee12ee101595d"
+    },
+    {
+      "path": "Assets/App/Core/Config/ConfigService.cs",
+      "sha256": "3ea6c83ecd6bad3e58cdf8361632e3493a4e2184fe05c751db66646e56ce55f0"
+    },
+    {
+      "path": "Assets/App/Core/Config/LibraryFiles.cs",
+      "sha256": "f632e1d891138552173215bd0e62d4f9cfd556b0eb909d9dab5996123eac9ade"
+    },
+    {
+      "path": "Assets/App/Core/Config/LocalSecrets.cs",
+      "sha256": "739be177a3e6ee473f6054c019fd7b658248e6f8b3d68d97c07f8225aeca8685"
+    },
+    {
+      "path": "Assets/App/Core/Config/PetPresentationSettings.cs",
+      "sha256": "25f97751d81cbf1cc9500d7c2246a3984e661e219ac095ccf4ff31b187ca361d"
+    },
+    {
+      "path": "Assets/App/Core/Config/PetSettings.cs",
+      "sha256": "c4b1d233c89416c670b5bd9a9b3edfc6271e0b25182115b6b2d3cd80a5aefad9"
+    },
+    {
+      "path": "Assets/App/Core/Config/UserDataPaths.cs",
+      "sha256": "4efdde80e5af78abdcc4baf14df35995974a8c1e6bfc190508cc3a7d5ba8caf3"
+    },
+    {
+      "path": "Assets/App/Core/GiftCompanion.Core.asmdef",
+      "sha256": "86861aa3a2c25cb33386b37bc306dec795cc754b1eb165e37734d73b9e4d0de1"
+    },
+    {
+      "path": "Assets/App/Core/LLM/DeepSeekApiClient.cs",
+      "sha256": "967e9732f39981226aa63fc85bffe5e57cd813ec42178fabd35369acb7aa8965"
+    },
+    {
+      "path": "Assets/App/Core/LLM/DeepSeekToolCalls.cs",
+      "sha256": "a5161a9f072577efc375bdc935820df86d2208792d730cd7418c5bbf6c59482c"
+    },
+    {
+      "path": "Assets/App/Core/LLM/LLMService.cs",
+      "sha256": "3e89f933b4eca840a1437d0886a2677d4cfdde3a95296d69ba6ed446108b28b3"
+    },
+    {
+      "path": "Assets/App/Core/Logging/Logger.cs",
+      "sha256": "a243659cd25bb521bee72d23319bb1dfaed908551c6adff4e23faa3238f7bba3"
+    },
+    {
+      "path": "Assets/App/Core/Memory/ConversationHistoryService.cs",
+      "sha256": "ef2cd4acd76df088aea25c68e2edeaf6030dd33c541c02db86a2e98fd293e553"
+    },
+    {
+      "path": "Assets/App/Core/Memory/ConversationModels.cs",
+      "sha256": "9dcac17b24e299125f31bef6e93a7a6abaeaf12b0562eb9c24913a6dd55ce95a"
+    },
+    {
+      "path": "Assets/App/Core/Memory/DiaryTextLayout.cs",
+      "sha256": "073a97229fe6aef9f8e48eb0dd7173109631cd2de9d49da2a1b65c22cf3e61e2"
+    },
+    {
+      "path": "Assets/App/Core/Memory/MemoryExtractor.cs",
+      "sha256": "e53a665c1d2025ded9e1c545d6638b85a8f0a86f8c8c0d829f7652800e436466"
+    },
+    {
+      "path": "Assets/App/Core/Memory/MemoryModels.cs",
+      "sha256": "7cb7e1e695692416fbb74de903177bb4ac10103a0809dd626536d8caeb78de42"
+    },
+    {
+      "path": "Assets/App/Core/Memory/MemoryService.cs",
+      "sha256": "2a413a0c660069f585d442ed1256faeebd988ad54d8e020f098086314948ba57"
+    },
+    {
+      "path": "Assets/App/Core/Memory/PromptBuilder.cs",
+      "sha256": "e23dfd86f5e54e8c596ffa1065450082956125b1fd01fb413678928ef29494f2"
+    },
+    {
+      "path": "Assets/App/Core/Memory/RelationshipDiary.cs",
+      "sha256": "e6eb88bbae5276a584d314a945c132ed865b63857865537544b4083de8e88fb6"
+    },
+    {
+      "path": "Assets/App/Core/Memory/SessionSummarizer.cs",
+      "sha256": "9cdb91fa16341c8088ad3820ad9356a9f755aefbdfcd520d91d965f7cd2d568f"
+    },
+    {
+      "path": "Assets/App/Core/Persistence/AgentToolStore.cs",
+      "sha256": "d899ace87e3cdd0dd94af8eb8bdff14ccfe3ab9c630ba68a3041f973fb06a4b3"
+    },
+    {
+      "path": "Assets/App/Core/Persistence/AudioRecordStore.cs",
+      "sha256": "810cc5960a14a9603b0c49ac67ea0221c6b9a25976c217bdab844b0317583e3c"
+    },
+    {
+      "path": "Assets/App/Core/Persistence/ConversationHistoryStore.cs",
+      "sha256": "3702f9aed0a72e9a53e72bb06c4c2c86b449fd1fb441b3639d7586c765f4a438"
+    },
+    {
+      "path": "Assets/App/Core/Persistence/ConversationStore.cs",
+      "sha256": "a4e80f34110411ff754f14c8a1f29a65d77f7209e2dbc9ee6e0d6da214304669"
+    },
+    {
+      "path": "Assets/App/Core/Persistence/DatabaseService.cs",
+      "sha256": "96f9a471769851b9324e0b89d8c977cd34752881109a85ed2de19182185c7e55"
+    },
+    {
+      "path": "Assets/App/Core/Persistence/DiaryStore.cs",
+      "sha256": "d2b3731dffcd2bf979bf2f7b5fd882adb58d9235699da2185517be7e1374d142"
+    },
+    {
+      "path": "Assets/App/Core/Persistence/MemoryForgetting.cs",
+      "sha256": "862e8b396d237179f12f14bf573da1a43c41a7f65a84adc2650a3539dd115db3"
+    },
+    {
+      "path": "Assets/App/Core/Persistence/MemoryRetrieval.cs",
+      "sha256": "4e76f7f96454e0d7c05928c17bb9d293611abf382894b24eb32350a27e75ff5c"
+    },
+    {
+      "path": "Assets/App/Core/Persistence/MemoryStore.cs",
+      "sha256": "dca18a9980ed7546cbd2e3d5ce559142ce0fdba643b8fd2c9edd34340730d4a2"
+    },
+    {
+      "path": "Assets/App/Core/Persistence/SessionSummaryStore.cs",
+      "sha256": "6d12ea455d04da5c29dec3a855e6dd307f4492057982e90003ccc7b0936945e6"
+    },
+    {
+      "path": "Assets/App/Core/Persistence/SqliteConnection.cs",
+      "sha256": "97518cdee140dd60f5e4ab7ecd754d3397293c8fcf3615b7d1ceed40ebc33a21"
+    },
+    {
+      "path": "Assets/App/Core/Persistence/SqlitePhase0Store.cs",
+      "sha256": "6bb540871601fb79481ac0d2b7a7037810c5e7d54061cd5c6369ab6059f89b22"
+    },
+    {
+      "path": "Assets/App/GiftCompanion.Runtime.asmdef",
+      "sha256": "73efeccae4c02ec03a8126fdcfebb3d6c546e4a794195aaee7a6c8fd12b950c5"
+    },
+    {
+      "path": "Assets/App/RuntimeAssemblyInfo.cs",
+      "sha256": "cc26c80813459985613276367358f3ca42531ffb41103236b8617038b039a041"
+    },
+    {
+      "path": "Assets/App/SharedUI/CompanionUIFactory.cs",
+      "sha256": "ae128b3e103a36f3d2f905fd430d14bab5227ff43b89a3cb1784064537f84a93"
+    },
+    {
+      "path": "Assets/App/SharedUI/HomeScreen.cs",
+      "sha256": "381649229a494136695b77b915b8871051ceb736c9adf8671d5cf741f99c86ae"
+    },
+    {
+      "path": "Assets/App/SharedUI/ModeSceneController.cs",
+      "sha256": "ab6c2086a48580cb21cbcdffe3adb33fe2f39ff5c55350ddcd8cddd27bb8776b"
+    },
+    {
+      "path": "Assets/App/SharedUI/PlayerFiles.cs",
+      "sha256": "bb37e65b3f00d4deb0c0724814e4042288f77e9442a83fe5660cdbd1d4ad6a0e"
+    },
+    {
+      "path": "Assets/App/Validation/BilingualPlayerProbe.cs",
+      "sha256": "d2eb49e5eeff0ccdf425b288ae5cef477e57759c67defd75a441deca4e155af9"
+    },
+    {
+      "path": "Assets/App/Validation/ExpressionDiaryPlayerProbe.cs",
+      "sha256": "8b3a6d2629f47020decc7e72d8b33d603c9d6b0bce74f1b0e504776cb25d5872"
+    },
+    {
+      "path": "Assets/App/Validation/Phase0PlayerProbe.cs",
+      "sha256": "176a88664dabdc152a51e475bda6e41e35c0925f01c75406bfbe229943c4bbf8"
+    },
+    {
+      "path": "Assets/App/Validation/Phase1PlayerProbe.cs",
+      "sha256": "d0b3853f932f16e733083934b9e742a61f191d3731e69d0aabe50fbed0d2a353"
+    },
+    {
+      "path": "Assets/App/Validation/Phase2AcceptanceRunner.cs",
+      "sha256": "c5d24f8d616c5ccf6fceda336f50398160ddf375fb07f11eeb0e2007162f3fdf"
+    },
+    {
+      "path": "Assets/App/Validation/Phase2DevelopmentPanel.cs",
+      "sha256": "64308950bb9a7ad84bf32520ec426a279a0b6f22c5d3faee68b49ea537e2c9b9"
+    },
+    {
+      "path": "Assets/App/Validation/Phase2PlayerProbe.cs",
+      "sha256": "9c3d64a9c85daac105e66c50033a28d08d1ec0e41d71c1e45677ee9af426253d"
+    },
+    {
+      "path": "Assets/App/Validation/Phase3PlayerProbe.cs",
+      "sha256": "bad307b099b988d719dd22cddc6d214bb86fddffa108ddf604cc1f1d3675f3fc"
+    },
+    {
+      "path": "Assets/App/Validation/Phase3PlusPlayerProbe.cs",
+      "sha256": "0037a844162d392227b98a2d30347e065103c32d5e45019efad8dd871e8504a7"
+    },
+    {
+      "path": "Assets/App/Validation/Phase4PlayerProbe.cs",
+      "sha256": "66a540ff13f404170be62ebfa249b58a18793881406c779635c1414e6c28b53e"
+    },
+    {
+      "path": "Assets/App/Validation/Phase5PlayerProbe.cs",
+      "sha256": "177eb7c9450977f808b5908304b90612b8c1c256b80cc43f98f7ec30c77febbb"
+    },
+    {
+      "path": "Assets/App/Validation/VoicePolishPlayerProbe.cs",
+      "sha256": "bf88946ba57c066bded92d0566f0bc8263db770d6b2e3c81984841098e22fe43"
+    },
+    {
+      "path": "Assets/Editor/BilingualBuild.cs",
+      "sha256": "a338f56f1ace1677fa4ff46c78e6fa97f22185cafa1efc745c81f7989e5009a4"
+    },
+    {
+      "path": "Assets/Editor/CharacterAssetSetup.cs",
+      "sha256": "40d7023c71a3f07c7b551a324c4423c366ab65c6cfacb9e56c46241df6fa6f16"
+    },
+    {
+      "path": "Assets/Editor/DeepSeekPhase0Probe.cs",
+      "sha256": "d37cd9a523bdeeaa9eb0961971b883c921df9f246a33bd654f154ca3f6826f22"
+    },
+    {
+      "path": "Assets/Editor/ExpressionDiaryBuild.cs",
+      "sha256": "931f037394c96f11aaae39e7808f3e41a4c81f9bd769cde5a7b7a4589398de44"
+    },
+    {
+      "path": "Assets/Editor/GiftCompanion.Editor.asmdef",
+      "sha256": "7187839045f4d28e852f9334a44d00aa7d15abbc0f1d39557775e978a44ad652"
+    },
+    {
+      "path": "Assets/Editor/Phase0Build.cs",
+      "sha256": "1cd63f55e5097ba485bf4075a47dcffc731e82d254957ed20265733d2882ad5f"
+    },
+    {
+      "path": "Assets/Editor/Phase1Build.cs",
+      "sha256": "3c07f4b3db84b79127e939f3f40e254b26c21b4c35a58d5c7bba3b8cba574676"
+    },
+    {
+      "path": "Assets/Editor/Phase1CoreProbe.cs",
+      "sha256": "1559595d0a11744c552f809ff09bb676e90acfe7946ec92738c5ef0c38ed9c73"
+    },
+    {
+      "path": "Assets/Editor/Phase2Build.cs",
+      "sha256": "ec8f3578f24409632da71e7936e7724b343ddcd234801dc179acb4ef3f7936e9"
+    },
+    {
+      "path": "Assets/Editor/Phase2CoreProbe.cs",
+      "sha256": "556761636ed8cc051c53be1c614a390467f60efe7f55706d567190ef73c0e4d7"
+    },
+    {
+      "path": "Assets/Editor/Phase2DevelopmentMenu.cs",
+      "sha256": "8b128cf9724cdff8c30c95665a42e3ea9385df9cbe37d2af435aa8f9eca4ba45"
+    },
+    {
+      "path": "Assets/Editor/Phase3Build.cs",
+      "sha256": "c3b0cf79dcbdac5c8e1a6c733bddaa4c2f0f48d86b378c174d31cf2ccef3dbf8"
+    },
+    {
+      "path": "Assets/Editor/Phase3PlusBuild.cs",
+      "sha256": "c011f810a9ad227b1229d31687d3459019adfc8ac46778b2d1d60fce68b9603c"
+    },
+    {
+      "path": "Assets/Editor/Phase3Setup.cs",
+      "sha256": "aa09965d87d4a6cd1418591baecc8ee5a3f5f83eeedd63a218002e9d7ffce944"
+    },
+    {
+      "path": "Assets/Editor/Phase4Build.cs",
+      "sha256": "32a5a63ca58e0b5267c3070f4fb6e4447c6ec9cbaf80472635e18f1be62ec938"
+    },
+    {
+      "path": "Assets/Editor/Phase5Build.cs",
+      "sha256": "f1bff0bdbbac14f61d0c6a26d7f4621fef2d1fb38ac375e782ca6d287d8c9683"
+    },
+    {
+      "path": "Assets/Editor/SkeletonProjectSetup.cs",
+      "sha256": "cc7e0ae4574a81699f4e22adc3ab97a7021989fd93002a47ce47324b23b9bd67"
+    },
+    {
+      "path": "Assets/Editor/VoicePolishBuild.cs",
+      "sha256": "223b622851605c3ab60b5733f066414fad2fcd2332ffa6c4af342813be99b0c4"
+    },
+    {
+      "path": "Assets/Tests/EditMode/AgentToolTests.cs",
+      "sha256": "47ccc614fad357aff1dd5a73f3ae8364d7ee0ad9d4635ad1423228d72520131a"
+    },
+    {
+      "path": "Assets/Tests/EditMode/CharacterCoreTests.cs",
+      "sha256": "d27121df630a6e2a936506c3b70971867796dc20476fb7a5c40c9e1e398d4ead"
+    },
+    {
+      "path": "Assets/Tests/EditMode/CompanionProtocolTests.cs",
+      "sha256": "97e4a4766ecac643642763b16ddd91f475f8d790f9871d9a0f2d896e15ebb83c"
+    },
+    {
+      "path": "Assets/Tests/EditMode/ConversationHistoryTests.cs",
+      "sha256": "2023b19746deef4fd4cf092113e041fce9c9a262244d6a9ce5239e336cba804b"
+    },
+    {
+      "path": "Assets/Tests/EditMode/ConversationTests.cs",
+      "sha256": "3d873958ab26833039a19d86ed1b5334493b368ff04068d584eaadd482e5d907"
+    },
+    {
+      "path": "Assets/Tests/EditMode/DeepSeekApiTests.cs",
+      "sha256": "4543150f31438c80c93153cbe7dde7dbb06774c71f8b42e1eba9fb935fa054f4"
+    },
+    {
+      "path": "Assets/Tests/EditMode/DialoguePipelineTests.cs",
+      "sha256": "8ae620bd18f75fb371d036c0d4e144c1e2d637bf398f9dc8ffade1b851f0a656"
+    },
+    {
+      "path": "Assets/Tests/EditMode/ExpressionDiaryTests.cs",
+      "sha256": "493ed4fdc779f3dc26d972fb880a1008d3fd1f306dfffbd6951356bc6f4e9b44"
+    },
+    {
+      "path": "Assets/Tests/EditMode/FoundationTests.cs",
+      "sha256": "a946f6c41fcbb72697e2564644f3c5e9ad7ebffe27defde7a3971d76a6fdd7ea"
+    },
+    {
+      "path": "Assets/Tests/EditMode/GiftCompanion.EditModeTests.asmdef",
+      "sha256": "0d672cc0c74becc6cb7f84a076c99962b8c9b0fb14448f3b063305864233da05"
+    },
+    {
+      "path": "Assets/Tests/EditMode/MemoryExtractionTests.cs",
+      "sha256": "1720fd96b3bdbe3844673a258ff5d19f08affae11ff6c3b55f405ff3ea452286"
+    },
+    {
+      "path": "Assets/Tests/EditMode/MemoryLifecycleTests.cs",
+      "sha256": "9610370d575229f2018aff362a7fc0501d5ecf807908d7a040c49544f0618243"
+    },
+    {
+      "path": "Assets/Tests/EditMode/MemoryRetrievalTests.cs",
+      "sha256": "018aabeae9677035d2be32e591298f31bbfff14e5874bdf712a492d66f3a0322"
+    },
+    {
+      "path": "Assets/Tests/EditMode/MemoryTransportTests.cs",
+      "sha256": "fff309a70694cdd81d8317067b1bdbdf7d530c34563bc292b8605c9b3ba73018"
+    },
+    {
+      "path": "Assets/Tests/EditMode/PetSettingsTests.cs",
+      "sha256": "7acce730625918f3c14144d3dbe33054135c0e3bfb5082947da6dbd801dc8d66"
+    },
+    {
+      "path": "Assets/Tests/EditMode/PlayerFilesTests.cs",
+      "sha256": "317a518be34efad097576fb5c1578b541ff27f845ad3dc067c850f2fbda5b47a"
+    },
+    {
+      "path": "Assets/Tests/EditMode/RelationshipDiaryTests.cs",
+      "sha256": "2275987c916c89b2aeb956fa5f55e1569ebc0092c60231772735351ddd1380e5"
+    },
+    {
+      "path": "Assets/Tests/EditMode/SpeechLocalizationTests.cs",
+      "sha256": "4c359912830770a3b593b68a4422688532fdbb7d9cff9836060002793258a61a"
+    },
+    {
+      "path": "Assets/Tests/EditMode/SqlitePhase0Tests.cs",
+      "sha256": "aaa743876f8746b5111f34e2e949939277d703375a293988766c5d8033e66d44"
+    },
+    {
+      "path": "Assets/Tests/EditMode/TestDatabase.cs",
+      "sha256": "8775a05fb1b668d214581b11e746c7bcaf3f6b70dfc8ef298630bac02eab5940"
+    },
+    {
+      "path": "Assets/Tests/EditMode/VoicePolishTests.cs",
+      "sha256": "d72469e3762f33423eabf574b20e31deaff3c9526ae98f3ca2650a981d49dccd"
+    },
+    {
+      "path": "Assets/Tests/EditMode/VoiceTests.cs",
+      "sha256": "f15eb9276f5a86e199f2d2d9b47c28845ac831fb96434418e84b52c8e59ba1b3"
+    },
+    {
+      "path": "Assets/Tests/PlayMode/CharacterPlaybackTests.cs",
+      "sha256": "95ba21b416508f96e86f01772a14e89094e1a980ee5193d7db4fd7e7a246bb37"
+    },
+    {
+      "path": "Assets/Tests/PlayMode/CompanionScreenTests.cs",
+      "sha256": "daf5eae2bead6662a7a4a3d044a83c5e5bf6e7f9f32168a803f0a4e8547cf246"
+    },
+    {
+      "path": "Assets/Tests/PlayMode/GiftCompanion.PlayModeTests.asmdef",
+      "sha256": "8120df310c2458703c7dba4d1d51c6b21f43b465bbe11d76d5646e6352813789"
+    },
+    {
+      "path": "Assets/Tests/PlayMode/PetScreenTests.cs",
+      "sha256": "5fe99e0a16c819414001c6f3eceef1490cb319129f0d41225fb6cff9aeb83cf6"
+    },
+    {
+      "path": "Assets/Tests/PlayMode/PlayerContentTests.cs",
+      "sha256": "fca7956f4fb1fa0c44e81b279819f276006644fa506b85c65908e65959cbb023"
+    },
+    {
+      "path": "Assets/Tests/PlayMode/PlayTestData.cs",
+      "sha256": "a4b4915d58d165e95eb5007c773b758dccbd4db14009d169624389796191c27a"
+    },
+    {
+      "path": "Assets/Tests/PlayMode/SceneLifecycleTests.cs",
+      "sha256": "253967f038158638d5fae38b8af81c572add2e8c3544273a25fd094ee10bd93e"
+    },
+    {
+      "path": "Assets/Tests/PlayMode/VoicePlaybackTests.cs",
+      "sha256": "b7d4d351899881aa6fdaade3465e2bd60a058ec0cf3fc34e53735b06557d64ac"
+    },
+    {
+      "path": "Assets/Tests/PlayMode/WindowsToolValidationTests.cs",
+      "sha256": "e90be7b09516216cf7b668a6b1eb5bc8fb8846988a065c99d8cca5deacc8099a"
+    },
+    {
+      "path": "Tools/Build-Phase5.ps1",
+      "sha256": "be57d24fe991c797f0e9d3a70c3d10b4663bed2c6216908db696a033b9d97870"
+    },
+    {
+      "path": "Tools/Save-Phase5Acceptance.py",
+      "sha256": "ba3eba2c721a9f103dc7a043520f5fc9c2808f58a8dd86add1b7dc21bcdd521b"
+    },
+    {
+      "path": "Tools/Start-Phase5.cmd",
+      "sha256": "327c602fc40e3fb3d290cd2cfbb3a9ec9b82994bed433d06135914c3e5b80315"
+    },
+    {
+      "path": "Tools/Start-Phase5.ps1",
+      "sha256": "b9dd5e7dc1075f3d85d35738ebdb37432c48db718ee3520e2d276c07017e8ef1"
+    },
+    {
+      "path": "Tools/Test-Phase5Player.ps1",
+      "sha256": "9b41feb95e9ad9f793197e94f5746843f31f38bd13702fa58c85ab811939cd09"
+    }
+  ],
+  "shippingKeysOrTests": false,
+  "verifiedAtUtc": "2026-10-18T11:08:41.222821+00:00"
+}

@@ -1,0 +1,118 @@
+{
+  "passed": true,
+  "revision": 7,
+  "baselineRevision": 6,
+  "untouchedBodyActions": [
+    "Idle",
+    "Walk",
+    "Thinking",
+    "Working",
+    "HeadPat",
+    "Dragging",
+    "Sleep",
+    "HeadPat_Enter",
+    "HeadPat_Exit",
+    "Dragging_Enter",
+    "Dragging_Exit",
+    "Sleep_Enter",
+    "Sleep_Exit"
+  ],
+  "untouchedFaceProfiles": [
+    "Idle",
+    "Walk",
+    "Thinking",
+    "Working",
+    "HeadPat",
+    "Dragging",
+    "Sleep",
+    "Wave",
+    "Confused",
+    "BodyClick",
+    "HeadPat_Enter",
+    "HeadPat_Exit",
+    "Dragging_Enter",
+    "Dragging_Exit",
+    "Sleep_Enter",
+    "Sleep_Exit"
+  ],
+  "successTorsoAndFeetCurvesPreserved": true,
+  "headClickBodyPreserved": true,
+  "bodyClickOnlyWingBonesChanged": true,
+  "successWristHeightBeforeAfter": [
+    {
+      "L": 0.6968938112258911,
+      "R": 0.7090319395065308
+    },
+    {
+      "L": 0.8013635873794556,
+      "R": 0.8042165637016296
+    }
+  ],
+  "confusedPalmInwardDots": [
+    0.9979509167314973,
+    0.9997926611686125,
+    0.9981372165493667,
+    0.9998124807607383,
+    0.997849639999913,
+    0.999797961791046,
+    0.9981856141239405
+  ],
+  "confusedScratchFingerRangeMeters": 0.012187944974084795,
+  "waveReturnWristSpeedMetersPerSecond": 0.2366587231233862,
+  "wingLocalPoseDifferences": [
+    {
+      "name": "Wave",
+      "phase": 0.43,
+      "leftRightRootDifferenceRadians": [
+        0.16690492630004883,
+        0.16661149263381958
+      ]
+    },
+    {
+      "name": "BodyClick",
+      "phase": 0.8,
+      "leftRightRootDifferenceRadians": [
+        0.010472478345036507,
+        0.010449687018990517
+      ]
+    }
+  ],
+  "shoulderSamePoseIntersectionComparison": [
+    {
+      "phase": 0.19607843137254902,
+      "uncorrectedPairs": 54,
+      "correctedPairs": 34
+    },
+    {
+      "phase": 0.27450980392156865,
+      "uncorrectedPairs": 51,
+      "correctedPairs": 36
+    },
+    {
+      "phase": 0.3431372549019608,
+      "uncorrectedPairs": 49,
+      "correctedPairs": 37
+    },
+    {
+      "phase": 0.4803921568627451,
+      "uncorrectedPairs": 49,
+      "correctedPairs": 37
+    },
+    {
+      "phase": 0.5490196078431373,
+      "uncorrectedPairs": 52,
+      "correctedPairs": 39
+    },
+    {
+      "phase": 0.6176470588235294,
+      "uncorrectedPairs": 52,
+      "correctedPairs": 16
+    }
+  ],
+  "headClickTriangleMouthAndClosedEyesVerified": true,
+  "headClickNoSmileVerified": true,
+  "successClosedEyesAndRaisedBrowsVerified": true,
+  "allDurationsPreserved": true,
+  "allMouthWeightsNormalized": true,
+  "shoulderComparisonIsNotCompleteCollisionCertification": true
+}

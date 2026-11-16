@@ -1,0 +1,30 @@
+{
+    "createdAt": "2026-10-09T11:01:31.0590605Z",
+    "passed": [
+        "HeadPat selects 10.png exactly once in trial mode",
+        "Five independent original-pixel parts are rendered",
+        "Source skeleton slots and animations remain unchanged",
+        "Original iris and lash layers are hidden beneath Pat10 rather than doubled",
+        "Pat10 preserves the original Pat head response",
+        "Light drag changes head response without resampling the expression",
+        "Speaking keeps Pat10 eyes while the native speech mouth takes control",
+        "Speech pause closes the native mouth during Pat10",
+        "Release removes all trial parts and source fades",
+        "Disabling the trial removes its render parts immediately",
+        "Re-enabling rebuilds original-pixel trial resources",
+        "Trial off restores original expression selection",
+        "Skeleton rebuild clears the gesture and rebinds trial resources",
+        "Existing 25 behavior checks still pass with trial switched off"
+    ],
+    "failed": [],
+    "allPassed": true,
+    "sourceSlots": 294,
+    "sourceAnimations": 52,
+    "activeDrawSlots": 299,
+    "regressionChecks": 25,
+    "patRotation": 1.6000003814697266,
+    "dragRotationRange": 0.7999992370605469,
+    "maximumRestoreError": 0.0,
+    "eyeSize": 1.899999976158142,
+    "handSideEyeScale": 1.5499999523162842
+}

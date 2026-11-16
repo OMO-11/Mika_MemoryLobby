@@ -1,0 +1,47 @@
+"""Offline synced color/silhouette/small-size comparison and shareable review GIFs."""
+import json,math
+from pathlib import Path
+from PIL import Image,ImageDraw
+ROOT=Path('W:/Machine/VSCode/Mika_Gift/Material/CHDDD');OUT=ROOT/'Previews/ActionsV2'
+old_map=json.loads((ROOT/'Checkpoints/V2_revision4_before_readability/Unity/body_action_map_v2.json').read_text(encoding='utf-8'))
+mapping=json.loads((ROOT/'Unity/body_action_map_v2.json').read_text(encoding='utf-8'))
+unity=json.loads((ROOT/'body_v2_revision5_unity_frames.json').read_text(encoding='utf-8'))
+assert unity['passed'] and unity['revision']==5 and unity['actions']==5
+names=['Confused','Success','Wave','HeadClick','BodyClick'];labels=dict(zip(names,['疑惑','庆祝','挥手','头部点击','身体点击']))
+entries=[];contact=Image.new('RGB',(440,5*194),(232,235,240));draw=ImageDraw.Draw(contact)
+for row,name in enumerate(names):
+    e=next(e for e in mapping['actions'] if e['name']==name);old=next(e for e in old_map['actions'] if e['name']==name)
+    current=sorted((OUT/'UnityMotion').glob(name+'_motion_*.png'));previous=sorted((OUT/'Revision4').glob(name+'_motion_*.png'))
+    assert len(current)==round(e['durationSeconds']*24) and len(previous)==round(old['durationSeconds']*24)
+    frames=[]
+    for i,path in enumerate(current):
+        source=Image.open(path).convert('RGBA');assert source.getchannel('A').getextrema()[0]==0,('transparent-native-frames-required',name,i)
+        color=source.resize((132,160),Image.Resampling.LANCZOS)
+        silhouette=Image.new('RGBA',source.size,(35,38,48,0));silhouette.putalpha(source.getchannel('A'));silhouette=silhouette.resize((132,160),Image.Resampling.LANCZOS)
+        earlier=Image.open(previous[min(len(previous)-1,round(i/max(1,len(current)-1)*(len(previous)-1)))]).convert('RGBA').resize((132,160),Image.Resampling.LANCZOS)
+        frame=Image.new('RGBA',(440,184),(232,235,240,255));d=ImageDraw.Draw(frame)
+        for x,im,label in [(6,color,'Rev5'),(153,silhouette,'Silhouette'),(300,earlier,'Rev4')]:frame.alpha_composite(im,(x,20));d.text((x,3),name+' '+label,fill=(35,38,48))
+        frames.append(frame.convert('RGB'))
+    palette=frames[len(frames)//2].quantize(colors=256)
+    indexed=[f.quantize(palette=palette,dither=Image.Dither.NONE) for f in frames]
+    durations=[round((i+1)*e['durationSeconds']*100/len(frames))*10-round(i*e['durationSeconds']*100/len(frames))*10 for i in range(len(frames))]
+    indexed[0].save(OUT/('review_'+name+'_160.gif'),save_all=True,append_images=indexed[1:],duration=durations,loop=0,optimize=False,disposal=2)
+    hold={'Confused':.49,'Success':.39,'Wave':.37,'HeadClick':.24,'BodyClick':.45}[name]
+    contact.paste(frames[min(len(frames)-1,round(hold*(len(frames)-1)))],(0,row*194))
+    entries.append(dict(e,label=labels[name],count=len(current),oldCount=len(previous),oldDuration=old['durationSeconds']))
+contact.save(OUT/'readability_keyposes_160.png')
+html='''<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>未花 · 小尺寸动作审查 · 修订5</title>
+<style>body{margin:0;background:#e8ebf0;color:#232630;font:16px system-ui,"Microsoft YaHei",sans-serif}main{max-width:1120px;margin:20px auto;padding:20px}h1{font-size:24px}p{line-height:1.75}button,select{font:inherit;padding:8px;border:1px solid #a5abba;border-radius:6px;background:white}a{color:#75425f}.controls{display:flex;gap:10px;align-items:center;flex-wrap:wrap}.views{display:flex;gap:24px;flex-wrap:wrap;margin:24px 0;align-items:flex-start}.small{display:flex;gap:16px;flex-wrap:wrap;align-items:flex-start}figure{margin:0}figcaption{margin:8px 0;font-size:14px}canvas{background:#d9dfe8;border:1px solid #b4bdcc}#large{width:300px;height:auto}#scrub{width:300px}.phase{padding:10px;background:white;border-left:4px solid #c98aab}table{border-collapse:collapse}td{padding:8px;border-bottom:1px solid #bbc2ce}</style>
+<main><p><a href="index.html">全部18个动作</a> · <a href="readability_keyposes_160.png">关键姿态与轮廓图</a></p><h1>未花 · 修订5 · 小尺寸动作审查</h1><p>先用小尺寸和纯轮廓看身体语言，再放大检查脸与发衣细节。三幅小画面共用同一进度；上一版按其自身长度对照同一进度。像素尺寸指含光环的完整画布，角色实际高度稍小。</p>
+<div class="controls"><select id="action">OPTIONS</select><button id="play">暂停</button><button id="reset">重播</button><button id="step">下一帧</button><label>速度 <select id="speed"><option value="1">正常</option><option value=".5">半速</option><option value=".25">四分之一</option></select></label><label>小画布高度 <select id="size"><option>160</option><option>240</option></select></label></div>
+<div class="views"><figure><canvas id="large" width="480" height="580"></canvas><figcaption>当前动作放大查看</figcaption></figure><div><div class="small"><figure><canvas id="small"></canvas><figcaption>修订5 · 彩色</figcaption></figure><figure><canvas id="silhouette"></canvas><figcaption>修订5 · 仅轮廓</figcaption></figure><figure><canvas id="old"></canvas><figcaption>修订4 · 彩色</figcaption></figure></div><p class="phase" id="phase"></p><p id="description"></p><table><tr><td>动作层级</td><td id="tier"></td></tr><tr><td>时长</td><td id="duration"></td></tr><tr><td>关键姿态停留</td><td id="hold"></td></tr></table><p><a id="gif">下载160像素对比GIF</a></p></div></div><p><input id="scrub" type="range" min="0" max="1000" value="0"> <span id="time"></span></p><p>单次反馈在审查页反复播放；实际桌宠应由触发逻辑播放一次。日常微动作低强度、情绪响应中高强度、特殊演出高强度且低频。当前素材记录了层级与频率建议，尚未接入正式桌宠调度。</p></main>
+<script>const entries=DATA,$=id=>document.getElementById(id);let entry,images=[],oldImages=[],phase=0,playing=true,last=performance.now(),token=0;const contexts=['large','small','silhouette','old'].map(id=>$(id).getContext('2d'));function resize(){for(const id of ['small','silhouette','old']){$(id).height=Number($('size').value);$(id).width=Math.round(Number($('size').value)*480/580);}}async function show(){let own=++token;entry=entries.find(e=>e.name===$('action').value);images=[];oldImages=[];phase=0;$('description').textContent=entry.intent;$('tier').textContent={daily:'日常微动作',emotion:'情绪响应',special:'特殊演出'}[entry.tier];$('duration').textContent=entry.durationSeconds.toFixed(2)+'秒（上一版'+entry.oldDuration.toFixed(2)+'秒）';$('hold').textContent=entry.holdSeconds.toFixed(2)+'秒';$('gif').href='review_'+entry.name+'_160.gif';const read=(count,prefix)=>Promise.all(Array.from({length:count},(_,i)=>new Promise(resolve=>{let im=new Image;im.onload=()=>resolve(im);im.onerror=()=>resolve(null);im.src=prefix+entry.name+'_motion_'+String(i).padStart(3,'0')+'.png';})));let loaded=await Promise.all([read(entry.count,''),read(entry.oldCount,'Revision4/')]);if(own===token){images=loaded[0];oldImages=loaded[1];}}function draw(ctx,im,mono=false){ctx.clearRect(0,0,ctx.canvas.width,ctx.canvas.height);if(!im)return;ctx.filter=mono?'brightness(0)':'none';ctx.drawImage(im,0,0,ctx.canvas.width,ctx.canvas.height);ctx.filter='none';}function tick(now){let dt=Math.min(.08,(now-last)/1000);last=now;if(entry&&images.length){if(playing)phase=(phase+dt*Number($('speed').value)/entry.durationSeconds)%1;let im=images[Math.min(images.length-1,Math.floor(phase*images.length))];draw(contexts[0],im);draw(contexts[1],im);draw(contexts[2],im,true);draw(contexts[3],oldImages[Math.min(oldImages.length-1,Math.floor(phase*oldImages.length))]);$('scrub').value=phase*1000;$('time').textContent=(phase*entry.durationSeconds).toFixed(2)+'秒';$('phase').textContent=phase<.20?'预备：停下、收身或蓄势':phase<.60?'主动作：展示情绪并让关键姿态停留':'缓冲：身体和发衣逐渐回落';}requestAnimationFrame(tick);}$('action').onchange=show;$('size').onchange=resize;$('play').onclick=()=>{playing=!playing;$('play').textContent=playing?'暂停':'播放';};$('reset').onclick=()=>{phase=0;playing=true;$('play').textContent='暂停';};$('step').onclick=()=>{playing=false;$('play').textContent='播放';phase=(phase+1/entry.count)%1;};$('scrub').oninput=()=>{phase=Number($('scrub').value)/1000;playing=false;$('play').textContent='播放';};resize();show();requestAnimationFrame(tick);</script></html>'''
+html=html.replace('<select id="action">','<label>当前画面 <select id="engine"><option value="UnityMotion/">Unity 实际渲染</option><option value="">Blender 制作预览</option></select></label><select id="action">')
+html=html.replace("read(entry.count,'')","read(entry.count,$('engine').value)")
+html=html.replace("$('action').onchange=show;","$('action').onchange=show;$('engine').onchange=show;")
+html=html.replace('修订4 · 彩色','修订4 · Blender参考').replace('下载160像素对比GIF','下载Unity 160像素对比GIF')
+html=html.replace('像素尺寸指含光环的完整画布','当前可切换Unity实际渲染或Blender制作预览，旧版为Blender参考，材质呈现有所不同。像素尺寸指含光环的完整画布')
+html=html.replace('OPTIONS',''.join('<option value="'+n+'">'+labels[n]+'</option>' for n in names)).replace('DATA',json.dumps(entries,ensure_ascii=False))
+(OUT/'readability.html').write_text(html,encoding='utf-8')
+(ROOT/'body_v2_revision5_small_preview_validation.json').write_text(json.dumps({'passed':True,'revision':5,'actions':5,'canvasHeights':[160,240],'includesSilhouette':True,'comparisonVersion':4,'nativeAlphaVerified':True,'nativeUnityFramesVerified':True,'unityFrameCount':unity['frames'],'preview':'Previews/ActionsV2/readability.html'},indent=2),encoding='utf-8')
+print('Small-size review package completed')

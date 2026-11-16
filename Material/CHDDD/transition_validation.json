@@ -1,0 +1,70 @@
+{
+  "blenderEndpointsPassed": true,
+  "presets": [
+    {
+      "emotion": "happy",
+      "poseError": 5.960464477539063e-08,
+      "shapeError": 1.4901161138336505e-09,
+      "mouthError": 0.0
+    },
+    {
+      "emotion": "shy",
+      "poseError": 5.960464477539063e-08,
+      "shapeError": 5.960464483090178e-09,
+      "mouthError": 0.0
+    },
+    {
+      "emotion": "concern",
+      "poseError": 5.960464477539063e-08,
+      "shapeError": 1.1920928910669204e-08,
+      "mouthError": 0.0
+    },
+    {
+      "emotion": "sad",
+      "poseError": 5.960464477539063e-08,
+      "shapeError": 7.152557379708213e-09,
+      "mouthError": 0.0
+    },
+    {
+      "emotion": "surprised",
+      "poseError": 5.960464477539063e-08,
+      "shapeError": 0.0,
+      "mouthError": 0.0
+    },
+    {
+      "emotion": "annoyed",
+      "poseError": 5.960464477539063e-08,
+      "shapeError": 1.3113021835042815e-08,
+      "mouthError": 0.0
+    },
+    {
+      "emotion": "sleepy",
+      "poseError": 5.960464477539063e-08,
+      "shapeError": 0.0,
+      "mouthError": 0.0
+    },
+    {
+      "emotion": "confused",
+      "poseError": 5.960464477539063e-08,
+      "shapeError": 1.7881393449270533e-09,
+      "mouthError": 0.0
+    }
+  ],
+  "blenderInterruptedTransition": {
+    "passed": true,
+    "poseError": 5.960464477539063e-08,
+    "shapeError": 0.0,
+    "mouthError": 0.0
+  },
+  "blenderPlaybackOnceVerified": true,
+  "unity": {
+    "passed": true,
+    "animationClips": 50,
+    "transitionClips": 8,
+    "runtimeTransitionsVerified": true,
+    "interruptedTransitionContinuous": true,
+    "mouthCrossfadeVerified": true,
+    "irisSizePreserved": true
+  },
+  "visualReview": "Reviewed all eight neutral transitions at 0/125/250/375/500 ms and closed-eye closeups at front and +/-20 degrees. Smooth closed arcs with no exposed socket in these views."
+}

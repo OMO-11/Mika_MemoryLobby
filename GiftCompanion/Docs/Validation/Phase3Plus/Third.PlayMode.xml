@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="12" result="Failed(Child)" total="12" passed="10" failed="2" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-15 06:48:44Z" end-time="2026-10-15 06:49:18Z" duration="34.0645914">
+  <test-suite type="TestSuite" id="1022" name="GiftCompanion" fullname="GiftCompanion" runstate="Runnable" testcasecount="12" result="Failed" site="Child" start-time="2026-10-15 06:48:44Z" end-time="2026-10-15 06:49:18Z" duration="34.064591" total="12" passed="10" failed="2" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="Assembly" id="1017" name="GiftCompanion.PlayModeTests.dll" fullname="W:/Machine/VSCode/Mika_Gift/GiftCompanion/Library/ScriptAssemblies/GiftCompanion.PlayModeTests.dll" runstate="Runnable" testcasecount="12" result="Failed" site="Child" start-time="2026-10-15 06:48:44Z" end-time="2026-10-15 06:49:18Z" duration="34.058885" total="12" passed="10" failed="2" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="32212" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestSuite" id="1018" name="GiftCompanion" fullname="GiftCompanion" runstate="Runnable" testcasecount="12" result="Failed" site="Child" start-time="2026-10-15 06:48:44Z" end-time="2026-10-15 06:49:18Z" duration="34.058520" total="12" passed="10" failed="2" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="TestSuite" id="1019" name="Tests" fullname="GiftCompanion.Tests" runstate="Runnable" testcasecount="12" result="Failed" site="Child" start-time="2026-10-15 06:48:44Z" end-time="2026-10-15 06:49:18Z" duration="34.058241" total="12" passed="10" failed="2" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-suite type="TestFixture" id="1001" name="CharacterPlaybackTests" fullname="GiftCompanion.Tests.CharacterPlaybackTests" classname="GiftCompanion.Tests.CharacterPlaybackTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-10-15 06:48:44Z" end-time="2026-10-15 06:48:46Z" duration="2.546628" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1002" name="PetPlaysOriginalClipsAndReleasesAnInterruptedTouch" fullname="GiftCompanion.Tests.CharacterPlaybackTests.PetPlaysOriginalClipsAndReleasesAnInterruptedTouch" methodname="PetPlaysOriginalClipsAndReleasesAnInterruptedTouch" classname="GiftCompanion.Tests.CharacterPlaybackTests" runstate="Runnable" seed="332092903" result="Passed" start-time="2026-10-15 06:48:44Z" end-time="2026-10-15 06:48:46Z" duration="1.780017" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1003" name="SpineLoadsTheFullLobbyAndKeepsOneIdleTrack" fullname="GiftCompanion.Tests.CharacterPlaybackTests.SpineLoadsTheFullLobbyAndKeepsOneIdleTrack" methodname="SpineLoadsTheFullLobbyAndKeepsOneIdleTrack" classname="GiftCompanion.Tests.CharacterPlaybackTests" runstate="Runnable" seed="2075481216" result="Passed" start-time="2026-10-15 06:48:46Z" end-time="2026-10-15 06:48:46Z" duration="0.758094" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1004" name="CompanionScreenTests" fullname="GiftCompanion.Tests.CompanionScreenTests" classname="GiftCompanion.Tests.CompanionScreenTests" runstate="Runnable" testcasecount="3" result="Failed" site="Child" start-time="2026-10-15 06:48:46Z" end-time="2026-10-15 06:48:48Z" duration="1.752406" total="3" passed="2" failed="1" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-case id="1007" name="HistoryReadsSharedBodyAndSceneMusicHandlesEmptyAndSyntheticPlaylistAndRelease" fullname="GiftCompanion.Tests.CompanionScreenTests.HistoryReadsSharedBodyAndSceneMusicHandlesEmptyAndSyntheticPlaylistAndRelease" methodname="HistoryReadsSharedBodyAndSceneMusicHandlesEmptyAndSyntheticPlaylistAndRelease" classname="GiftCompanion.Tests.CompanionScreenTests" runstate="Runnable" seed="1983616119" result="Failed" start-time="2026-10-15 06:48:46Z" end-time="2026-10-15 06:48:47Z" duration="0.649893" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <failure>
+                <message><![CDATA[  Expected: greater than 0
+  But was:  0
+]]></message>
+                <stack-trace><![CDATA[at GiftCompanion.Tests.CompanionScreenTests+<HistoryReadsSharedBodyAndSceneMusicHandlesEmptyAndSyntheticPlaylistAndRelease>d__4.MoveNext () [0x002f7] in W:\Machine\VSCode\Mika_Gift\GiftCompanion\Assets\Tests\PlayMode\CompanionScreenTests.cs:74
+at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in .\Library\PackageCache\com.unity.test-framework@0b7a23ab2e1d\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs:44
+]]></stack-trace>
+              </failure>
+            </test-case>
+            <test-case id="1005" name="InputAndMenuCaptureTouchAndNoKeyRetainsDraftWithoutSavingFakeReply" fullname="GiftCompanion.Tests.CompanionScreenTests.InputAndMenuCaptureTouchAndNoKeyRetainsDraftWithoutSavingFakeReply" methodname="InputAndMenuCaptureTouchAndNoKeyRetainsDraftWithoutSavingFakeReply" classname="GiftCompanion.Tests.CompanionScreenTests" runstate="Runnable" seed="895044996" result="Passed" start-time="2026-10-15 06:48:47Z" end-time="2026-10-15 06:48:48Z" duration="0.534356" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1006" name="ReplacementDrainsOldTurnAndLateCallbacksCannotReplaceNewTextOrMood" fullname="GiftCompanion.Tests.CompanionScreenTests.ReplacementDrainsOldTurnAndLateCallbacksCannotReplaceNewTextOrMood" methodname="ReplacementDrainsOldTurnAndLateCallbacksCannotReplaceNewTextOrMood" classname="GiftCompanion.Tests.CompanionScreenTests" runstate="Runnable" seed="1020742917" result="Passed" start-time="2026-10-15 06:48:48Z" end-time="2026-10-15 06:48:48Z" duration="0.566752" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1008" name="PlayerContentTests" fullname="GiftCompanion.Tests.PlayerContentTests" classname="GiftCompanion.Tests.PlayerContentTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-10-15 06:48:48Z" end-time="2026-10-15 06:48:53Z" duration="4.457801" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1010" name="MultipleSongsStayOnSelectedTrackAndCrossfadeNeverExceedsUserVolume" fullname="GiftCompanion.Tests.PlayerContentTests.MultipleSongsStayOnSelectedTrackAndCrossfadeNeverExceedsUserVolume" methodname="MultipleSongsStayOnSelectedTrackAndCrossfadeNeverExceedsUserVolume" classname="GiftCompanion.Tests.PlayerContentTests" runstate="Runnable" seed="549930473" result="Passed" start-time="2026-10-15 06:48:48Z" end-time="2026-10-15 06:48:52Z" duration="3.410816" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1009" name="PlayerCardAppliesWithoutReplacingCoreAndImportedSpaceKeepsSharedState" fullname="GiftCompanion.Tests.PlayerContentTests.PlayerCardAppliesWithoutReplacingCoreAndImportedSpaceKeepsSharedState" methodname="PlayerCardAppliesWithoutReplacingCoreAndImportedSpaceKeepsSharedState" classname="GiftCompanion.Tests.PlayerContentTests" runstate="Runnable" seed="1875357057" result="Passed" start-time="2026-10-15 06:48:52Z" end-time="2026-10-15 06:48:53Z" duration="1.046055" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1011" name="SceneLifecycleTests" fullname="GiftCompanion.Tests.SceneLifecycleTests" classname="GiftCompanion.Tests.SceneLifecycleTests" runstate="Runnable" testcasecount="5" result="Failed" site="Child" start-time="2026-10-15 06:48:53Z" end-time="2026-10-15 06:49:18Z" duration="25.300258" total="5" passed="4" failed="1" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-case id="1012" name="DevelopmentPanelRequiresExplicitEnablement" fullname="GiftCompanion.Tests.SceneLifecycleTests.DevelopmentPanelRequiresExplicitEnablement" methodname="DevelopmentPanelRequiresExplicitEnablement" classname="GiftCompanion.Tests.SceneLifecycleTests" runstate="Runnable" seed="248921189" result="Passed" start-time="2026-10-15 06:48:53Z" end-time="2026-10-15 06:48:53Z" duration="0.062599" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1014" name="EnteringAModeSceneDirectlyBootstrapsSafely" fullname="GiftCompanion.Tests.SceneLifecycleTests.EnteringAModeSceneDirectlyBootstrapsSafely" methodname="EnteringAModeSceneDirectlyBootstrapsSafely" classname="GiftCompanion.Tests.SceneLifecycleTests" runstate="Runnable" seed="1486916529" result="Passed" start-time="2026-10-15 06:48:53Z" end-time="2026-10-15 06:48:53Z" duration="0.579043" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1015" name="LoadFailureRecoversHomeAndShutdownSavesBeforeReleasingServices" fullname="GiftCompanion.Tests.SceneLifecycleTests.LoadFailureRecoversHomeAndShutdownSavesBeforeReleasingServices" methodname="LoadFailureRecoversHomeAndShutdownSavesBeforeReleasingServices" classname="GiftCompanion.Tests.SceneLifecycleTests" runstate="Runnable" seed="2141788507" result="Passed" start-time="2026-10-15 06:48:53Z" end-time="2026-10-15 06:48:53Z" duration="0.073871" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1013" name="RepeatedSwitchesKeepOneRootAndTheSameSharedServices" fullname="GiftCompanion.Tests.SceneLifecycleTests.RepeatedSwitchesKeepOneRootAndTheSameSharedServices" methodname="RepeatedSwitchesKeepOneRootAndTheSameSharedServices" classname="GiftCompanion.Tests.SceneLifecycleTests" runstate="Runnable" seed="1742869509" result="Failed" start-time="2026-10-15 06:48:53Z" end-time="2026-10-15 06:49:17Z" duration="24.053477" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <failure>
+                <message><![CDATA[  Button navigation timed out.
+  Expected: less than 34.6375084f
+  But was:  34.637928f
+]]></message>
+                <stack-trace><![CDATA[at GiftCompanion.Tests.SceneLifecycleTests+<WaitForMode>d__12.MoveNext () [0x00035] in W:\Machine\VSCode\Mika_Gift\GiftCompanion\Assets\Tests\PlayMode\SceneLifecycleTests.cs:222
+at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in .\Library\PackageCache\com.unity.test-framework@0b7a23ab2e1d\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs:44
+]]></stack-trace>
+              </failure>
+            </test-case>
+            <test-case id="1016" name="SwitchingCancelsAModeBoundRequestBeforeItCanComplete" fullname="GiftCompanion.Tests.SceneLifecycleTests.SwitchingCancelsAModeBoundRequestBeforeItCanComplete" methodname="SwitchingCancelsAModeBoundRequestBeforeItCanComplete" classname="GiftCompanion.Tests.SceneLifecycleTests" runstate="Runnable" seed="870192952" result="Passed" start-time="2026-10-15 06:49:17Z" end-time="2026-10-15 06:49:18Z" duration="0.529084" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[Saving results to: W:\Machine\VSCode\Mika_Gift\GiftCompanion\Docs\Validation\Phase3Plus\Third.PlayMode.xml
+]]></output>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

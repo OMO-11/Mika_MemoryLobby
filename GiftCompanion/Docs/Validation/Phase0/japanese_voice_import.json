@@ -1,0 +1,35 @@
+{
+  "scope": "japanese-voice-staging",
+  "modelArchivesSHA256": {
+    "未花-cn.zip": "464bc9a6d5be6dea9e4130f81daaf8d5e5cf52b7353d3d0f6638592e24a38120",
+    "未花-jp.zip": "1df4552e6b0b0e0cd6fb5263c260baaed7ca056c5b421cc05466e08c0d6a0809"
+  },
+  "modelArchivesAreIdentical": false,
+  "defaultLanguageUnchanged": "zh",
+  "assets": [
+    {
+      "sourceEntry": "v4/未花/未花-e10.ckpt",
+      "target": "models/mika-ja/gpt.ckpt",
+      "bytes": 155312893,
+      "sha256": "113b297bfef6238fcabd2e15812dc3c8ca5b24763cc14d5bc0f708241bd8dc57"
+    },
+    {
+      "sourceEntry": "v4/未花/未花_e10_s140_l32.pth",
+      "target": "models/mika-ja/sovits.pth",
+      "bytes": 75549998,
+      "sha256": "4a6a8660e4e767681f55a897823d41cf6b81160113d9687f1c8abc1d8b8d2a6c"
+    },
+    {
+      "sourceEntry": "v4/未花/reference_audios/日语/emotions/【默认】ふんんー？今度は貴方たち？.wav",
+      "target": "models/mika-ja/reference.wav",
+      "bytes": 282460,
+      "sha256": "ec3de279a8f921be83ea0bec398b025301c0d47fab4b88da1df54cd3d4b808ac"
+    }
+  ],
+  "referenceWav": {
+    "seconds": 3.2019954648526077,
+    "sampleRate": 44100,
+    "channels": 1
+  },
+  "runtimeVerified": false
+}

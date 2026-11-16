@@ -1,0 +1,300 @@
+{
+  "version": 1,
+  "fps": 30,
+  "rig": "Generic",
+  "rootMotion": false,
+  "weaponVisible": false,
+  "actions": [
+    {
+      "name": "Idle",
+      "clip": "PetV1_Idle",
+      "durationSeconds": 4.0,
+      "frames": [
+        1,
+        121
+      ],
+      "loop": true,
+      "emotion": "neutral",
+      "source": "CH0069_Cafe_Idle",
+      "logicalAction": "Idle",
+      "enterClip": "",
+      "exitClip": "",
+      "nextAction": ""
+    },
+    {
+      "name": "Walk",
+      "clip": "PetV1_Walk",
+      "durationSeconds": 1.3333333333333333,
+      "frames": [
+        1,
+        41
+      ],
+      "loop": true,
+      "emotion": "neutral",
+      "source": "CH0069_Cafe_Walk",
+      "logicalAction": "Walk",
+      "enterClip": "",
+      "exitClip": "",
+      "nextAction": ""
+    },
+    {
+      "name": "Thinking",
+      "clip": "PetV1_Thinking",
+      "durationSeconds": 3.0,
+      "frames": [
+        1,
+        91
+      ],
+      "loop": true,
+      "emotion": "concern",
+      "source": "First authored draft",
+      "logicalAction": "Thinking",
+      "enterClip": "",
+      "exitClip": "",
+      "nextAction": ""
+    },
+    {
+      "name": "Working",
+      "clip": "PetV1_Working",
+      "durationSeconds": 2.4,
+      "frames": [
+        1,
+        73
+      ],
+      "loop": true,
+      "emotion": "neutral",
+      "source": "First authored draft",
+      "logicalAction": "Working",
+      "enterClip": "",
+      "exitClip": "",
+      "nextAction": ""
+    },
+    {
+      "name": "HeadPat",
+      "clip": "PetV1_HeadPat",
+      "durationSeconds": 3.0,
+      "frames": [
+        1,
+        91
+      ],
+      "loop": true,
+      "emotion": "happy",
+      "source": "First authored draft",
+      "logicalAction": "HeadPat",
+      "enterClip": "PetV1_HeadPat_Enter",
+      "exitClip": "PetV1_HeadPat_Exit",
+      "nextAction": ""
+    },
+    {
+      "name": "Dragging",
+      "clip": "PetV1_Dragging",
+      "durationSeconds": 1.6,
+      "frames": [
+        1,
+        49
+      ],
+      "loop": true,
+      "emotion": "surprised",
+      "source": "First authored draft",
+      "logicalAction": "Dragging",
+      "enterClip": "PetV1_Dragging_Enter",
+      "exitClip": "PetV1_Dragging_Exit",
+      "nextAction": ""
+    },
+    {
+      "name": "Sleep",
+      "clip": "PetV1_Sleep",
+      "durationSeconds": 5.0,
+      "frames": [
+        1,
+        151
+      ],
+      "loop": true,
+      "emotion": "sleepy",
+      "source": "First authored draft",
+      "logicalAction": "Sleep",
+      "enterClip": "PetV1_Sleep_Enter",
+      "exitClip": "PetV1_Sleep_Exit",
+      "nextAction": ""
+    },
+    {
+      "name": "Wave",
+      "clip": "PetV1_Wave",
+      "durationSeconds": 2.0,
+      "frames": [
+        1,
+        61
+      ],
+      "loop": false,
+      "emotion": "happy",
+      "source": "First authored draft",
+      "logicalAction": "Wave",
+      "enterClip": "",
+      "exitClip": "",
+      "nextAction": "Idle"
+    },
+    {
+      "name": "Success",
+      "clip": "PetV1_Success",
+      "durationSeconds": 1.8,
+      "frames": [
+        1,
+        55
+      ],
+      "loop": false,
+      "emotion": "happy",
+      "source": "First authored draft",
+      "logicalAction": "Success",
+      "enterClip": "",
+      "exitClip": "",
+      "nextAction": "Idle"
+    },
+    {
+      "name": "Confused",
+      "clip": "PetV1_Confused",
+      "durationSeconds": 2.0,
+      "frames": [
+        1,
+        61
+      ],
+      "loop": false,
+      "emotion": "confused",
+      "source": "First authored draft",
+      "logicalAction": "Confused",
+      "enterClip": "",
+      "exitClip": "",
+      "nextAction": "Idle"
+    },
+    {
+      "name": "HeadClick",
+      "clip": "PetV1_HeadClick",
+      "durationSeconds": 0.8,
+      "frames": [
+        1,
+        25
+      ],
+      "loop": false,
+      "emotion": "surprised",
+      "source": "First authored draft",
+      "logicalAction": "HeadClick",
+      "enterClip": "",
+      "exitClip": "",
+      "nextAction": "Idle"
+    },
+    {
+      "name": "BodyClick",
+      "clip": "PetV1_BodyClick",
+      "durationSeconds": 0.8,
+      "frames": [
+        1,
+        25
+      ],
+      "loop": false,
+      "emotion": "shy",
+      "source": "First authored draft",
+      "logicalAction": "BodyClick",
+      "enterClip": "",
+      "exitClip": "",
+      "nextAction": "Idle"
+    },
+    {
+      "name": "HeadPat_Enter",
+      "clip": "PetV1_HeadPat_Enter",
+      "durationSeconds": 0.6,
+      "frames": [
+        1,
+        19
+      ],
+      "loop": false,
+      "emotion": "happy",
+      "source": "First authored draft",
+      "logicalAction": "HeadPat",
+      "enterClip": "",
+      "exitClip": "PetV1_HeadPat_Exit",
+      "nextAction": "HeadPat"
+    },
+    {
+      "name": "HeadPat_Exit",
+      "clip": "PetV1_HeadPat_Exit",
+      "durationSeconds": 0.6,
+      "frames": [
+        1,
+        19
+      ],
+      "loop": false,
+      "emotion": "neutral",
+      "source": "First authored draft",
+      "logicalAction": "HeadPat",
+      "enterClip": "",
+      "exitClip": "PetV1_HeadPat_Exit",
+      "nextAction": "Idle"
+    },
+    {
+      "name": "Dragging_Enter",
+      "clip": "PetV1_Dragging_Enter",
+      "durationSeconds": 0.4,
+      "frames": [
+        1,
+        13
+      ],
+      "loop": false,
+      "emotion": "surprised",
+      "source": "First authored draft",
+      "logicalAction": "Dragging",
+      "enterClip": "",
+      "exitClip": "PetV1_Dragging_Exit",
+      "nextAction": "Dragging"
+    },
+    {
+      "name": "Dragging_Exit",
+      "clip": "PetV1_Dragging_Exit",
+      "durationSeconds": 0.6,
+      "frames": [
+        1,
+        19
+      ],
+      "loop": false,
+      "emotion": "neutral",
+      "source": "First authored draft",
+      "logicalAction": "Dragging",
+      "enterClip": "",
+      "exitClip": "PetV1_Dragging_Exit",
+      "nextAction": "Idle"
+    },
+    {
+      "name": "Sleep_Enter",
+      "clip": "PetV1_Sleep_Enter",
+      "durationSeconds": 1.2,
+      "frames": [
+        1,
+        37
+      ],
+      "loop": false,
+      "emotion": "sleepy",
+      "source": "First authored draft",
+      "logicalAction": "Sleep",
+      "enterClip": "",
+      "exitClip": "PetV1_Sleep_Exit",
+      "nextAction": "Sleep"
+    },
+    {
+      "name": "Sleep_Exit",
+      "clip": "PetV1_Sleep_Exit",
+      "durationSeconds": 1.2,
+      "frames": [
+        1,
+        37
+      ],
+      "loop": false,
+      "emotion": "neutral",
+      "source": "First authored draft",
+      "logicalAction": "Sleep",
+      "enterClip": "",
+      "exitClip": "PetV1_Sleep_Exit",
+      "nextAction": "Idle"
+    }
+  ],
+  "defaultAction": "Idle",
+  "defaultTransitionSeconds": 0.25,
+  "facePolicy": "Body owns Head/Neck. Emotion mask contains only eyes, brows and mouth; accepted source expression data unchanged."
+}

@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "approvalDate": "2026-11-02",
+  "approvedMotionSource": "CameraMotionV7",
+  "scope": "visual baseline, production integration pending",
+  "persistentWorldUi": true,
+  "font": "Lolita.ttf",
+  "clockFormat": "HH : mm",
+  "dateFormat": "yyyy.MM.dd",
+  "music": {
+    "position": "top-left",
+    "titleFont": "italic 26px Georgia",
+    "title": "current track from playlist",
+    "buttons": [
+      "previous",
+      "pause-or-play",
+      "next",
+      "volume"
+    ],
+    "reveal": "pointer proximity or keyboard focus",
+    "transparent": true,
+    "cover": false,
+    "playlistPanel": false,
+    "separateMusicPage": false,
+    "repeat": "one",
+    "manualSwitchOnly": true,
+    "emblemToggle": [
+      "double-star",
+      "swiss-roll"
+    ],
+    "fullHubMergedIntoMotionPreview": false
+  },
+  "dialogue": {
+    "position": "lower-left",
+    "whiteOutlineSubtitles": true,
+    "plate": false,
+    "nameBar": false,
+    "inputBoxVisual": false,
+    "replacementInputMethodConfirmed": false,
+    "preserveBackendChat": true,
+    "preserveTtsSubtitleTiming": true
+  },
+  "futurePanels": {
+    "paperReadingDirectionRetained": false,
+    "fullDesignFrozen": false,
+    "innerPageFirstVisualApproved": true
+  },
+  "superseded": [
+    "large stretched clock",
+    "trapezoid text",
+    "slanted endpoint",
+    "analogue clock",
+    "isolated UI scale 0.85"
+  ],
+  "innerPages": {
+    "approvalDate": "2026-11-02",
+    "visualDirectionApproved": true,
+    "pages": [
+      "settings",
+      "diary",
+      "history",
+      "persona",
+      "spaces"
+    ],
+    "diary": {
+      "selected": "window floating text",
+      "backgroundPlate": false,
+      "paperAlternative": "not adopted, historical comparison only",
+      "manualGeneration": true,
+      "summaryScope": "all history from start to now",
+      "paragraphs": true,
+      "scrollAndContinue": true
+    },
+    "font": "Lolita.ttf",
+    "productionIntegrated": false
+  }
+}

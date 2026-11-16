@@ -1,0 +1,76 @@
+2026-10-24 月白夜蓝视觉测试稿操作记录
+
+[范围]
+- 目标目录：W:\Machine\VSCode\Mika_Gift\GiftCompanion\Docs\Design\MikaVisual（2026-10-24 18:57 整理至其下 Moonwhite\）
+- 本轮只做记忆大厅视觉原型；桌宠、桌面入口不在范围。
+- 未修改 Unity 工程、玩家配置、记忆数据、源素材、V1/V2/V3 原型。
+- 用户已确认“按默认开始，生成预览 HTML”。
+
+[新增文件]
+- preview_moonwhite.html：单文件可点击视觉测试稿，内联 CSS/SVG/JS；不联网、不写玩家资料、不播放音频、不调用模型。
+- render_moonwhite.ps1：本地 Edge headless 截图脚本；GUID 临时 profile，结束后清理。
+- moonwhite_render.log：39 张截图的渲染记录。
+- moonwhite_build.log：本日志。
+- mw_*.png：13 个状态 × 3 种尺寸，共 39 张。
+  - 1280×720：mw_<view>.png
+  - 1024×768：mw_<view>_classic.png
+  - 900×700：mw_<view>_compact.png
+
+[修改文件]
+- moonwhite_design_v1.md：更新状态、已生成范围与验收结果；不改变原有设计结论。
+
+[只读引用]
+- 背景：../../../../Material/Mika_MemoryLobby_Spine/renders/CH0069_home/Idle_01_t0.5.png
+- 字体：../../../Assets/App/SharedUI/Resources/Fonts/NotoSansCJKsc-Regular.otf
+
+[执行命令]
+- powershell -NoProfile -ExecutionPolicy Bypass -File render_moonwhite.ps1 -Views "idle,idle-clean,dialogue,input,thinking,menu,diary,momotalk,music,space,persona,settings,home"
+- 每一张使用：msedge --headless=new --allow-file-access-from-files --force-device-scale-factor=1 --virtual-time-budget=2500 --window-size=<w,h>，URL 带 view/size/bare=1。
+
+[校验结果]
+- 背景 naturalWidth = 3460，加载正常。
+- document.fonts.check('16px MikaSans') = true，本地 Noto Sans 生效。
+- 控制台无消息、无脚本报错。
+- 三种尺寸下 stage 的 scrollWidth 与 clientWidth 一致；未发现面板、字幕、输入框越出画面。
+- 逐张检查：面部安全区、月白纸页行宽、菜单层级、音乐面板纵向顺序、紧凑版设置页签均正常。
+- 交互实测：
+  - 大厅 Enter / 点击提示进入输入；发送后进入等待，约 1.9s 后回到对话并替换示例回复。
+  - 输入法 composition 期间 Enter 不会发送。
+  - 菜单 → MomoTalk / 设置 / 人物 → 关闭返回菜单；Esc 逐级返回。
+  - 静音同步标签、播放状态与左下角音乐信息。
+  - 设置滑杆标记“有尚未保存的修改”，保存后给出演示反馈。
+  - 人物设定保存、取消、取回上一版均为演示状态，不写磁盘。
+  - 退出确认可打开、可“再待一会儿”关闭；不会实际关闭窗口。
+  - 大字号开关、三种窗口尺寸切换正常。
+
+[本轮修正]
+- 修复 .now-playing 样式冲突：idle 的绝对定位规则限定到 .idle-dock，音乐面板恢复“封面与曲名 → 进度 → 控制 → 歌单 → 页脚”的预期顺序，消除紧凑版底部控件被裁切。
+- 提高亮背景上的可读性：顶部边缘增加轻渐变，时间与日期阴影加强，日期字号 10px，字标副标题 10px；顶部遮罩按 1280/1024/900 分别对齐边缘，避免页面横向溢出。
+- MomoTalk 底部增加纸色渐隐，滚动截断不再像硬切。
+- 首页光环与英文小标增加暗色投影，亮翼背景上仍可辨认。
+- 音乐“单曲循环”标签改为按内容宽度显示，不再被拉伸成长条。
+
+[未完成 / 待确认]
+- 目录内仍有一个早前 V3 尝试留下的 .edge-v3-profile-58b3b771-6c13-4bb0-955d-c2a653ef50b2 临时浏览器目录；本轮未删除，等你确认后再清理。
+- 纯欣赏提示“点击画面，回到大厅”会在 4.5s 内淡出；若希望更久或常驻，可调。
+- 字体、封面、头像仍按默认方案；如提供专属素材可替换。
+- Shift+Enter 的换行逻辑保留浏览器原生行为；本轮内置浏览器自动化无法模拟原生换行输入，代码未拦截 Shift+Enter。
+
+[回退方式]
+- 删除本轮新增的 preview_moonwhite.html、render_moonwhite.ps1、moonwhite_render.log、moonwhite_build.log 与 mw_*.png 即可移除此原型。
+- moonwhite_design_v1.md 仅更新状态与验收段；如需完全回退，可恢复“待用户确认 / 本轮未生成 HTML”的旧状态。
+- 未改动 Unity、玩家配置、记忆数据或源素材，无需代码回滚。
+
+[目录整理 2026-10-24 18:57]
+- 按用户要求，将本轮 44 个文件集中到 W:\Machine\VSCode\Mika_Gift\GiftCompanion\Docs\Design\MikaVisual\Moonwhite\：preview_moonwhite.html、render_moonwhite.ps1、moonwhite_design_v1.md、moonwhite_build.log、moonwhite_render.log、39 张 mw_*.png。
+- 因目录层级加深，preview_moonwhite.html 的本地引用各上移一级：
+  - 字体：../../../../Assets/App/SharedUI/Resources/Fonts/NotoSansCJKsc-Regular.otf
+  - 背景与空间缩略图：../../../../../Material/Mika_MemoryLobby_Spine/renders/CH0069_home/Idle_01_t0.5.png
+- render_moonwhite.ps1 使用 $PSScriptRoot，无需改动。
+- moonwhite_design_v1.md 中的生成目录已更新为 Docs/Design/MikaVisual/Moonwhite/。
+- 父目录中既有的 V1/V2/V3 原型、截图与 .edge-v3-profile-* 临时目录未移动、未删除。
+
+[搬迁后复验 2026-10-24 18:59]
+- 从新目录运行 render_moonwhite.ps1 -Views idle -Sizes wide，重新生成 mw_idle.png（1058537 bytes，1280×720）。
+- 截图确认背景、角色、字标、时间与底部控件均正常；两条相对素材路径 Test-Path 通过。
+- 复验记录单独保存为 moonwhite_render_postmove.log，原 39 张渲染日志保持完整。

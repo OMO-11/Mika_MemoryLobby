@@ -1,0 +1,46 @@
+{
+  "passed": true,
+  "phase": "V2-5",
+  "date": "2026-11-03",
+  "tests": {
+    "EditMode": {
+      "total": 165,
+      "passed": 165,
+      "failed": 0
+    },
+    "PlayMode": {
+      "total": 43,
+      "passed": 43,
+      "failed": 0
+    }
+  },
+  "native": {
+    "passed": true,
+    "checks": 53
+  },
+  "readingRegression": {
+    "passed": true,
+    "checks": 33
+  },
+  "smallWindowScreenshot": [
+    960,
+    540
+  ],
+  "build": {
+    "passed": true,
+    "result": "Succeeded",
+    "errors": 0,
+    "bytes": 327111506,
+    "seconds": 16.5814084,
+    "unity": "6000.3.7f1",
+    "renderer": "Direct3D11",
+    "flipModelSwapchain": false
+  },
+  "buildFiles": 190,
+  "baselineProtection": true,
+  "frozenVisualHashes": 96,
+  "releaseFilesExistenceAndSize": 27782,
+  "playerAcceptance": "pending",
+  "scope": "Isolated data, real UI/config/Spine/SQLite/audio-cache/backup; simulated reading LLM and WAV; no real API/TTS, committed restore/restart or full-device/DPI acceptance",
+  "nextPhase": "V2-6 not started"
+}

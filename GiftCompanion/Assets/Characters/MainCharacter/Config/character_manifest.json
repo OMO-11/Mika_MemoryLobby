@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "characterId": "main-character",
+  "status": "phase0-resource-playback-verified",
+  "llmPresentationCommandsEnabled": true,
+  "companion": {
+    "sourceId": "CH0069_home",
+    "runtime": "spine-unity-4.2",
+    "profile": "Assets/CompanionValidation/CH0069Behavior.asset",
+    "skeleton": "Assets/StreamingAssets/CH0069_Source/CH0069_home.skel.bytes",
+    "idle": "Idle_01",
+    "thinking": "local:CompanionLocalMotion.Thinking",
+    "speaking": "local:CompanionSpeechDriver.PCM",
+    "persistentEmotionMappingComplete": false,
+    "emotions": {},
+    "actions": {"none": "local:no-action"},
+    "expressionMap": "Assets/Characters/MainCharacter/Config/expression_map.json",
+    "unknownActionFallback": "Idle_01",
+    "touchAreas": ["Face", "Ball_Hair_01", "F_Hair_01", "F_Hair_02"],
+    "pat10Enabled": false
+  },
+  "pet": {
+    "sourceId": "CHDDD",
+    "deliveryRevision": 7,
+    "fullySynchronizedWithLatestBlender": false,
+    "prefab": "Assets/Characters/MainCharacter/Pet/CHDDD/Unity/CHDDD_Actions_v2.prefab",
+    "actionMap": "Assets/Characters/MainCharacter/Pet/CHDDD/Unity/body_action_map_v2.json",
+    "faceProfiles": "Assets/Characters/MainCharacter/Pet/CHDDD/Unity/action_face_profiles_v2.json",
+    "expressionMap": "Assets/Characters/MainCharacter/Pet/CHDDD/Unity/expression_map_v2.json",
+    "idle": "PetV2_Idle",
+    "states": {"Idle": "PetV2_Idle", "Walk": "PetV2_Walk", "Thinking": "PetV2_Thinking", "Working": "PetV2_Working", "Sleep": "PetV2_Sleep"},
+    "publicLogicalActions": ["Idle", "Walk", "Thinking", "Working", "HeadPat", "Dragging", "Sleep", "Wave", "Success", "Confused", "HeadClick", "BodyClick"],
+    "unknownActionFallback": "Idle",
+    "specialExpressionsIntegrated": false,
+    "touchAreas": [],
+    "pointerInteractionImplemented": false
+  },
+  "bgmPlaylist": [],
+  "voice": { "enabled": false, "config": "Runtime/GPT-SoVITS/voice.json", "language": "zh", "runtimeVerified": true,
+    "alternateConfigs": { "ja": "Runtime/GPT-SoVITS/voice-ja.json" }, "qualityAccepted": false }
+}

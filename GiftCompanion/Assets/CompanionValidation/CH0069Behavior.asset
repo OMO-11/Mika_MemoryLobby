@@ -1,0 +1,211 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64d525b3e63a371439a13007a81a77e9, type: 3}
+  m_Name: CH0069Behavior
+  m_EditorClassIdentifier: Assembly-CSharp::CompanionBehaviorProfile
+  resourceFolder: CH0069_Source
+  skeletonFile: CH0069_home.skel.bytes
+  atlasFile: CH0069_home.atlas.txt
+  textureFiles:
+  - CH0069_home.png
+  - CH0069_home2.png
+  - CH0069_home3.png
+  - CH0069_home4.png
+  idleAnimation: Idle_01
+  gazeBone: Touch_Eye_Key
+  headBone: Head_Rot
+  mouthSlot: Mouse_normal_01
+  closedMouth: Mouse_normal_close
+  openMouth: Mouse_normal_01
+  gazeCouplingConstraint: Touch_Eye_Key
+  touchPointBone: Touch_Point_Key
+  touchMotionAnimation: Pat_01_M
+  touchReleaseAnimation: PatEnd_01_M
+  headHitSlots:
+  - Face
+  - Ball_Hair_01
+  - F_Hair_01
+  - F_Hair_02
+  expressionBlendSeconds: 0.16
+  mouthBlendSeconds: 0.065
+  eyesOnlyIdle: 1
+  pointerAttentionSeconds: 2.2
+  enablePat10Trial: 0
+  blinkAttachments:
+  - slot: L_Eyebrow_idle
+    attachment: L_Eyebrow_eyeclose
+  - slot: L_Eyebrow_idle2
+    attachment: L_Eyebrow_eyeclose
+  - slot: L_Eyelid_01_fill
+    attachment: L_Eyelid_01_fill
+  - slot: R_Eyebrow_idle
+    attachment: R_Eyebrow_eyeclose
+  - slot: R_Eyebrow_idle2
+    attachment: R_Eyebrow_eyeclose
+  - slot: R_Eyelid_01_fill
+    attachment: R_Eyelid_01_fill
+  skeletonScale: 0.01
+  gazeLimit: {x: 0.48, y: 0.34}
+  headLimit: 1
+  headHitCenter: {x: 2, y: 2.2}
+  headHitRadius: {x: 3.3, y: 3.6}
+  headFollowEnabled: 1
+  touchExpressions:
+  - id: pat_closed_eyes
+    sourceAnimation: Pat_01_A
+    sourceTime: 0
+    enabled: 1
+    closedEyes: 1
+    openMouth: Mouse_Depressed_02
+    attachments:
+    - slot: L_Eyebrow_idle
+      attachment: L_Eyebrow_eyeclose
+    - slot: L_Eyebrow_idle2
+      attachment: L_Eyebrow_eyeclose
+    - slot: L_Eyelid_01_fill
+      attachment: L_Eyelid_01_fill
+    - slot: Mouse_normal_01
+      attachment: Mouse_Depressed_02_close
+    - slot: R_Eyebrow_idle
+      attachment: R_Eyebrow_eyeclose
+    - slot: R_Eyebrow_idle2
+      attachment: R_Eyebrow_eyeclose
+    - slot: R_Eyelid_01_fill
+      attachment: R_Eyelid_01_fill
+    gazeBias: {x: 0, y: 0}
+  - id: pat_playful
+    sourceAnimation: Talk_01_A
+    sourceTime: 2
+    enabled: 1
+    closedEyes: 0
+    openMouth: Mouse_doya_03
+    attachments:
+    - slot: L_Eyebrow_idle
+      attachment: L_Eyebrow_doya
+    - slot: L_Eyebrow_idle2
+      attachment: L_Eyebrow_doya
+    - slot: L_Eyelid_01_fill
+      attachment: L_Eyelid_02_doya
+    - slot: L_Eye_idle_01
+      attachment: L_Eye_idle_01
+    - slot: L_Eye_idle_02
+      attachment: L_Eye_idle_02
+    - slot: L_Eye_idle_03
+      attachment: L_Eye_idle_03
+    - slot: L_T_Eyebrow_idle
+      attachment: L_T_Eyebrow_doya
+    - slot: L_T_Eyebrow_idle2
+      attachment: L_T_Eyebrow_doya
+    - slot: Mouse_normal_01
+      attachment: Mouse_doya_03_close
+    - slot: R_Eyebrow_idle
+      attachment: R_Eyebrow_doya
+    - slot: R_Eyebrow_idle2
+      attachment: R_Eyebrow_doya
+    - slot: R_Eyelid_01_fill
+      attachment: R_Eyelid_02_doya
+    - slot: R_Eye_idle_01
+      attachment: R_Eye_idle_01
+    - slot: R_Eye_idle_02
+      attachment: R_Eye_idle_02
+    - slot: R_Eye_idle_03
+      attachment: R_Eye_idle_03
+    - slot: R_T_Eyebrow_idle
+      attachment: R_T_Eyebrow_doya
+    - slot: R_T_Eyebrow_idle2
+      attachment: R_T_Eyebrow_doya
+    gazeBias: {x: 0, y: 0}
+  - id: pat_shy
+    sourceAnimation: Talk_03_A
+    sourceTime: 12
+    enabled: 1
+    closedEyes: 0
+    openMouth: Mouse_shy
+    attachments:
+    - slot: L_Eyebrow_idle
+      attachment: L_Eyebrow_Shy
+    - slot: L_Eyebrow_idle2
+      attachment: L_Eyebrow_Shy
+    - slot: L_Eyelid_01_fill
+      attachment: 
+    - slot: L_Eye_idle_01
+      attachment: L_Eye_shy_01
+    - slot: L_Eye_idle_02
+      attachment: L_Eye_shy_02
+    - slot: L_Eye_idle_03
+      attachment: 
+    - slot: L_T_Eyebrow_idle
+      attachment: L_T_Eyebrow_Talk02
+    - slot: L_T_Eyebrow_idle2
+      attachment: L_T_Eyebrow_Talk02
+    - slot: Mouse_normal_01
+      attachment: Mouse_shy_close
+    - slot: R_Eyebrow_idle
+      attachment: R_Eyebrow_Shy
+    - slot: R_Eyebrow_idle2
+      attachment: R_Eyebrow_Shy
+    - slot: R_Eyelid_01_fill
+      attachment: 
+    - slot: R_Eye_idle_01
+      attachment: R_Eye_shy_01
+    - slot: R_Eye_idle_02
+      attachment: R_Eye_shy_02
+    - slot: R_Eye_idle_03
+      attachment: 
+    - slot: R_T_Eyebrow_idle
+      attachment: R_T_Eyebrow_Talk02
+    - slot: R_T_Eyebrow_idle2
+      attachment: R_T_Eyebrow_Talk02
+    gazeBias: {x: -0.12, y: 0.04}
+  thinkingExpressions:
+  - id: thinking_neutral
+    sourceAnimation: Talk_03_A
+    sourceTime: 0.7
+    enabled: 1
+    closedEyes: 0
+    openMouth: 
+    attachments:
+    - slot: L_Eyebrow_idle
+      attachment: L_Eyebrow_normal
+    - slot: L_Eyebrow_idle2
+      attachment: L_Eyebrow_normal
+    - slot: L_Eyelid_01_fill
+      attachment: 
+    - slot: L_Eye_idle_01
+      attachment: L_Eye_idle_01
+    - slot: L_Eye_idle_02
+      attachment: L_Eye_idle_02
+    - slot: L_Eye_idle_03
+      attachment: L_Eye_idle_03
+    - slot: L_T_Eyebrow_idle
+      attachment: L_T_Eyebrow_shy
+    - slot: L_T_Eyebrow_idle2
+      attachment: L_T_Eyebrow_shy
+    - slot: Mouse_normal_01
+      attachment: Mouse_normal_close
+    - slot: R_Eyebrow_idle
+      attachment: R_Eyebrow_normal
+    - slot: R_Eyebrow_idle2
+      attachment: R_Eyebrow_normal
+    - slot: R_Eyelid_01_fill
+      attachment: 
+    - slot: R_Eye_idle_01
+      attachment: R_Eye_idle_01
+    - slot: R_Eye_idle_02
+      attachment: R_Eye_idle_02
+    - slot: R_Eye_idle_03
+      attachment: R_Eye_idle_03
+    - slot: R_T_Eyebrow_idle
+      attachment: R_T_Eyebrow_shy
+    - slot: R_T_Eyebrow_idle2
+      attachment: R_T_Eyebrow_shy
+    gazeBias: {x: 0, y: 0}

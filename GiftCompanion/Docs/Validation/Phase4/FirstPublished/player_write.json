@@ -1,0 +1,39 @@
+{
+  "passed": true,
+  "mode": "Write",
+  "stage": "shutdown",
+  "flags": {
+    "isolatedData": true,
+    "schemaNine": true,
+    "immersiveAndSingleCore": true,
+    "ownedRuntimeReady": true,
+    "cancellationKeepsInferenceGate": true,
+    "realChineseAudio": true,
+    "canceledResultDiscarded": true,
+    "actualVoiceStarted": true,
+    "speechDucksBgm": true,
+    "pcmMouthObserved": true,
+    "realDialogueCommitted": true,
+    "allSegmentsCached": true,
+    "bodyProjectionPreserved": true,
+    "runtimeStoppedBeforeReplay": true,
+    "replayStarted": true,
+    "replayNeverCallsTts": true,
+    "explicitStopImmediate": true,
+    "badConfigPreserved": true,
+    "voiceFailureKeepsRealTextDialogue": true,
+    "voiceConfigReloaded": true,
+    "sameCoreAndState": true,
+    "homeReleasesVoice": true,
+    "shutdownSaved": true
+  },
+  "timings": {
+    "runtimeStartupMs": 34835.0,
+    "lastStandaloneInferenceMs": 3457.0,
+    "llmCompleteMs": 1357.983499999996,
+    "firstAudioMs": 5081.8094999999985,
+    "actualOverlapObserved": 0.0
+  },
+  "errorType": null,
+  "verifiedAtUtc": "2026-10-17T08:04:24.1860498+00:00"
+}

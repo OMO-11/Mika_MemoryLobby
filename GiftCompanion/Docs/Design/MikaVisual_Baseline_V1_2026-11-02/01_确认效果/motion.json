@@ -1,0 +1,108 @@
+{
+  "version": 7,
+  "durationSeconds": 11.6,
+  "framesPerSecond": 15,
+  "captureSize": [
+    960,
+    540
+  ],
+  "forward": [
+    1,
+    4.2
+  ],
+  "windowHold": [
+    4.2,
+    8.4
+  ],
+  "return": [
+    8.4,
+    10.8
+  ],
+  "targetCamera": {
+    "center": [
+      955,
+      268
+    ],
+    "zoom": 2.3,
+    "rotationDegrees": -26.816574824784176
+  },
+  "pane": [
+    [
+      907.1975,
+      -40.66349
+    ],
+    [
+      1266.30969,
+      133.05426
+    ],
+    [
+      1213.43616,
+      507.610626
+    ],
+    [
+      756.0764363090652,
+      276.41551378227746
+    ]
+  ],
+  "note": "2.5D reference; persistent scene-fixed time/menu; no production UI modifications",
+  "characterPassOffset": [
+    -700,
+    300
+  ],
+  "meteorStartSeconds": [
+    4.9,
+    6.75
+  ],
+  "worldUi": {
+    "clock": {
+      "origin": [
+        1060,
+        190
+      ],
+      "angleDegrees": 26.816574824784176,
+      "alpha": 0.76,
+      "style": "24-hour digital with date below",
+      "font": "32px MikaLolita",
+      "dateFont": "12px MikaLolita",
+      "sampleHour": 21,
+      "sampleMinute": 6,
+      "sampleDate": "2026-11-02",
+      "timeZone": "Asia/Shanghai",
+      "liveInInteractivePreview": true
+    },
+    "menu": {
+      "origin": [
+        845,
+        195
+      ],
+      "angleDegrees": 26.816574824784176,
+      "font": "16px MikaLolita",
+      "alpha": 0.78,
+      "layout": "single vertical column",
+      "lineHeight": 18.5,
+      "items": [
+        "聊天记录",
+        "日记",
+        "陪伴空间",
+        "人物设定",
+        "设置",
+        "回到未花"
+      ],
+      "requestedFont": "萝莉体",
+      "fontStatus": "user-provided Lolita.ttf",
+      "letterSpacing": 0,
+      "fontFile": "../03_字体/Lolita.ttf"
+    },
+    "scale": 1,
+    "scaleReference": "V5 original UI size restored; scene shrinks through camera retreat only"
+  },
+  "persistentWorldUi": true,
+  "nearCurtainDepth": 1.05,
+  "layerSource": "../02_场景素材/渲染分层",
+  "baseline": {
+    "name": "Mika Visual Baseline V1",
+    "date": "2026-11-02",
+    "approvedSource": "CameraMotionV7",
+    "productionImplemented": false
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "name": "FX_MAT_Aura_Gra_Distort_06",
+  "shader": {
+    "status": "resolved",
+    "name": "DSFX/FX_SHADER_AlphaBlend_Add_Distort_0",
+    "file": "Shaders/DSFX_FX_SHADER_AlphaBlend_Add_Distort_0__6006448949377491269.shader.json",
+    "serializedFile": "CAB-dfc5bcc011d85f284a539a56baf966f7",
+    "reference": {
+      "fileId": 1,
+      "pathId": 6006448949377491269
+    }
+  },
+  "renderQueue": -1,
+  "shaderKeywords": null,
+  "textures": {
+    "_Tex_Distort": {
+      "texture": null,
+      "file": null,
+      "scale": [
+        1.7999999523162842,
+        0.699999988079071
+      ],
+      "offset": [
+        0.0,
+        0.0
+      ],
+      "status": "unresolved-external",
+      "reference": {
+        "fileId": 2,
+        "pathId": 3194873870696549378
+      },
+      "externalFile": {
+        "cab": "CAB-50bf638d27a61e906963ba0d23284fba",
+        "archivePath": "archive:/CAB-50bf638d27a61e906963ba0d23284fba/CAB-50bf638d27a61e906963ba0d23284fba"
+      },
+      "error": "File cab-50bf638d27a61e906963ba0d23284fba not found in the staged bundle scope"
+    },
+    "_Tex_Main": {
+      "texture": "FX_TEX_Gra_L_01_clamp",
+      "file": "Textures/Source/FX_TEX_Gra_L_01_clamp.png",
+      "scale": [
+        1.0,
+        0.5
+      ],
+      "offset": [
+        0.0,
+        0.41999998688697815
+      ],
+      "sourceFormat": "50:ASTC_RGB_6x6",
+      "width": 256,
+      "height": 256,
+      "status": "exported"
+    },
+    "_Tex_Mask": {
+      "texture": null,
+      "file": null,
+      "scale": [
+        1.0,
+        -2.0
+      ],
+      "offset": [
+        0.0,
+        1.0
+      ],
+      "status": "unresolved-external",
+      "reference": {
+        "fileId": 2,
+        "pathId": -1890337907220218341
+      },
+      "externalFile": {
+        "cab": "CAB-50bf638d27a61e906963ba0d23284fba",
+        "archivePath": "archive:/CAB-50bf638d27a61e906963ba0d23284fba/CAB-50bf638d27a61e906963ba0d23284fba"
+      },
+      "error": "File cab-50bf638d27a61e906963ba0d23284fba not found in the staged bundle scope"
+    }
+  },
+  "floats": {
+    "_AlphaClip_Value": 0.10000000149011612,
+    "_Cull_Mode": 2.0,
+    "_Custom_Data_Distort_Power_Use": 0.0,
+    "_Custom_Data_MainMask_Offset_Use": 0.0,
+    "_Custom_Data_Main_Offset_Use": 1.0,
+    "_Custom_Data_Mask_Offset_Use": 0.0,
+    "_Custom_Data_Use": 0.0,
+    "_Dis_Speed_X": 0.0,
+    "_Dis_Speed_Y": -0.5,
+    "_Distortion_Power_X": 0.10000000149011612,
+    "_Distortion_Power_Y": 5.0,
+    "_Main_Distortion_Use": 1.0,
+    "_Main_Speed_X": 1.0,
+    "_Main_Speed_Y": 0.0,
+    "_Mask_Distortion_Use": 1.0,
+    "_Mask_Speed_X": 0.0,
+    "_Mask_Speed_Y": 0.0,
+    "_Multiply": 1.0,
+    "_RGBRGBA": 0.0,
+    "_Step_Custom_DataVertex_color_Use": 0.0,
+    "_Step_Power": 0.0,
+    "_Step_Scroll_Use": 0.0,
+    "_UV_Add_Use": 0.0,
+    "_VertexNormal_Speed_X": 0.0,
+    "_VertexNormal_Speed_Y": 0.0,
+    "_Vertex_Alpha_Use": 0.0,
+    "_ZOffsetFactor": 0.0,
+    "_ZOffsetUnits": 0.0,
+    "_ZTest_Mode": 4.0,
+    "_ZWrite_Mode": 0.0
+  },
+  "colors": {
+    "_BackFacesColor": [
+      1.0,
+      1.0,
+      1.0,
+      0.0
+    ],
+    "_Color": [
+      5.992156982421875,
+      5.992156982421875,
+      5.992156982421875,
+      1.0
+    ],
+    "_FrontFacesColor": [
+      21.36125373840332,
+      21.36125373840332,
+      21.36125373840332,
+      0.0
+    ],
+    "_UV_Add_TilingOffset": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "_VertexNormal_Offset": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "ints": {},
+  "vectors": {},
+  "provenance": {
+    "bundle": "CAB-1de60467771e7319ddddaf8e2645428c",
+    "serializedFile": "CAB-1de60467771e7319ddddaf8e2645428c",
+    "classId": 21,
+    "pathId": 574503736549847883
+  },
+  "logicalName": "FX_MAT_Aura_Gra_Distort_06"
+}

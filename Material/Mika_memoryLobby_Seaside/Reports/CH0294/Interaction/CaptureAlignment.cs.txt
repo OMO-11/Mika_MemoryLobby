@@ -1,0 +1,53 @@
+var graphic=UnityEngine.Object.FindFirstObjectByType<Spine.Unity.SkeletonGraphic>();
+var controller=graphic.GetComponent<Mika.Seaside.SeasideLobbyController>();
+var camera=UnityEngine.Camera.main;
+var canvas=graphic.canvas;
+var scaler=canvas.GetComponent<UnityEngine.UI.CanvasScaler>();
+bool previousScaler=scaler.enabled; float previousFactor=canvas.scaleFactor;
+var previousTarget=camera.targetTexture; var previousBackground=camera.backgroundColor;
+var results=new System.Collections.Generic.List<object>();
+string output="W:/Machine/VSCode/Mika_Gift/Material/Mika_memoryLobby_Seaside/Reports/CH0294/Interaction/";
+try {
+    scaler.enabled=false;
+    for(int shot=0;shot<10;shot++) {
+        int width=shot==3?1920:shot==4?2520:shot==5?1080:1652;
+        int height=shot==5?1920:1080;
+        float time=shot==0?0.5f:shot==1?6f:shot==2?11.9f:shot==6?2f:shot==7?0f:shot==8?10f:shot==9?21.7f:6f;
+        var target=new UnityEngine.RenderTexture(width,height,24,UnityEngine.RenderTextureFormat.ARGB32,UnityEngine.RenderTextureReadWrite.sRGB);
+        var image=new UnityEngine.Texture2D(width,height,UnityEngine.TextureFormat.RGBA32,false);
+        try {
+            camera.targetTexture=target; target.Create(); camera.backgroundColor=UnityEngine.Color.clear;
+            canvas.scaleFactor=UnityEngine.Mathf.Sqrt((float)width/1652f*(float)height/1080f);
+            UnityEngine.Canvas.ForceUpdateCanvases(); camera.Render();
+            UnityEngine.Canvas.ForceUpdateCanvases(); controller.FitViewport();
+            graphic.Initialize(true); controller.ResetToIdle();
+            if(shot==6) controller.PlayDialogue1();
+            if(shot>=7) controller.PlayEntrance();
+            graphic.Update(0);
+            int frames=(int)System.Math.Round(time*30);
+            for(int i=0;i<frames;i++) graphic.Update(1f/30f);
+            graphic.LateUpdate(); graphic.SetAllDirty(); UnityEngine.Canvas.ForceUpdateCanvases();
+            camera.Render();
+            var previous=UnityEngine.RenderTexture.active; UnityEngine.RenderTexture.active=target;
+            image.ReadPixels(new UnityEngine.Rect(0,0,width,height),0,0); image.Apply(); UnityEngine.RenderTexture.active=previous;
+            var pixels=image.GetPixels32(); int uncovered=0; int borderUncovered=0;
+            for(int y=0;y<height;y++) for(int x=0;x<width;x++) if(pixels[y*width+x].a<250) {
+                uncovered++; if(x<2 || x>=width-2 || y<2 || y>=height-2) borderUncovered++;
+            }
+            string name=shot==0?"aligned_idle_t0.5_reference.png":shot==1?"aligned_idle_t6_reference.png":shot==2?"aligned_idle_t11.9_reference.png":shot==3?"aligned_idle_16x9.png":shot==4?"aligned_idle_21x9.png":shot==5?"aligned_idle_portrait.png":shot==6?"aligned_talk01_t2.png":shot==7?"aligned_entrance_t0.png":shot==8?"aligned_entrance_t10.png":"aligned_entrance_t21.7.png";
+            System.IO.File.WriteAllBytes(output+name,image.EncodeToPNG());
+            var tracks=new System.Collections.Generic.List<string>();
+            for(int track=0;track<3;track++) { var entry=graphic.AnimationState.GetCurrent(track); tracks.Add(entry==null?null:entry.Animation.Name); }
+            results.Add(new {file=name,width,height,time,uncoveredPixels=uncovered,borderUncoveredPixels=borderUncovered,tracks,renderers=graphic.canvasRenderers.Count,viewport=canvas.pixelRect.ToString()});
+        } finally {
+            camera.targetTexture=previousTarget; target.Release(); UnityEngine.Object.DestroyImmediate(target); UnityEngine.Object.DestroyImmediate(image);
+        }
+    }
+} finally {
+    camera.targetTexture=previousTarget; camera.backgroundColor=previousBackground;
+    canvas.scaleFactor=previousFactor; scaler.enabled=previousScaler;
+    UnityEngine.Canvas.ForceUpdateCanvases(); controller.FitViewport(); graphic.Initialize(true); controller.ResetToIdle();
+}
+string json=Newtonsoft.Json.JsonConvert.SerializeObject(results,Newtonsoft.Json.Formatting.Indented);
+System.IO.File.WriteAllText(output+"scene_capture.json",json);
+return json;

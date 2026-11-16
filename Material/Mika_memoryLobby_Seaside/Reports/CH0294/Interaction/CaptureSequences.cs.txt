@@ -1,0 +1,39 @@
+var g=UnityEngine.Object.FindFirstObjectByType<Spine.Unity.SkeletonGraphic>();
+var c=g.GetComponent<Mika.Seaside.SeasideLobbyController>();
+var camera=UnityEngine.Camera.main;var canvas=g.canvas;var scaler=canvas.GetComponent<UnityEngine.UI.CanvasScaler>();
+var oldTarget=camera.targetTexture;var oldColor=camera.backgroundColor;float oldScale=canvas.scaleFactor;bool oldScaler=scaler.enabled;
+var target=new UnityEngine.RenderTexture(800,450,24,UnityEngine.RenderTextureFormat.ARGB32,UnityEngine.RenderTextureReadWrite.sRGB);
+var png=new UnityEngine.Texture2D(800,450,UnityEngine.TextureFormat.RGBA32,false);
+string output="W:/Machine/VSCode/Mika_Gift/Material/Mika_memoryLobby_Seaside/Reports/CH0294/Interaction/";
+var results=new System.Collections.Generic.List<object>();
+try {
+    scaler.enabled=false;camera.targetTexture=target;camera.backgroundColor=UnityEngine.Color.clear;canvas.scaleFactor=UnityEngine.Mathf.Sqrt(800f/1652f*450f/1080f);target.Create();
+    UnityEngine.Canvas.ForceUpdateCanvases();camera.Render();UnityEngine.Canvas.ForceUpdateCanvases();c.FitViewport();
+    for(int sequence=0;sequence<2;sequence++) {
+        string folder=output+(sequence==0?"EntranceFrames":"InteractionFrames");System.IO.Directory.CreateDirectory(folder);
+        g.Initialize(true);c.ResetToIdle();c.AmbientExpressionsEnabled=true;
+        if(sequence==0)c.PlayEntrance();
+        int count=sequence==0?134:170;int steps=sequence==0?10:6;
+        int uncoveredFrames=0;var expressionStarts=new System.Collections.Generic.List<object>();
+        for(int frame=0;frame<count;frame++) {
+            if(sequence==1) {
+                if(frame==10)c.BeginPatFeedback();
+                if(frame==30)c.RequestEndPat();
+                if(frame==48)expressionStarts.Add(new {frame,kind="ClosedEyeSmile",started=c.PlayIdleExpression(Mika.Seaside.SeasideLobbyController.IdleExpression.ClosedEyeSmile)});
+                if(frame==78)expressionStarts.Add(new {frame,kind="ThoughtfulLook",started=c.PlayIdleExpression(Mika.Seaside.SeasideLobbyController.IdleExpression.ThoughtfulLook)});
+                if(frame==128)expressionStarts.Add(new {frame,kind="PlayerGlance",started=c.PlayIdleExpression(Mika.Seaside.SeasideLobbyController.IdleExpression.PlayerGlance)});
+            }
+            if(frame>0)for(int i=0;i<steps;i++){c.AdvanceInteraction(1f/60f);g.Update(1f/60f);}
+            g.LateUpdate();UnityEngine.Canvas.ForceUpdateCanvases();camera.Render();
+            var old=UnityEngine.RenderTexture.active;UnityEngine.RenderTexture.active=target;png.ReadPixels(new UnityEngine.Rect(0,0,800,450),0,0);png.Apply();UnityEngine.RenderTexture.active=old;
+            bool hole=false;foreach(var pixel in png.GetPixels32())if(pixel.a<250){hole=true;break;}if(hole)uncoveredFrames++;
+            System.IO.File.WriteAllBytes(folder+"/frame_"+frame.ToString("D3")+".png",png.EncodeToPNG());
+        }
+        results.Add(new {sequence=sequence==0?"entrance":"interaction",frames=count,fps=sequence==0?6:10,uncoveredFrames,expressionStarts});
+    }
+} finally {
+    camera.targetTexture=oldTarget;camera.backgroundColor=oldColor;canvas.scaleFactor=oldScale;scaler.enabled=oldScaler;
+    target.Release();UnityEngine.Object.DestroyImmediate(target);UnityEngine.Object.DestroyImmediate(png);
+    UnityEngine.Canvas.ForceUpdateCanvases();c.FitViewport();g.Initialize(true);c.AmbientExpressionsEnabled=true;c.ResetToIdle();
+}
+string json=Newtonsoft.Json.JsonConvert.SerializeObject(results,Newtonsoft.Json.Formatting.Indented);System.IO.File.WriteAllText(output+"sequence_captures.json",json);return json;

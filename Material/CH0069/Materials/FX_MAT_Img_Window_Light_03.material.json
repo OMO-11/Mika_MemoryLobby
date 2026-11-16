@@ -1,0 +1,101 @@
+{
+  "name": "FX_MAT_Img_Window_Light_03",
+  "shader": {
+    "status": "resolved",
+    "name": "DSFX/FX_SHADER_Multiplicative_0",
+    "file": "Shaders/DSFX_FX_SHADER_Multiplicative_0__-4464104027171258565.shader.json",
+    "serializedFile": "CAB-dfc5bcc011d85f284a539a56baf966f7",
+    "reference": {
+      "fileId": 1,
+      "pathId": -4464104027171258565
+    }
+  },
+  "renderQueue": -1,
+  "shaderKeywords": null,
+  "textures": {
+    "_Tex_Main": {
+      "texture": "FX_TEX_Light_Column_01",
+      "file": "Textures/Source/FX_TEX_Light_Column_01.png",
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0
+      ],
+      "sourceFormat": "50:ASTC_RGB_6x6",
+      "width": 128,
+      "height": 128,
+      "status": "exported"
+    }
+  },
+  "floats": {
+    "_AlphaClip": 0.0,
+    "_Blend": 0.0,
+    "_BumpScale": 1.0,
+    "_Cull": 2.0,
+    "_Cull_Mode": 2.0,
+    "_Custom_Data_MainMask_Offset_Use": 0.0,
+    "_Custom_Data_Offset_Use": 0.0,
+    "_Cutoff": 0.5,
+    "_DstBlend": 0.0,
+    "_EnvironmentReflections": 1.0,
+    "_GlossMapScale": 0.0,
+    "_Glossiness": 0.0,
+    "_GlossyReflections": 0.0,
+    "_Main_Texture_No": 0.0,
+    "_Metallic": 0.0,
+    "_Multiply": 1.7999999523162842,
+    "_OcclusionStrength": 1.0,
+    "_QueueOffset": 0.0,
+    "_RGBRGBA": 0.0,
+    "_ReceiveShadows": 1.0,
+    "_Smoothness": 0.5,
+    "_SmoothnessTextureChannel": 0.0,
+    "_SpecularHighlights": 1.0,
+    "_SrcBlend": 1.0,
+    "_Surface": 0.0,
+    "_WorkflowMode": 1.0,
+    "_ZOffsetFactor": 0.0,
+    "_ZOffsetUnits": 0.0,
+    "_ZTest_Mode": 4.0,
+    "_ZWrite": 1.0,
+    "_ZWrite_Mode": 0.0
+  },
+  "colors": {
+    "_BaseColor": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "_Color": [
+      7.081512928009033,
+      5.632551670074463,
+      3.8413867950439453,
+      1.0
+    ],
+    "_EmissionColor": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "_SpecColor": [
+      0.19999995827674866,
+      0.19999995827674866,
+      0.19999995827674866,
+      1.0
+    ]
+  },
+  "ints": {},
+  "vectors": {},
+  "provenance": {
+    "bundle": "CAB-1de60467771e7319ddddaf8e2645428c",
+    "serializedFile": "CAB-1de60467771e7319ddddaf8e2645428c",
+    "classId": 21,
+    "pathId": 7463993697065885520
+  },
+  "logicalName": "FX_MAT_Img_Window_Light_03"
+}

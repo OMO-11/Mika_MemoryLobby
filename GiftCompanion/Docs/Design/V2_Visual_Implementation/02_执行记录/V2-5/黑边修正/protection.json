@@ -1,0 +1,19 @@
+{
+  "createdAtUtc": "2026-11-03T10:39:08.087695+00:00",
+  "release": {
+    "checked": 27782,
+    "mode": "existence-and-size",
+    "passed": true,
+    "failures": []
+  },
+  "visual": {
+    "checked": 96,
+    "mode": "size-and-sha256",
+    "passed": true,
+    "failures": []
+  },
+  "releaseManifestMatchesAcceptance": true,
+  "programsMatchAcceptance": true,
+  "scope": "Release existence/sizes plus manifest and three program SHA256; visual archive full SHA256. Full release payload hashes only with --full-release-hashes. No new Unity, API, voice or player acceptance tests.",
+  "passed": true
+}

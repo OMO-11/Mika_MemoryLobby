@@ -1,0 +1,2127 @@
+{
+  "auditedAt": "2026-10-07T12:18:03.990Z",
+  "standard": "项目总宪法.md",
+  "assetPack": "Material/Mika_MemoryLobby_Spine",
+  "method": "Execute only bundled runtime in Node VM; parse actual binary and atlas; simulate every animation at 30 Hz. No canvas rendering, GPU, browser, or Unity playback.",
+  "runtime": {
+    "source": "preview/player.bundle.js",
+    "sha256": "cb63521d88b126c3a95227a39eb3ccae0db00a7fbfb4a4a7070f2bb729b90d1c",
+    "claimedVersion": "spine-core 4.2.120 (delivery documentation; no independent package version metadata)"
+  },
+  "checksums": [
+    {
+      "file": "README_zh.md",
+      "exists": true,
+      "expected": "5fc1fd6d3d8cead7b1edcff4d2cb40401e2a558d38e27181e0bcb04dab509534",
+      "actual": "5fc1fd6d3d8cead7b1edcff4d2cb40401e2a558d38e27181e0bcb04dab509534",
+      "pass": true
+    },
+    {
+      "file": "background/CH0069_home/flattened_setup.png",
+      "exists": true,
+      "expected": "89c4402e850a2b2efd982ab374841ae18584186b4a8c38cd60fe2f741d67cf2b",
+      "actual": "89c4402e850a2b2efd982ab374841ae18584186b4a8c38cd60fe2f741d67cf2b",
+      "pass": true
+    },
+    {
+      "file": "background/CH0069_home/flattened_t1.5.png",
+      "exists": true,
+      "expected": "3ab865ce4d551208969b349487f49a3df53c57d51a8b954cd95172120a7a919f",
+      "actual": "3ab865ce4d551208969b349487f49a3df53c57d51a8b954cd95172120a7a919f",
+      "pass": true
+    },
+    {
+      "file": "background/CH0069_home/layers.csv",
+      "exists": true,
+      "expected": "34320dbf9a5dbcde03edae8774c8b2b33e08f48d8eddaddfffabb3331d7c9322",
+      "actual": "34320dbf9a5dbcde03edae8774c8b2b33e08f48d8eddaddfffabb3331d7c9322",
+      "pass": true
+    },
+    {
+      "file": "background/CH0294_home/flattened_setup.png",
+      "exists": true,
+      "expected": "82119a351ed6a174e13ef14cf3912f1c36287d5b79d751abe29a5983ac369f2f",
+      "actual": "82119a351ed6a174e13ef14cf3912f1c36287d5b79d751abe29a5983ac369f2f",
+      "pass": true
+    },
+    {
+      "file": "background/CH0294_home/layers.csv",
+      "exists": true,
+      "expected": "044a21f7b567b7e2c9f02d716397811858c6ade77d38f65d0445ca9ffdeffc8d",
+      "actual": "044a21f7b567b7e2c9f02d716397811858c6ade77d38f65d0445ca9ffdeffc8d",
+      "pass": true
+    },
+    {
+      "file": "manifest.json",
+      "exists": true,
+      "expected": "2907e91e9a0658fe0c37764eaf9dce9f309c2fd03d4cc262e5a6c65cbb2d29fb",
+      "actual": "2907e91e9a0658fe0c37764eaf9dce9f309c2fd03d4cc262e5a6c65cbb2d29fb",
+      "pass": true
+    },
+    {
+      "file": "metadata/CH0069_home.metadata.json",
+      "exists": true,
+      "expected": "86f35ad2e63b5381d3871addf4afb34c3be64bf1905d28ee3a3383c5c4de7ea7",
+      "actual": "86f35ad2e63b5381d3871addf4afb34c3be64bf1905d28ee3a3383c5c4de7ea7",
+      "pass": true
+    },
+    {
+      "file": "metadata/CH0294_home.metadata.json",
+      "exists": true,
+      "expected": "69fa01b2caa4f813859e6b5afc7845d8d8944ea6463c46e209b9f7889c1ba635",
+      "actual": "69fa01b2caa4f813859e6b5afc7845d8d8944ea6463c46e209b9f7889c1ba635",
+      "pass": true
+    },
+    {
+      "file": "preview/index.html",
+      "exists": true,
+      "expected": "5feff88cc61c97ee6dc5d21f68f78800ad8fa29284746b2e8f17b491934c8613",
+      "actual": "5feff88cc61c97ee6dc5d21f68f78800ad8fa29284746b2e8f17b491934c8613",
+      "pass": true
+    },
+    {
+      "file": "preview/player.bundle.js",
+      "exists": true,
+      "expected": "cb63521d88b126c3a95227a39eb3ccae0db00a7fbfb4a4a7070f2bb729b90d1c",
+      "actual": "cb63521d88b126c3a95227a39eb3ccae0db00a7fbfb4a4a7070f2bb729b90d1c",
+      "pass": true
+    },
+    {
+      "file": "renders/CH0069_home/Idle_01_t0.5.png",
+      "exists": true,
+      "expected": "ce45d17571d8a9f5045a738051fb81fdbd97b54ce821dfb8f4d3824765676236",
+      "actual": "ce45d17571d8a9f5045a738051fb81fdbd97b54ce821dfb8f4d3824765676236",
+      "pass": true
+    },
+    {
+      "file": "renders/CH0069_home/Idle_01_t1.5_charOnly.png",
+      "exists": true,
+      "expected": "09e8d6351c67783496970ec301c5549cd472c589bbb268b7aaa28e43d575f53c",
+      "actual": "09e8d6351c67783496970ec301c5549cd472c589bbb268b7aaa28e43d575f53c",
+      "pass": true
+    },
+    {
+      "file": "renders/CH0069_home/Idle_01_t8.0.png",
+      "exists": true,
+      "expected": "8eac68b23a448c3943ae7a2dee5bb5c6ede9ae563d8154d45c0e9ec6da267b87",
+      "actual": "8eac68b23a448c3943ae7a2dee5bb5c6ede9ae563d8154d45c0e9ec6da267b87",
+      "pass": true
+    },
+    {
+      "file": "renders/CH0069_home/Talk_01_A_t2.0.png",
+      "exists": true,
+      "expected": "02fc76f47f3deb0d92108018b29b30284b34e0a3c19a9fd1aaa7f7879bf692f2",
+      "actual": "02fc76f47f3deb0d92108018b29b30284b34e0a3c19a9fd1aaa7f7879bf692f2",
+      "pass": true
+    },
+    {
+      "file": "renders/CH0294_home/Idle_01_t0.5.png",
+      "exists": true,
+      "expected": "dd86e015b5c4ffbfb06907b993e399f5ed36f6f9a32990fbc5ca9e3f965656c5",
+      "actual": "dd86e015b5c4ffbfb06907b993e399f5ed36f6f9a32990fbc5ca9e3f965656c5",
+      "pass": true
+    },
+    {
+      "file": "renders/CH0294_home/Idle_01_t1.5_charOnly.png",
+      "exists": true,
+      "expected": "282a0f0e1f396c5e2511e98191fb2fe2ebb9112ccb46edab255503cc12f65c5e",
+      "actual": "282a0f0e1f396c5e2511e98191fb2fe2ebb9112ccb46edab255503cc12f65c5e",
+      "pass": true
+    },
+    {
+      "file": "renders/CH0294_home/Idle_01_t6.0.png",
+      "exists": true,
+      "expected": "866603d464e83a687ad9ebb9dc2b83306dbe2d89e527f1c3372010e28a48b19b",
+      "actual": "866603d464e83a687ad9ebb9dc2b83306dbe2d89e527f1c3372010e28a48b19b",
+      "pass": true
+    },
+    {
+      "file": "spine/CH0069_home/CH0069_home.atlas",
+      "exists": true,
+      "expected": "77611011a0b449a8deadb578da766311531bc02af30072eb9a2108e23fa1ad09",
+      "actual": "77611011a0b449a8deadb578da766311531bc02af30072eb9a2108e23fa1ad09",
+      "pass": true
+    },
+    {
+      "file": "spine/CH0069_home/CH0069_home.png",
+      "exists": true,
+      "expected": "d802ed75f037229ebf1998b8d3606e24342d9e84f7b260edcdc69b511f4bef6d",
+      "actual": "d802ed75f037229ebf1998b8d3606e24342d9e84f7b260edcdc69b511f4bef6d",
+      "pass": true
+    },
+    {
+      "file": "spine/CH0069_home/CH0069_home.skel",
+      "exists": true,
+      "expected": "97d3f5ca2cb42c1af265926c1204c706e3535a13faee5c7b681037f3eb4b7a47",
+      "actual": "97d3f5ca2cb42c1af265926c1204c706e3535a13faee5c7b681037f3eb4b7a47",
+      "pass": true
+    },
+    {
+      "file": "spine/CH0069_home/CH0069_home2.png",
+      "exists": true,
+      "expected": "e4ff66dca5fe1b38a06234c056b27f28e1807c297d4c4dad3c01398296d58917",
+      "actual": "e4ff66dca5fe1b38a06234c056b27f28e1807c297d4c4dad3c01398296d58917",
+      "pass": true
+    },
+    {
+      "file": "spine/CH0069_home/CH0069_home3.png",
+      "exists": true,
+      "expected": "74ffb75d22d5b5fcc3277472bb8930ee8007b6118ccd48e31482e9133565acde",
+      "actual": "74ffb75d22d5b5fcc3277472bb8930ee8007b6118ccd48e31482e9133565acde",
+      "pass": true
+    },
+    {
+      "file": "spine/CH0069_home/CH0069_home4.png",
+      "exists": true,
+      "expected": "b138f30eed54eee4f34f83e1d7b88fdf78e18dd911fad6fc0ef09194cca8c30a",
+      "actual": "b138f30eed54eee4f34f83e1d7b88fdf78e18dd911fad6fc0ef09194cca8c30a",
+      "pass": true
+    },
+    {
+      "file": "spine/CH0294_home/CH0294_home.atlas",
+      "exists": true,
+      "expected": "a236f32a0f1f8c21e621fc52e8aa2eaba1d7cde21a0d9fa576334279bb6af04e",
+      "actual": "a236f32a0f1f8c21e621fc52e8aa2eaba1d7cde21a0d9fa576334279bb6af04e",
+      "pass": true
+    },
+    {
+      "file": "spine/CH0294_home/CH0294_home.png",
+      "exists": true,
+      "expected": "53a530c7fe3694e4f8dc23e35af7aaa86690b398c19d56726131c46f4076da10",
+      "actual": "53a530c7fe3694e4f8dc23e35af7aaa86690b398c19d56726131c46f4076da10",
+      "pass": true
+    },
+    {
+      "file": "spine/CH0294_home/CH0294_home.skel",
+      "exists": true,
+      "expected": "6577354f469857c8711bf5b175e9b6fa1b6646f37396cac25b75336a98412369",
+      "actual": "6577354f469857c8711bf5b175e9b6fa1b6646f37396cac25b75336a98412369",
+      "pass": true
+    },
+    {
+      "file": "spine/CH0294_home/CH0294_home_2.png",
+      "exists": true,
+      "expected": "dad021dca47e7e3d03a94f28aca047daca88c0183d0c55e8ff7efe4818a51aae",
+      "actual": "dad021dca47e7e3d03a94f28aca047daca88c0183d0c55e8ff7efe4818a51aae",
+      "pass": true
+    },
+    {
+      "file": "spine/CH0294_home/CH0294_home_3.png",
+      "exists": true,
+      "expected": "b60f49947e5f54147bc95ce67f0b45918db26f012c56ada2b5fd8c23efcb639c",
+      "actual": "b60f49947e5f54147bc95ce67f0b45918db26f012c56ada2b5fd8c23efcb639c",
+      "pass": true
+    },
+    {
+      "file": "spine/CH0294_home/CH0294_home_4.png",
+      "exists": true,
+      "expected": "ef6966db8515040bc09bc262b97b5419bd1de5af5d31f5e4816ce50c0af13574",
+      "actual": "ef6966db8515040bc09bc262b97b5419bd1de5af5d31f5e4816ce50c0af13574",
+      "pass": true
+    }
+  ],
+  "manifestFiles": [
+    {
+      "file": "spine/CH0069_home/CH0069_home.atlas",
+      "pass": true
+    },
+    {
+      "file": "spine/CH0069_home/CH0069_home.png",
+      "pass": true
+    },
+    {
+      "file": "spine/CH0069_home/CH0069_home.skel",
+      "pass": true
+    },
+    {
+      "file": "spine/CH0069_home/CH0069_home2.png",
+      "pass": true
+    },
+    {
+      "file": "spine/CH0069_home/CH0069_home3.png",
+      "pass": true
+    },
+    {
+      "file": "spine/CH0069_home/CH0069_home4.png",
+      "pass": true
+    },
+    {
+      "file": "spine/CH0294_home/CH0294_home.atlas",
+      "pass": true
+    },
+    {
+      "file": "spine/CH0294_home/CH0294_home.png",
+      "pass": true
+    },
+    {
+      "file": "spine/CH0294_home/CH0294_home.skel",
+      "pass": true
+    },
+    {
+      "file": "spine/CH0294_home/CH0294_home_2.png",
+      "pass": true
+    },
+    {
+      "file": "spine/CH0294_home/CH0294_home_3.png",
+      "pass": true
+    },
+    {
+      "file": "spine/CH0294_home/CH0294_home_4.png",
+      "pass": true
+    },
+    {
+      "file": "background/CH0069_home/flattened_setup.png",
+      "pass": true
+    },
+    {
+      "file": "background/CH0069_home/flattened_t1.5.png",
+      "pass": true
+    },
+    {
+      "file": "background/CH0069_home/layers.csv",
+      "pass": true
+    },
+    {
+      "file": "background/CH0294_home/flattened_setup.png",
+      "pass": true
+    },
+    {
+      "file": "background/CH0294_home/layers.csv",
+      "pass": true
+    },
+    {
+      "file": "renders/CH0069_home/Idle_01_t0.5.png",
+      "pass": true
+    },
+    {
+      "file": "renders/CH0069_home/Idle_01_t1.5_charOnly.png",
+      "pass": true
+    },
+    {
+      "file": "renders/CH0069_home/Idle_01_t8.0.png",
+      "pass": true
+    },
+    {
+      "file": "renders/CH0069_home/Talk_01_A_t2.0.png",
+      "pass": true
+    },
+    {
+      "file": "renders/CH0294_home/Idle_01_t0.5.png",
+      "pass": true
+    },
+    {
+      "file": "renders/CH0294_home/Idle_01_t1.5_charOnly.png",
+      "pass": true
+    },
+    {
+      "file": "renders/CH0294_home/Idle_01_t6.0.png",
+      "pass": true
+    },
+    {
+      "file": "metadata/CH0069_home.metadata.json",
+      "pass": true
+    },
+    {
+      "file": "metadata/CH0294_home.metadata.json",
+      "pass": true
+    },
+    {
+      "file": "preview/index.html",
+      "pass": true
+    },
+    {
+      "file": "preview/player.bundle.js",
+      "pass": true
+    }
+  ],
+  "models": {
+    "CH0069_home": {
+      "version": "4.2.33",
+      "referenceScale": 100,
+      "fps": 0,
+      "bounds": {
+        "x": -1729.99951171875,
+        "y": -315,
+        "width": 3460.02880859375,
+        "height": 2568.0556640625
+      },
+      "counts": {
+        "bones": 743,
+        "slots": 294,
+        "skins": 1,
+        "events": 15,
+        "animations": 52,
+        "ikConstraints": 20,
+        "transformConstraints": 94,
+        "pathConstraints": 0,
+        "physicsConstraints": 0,
+        "atlasPages": 4,
+        "atlasRegions": 380
+      },
+      "metadataCountsMatch": true,
+      "pages": [
+        {
+          "name": "CH0069_home.png",
+          "width": 2048,
+          "height": 2048,
+          "atlasWidth": 2048,
+          "atlasHeight": 2048,
+          "dimensionsMatch": true,
+          "pmaDeclared": false
+        },
+        {
+          "name": "CH0069_home2.png",
+          "width": 2048,
+          "height": 2048,
+          "atlasWidth": 2048,
+          "atlasHeight": 2048,
+          "dimensionsMatch": true,
+          "pmaDeclared": false
+        },
+        {
+          "name": "CH0069_home3.png",
+          "width": 2048,
+          "height": 2048,
+          "atlasWidth": 2048,
+          "atlasHeight": 2048,
+          "dimensionsMatch": true,
+          "pmaDeclared": false
+        },
+        {
+          "name": "CH0069_home4.png",
+          "width": 2048,
+          "height": 2048,
+          "atlasWidth": 2048,
+          "atlasHeight": 2048,
+          "dimensionsMatch": true,
+          "pmaDeclared": false
+        }
+      ],
+      "uncompressedRGBA32MiB": 64,
+      "attachmentTypes": {
+        "_MeshAttachment": 414
+      },
+      "missingRegions": [],
+      "blendModes": {
+        "0": 284,
+        "1": 10
+      },
+      "animations": [
+        {
+          "name": "Dev_add",
+          "duration": 0.3333333432674408,
+          "frameCount": 13,
+          "finiteBoneTransforms": true,
+          "boneTransformsChanged": false,
+          "timelineTypes": {
+            "RGBATimeline": 218
+          },
+          "events": []
+        },
+        {
+          "name": "Dev_BG_Cut2",
+          "duration": 3.3333334922790527,
+          "frameCount": 103,
+          "finiteBoneTransforms": true,
+          "boneTransformsChanged": true,
+          "timelineTypes": {
+            "RGBATimeline": 220,
+            "RotateTimeline": 138,
+            "TranslateTimeline": 76,
+            "ScaleTimeline": 19
+          },
+          "events": []
+        },
+        {
+          "name": "Dev_Curtain",
+          "duration": 3.3333334922790527,
+          "frameCount": 103,
+          "finiteBoneTransforms": true,
+          "boneTransformsChanged": true,
+          "timelineTypes": {
+            "RGBATimeline": 218,
+            "RotateTimeline": 26,
+            "TranslateTimeline": 26,
+            "ScaleTimeline": 1
+          },
+          "events": []
+        },
+        {
+          "name": "Dev_Curtain2",
+          "duration": 3.3333334922790527,
+          "frameCount": 103,
+          "finiteBoneTransforms": true,
+          "boneTransformsChanged": true,
+          "timelineTypes": {
+            "RGBATimeline": 4,
+            "RotateTimeline": 65,
+            "TranslateTimeline": 65,
+            "ScaleTimeline": 59
+          },
+          "events": []
+        },
+        {
+          "name": "Dev_eye",
+          "duration": 3.3333334922790527,
+          "frameCount": 103,
+          "finiteBoneTransforms": true,
+          "boneTransformsChanged": true,
+          "timelineTypes": {
+            "AttachmentTimeline": 6,
+            "TranslateTimeline": 8
+          },
+          "events": []
+        },
+        {
+          "name": "Dev_flow",
+          "duration": 3.3333334922790527,
+          "frameCount": 103,
+          "finiteBoneTransforms": true,
+          "boneTransformsChanged": true,
+          "timelineTypes": {
+            "RGBATimeline": 1,
+            "RotateTimeline": 61,
+            "ShearTimeline": 10
+          },
+          "events": []
+        },
+        {
+          "name": "Dev_Hair",
+          "duration": 3.3333334922790527,
+          "frameCount": 103,
+          "finiteBoneTransforms": true,
+          "boneTransformsChanged": true,
+          "timelineTypes": {
+            "RotateTimeline": 122,
+            "ShearTimeline": 30,
+            "TranslateTimeline": 6
+          },
+          "events": []
+        },
+        {
+          "name": "Dev_Hair2",
+          "duration": 3.3333334922790527,
+          "frameCount": 103,
+          "finiteBoneTransforms": true,
+          "boneTransformsChanged": true,
+          "timelineTypes": {
+            "RotateTimeline": 126,
+            "ShearTimeline": 30,
+            "TranslateTimeline": 7
+          },
+          "events": []
+        },
+        {
+          "name": "Dev_Halo",
+          "duration": 0,
+          "frameCount": 2,
+          "finiteBoneTransforms": true,
+          "boneTransformsChanged": false,
+          "timelineTypes": {},
+          "events": []
+        },
+        {
+          "name": "Dev_Idle_1",
+          "duration": 3.3333334922790527,
+          "frameCount": 103,
+          "finiteBoneTransforms": true,
+          "boneTransformsChanged": true,
+          "timelineTypes": {
+            "RGBATimeline": 12,
+            "AttachmentTimeline": 10,
+            "ShearTimeline": 48,
+            "RotateTimeline": 409,
+            "TranslateTimeline": 140,
+            "ScaleTimeline": 70
+          },
+          "events": []
+        },
+        {
+          "name": "Dev_LookEnd_01_M",
+          "duration": 0.4333333671092987,
+          "frameCount": 16,
+          "finiteBoneTransforms": true,
+          "boneTransformsChanged": true,
+          "timelineTypes": {
+            "AttachmentTimeline": 6,
+            "TranslateTimeline": 12
+          },
+          "events": []
+        },
+        {
+          "name": "Dev_Look_01_M",
+          "duration": 0,
+          "frameCount": 2,
+          "finiteBoneTransforms": true,
+          "boneTransformsChanged": false,
+          "timelineTypes": {
+            "TranslateTimeline": 4
+          },
+          "events": []
+        },
+        {
+          "name": "Dev_PatEnd_01_M",
+          "duration": 0.3333333432674408,
+          "frameCount": 13,
+          "finiteBoneTransforms": true,
+          "boneTransformsChanged": true,
+          "timelineTypes": {
+            "RGBATimeline": 1,
+            "AttachmentTimeline": 7,
+            "TranslateTimeline": 8,
+            "ScaleTimeline": 1,
+            "RotateTimeline": 1
+          },
+          "events": []
+        },
+        {
+          "name": "Dev_Pat_01_M",
+          "duration": 0,
+          "frameCount": 2,
+          "finiteBoneTransforms": true,
+          "boneTransformsChanged": false,
+          "timelineTypes": {
+            "RGBATimeline": 1,
+            "AttachmentTimeline": 7,
+            "TranslateTimeline": 8,
+            "ScaleTimeline": 1,
+            "RotateTimeline": 1
+          },
+          "events": []
+        },
+        {
+          "name": "Dev_pos",
+          "duration": 3.3333334922790527,
+          "frameCount": 103,
+          "finiteBoneTransforms": true,
+          "boneTransformsChanged": true,
+          "timelineTypes": {
+            "AttachmentTimeline": 35,
+            "TranslateTimeline": 3,
+            "RotateTimeline": 3,
+            "ScaleTimeline": 1
+          },
+          "events": []
+        },
+        {
+          "name": "Dev_Set",
+          "duration": 3.3333334922790527,
+          "frameCount": 103,
+          "finiteBoneTransforms": true,
+          "boneTransformsChanged": true,
+          "timelineTypes": {
+            "RGBATimeline": 6,
+            "AttachmentTimeline": 48,
+            "RotateTimeline": 422,
+            "TranslateTimeline": 133,
+            "ScaleTimeline": 20,
+            "ShearTimeline": 34,
+            "DeformTimeline": 1
+          },
+          "events": []
+        },
+        {
+          "name": "Dev_Skut",
+          "duration": 3.3333334922790527,
+          "frameCount": 103,
+          "finiteBoneTransforms": true,
+          "boneTransformsChanged": true,
+          "timelineTypes": {
+            "RotateTimeline": 62,
+            "TranslateTimeline": 4,
+            "ShearTimeline": 3
+          },
+          "events": []
+        },
+        {
+          "name": "Dev_Talk_01_M",
+          "duration": 15.666667938232422,
+          "frameCount": 473,
+          "finiteBoneTransforms": true,
+          "boneTransformsChanged": true,
+          "timelineTypes": {
+            "RGBATimeline": 4,
+            "AttachmentTimeline": 19,
+            "TranslateTimeline": 30,
+            "ScaleTimeline": 9,
+            "RotateTimeline": 19,
+            "TransformConstraintTimeline": 1,
+            "_EventTimeline": 1
+          },
+          "events": [
+            {
+              "name": "Talk",
+              "time": 1
+            },
+            {
+              "name": "Talk",
+              "time": 6.333333492279053
+            }
+          ]
+        },
+        {
+          "name": "Dev_Talk_02_M",
+          "duration": 18,
+          "frameCount": 542,
+          "finiteBoneTransforms": true,
+          "boneTransformsChanged": true,
+          "timelineTypes": {
+            "RGBATimeline": 4,
+            "AttachmentTimeline": 19,
+            "TranslateTimeline": 30,
+            "ScaleTimeline": 9,
+            "RotateTimeline": 19,
+            "TransformConstraintTimeline": 1,
+            "_EventTimeline": 1
+          },
+          "events": [
+            {
+              "name": "Talk",
+              "time": 0.6666666865348816
+            },
+            {
+              "name": "Talk",
+              "time": 9.333333969116211
+            }
+          ]
+        },
+        {
+          "name": "Dev_Talk_03_M",
+          "duration": 20.000001907348633,
+          "frameCount": 603,
+          "finiteBoneTransforms": true,
+          "boneTransformsChanged": true,
+          "timelineTypes": {
+            "RGBATimeline": 4,
+            "AttachmentTimeline": 19,
+            "TranslateTimeline": 30,
+            "ScaleTimeline": 9,
+            "RotateTimeline": 19,
+            "TransformConstraintTimeline": 1,
+            "_EventTimeline": 1
+          },
+          "events": [
+            {
+              "name": "Talk",
+              "time": 0.5
+            },
+            {
+              "name": "Talk",
+              "time": 10.333333969116211
+            }
+          ]
+        },
+        {
+          "name": "Dev_Talk_04_M",
+          "duration": 19.33333396911621,
+          "frameCount": 583,
+          "finiteBoneTransforms": true,
+          "boneTransformsChanged": true,
+          "timelineTypes": {
+            "RGBATimeline": 4,
+            "AttachmentTimeline": 19,
+            "TranslateTimeline": 32,
+            "ScaleTimeline": 9,
+            "RotateTimeline": 19,
+            "TransformConstraintTimeline": 1,
+            "_EventTimeline": 1
+          },
+          "events": [
+            {
+              "name": "Talk",
+              "time": 0.3333333432674408
+            },
+            {
+              "name": "Talk",
+              "time": 4.6666669845581055
+            },
+            {
+              "name": "Talk",
+              "time": 10.000000953674316
+            }
+          ]
+        },
+        {
+          "name": "Dev_Talk_05_M",
+          "duration": 35.333335876464844,
+          "frameCount": 1063,
+          "finiteBoneTransforms": true,
+          "boneTransformsChanged": true,
+          "timelineTypes": {
+            "RGBATimeline": 4,
+            "AttachmentTimeline": 19,
+            "TranslateTimeline": 30,
+            "ScaleTimeline": 10,
+            "RotateTimeline": 19,
+            "TransformConstraintTimeline": 1,
+            "_EventTimeline": 1
+          },
+          "events": [
+            {
+              "name": "Talk",
+              "time": 0.6666666865348816
+            },
+            {
+              "name": "Talk",
+              "time": 7.333333492279053
+            },
+            {
+              "name": "Talk",
+              "time": 15.333333969116211
+            },
+            {
+              "name": "Talk",
+              "time": 25.000001907348633
+            }
+          ]
+        },
+        {
+          "name": "Dummy",
+          "duration": 0.03333333507180214,
+          "frameCount": 4,
+          "finiteBoneTransforms": true,
+          "boneTransformsChanged": false,
+          "timelineTypes": {
+            "TranslateTimeline": 1
+          },
+          "events": []
+        },
+        {
+          "name": "Idle_01",
+          "duration": 33.333335876464844,
+          "frameCount": 1003,
+          "finiteBoneTransforms": true,
+          "boneTransformsChanged": true,
+          "timelineTypes": {
+            "RGBATimeline": 12,
+            "AttachmentTimeline": 11,
+            "ShearTimeline": 48,
+            "RotateTimeline": 413,
+            "TranslateTimeline": 140,
+            "ScaleTimeline": 68,
+            "IkConstraintTimeline": 1,
+            "TransformConstraintTimeline": 1
+          },
+          "events": []
+        },
+        {
+          "name": "LookEnd_01_A",
+          "duration": 0.4333333671092987,
+          "frameCount": 16,
+          "finiteBoneTransforms": true,
+          "boneTransformsChanged": false,
+          "timelineTypes": {
+            "AttachmentTimeline": 6
+          },
+          "events": []
+        },
+        {
+          "name": "LookEnd_01_M",
+          "duration": 0.4333333671092987,
+          "frameCount": 16,
+          "finiteBoneTransforms": true,
+          "boneTransformsChanged": true,
+          "timelineTypes": {
+            "TranslateTimeline": 12
+          },
+          "events": []
+        },
+        {
+          "name": "Look_01_M",
+          "duration": 0,
+          "frameCount": 2,
+          "finiteBoneTransforms": true,
+          "boneTransformsChanged": false,
+          "timelineTypes": {
+            "TranslateTimeline": 4
+          },
+          "events": []
+        },
+        {
+          "name": "PatEnd_01_A",
+          "duration": 0.3333333432674408,
+          "frameCount": 13,
+          "finiteBoneTransforms": true,
+          "boneTransformsChanged": false,
+          "timelineTypes": {
+            "AttachmentTimeline": 7
+          },
+          "events": []
+        },
+        {
+          "name": "PatEnd_01_M",
+          "duration": 0.3333333432674408,
+          "frameCount": 13,
+          "finiteBoneTransforms": true,
+          "boneTransformsChanged": true,
+          "timelineTypes": {
+            "RGBATimeline": 1,
+            "TranslateTimeline": 8,
+            "ScaleTimeline": 1,
+            "RotateTimeline": 1
+          },
+          "events": []
+        },
+        {
+          "name": "Pat_01_A",
+          "duration": 0,
+          "frameCount": 2,
+          "finiteBoneTransforms": true,
+          "boneTransformsChanged": false,
+          "timelineTypes": {
+            "AttachmentTimeline": 7
+          },
+          "events": []
+        },
+        {
+          "name": "Pat_01_M",
+          "duration": 0,
+          "frameCount": 2,
+          "finiteBoneTransforms": true,
+          "boneTransformsChanged": false,
+          "timelineTypes": {
+            "RGBATimeline": 1,
+            "TranslateTimeline": 8,
+            "ScaleTimeline": 1,
+            "RotateTimeline": 1
+          },
+          "events": []
+        },
+        {
+          "name": "Start_Idle_01",
+          "duration": 20.000001907348633,
+          "frameCount": 603,
+          "finiteBoneTransforms": true,
+          "boneTransformsChanged": true,
+          "timelineTypes": {
+            "RGBATimeline": 230,
+            "AttachmentTimeline": 52,
+            "RotateTimeline": 435,
+            "TranslateTimeline": 172,
+            "ScaleTimeline": 68,
+            "ShearTimeline": 48,
+            "TransformConstraintTimeline": 1,
+            "_EventTimeline": 1
+          },
+          "events": [
+            {
+              "name": "Talk",
+              "time": 6.966667175292969
+            }
+          ]
+        },
+        {
+          "name": "Talk_01_A",
+          "duration": 15.666667938232422,
+          "frameCount": 473,
+          "finiteBoneTransforms": true,
+          "boneTransformsChanged": false,
+          "timelineTypes": {
+            "AttachmentTimeline": 19
+          },
+          "events": []
+        },
+        {
+          "name": "Talk_01_A_CN",
+          "duration": 15.666667938232422,
+          "frameCount": 473,
+          "finiteBoneTransforms": true,
+          "boneTransformsChanged": false,
+          "timelineTypes": {
+            "AttachmentTimeline": 19
+          },
+          "events": []
+        },
+        {
+          "name": "Talk_01_M",
+          "duration": 15.666667938232422,
+          "frameCount": 473,
+          "finiteBoneTransforms": true,
+          "boneTransformsChanged": true,
+          "timelineTypes": {
+            "RGBATimeline": 4,
+            "TranslateTimeline": 30,
+            "ScaleTimeline": 9,
+            "RotateTimeline": 19,
+            "TransformConstraintTimeline": 1,
+            "_EventTimeline": 1
+          },
+          "events": [
+            {
+              "name": "Talk",
+              "time": 1
+            },
+            {
+              "name": "Talk",
+              "time": 6.333333492279053
+            }
+          ]
+        },
+        {
+          "name": "Talk_01_M_CN",
+          "duration": 15.666667938232422,
+          "frameCount": 473,
+          "finiteBoneTransforms": true,
+          "boneTransformsChanged": true,
+          "timelineTypes": {
+            "RGBATimeline": 4,
+            "TranslateTimeline": 30,
+            "ScaleTimeline": 9,
+            "RotateTimeline": 19,
+            "TransformConstraintTimeline": 1,
+            "_EventTimeline": 1
+          },
+          "events": [
+            {
+              "name": "Talk",
+              "time": 1
+            },
+            {
+              "name": "Talk",
+              "time": 6.333333492279053
+            }
+          ]
+        },
+        {
+          "name": "Talk_02_A",
+          "duration": 18,
+          "frameCount": 542,
+          "finiteBoneTransforms": true,
+          "boneTransformsChanged": false,
+          "timelineTypes": {
+            "AttachmentTimeline": 19
+          },
+          "events": []
+        },
+        {
+          "name": "Talk_02_A_CN",
+          "duration": 18,
+          "frameCount": 542,
+          "finiteBoneTransforms": true,
+          "boneTransformsChanged": false,
+          "timelineTypes": {
+            "AttachmentTimeline": 19
+          },
+          "events": []
+        },
+        {
+          "name": "Talk_02_M",
+          "duration": 18,
+          "frameCount": 542,
+          "finiteBoneTransforms": true,
+          "boneTransformsChanged": true,
+          "timelineTypes": {
+            "RGBATimeline": 4,
+            "TranslateTimeline": 30,
+            "ScaleTimeline": 9,
+            "RotateTimeline": 19,
+            "TransformConstraintTimeline": 1,
+            "_EventTimeline": 1
+          },
+          "events": [
+            {
+              "name": "Talk",
+              "time": 0.6666666865348816
+            },
+            {
+              "name": "Talk",
+              "time": 9.333333969116211
+            }
+          ]
+        },
+        {
+          "name": "Talk_02_M_CN",
+          "duration": 18,
+          "frameCount": 542,
+          "finiteBoneTransforms": true,
+          "boneTransformsChanged": true,
+          "timelineTypes": {
+            "RGBATimeline": 4,
+            "TranslateTimeline": 30,
+            "ScaleTimeline": 9,
+            "RotateTimeline": 19,
+            "TransformConstraintTimeline": 1,
+            "_EventTimeline": 1
+          },
+          "events": [
+            {
+              "name": "Talk",
+              "time": 0.6666666865348816
+            },
+            {
+              "name": "Talk",
+              "time": 9.333333969116211
+            }
+          ]
+        },
+        {
+          "name": "Talk_03_A",
+          "duration": 20.000001907348633,
+          "frameCount": 603,
+          "finiteBoneTransforms": true,
+          "boneTransformsChanged": false,
+          "timelineTypes": {
+            "AttachmentTimeline": 19
+          },
+          "events": []
+        },
+        {
+          "name": "Talk_03_A_CN",
+          "duration": 20.000001907348633,
+          "frameCount": 603,
+          "finiteBoneTransforms": true,
+          "boneTransformsChanged": false,
+          "timelineTypes": {
+            "AttachmentTimeline": 19
+          },
+          "events": []
+        },
+        {
+          "name": "Talk_03_M",
+          "duration": 20.000001907348633,
+          "frameCount": 603,
+          "finiteBoneTransforms": true,
+          "boneTransformsChanged": true,
+          "timelineTypes": {
+            "RGBATimeline": 4,
+            "TranslateTimeline": 30,
+            "ScaleTimeline": 9,
+            "RotateTimeline": 19,
+            "TransformConstraintTimeline": 1,
+            "_EventTimeline": 1
+          },
+          "events": [
+            {
+              "name": "Talk",
+              "time": 0.5
+            },
+            {
+              "name": "Talk",
+              "time": 10.333333969116211
+            }
+          ]
+        },
+        {
+          "name": "Talk_03_M_CN",
+          "duration": 20.000001907348633,
+          "frameCount": 603,
+          "finiteBoneTransforms": true,
+          "boneTransformsChanged": true,
+          "timelineTypes": {
+            "RGBATimeline": 4,
+            "TranslateTimeline": 30,
+            "ScaleTimeline": 9,
+            "RotateTimeline": 19,
+            "TransformConstraintTimeline": 1,
+            "_EventTimeline": 1
+          },
+          "events": [
+            {
+              "name": "Talk",
+              "time": 0.5
+            },
+            {
+              "name": "Talk",
+              "time": 10.333333969116211
+            }
+          ]
+        },
+        {
+          "name": "Talk_04_A",
+          "duration": 19.33333396911621,
+          "frameCount": 583,
+          "finiteBoneTransforms": true,
+          "boneTransformsChanged": false,
+          "timelineTypes": {
+            "AttachmentTimeline": 19
+          },
+          "events": []
+        },
+        {
+          "name": "Talk_04_A_CN",
+          "duration": 19.33333396911621,
+          "frameCount": 583,
+          "finiteBoneTransforms": true,
+          "boneTransformsChanged": false,
+          "timelineTypes": {
+            "AttachmentTimeline": 19
+          },
+          "events": []
+        },
+        {
+          "name": "Talk_04_M",
+          "duration": 19.33333396911621,
+          "frameCount": 583,
+          "finiteBoneTransforms": true,
+          "boneTransformsChanged": true,
+          "timelineTypes": {
+            "RGBATimeline": 4,
+            "TranslateTimeline": 32,
+            "ScaleTimeline": 9,
+            "RotateTimeline": 19,
+            "TransformConstraintTimeline": 1,
+            "_EventTimeline": 1
+          },
+          "events": [
+            {
+              "name": "Talk",
+              "time": 0.3333333432674408
+            },
+            {
+              "name": "Talk",
+              "time": 4.6666669845581055
+            },
+            {
+              "name": "Talk",
+              "time": 10.000000953674316
+            }
+          ]
+        },
+        {
+          "name": "Talk_04_M_CN",
+          "duration": 19.33333396911621,
+          "frameCount": 583,
+          "finiteBoneTransforms": true,
+          "boneTransformsChanged": true,
+          "timelineTypes": {
+            "RGBATimeline": 4,
+            "TranslateTimeline": 32,
+            "ScaleTimeline": 9,
+            "RotateTimeline": 19,
+            "TransformConstraintTimeline": 1,
+            "_EventTimeline": 1
+          },
+          "events": [
+            {
+              "name": "Talk",
+              "time": 0.3333333432674408
+            },
+            {
+              "name": "Talk",
+              "time": 4.6666669845581055
+            },
+            {
+              "name": "Talk",
+              "time": 10.000000953674316
+            }
+          ]
+        },
+        {
+          "name": "Talk_05_A",
+          "duration": 35.333335876464844,
+          "frameCount": 1063,
+          "finiteBoneTransforms": true,
+          "boneTransformsChanged": false,
+          "timelineTypes": {
+            "AttachmentTimeline": 19
+          },
+          "events": []
+        },
+        {
+          "name": "Talk_05_A_CN",
+          "duration": 35.333335876464844,
+          "frameCount": 1063,
+          "finiteBoneTransforms": true,
+          "boneTransformsChanged": false,
+          "timelineTypes": {
+            "AttachmentTimeline": 19
+          },
+          "events": []
+        },
+        {
+          "name": "Talk_05_M",
+          "duration": 35.333335876464844,
+          "frameCount": 1063,
+          "finiteBoneTransforms": true,
+          "boneTransformsChanged": true,
+          "timelineTypes": {
+            "RGBATimeline": 4,
+            "TranslateTimeline": 30,
+            "ScaleTimeline": 10,
+            "RotateTimeline": 19,
+            "TransformConstraintTimeline": 1,
+            "_EventTimeline": 1
+          },
+          "events": [
+            {
+              "name": "Talk",
+              "time": 0.6666666865348816
+            },
+            {
+              "name": "Talk",
+              "time": 7.333333492279053
+            },
+            {
+              "name": "Talk",
+              "time": 15.333333969116211
+            },
+            {
+              "name": "Talk",
+              "time": 25.000001907348633
+            }
+          ]
+        },
+        {
+          "name": "Talk_05_M_CN",
+          "duration": 35.333335876464844,
+          "frameCount": 1063,
+          "finiteBoneTransforms": true,
+          "boneTransformsChanged": true,
+          "timelineTypes": {
+            "RGBATimeline": 4,
+            "TranslateTimeline": 30,
+            "ScaleTimeline": 10,
+            "RotateTimeline": 19,
+            "TransformConstraintTimeline": 1,
+            "_EventTimeline": 1
+          },
+          "events": [
+            {
+              "name": "Talk",
+              "time": 0.6666666865348816
+            },
+            {
+              "name": "Talk",
+              "time": 7.333333492279053
+            },
+            {
+              "name": "Talk",
+              "time": 15.333333969116211
+            },
+            {
+              "name": "Talk",
+              "time": 25.000001907348633
+            }
+          ]
+        }
+      ],
+      "events": [
+        "CH0069_MemorialLobby_0",
+        "CH0069_MemorialLobby_1_1",
+        "CH0069_MemorialLobby_1_2",
+        "CH0069_MemorialLobby_2_1",
+        "CH0069_MemorialLobby_2_2",
+        "CH0069_MemorialLobby_3_1",
+        "CH0069_MemorialLobby_3_2",
+        "CH0069_MemorialLobby_4_1",
+        "CH0069_MemorialLobby_4_2",
+        "CH0069_MemorialLobby_4_3",
+        "CH0069_MemorialLobby_5_1",
+        "CH0069_MemorialLobby_5_2",
+        "CH0069_MemorialLobby_5_3",
+        "CH0069_MemorialLobby_5_4",
+        "Talk"
+      ],
+      "explicitlyNamedThinkingAnimations": []
+    },
+    "CH0294_home": {
+      "version": "4.2.33",
+      "referenceScale": 100,
+      "fps": 30,
+      "bounds": {
+        "x": -2531.21240234375,
+        "y": -1619.000244140625,
+        "width": 4470.5166015625,
+        "height": 3882.776611328125
+      },
+      "counts": {
+        "bones": 441,
+        "slots": 215,
+        "skins": 1,
+        "events": 27,
+        "animations": 31,
+        "ikConstraints": 22,
+        "transformConstraints": 78,
+        "pathConstraints": 0,
+        "physicsConstraints": 37,
+        "atlasPages": 4,
+        "atlasRegions": 257
+      },
+      "metadataCountsMatch": true,
+      "pages": [
+        {
+          "name": "CH0294_home.png",
+          "width": 2048,
+          "height": 2048,
+          "atlasWidth": 2048,
+          "atlasHeight": 2048,
+          "dimensionsMatch": true,
+          "pmaDeclared": false
+        },
+        {
+          "name": "CH0294_home_2.png",
+          "width": 2048,
+          "height": 1024,
+          "atlasWidth": 2048,
+          "atlasHeight": 1024,
+          "dimensionsMatch": true,
+          "pmaDeclared": false
+        },
+        {
+          "name": "CH0294_home_3.png",
+          "width": 2048,
+          "height": 2048,
+          "atlasWidth": 2048,
+          "atlasHeight": 2048,
+          "dimensionsMatch": true,
+          "pmaDeclared": false
+        },
+        {
+          "name": "CH0294_home_4.png",
+          "width": 2048,
+          "height": 1024,
+          "atlasWidth": 2048,
+          "atlasHeight": 1024,
+          "dimensionsMatch": true,
+          "pmaDeclared": false
+        }
+      ],
+      "uncompressedRGBA32MiB": 48,
+      "attachmentTypes": {
+        "_MeshAttachment": 260,
+        "_RegionAttachment": 4
+      },
+      "missingRegions": [],
+      "blendModes": {
+        "0": 209,
+        "1": 6
+      },
+      "animations": [
+        {
+          "name": "Dummy",
+          "duration": 0.03333333507180214,
+          "frameCount": 4,
+          "finiteBoneTransforms": true,
+          "boneTransformsChanged": false,
+          "timelineTypes": {
+            "TranslateTimeline": 1
+          },
+          "events": []
+        },
+        {
+          "name": "Eye_Close_01",
+          "duration": 0.36666667461395264,
+          "frameCount": 14,
+          "finiteBoneTransforms": true,
+          "boneTransformsChanged": true,
+          "timelineTypes": {
+            "AttachmentTimeline": 4,
+            "TranslateTimeline": 8,
+            "ScaleTimeline": 2
+          },
+          "events": []
+        },
+        {
+          "name": "Idle_01",
+          "duration": 12.000000953674316,
+          "frameCount": 363,
+          "finiteBoneTransforms": true,
+          "boneTransformsChanged": true,
+          "timelineTypes": {
+            "RotateTimeline": 179,
+            "TranslateTimeline": 74,
+            "ScaleTimeline": 15,
+            "ShearTimeline": 23
+          },
+          "events": []
+        },
+        {
+          "name": "LookEnd_01_A",
+          "duration": 0.6666666865348816,
+          "frameCount": 23,
+          "finiteBoneTransforms": true,
+          "boneTransformsChanged": false,
+          "timelineTypes": {
+            "AttachmentTimeline": 4
+          },
+          "events": []
+        },
+        {
+          "name": "LookEnd_01_M",
+          "duration": 0.6666666865348816,
+          "frameCount": 23,
+          "finiteBoneTransforms": true,
+          "boneTransformsChanged": true,
+          "timelineTypes": {
+            "TranslateTimeline": 10,
+            "RotateTimeline": 2,
+            "IkConstraintTimeline": 2,
+            "TransformConstraintTimeline": 2,
+            "PhysicsConstraintMixTimeline": 23
+          },
+          "events": []
+        },
+        {
+          "name": "Look_01_M",
+          "duration": 0.3333333432674408,
+          "frameCount": 13,
+          "finiteBoneTransforms": true,
+          "boneTransformsChanged": false,
+          "timelineTypes": {
+            "TranslateTimeline": 4,
+            "RotateTimeline": 2,
+            "IkConstraintTimeline": 2,
+            "TransformConstraintTimeline": 2,
+            "PhysicsConstraintMixTimeline": 23
+          },
+          "events": []
+        },
+        {
+          "name": "PatEnd_01_A",
+          "duration": 1.1666667461395264,
+          "frameCount": 38,
+          "finiteBoneTransforms": true,
+          "boneTransformsChanged": false,
+          "timelineTypes": {
+            "AttachmentTimeline": 9
+          },
+          "events": []
+        },
+        {
+          "name": "PatEnd_01_M",
+          "duration": 1.1666667461395264,
+          "frameCount": 38,
+          "finiteBoneTransforms": true,
+          "boneTransformsChanged": true,
+          "timelineTypes": {
+            "RGBATimeline": 1,
+            "RotateTimeline": 5,
+            "TranslateTimeline": 11,
+            "ScaleTimeline": 1,
+            "IkConstraintTimeline": 2,
+            "TransformConstraintTimeline": 2,
+            "PhysicsConstraintMixTimeline": 23
+          },
+          "events": []
+        },
+        {
+          "name": "Pat_01_A",
+          "duration": 0.3333333432674408,
+          "frameCount": 13,
+          "finiteBoneTransforms": true,
+          "boneTransformsChanged": false,
+          "timelineTypes": {
+            "AttachmentTimeline": 9
+          },
+          "events": []
+        },
+        {
+          "name": "Pat_01_M",
+          "duration": 0.3333333432674408,
+          "frameCount": 13,
+          "finiteBoneTransforms": true,
+          "boneTransformsChanged": false,
+          "timelineTypes": {
+            "RotateTimeline": 4,
+            "TranslateTimeline": 6,
+            "IkConstraintTimeline": 2,
+            "TransformConstraintTimeline": 2,
+            "PhysicsConstraintMixTimeline": 23
+          },
+          "events": []
+        },
+        {
+          "name": "Start_Idle_01",
+          "duration": 21.666667938232422,
+          "frameCount": 653,
+          "finiteBoneTransforms": true,
+          "boneTransformsChanged": true,
+          "timelineTypes": {
+            "AttachmentTimeline": 89,
+            "RGBATimeline": 3,
+            "RotateTimeline": 253,
+            "TranslateTimeline": 145,
+            "ScaleTimeline": 38,
+            "ShearTimeline": 30,
+            "TransformConstraintTimeline": 3,
+            "PhysicsConstraintMixTimeline": 11,
+            "DeformTimeline": 1
+          },
+          "events": []
+        },
+        {
+          "name": "Talk_01_A",
+          "duration": 20.666667938232422,
+          "frameCount": 623,
+          "finiteBoneTransforms": true,
+          "boneTransformsChanged": false,
+          "timelineTypes": {
+            "AttachmentTimeline": 13
+          },
+          "events": []
+        },
+        {
+          "name": "Talk_01_A_CN",
+          "duration": 20.666667938232422,
+          "frameCount": 623,
+          "finiteBoneTransforms": true,
+          "boneTransformsChanged": false,
+          "timelineTypes": {
+            "AttachmentTimeline": 13
+          },
+          "events": []
+        },
+        {
+          "name": "Talk_01_M",
+          "duration": 20.666667938232422,
+          "frameCount": 623,
+          "finiteBoneTransforms": true,
+          "boneTransformsChanged": true,
+          "timelineTypes": {
+            "TranslateTimeline": 40,
+            "ScaleTimeline": 9,
+            "RotateTimeline": 25,
+            "PhysicsConstraintMixTimeline": 23,
+            "_EventTimeline": 1
+          },
+          "events": [
+            {
+              "name": "Sound/CH0294_MemorialLobby_1_1",
+              "time": 0.6666666865348816
+            },
+            {
+              "name": "Talk",
+              "time": 0.6666666865348816
+            },
+            {
+              "name": "Sound/CH0294_MemorialLobby_1_2",
+              "time": 5.500000476837158
+            },
+            {
+              "name": "Talk",
+              "time": 5.500000476837158
+            }
+          ]
+        },
+        {
+          "name": "Talk_01_M_CN",
+          "duration": 20.666667938232422,
+          "frameCount": 623,
+          "finiteBoneTransforms": true,
+          "boneTransformsChanged": true,
+          "timelineTypes": {
+            "TranslateTimeline": 40,
+            "ScaleTimeline": 9,
+            "RotateTimeline": 25,
+            "PhysicsConstraintMixTimeline": 23,
+            "_EventTimeline": 1
+          },
+          "events": [
+            {
+              "name": "Sound/CH0294_MemorialLobby_1_1",
+              "time": 0.6666666865348816
+            },
+            {
+              "name": "CH0294_MemorialLobby_1_1",
+              "time": 0.6666666865348816
+            },
+            {
+              "name": "Talk",
+              "time": 0.6666666865348816
+            },
+            {
+              "name": "Sound/CH0294_MemorialLobby_1_2",
+              "time": 5.500000476837158
+            },
+            {
+              "name": "CH0294_MemorialLobby_1_2",
+              "time": 5.500000476837158
+            },
+            {
+              "name": "Talk",
+              "time": 5.500000476837158
+            }
+          ]
+        },
+        {
+          "name": "Talk_02_A",
+          "duration": 18.83333396911621,
+          "frameCount": 568,
+          "finiteBoneTransforms": true,
+          "boneTransformsChanged": false,
+          "timelineTypes": {
+            "AttachmentTimeline": 13
+          },
+          "events": []
+        },
+        {
+          "name": "Talk_02_A_CN",
+          "duration": 18.83333396911621,
+          "frameCount": 568,
+          "finiteBoneTransforms": true,
+          "boneTransformsChanged": false,
+          "timelineTypes": {
+            "AttachmentTimeline": 13
+          },
+          "events": []
+        },
+        {
+          "name": "Talk_02_M",
+          "duration": 18.83333396911621,
+          "frameCount": 568,
+          "finiteBoneTransforms": true,
+          "boneTransformsChanged": true,
+          "timelineTypes": {
+            "TranslateTimeline": 31,
+            "ScaleTimeline": 5,
+            "RotateTimeline": 18,
+            "PhysicsConstraintMixTimeline": 23,
+            "_EventTimeline": 1
+          },
+          "events": [
+            {
+              "name": "Sound/CH0294_MemorialLobby_2_1",
+              "time": 2.1666667461395264
+            },
+            {
+              "name": "Talk",
+              "time": 2.1666667461395264
+            },
+            {
+              "name": "Sound/CH0294_MemorialLobby_2_2",
+              "time": 4.6666669845581055
+            },
+            {
+              "name": "Talk",
+              "time": 4.6666669845581055
+            },
+            {
+              "name": "Sound/CH0294_MemorialLobby_2_3",
+              "time": 8.166666984558105
+            },
+            {
+              "name": "Talk",
+              "time": 8.166666984558105
+            }
+          ]
+        },
+        {
+          "name": "Talk_02_M_CN",
+          "duration": 18.83333396911621,
+          "frameCount": 568,
+          "finiteBoneTransforms": true,
+          "boneTransformsChanged": true,
+          "timelineTypes": {
+            "TranslateTimeline": 31,
+            "ScaleTimeline": 5,
+            "RotateTimeline": 18,
+            "PhysicsConstraintMixTimeline": 23,
+            "_EventTimeline": 1
+          },
+          "events": [
+            {
+              "name": "Sound/CH0294_MemorialLobby_2_1",
+              "time": 2.1666667461395264
+            },
+            {
+              "name": "CH0294_MemorialLobby_2_1",
+              "time": 2.1666667461395264
+            },
+            {
+              "name": "Talk",
+              "time": 2.1666667461395264
+            },
+            {
+              "name": "Sound/CH0294_MemorialLobby_2_2",
+              "time": 4.6666669845581055
+            },
+            {
+              "name": "CH0294_MemorialLobby_2_2",
+              "time": 4.6666669845581055
+            },
+            {
+              "name": "Talk",
+              "time": 4.6666669845581055
+            },
+            {
+              "name": "Sound/CH0294_MemorialLobby_2_3",
+              "time": 8.166666984558105
+            },
+            {
+              "name": "CH0294_MemorialLobby_2_3",
+              "time": 8.166666984558105
+            },
+            {
+              "name": "Talk",
+              "time": 8.166666984558105
+            }
+          ]
+        },
+        {
+          "name": "Talk_03_A",
+          "duration": 20.83333396911621,
+          "frameCount": 628,
+          "finiteBoneTransforms": true,
+          "boneTransformsChanged": false,
+          "timelineTypes": {
+            "AttachmentTimeline": 13
+          },
+          "events": []
+        },
+        {
+          "name": "Talk_03_A_CN",
+          "duration": 20.83333396911621,
+          "frameCount": 628,
+          "finiteBoneTransforms": true,
+          "boneTransformsChanged": false,
+          "timelineTypes": {
+            "AttachmentTimeline": 13
+          },
+          "events": []
+        },
+        {
+          "name": "Talk_03_M",
+          "duration": 20.83333396911621,
+          "frameCount": 628,
+          "finiteBoneTransforms": true,
+          "boneTransformsChanged": true,
+          "timelineTypes": {
+            "AttachmentTimeline": 12,
+            "TranslateTimeline": 33,
+            "ScaleTimeline": 8,
+            "RotateTimeline": 24,
+            "PhysicsConstraintMixTimeline": 23,
+            "_EventTimeline": 1
+          },
+          "events": [
+            {
+              "name": "Sound/CH0294_MemorialLobby_3_1",
+              "time": 0.5
+            },
+            {
+              "name": "Talk",
+              "time": 0.5
+            },
+            {
+              "name": "Sound/CH0294_MemorialLobby_3_2",
+              "time": 2.8333334922790527
+            },
+            {
+              "name": "Talk",
+              "time": 2.8333334922790527
+            },
+            {
+              "name": "Sound/CH0294_MemorialLobby_3_3",
+              "time": 6.500000476837158
+            },
+            {
+              "name": "Talk",
+              "time": 6.500000476837158
+            }
+          ]
+        },
+        {
+          "name": "Talk_03_M_CN",
+          "duration": 20.83333396911621,
+          "frameCount": 628,
+          "finiteBoneTransforms": true,
+          "boneTransformsChanged": true,
+          "timelineTypes": {
+            "AttachmentTimeline": 12,
+            "TranslateTimeline": 33,
+            "ScaleTimeline": 8,
+            "RotateTimeline": 24,
+            "PhysicsConstraintMixTimeline": 23,
+            "_EventTimeline": 1
+          },
+          "events": [
+            {
+              "name": "Sound/CH0294_MemorialLobby_3_1",
+              "time": 0.5
+            },
+            {
+              "name": "CH0294_MemorialLobby_3_1",
+              "time": 0.5
+            },
+            {
+              "name": "Talk",
+              "time": 0.5
+            },
+            {
+              "name": "Sound/CH0294_MemorialLobby_3_2",
+              "time": 2.8333334922790527
+            },
+            {
+              "name": "CH0294_MemorialLobby_3_2",
+              "time": 2.8333334922790527
+            },
+            {
+              "name": "Talk",
+              "time": 2.8333334922790527
+            },
+            {
+              "name": "Sound/CH0294_MemorialLobby_3_3",
+              "time": 6.500000476837158
+            },
+            {
+              "name": "CH0294_MemorialLobby_3_3",
+              "time": 6.500000476837158
+            },
+            {
+              "name": "Talk",
+              "time": 6.500000476837158
+            }
+          ]
+        },
+        {
+          "name": "Talk_04_A",
+          "duration": 24.166667938232422,
+          "frameCount": 728,
+          "finiteBoneTransforms": true,
+          "boneTransformsChanged": false,
+          "timelineTypes": {
+            "AttachmentTimeline": 13
+          },
+          "events": []
+        },
+        {
+          "name": "Talk_04_A_CN",
+          "duration": 24.166667938232422,
+          "frameCount": 728,
+          "finiteBoneTransforms": true,
+          "boneTransformsChanged": false,
+          "timelineTypes": {
+            "AttachmentTimeline": 13
+          },
+          "events": []
+        },
+        {
+          "name": "Talk_04_M",
+          "duration": 24.166667938232422,
+          "frameCount": 728,
+          "finiteBoneTransforms": true,
+          "boneTransformsChanged": true,
+          "timelineTypes": {
+            "TranslateTimeline": 29,
+            "ScaleTimeline": 3,
+            "RotateTimeline": 18,
+            "PhysicsConstraintMixTimeline": 23,
+            "_EventTimeline": 1
+          },
+          "events": [
+            {
+              "name": "Sound/CH0294_MemorialLobby_4_1",
+              "time": 0.5
+            },
+            {
+              "name": "Talk",
+              "time": 0.5
+            },
+            {
+              "name": "Sound/CH0294_MemorialLobby_4_2",
+              "time": 5.6666669845581055
+            },
+            {
+              "name": "Talk",
+              "time": 5.6666669845581055
+            },
+            {
+              "name": "Sound/CH0294_MemorialLobby_4_3",
+              "time": 15.666667938232422
+            },
+            {
+              "name": "Talk",
+              "time": 15.666667938232422
+            }
+          ]
+        },
+        {
+          "name": "Talk_04_M_CN",
+          "duration": 24.166667938232422,
+          "frameCount": 728,
+          "finiteBoneTransforms": true,
+          "boneTransformsChanged": true,
+          "timelineTypes": {
+            "TranslateTimeline": 29,
+            "ScaleTimeline": 3,
+            "RotateTimeline": 18,
+            "PhysicsConstraintMixTimeline": 23,
+            "_EventTimeline": 1
+          },
+          "events": [
+            {
+              "name": "Sound/CH0294_MemorialLobby_4_1",
+              "time": 0.5
+            },
+            {
+              "name": "CH0294_MemorialLobby_4_1",
+              "time": 0.5
+            },
+            {
+              "name": "Talk",
+              "time": 0.5
+            },
+            {
+              "name": "Sound/CH0294_MemorialLobby_4_2",
+              "time": 5.6666669845581055
+            },
+            {
+              "name": "CH0294_MemorialLobby_4_2",
+              "time": 5.6666669845581055
+            },
+            {
+              "name": "Talk",
+              "time": 5.6666669845581055
+            },
+            {
+              "name": "Sound/CH0294_MemorialLobby_4_3",
+              "time": 15.666667938232422
+            },
+            {
+              "name": "CH0294_MemorialLobby_4_3",
+              "time": 15.666667938232422
+            },
+            {
+              "name": "Talk",
+              "time": 15.666667938232422
+            }
+          ]
+        },
+        {
+          "name": "Talk_05_A",
+          "duration": 13.166666984558105,
+          "frameCount": 398,
+          "finiteBoneTransforms": true,
+          "boneTransformsChanged": false,
+          "timelineTypes": {
+            "AttachmentTimeline": 9
+          },
+          "events": []
+        },
+        {
+          "name": "Talk_05_A_CN",
+          "duration": 13.166666984558105,
+          "frameCount": 398,
+          "finiteBoneTransforms": true,
+          "boneTransformsChanged": false,
+          "timelineTypes": {
+            "AttachmentTimeline": 9
+          },
+          "events": []
+        },
+        {
+          "name": "Talk_05_M",
+          "duration": 13.166666984558105,
+          "frameCount": 398,
+          "finiteBoneTransforms": true,
+          "boneTransformsChanged": true,
+          "timelineTypes": {
+            "TranslateTimeline": 33,
+            "ScaleTimeline": 9,
+            "RotateTimeline": 18,
+            "PhysicsConstraintMixTimeline": 23,
+            "_EventTimeline": 1
+          },
+          "events": [
+            {
+              "name": "Sound/CH0294_MemorialLobby_5_1",
+              "time": 0.6666666865348816
+            },
+            {
+              "name": "Talk",
+              "time": 0.6666666865348816
+            },
+            {
+              "name": "Sound/CH0294_MemorialLobby_5_2",
+              "time": 3.1666667461395264
+            },
+            {
+              "name": "Talk",
+              "time": 3.1666667461395264
+            }
+          ]
+        },
+        {
+          "name": "Talk_05_M_CN",
+          "duration": 13.166666984558105,
+          "frameCount": 398,
+          "finiteBoneTransforms": true,
+          "boneTransformsChanged": true,
+          "timelineTypes": {
+            "TranslateTimeline": 33,
+            "ScaleTimeline": 9,
+            "RotateTimeline": 18,
+            "PhysicsConstraintMixTimeline": 23,
+            "_EventTimeline": 1
+          },
+          "events": [
+            {
+              "name": "Sound/CH0294_MemorialLobby_5_1",
+              "time": 0.6666666865348816
+            },
+            {
+              "name": "CH0294_MemorialLobby_5_1",
+              "time": 0.6666666865348816
+            },
+            {
+              "name": "Talk",
+              "time": 0.6666666865348816
+            },
+            {
+              "name": "Sound/CH0294_MemorialLobby_5_2",
+              "time": 3.1666667461395264
+            },
+            {
+              "name": "CH0294_MemorialLobby_5_2",
+              "time": 3.1666667461395264
+            },
+            {
+              "name": "Talk",
+              "time": 3.1666667461395264
+            }
+          ]
+        }
+      ],
+      "events": [
+        "CH0294_MemorialLobby_1_1",
+        "CH0294_MemorialLobby_1_2",
+        "CH0294_MemorialLobby_2_1",
+        "CH0294_MemorialLobby_2_2",
+        "CH0294_MemorialLobby_2_3",
+        "CH0294_MemorialLobby_3_1",
+        "CH0294_MemorialLobby_3_2",
+        "CH0294_MemorialLobby_3_3",
+        "CH0294_MemorialLobby_4_1",
+        "CH0294_MemorialLobby_4_2",
+        "CH0294_MemorialLobby_4_3",
+        "CH0294_MemorialLobby_5_1",
+        "CH0294_MemorialLobby_5_2",
+        "Talk",
+        "Sound/CH0294_MemorialLobby_1_1",
+        "Sound/CH0294_MemorialLobby_1_2",
+        "Sound/CH0294_MemorialLobby_2_1",
+        "Sound/CH0294_MemorialLobby_2_2",
+        "Sound/CH0294_MemorialLobby_2_3",
+        "Sound/CH0294_MemorialLobby_3_1",
+        "Sound/CH0294_MemorialLobby_3_2",
+        "Sound/CH0294_MemorialLobby_3_3",
+        "Sound/CH0294_MemorialLobby_4_1",
+        "Sound/CH0294_MemorialLobby_4_2",
+        "Sound/CH0294_MemorialLobby_4_3",
+        "Sound/CH0294_MemorialLobby_5_1",
+        "Sound/CH0294_MemorialLobby_5_2"
+      ],
+      "explicitlyNamedThinkingAnimations": []
+    }
+  },
+  "project": {
+    "unityVersion": "m_EditorVersion: 6000.6.4f1\nm_EditorVersionWithRevision: 6000.6.4f1 (12bfff696524)",
+    "characterManifestStatus": "awaiting-assets",
+    "companion": {
+      "idle": null,
+      "thinking": null,
+      "speaking": null,
+      "emotions": {},
+      "actions": {},
+      "touchAreas": []
+    }
+  },
+  "summary": {
+    "checksumEntries": 30,
+    "checksumFailures": [],
+    "manifestEntries": 28,
+    "manifestFailures": [],
+    "animationsSimulated": 83,
+    "nonfiniteAnimations": []
+  }
+}

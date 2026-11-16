@@ -1,0 +1,965 @@
+{
+  "schemaVersion": 1,
+  "revision": 2,
+  "name": "Mika Visual Baseline V1 + Approved Inner Pages",
+  "date": "2026-11-02",
+  "approval": "Main scene CameraMotionV7 confirmed; inner-page direction confirmed; floating diary explicitly selected.",
+  "sourceMotionVersion": 7,
+  "selectedDiary": "air",
+  "innerPages": [
+    "settings",
+    "diary",
+    "history",
+    "persona",
+    "spaces"
+  ],
+  "productionImplemented": false,
+  "payloadFileCount": 96,
+  "payloadBytes": 53857256,
+  "files": [
+    {
+      "path": "01_确认效果/01-companion.png",
+      "category": "01_确认效果",
+      "bytes": 576514,
+      "sha256": "b4292d7d512790a86f4986452bdabf2d4db38393e3da2bdc06dd6bd20f63cc9b",
+      "provenance": {
+        "path": "01_确认效果/01-companion.png",
+        "category": "确认关键帧",
+        "source": "GiftCompanion/Docs/Design/MikaVisual/CameraMotionV7/01-companion.png",
+        "sourceSha256": "b4292d7d512790a86f4986452bdabf2d4db38393e3da2bdc06dd6bd20f63cc9b",
+        "transformed": false
+      }
+    },
+    {
+      "path": "01_确认效果/02-pass-character.png",
+      "category": "01_确认效果",
+      "bytes": 441844,
+      "sha256": "f4e8893a4e8018ac6dbe8826eb07cd082925a3dcd591853066f54635008a38b7",
+      "provenance": {
+        "path": "01_确认效果/02-pass-character.png",
+        "category": "确认关键帧",
+        "source": "GiftCompanion/Docs/Design/MikaVisual/CameraMotionV7/02-pass-character.png",
+        "sourceSha256": "f4e8893a4e8018ac6dbe8826eb07cd082925a3dcd591853066f54635008a38b7",
+        "transformed": false
+      }
+    },
+    {
+      "path": "01_确认效果/03-approach-window.png",
+      "category": "01_确认效果",
+      "bytes": 443758,
+      "sha256": "367df4c4709fc74ceac3f716b3e254b4882ae962e82ac85b149b52666ed0ce94",
+      "provenance": {
+        "path": "01_确认效果/03-approach-window.png",
+        "category": "确认关键帧",
+        "source": "GiftCompanion/Docs/Design/MikaVisual/CameraMotionV7/03-approach-window.png",
+        "sourceSha256": "367df4c4709fc74ceac3f716b3e254b4882ae962e82ac85b149b52666ed0ce94",
+        "transformed": false
+      }
+    },
+    {
+      "path": "01_确认效果/04-window-meteor.png",
+      "category": "01_确认效果",
+      "bytes": 415755,
+      "sha256": "08f11ae57156e10ebc3d2d8497a3b62e7216bef62f96a48e992144e1d26180ea",
+      "provenance": {
+        "path": "01_确认效果/04-window-meteor.png",
+        "category": "确认关键帧",
+        "source": "GiftCompanion/Docs/Design/MikaVisual/CameraMotionV7/04-window-meteor.png",
+        "sourceSha256": "08f11ae57156e10ebc3d2d8497a3b62e7216bef62f96a48e992144e1d26180ea",
+        "transformed": false
+      }
+    },
+    {
+      "path": "01_确认效果/05-second-meteor.png",
+      "category": "01_确认效果",
+      "bytes": 415678,
+      "sha256": "6fac8c7cc89ae90e4ded12614340a07cb43c1b27aa5cb766965fc1c6e274ecfd",
+      "provenance": {
+        "path": "01_确认效果/05-second-meteor.png",
+        "category": "确认关键帧",
+        "source": "GiftCompanion/Docs/Design/MikaVisual/CameraMotionV7/05-second-meteor.png",
+        "sourceSha256": "6fac8c7cc89ae90e4ded12614340a07cb43c1b27aa5cb766965fc1c6e274ecfd",
+        "transformed": false
+      }
+    },
+    {
+      "path": "01_确认效果/gif-window-check.png",
+      "category": "01_确认效果",
+      "bytes": 198473,
+      "sha256": "5c27d9ffee84047e00c4c13c9be90a10bf594f8ee94783174594d0e62288db30",
+      "provenance": {
+        "path": "01_确认效果/gif-window-check.png",
+        "category": "确认关键帧",
+        "source": "GiftCompanion/Docs/Design/MikaVisual/CameraMotionV7/gif-window-check.png",
+        "sourceSha256": "5c27d9ffee84047e00c4c13c9be90a10bf594f8ee94783174594d0e62288db30",
+        "transformed": false
+      }
+    },
+    {
+      "path": "01_确认效果/motion.json",
+      "category": "01_确认效果",
+      "bytes": 2236,
+      "sha256": "adb1152aa06b9250dd115cea28fe722f646bf42ed1c1b7812f073a4b40a70385",
+      "provenance": {
+        "path": "01_确认效果/motion.json",
+        "category": "可移植预览及参数",
+        "source": "GiftCompanion/Docs/Design/MikaVisual/CameraMotionV7/motion.json",
+        "sourceSha256": "546c184bc25409e4b79c4bcfe3e910c8f838e571792e587188f7d43d7596089d",
+        "transformed": true,
+        "changes": "Only archive-local asset paths, baseline labels and metadata; approved camera/UI geometry unchanged."
+      }
+    },
+    {
+      "path": "01_确认效果/preview.html",
+      "category": "01_确认效果",
+      "bytes": 11083,
+      "sha256": "02f294364230aeccf3bb17e66249104dc696e5fb207e6659b7bfa17315c0db8c",
+      "provenance": {
+        "path": "01_确认效果/preview.html",
+        "category": "可移植预览及参数",
+        "source": "GiftCompanion/Docs/Design/MikaVisual/CameraMotionV7/preview.html",
+        "sourceSha256": "70d5f5e6d8a5fa9c54da96680bf4ca85cada75e2abc25ce6a32af19326782c22",
+        "transformed": true,
+        "changes": "Only archive-local asset paths, baseline labels and metadata; approved camera/UI geometry unchanged."
+      }
+    },
+    {
+      "path": "01_确认效果/窗边运镜_第一版确定稿.gif",
+      "category": "01_确认效果",
+      "bytes": 15122672,
+      "sha256": "d3585fae45fe67fce8c43e2508cbc7058f7cc66052008bbafbf86890f6d3e9c7",
+      "provenance": {
+        "path": "01_确认效果/窗边运镜_第一版确定稿.gif",
+        "category": "确认动画",
+        "source": "GiftCompanion/Docs/Design/MikaVisual/CameraMotionV7/window-camera-reference-v7.gif",
+        "sourceSha256": "d3585fae45fe67fce8c43e2508cbc7058f7cc66052008bbafbf86890f6d3e9c7",
+        "transformed": false
+      }
+    },
+    {
+      "path": "02_场景素材/Spine原资源/CH0069_home.atlas.txt",
+      "category": "02_场景素材",
+      "bytes": 40785,
+      "sha256": "77611011a0b449a8deadb578da766311531bc02af30072eb9a2108e23fa1ad09",
+      "provenance": {
+        "path": "02_场景素材/Spine原资源/CH0069_home.atlas.txt",
+        "category": "当前使用的Spine源文件",
+        "source": "GiftCompanion/Assets/StreamingAssets/CH0069_Source/CH0069_home.atlas.txt",
+        "sourceSha256": "77611011a0b449a8deadb578da766311531bc02af30072eb9a2108e23fa1ad09",
+        "transformed": false
+      }
+    },
+    {
+      "path": "02_场景素材/Spine原资源/CH0069_home.png",
+      "category": "02_场景素材",
+      "bytes": 3344923,
+      "sha256": "d802ed75f037229ebf1998b8d3606e24342d9e84f7b260edcdc69b511f4bef6d",
+      "provenance": {
+        "path": "02_场景素材/Spine原资源/CH0069_home.png",
+        "category": "当前使用的Spine源文件",
+        "source": "GiftCompanion/Assets/StreamingAssets/CH0069_Source/CH0069_home.png",
+        "sourceSha256": "d802ed75f037229ebf1998b8d3606e24342d9e84f7b260edcdc69b511f4bef6d",
+        "transformed": false
+      }
+    },
+    {
+      "path": "02_场景素材/Spine原资源/CH0069_home.skel.bytes",
+      "category": "02_场景素材",
+      "bytes": 2133067,
+      "sha256": "97d3f5ca2cb42c1af265926c1204c706e3535a13faee5c7b681037f3eb4b7a47",
+      "provenance": {
+        "path": "02_场景素材/Spine原资源/CH0069_home.skel.bytes",
+        "category": "当前使用的Spine源文件",
+        "source": "GiftCompanion/Assets/StreamingAssets/CH0069_Source/CH0069_home.skel.bytes",
+        "sourceSha256": "97d3f5ca2cb42c1af265926c1204c706e3535a13faee5c7b681037f3eb4b7a47",
+        "transformed": false
+      }
+    },
+    {
+      "path": "02_场景素材/Spine原资源/CH0069_home2.png",
+      "category": "02_场景素材",
+      "bytes": 806386,
+      "sha256": "e4ff66dca5fe1b38a06234c056b27f28e1807c297d4c4dad3c01398296d58917",
+      "provenance": {
+        "path": "02_场景素材/Spine原资源/CH0069_home2.png",
+        "category": "当前使用的Spine源文件",
+        "source": "GiftCompanion/Assets/StreamingAssets/CH0069_Source/CH0069_home2.png",
+        "sourceSha256": "e4ff66dca5fe1b38a06234c056b27f28e1807c297d4c4dad3c01398296d58917",
+        "transformed": false
+      }
+    },
+    {
+      "path": "02_场景素材/Spine原资源/CH0069_home3.png",
+      "category": "02_场景素材",
+      "bytes": 3229193,
+      "sha256": "74ffb75d22d5b5fcc3277472bb8930ee8007b6118ccd48e31482e9133565acde",
+      "provenance": {
+        "path": "02_场景素材/Spine原资源/CH0069_home3.png",
+        "category": "当前使用的Spine源文件",
+        "source": "GiftCompanion/Assets/StreamingAssets/CH0069_Source/CH0069_home3.png",
+        "sourceSha256": "74ffb75d22d5b5fcc3277472bb8930ee8007b6118ccd48e31482e9133565acde",
+        "transformed": false
+      }
+    },
+    {
+      "path": "02_场景素材/Spine原资源/CH0069_home4.png",
+      "category": "02_场景素材",
+      "bytes": 882611,
+      "sha256": "b138f30eed54eee4f34f83e1d7b88fdf78e18dd911fad6fc0ef09194cca8c30a",
+      "provenance": {
+        "path": "02_场景素材/Spine原资源/CH0069_home4.png",
+        "category": "当前使用的Spine源文件",
+        "source": "GiftCompanion/Assets/StreamingAssets/CH0069_Source/CH0069_home4.png",
+        "sourceSha256": "b138f30eed54eee4f34f83e1d7b88fdf78e18dd911fad6fc0ef09194cca8c30a",
+        "transformed": false
+      }
+    },
+    {
+      "path": "02_场景素材/Spine原资源/space.json",
+      "category": "02_场景素材",
+      "bytes": 352,
+      "sha256": "a73dd3afa49e731ae0e01a7aa0e78ad92996af253beeab63422dd7874639dae8",
+      "provenance": {
+        "path": "02_场景素材/Spine原资源/space.json",
+        "category": "当前使用的Spine源文件",
+        "source": "GiftCompanion/Assets/StreamingAssets/CH0069_Source/space.json",
+        "sourceSha256": "a73dd3afa49e731ae0e01a7aa0e78ad92996af253beeab63422dd7874639dae8",
+        "transformed": false
+      }
+    },
+    {
+      "path": "02_场景素材/渲染分层/character.png",
+      "category": "02_场景素材",
+      "bytes": 877204,
+      "sha256": "b17bf8841e1f2a1a059db39a9c1bd785fe3d05b11b06cb623572757674a1bf35",
+      "provenance": {
+        "path": "02_场景素材/渲染分层/character.png",
+        "category": "Unity原始渲染分层",
+        "source": "GiftCompanion/Docs/Design/MikaVisual/CameraMotionV1/Layers/character.png",
+        "sourceSha256": "b17bf8841e1f2a1a059db39a9c1bd785fe3d05b11b06cb623572757674a1bf35",
+        "transformed": false
+      }
+    },
+    {
+      "path": "02_场景素材/渲染分层/curtains.png",
+      "category": "02_场景素材",
+      "bytes": 248905,
+      "sha256": "423779404a99a68f6a0ef32ce6f961a88f9fa507d1cee2ca78c80400e4b19a87",
+      "provenance": {
+        "path": "02_场景素材/渲染分层/curtains.png",
+        "category": "Unity原始渲染分层",
+        "source": "GiftCompanion/Docs/Design/MikaVisual/CameraMotionV1/Layers/curtains.png",
+        "sourceSha256": "423779404a99a68f6a0ef32ce6f961a88f9fa507d1cee2ca78c80400e4b19a87",
+        "transformed": false
+      }
+    },
+    {
+      "path": "02_场景素材/渲染分层/room.png",
+      "category": "02_场景素材",
+      "bytes": 1187708,
+      "sha256": "4467221cac4ec257fbb0e0ecd5ed205e6db751dd2db5f4eba502a8b3126facb8",
+      "provenance": {
+        "path": "02_场景素材/渲染分层/room.png",
+        "category": "Unity原始渲染分层",
+        "source": "GiftCompanion/Docs/Design/MikaVisual/CameraMotionV1/Layers/room.png",
+        "sourceSha256": "4467221cac4ec257fbb0e0ecd5ed205e6db751dd2db5f4eba502a8b3126facb8",
+        "transformed": false
+      }
+    },
+    {
+      "path": "02_场景素材/渲染分层/scene.png",
+      "category": "02_场景素材",
+      "bytes": 1194001,
+      "sha256": "0d248332673465376a1430fb3f9fc380afe208e5411aaf109af330d48f4f1afc",
+      "provenance": {
+        "path": "02_场景素材/渲染分层/scene.png",
+        "category": "Unity原始渲染分层",
+        "source": "GiftCompanion/Docs/Design/MikaVisual/CameraMotionV1/Layers/scene.png",
+        "sourceSha256": "0d248332673465376a1430fb3f9fc380afe208e5411aaf109af330d48f4f1afc",
+        "transformed": false
+      }
+    },
+    {
+      "path": "03_字体/Lolita.ttf",
+      "category": "03_字体",
+      "bytes": 11949844,
+      "sha256": "d91f680b870855d50619f72a1e597d2af5f068535e610a4fc95e5e53bab93449",
+      "provenance": {
+        "path": "03_字体/Lolita.ttf",
+        "category": "玩家提供字体",
+        "source": "GiftCompanion/Docs/Design/MikaVisual/Fonts/Lolita.ttf",
+        "sourceSha256": "d91f680b870855d50619f72a1e597d2af5f068535e610a4fc95e5e53bab93449",
+        "transformed": false
+      }
+    },
+    {
+      "path": "03_字体/原始字体来源.json",
+      "category": "03_字体",
+      "bytes": 349,
+      "sha256": "0d85c97c1a0513c27774fe0866142a8a84a7c0e4ae7090e2a607ef32a5c7623d",
+      "provenance": {
+        "path": "03_字体/原始字体来源.json",
+        "category": "来源记录",
+        "source": "GiftCompanion/Docs/Design/MikaVisual/Fonts/source.json",
+        "sourceSha256": "0d85c97c1a0513c27774fe0866142a8a84a7c0e4ae7090e2a607ef32a5c7623d",
+        "transformed": false
+      }
+    },
+    {
+      "path": "04_图标与视觉规则/icon-double-star.svg",
+      "category": "04_图标与视觉规则",
+      "bytes": 904,
+      "sha256": "ec1adfcfee56efdbdee56e54849bf9d4bff99cef4e86d55428cbf8efd7c3ec8b"
+    },
+    {
+      "path": "04_图标与视觉规则/icon-next.svg",
+      "category": "04_图标与视觉规则",
+      "bytes": 220,
+      "sha256": "d47f142ab38d94d888cd8772a8fae9b4932689008c0fac7cd8c40ff55f3e93d1"
+    },
+    {
+      "path": "04_图标与视觉规则/icon-pause.svg",
+      "category": "04_图标与视觉规则",
+      "bytes": 229,
+      "sha256": "6eb24992cca8fe13cd98e6320a09a0c384688f4e3ca5282423fdb4222af329af"
+    },
+    {
+      "path": "04_图标与视觉规则/icon-play.svg",
+      "category": "04_图标与视觉规则",
+      "bytes": 212,
+      "sha256": "fa471bf4069cb3834a302a072ea2a55518a6e7bac91816ac33814766177e6745"
+    },
+    {
+      "path": "04_图标与视觉规则/icon-prev.svg",
+      "category": "04_图标与视觉规则",
+      "bytes": 220,
+      "sha256": "1bfc45d9036fdaaf982cfba585030fd4ad032703a1cd86a900d8ff3ff3a71a2f"
+    },
+    {
+      "path": "04_图标与视觉规则/icon-swiss-roll.svg",
+      "category": "04_图标与视觉规则",
+      "bytes": 387,
+      "sha256": "178982524723bf896a1aecca0353b83facbd21932b752304312aa63a7defb20b"
+    },
+    {
+      "path": "04_图标与视觉规则/icon-volume.svg",
+      "category": "04_图标与视觉规则",
+      "bytes": 259,
+      "sha256": "f7e573a64126a490774d100cca5c9e504f8bb13f107ed78a92caac48e61abe45"
+    },
+    {
+      "path": "04_图标与视觉规则/字幕参考.css",
+      "category": "04_图标与视觉规则",
+      "bytes": 284,
+      "sha256": "ab389ca00036f8e175c09f5c270121e800e749a745eb0521cfdd23ad9927d23c"
+    },
+    {
+      "path": "04_图标与视觉规则/已确认视觉规则.json",
+      "category": "04_图标与视觉规则",
+      "bytes": 2021,
+      "sha256": "74ca04c4c2a1d1a75905d7f6eb0cb3dc18b1b3dc6d9ae6137a3c3e485fa2f4af"
+    },
+    {
+      "path": "04_图标与视觉规则/音乐中枢参考.css",
+      "category": "04_图标与视觉规则",
+      "bytes": 2302,
+      "sha256": "505da394a88a2b8ce5c59507048dc78b94482fb1e27a38c1830da0f3bcd8e730"
+    },
+    {
+      "path": "05_实现参考/audit_baseline.mjs",
+      "category": "05_实现参考",
+      "bytes": 7545,
+      "sha256": "4f0b6bea23773843696d21af5d8913a7c41333ed882e8b14af1e16493627dc8b"
+    },
+    {
+      "path": "05_实现参考/CH0069Behavior.asset",
+      "category": "05_实现参考",
+      "bytes": 5933,
+      "sha256": "a4aa25606a9e36a9ec5869c5fcc713be186337c861c2329f8696dac43dd2f747",
+      "provenance": {
+        "path": "05_实现参考/CH0069Behavior.asset",
+        "category": "取景行为配置快照",
+        "source": "GiftCompanion/Assets/CompanionValidation/CH0069Behavior.asset",
+        "sourceSha256": "a4aa25606a9e36a9ec5869c5fcc713be186337c861c2329f8696dac43dd2f747",
+        "transformed": false
+      }
+    },
+    {
+      "path": "05_实现参考/encode_gif.py",
+      "category": "05_实现参考",
+      "bytes": 1465,
+      "sha256": "a2fe6f5980c14b9321dc60a3de65a965628af3b65981215a67f195a40b1b521f",
+      "provenance": {
+        "path": "05_实现参考/encode_gif.py",
+        "category": "渲染编码参考",
+        "source": "GiftCompanion/Docs/Design/MikaVisual/CameraMotionV7/encode_gif.py",
+        "sourceSha256": "04999b06ac49094210589a8cd3a46a6da0de7e1b5035093920aedc1eae1ff37d",
+        "transformed": true,
+        "changes": "Paths adapted to archive layout; do not rerun inside frozen baseline."
+      }
+    },
+    {
+      "path": "05_实现参考/render_motion.mjs",
+      "category": "05_实现参考",
+      "bytes": 7542,
+      "sha256": "7d3155abb2458420b506c9cb4b4349662267d4c2dfc457603174c9cf02e112fe",
+      "provenance": {
+        "path": "05_实现参考/render_motion.mjs",
+        "category": "渲染编码参考",
+        "source": "GiftCompanion/Docs/Design/MikaVisual/CameraMotionV7/render_motion.mjs",
+        "sourceSha256": "f3a1b1466e8c1e9aa21725ee7c91ce4267672da64211ef1b4f1a6795145fd0df",
+        "transformed": true,
+        "changes": "Paths adapted to archive layout; do not rerun inside frozen baseline."
+      }
+    },
+    {
+      "path": "05_实现参考/verify_archive.py",
+      "category": "05_实现参考",
+      "bytes": 846,
+      "sha256": "6ea52a63ea022e695348f2d3ffffcd7d7f14c5a0e0c0818214cfbfce28235dac"
+    },
+    {
+      "path": "05_实现参考/WindowCameraMotionProbe.cs",
+      "category": "05_实现参考",
+      "bytes": 2832,
+      "sha256": "ff1a4e72c311cf4b09c25e57f9ccdd847f3b0fdfd374463b0a80b0b6bc53dd9f",
+      "provenance": {
+        "path": "05_实现参考/WindowCameraMotionProbe.cs",
+        "category": "仅编辑器取景代码",
+        "source": "GiftCompanion/Assets/Editor/WindowCameraMotionProbe.cs",
+        "sourceSha256": "ff1a4e72c311cf4b09c25e57f9ccdd847f3b0fdfd374463b0a80b0b6bc53dd9f",
+        "transformed": false
+      }
+    },
+    {
+      "path": "05_实现参考/WindowClockVisualProbe.cs",
+      "category": "05_实现参考",
+      "bytes": 6219,
+      "sha256": "79ef24d91ba04ea82e4185bcc0526f5e525ff799a3891711c1f0ed2b3e3e6dd5",
+      "provenance": {
+        "path": "05_实现参考/WindowClockVisualProbe.cs",
+        "category": "仅编辑器取景代码",
+        "source": "GiftCompanion/Assets/Editor/WindowClockVisualProbe.cs",
+        "sourceSha256": "79ef24d91ba04ea82e4185bcc0526f5e525ff799a3891711c1f0ed2b3e3e6dd5",
+        "transformed": false
+      }
+    },
+    {
+      "path": "06_验证记录/V7原始记录/camera-view.json",
+      "category": "06_验证记录",
+      "bytes": 486,
+      "sha256": "ee120bdf78d1090fbc5cc4f69a55da0203367205080c04bacf619a0c032f4bbe",
+      "provenance": {
+        "path": "06_验证记录/V7原始记录/camera-view.json",
+        "category": "原始验证证据",
+        "source": "GiftCompanion/Docs/Design/MikaVisual/CameraMotionV7/camera-view.json",
+        "sourceSha256": "ee120bdf78d1090fbc5cc4f69a55da0203367205080c04bacf619a0c032f4bbe",
+        "transformed": false
+      }
+    },
+    {
+      "path": "06_验证记录/V7原始记录/clock-report.json",
+      "category": "06_验证记录",
+      "bytes": 162,
+      "sha256": "b23d583fb5cd05309c3cc7a4636d8cb5cbb07f008fdd283c7b2122453633b455",
+      "provenance": {
+        "path": "06_验证记录/V7原始记录/clock-report.json",
+        "category": "原始验证证据",
+        "source": "GiftCompanion/Docs/Design/MikaVisual/CameraMotionV7/clock-report.json",
+        "sourceSha256": "b23d583fb5cd05309c3cc7a4636d8cb5cbb07f008fdd283c7b2122453633b455",
+        "transformed": false
+      }
+    },
+    {
+      "path": "06_验证记录/V7原始记录/font-report.json",
+      "category": "06_验证记录",
+      "bytes": 105,
+      "sha256": "2361c5c972004307a2f6b8c15f8faecaa8bff06102d7ecdfd2b978f90e6974df",
+      "provenance": {
+        "path": "06_验证记录/V7原始记录/font-report.json",
+        "category": "原始验证证据",
+        "source": "GiftCompanion/Docs/Design/MikaVisual/CameraMotionV7/font-report.json",
+        "sourceSha256": "2361c5c972004307a2f6b8c15f8faecaa8bff06102d7ecdfd2b978f90e6974df",
+        "transformed": false
+      }
+    },
+    {
+      "path": "06_验证记录/V7原始记录/gif-report.json",
+      "category": "06_验证记录",
+      "bytes": 238,
+      "sha256": "c088c8b3f0acf0fd82110032772221100ae0e5c2d4759916c97e54d5b2823d50",
+      "provenance": {
+        "path": "06_验证记录/V7原始记录/gif-report.json",
+        "category": "原始验证证据",
+        "source": "GiftCompanion/Docs/Design/MikaVisual/CameraMotionV7/gif-report.json",
+        "sourceSha256": "c088c8b3f0acf0fd82110032772221100ae0e5c2d4759916c97e54d5b2823d50",
+        "transformed": false
+      }
+    },
+    {
+      "path": "06_验证记录/V7原始记录/render-report.json",
+      "category": "06_验证记录",
+      "bytes": 83,
+      "sha256": "b506862c8061c365f7d409ced3b9bfb762ac288c71deea7e262f515d35cc9dc7",
+      "provenance": {
+        "path": "06_验证记录/V7原始记录/render-report.json",
+        "category": "原始验证证据",
+        "source": "GiftCompanion/Docs/Design/MikaVisual/CameraMotionV7/render-report.json",
+        "sourceSha256": "b506862c8061c365f7d409ced3b9bfb762ac288c71deea7e262f515d35cc9dc7",
+        "transformed": false
+      }
+    },
+    {
+      "path": "06_验证记录/V7原始记录/source-preservation.json",
+      "category": "06_验证记录",
+      "bytes": 729,
+      "sha256": "df448e7b4382a503c66fde89eeb20b0a535ccaa2b361bd10d5f982c921d93fb1",
+      "provenance": {
+        "path": "06_验证记录/V7原始记录/source-preservation.json",
+        "category": "原始验证证据",
+        "source": "GiftCompanion/Docs/Design/MikaVisual/CameraMotionV7/source-preservation.json",
+        "sourceSha256": "df448e7b4382a503c66fde89eeb20b0a535ccaa2b361bd10d5f982c921d93fb1",
+        "transformed": false
+      }
+    },
+    {
+      "path": "06_验证记录/V7原始记录/world-ui-report.json",
+      "category": "06_验证记录",
+      "bytes": 944,
+      "sha256": "a78eb16b70e9767b82a7d1c7234d69a3a06fa371797b21fc6b44d4ed51d9563c",
+      "provenance": {
+        "path": "06_验证记录/V7原始记录/world-ui-report.json",
+        "category": "原始验证证据",
+        "source": "GiftCompanion/Docs/Design/MikaVisual/CameraMotionV7/world-ui-report.json",
+        "sourceSha256": "a78eb16b70e9767b82a7d1c7234d69a3a06fa371797b21fc6b44d4ed51d9563c",
+        "transformed": false
+      }
+    },
+    {
+      "path": "06_验证记录/归档检查/browser-report.json",
+      "category": "06_验证记录",
+      "bytes": 386,
+      "sha256": "98d3b5e27dd95cfcd4fd627180eb76ab9b1dd9e4513f72739910924cc5b8a7e4"
+    },
+    {
+      "path": "06_验证记录/归档检查/归档终点.png",
+      "category": "06_验证记录",
+      "bytes": 415755,
+      "sha256": "08f11ae57156e10ebc3d2d8497a3b62e7216bef62f96a48e992144e1d26180ea"
+    },
+    {
+      "path": "06_验证记录/归档检查/设计报告首页.png",
+      "category": "06_验证记录",
+      "bytes": 396298,
+      "sha256": "e8441c5a4c2da1597a8b56935b52ec1a3aa4a3956b7fc00630eaa8cc8973d609"
+    },
+    {
+      "path": "06_验证记录/归档检查/阅读入口.png",
+      "category": "06_验证记录",
+      "bytes": 489476,
+      "sha256": "3201099fe4e58d4b7a1f5f60222cca2b3e23add43bc178d473d93474f344b86f"
+    },
+    {
+      "path": "06_验证记录/窗口测量/geometry.json",
+      "category": "06_验证记录",
+      "bytes": 1051223,
+      "sha256": "07f37e7f9b2ec4d19077319b4c62f8f60a85fc26efb81a390345d3bd222ef5e6",
+      "provenance": {
+        "path": "06_验证记录/窗口测量/geometry.json",
+        "category": "Unity窗框测量来源",
+        "source": "GiftCompanion/Docs/Design/MikaVisual/WindowProbe/geometry.json",
+        "sourceSha256": "07f37e7f9b2ec4d19077319b4c62f8f60a85fc26efb81a390345d3bd222ef5e6",
+        "transformed": false
+      }
+    },
+    {
+      "path": "06_验证记录/窗口测量/source-preservation.json",
+      "category": "06_验证记录",
+      "bytes": 518,
+      "sha256": "a26e5546b27e447da1b6a414448ceed5903836a5ab7b441338e770cdd935786f",
+      "provenance": {
+        "path": "06_验证记录/窗口测量/source-preservation.json",
+        "category": "Unity窗框测量来源",
+        "source": "GiftCompanion/Docs/Design/MikaVisual/WindowProbe/source-preservation.json",
+        "sourceSha256": "a26e5546b27e447da1b6a414448ceed5903836a5ab7b441338e770cdd935786f",
+        "transformed": false
+      }
+    },
+    {
+      "path": "07_来源与清单/bgm_playlist_源项目默认清单.json",
+      "category": "07_来源与清单",
+      "bytes": 358,
+      "sha256": "09b27244697c918f82c17e3ff11628b74a12bdc738db43a62d23b59df7663a33",
+      "provenance": {
+        "path": "07_来源与清单/bgm_playlist_源项目默认清单.json",
+        "category": "原始音频索引，不搬运大音频",
+        "source": "GiftCompanion/Assets/StreamingAssets/Defaults/bgm_playlist.json",
+        "sourceSha256": "09b27244697c918f82c17e3ff11628b74a12bdc738db43a62d23b59df7663a33",
+        "transformed": false
+      }
+    },
+    {
+      "path": "07_来源与清单/内页归档来源记录.json",
+      "category": "07_来源与清单",
+      "bytes": 4953,
+      "sha256": "37b862cdce776435d67223416aeb300d6fb5a46f946763f86a00f91c04ce8283"
+    },
+    {
+      "path": "07_来源与清单/历史版本/追加内页前/CHECKSUMS.sha256",
+      "category": "07_来源与清单",
+      "bytes": 6691,
+      "sha256": "b1f03cadde58c4dac6dd2e70c51e65cb30ea601c2cc07297554321d888854e06"
+    },
+    {
+      "path": "07_来源与清单/历史版本/追加内页前/README.md.txt",
+      "category": "07_来源与清单",
+      "bytes": 1615,
+      "sha256": "5a821487d5ecd6a4b8f7e1894fdd509634051245cc19c73bdbed506846ac9721"
+    },
+    {
+      "path": "07_来源与清单/历史版本/追加内页前/完整性校验.json",
+      "category": "07_来源与清单",
+      "bytes": 449,
+      "sha256": "5cadab651c6a5e7a3235fc484fa95cbcb767f1329604e3e21630b8fc83ebbe82"
+    },
+    {
+      "path": "07_来源与清单/历史版本/追加内页前/已确认视觉规则_追加前.json",
+      "category": "07_来源与清单",
+      "bytes": 1387,
+      "sha256": "e40069277025373d6ea0b5630db32fffaca7bf2438fda2f8dc091afcaaf83192"
+    },
+    {
+      "path": "07_来源与清单/历史版本/追加内页前/开始阅读.html.txt",
+      "category": "07_来源与清单",
+      "bytes": 5614,
+      "sha256": "c1f93392ba68177df59650326095bc01f4e64f4e207d9aa4059a55b72c602b0a"
+    },
+    {
+      "path": "07_来源与清单/历史版本/追加内页前/设计介绍报告.html.txt",
+      "category": "07_来源与清单",
+      "bytes": 26146,
+      "sha256": "7024a5e20f6faac0d8bb31c6b3d2d7ea2c7b90bdc0ce18c7c362fefd51cbf8e0"
+    },
+    {
+      "path": "07_来源与清单/历史版本/追加内页前/设计介绍报告.md.txt",
+      "category": "07_来源与清单",
+      "bytes": 19184,
+      "sha256": "a7bbef1f8d7adc4f20b17d5d47718ad692a1ee980eabb6e96d5557c291417d6a"
+    },
+    {
+      "path": "07_来源与清单/历史版本/追加内页前/资源清单.html.txt",
+      "category": "07_来源与清单",
+      "bytes": 9248,
+      "sha256": "2a4cfc4f6bc37d950b75a55ffda7fccbc70ae232eed07b8a94eea1ce93f6b58a"
+    },
+    {
+      "path": "07_来源与清单/历史版本/追加内页前/资源清单.json",
+      "category": "07_来源与清单",
+      "bytes": 30981,
+      "sha256": "28a8efbcd22e53efb2b33754063a4c9ba51c7b881debcf84edf86eec314ccde9"
+    },
+    {
+      "path": "07_来源与清单/归档来源记录.json",
+      "category": "07_来源与清单",
+      "bytes": 12012,
+      "sha256": "a4780605b8151176c04efa3679ba037938cf63793245784c1f6f99bd0954f265"
+    },
+    {
+      "path": "07_来源与清单/素材来源索引.json",
+      "category": "07_来源与清单",
+      "bytes": 1907,
+      "sha256": "321ed4998de89ed9d38ca73b4466475ad73164fdd0db3006d04d85aa157857bd"
+    },
+    {
+      "path": "08_内页确定稿/audit_approved_pages.mjs",
+      "category": "08_内页确定稿",
+      "bytes": 7547,
+      "sha256": "8a2602cc468223fe37e998fcf6c72037aae592750a21f676874ce02893228d6a"
+    },
+    {
+      "path": "08_内页确定稿/index.html",
+      "category": "08_内页确定稿",
+      "bytes": 3580,
+      "sha256": "63d9983de42dbdb54011b650e6b78ac6e34b5d950ccfd2084e93fddc4370f189"
+    },
+    {
+      "path": "08_内页确定稿/page_design.json",
+      "category": "08_内页确定稿",
+      "bytes": 1836,
+      "sha256": "1eec4474a71b0f81de1a6749c20cdf2debaa2dcdb4501cacdea9adb0e8a9c462",
+      "provenance": {
+        "archivePath": "08_内页确定稿/page_design.json",
+        "source": "GiftCompanion/Docs/Design/MikaVisual_InnerPages_Draft1/page_design.json",
+        "sourceSha256": "beaa411c4a9fd79e4d8c7128aeaefc4a45697a51bf888683b6deb88bdffa3097",
+        "transformed": true,
+        "status": "approved metadata or original evidence"
+      }
+    },
+    {
+      "path": "08_内页确定稿/pages.css",
+      "category": "08_内页确定稿",
+      "bytes": 7162,
+      "sha256": "898c1b52879ef48fe247604bd5609b15d1adcdbf92be1c74f75d6da592d2578f",
+      "provenance": {
+        "archivePath": "08_内页确定稿/pages.css",
+        "source": "GiftCompanion/Docs/Design/MikaVisual_InnerPages_Draft1/pages.css",
+        "sourceSha256": "461e5930a72912d65dea1ded3c5d9f26c502a641845262e5eed5a23d4f0aa574",
+        "transformed": true,
+        "changes": "Archive-local asset links and chosen floating diary as sole active diary route; review controls/sample safety preserved."
+      }
+    },
+    {
+      "path": "08_内页确定稿/pages.js",
+      "category": "08_内页确定稿",
+      "bytes": 9190,
+      "sha256": "7dbc10db90649b169ef7a8cfa13a748c7c82ff4557809dc5438cb55d89b28100",
+      "provenance": {
+        "archivePath": "08_内页确定稿/pages.js",
+        "source": "GiftCompanion/Docs/Design/MikaVisual_InnerPages_Draft1/pages.js",
+        "sourceSha256": "49da339798a68a71daafde7b4d128acae6fd6bdfc135f5b30d1088da77e8f0e0",
+        "transformed": true,
+        "changes": "Archive-local asset links and chosen floating diary as sole active diary route; review controls/sample safety preserved."
+      }
+    },
+    {
+      "path": "08_内页确定稿/preview.html",
+      "category": "08_内页确定稿",
+      "bytes": 3271,
+      "sha256": "1bd4396a7a5b184f8b4828438bfe43f5091935f5984729c8d7171a3de038aa3a",
+      "provenance": {
+        "archivePath": "08_内页确定稿/preview.html",
+        "source": "GiftCompanion/Docs/Design/MikaVisual_InnerPages_Draft1/preview.html",
+        "sourceSha256": "c61c6b3a5533c9535d8fa47c0d1868b76ec88dcdca39d1c0d5db756d2411f967",
+        "transformed": true,
+        "changes": "Archive-local asset links and chosen floating diary as sole active diary route; review controls/sample safety preserved."
+      }
+    },
+    {
+      "path": "08_内页确定稿/README.md",
+      "category": "08_内页确定稿",
+      "bytes": 690,
+      "sha256": "90c1213aea8862e105b13a21c565da99b5c16874c453dd0ebe2d9baa7e9d2678"
+    },
+    {
+      "path": "08_内页确定稿/scene-renderer.js",
+      "category": "08_内页确定稿",
+      "bytes": 6061,
+      "sha256": "232b479bfa0c09b7d4d5a43ba31c362fb0af5b2ed4866dd4f58b8476edcb03cf",
+      "provenance": {
+        "archivePath": "08_内页确定稿/scene-renderer.js",
+        "source": "GiftCompanion/Docs/Design/MikaVisual_InnerPages_Draft1/scene-renderer.js",
+        "sourceSha256": "e0c05cf30f21085bfcdb6536c0e67dbec64a21d956435aa852c2fbc5b3bb8528",
+        "transformed": true,
+        "changes": "Archive-local asset links and chosen floating diary as sole active diary route; review controls/sample safety preserved."
+      }
+    },
+    {
+      "path": "08_内页确定稿/内页设计总结.html",
+      "category": "08_内页确定稿",
+      "bytes": 3549,
+      "sha256": "a08bd2f87246d5fa3cab70fc556bd4f862f0572a3dae80b189be5bdac444fdf7"
+    },
+    {
+      "path": "08_内页确定稿/内页设计总结.md",
+      "category": "08_内页确定稿",
+      "bytes": 3641,
+      "sha256": "1ad7383be66b99dbd70f6e424dcadea89f538232b628d38b6cdfedb6822489a1"
+    },
+    {
+      "path": "08_内页确定稿/备选对照_未采用/index.html",
+      "category": "08_内页确定稿",
+      "bytes": 1812,
+      "sha256": "4ada23725681d871c9b6cf8254c841003ad40efdf157d59ccbb99d48aa6494b2"
+    },
+    {
+      "path": "08_内页确定稿/备选对照_未采用/README.md",
+      "category": "08_内页确定稿",
+      "bytes": 271,
+      "sha256": "2202b3dfd67571c0d05529bc3d14682ea49a8e887756fcbfa2c379f57b0b664b"
+    },
+    {
+      "path": "08_内页确定稿/备选对照_未采用/原始两版对照.png",
+      "category": "08_内页确定稿",
+      "bytes": 382623,
+      "sha256": "2719cad67af88bfac0c447f7076fb8ff8a512cf5299c8d725be214dc5a644c2f",
+      "provenance": {
+        "archivePath": "08_内页确定稿/备选对照_未采用/原始两版对照.png",
+        "source": "GiftCompanion/Docs/Design/MikaVisual_InnerPages_Draft1/diary-comparison.png",
+        "sourceSha256": "2719cad67af88bfac0c447f7076fb8ff8a512cf5299c8d725be214dc5a644c2f",
+        "transformed": false,
+        "status": "not adopted"
+      }
+    },
+    {
+      "path": "08_内页确定稿/备选对照_未采用/日记_薄信笺版.png",
+      "category": "08_内页确定稿",
+      "bytes": 775984,
+      "sha256": "4f8651f1bc8b3c39d802287d987145c50550e3b6bffbad2240d8f98acc08b098",
+      "provenance": {
+        "archivePath": "08_内页确定稿/备选对照_未采用/日记_薄信笺版.png",
+        "source": "GiftCompanion/Docs/Design/MikaVisual_InnerPages_Draft1/diary-paper.png",
+        "sourceSha256": "4f8651f1bc8b3c39d802287d987145c50550e3b6bffbad2240d8f98acc08b098",
+        "transformed": false,
+        "status": "not adopted"
+      }
+    },
+    {
+      "path": "08_内页确定稿/页面图片/人物设定.png",
+      "category": "08_内页确定稿",
+      "bytes": 753117,
+      "sha256": "be96a9b62f19fb55b4f3dc5f74219265a7a65ca747789cf4722e7bba632be7a8",
+      "provenance": {
+        "archivePath": "08_内页确定稿/页面图片/人物设定.png",
+        "source": "GiftCompanion/Docs/Design/MikaVisual_InnerPages_Draft1/persona.png",
+        "sha256": "be96a9b62f19fb55b4f3dc5f74219265a7a65ca747789cf4722e7bba632be7a8",
+        "transformed": false
+      }
+    },
+    {
+      "path": "08_内页确定稿/页面图片/日记_浮字版.png",
+      "category": "08_内页确定稿",
+      "bytes": 796166,
+      "sha256": "d0020d691aaf0a482a3bb4b79b7010fc55d41cfe8385efc6b28a9337e4f94ade",
+      "provenance": {
+        "archivePath": "08_内页确定稿/页面图片/日记_浮字版.png",
+        "source": "GiftCompanion/Docs/Design/MikaVisual_InnerPages_Draft1/diary-air.png",
+        "sha256": "d0020d691aaf0a482a3bb4b79b7010fc55d41cfe8385efc6b28a9337e4f94ade",
+        "transformed": false
+      }
+    },
+    {
+      "path": "08_内页确定稿/页面图片/聊天记录.png",
+      "category": "08_内页确定稿",
+      "bytes": 756710,
+      "sha256": "70af402ec1642f4876dedbcb0d215c30b571922a394982223815c6300ea5bfca",
+      "provenance": {
+        "archivePath": "08_内页确定稿/页面图片/聊天记录.png",
+        "source": "GiftCompanion/Docs/Design/MikaVisual_InnerPages_Draft1/history.png",
+        "sha256": "70af402ec1642f4876dedbcb0d215c30b571922a394982223815c6300ea5bfca",
+        "transformed": false
+      }
+    },
+    {
+      "path": "08_内页确定稿/页面图片/设置_声音.png",
+      "category": "08_内页确定稿",
+      "bytes": 739653,
+      "sha256": "64d711b827d3123a5a565a396565008d7da13a19fe0f59c3ba4e1b535975bd62",
+      "provenance": {
+        "archivePath": "08_内页确定稿/页面图片/设置_声音.png",
+        "source": "GiftCompanion/Docs/Design/MikaVisual_InnerPages_Draft1/settings.png",
+        "sha256": "64d711b827d3123a5a565a396565008d7da13a19fe0f59c3ba4e1b535975bd62",
+        "transformed": false
+      }
+    },
+    {
+      "path": "08_内页确定稿/页面图片/设置_画面与阅读.png",
+      "category": "08_内页确定稿",
+      "bytes": 734956,
+      "sha256": "79ead7c3828b981d08389e9fa9c39e2170a64ad94930d634c664e75a231a360e",
+      "provenance": {
+        "archivePath": "08_内页确定稿/页面图片/设置_画面与阅读.png",
+        "source": "GiftCompanion/Docs/Design/MikaVisual_InnerPages_Draft1/settings-display.png",
+        "sha256": "79ead7c3828b981d08389e9fa9c39e2170a64ad94930d634c664e75a231a360e",
+        "transformed": false
+      }
+    },
+    {
+      "path": "08_内页确定稿/页面图片/设置_资料.png",
+      "category": "08_内页确定稿",
+      "bytes": 741032,
+      "sha256": "88edf675f5c98a0687604333303dcda50a3739837ed8af10e589c9f7ce940fbb",
+      "provenance": {
+        "archivePath": "08_内页确定稿/页面图片/设置_资料.png",
+        "source": "GiftCompanion/Docs/Design/MikaVisual_InnerPages_Draft1/settings-files.png",
+        "sha256": "88edf675f5c98a0687604333303dcda50a3739837ed8af10e589c9f7ce940fbb",
+        "transformed": false
+      }
+    },
+    {
+      "path": "08_内页确定稿/页面图片/陪伴空间.png",
+      "category": "08_内页确定稿",
+      "bytes": 777542,
+      "sha256": "5a718d84f83e165d676e46f2311b3b972d176b19a95156050f157c9f814b556a",
+      "provenance": {
+        "archivePath": "08_内页确定稿/页面图片/陪伴空间.png",
+        "source": "GiftCompanion/Docs/Design/MikaVisual_InnerPages_Draft1/spaces.png",
+        "sha256": "5a718d84f83e165d676e46f2311b3b972d176b19a95156050f157c9f814b556a",
+        "transformed": false
+      }
+    },
+    {
+      "path": "08_内页确定稿/验证/内页总结首页.png",
+      "category": "08_内页确定稿",
+      "bytes": 442969,
+      "sha256": "c6fa442fa38f2c3c888458db1fa984b6a3d5e7a81b9319df51c018fcc8c735fd"
+    },
+    {
+      "path": "08_内页确定稿/验证/原始草稿审阅记录.json",
+      "category": "08_内页确定稿",
+      "bytes": 413,
+      "sha256": "d7fdac7ee53d5bcdfac25f217f12fbf5b57e5a5550c2e53b8dbe58295dbf8ed6",
+      "provenance": {
+        "archivePath": "08_内页确定稿/验证/原始草稿审阅记录.json",
+        "source": "GiftCompanion/Docs/Design/MikaVisual_InnerPages_Draft1/review-checks.json",
+        "sourceSha256": "d7fdac7ee53d5bcdfac25f217f12fbf5b57e5a5550c2e53b8dbe58295dbf8ed6",
+        "transformed": false,
+        "status": "approved metadata or original evidence"
+      }
+    },
+    {
+      "path": "08_内页确定稿/验证/图像一致性.json",
+      "category": "08_内页确定稿",
+      "bytes": 147,
+      "sha256": "567f9eb64538a87c021a700612c8e6b81ac0cb04c116b689dd58ce5b034048c3"
+    },
+    {
+      "path": "08_内页确定稿/验证/归档浏览器报告.json",
+      "category": "08_内页确定稿",
+      "bytes": 238,
+      "sha256": "40b0bff035107118f94c65810981d1d53156152b0107cc484d901105a99064c0"
+    },
+    {
+      "path": "08_内页确定稿/验证/归档浮字日记.png",
+      "category": "08_内页确定稿",
+      "bytes": 796166,
+      "sha256": "d0020d691aaf0a482a3bb4b79b7010fc55d41cfe8385efc6b28a9337e4f94ade"
+    },
+    {
+      "path": "README.md",
+      "category": "阅读与报告",
+      "bytes": 2076,
+      "sha256": "9b870ad6dc65dda1eedfe31229dc93a2f0fff65520ff975882da0e7899d4ff48"
+    },
+    {
+      "path": "开始阅读.html",
+      "category": "阅读与报告",
+      "bytes": 5966,
+      "sha256": "b63fbb20e6cfd9b2b75763db54391f305687d1de9d38f87feacd12c55580a6fb"
+    },
+    {
+      "path": "设计介绍报告.html",
+      "category": "阅读与报告",
+      "bytes": 27575,
+      "sha256": "325e4f9bf7f417f1ebf57759772d2d6ea96356a79b9d5879f6b256bd6975fb93"
+    },
+    {
+      "path": "设计介绍报告.md",
+      "category": "阅读与报告",
+      "bytes": 20816,
+      "sha256": "43f5ca4c26d56e4a1ff855368ca3441ba86da167346f7c1de1c9ce0a7bd433f7"
+    },
+    {
+      "path": "资源清单.html",
+      "category": "阅读与报告",
+      "bytes": 14788,
+      "sha256": "dd6f0ff91dbede2b7a086e52e4ebaa53c99a346fadba941c0356380b969b120d"
+    }
+  ],
+  "digestExclusions": [
+    "07_来源与清单/资源清单.json",
+    "06_验证记录/归档检查/完整性校验.json",
+    "07_来源与清单/CHECKSUMS.sha256"
+  ],
+  "previousManifest": "历史版本/追加内页前/资源清单.json",
+  "externalMediaReferences": "素材来源索引.json"
+}

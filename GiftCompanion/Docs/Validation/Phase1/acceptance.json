@@ -1,0 +1,26 @@
+{
+  "phase": 1,
+  "passed": true,
+  "verifiedAtUtc": "2026-10-12T06:40:00.4949144+00:00",
+  "unity": "6000.3.7f1",
+  "editModePassed": 24,
+  "playModePassed": 6,
+  "buildErrors": 0,
+  "buildBytes": 176703785,
+  "schemaVersion": 1,
+  "tables": [
+    "app_state"
+  ],
+  "evidence": [
+    "core_probe.json",
+    "player_build.json",
+    "player_write.json",
+    "player_restore.json",
+    "player_nokey.json",
+    "Window\\player_probe.json",
+    "Window\\window_composition.json"
+  ],
+  "coreAssemblySha256": "18095575ea65dc5fe43a7587d262bacbaf9277f870c12d24a83a440fadbda35a",
+  "runtimeAssemblySha256": "13a95c761e77eb65920e0838a4bb59a61429bf2bcd8152456eadae95017825fe",
+  "scope": "Approved Phase 1 Core only. Real Editor and Player streaming, state persistence, mode lifecycle and native desktop composition. Full Memory, dialogue UI, VoiceService and Agent tools remain later phases."
+}

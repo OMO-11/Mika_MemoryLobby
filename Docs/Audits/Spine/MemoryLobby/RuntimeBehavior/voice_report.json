@@ -1,0 +1,34 @@
+{
+    "createdAt": "2026-10-08T13:59:24.9072272Z",
+    "clips": [
+        {
+            "name": "CH0069_ExWeapon_Get",
+            "duration": 18.73199462890625,
+            "samples": 826081,
+            "openFrames": 4814,
+            "closedFrames": 2874,
+            "completed": true
+        },
+        {
+            "name": "CH0069_Gachaget",
+            "duration": 15.845328330993653,
+            "samples": 698779,
+            "openFrames": 4135,
+            "closedFrames": 2054,
+            "completed": true
+        }
+    ],
+    "passed": [
+        "Real voice opens, closes and finishes: CH0069_ExWeapon_Get",
+        "Real voice opens, closes and finishes: CH0069_Gachaget",
+        "Pause freezes playback and closes mouth while retaining Speaking",
+        "Resume continues from paused playback position",
+        "Explicit mute closes mouth while voice time continues",
+        "Low nonzero volume retains PCM-driven mouth movement",
+        "Replacing voice binds mouth to the new clip and generation",
+        "Cancellation clears old voice and mouth driver",
+        "Independent AudioSource cannot drive character mouth"
+    ],
+    "failed": [],
+    "allPassed": true
+}

@@ -1,0 +1,28 @@
+{
+    "createdAt": "2026-10-08T15:43:41.1516328Z",
+    "passed": [
+        "Idle attention leaves head, hair and supporting arm at original pose",
+        "Idle attention visibly moves the original iris controls",
+        "Original Pat moves Face, rather than only changing facial attachments",
+        "Drag direction changes the original Pat response",
+        "Original PatEnd releases back to the current Idle pose",
+        "Expression midpoint has a real fade in the source draw order",
+        "Completed expression fade removes temporary draw slots",
+        "Pat speech retains the selected expression's mouth family",
+        "Speech energy produces continuous mouth width variation",
+        "Closing the mouth blends rather than replacing it in one frame",
+        "Disabling facial control restores source draw order without leftover fades",
+        "Visible face, scalp and bun mesh samples are included in the head hit area",
+        "Background remains outside the head hit area"
+    ],
+    "failed": [],
+    "allPassed": true,
+    "protectedHeadMaximumError": 9.5367431640625e-7,
+    "irisDisplacement": 0.05339011922478676,
+    "patTilt": 2.0,
+    "dragRotationRange": 0.7999992370605469,
+    "mouthWidthLow": 0.8284435272216797,
+    "mouthWidthHigh": 0.9856312870979309,
+    "midpointDrawSlots": 299,
+    "baselineSlots": 294
+}

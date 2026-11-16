@@ -1,0 +1,105 @@
+{
+  "Version": 2,
+  "DefaultJapanese": "ja-bright",
+  "DefaultChinese": "zh-soft",
+  "Styles": [
+    {
+      "Id": "ja-bright",
+      "Language": "ja",
+      "Emotions": [
+        "neutral",
+        "happy",
+        "surprised"
+      ],
+      "ReferenceAudio": "VoiceReferences/ja-bright.wav",
+      "PromptText": "ん～!今日もいい天気だね！こんな日に仕事ばかりなんて、勿体なくない？",
+      "SpeedFactor": 1.0
+    },
+    {
+      "Id": "ja-shy",
+      "Language": "ja",
+      "Emotions": [
+        "shy"
+      ],
+      "ReferenceAudio": "VoiceReferences/ja-shy.wav",
+      "PromptText": "あのさ…当番って、こういうのなの？べ、別に何か期待してるわけじゃ…。",
+      "SpeedFactor": 0.96
+    },
+    {
+      "Id": "zh-soft",
+      "Language": "zh",
+      "Emotions": [
+        "neutral",
+        "shy",
+        "concern",
+        "sad",
+        "sleepy"
+      ],
+      "ReferenceAudio": "VoiceReferences/zh-soft.wav",
+      "PromptText": "啊……老师对我这么好，我当然很开心……",
+      "SpeedFactor": 0.96
+    },
+    {
+      "Id": "zh-bright",
+      "Language": "zh",
+      "Emotions": [
+        "happy",
+        "surprised"
+      ],
+      "ReferenceAudio": "VoiceReferences/zh-bright.wav",
+      "PromptText": "圣园未花，终于登场啦~是这种感觉吧？",
+      "SpeedFactor": 0.98
+    },
+    {
+      "Id": "ja-soft-original",
+      "Language": "ja",
+      "Emotions": [
+        "concern",
+        "sleepy"
+      ],
+      "ReferenceAudio": null,
+      "PromptText": null,
+      "SpeedFactor": 0.94
+    },
+    {
+      "Id": "ja-annoyed",
+      "Language": "ja",
+      "Emotions": [
+        "annoyed"
+      ],
+      "ReferenceAudio": null,
+      "PromptText": null,
+      "SpeedFactor": 1.02
+    },
+    {
+      "Id": "ja-sad",
+      "Language": "ja",
+      "Emotions": [
+        "sad"
+      ],
+      "ReferenceAudio": null,
+      "PromptText": null,
+      "SpeedFactor": 0.92
+    },
+    {
+      "Id": "ja-hesitant",
+      "Language": "ja",
+      "Emotions": [
+        "hesitant"
+      ],
+      "ReferenceAudio": "VoiceReferences/ja-shy.wav",
+      "PromptText": "あのさ…当番って、こういうのなの？べ、別に何か期待してるわけじゃ…。",
+      "SpeedFactor": 0.93
+    },
+    {
+      "Id": "ja-flat",
+      "Language": "ja",
+      "Emotions": [
+        "flat"
+      ],
+      "ReferenceAudio": null,
+      "PromptText": null,
+      "SpeedFactor": 1.0
+    }
+  ]
+}

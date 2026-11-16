@@ -1,0 +1,120 @@
+// Execute this method body with Unity MCP execute_code in the connected Seaside project.
+// Uses detached Spine skeletons; does not edit assets or the active scene.
+var asset = UnityEditor.AssetDatabase.LoadAssetAtPath<Spine.Unity.SkeletonDataAsset>("Assets/New Folder/CH0294_home_SkeletonData.asset");
+var data = asset.GetSkeletonData(false);
+if (data == null) throw new System.Exception("SkeletonData could not be loaded");
+var atlas = asset.atlasAssets[0].GetAtlas();
+var attachmentTypes = new System.Collections.Generic.Dictionary<string, int>();
+var missing = new System.Collections.Generic.List<string>();
+foreach (var skin in data.Skins) foreach (var item in skin.Attachments) {
+    string type = item.Attachment.GetType().Name;
+    if (!attachmentTypes.ContainsKey(type)) attachmentTypes[type] = 0;
+    attachmentTypes[type]++;
+    var mesh = item.Attachment as Spine.MeshAttachment;
+    var region = item.Attachment as Spine.RegionAttachment;
+    if ((mesh != null && mesh.Region == null) || (region != null && region.Region == null)) missing.Add(item.Name);
+}
+var blendModes = new System.Collections.Generic.Dictionary<string, int>();
+foreach (var slot in data.Slots) {
+    string key = slot.BlendMode.ToString();
+    if (!blendModes.ContainsKey(key)) blendModes[key] = 0;
+    blendModes[key]++;
+}
+var pages = new System.Collections.Generic.List<object>();
+foreach (var page in atlas.Pages) {
+    var mat = page.rendererObject as UnityEngine.Material;
+    var tex = mat == null ? null : mat.mainTexture as UnityEngine.Texture2D;
+    var importer = tex == null ? null : UnityEditor.AssetImporter.GetAtPath(UnityEditor.AssetDatabase.GetAssetPath(tex)) as UnityEditor.TextureImporter;
+    pages.Add(new { name=page.name, width=page.width, height=page.height, pmaDeclared=page.pma,
+        shader=mat == null || mat.shader == null ? null : mat.shader.name,
+        shaderSupported=mat != null && mat.shader != null && mat.shader.isSupported,
+        straightAlphaKeyword=mat != null && mat.IsKeywordEnabled("_STRAIGHT_ALPHA_INPUT"),
+        actualWidth=tex == null ? 0 : tex.width, actualHeight=tex == null ? 0 : tex.height,
+        textureFormat=tex == null ? null : tex.format.ToString(),
+        estimatedRuntimeBytes=tex == null ? 0L : UnityEngine.Profiling.Profiler.GetRuntimeMemorySizeLong(tex),
+        sRGB=importer != null && importer.sRGBTexture,
+        alphaIsTransparency=importer != null && importer.alphaIsTransparency,
+        mipmaps=importer != null && importer.mipmapEnabled,
+        compression=importer == null ? null : importer.textureCompression.ToString() });
+}
+var animationResults = new System.Collections.Generic.List<object>();
+int totalFrames=0;
+foreach (var animation in data.Animations) {
+    var skeleton = new Spine.Skeleton(data);
+    skeleton.SetSkin(data.DefaultSkin);
+    skeleton.SetToSetupPose();
+    var state = new Spine.AnimationState(new Spine.AnimationStateData(data));
+    var eventResults = new System.Collections.Generic.List<object>();
+    state.Event += (entry, ev) => eventResults.Add(new { name=ev.Data.Name, time=ev.Time, audioPath=ev.Data.AudioPath });
+    state.SetAnimation(0, animation, false);
+    bool finiteBones=true, finiteVertices=true, boneMovement=false;
+    float[] firstBones=null;
+    int frameCount=System.Math.Max(2, (int)System.Math.Ceiling(animation.Duration*30)+2);
+    int vertexPairsMax=0;
+    float[] vertices=new float[32768];
+    var timelineTypes=new System.Collections.Generic.Dictionary<string,int>();
+    foreach (var timeline in animation.Timelines) {
+        string key=timeline.GetType().Name;
+        if (!timelineTypes.ContainsKey(key)) timelineTypes[key]=0;
+        timelineTypes[key]++;
+    }
+    for (int frame=0; frame<frameCount; frame++) {
+        float dt=frame==0?0f:1f/30f;
+        skeleton.Update(dt); state.Update(dt); state.Apply(skeleton);
+        skeleton.UpdateWorldTransform(Spine.Skeleton.Physics.Update);
+        float[] values=new float[skeleton.Bones.Count*6]; int i=0;
+        foreach (var bone in skeleton.Bones) {
+            values[i++]=bone.A; values[i++]=bone.B; values[i++]=bone.C;
+            values[i++]=bone.D; values[i++]=bone.WorldX; values[i++]=bone.WorldY;
+        }
+        for (i=0;i<values.Length;i++) {
+            finiteBones &= !float.IsNaN(values[i]) && !float.IsInfinity(values[i]);
+            if (firstBones!=null && System.Math.Abs(values[i]-firstBones[i])>0.000001f) boneMovement=true;
+        }
+        if (firstBones==null) firstBones=values;
+        int pairs=0;
+        foreach (var slot in skeleton.DrawOrder) {
+            int length=0;
+            var vertexAttachment=slot.Attachment as Spine.VertexAttachment;
+            var regionAttachment=slot.Attachment as Spine.RegionAttachment;
+            if (vertexAttachment!=null) {
+                length=vertexAttachment.WorldVerticesLength;
+                if (length>vertices.Length) vertices=new float[length];
+                vertexAttachment.ComputeWorldVertices(slot,0,length,vertices,0,2);
+            } else if (regionAttachment!=null) {
+                length=8; regionAttachment.ComputeWorldVertices(slot,vertices,0,2);
+            }
+            for (i=0;i<length;i++) finiteVertices &= !float.IsNaN(vertices[i]) && !float.IsInfinity(vertices[i]);
+            pairs+=length/2;
+        }
+        vertexPairsMax=System.Math.Max(vertexPairsMax,pairs);
+    }
+    totalFrames+=frameCount;
+    animationResults.Add(new { name=animation.Name, duration=animation.Duration, frames=frameCount,
+        finiteBones, finiteVertices, boneMovement, vertexPairsMax, timelineTypes, events=eventResults });
+}
+var eventDefinitions=new System.Collections.Generic.List<object>();
+foreach(var ev in data.Events) eventDefinitions.Add(new { name=ev.Name, audioPath=ev.AudioPath, stringValue=ev.String });
+var sceneObjects=new System.Collections.Generic.List<object>();
+var activeScene=UnityEngine.SceneManagement.SceneManager.GetActiveScene();
+foreach(var root in activeScene.GetRootGameObjects()) foreach(var sg in root.GetComponentsInChildren<Spine.Unity.SkeletonGraphic>(true)) {
+    sceneObjects.Add(new { name=sg.name, hasCanvasAncestor=sg.GetComponentInParent<UnityEngine.Canvas>()!=null,
+        valid=sg.IsValid, material=sg.material==null?null:sg.material.name,
+        multipleCanvasRenderers=sg.allowMultipleCanvasRenderers,
+        active=sg.gameObject.activeInHierarchy });
+}
+var report=new { testedAt=System.DateTimeOffset.Now.ToString("o"), projectRoot=System.IO.Path.GetDirectoryName(UnityEngine.Application.dataPath),
+    unityVersion=UnityEngine.Application.unityVersion,
+    pipeline=UnityEngine.Rendering.GraphicsSettings.currentRenderPipeline==null?null:UnityEngine.Rendering.GraphicsSettings.currentRenderPipeline.GetType().FullName,
+    activeScene=activeScene.path, activeSceneDirty=activeScene.isDirty,
+    assetPath=UnityEditor.AssetDatabase.GetAssetPath(asset), scale=asset.scale,
+    version=data.Version, hash=data.Hash, fps=data.Fps, imagesPath=data.ImagesPath, audioPath=data.AudioPath,
+    bounds=new { x=data.X,y=data.Y,width=data.Width,height=data.Height,referenceScale=data.ReferenceScale },
+    bones=data.Bones.Count,slots=data.Slots.Count,skins=data.Skins.Count,
+    ik=data.IkConstraints.Count,transform=data.TransformConstraints.Count,path=data.PathConstraints.Count,physics=data.PhysicsConstraints.Count,
+    atlasRegions=atlas.Regions.Count, pages, blendModes, attachmentTypes, missingRegions=missing,
+    animations=animationResults, totalFrames, eventDefinitions, sceneObjects,
+    method="Unity Editor detached Skeleton + AnimationState, every animation once at 30Hz, finite bone matrices and world vertices. No realtime playback or audio verification." };
+string json=Newtonsoft.Json.JsonConvert.SerializeObject(report,Newtonsoft.Json.Formatting.Indented);
+System.IO.File.WriteAllText("W:/Machine/VSCode/Mika_Gift/Material/Mika_memoryLobby_Seaside/Reports/CH0294/unity_audit.json",json);
+return "Saved unity_audit.json; animations="+animationResults.Count+" totalFrames="+totalFrames+" missingRegions="+missing.Count;

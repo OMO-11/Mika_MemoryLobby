@@ -1,0 +1,171 @@
+{
+  "name": "CH0069_Halo",
+  "vertexCount": 94,
+  "indexCount": 504,
+  "meshCompression": 0,
+  "isReadable": false,
+  "localAABB": {
+    "center": [
+      0.0,
+      1.1175870895385742e-08,
+      4.470348358154297e-08
+    ],
+    "extent": [
+      0.11984053254127502,
+      0.1157570630311966,
+      0.07645959407091141
+    ]
+  },
+  "indexFormat": 0,
+  "subMeshes": [
+    {
+      "index": 0,
+      "firstByte": 0,
+      "indexCount": 504,
+      "firstVertex": 0,
+      "vertexCount": 94,
+      "baseVertex": 0,
+      "topology": 0,
+      "localAABB": {
+        "center": [
+          0.0,
+          1.1175870895385742e-08,
+          4.470348358154297e-08
+        ],
+        "extent": [
+          0.11984053254127502,
+          0.1157570630311966,
+          0.07645959407091141
+        ]
+      }
+    }
+  ],
+  "bindPoses": [],
+  "boneNameHashes": [],
+  "rootBoneNameHash": 0,
+  "legacySkin": false,
+  "streamData": {
+    "path": "",
+    "offset": 0,
+    "size": 0,
+    "external": false
+  },
+  "blendShapes": {
+    "status": "none-in-source",
+    "channelCount": 0,
+    "shapeCount": 0,
+    "vertexEntryCount": 0,
+    "fullWeights": [],
+    "channels": [],
+    "shapes": []
+  },
+  "vertexBuffer": {
+    "file": "Geometry/CH0069_Halo.vertex.bin",
+    "bytes": 3008,
+    "sha256": "91af57779cc28ae37adb8e84a7c0754c448665a78901cb4a9295ba9cb70aec35",
+    "source": "serialized-file",
+    "bytesPerVertex": 32.0
+  },
+  "indexBuffer": {
+    "file": "Geometry/CH0069_Halo.index.bin",
+    "bytes": 1008,
+    "sha256": "88fe6973caeb8db62c98fbaa96105c725141175692afdd20d193eb432af57bec",
+    "source": "serialized-file",
+    "elementBytes": 2,
+    "consistentWithSubMeshes": true
+  },
+  "decode": {
+    "status": "decoded",
+    "unityVersion": "UnityVersion 2021.3f2",
+    "vertexStrideBytes": 32,
+    "streams": [
+      {
+        "index": 0,
+        "offset": 0,
+        "stride": 32,
+        "channelMask": 19,
+        "channels": [
+          "POSITION",
+          "NORMAL",
+          "TEXCOORD_0"
+        ]
+      }
+    ],
+    "channels": {
+      "POSITION": {
+        "channel": 0,
+        "dimension": 3,
+        "format": 0,
+        "structType": "f",
+        "componentBytes": 4,
+        "offset": 0,
+        "stream": 0,
+        "decodedCount": 94,
+        "bounds": {
+          "min": [
+            -0.119841,
+            -0.115757,
+            -0.07646
+          ],
+          "max": [
+            0.119841,
+            0.115757,
+            0.07646
+          ]
+        }
+      },
+      "NORMAL": {
+        "channel": 1,
+        "dimension": 3,
+        "format": 0,
+        "structType": "f",
+        "componentBytes": 4,
+        "offset": 12,
+        "stream": 0,
+        "decodedCount": 94,
+        "bounds": {
+          "min": [
+            -1.0,
+            -0.992463,
+            -0.987221
+          ],
+          "max": [
+            1.0,
+            0.999625,
+            0.965927
+          ]
+        }
+      },
+      "TEXCOORD_0": {
+        "channel": 4,
+        "dimension": 2,
+        "format": 0,
+        "structType": "f",
+        "componentBytes": 4,
+        "offset": 24,
+        "stream": 0,
+        "decodedCount": 94,
+        "bounds": {
+          "min": [
+            0.024271,
+            0.025723
+          ],
+          "max": [
+            0.202933,
+            0.977327
+          ]
+        }
+      }
+    },
+    "triangleCounts": [
+      168
+    ]
+  },
+  "logicalName": "CH0069_Halo",
+  "provenance": {
+    "bundle": "CAB-60a97d3739463d22ba4d42eb38225aad",
+    "serializedFile": "CAB-60a97d3739463d22ba4d42eb38225aad",
+    "classId": 43,
+    "pathId": 1000708557478899233
+  }
+}

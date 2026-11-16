@@ -1,0 +1,2009 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.3/staging' branch; Version is '6000.3.7f1 (696ec25a53d1) revision 6909634'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Channel LicenseClient-fufu doesn't exist
+OS: 'Windows 11  (10.0.26200) Professional' Language: 'zh' Physical Memory: 15658 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-10-18T09:57:49Z
+[Licensing::Module] Successfully launched the LicensingClient (PId: 36344)
+
+COMMAND LINE ARGUMENTS:
+W:\Machine\Unity\Unity Library\Unity 6000.3.7f1\Editor\Unity.exe
+-batchmode
+-nographics
+-projectPath
+W:\Machine\VSCode\Mika_Gift\GiftCompanion
+-runTests
+-testPlatform
+PlayMode
+-testResults
+W:\Machine\VSCode\Mika_Gift\GiftCompanion\Docs\Validation\Phase5\5ABC2.PlayMode.xml
+-logFile
+W:\Machine\VSCode\Mika_Gift\GiftCompanion\Docs\Validation\Phase5\5ABC2.PlayMode.log
+Successfully changed project path to: W:\Machine\VSCode\Mika_Gift\GiftCompanion
+W:/Machine/VSCode/Mika_Gift/GiftCompanion
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+Player connection [34560]  Target information:
+
+Player connection [34560]  * "[IP] 172.17.144.1 [Port] 55504 [Flags] 2 [Guid] 2110414585 [EditorId] 2110414585 [Version] 1048832 [Id] WindowsEditor(7,MYSERICE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [34560]  * "[IP] 192.168.121.1 [Port] 55504 [Flags] 2 [Guid] 2110414585 [EditorId] 2110414585 [Version] 1048832 [Id] WindowsEditor(7,MYSERICE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [34560]  * "[IP] 192.168.126.1 [Port] 55504 [Flags] 2 [Guid] 2110414585 [EditorId] 2110414585 [Version] 1048832 [Id] WindowsEditor(7,MYSERICE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [34560]  * "[IP] 26.191.98.64 [Port] 55504 [Flags] 2 [Guid] 2110414585 [EditorId] 2110414585 [Version] 1048832 [Id] WindowsEditor(7,MYSERICE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [34560]  * "[IP] 10.33.46.230 [Port] 55504 [Flags] 2 [Guid] 2110414585 [EditorId] 2110414585 [Version] 1048832 [Id] WindowsEditor(7,MYSERICE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [34560] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [34560] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-fufu" at "2026-10-18T09:57:49.912106Z"
+[Package Manager] Connected to IPC stream "Upm-33528" after 0.3 seconds.
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              2b2be5c8fbc44141b9dbcaf8a42e61c3
+  Correlation Id:          37de8a24e0364cb03a9ed2eb1f0183fb
+  External correlation Id: 1500374492323099825
+  Machine Id:              5mkOLlRLzlaDaGMP57SGmafX/sU=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-fufu" (connect: 0.37s, validation: 0.05s, handshake: 2.17s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-fufu-notifications" at "2026-10-18T09:57:52.1322074Z"
+[Licensing::Module] Connected to LicensingClient (PId: 36344, launch time: 0.01, total connection time: 2.59s)
+[Licensing::Module] Error: Access token is unavailable; failed to update
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 20067662779766-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.01
+[Licensing::Module] Licensing Background thread has ended after 2.62s
+[Licensing::Module] Licensing is initialized (took 2.04s).
+[Licensing::Client] Successfully resolved entitlement details
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 2.47 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.3.7f1 (696ec25a53d1)
+[Subsystems] Discovering subsystems at path W:/Machine/Unity/Unity Library/Unity 6000.3.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path W:/Machine/VSCode/Mika_Gift/GiftCompanion/Assets
+Forcing GfxDevice: Null
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+NullGfxDevice:
+    Version:  NULL 1.0 [1.0]
+    Renderer: Null Device
+    Vendor:   Unity Technologies
+Initialize mono
+Mono path[0] = 'W:/Machine/Unity/Unity Library/Unity 6000.3.7f1/Editor/Data/Managed'
+Mono path[1] = 'W:/Machine/Unity/Unity Library/Unity 6000.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'W:/Machine/Unity/Unity Library/Unity 6000.3.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56528
+Using cacheserver namespaces - metadata:defaultmetadata, artifacts:defaultartifacts
+Using cacheserver namespaces - metadata:defaultmetadata, artifacts:defaultartifacts
+ImportWorker Server TCP listen port: 0
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: W:/Machine/Unity/Unity Library/Unity 6000.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001362 seconds.
+- Loaded All Assemblies, in  0.441 seconds
+Native extension for WindowsStandalone target not found
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.396 seconds
+Domain Reload Profiling: 837ms
+	BeginReloadAssembly (197ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (17ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (148ms)
+		LoadAssemblies (180ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (145ms)
+			TypeCache.Refresh (144ms)
+				TypeCache.ScanAssembly (132ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (397ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (362ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (39ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (70ms)
+			ProcessInitializeOnLoadAttributes (143ms)
+			ProcessInitializeOnLoadMethodAttributes (106ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+[Licensing::Client] Successfully resolved entitlement details
+Application.AssetDatabase Initial Refresh Start
+Package Manager log level set to [2]
+[Package Manager] Restoring resolved packages state from cache
+[Licensing::Client] Successfully resolved entitlement details
+Embedded package [com.kirurobo.uniwinc] was found in the directory [W:\Machine\VSCode\Mika_Gift\GiftCompanion\Packages\com.kirurobo.uniwindowcontroller]. Please consider changing the directory name to match the package name.
+[Package Manager] Registered 18 packages:
+  Packages from [https://packages.unity.com]:
+    com.unity.inputsystem@1.18.0 (location: W:\Machine\VSCode\Mika_Gift\GiftCompanion\Library\PackageCache\com.unity.inputsystem@57d0e36f6123)
+    com.unity.nuget.newtonsoft-json@3.2.2 (location: W:\Machine\VSCode\Mika_Gift\GiftCompanion\Library\PackageCache\com.unity.nuget.newtonsoft-json@4dfd81071c64)
+  Built-in packages:
+    com.unity.test-framework@1.6.0 (location: W:\Machine\VSCode\Mika_Gift\GiftCompanion\Library\PackageCache\com.unity.test-framework@0b7a23ab2e1d)
+    com.unity.ugui@2.0.0 (location: W:\Machine\VSCode\Mika_Gift\GiftCompanion\Library\PackageCache\com.unity.ugui@11343a6274f3)
+    com.unity.modules.audio@1.0.0 (location: W:\Machine\VSCode\Mika_Gift\GiftCompanion\Library\PackageCache\com.unity.modules.audio)
+    com.unity.modules.unitywebrequest@1.0.0 (location: W:\Machine\VSCode\Mika_Gift\GiftCompanion\Library\PackageCache\com.unity.modules.unitywebrequest)
+    com.unity.modules.unitywebrequestaudio@1.0.0 (location: W:\Machine\VSCode\Mika_Gift\GiftCompanion\Library\PackageCache\com.unity.modules.unitywebrequestaudio)
+    com.unity.modules.animation@1.0.0 (location: W:\Machine\VSCode\Mika_Gift\GiftCompanion\Library\PackageCache\com.unity.modules.animation)
+    com.unity.modules.imageconversion@1.0.0 (location: W:\Machine\VSCode\Mika_Gift\GiftCompanion\Library\PackageCache\com.unity.modules.imageconversion)
+    com.unity.modules.jsonserialize@1.0.0 (location: W:\Machine\VSCode\Mika_Gift\GiftCompanion\Library\PackageCache\com.unity.modules.jsonserialize)
+    com.unity.modules.imgui@1.0.0 (location: W:\Machine\VSCode\Mika_Gift\GiftCompanion\Library\PackageCache\com.unity.modules.imgui)
+    com.unity.modules.physics@1.0.0 (location: W:\Machine\VSCode\Mika_Gift\GiftCompanion\Library\PackageCache\com.unity.modules.physics)
+    com.unity.modules.physics2d@1.0.0 (location: W:\Machine\VSCode\Mika_Gift\GiftCompanion\Library\PackageCache\com.unity.modules.physics2d)
+    com.unity.modules.ui@1.0.0 (location: W:\Machine\VSCode\Mika_Gift\GiftCompanion\Library\PackageCache\com.unity.modules.ui)
+    com.unity.ext.nunit@2.0.5 (location: W:\Machine\VSCode\Mika_Gift\GiftCompanion\Library\PackageCache\com.unity.ext.nunit@d8c07649098d)
+    com.unity.modules.uielements@1.0.0 (location: W:\Machine\VSCode\Mika_Gift\GiftCompanion\Library\PackageCache\com.unity.modules.uielements)
+    com.unity.modules.hierarchycore@1.0.0 (location: W:\Machine\VSCode\Mika_Gift\GiftCompanion\Library\PackageCache\com.unity.modules.hierarchycore)
+  Embedded packages:
+    com.kirurobo.uniwinc@file:W:\Machine\VSCode\Mika_Gift\GiftCompanion\Packages\com.kirurobo.uniwindowcontroller (location: W:\Machine\VSCode\Mika_Gift\GiftCompanion\Packages\com.kirurobo.uniwindowcontroller)
+[Subsystems] No new subsystems found in resolved package list.
+[Package Manager] Done registering packages in 0.01 seconds
+Starting: W:\Machine\Unity\Unity Library\Unity 6000.3.7f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: W:/Machine/VSCode/Mika_Gift/GiftCompanion
+DisplayProgressbar: Compiling Scripts
+ExitCode: 0 Duration: 0s91ms
+*** Tundra build success (0.05 seconds), 0 items updated, 339 evaluated
+AssetDatabase: script compilation time: 0.529906s
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.562 seconds
+Refreshing native plugins compatible for Editor in 0.90 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.437 seconds
+Domain Reload Profiling: 998ms
+	BeginReloadAssembly (282ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (147ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (217ms)
+		LoadAssemblies (258ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (55ms)
+			TypeCache.Refresh (41ms)
+				TypeCache.ScanAssembly (34ms)
+			BuildScriptInfoCaches (10ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (438ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (326ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (19ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (111ms)
+			ProcessInitializeOnLoadAttributes (149ms)
+			ProcessInitializeOnLoadMethodAttributes (42ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Asset Pipeline Refresh (id=e971ecb992bd928459915622a3003e61): Total: 1.764 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=611 ms
+		Asset DB Callback time: managed=37 ms, native=11 ms
+		Scripting: domain reloads=1, domain reload time=562 ms, compile time=531 ms, other=11 ms
+		Project Asset Count: scripts=397, non-scripts=560
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokeCustomDependenciesCallbacks: 0.002ms
+	InvokePackagesCallback: 13.754ms
+	ApplyChangesToAssetFolders: 0.454ms
+	Scan: 53.686ms
+	OnSourceAssetsModified: 0.002ms
+	CategorizeAssetsWithTransientArtifact: 10.350ms
+	ProcessAssetsWithTransientArtifactChanges: 24.523ms
+	CategorizeAssets: 8.425ms
+	ImportOutOfDateAssets: 441.085ms (-90.757ms without children)
+		CompileScripts: 531.320ms
+		ReloadNativeAssets: 0.001ms
+		UnloadImportedAssets: 0.114ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.122ms
+		InitializingProgressBar: 0.001ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.001ms
+		OnDemandSchedulerStart: 0.284ms
+	PostProcessAllAssets: 37.111ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.002ms
+	UnloadStreamsBegin: 0.934ms
+	PersistCurrentRevisions: 0.035ms
+	UnloadStreamsEnd: 0.002ms
+	GenerateScriptTypeHashes: 1.360ms
+	Untracked: 1173.933ms
+
+Application.AssetDatabase Initial Refresh End
+Scanning for USB devices : 6.294ms
+Initializing Unity extensions:
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-GiftCompanion
+Unloading 66 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1526 unused Assets / (7.6 MB). Loaded Objects now: 2069.
+Memory consumption went from 124.9 MB to 117.3 MB.
+Total: 8.055200 ms (FindLiveObjects: 0.174100 ms CreateObjectMapping: 0.038800 ms MarkObjects: 4.521600 ms  DeleteObjects: 3.319300 ms)
+
+Microsoft Media Foundation video decoding to texture disabled: graphics device is Null, only Direct3D 11 and Direct3D 12 (only on desktop) are supported for hardware-accelerated video decoding.
+[Project] Loading completed in 5.739 seconds
+	Project init time: 				5.390 seconds
+		Template init time: 		0.000 seconds
+		Package Manager init time: 		2.380 seconds
+		Asset Database init time: 		0.170 seconds
+		Global illumination init time: 	0.003 seconds
+		Assemblies load time: 			0.854 seconds
+		Unity extensions init time: 	0.006 seconds
+		Asset Database refresh time: 	1.764 seconds
+	Scene opening time: 			0.141 seconds
+##utp:{"type":"ProjectInfo","version":2,"phase":"Immediate","time":1792317475261,"processId":33528,"projectLoad":5.7394055999999999,"projectInit":5.3902925,"templateInit":0.0,"packageManagerInit":2.380459,"assetDatabaseInit":0.1700704,"globalIlluminationInit":0.0030239,"assembliesLoad":0.8544845,"unityExtensionsInit":0.006101,"assetDatabaseRefresh":1.7644153,"sceneOpening":0.141352}
+##utp:{"type":"EditorInfo","version":2,"phase":"Immediate","time":1792317475261,"processId":33528,"editorVersion":"6000.3.7f1 (696ec25a53d1)","branch":"6000.3/staging","buildType":"Release","platform":"Windows"}
+Asset Pipeline Refresh (id=1c3e0c22a1a09ea4b8ad37a19547a852): Total: 0.017 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Running tests for ExecutionSettings with details:
+targetPlatform = 
+playerHeartbeatTimeout = 600
+filters[0] = 
+   Filter with settings:
+   testMode = PlayMode
+   targetPlatform = 
+   testNames = null
+   groupNames = null
+   categoryNames = null
+   assemblyNames = null
+ignoreTests = {}
+featureFlags = null
+
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+UnityEditor.TestTools.TestRunner.CommandLineTest.Executer:InitializeAndExecuteRun (string[]) (at ./Library/PackageCache/com.unity.test-framework@0b7a23ab2e1d/UnityEditor.TestRunner/CommandLineTest/Executer.cs:53)
+UnityEditor.TestTools.TestRunner.CommandLineTest.TestStarter:InitializeAndExecuteRun () (at ./Library/PackageCache/com.unity.test-framework@0b7a23ab2e1d/UnityEditor.TestRunner/CommandLineTest/TestStarter.cs:64)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: ./Library/PackageCache/com.unity.test-framework@0b7a23ab2e1d/UnityEditor.TestRunner/CommandLineTest/Executer.cs Line: 53)
+
+Start Indexing on Editor startup
+[Indexing] Starting Initial Indexing for Assets
+[UnityConnectServicesConfig] config is NOT valid, switching to default
+Created GICache directory at C:/Users/fufu/AppData/LocalLow/Unity/Caches/GiCache. Took: 0.014s, timestamps: [5.742 - 5.756]
+Unloading 35 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (44.7 KB). Loaded Objects now: 2146.
+Memory consumption went from 105.8 MB to 105.8 MB.
+Total: 5.067000 ms (FindLiveObjects: 0.080700 ms CreateObjectMapping: 0.020300 ms MarkObjects: 4.937400 ms  DeleteObjects: 0.027400 ms)
+
+Start importing Assets/InitTestScene77af8b44-7f3f-4cd4-a9ca-fdb4e94dfcfc.unity using Guid(efd3c73c1bac75a43ad7183d800b5dde) (DefaultImporter) -> (artifact id: '0275b6ee18de779636a7150ad5ffcebd') in 0.0092617 seconds
+Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=292b53b13b9ee2d49a24cf5d2c83a9f6): Total: 0.153 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Reloading assemblies for play mode.
+Reloading assemblies after forced synchronous recompile.
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.306 seconds
+Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.579 seconds
+Domain Reload Profiling: 885ms
+	BeginReloadAssembly (198ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (18ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (64ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (48ms)
+		LoadAssemblies (107ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (34ms)
+			TypeCache.Refresh (3ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (28ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (580ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (376ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (19ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (106ms)
+			ProcessInitializeOnLoadAttributes (134ms)
+			ProcessInitializeOnLoadMethodAttributes (112ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (41ms)
+Asset Pipeline Refresh (id=d9bc6c97bf789034a9a3fea09d2332d2): Total: 0.931 seconds - Initiated by StopAssetImportingV2(ForceSynchronousImport | ForceDomainReload)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=605 ms
+		Asset DB Callback time: managed=13 ms, native=0 ms
+		Scripting: domain reloads=1, domain reload time=310 ms, compile time=1 ms, other=0 ms
+		Project Asset Count: scripts=397, non-scripts=561
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokeCustomDependenciesCallbacks: 0.001ms
+	InvokePackagesCallback: 2.432ms
+	ApplyChangesToAssetFolders: 0.107ms
+	Scan: 0.001ms
+	OnSourceAssetsModified: 0.002ms
+	CategorizeAssetsWithTransientArtifact: 0.003ms
+	ProcessAssetsWithTransientArtifactChanges: 0.823ms
+	CategorizeAssets: 6.814ms
+	ImportOutOfDateAssets: 581.765ms (580.317ms without children)
+		CompileScripts: 1.073ms
+		CollectScriptTypesHashes: 0.024ms
+		ReloadNativeAssets: 0.038ms
+		UnloadImportedAssets: 0.002ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.105ms
+		InitializingProgressBar: 0.000ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.001ms
+		OnDemandSchedulerStart: 0.205ms
+	PostProcessAllAssets: 13.296ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.027ms
+	UnloadStreamsBegin: 0.013ms
+	PersistCurrentRevisions: 0.023ms
+	UnloadStreamsEnd: 0.002ms
+	GenerateScriptTypeHashes: 1.376ms
+	Untracked: 325.878ms
+
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            1.419 ms
+	Integration:            21.173 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       0.257 ms
+	Total Operation Time:   22.850 ms
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.132300 ms
+Loaded scene 'Assets/Scenes/Bootstrap.unity'
+	Deserialize:            31.101 ms
+	Integration:            5.491 ms
+	Integration of assets:  0.075 ms
+	Thread Wait Time:       0.146 ms
+	Total Operation Time:   36.814 ms
+Unloading 39 unused Assets / (19.7 KB). Loaded Objects now: 2139.
+Memory consumption went from 101.1 MB to 101.1 MB.
+Total: 6.293200 ms (FindLiveObjects: 0.132700 ms CreateObjectMapping: 0.023300 ms MarkObjects: 6.018500 ms  DeleteObjects: 0.117500 ms)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.446800 ms
+Loaded scene 'Assets/Scenes/Home.unity'
+	Deserialize:            36.350 ms
+	Integration:            69.893 ms
+	Integration of assets:  9.384 ms
+	Thread Wait Time:       0.948 ms
+	Total Operation Time:   116.575 ms
+Unloading 6 unused Assets / (1.3 KB). Loaded Objects now: 2280.
+Memory consumption went from 130.5 MB to 130.5 MB.
+Total: 6.669000 ms (FindLiveObjects: 0.135300 ms CreateObjectMapping: 0.025500 ms MarkObjects: 6.468500 ms  DeleteObjects: 0.038300 ms)
+
+Unloading 76 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.591300 ms
+Loaded scene 'Assets/Scenes/AgentPet.unity'
+	Deserialize:            1304.891 ms
+	Integration:            38.040 ms
+	Integration of assets:  12.521 ms
+	Thread Wait Time:       -0.242 ms
+	Total Operation Time:   1355.210 ms
+Unloading 383 unused Assets / (46.5 KB). Loaded Objects now: 3043.
+Memory consumption went from 164.3 MB to 164.3 MB.
+Total: 7.010600 ms (FindLiveObjects: 0.168100 ms CreateObjectMapping: 0.029800 ms MarkObjects: 6.663600 ms  DeleteObjects: 0.148000 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.380400 ms
+Loaded scene 'Assets/Scenes/Home.unity'
+	Deserialize:            1.425 ms
+	Integration:            10.583 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       31.459 ms
+	Total Operation Time:   43.469 ms
+Unloading 136 unused Assets / (194.5 KB). Loaded Objects now: 2286.
+Memory consumption went from 163.7 MB to 163.5 MB.
+Total: 6.248300 ms (FindLiveObjects: 0.124700 ms CreateObjectMapping: 0.022200 ms MarkObjects: 5.733700 ms  DeleteObjects: 0.366200 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.547600 ms
+Loaded scene 'Assets/Scenes/Bootstrap.unity'
+	Deserialize:            0.784 ms
+	Integration:            9.022 ms
+	Integration of assets:  0.038 ms
+	Thread Wait Time:       31.553 ms
+	Total Operation Time:   41.396 ms
+Unloading 4 unused Assets / (2.1 KB). Loaded Objects now: 2165.
+Memory consumption went from 130.3 MB to 130.3 MB.
+Total: 7.652600 ms (FindLiveObjects: 0.150200 ms CreateObjectMapping: 0.030100 ms MarkObjects: 7.435500 ms  DeleteObjects: 0.035100 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.169000 ms
+Loaded scene 'Assets/Scenes/Home.unity'
+	Deserialize:            1.649 ms
+	Integration:            6.437 ms
+	Integration of assets:  0.004 ms
+	Thread Wait Time:       31.394 ms
+	Total Operation Time:   39.483 ms
+Unloading 6 unused Assets / (1.4 KB). Loaded Objects now: 2282.
+Memory consumption went from 130.1 MB to 130.1 MB.
+Total: 6.554700 ms (FindLiveObjects: 0.142000 ms CreateObjectMapping: 0.021500 ms MarkObjects: 6.354300 ms  DeleteObjects: 0.035400 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.464700 ms
+Loaded scene 'Assets/Scenes/Companion.unity'
+	Deserialize:            33.454 ms
+	Integration:            6.603 ms
+	Integration of assets:  0.025 ms
+	Thread Wait Time:       32.842 ms
+	Total Operation Time:   72.924 ms
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Unloading 1 unused Assets / (0.5 KB). Loaded Objects now: 3041.
+Memory consumption went from 262.8 MB to 262.8 MB.
+Total: 8.171500 ms (FindLiveObjects: 0.184500 ms CreateObjectMapping: 0.027000 ms MarkObjects: 7.936700 ms  DeleteObjects: 0.021800 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.977000 ms
+Loaded scene 'Assets/Scenes/Home.unity'
+	Deserialize:            2.096 ms
+	Integration:            9.473 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       30.617 ms
+	Total Operation Time:   42.189 ms
+Unloading 1 unused Assets / (0.5 KB). Loaded Objects now: 2284.
+Memory consumption went from 130.3 MB to 130.3 MB.
+Total: 6.428700 ms (FindLiveObjects: 0.137800 ms CreateObjectMapping: 0.021500 ms MarkObjects: 6.236500 ms  DeleteObjects: 0.031500 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.493500 ms
+Loaded scene 'Assets/Scenes/Bootstrap.unity'
+	Deserialize:            0.683 ms
+	Integration:            8.629 ms
+	Integration of assets:  0.046 ms
+	Thread Wait Time:       31.090 ms
+	Total Operation Time:   40.447 ms
+Unloading 3 unused Assets / (1.6 KB). Loaded Objects now: 2165.
+Memory consumption went from 130.2 MB to 130.2 MB.
+Total: 7.187300 ms (FindLiveObjects: 0.118500 ms CreateObjectMapping: 0.020400 ms MarkObjects: 7.016100 ms  DeleteObjects: 0.030900 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.151800 ms
+Loaded scene 'Assets/Scenes/Home.unity'
+	Deserialize:            1.391 ms
+	Integration:            7.472 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       31.597 ms
+	Total Operation Time:   40.463 ms
+Unloading 6 unused Assets / (1.4 KB). Loaded Objects now: 2282.
+Memory consumption went from 130.3 MB to 130.3 MB.
+Total: 6.426300 ms (FindLiveObjects: 0.126600 ms CreateObjectMapping: 0.020500 ms MarkObjects: 6.245900 ms  DeleteObjects: 0.032200 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.418000 ms
+Loaded scene 'Assets/Scenes/Companion.unity'
+	Deserialize:            1.543 ms
+	Integration:            7.709 ms
+	Integration of assets:  0.020 ms
+	Thread Wait Time:       31.514 ms
+	Total Operation Time:   40.785 ms
+Unloading 1 unused Assets / (0.5 KB). Loaded Objects now: 3041.
+Memory consumption went from 262.6 MB to 262.6 MB.
+Total: 7.980800 ms (FindLiveObjects: 0.186600 ms CreateObjectMapping: 0.026800 ms MarkObjects: 7.723700 ms  DeleteObjects: 0.041500 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.087300 ms
+Loaded scene 'Assets/Scenes/Bootstrap.unity'
+	Deserialize:            0.669 ms
+	Integration:            8.741 ms
+	Integration of assets:  0.035 ms
+	Thread Wait Time:       30.700 ms
+	Total Operation Time:   40.144 ms
+Unloading 3 unused Assets / (1.6 KB). Loaded Objects now: 2165.
+Memory consumption went from 130.3 MB to 130.2 MB.
+Total: 7.360500 ms (FindLiveObjects: 0.323900 ms CreateObjectMapping: 0.023800 ms MarkObjects: 6.981500 ms  DeleteObjects: 0.030000 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.163300 ms
+Loaded scene 'Assets/Scenes/Home.unity'
+	Deserialize:            1.590 ms
+	Integration:            7.925 ms
+	Integration of assets:  0.004 ms
+	Thread Wait Time:       31.319 ms
+	Total Operation Time:   40.837 ms
+Unloading 6 unused Assets / (1.3 KB). Loaded Objects now: 2282.
+Memory consumption went from 130.4 MB to 130.4 MB.
+Total: 7.113100 ms (FindLiveObjects: 0.223800 ms CreateObjectMapping: 0.035900 ms MarkObjects: 6.816900 ms  DeleteObjects: 0.034700 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.438100 ms
+Loaded scene 'Assets/Scenes/Companion.unity'
+	Deserialize:            1.612 ms
+	Integration:            8.220 ms
+	Integration of assets:  0.020 ms
+	Thread Wait Time:       31.378 ms
+	Total Operation Time:   41.230 ms
+Unloading 1 unused Assets / (0.6 KB). Loaded Objects now: 3041.
+Memory consumption went from 262.7 MB to 262.7 MB.
+Total: 7.572500 ms (FindLiveObjects: 0.169000 ms CreateObjectMapping: 0.027000 ms MarkObjects: 7.356300 ms  DeleteObjects: 0.019200 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.360900 ms
+Loaded scene 'Assets/Scenes/Home.unity'
+	Deserialize:            1.367 ms
+	Integration:            9.415 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       31.335 ms
+	Total Operation Time:   42.121 ms
+Unloading 1 unused Assets / (0.5 KB). Loaded Objects now: 2285.
+Memory consumption went from 130.4 MB to 130.4 MB.
+Total: 7.338000 ms (FindLiveObjects: 0.129300 ms CreateObjectMapping: 0.021900 ms MarkObjects: 7.164400 ms  DeleteObjects: 0.021100 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.559300 ms
+Loaded scene 'Assets/Scenes/Bootstrap.unity'
+	Deserialize:            0.873 ms
+	Integration:            8.213 ms
+	Integration of assets:  0.040 ms
+	Thread Wait Time:       31.394 ms
+	Total Operation Time:   40.520 ms
+Unloading 3 unused Assets / (1.5 KB). Loaded Objects now: 2165.
+Memory consumption went from 130.3 MB to 130.3 MB.
+Total: 7.065400 ms (FindLiveObjects: 0.115700 ms CreateObjectMapping: 0.020600 ms MarkObjects: 6.893000 ms  DeleteObjects: 0.034800 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.165300 ms
+Loaded scene 'Assets/Scenes/Home.unity'
+	Deserialize:            3.228 ms
+	Integration:            8.389 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       29.813 ms
+	Total Operation Time:   41.433 ms
+Unloading 6 unused Assets / (1.3 KB). Loaded Objects now: 2282.
+Memory consumption went from 130.4 MB to 130.4 MB.
+Total: 6.236900 ms (FindLiveObjects: 0.129500 ms CreateObjectMapping: 0.021100 ms MarkObjects: 6.048400 ms  DeleteObjects: 0.036500 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.440800 ms
+Loaded scene 'Assets/Scenes/Companion.unity'
+	Deserialize:            1.485 ms
+	Integration:            9.255 ms
+	Integration of assets:  0.023 ms
+	Thread Wait Time:       31.562 ms
+	Total Operation Time:   42.324 ms
+Unloading 1 unused Assets / (0.5 KB). Loaded Objects now: 3041.
+Memory consumption went from 262.7 MB to 262.7 MB.
+Total: 9.708500 ms (FindLiveObjects: 0.161800 ms CreateObjectMapping: 0.026400 ms MarkObjects: 9.488600 ms  DeleteObjects: 0.030100 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.335200 ms
+Loaded scene 'Assets/Scenes/Bootstrap.unity'
+	Deserialize:            0.671 ms
+	Integration:            9.598 ms
+	Integration of assets:  0.032 ms
+	Thread Wait Time:       31.115 ms
+	Total Operation Time:   41.417 ms
+Unloading 4 unused Assets / (1.6 KB). Loaded Objects now: 2165.
+Memory consumption went from 130.3 MB to 130.3 MB.
+Total: 8.021200 ms (FindLiveObjects: 0.275600 ms CreateObjectMapping: 0.068300 ms MarkObjects: 7.639300 ms  DeleteObjects: 0.036500 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.163800 ms
+Loaded scene 'Assets/Scenes/Home.unity'
+	Deserialize:            1.528 ms
+	Integration:            7.106 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       31.411 ms
+	Total Operation Time:   40.048 ms
+Unloading 6 unused Assets / (1.3 KB). Loaded Objects now: 2282.
+Memory consumption went from 130.4 MB to 130.4 MB.
+Total: 6.922200 ms (FindLiveObjects: 0.135600 ms CreateObjectMapping: 0.021500 ms MarkObjects: 6.722800 ms  DeleteObjects: 0.041100 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.465200 ms
+Loaded scene 'Assets/Scenes/Companion.unity'
+	Deserialize:            1.621 ms
+	Integration:            7.485 ms
+	Integration of assets:  0.034 ms
+	Thread Wait Time:       31.367 ms
+	Total Operation Time:   40.508 ms
+Unloading 1 unused Assets / (0.5 KB). Loaded Objects now: 3041.
+Memory consumption went from 262.7 MB to 262.7 MB.
+Total: 7.587800 ms (FindLiveObjects: 0.174700 ms CreateObjectMapping: 0.026800 ms MarkObjects: 7.362100 ms  DeleteObjects: 0.022900 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.126300 ms
+Loaded scene 'Assets/Scenes/Bootstrap.unity'
+	Deserialize:            0.870 ms
+	Integration:            8.297 ms
+	Integration of assets:  0.035 ms
+	Thread Wait Time:       30.998 ms
+	Total Operation Time:   40.201 ms
+Unloading 3 unused Assets / (1.6 KB). Loaded Objects now: 2165.
+Memory consumption went from 130.3 MB to 130.3 MB.
+Total: 9.675500 ms (FindLiveObjects: 0.223600 ms CreateObjectMapping: 0.037900 ms MarkObjects: 9.325200 ms  DeleteObjects: 0.086000 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.164100 ms
+Loaded scene 'Assets/Scenes/Home.unity'
+	Deserialize:            1.460 ms
+	Integration:            8.054 ms
+	Integration of assets:  0.004 ms
+	Thread Wait Time:       31.524 ms
+	Total Operation Time:   41.041 ms
+Unloading 6 unused Assets / (1.3 KB). Loaded Objects now: 2282.
+Memory consumption went from 130.4 MB to 130.4 MB.
+Total: 7.273600 ms (FindLiveObjects: 0.206500 ms CreateObjectMapping: 0.033100 ms MarkObjects: 6.985500 ms  DeleteObjects: 0.046800 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.438300 ms
+Loaded scene 'Assets/Scenes/Companion.unity'
+	Deserialize:            1.610 ms
+	Integration:            7.510 ms
+	Integration of assets:  0.028 ms
+	Thread Wait Time:       31.464 ms
+	Total Operation Time:   40.613 ms
+Unloading 1 unused Assets / (0.5 KB). Loaded Objects now: 3041.
+Memory consumption went from 262.9 MB to 262.9 MB.
+Total: 7.712300 ms (FindLiveObjects: 0.194300 ms CreateObjectMapping: 0.027400 ms MarkObjects: 7.465300 ms  DeleteObjects: 0.024000 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.159300 ms
+Loaded scene 'Assets/Scenes/Home.unity'
+	Deserialize:            1.282 ms
+	Integration:            9.849 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       31.542 ms
+	Total Operation Time:   42.676 ms
+Unloading 1 unused Assets / (0.5 KB). Loaded Objects now: 2284.
+Memory consumption went from 130.4 MB to 130.4 MB.
+Total: 8.404900 ms (FindLiveObjects: 0.143700 ms CreateObjectMapping: 0.022000 ms MarkObjects: 8.207800 ms  DeleteObjects: 0.029800 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.428400 ms
+Loaded scene 'Assets/Scenes/Bootstrap.unity'
+	Deserialize:            0.662 ms
+	Integration:            7.455 ms
+	Integration of assets:  0.035 ms
+	Thread Wait Time:       31.815 ms
+	Total Operation Time:   39.967 ms
+Unloading 3 unused Assets / (1.5 KB). Loaded Objects now: 2165.
+Memory consumption went from 130.3 MB to 130.3 MB.
+Total: 7.121500 ms (FindLiveObjects: 0.120700 ms CreateObjectMapping: 0.020700 ms MarkObjects: 6.945400 ms  DeleteObjects: 0.033500 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.167700 ms
+Loaded scene 'Assets/Scenes/Home.unity'
+	Deserialize:            1.509 ms
+	Integration:            7.638 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       28.851 ms
+	Total Operation Time:   38.001 ms
+Unloading 6 unused Assets / (1.3 KB). Loaded Objects now: 2282.
+Memory consumption went from 130.4 MB to 130.4 MB.
+Total: 6.585700 ms (FindLiveObjects: 0.128400 ms CreateObjectMapping: 0.020500 ms MarkObjects: 6.401400 ms  DeleteObjects: 0.034000 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.444700 ms
+Loaded scene 'Assets/Scenes/Companion.unity'
+	Deserialize:            1.657 ms
+	Integration:            7.917 ms
+	Integration of assets:  0.021 ms
+	Thread Wait Time:       31.402 ms
+	Total Operation Time:   40.996 ms
+Unloading 1 unused Assets / (0.5 KB). Loaded Objects now: 3041.
+Memory consumption went from 262.7 MB to 262.7 MB.
+Total: 8.502700 ms (FindLiveObjects: 0.188700 ms CreateObjectMapping: 0.026700 ms MarkObjects: 8.260700 ms  DeleteObjects: 0.025500 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.133400 ms
+Loaded scene 'Assets/Scenes/Bootstrap.unity'
+	Deserialize:            0.677 ms
+	Integration:            8.462 ms
+	Integration of assets:  0.042 ms
+	Thread Wait Time:       31.655 ms
+	Total Operation Time:   40.836 ms
+Unloading 3 unused Assets / (1.5 KB). Loaded Objects now: 2165.
+Memory consumption went from 130.3 MB to 130.3 MB.
+Total: 6.996500 ms (FindLiveObjects: 0.137400 ms CreateObjectMapping: 0.021900 ms MarkObjects: 6.806900 ms  DeleteObjects: 0.029000 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.170300 ms
+Loaded scene 'Assets/Scenes/Home.unity'
+	Deserialize:            1.397 ms
+	Integration:            7.888 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       31.596 ms
+	Total Operation Time:   40.885 ms
+Unloading 6 unused Assets / (1.3 KB). Loaded Objects now: 2282.
+Memory consumption went from 130.4 MB to 130.4 MB.
+Total: 7.247100 ms (FindLiveObjects: 0.141900 ms CreateObjectMapping: 0.022400 ms MarkObjects: 7.045700 ms  DeleteObjects: 0.035900 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.423400 ms
+Loaded scene 'Assets/Scenes/Companion.unity'
+	Deserialize:            1.516 ms
+	Integration:            8.666 ms
+	Integration of assets:  0.036 ms
+	Thread Wait Time:       31.626 ms
+	Total Operation Time:   41.844 ms
+Unloading 1 unused Assets / (0.5 KB). Loaded Objects now: 3041.
+Memory consumption went from 262.7 MB to 262.7 MB.
+Total: 7.684600 ms (FindLiveObjects: 0.194300 ms CreateObjectMapping: 0.026200 ms MarkObjects: 7.435000 ms  DeleteObjects: 0.027700 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.364100 ms
+Loaded scene 'Assets/Scenes/Bootstrap.unity'
+	Deserialize:            0.903 ms
+	Integration:            9.271 ms
+	Integration of assets:  0.033 ms
+	Thread Wait Time:       30.952 ms
+	Total Operation Time:   41.159 ms
+Unloading 3 unused Assets / (1.5 KB). Loaded Objects now: 2165.
+Memory consumption went from 130.3 MB to 130.3 MB.
+Total: 9.468300 ms (FindLiveObjects: 0.139100 ms CreateObjectMapping: 0.021600 ms MarkObjects: 9.268900 ms  DeleteObjects: 0.037200 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.166700 ms
+Loaded scene 'Assets/Scenes/Home.unity'
+	Deserialize:            1.464 ms
+	Integration:            9.516 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       31.604 ms
+	Total Operation Time:   42.586 ms
+Unloading 6 unused Assets / (1.3 KB). Loaded Objects now: 2282.
+Memory consumption went from 130.4 MB to 130.4 MB.
+Total: 6.386800 ms (FindLiveObjects: 0.117900 ms CreateObjectMapping: 0.020600 ms MarkObjects: 6.211200 ms  DeleteObjects: 0.036000 ms)
+
+Unloading 69 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.457000 ms
+Loaded scene 'Assets/Scenes/AgentPet.unity'
+	Deserialize:            562.293 ms
+	Integration:            14.459 ms
+	Integration of assets:  6.934 ms
+	Thread Wait Time:       30.500 ms
+	Total Operation Time:   614.186 ms
+Unloading 383 unused Assets / (39.7 KB). Loaded Objects now: 3043.
+Memory consumption went from 164.7 MB to 164.6 MB.
+Total: 6.389400 ms (FindLiveObjects: 0.183500 ms CreateObjectMapping: 0.031300 ms MarkObjects: 6.027300 ms  DeleteObjects: 0.146700 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.429000 ms
+Loaded scene 'Assets/Scenes/Home.unity'
+	Deserialize:            1.420 ms
+	Integration:            8.603 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       31.477 ms
+	Total Operation Time:   41.503 ms
+Unloading 136 unused Assets / (194.0 KB). Loaded Objects now: 2286.
+Memory consumption went from 164.0 MB to 163.8 MB.
+Total: 6.276700 ms (FindLiveObjects: 0.134900 ms CreateObjectMapping: 0.022600 ms MarkObjects: 5.857900 ms  DeleteObjects: 0.260100 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.450100 ms
+Loaded scene 'Assets/Scenes/Bootstrap.unity'
+	Deserialize:            0.669 ms
+	Integration:            7.704 ms
+	Integration of assets:  0.044 ms
+	Thread Wait Time:       32.864 ms
+	Total Operation Time:   41.280 ms
+Unloading 4 unused Assets / (2.1 KB). Loaded Objects now: 2165.
+Memory consumption went from 130.6 MB to 130.6 MB.
+Total: 7.367000 ms (FindLiveObjects: 0.117500 ms CreateObjectMapping: 0.020500 ms MarkObjects: 7.201500 ms  DeleteObjects: 0.026300 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.180500 ms
+Loaded scene 'Assets/Scenes/Home.unity'
+	Deserialize:            1.763 ms
+	Integration:            7.517 ms
+	Integration of assets:  0.004 ms
+	Thread Wait Time:       31.241 ms
+	Total Operation Time:   40.526 ms
+Unloading 6 unused Assets / (1.3 KB). Loaded Objects now: 2282.
+Memory consumption went from 130.4 MB to 130.4 MB.
+Total: 6.685400 ms (FindLiveObjects: 0.139500 ms CreateObjectMapping: 0.022400 ms MarkObjects: 6.488000 ms  DeleteObjects: 0.034400 ms)
+
+Unloading 69 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.974600 ms
+Loaded scene 'Assets/Scenes/AgentPet.unity'
+	Deserialize:            557.530 ms
+	Integration:            16.014 ms
+	Integration of assets:  7.500 ms
+	Thread Wait Time:       51.417 ms
+	Total Operation Time:   632.460 ms
+Unloading 383 unused Assets / (46.0 KB). Loaded Objects now: 3043.
+Memory consumption went from 164.7 MB to 164.6 MB.
+Total: 6.466600 ms (FindLiveObjects: 0.171300 ms CreateObjectMapping: 0.030400 ms MarkObjects: 6.114500 ms  DeleteObjects: 0.149600 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.043000 ms
+Loaded scene 'Assets/Scenes/Bootstrap.unity'
+	Deserialize:            0.680 ms
+	Integration:            7.771 ms
+	Integration of assets:  0.041 ms
+	Thread Wait Time:       31.141 ms
+	Total Operation Time:   39.633 ms
+Unloading 139 unused Assets / (196.1 KB). Loaded Objects now: 2165.
+Memory consumption went from 163.9 MB to 163.7 MB.
+Total: 7.578600 ms (FindLiveObjects: 0.125600 ms CreateObjectMapping: 0.021900 ms MarkObjects: 7.149900 ms  DeleteObjects: 0.279800 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.176400 ms
+Loaded scene 'Assets/Scenes/Home.unity'
+	Deserialize:            2.041 ms
+	Integration:            8.304 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       29.474 ms
+	Total Operation Time:   39.822 ms
+Unloading 6 unused Assets / (1.3 KB). Loaded Objects now: 2282.
+Memory consumption went from 130.5 MB to 130.5 MB.
+Total: 7.529900 ms (FindLiveObjects: 0.131500 ms CreateObjectMapping: 0.021700 ms MarkObjects: 7.339400 ms  DeleteObjects: 0.035900 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.643200 ms
+Loaded scene 'Assets/Scenes/Companion.unity'
+	Deserialize:            1.798 ms
+	Integration:            8.001 ms
+	Integration of assets:  0.021 ms
+	Thread Wait Time:       31.281 ms
+	Total Operation Time:   41.102 ms
+Unloading 1 unused Assets / (0.5 KB). Loaded Objects now: 3041.
+Memory consumption went from 262.8 MB to 262.8 MB.
+Total: 8.389800 ms (FindLiveObjects: 0.197900 ms CreateObjectMapping: 0.026900 ms MarkObjects: 8.136600 ms  DeleteObjects: 0.027000 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.309000 ms
+Loaded scene 'Assets/Scenes/Bootstrap.unity'
+	Deserialize:            0.640 ms
+	Integration:            8.945 ms
+	Integration of assets:  0.046 ms
+	Thread Wait Time:       31.154 ms
+	Total Operation Time:   40.785 ms
+Unloading 3 unused Assets / (1.5 KB). Loaded Objects now: 2165.
+Memory consumption went from 130.4 MB to 130.3 MB.
+Total: 8.494200 ms (FindLiveObjects: 0.135700 ms CreateObjectMapping: 0.021200 ms MarkObjects: 8.293900 ms  DeleteObjects: 0.041600 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.162200 ms
+Loaded scene 'Assets/Scenes/Home.unity'
+	Deserialize:            1.505 ms
+	Integration:            8.018 ms
+	Integration of assets:  0.004 ms
+	Thread Wait Time:       31.435 ms
+	Total Operation Time:   40.962 ms
+Unloading 6 unused Assets / (1.3 KB). Loaded Objects now: 2282.
+Memory consumption went from 130.5 MB to 130.5 MB.
+Total: 6.288400 ms (FindLiveObjects: 0.137400 ms CreateObjectMapping: 0.021900 ms MarkObjects: 6.092800 ms  DeleteObjects: 0.035300 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.485000 ms
+Loaded scene 'Assets/Scenes/Companion.unity'
+	Deserialize:            1.772 ms
+	Integration:            8.962 ms
+	Integration of assets:  0.024 ms
+	Thread Wait Time:       31.320 ms
+	Total Operation Time:   42.078 ms
+Unloading 1 unused Assets / (0.5 KB). Loaded Objects now: 3041.
+Memory consumption went from 262.8 MB to 262.8 MB.
+Total: 7.891800 ms (FindLiveObjects: 0.167600 ms CreateObjectMapping: 0.026200 ms MarkObjects: 7.672400 ms  DeleteObjects: 0.024500 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.428400 ms
+Loaded scene 'Assets/Scenes/Bootstrap.unity'
+	Deserialize:            0.719 ms
+	Integration:            11.134 ms
+	Integration of assets:  0.045 ms
+	Thread Wait Time:       31.587 ms
+	Total Operation Time:   43.485 ms
+Unloading 3 unused Assets / (2.8 KB). Loaded Objects now: 2165.
+Memory consumption went from 130.4 MB to 130.4 MB.
+Total: 9.313000 ms (FindLiveObjects: 0.144200 ms CreateObjectMapping: 0.021200 ms MarkObjects: 9.105700 ms  DeleteObjects: 0.040800 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.156300 ms
+Loaded scene 'Assets/Scenes/Home.unity'
+	Deserialize:            1.395 ms
+	Integration:            7.511 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       31.559 ms
+	Total Operation Time:   40.468 ms
+Unloading 6 unused Assets / (1.3 KB). Loaded Objects now: 2282.
+Memory consumption went from 130.5 MB to 130.5 MB.
+Total: 6.270700 ms (FindLiveObjects: 0.132500 ms CreateObjectMapping: 0.021200 ms MarkObjects: 6.080000 ms  DeleteObjects: 0.036100 ms)
+
+Unloading 69 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.520500 ms
+Loaded scene 'Assets/Scenes/AgentPet.unity'
+	Deserialize:            567.910 ms
+	Integration:            15.722 ms
+	Integration of assets:  7.832 ms
+	Thread Wait Time:       57.015 ms
+	Total Operation Time:   648.479 ms
+Unloading 385 unused Assets / (274.6 KB). Loaded Objects now: 2710.
+Memory consumption went from 164.8 MB to 164.5 MB.
+Total: 8.179500 ms (FindLiveObjects: 0.156300 ms CreateObjectMapping: 0.027400 ms MarkObjects: 7.655600 ms  DeleteObjects: 0.338600 ms)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.566600 ms
+Loaded scene 'Assets/Scenes/Bootstrap.unity'
+	Deserialize:            0.998 ms
+	Integration:            7.767 ms
+	Integration of assets:  0.027 ms
+	Thread Wait Time:       0.012 ms
+	Total Operation Time:   8.805 ms
+Unloading 139 unused Assets / (196.1 KB). Loaded Objects now: 2160.
+Memory consumption went from 164.0 MB to 163.8 MB.
+Total: 7.194100 ms (FindLiveObjects: 0.120100 ms CreateObjectMapping: 0.021100 ms MarkObjects: 6.785600 ms  DeleteObjects: 0.266200 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.209800 ms
+Loaded scene 'Assets/Scenes/Home.unity'
+	Deserialize:            1.563 ms
+	Integration:            7.211 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       31.693 ms
+	Total Operation Time:   40.471 ms
+Unloading 6 unused Assets / (1.3 KB). Loaded Objects now: 2282.
+Memory consumption went from 130.5 MB to 130.5 MB.
+Total: 7.410300 ms (FindLiveObjects: 0.130800 ms CreateObjectMapping: 0.026000 ms MarkObjects: 7.217100 ms  DeleteObjects: 0.035500 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.466600 ms
+Loaded scene 'Assets/Scenes/Bootstrap.unity'
+	Deserialize:            0.741 ms
+	Integration:            8.316 ms
+	Integration of assets:  0.036 ms
+	Thread Wait Time:       31.150 ms
+	Total Operation Time:   40.244 ms
+Unloading 1 unused Assets / (0.5 KB). Loaded Objects now: 2165.
+Memory consumption went from 130.4 MB to 130.4 MB.
+Total: 7.150800 ms (FindLiveObjects: 0.116900 ms CreateObjectMapping: 0.020900 ms MarkObjects: 6.990400 ms  DeleteObjects: 0.021400 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.167100 ms
+Loaded scene 'Assets/Scenes/Home.unity'
+	Deserialize:            1.507 ms
+	Integration:            7.076 ms
+	Integration of assets:  0.005 ms
+	Thread Wait Time:       31.478 ms
+	Total Operation Time:   40.067 ms
+Unloading 6 unused Assets / (1.3 KB). Loaded Objects now: 2282.
+Memory consumption went from 130.5 MB to 130.5 MB.
+Total: 7.067400 ms (FindLiveObjects: 0.625900 ms CreateObjectMapping: 0.082300 ms MarkObjects: 6.322600 ms  DeleteObjects: 0.035400 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.533000 ms
+Loaded scene 'Assets/Scenes/Home.unity'
+	Deserialize:            1.357 ms
+	Integration:            8.138 ms
+	Integration of assets:  0.004 ms
+	Thread Wait Time:       30.136 ms
+	Total Operation Time:   39.636 ms
+Unloading 1 unused Assets / (0.5 KB). Loaded Objects now: 2282.
+Memory consumption went from 130.5 MB to 130.5 MB.
+Total: 6.855100 ms (FindLiveObjects: 0.122800 ms CreateObjectMapping: 0.020900 ms MarkObjects: 6.689400 ms  DeleteObjects: 0.020700 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.439100 ms
+Loaded scene 'Assets/Scenes/Bootstrap.unity'
+	Deserialize:            0.734 ms
+	Integration:            8.017 ms
+	Integration of assets:  0.047 ms
+	Thread Wait Time:       30.966 ms
+	Total Operation Time:   39.764 ms
+Unloading 1 unused Assets / (0.5 KB). Loaded Objects now: 2165.
+Memory consumption went from 130.4 MB to 130.4 MB.
+Total: 7.356900 ms (FindLiveObjects: 0.121000 ms CreateObjectMapping: 0.023000 ms MarkObjects: 7.177600 ms  DeleteObjects: 0.033900 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.288900 ms
+Loaded scene 'Assets/Scenes/Home.unity'
+	Deserialize:            1.306 ms
+	Integration:            7.699 ms
+	Integration of assets:  0.004 ms
+	Thread Wait Time:       31.566 ms
+	Total Operation Time:   40.574 ms
+Unloading 6 unused Assets / (1.3 KB). Loaded Objects now: 2282.
+Memory consumption went from 130.5 MB to 130.5 MB.
+Total: 6.613300 ms (FindLiveObjects: 0.126700 ms CreateObjectMapping: 0.021100 ms MarkObjects: 6.431300 ms  DeleteObjects: 0.033200 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.550600 ms
+Loaded scene 'Assets/Scenes/Companion.unity'
+	Deserialize:            1.580 ms
+	Integration:            8.274 ms
+	Integration of assets:  0.020 ms
+	Thread Wait Time:       31.639 ms
+	Total Operation Time:   41.514 ms
+Unloading 1 unused Assets / (0.5 KB). Loaded Objects now: 3041.
+Memory consumption went from 262.8 MB to 262.8 MB.
+Total: 7.860100 ms (FindLiveObjects: 0.151800 ms CreateObjectMapping: 0.025200 ms MarkObjects: 7.657900 ms  DeleteObjects: 0.024200 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.360800 ms
+Loaded scene 'Assets/Scenes/Home.unity'
+	Deserialize:            1.330 ms
+	Integration:            12.371 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       31.419 ms
+	Total Operation Time:   45.123 ms
+Unloading 3 unused Assets / (1.5 KB). Loaded Objects now: 2282.
+Memory consumption went from 130.5 MB to 130.5 MB.
+Total: 7.299700 ms (FindLiveObjects: 0.217300 ms CreateObjectMapping: 0.032500 ms MarkObjects: 7.003500 ms  DeleteObjects: 0.045000 ms)
+
+Unloading 69 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.888800 ms
+Loaded scene 'Assets/Scenes/AgentPet.unity'
+	Deserialize:            578.994 ms
+	Integration:            14.539 ms
+	Integration of assets:  7.565 ms
+	Thread Wait Time:       46.507 ms
+	Total Operation Time:   647.606 ms
+Unloading 383 unused Assets / (37.4 KB). Loaded Objects now: 3043.
+Memory consumption went from 164.8 MB to 164.7 MB.
+Total: 7.639200 ms (FindLiveObjects: 0.160500 ms CreateObjectMapping: 0.030300 ms MarkObjects: 7.301700 ms  DeleteObjects: 0.145700 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.078900 ms
+Loaded scene 'Assets/Scenes/Home.unity'
+	Deserialize:            1.684 ms
+	Integration:            8.080 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       31.136 ms
+	Total Operation Time:   40.903 ms
+Unloading 139 unused Assets / (196.1 KB). Loaded Objects now: 2283.
+Memory consumption went from 164.1 MB to 163.9 MB.
+Total: 7.635000 ms (FindLiveObjects: 0.136800 ms CreateObjectMapping: 0.023000 ms MarkObjects: 7.211300 ms  DeleteObjects: 0.262900 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.768000 ms
+Loaded scene 'Assets/Scenes/Companion.unity'
+	Deserialize:            1.891 ms
+	Integration:            8.485 ms
+	Integration of assets:  0.026 ms
+	Thread Wait Time:       31.247 ms
+	Total Operation Time:   41.649 ms
+Unloading 1 unused Assets / (0.5 KB). Loaded Objects now: 3042.
+Memory consumption went from 262.8 MB to 262.8 MB.
+Total: 8.782800 ms (FindLiveObjects: 0.161000 ms CreateObjectMapping: 0.024800 ms MarkObjects: 8.574000 ms  DeleteObjects: 0.021800 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.145800 ms
+Loaded scene 'Assets/Scenes/Home.unity'
+	Deserialize:            1.357 ms
+	Integration:            9.803 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       31.053 ms
+	Total Operation Time:   42.216 ms
+Unloading 3 unused Assets / (1.5 KB). Loaded Objects now: 2283.
+Memory consumption went from 130.5 MB to 130.5 MB.
+Total: 7.156200 ms (FindLiveObjects: 0.130100 ms CreateObjectMapping: 0.021500 ms MarkObjects: 6.970100 ms  DeleteObjects: 0.033300 ms)
+
+Unloading 69 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.502700 ms
+Loaded scene 'Assets/Scenes/AgentPet.unity'
+	Deserialize:            561.979 ms
+	Integration:            14.531 ms
+	Integration of assets:  8.538 ms
+	Thread Wait Time:       45.957 ms
+	Total Operation Time:   631.005 ms
+Unloading 383 unused Assets / (48.8 KB). Loaded Objects now: 3043.
+Memory consumption went from 164.8 MB to 164.8 MB.
+Total: 7.130600 ms (FindLiveObjects: 0.167800 ms CreateObjectMapping: 0.042400 ms MarkObjects: 6.765900 ms  DeleteObjects: 0.153500 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.201500 ms
+Loaded scene 'Assets/Scenes/Home.unity'
+	Deserialize:            3.701 ms
+	Integration:            8.818 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       29.213 ms
+	Total Operation Time:   41.735 ms
+Unloading 139 unused Assets / (195.9 KB). Loaded Objects now: 2283.
+Memory consumption went from 164.1 MB to 163.9 MB.
+Total: 7.047400 ms (FindLiveObjects: 0.134500 ms CreateObjectMapping: 0.022600 ms MarkObjects: 6.621600 ms  DeleteObjects: 0.267600 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.571600 ms
+Loaded scene 'Assets/Scenes/Companion.unity'
+	Deserialize:            1.826 ms
+	Integration:            8.775 ms
+	Integration of assets:  0.023 ms
+	Thread Wait Time:       31.268 ms
+	Total Operation Time:   41.893 ms
+Unloading 1 unused Assets / (0.5 KB). Loaded Objects now: 3042.
+Memory consumption went from 262.9 MB to 262.9 MB.
+Total: 7.726100 ms (FindLiveObjects: 0.181300 ms CreateObjectMapping: 0.026000 ms MarkObjects: 7.492300 ms  DeleteObjects: 0.025400 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.286500 ms
+Loaded scene 'Assets/Scenes/Home.unity'
+	Deserialize:            1.374 ms
+	Integration:            10.203 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       31.012 ms
+	Total Operation Time:   42.592 ms
+Unloading 3 unused Assets / (1.5 KB). Loaded Objects now: 2283.
+Memory consumption went from 130.6 MB to 130.6 MB.
+Total: 7.766300 ms (FindLiveObjects: 0.133600 ms CreateObjectMapping: 0.021100 ms MarkObjects: 7.571400 ms  DeleteObjects: 0.039100 ms)
+
+TrimDiskCacheJob: Current cache size 0mb
+Unloading 69 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.448200 ms
+Loaded scene 'Assets/Scenes/AgentPet.unity'
+	Deserialize:            548.655 ms
+	Integration:            13.607 ms
+	Integration of assets:  7.090 ms
+	Thread Wait Time:       28.195 ms
+	Total Operation Time:   597.547 ms
+Unloading 383 unused Assets / (38.6 KB). Loaded Objects now: 3043.
+Memory consumption went from 165.0 MB to 165.0 MB.
+Total: 7.204300 ms (FindLiveObjects: 0.211200 ms CreateObjectMapping: 0.035700 ms MarkObjects: 6.820900 ms  DeleteObjects: 0.135600 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.472200 ms
+Loaded scene 'Assets/Scenes/Home.unity'
+	Deserialize:            1.513 ms
+	Integration:            8.712 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       31.441 ms
+	Total Operation Time:   41.669 ms
+Unloading 139 unused Assets / (196.1 KB). Loaded Objects now: 2283.
+Memory consumption went from 164.1 MB to 163.9 MB.
+Total: 7.253700 ms (FindLiveObjects: 0.134500 ms CreateObjectMapping: 0.023000 ms MarkObjects: 6.828200 ms  DeleteObjects: 0.266600 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.438900 ms
+Loaded scene 'Assets/Scenes/Bootstrap.unity'
+	Deserialize:            1.186 ms
+	Integration:            7.917 ms
+	Integration of assets:  0.036 ms
+	Thread Wait Time:       31.732 ms
+	Total Operation Time:   40.871 ms
+Unloading 1 unused Assets / (0.5 KB). Loaded Objects now: 2166.
+Memory consumption went from 130.5 MB to 130.5 MB.
+Total: 7.140500 ms (FindLiveObjects: 0.120500 ms CreateObjectMapping: 0.021300 ms MarkObjects: 6.977400 ms  DeleteObjects: 0.020200 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.159800 ms
+Loaded scene 'Assets/Scenes/Home.unity'
+	Deserialize:            1.509 ms
+	Integration:            8.832 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       24.264 ms
+	Total Operation Time:   34.608 ms
+Unloading 6 unused Assets / (1.3 KB). Loaded Objects now: 2283.
+Memory consumption went from 130.6 MB to 130.6 MB.
+Total: 6.608600 ms (FindLiveObjects: 0.127000 ms CreateObjectMapping: 0.020800 ms MarkObjects: 6.424300 ms  DeleteObjects: 0.035500 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.439100 ms
+Loaded scene 'Assets/Scenes/Companion.unity'
+	Deserialize:            1.840 ms
+	Integration:            7.553 ms
+	Integration of assets:  0.020 ms
+	Thread Wait Time:       31.247 ms
+	Total Operation Time:   40.661 ms
+Unloading 1 unused Assets / (0.5 KB). Loaded Objects now: 3042.
+Memory consumption went from 262.9 MB to 262.9 MB.
+Total: 7.888100 ms (FindLiveObjects: 0.162000 ms CreateObjectMapping: 0.026200 ms MarkObjects: 7.669500 ms  DeleteObjects: 0.029000 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.094900 ms
+Loaded scene 'Assets/Scenes/Home.unity'
+	Deserialize:            1.340 ms
+	Integration:            9.222 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       31.828 ms
+	Total Operation Time:   42.392 ms
+Unloading 3 unused Assets / (1.6 KB). Loaded Objects now: 2283.
+Memory consumption went from 130.6 MB to 130.6 MB.
+Total: 8.471100 ms (FindLiveObjects: 0.139800 ms CreateObjectMapping: 0.021600 ms MarkObjects: 8.274600 ms  DeleteObjects: 0.033500 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.450200 ms
+Loaded scene 'Assets/Scenes/Companion.unity'
+	Deserialize:            1.834 ms
+	Integration:            8.086 ms
+	Integration of assets:  0.021 ms
+	Thread Wait Time:       35.768 ms
+	Total Operation Time:   45.709 ms
+Unloading 1 unused Assets / (0.5 KB). Loaded Objects now: 3042.
+Memory consumption went from 262.9 MB to 262.9 MB.
+Total: 8.109700 ms (FindLiveObjects: 0.171800 ms CreateObjectMapping: 0.026700 ms MarkObjects: 7.884700 ms  DeleteObjects: 0.025200 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.266200 ms
+Loaded scene 'Assets/Scenes/Home.unity'
+	Deserialize:            1.379 ms
+	Integration:            10.804 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       31.340 ms
+	Total Operation Time:   43.526 ms
+Unloading 3 unused Assets / (1.6 KB). Loaded Objects now: 2283.
+Memory consumption went from 130.6 MB to 130.6 MB.
+Total: 7.791100 ms (FindLiveObjects: 0.141400 ms CreateObjectMapping: 0.021800 ms MarkObjects: 7.592200 ms  DeleteObjects: 0.034600 ms)
+
+Unloading 69 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.449800 ms
+Loaded scene 'Assets/Scenes/AgentPet.unity'
+	Deserialize:            552.407 ms
+	Integration:            16.124 ms
+	Integration of assets:  7.130 ms
+	Thread Wait Time:       40.161 ms
+	Total Operation Time:   615.823 ms
+Unloading 383 unused Assets / (57.8 KB). Loaded Objects now: 3043.
+Memory consumption went from 164.8 MB to 164.8 MB.
+Total: 7.633600 ms (FindLiveObjects: 0.162300 ms CreateObjectMapping: 0.031600 ms MarkObjects: 7.237800 ms  DeleteObjects: 0.201000 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.300600 ms
+Loaded scene 'Assets/Scenes/Bootstrap.unity'
+	Deserialize:            1.050 ms
+	Integration:            9.652 ms
+	Integration of assets:  0.038 ms
+	Thread Wait Time:       31.245 ms
+	Total Operation Time:   41.985 ms
+Unloading 139 unused Assets / (196.1 KB). Loaded Objects now: 2165.
+Memory consumption went from 164.0 MB to 163.8 MB.
+Total: 7.319200 ms (FindLiveObjects: 0.134300 ms CreateObjectMapping: 0.023400 ms MarkObjects: 6.827300 ms  DeleteObjects: 0.332800 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.168100 ms
+Loaded scene 'Assets/Scenes/Home.unity'
+	Deserialize:            1.600 ms
+	Integration:            8.670 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       31.272 ms
+	Total Operation Time:   41.545 ms
+Unloading 6 unused Assets / (1.3 KB). Loaded Objects now: 2282.
+Memory consumption went from 130.6 MB to 130.6 MB.
+Total: 6.866700 ms (FindLiveObjects: 0.134400 ms CreateObjectMapping: 0.021100 ms MarkObjects: 6.658500 ms  DeleteObjects: 0.051300 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.452700 ms
+Loaded scene 'Assets/Scenes/Companion.unity'
+	Deserialize:            1.567 ms
+	Integration:            8.831 ms
+	Integration of assets:  0.021 ms
+	Thread Wait Time:       31.489 ms
+	Total Operation Time:   41.909 ms
+Unloading 1 unused Assets / (0.5 KB). Loaded Objects now: 3041.
+Memory consumption went from 262.9 MB to 262.9 MB.
+Total: 9.853700 ms (FindLiveObjects: 0.286600 ms CreateObjectMapping: 0.048500 ms MarkObjects: 9.492500 ms  DeleteObjects: 0.025000 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 5.623200 ms
+Loaded scene 'Assets/Scenes/Home.unity'
+	Deserialize:            2.257 ms
+	Integration:            22.782 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       32.053 ms
+	Total Operation Time:   57.096 ms
+Unloading 3 unused Assets / (1.5 KB). Loaded Objects now: 2282.
+Memory consumption went from 130.6 MB to 130.6 MB.
+Total: 8.066400 ms (FindLiveObjects: 0.162500 ms CreateObjectMapping: 0.025500 ms MarkObjects: 7.845300 ms  DeleteObjects: 0.031800 ms)
+
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+Saving results to: W:\Machine\VSCode\Mika_Gift\GiftCompanion\Docs\Validation\Phase5\5ABC2.PlayMode.xml
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            0.551 ms
+	Integration:            7.167 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       0.013 ms
+	Total Operation Time:   7.731 ms
+Unloading 2 unused Assets / (1.0 KB). Loaded Objects now: 2140.
+Memory consumption went from 126.6 MB to 126.6 MB.
+Total: 6.880800 ms (FindLiveObjects: 0.113200 ms CreateObjectMapping: 0.021400 ms MarkObjects: 6.717100 ms  DeleteObjects: 0.027600 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 0 unused Assets / (0 B). Loaded Objects now: 2145.
+Memory consumption went from 126.5 MB to 126.5 MB.
+Total: 7.322300 ms (FindLiveObjects: 0.075500 ms CreateObjectMapping: 0.027600 ms MarkObjects: 7.211900 ms  DeleteObjects: 0.006000 ms)
+
+Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=6edd8cc6832aa22479f157b87a267ca4): Total: 0.050 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+DisplayProgressbar: Undo
+Test run completed. Exiting with code 2 (Failed). One or more tests failed.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+UnityEditor.TestTools.TestRunner.CommandLineTest.Executer:ExitApplication (UnityEditor.TestTools.TestRunner.CommandLineTest.Executer/ReturnCodes,string) (at ./Library/PackageCache/com.unity.test-framework@0b7a23ab2e1d/UnityEditor.TestRunner/CommandLineTest/Executer.cs:81)
+UnityEditor.TestTools.TestRunner.CommandLineTest.Executer:ExitIfRunIsCompleted () (at ./Library/PackageCache/com.unity.test-framework@0b7a23ab2e1d/UnityEditor.TestRunner/CommandLineTest/Executer.cs:74)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: ./Library/PackageCache/com.unity.test-framework@0b7a23ab2e1d/UnityEditor.TestRunner/CommandLineTest/Executer.cs Line: 81)
+
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input System polling thread exited.
+Input System module state changed to: Shutdown.
+[Licensing::IpcConnector] LicenseClient-fufu-notifications channel disconnected successfully.
+[Licensing::IpcConnector] LicenseClient-fufu channel disconnected successfully.
+AcceleratorClientConnectionCallback - disconnected - :0
+Cleanup mono
+Checking for leaked weakptr:
+  Found no leaked weakptrs.
+[Package Manager] Server process was shutdown
+##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1792317519718,"processId":33528,"allocatedMemory":16456184,"memoryLabels":[{"Default":14409},{"Permanent":15236},{"NewDelete":67891},{"Thread":4230344},{"Manager":33823},{"VertexData":8},{"Geometry":816},{"Texture":296},{"Shader":79385},{"Material":24},{"GfxDevice":55257},{"Animation":392},{"Audio":3040},{"FreeType":8},{"FontEngine":5342964},{"Physics":2090},{"Physics2D":16},{"Serialization":720},{"Input":14984},{"JobScheduler":33024},{"TextLib":216},{"Mono":32},{"ScriptingNativeRuntime":155060},{"BaseObject":1620672},{"Resource":1336},{"Renderer":3000},{"Transform":4685},{"File":12704},{"WebCam":616},{"Culling":32},{"Terrain":11394},{"Wind":24},{"STL":40},{"String":14162},{"DynamicArray":92112},{"HashMap":70843},{"Utility":2660678},{"Curl":2675},{"PoolAlloc":2056},{"AI":80},{"TypeTree":5341},{"ScriptManager":512},{"RuntimeInitializeOnLoadManager":64},{"SpriteAtlas":112},{"GI":7792},{"Director":8240},{"CloudService":432},{"WebRequest":808},{"VR":47994},{"SceneManager":504},{"Video":64},{"LazyScriptCache":32},{"Camera":17},{"Secure":2113},{"SerializationCache":1576},{"APIUpdating":10320},{"Subsystems":336},{"VirtualTexturing":57888},{"StaticSafetyDebugInfo":278528},{"Analytics":256},{"Hierarchy":608},{"CoreStats":13032},{"Identifiers":12960},{"Gui":96},{"EditorUtility":108920},{"VersionControl":4},{"Undo":947},{"AssetDatabase":1304209},{"EditorGi":328},{"UnityConnect":29232},{"Upm":1896},{"AssetCompliance":64},{"DrivenProperties":72},{"LocalIPC":210},{"ProfilerEditor":9746},{"CoreBusinessMetrics":2595},{"Licensing":1232},{"AssetReference":32},{"IPCStream":32}]}

@@ -1,0 +1,164 @@
+{
+  "checkpoint": "2C",
+  "phase2Complete": false,
+  "schemaVersion": 4,
+  "capturedAfterInterruptedSave": true,
+  "capturedAtUtc": "2026-10-13T07:52:50.2661057+00:00",
+  "tests": [
+    {
+      "mode": "EditMode",
+      "passed": 41,
+      "total": 41,
+      "sha256": "8766C4522124B0B20FCC5AA35AB76437361F94FC1C3B42C6A9F57DFCEA536014"
+    },
+    {
+      "mode": "PlayMode",
+      "passed": 6,
+      "total": 6,
+      "sha256": "962C99CE77BB58131C9B0D0B7115A4FF31AAEDE95F595B1AAC96D5626CC49E75"
+    }
+  ],
+  "sources": [
+    {
+      "path": "Assets/App/Bootstrap/AppRoot.cs",
+      "sha256": "8397D3B827D429CE99D8AC390BF4010ECE34B22B183F9CCCBE3164EF46086048"
+    },
+    {
+      "path": "Assets/App/Core/AssemblyInfo.cs",
+      "sha256": "91E32CE607BE868DB3AFD0914BBE61166D8C748274B015B96ABA806E4EDBB808"
+    },
+    {
+      "path": "Assets/App/Core/Character/CharacterCore.cs",
+      "sha256": "13D01C8D974225FF40A06C7228B4617D651EA66E88E565EE237CCFCA06DCCA99"
+    },
+    {
+      "path": "Assets/App/Core/Character/CharacterModels.cs",
+      "sha256": "C8CCB2A3761F3A8701BB7FA4FDEA30C5AF1240FD44DDE53E0E9DDBFB2E4F5519"
+    },
+    {
+      "path": "Assets/App/Core/Config/ConfigService.cs",
+      "sha256": "5E30A234FE7CA861B0A4DDF2D609A8F7C63592A23829EE674368C6C61EDB40BE"
+    },
+    {
+      "path": "Assets/App/Core/Config/LocalSecrets.cs",
+      "sha256": "739BE177A3E6EE473F6054C019FD7B658248E6F8B3D68D97C07F8225AECA8685"
+    },
+    {
+      "path": "Assets/App/Core/Config/UserDataPaths.cs",
+      "sha256": "B3BC2BE23629C9FBA899AE0817885DE04538FD789BC2E8942D96478A7995CF2A"
+    },
+    {
+      "path": "Assets/App/Core/LLM/DeepSeekApiClient.cs",
+      "sha256": "939501FBD19B38776B744376E572482B68E0E3F8AE6FACA9826AB2D9806F2483"
+    },
+    {
+      "path": "Assets/App/Core/LLM/LLMService.cs",
+      "sha256": "6C59A4CD8336387E2E906A53111DA31748F6F79FDF25E07E0804A0C107C2BDDA"
+    },
+    {
+      "path": "Assets/App/Core/Logging/Logger.cs",
+      "sha256": "A243659CD25BB521BEE72D23319BB1DFAED908551C6ADFF4E23FAA3238F7BBA3"
+    },
+    {
+      "path": "Assets/App/Core/Memory/ConversationModels.cs",
+      "sha256": "BB68859A254605550248D7E14A6458D47F727C3336F9E16076F33F099C47ED65"
+    },
+    {
+      "path": "Assets/App/Core/Memory/MemoryExtractor.cs",
+      "sha256": "E53A665C1D2025DED9E1C545D6638B85A8F0A86F8C8C0D829F7652800E436466"
+    },
+    {
+      "path": "Assets/App/Core/Memory/MemoryModels.cs",
+      "sha256": "F353848A7C27FC091C1DE1A6E66251BB21BE46BE3402DEA74EE58710BD964FAA"
+    },
+    {
+      "path": "Assets/App/Core/Memory/MemoryService.cs",
+      "sha256": "D697AADBE62207F8D00E2F31A4FBD7CBDFAA87026A1B18F64E058B11E7B9FE89"
+    },
+    {
+      "path": "Assets/App/Core/Memory/PromptBuilder.cs",
+      "sha256": "565D1762EA712E0044ED92B7389A5F651F9FDD2D4B51B30B6D15ACE21586CA02"
+    },
+    {
+      "path": "Assets/App/Core/Persistence/ConversationStore.cs",
+      "sha256": "B046831CD1E03C43D08EBBCBCC92517A43C8A69757EF826BF104D81B9B4E10DA"
+    },
+    {
+      "path": "Assets/App/Core/Persistence/DatabaseService.cs",
+      "sha256": "E447BF9FFBDEBFC3F0B400C2D28343A5B858560C87D93E64FF696D0C113A26D2"
+    },
+    {
+      "path": "Assets/App/Core/Persistence/MemoryRetrieval.cs",
+      "sha256": "BA51E692E7217F777D060145F28D2EE3B24DDD24ED1DDF49390D41E43BA367CC"
+    },
+    {
+      "path": "Assets/App/Core/Persistence/MemoryStore.cs",
+      "sha256": "FBAAFD489944A88E6FF7D21C2E3E552581707B8779A67E5D2D5D7B2241CE9547"
+    },
+    {
+      "path": "Assets/App/Core/Persistence/SqliteConnection.cs",
+      "sha256": "97518CDEE140DD60F5E4AB7ECD754D3397293C8FCF3615B7D1CEED40EBC33A21"
+    },
+    {
+      "path": "Assets/App/Core/Persistence/SqlitePhase0Store.cs",
+      "sha256": "6BB540871601FB79481AC0D2B7A7037810C5E7D54061CD5C6369AB6059F89B22"
+    },
+    {
+      "path": "Assets/Tests/EditMode/CharacterCoreTests.cs",
+      "sha256": "D27121DF630A6E2A936506C3B70971867796DC20476FB7A5C40C9E1E398D4EAD"
+    },
+    {
+      "path": "Assets/Tests/EditMode/ConversationTests.cs",
+      "sha256": "3D873958AB26833039A19D86ED1B5334493B368FF04068D584EAADD482E5D907"
+    },
+    {
+      "path": "Assets/Tests/EditMode/DeepSeekApiTests.cs",
+      "sha256": "4543150F31438C80C93153CBE7DDE7DBB06774C71F8B42E1EBA9FB935FA054F4"
+    },
+    {
+      "path": "Assets/Tests/EditMode/DialoguePipelineTests.cs",
+      "sha256": "D45B265DA6DE71AF521ED8CFB0F558B89586B169BAED8AE4E6BE675A06E37E01"
+    },
+    {
+      "path": "Assets/Tests/EditMode/FoundationTests.cs",
+      "sha256": "22E43E736B3A737547C5913F02A4678A836E703B4E1054FBA412183574B3C91E"
+    },
+    {
+      "path": "Assets/Tests/EditMode/MemoryExtractionTests.cs",
+      "sha256": "2D264CAC59B2157A9AD37CB0B3F39F40DAD7EF956D681EC26055496EADF1BA8B"
+    },
+    {
+      "path": "Assets/Tests/EditMode/MemoryRetrievalTests.cs",
+      "sha256": "018AABEAE9677035D2BE32E591298F31BBFFF14E5874BDF712A492D66F3A0322"
+    },
+    {
+      "path": "Assets/Tests/EditMode/MemoryTransportTests.cs",
+      "sha256": "FFF309A70694CDD81D8317067B1BDBDF7D530C34563BC292B8605C9B3BA73018"
+    },
+    {
+      "path": "Assets/Tests/EditMode/SqlitePhase0Tests.cs",
+      "sha256": "AAA743876F8746B5111F34E2E949939277D703375A293988766C5D8033E66D44"
+    },
+    {
+      "path": "Assets/Tests/EditMode/TestDatabase.cs",
+      "sha256": "9DB8994B84AC8C47B4AB7E12E252995D8C9B040AE7EC76B7E3A8E05B6104977B"
+    },
+    {
+      "path": "Assets/Tests/PlayMode/CharacterPlaybackTests.cs",
+      "sha256": "95BA21B416508F96E86F01772A14E89094E1A980EE5193D7DB4FD7E7A246BB37"
+    },
+    {
+      "path": "Assets/Tests/PlayMode/PlayTestData.cs",
+      "sha256": "E787F225B772BF0AF4D51D40E1CE6A55DE2BB7984A31543A301FF25CC7E649BC"
+    },
+    {
+      "path": "Assets/Tests/PlayMode/SceneLifecycleTests.cs",
+      "sha256": "9DD1A3E700222C0448CD5B0F0528BDD4BDE69E6F52A157873BDE373EBA163B5D"
+    },
+    {
+      "path": "Tools/Test-Phase2.ps1",
+      "sha256": "00B4BABFF0914E7C932E69DA7C4543AD625D1D64DBD34A2CAB3392C54C9BB3ED"
+    }
+  ],
+  "scope": "Offline 2C evidence only; no cloud acceptance or new EXE."
+}

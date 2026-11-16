@@ -1,0 +1,69 @@
+{
+  "playMode": true,
+  "frames": 13711,
+  "finite": true,
+  "maxHeadStep": 23.95584,
+  "maxHeadRotation": 10.8248119,
+  "checks": [
+    {
+      "name": "forehead_crown_only",
+      "pass": true,
+      "center": "(319.09, 293.04)",
+      "forehead": "(321.73, 267.24)",
+      "cheek": "(327.55, 210.30)"
+    },
+    {
+      "name": "cheek_does_not_trigger",
+      "pass": true
+    },
+    {
+      "name": "short_tap_minimum_feedback_and_end",
+      "pass": true
+    },
+    {
+      "name": "long_hold_without_short_loop_or_idle_reset",
+      "pass": true
+    },
+    {
+      "name": "drag_exit_grace_reentry_and_release",
+      "pass": true
+    },
+    {
+      "name": "focus_loss_ends_pat",
+      "pass": true
+    },
+    {
+      "name": "entrance_closeup_then_idle_without_pat_interrupt",
+      "pass": true
+    },
+    {
+      "name": "expression_PlayerGlance",
+      "pass": true
+    },
+    {
+      "name": "expression_ClosedEyeSmile",
+      "pass": true
+    },
+    {
+      "name": "expression_ThoughtfulLook",
+      "pass": true
+    },
+    {
+      "name": "smile_to_pat_to_idle_clears_expression_track",
+      "pass": true
+    },
+    {
+      "name": "autonomous_expression_scheduler_140_seconds",
+      "pass": true,
+      "kinds": [
+        "PlayerGlance",
+        "ClosedEyeSmile",
+        "ThoughtfulLook"
+      ]
+    },
+    {
+      "name": "dialogue_regression",
+      "pass": true
+    }
+  ]
+}

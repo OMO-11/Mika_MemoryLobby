@@ -1,0 +1,154 @@
+{
+  "name": "FX_MAT_Bold_Lightnning_02",
+  "shader": {
+    "status": "resolved",
+    "name": "DSFX/FX_SHADER_AlphaBlend_Add_Distort_0",
+    "file": "Shaders/DSFX_FX_SHADER_AlphaBlend_Add_Distort_0__6006448949377491269.shader.json",
+    "serializedFile": "CAB-dfc5bcc011d85f284a539a56baf966f7",
+    "reference": {
+      "fileId": 1,
+      "pathId": 6006448949377491269
+    }
+  },
+  "renderQueue": -1,
+  "shaderKeywords": null,
+  "textures": {
+    "_Tex_Distort": {
+      "texture": null,
+      "file": null,
+      "scale": [
+        0.5,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0
+      ],
+      "status": "unresolved-external",
+      "reference": {
+        "fileId": 2,
+        "pathId": 3194873870696549378
+      },
+      "externalFile": {
+        "cab": "CAB-50bf638d27a61e906963ba0d23284fba",
+        "archivePath": "archive:/CAB-50bf638d27a61e906963ba0d23284fba/CAB-50bf638d27a61e906963ba0d23284fba"
+      },
+      "error": "File cab-50bf638d27a61e906963ba0d23284fba not found in the staged bundle scope"
+    },
+    "_Tex_Main": {
+      "texture": "FX_TEX_Bold_Lightnning_01",
+      "file": "Textures/Source/FX_TEX_Bold_Lightnning_01.png",
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0
+      ],
+      "sourceFormat": "50:ASTC_RGB_6x6",
+      "width": 256,
+      "height": 256,
+      "status": "exported"
+    },
+    "_Tex_Mask": {
+      "texture": null,
+      "file": null,
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0
+      ],
+      "status": "unresolved-external",
+      "reference": {
+        "fileId": 6,
+        "pathId": 9000622964516856068
+      },
+      "externalFile": {
+        "cab": "CAB-d493b28fef7d4f18f8d0b2abb8bab6c3",
+        "archivePath": "archive:/CAB-d493b28fef7d4f18f8d0b2abb8bab6c3/CAB-d493b28fef7d4f18f8d0b2abb8bab6c3"
+      },
+      "error": "File cab-d493b28fef7d4f18f8d0b2abb8bab6c3 not found in the staged bundle scope"
+    }
+  },
+  "floats": {
+    "_AlphaClip": 0.0,
+    "_Blend": 0.0,
+    "_BumpScale": 1.0,
+    "_Cull": 2.0,
+    "_Cull_Mode": 2.0,
+    "_Custom_Data_Distort_Power_Use": 1.0,
+    "_Custom_Data_MainMask_Offset_Use": 0.0,
+    "_Cutoff": 0.5,
+    "_Dis_Speed_X": 0.0,
+    "_Dis_Speed_Y": 0.0,
+    "_Distortion_Power_X": 0.0,
+    "_Distortion_Power_Y": 0.0,
+    "_DstBlend": 0.0,
+    "_EnvironmentReflections": 1.0,
+    "_GlossMapScale": 0.0,
+    "_Glossiness": 0.0,
+    "_GlossyReflections": 0.0,
+    "_Main_Distortion_Use": 1.0,
+    "_Main_Speed_X": 0.0,
+    "_Main_Speed_Y": 0.0,
+    "_Mask_Distortion_Use": 0.0,
+    "_Mask_Speed_X": 0.0,
+    "_Mask_Speed_Y": 0.0,
+    "_Metallic": 0.0,
+    "_Multiply": 1.0,
+    "_OcclusionStrength": 1.0,
+    "_QueueOffset": 0.0,
+    "_RGBRGBA": 0.0,
+    "_ReceiveShadows": 1.0,
+    "_Smoothness": 0.5,
+    "_SmoothnessTextureChannel": 0.0,
+    "_SpecularHighlights": 1.0,
+    "_SrcBlend": 1.0,
+    "_Surface": 0.0,
+    "_WorkflowMode": 1.0,
+    "_ZOffsetFactor": 0.0,
+    "_ZOffsetUnits": 0.0,
+    "_ZTest_Mode": 4.0,
+    "_ZWrite": 1.0,
+    "_ZWrite_Mode": 0.0
+  },
+  "colors": {
+    "_BaseColor": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "_Color": [
+      5.992156982421875,
+      5.992156982421875,
+      5.992156982421875,
+      1.0
+    ],
+    "_EmissionColor": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "_SpecColor": [
+      0.19999995827674866,
+      0.19999995827674866,
+      0.19999995827674866,
+      1.0
+    ]
+  },
+  "ints": {},
+  "vectors": {},
+  "provenance": {
+    "bundle": "CAB-82e06f023ef01137da1dfdbb883bb380",
+    "serializedFile": "CAB-82e06f023ef01137da1dfdbb883bb380",
+    "classId": 21,
+    "pathId": -4068275074212804387
+  },
+  "logicalName": "FX_MAT_Bold_Lightnning_02"
+}

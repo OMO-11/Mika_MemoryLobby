@@ -1,0 +1,115 @@
+{
+  "name": "FX_MAT_Stretch_Scroll_16",
+  "shader": {
+    "status": "resolved",
+    "name": "DSFX/FX_SHADER_AlphaBlend_Add_Distort_0",
+    "file": "Shaders/DSFX_FX_SHADER_AlphaBlend_Add_Distort_0__6006448949377491269.shader.json",
+    "serializedFile": "CAB-dfc5bcc011d85f284a539a56baf966f7",
+    "reference": {
+      "fileId": 1,
+      "pathId": 6006448949377491269
+    }
+  },
+  "renderQueue": -1,
+  "shaderKeywords": null,
+  "textures": {
+    "_Tex_Distort": {
+      "texture": "FX_TEX_Noise_32",
+      "file": "Textures/Source/FX_TEX_Noise_32.png",
+      "scale": [
+        0.5600000023841858,
+        2.0
+      ],
+      "offset": [
+        0.0,
+        0.0
+      ],
+      "sourceFormat": "48:ASTC_RGB_4x4",
+      "width": 256,
+      "height": 256,
+      "status": "exported"
+    },
+    "_Tex_Main": {
+      "texture": null,
+      "file": null,
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0
+      ],
+      "status": "unresolved-external",
+      "reference": {
+        "fileId": 6,
+        "pathId": 9000622964516856068
+      },
+      "externalFile": {
+        "cab": "CAB-d493b28fef7d4f18f8d0b2abb8bab6c3",
+        "archivePath": "archive:/CAB-d493b28fef7d4f18f8d0b2abb8bab6c3/CAB-d493b28fef7d4f18f8d0b2abb8bab6c3"
+      },
+      "error": "File cab-d493b28fef7d4f18f8d0b2abb8bab6c3 not found in the staged bundle scope"
+    },
+    "_Tex_Mask": {
+      "texture": null,
+      "file": null,
+      "scale": [
+        2.9000000953674316,
+        1.7599999904632568
+      ],
+      "offset": [
+        0.23999999463558197,
+        0.0
+      ],
+      "status": "unresolved-external",
+      "reference": {
+        "fileId": 2,
+        "pathId": -5262233189898134109
+      },
+      "externalFile": {
+        "cab": "CAB-50bf638d27a61e906963ba0d23284fba",
+        "archivePath": "archive:/CAB-50bf638d27a61e906963ba0d23284fba/CAB-50bf638d27a61e906963ba0d23284fba"
+      },
+      "error": "File cab-50bf638d27a61e906963ba0d23284fba not found in the staged bundle scope"
+    }
+  },
+  "floats": {
+    "_Cull_Mode": 0.0,
+    "_Custom_Data_Distort_Power_Use": 0.0,
+    "_Custom_Data_MainMask_Offset_Use": 1.0,
+    "_Dis_Speed_X": -0.44999998807907104,
+    "_Dis_Speed_Y": 0.0,
+    "_Distortion_Power_X": -1.0,
+    "_Distortion_Power_Y": 0.0,
+    "_Main_Distortion_Use": 0.0,
+    "_Main_Speed_X": 0.0,
+    "_Main_Speed_Y": 0.0,
+    "_Mask_Distortion_Use": 1.0,
+    "_Mask_Speed_X": 0.0,
+    "_Mask_Speed_Y": 0.0,
+    "_Multiply": 1.0,
+    "_RGBRGBA": 0.0,
+    "_ZOffsetFactor": 0.0,
+    "_ZOffsetUnits": 0.0,
+    "_ZTest_Mode": 4.0,
+    "_ZWrite_Mode": 0.0
+  },
+  "colors": {
+    "_Color": [
+      4.0,
+      4.0,
+      4.0,
+      1.0
+    ]
+  },
+  "ints": {},
+  "vectors": {},
+  "provenance": {
+    "bundle": "CAB-82e06f023ef01137da1dfdbb883bb380",
+    "serializedFile": "CAB-82e06f023ef01137da1dfdbb883bb380",
+    "classId": 21,
+    "pathId": -8843517453228491156
+  },
+  "logicalName": "FX_MAT_Stretch_Scroll_16"
+}

@@ -1,0 +1,52 @@
+{
+  "date": "2026-10-11",
+  "passed": true,
+  "scope": "inventory-and-handoff-consistency-not-new-animation-runtime-test",
+  "checks": {
+    "18_body_entries_and_12_public_actions": true,
+    "7_loops_5_responses_6_transitions": true,
+    "18_face_profiles_match_body_ids": true,
+    "known_face_differences_match_current_samples": true,
+    "fps_frames_durations_and_profile_counts": true,
+    "9_assets_8_shared_emotions": true,
+    "static_emotion_maps_match_unity7": true,
+    "all_declared_unity7_clips_exist": true,
+    "unity7_has_exact_45_animation_files": true,
+    "all_mouth_samples_normalized_8_slots": true,
+    "aliases_unambiguous": true,
+    "event_bindings_reference_public_actions": true,
+    "special_samples_58_frames_each_and_versions_match": true,
+    "special_exact_end_point_is_not_assumed": true,
+    "source_blend_matches_unity_render_receipt": true,
+    "reference_project_copy_matches_each_source_file": true,
+    "formal_main_manifest_remains_awaiting_assets": true,
+    "all_document_links_exist": true,
+    "art_source_unchanged_after_consolidation": true
+  },
+  "assetReferenceCount": 37,
+  "referenceFilesCopied": 107,
+  "sourceBlendSHA256": "2c594c7c5ae4f27631bc8eea93b6f61768e94a40af5468927dd6c78a31bf3e36",
+  "artSourceModified": false,
+  "formalProjectModified": false,
+  "fullUnitySynchronization": false,
+  "specialExpressionRenderProof": {
+    "passed": true,
+    "shaderErrors": false,
+    "masksImported": true,
+    "sourceBlendUnchanged": true,
+    "unityVersion": "6000.3.7f1",
+    "graphicsDevice": "NVIDIA GeForce RTX 4060 Laptop GPU",
+    "graphicsAPI": "Direct3D11",
+    "colorSpace": "Gamma",
+    "sourceSHA256": "2c594c7c5ae4f27631bc8eea93b6f61768e94a40af5468927dd6c78a31bf3e36",
+    "blenderRevision": 17,
+    "frames": 348,
+    "blendShapes": 8,
+    "actualMsaa": 8,
+    "nativeResolutions": [
+      "480x400",
+      "160x193",
+      "240x290"
+    ]
+  }
+}

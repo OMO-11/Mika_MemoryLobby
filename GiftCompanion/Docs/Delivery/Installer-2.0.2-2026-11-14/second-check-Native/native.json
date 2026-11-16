@@ -1,0 +1,24 @@
+{
+  "passed": false,
+  "checks": {
+    "ready": true,
+    "originalDefaultPreserved": true,
+    "entranceStarted": true,
+    "01_海边入场.png_noBlackStrips": true,
+    "switchHidesMenuDuringEntrance": true,
+    "seaClockTransparentLolita": true,
+    "seaClockDigitsActuallyVisible": true,
+    "entranceEndsAtCharacterWithoutMenu": true,
+    "06_海边透明时钟.png_noBlackStrips": true,
+    "instantMenu": true,
+    "glassVisible": true,
+    "entranceCompletesBehindMenu": true,
+    "backgroundMeshMapping": true,
+    "idleKeepsRunningBehindMenu": true,
+    "02_海边菜单.png_noBlackStrips": true,
+    "escReturnsCharacter": true,
+    "patBegins": true,
+    "patEnds": false
+  },
+  "error": "System.Exception: patEnds\r\n  at GiftCompanion.Validation.SeasideProbe.Check (System.Boolean yes, System.String name) [0x00010] in <34fd628d6444408fabcbffb84dcffc04>:0 \r\n  at GiftCompanion.Validation.SeasideProbe.Start () [0x00bbb] in <34fd628d6444408fabcbffb84dcffc04>:0 "
+}

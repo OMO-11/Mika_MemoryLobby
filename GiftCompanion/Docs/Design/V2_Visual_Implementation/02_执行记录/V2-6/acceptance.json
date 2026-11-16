@@ -1,0 +1,102 @@
+{
+  "passed": true,
+  "phase": "V2-6",
+  "date": "2026-11-03",
+  "tests": {
+    "EditMode": {
+      "passed": 165,
+      "total": 165
+    },
+    "PlayMode": {
+      "passed": 43,
+      "total": 43
+    }
+  },
+  "nativeChecks": 233,
+  "native": {
+    "Entry": {
+      "passed": true,
+      "checks": 10,
+      "result": "Native/Entry/native.json"
+    },
+    "Maintenance": {
+      "passed": true,
+      "checks": 53,
+      "result": "Native/Maintenance/native.json"
+    },
+    "Reading": {
+      "passed": true,
+      "checks": 33,
+      "result": "Native/Reading/native.json"
+    },
+    "Resize": {
+      "passed": true,
+      "checks": 67,
+      "result": "Native/Resize/native.json"
+    },
+    "Window": {
+      "passed": true,
+      "checks": 15,
+      "result": "Native/Window/native.json"
+    },
+    "Prepare": {
+      "passed": true,
+      "checks": 6,
+      "result": "Native/Prepare/Prepare.json"
+    },
+    "Persist": {
+      "passed": true,
+      "checks": 9,
+      "result": "Native/Persist/Persist.json"
+    },
+    "Offline": {
+      "passed": true,
+      "checks": 8,
+      "result": "Native/Offline/Offline.json"
+    },
+    "Restored": {
+      "passed": true,
+      "checks": 12,
+      "result": "Native/Restored/Restored.json"
+    },
+    "Voice": {
+      "passed": true,
+      "checks": 9,
+      "result": "Native/Voice/Voice.json"
+    },
+    "Performance": {
+      "passed": true,
+      "checks": 11,
+      "result": "Native/Performance/Performance.json"
+    }
+  },
+  "package": {
+    "passed": true,
+    "files": 27784,
+    "bytes": 9563765223,
+    "runtimeFiles": 27585,
+    "manifestSha256": "580e391a8b93ecaa55536779fac0e9daa4ea623a018b54f5b4d4ae27ab963431",
+    "v1Unchanged": true
+  },
+  "build": {
+    "passed": true,
+    "result": "Succeeded",
+    "errors": 0,
+    "bytes": 327134914,
+    "seconds": 48.2999805,
+    "unity": "6000.3.7f1",
+    "renderer": "Direct3D11",
+    "flipModelSwapchain": false
+  },
+  "runtimeVerifiedFiles": 27585,
+  "frozenVisualHashes": 96,
+  "actualDpi": 150,
+  "untestedDpi": [
+    100,
+    125
+  ],
+  "memoryMeasurement": "Mono process API returned zero; no valid memory stability result",
+  "playerAcceptance": "pending",
+  "externalRedistribution": "not published; user-supplied font/art/audio rights remain separately documented",
+  "scope": "Local standalone candidate, isolated fixtures, real packaged TTS, actual backup transaction and cross-process reopen; no new live dialogue API acceptance or long-duration/multi-device guarantee"
+}

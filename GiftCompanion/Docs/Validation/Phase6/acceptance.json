@@ -1,0 +1,1964 @@
+{
+  "passed": true,
+  "scope": "Phase6 technical candidate only",
+  "playerAcceptance": "pending",
+  "schema": 10,
+  "backupFormat": 1,
+  "tests": {
+    "EditMode": 153,
+    "PlayMode": 36
+  },
+  "native": {
+    "Standalone/Offline.json": {
+      "checks": 8,
+      "metrics": {
+        "startupMilliseconds": 2108.0
+      }
+    },
+    "Standalone/Restored.json": {
+      "checks": 12,
+      "metrics": {
+        "startupMilliseconds": 1060.0
+      }
+    },
+    "Relocated/Voice.json": {
+      "checks": 9,
+      "metrics": {
+        "startupMilliseconds": 1319.0,
+        "jaStartupMs": 88365.0,
+        "jaInferenceMs": 10130.0,
+        "zhStartupMs": 23445.0,
+        "zhInferenceMs": 10281.0
+      }
+    },
+    "Stability/Stability.json": {
+      "checks": 6,
+      "metrics": {
+        "startupMilliseconds": 1347.0,
+        "observationSeconds": 600.4603102,
+        "privateStartMiB": 0.0,
+        "privateEndMiB": 0.0,
+        "cpuMachinePercent": 1.071442083364332
+      }
+    }
+  },
+  "package": {
+    "version": "1.0.0-candidate",
+    "stage": "candidate",
+    "schema": 10,
+    "backupFormat": 1,
+    "unity": "6000.3.7f1",
+    "renderer": "D3D11/Built-in/Gamma",
+    "createdAtUtc": "2026-10-19T15:14:02.226321+00:00",
+    "playerAcceptance": "pending",
+    "bytes": 9541379576,
+    "runtimeBytes": 9236606178,
+    "developmentPathsRequired": false,
+    "pythonPackages": [
+      {
+        "name": "absl-py",
+        "version": "1.4.0"
+      },
+      {
+        "name": "accelerate",
+        "version": "1.4.0"
+      },
+      {
+        "name": "addict",
+        "version": "2.4.0"
+      },
+      {
+        "name": "aiofiles",
+        "version": "23.2.1"
+      },
+      {
+        "name": "aiohttp",
+        "version": "3.8.3"
+      },
+      {
+        "name": "aiosignal",
+        "version": "1.3.1"
+      },
+      {
+        "name": "aliyun-python-sdk-core",
+        "version": "2.13.36"
+      },
+      {
+        "name": "aliyun-python-sdk-kms",
+        "version": "2.16.2"
+      },
+      {
+        "name": "altair",
+        "version": "4.2.0"
+      },
+      {
+        "name": "annotated-types",
+        "version": "0.7.0"
+      },
+      {
+        "name": "antlr4-python3-runtime",
+        "version": "4.9.3"
+      },
+      {
+        "name": "anyio",
+        "version": "3.6.2"
+      },
+      {
+        "name": "appdirs",
+        "version": "1.4.4"
+      },
+      {
+        "name": "async-timeout",
+        "version": "4.0.2"
+      },
+      {
+        "name": "attrdict",
+        "version": "2.0.1"
+      },
+      {
+        "name": "attrs",
+        "version": "21.4.0"
+      },
+      {
+        "name": "audioread",
+        "version": "2.1.9"
+      },
+      {
+        "name": "av",
+        "version": "14.2.0"
+      },
+      {
+        "name": "bitarray",
+        "version": "2.5.1"
+      },
+      {
+        "name": "budoux",
+        "version": "0.6.4"
+      },
+      {
+        "name": "cachetools",
+        "version": "5.3.0"
+      },
+      {
+        "name": "certifi",
+        "version": "2022.12.7"
+      },
+      {
+        "name": "cffi",
+        "version": "1.15.1"
+      },
+      {
+        "name": "chardet",
+        "version": "5.2.0"
+      },
+      {
+        "name": "charset-normalizer",
+        "version": "2.1.1"
+      },
+      {
+        "name": "click",
+        "version": "8.1.3"
+      },
+      {
+        "name": "cmake",
+        "version": "3.28.1"
+      },
+      {
+        "name": "cn2an",
+        "version": "0.5.22"
+      },
+      {
+        "name": "colorama",
+        "version": "0.4.6"
+      },
+      {
+        "name": "coloredlogs",
+        "version": "15.0.1"
+      },
+      {
+        "name": "colorlog",
+        "version": "6.9.0"
+      },
+      {
+        "name": "contourpy",
+        "version": "1.0.6"
+      },
+      {
+        "name": "crcmod",
+        "version": "1.7"
+      },
+      {
+        "name": "cryptography",
+        "version": "41.0.7"
+      },
+      {
+        "name": "ctranslate2",
+        "version": "3.24.0"
+      },
+      {
+        "name": "cycler",
+        "version": "0.11.0"
+      },
+      {
+        "name": "Cython",
+        "version": "0.29.30"
+      },
+      {
+        "name": "datasets",
+        "version": "2.16.1"
+      },
+      {
+        "name": "decorator",
+        "version": "5.1.1"
+      },
+      {
+        "name": "dill",
+        "version": "0.3.7"
+      },
+      {
+        "name": "Distance",
+        "version": "0.1.3"
+      },
+      {
+        "name": "edge-tts",
+        "version": "6.1.5"
+      },
+      {
+        "name": "editdistance",
+        "version": "0.6.2"
+      },
+      {
+        "name": "einops",
+        "version": "0.8.1"
+      },
+      {
+        "name": "einx",
+        "version": "0.3.0"
+      },
+      {
+        "name": "entrypoints",
+        "version": "0.4"
+      },
+      {
+        "name": "eunjeon",
+        "version": "0.4.0"
+      },
+      {
+        "name": "fairseq",
+        "version": "0.12.2"
+      },
+      {
+        "name": "faiss-cpu",
+        "version": "1.7.2"
+      },
+      {
+        "name": "fast-langdetect",
+        "version": "0.3.1"
+      },
+      {
+        "name": "fastapi",
+        "version": "0.112.1"
+      },
+      {
+        "name": "faster-whisper",
+        "version": "1.1.1"
+      },
+      {
+        "name": "fasttext-predict",
+        "version": "0.9.2.4"
+      },
+      {
+        "name": "ffmpeg-python",
+        "version": "0.2.0"
+      },
+      {
+        "name": "filelock",
+        "version": "3.10.0"
+      },
+      {
+        "name": "flatbuffers",
+        "version": "23.5.9"
+      },
+      {
+        "name": "fonttools",
+        "version": "4.38.0"
+      },
+      {
+        "name": "frozendict",
+        "version": "2.4.6"
+      },
+      {
+        "name": "frozenlist",
+        "version": "1.3.3"
+      },
+      {
+        "name": "fsspec",
+        "version": "2023.10.0"
+      },
+      {
+        "name": "ftfy",
+        "version": "6.3.1"
+      },
+      {
+        "name": "funasr",
+        "version": "1.0.27"
+      },
+      {
+        "name": "g2p-en",
+        "version": "2.1.0"
+      },
+      {
+        "name": "g2pk2",
+        "version": "0.0.3"
+      },
+      {
+        "name": "gast",
+        "version": "0.5.4"
+      },
+      {
+        "name": "google-auth",
+        "version": "2.16.2"
+      },
+      {
+        "name": "google-auth-oauthlib",
+        "version": "0.4.6"
+      },
+      {
+        "name": "gradio",
+        "version": "4.44.1"
+      },
+      {
+        "name": "gradio_client",
+        "version": "1.3.0"
+      },
+      {
+        "name": "grpcio",
+        "version": "1.51.3"
+      },
+      {
+        "name": "h11",
+        "version": "0.14.0"
+      },
+      {
+        "name": "hdbscan",
+        "version": "0.8.33"
+      },
+      {
+        "name": "httpcore",
+        "version": "1.0.5"
+      },
+      {
+        "name": "httpx",
+        "version": "0.27.0"
+      },
+      {
+        "name": "huggingface-hub",
+        "version": "0.29.1"
+      },
+      {
+        "name": "humanfriendly",
+        "version": "10.0"
+      },
+      {
+        "name": "hydra-core",
+        "version": "1.3.2"
+      },
+      {
+        "name": "idna",
+        "version": "3.4"
+      },
+      {
+        "name": "importlib-metadata",
+        "version": "7.0.1"
+      },
+      {
+        "name": "importlib_resources",
+        "version": "6.4.3"
+      },
+      {
+        "name": "inflect",
+        "version": "7.0.0"
+      },
+      {
+        "name": "ipadic",
+        "version": "1.0.0"
+      },
+      {
+        "name": "jaconv",
+        "version": "0.3.4"
+      },
+      {
+        "name": "jamo",
+        "version": "0.4.1"
+      },
+      {
+        "name": "jieba",
+        "version": "0.42.1"
+      },
+      {
+        "name": "jieba-fast",
+        "version": "0.53"
+      },
+      {
+        "name": "Jinja2",
+        "version": "3.1.2"
+      },
+      {
+        "name": "jmespath",
+        "version": "0.10.0"
+      },
+      {
+        "name": "joblib",
+        "version": "1.2.0"
+      },
+      {
+        "name": "jsonschema",
+        "version": "4.17.3"
+      },
+      {
+        "name": "kaldiio",
+        "version": "2.18.0"
+      },
+      {
+        "name": "kiwisolver",
+        "version": "1.4.4"
+      },
+      {
+        "name": "ko-pron",
+        "version": "1.3"
+      },
+      {
+        "name": "langcodes",
+        "version": "3.5.0"
+      },
+      {
+        "name": "LangSegment",
+        "version": "0.3.5"
+      },
+      {
+        "name": "language_data",
+        "version": "1.3.0"
+      },
+      {
+        "name": "librosa",
+        "version": "0.9.2"
+      },
+      {
+        "name": "lightning-utilities",
+        "version": "0.10.0"
+      },
+      {
+        "name": "linkify-it-py",
+        "version": "1.0.3"
+      },
+      {
+        "name": "llvmlite",
+        "version": "0.39.1"
+      },
+      {
+        "name": "local-attention",
+        "version": "1.9.0"
+      },
+      {
+        "name": "locate",
+        "version": "1.1.1"
+      },
+      {
+        "name": "loguru",
+        "version": "0.7.3"
+      },
+      {
+        "name": "lxml",
+        "version": "4.9.2"
+      },
+      {
+        "name": "marisa-trie",
+        "version": "1.2.1"
+      },
+      {
+        "name": "Markdown",
+        "version": "3.4.1"
+      },
+      {
+        "name": "markdown-it-py",
+        "version": "2.2.0"
+      },
+      {
+        "name": "MarkupSafe",
+        "version": "2.1.1"
+      },
+      {
+        "name": "matplotlib",
+        "version": "3.6.2"
+      },
+      {
+        "name": "mdit-py-plugins",
+        "version": "0.3.3"
+      },
+      {
+        "name": "mdurl",
+        "version": "0.1.1"
+      },
+      {
+        "name": "mecab-ko-dic",
+        "version": "1.0.0"
+      },
+      {
+        "name": "mecab-python3",
+        "version": "1.0.10"
+      },
+      {
+        "name": "modelscope",
+        "version": "1.32.0"
+      },
+      {
+        "name": "more-itertools",
+        "version": "10.1.0"
+      },
+      {
+        "name": "mpmath",
+        "version": "1.2.1"
+      },
+      {
+        "name": "msgpack",
+        "version": "1.1.0"
+      },
+      {
+        "name": "multidict",
+        "version": "6.0.3"
+      },
+      {
+        "name": "multiprocess",
+        "version": "0.70.15"
+      },
+      {
+        "name": "mypy-extensions",
+        "version": "1.0.0"
+      },
+      {
+        "name": "networkx",
+        "version": "2.8.8"
+      },
+      {
+        "name": "nltk",
+        "version": "3.8.1"
+      },
+      {
+        "name": "noisereduce",
+        "version": "2.0.1"
+      },
+      {
+        "name": "numba",
+        "version": "0.56.4"
+      },
+      {
+        "name": "numpy",
+        "version": "1.23.4"
+      },
+      {
+        "name": "oauthlib",
+        "version": "3.2.2"
+      },
+      {
+        "name": "omegaconf",
+        "version": "2.3.0"
+      },
+      {
+        "name": "onnx",
+        "version": "1.14.0"
+      },
+      {
+        "name": "onnxconverter-common",
+        "version": "1.13.0"
+      },
+      {
+        "name": "onnxruntime-gpu",
+        "version": "1.19.2"
+      },
+      {
+        "name": "openai-whisper",
+        "version": "20231117"
+      },
+      {
+        "name": "OpenCC",
+        "version": "1.1.8"
+      },
+      {
+        "name": "orjson",
+        "version": "3.8.3"
+      },
+      {
+        "name": "oss2",
+        "version": "2.18.4"
+      },
+      {
+        "name": "packaging",
+        "version": "22.0"
+      },
+      {
+        "name": "pandas",
+        "version": "1.5.2"
+      },
+      {
+        "name": "peft",
+        "version": "0.14.0"
+      },
+      {
+        "name": "Pillow",
+        "version": "9.3.0"
+      },
+      {
+        "name": "pip",
+        "version": "23.1.2"
+      },
+      {
+        "name": "platformdirs",
+        "version": "4.1.0"
+      },
+      {
+        "name": "pooch",
+        "version": "1.6.0"
+      },
+      {
+        "name": "portalocker",
+        "version": "2.6.0"
+      },
+      {
+        "name": "praat-parselmouth",
+        "version": "0.4.2"
+      },
+      {
+        "name": "proces",
+        "version": "0.1.7"
+      },
+      {
+        "name": "protobuf",
+        "version": "4.22.1"
+      },
+      {
+        "name": "psutil",
+        "version": "5.9.7"
+      },
+      {
+        "name": "py3langid",
+        "version": "0.2.2"
+      },
+      {
+        "name": "pyarrow",
+        "version": "14.0.2"
+      },
+      {
+        "name": "pyarrow-hotfix",
+        "version": "0.6"
+      },
+      {
+        "name": "pyasn1",
+        "version": "0.4.8"
+      },
+      {
+        "name": "pyasn1-modules",
+        "version": "0.2.8"
+      },
+      {
+        "name": "pycparser",
+        "version": "2.21"
+      },
+      {
+        "name": "pycryptodome",
+        "version": "3.16.0"
+      },
+      {
+        "name": "pydantic",
+        "version": "2.8.2"
+      },
+      {
+        "name": "pydantic_core",
+        "version": "2.20.1"
+      },
+      {
+        "name": "pydub",
+        "version": "0.25.1"
+      },
+      {
+        "name": "Pygments",
+        "version": "2.15.1"
+      },
+      {
+        "name": "pyjyutping",
+        "version": "1.0.0"
+      },
+      {
+        "name": "pynndescent",
+        "version": "0.5.13"
+      },
+      {
+        "name": "pyopenjtalk",
+        "version": "0.3.4"
+      },
+      {
+        "name": "pyparsing",
+        "version": "3.0.9"
+      },
+      {
+        "name": "pypinyin",
+        "version": "0.50.0"
+      },
+      {
+        "name": "pyre-extensions",
+        "version": "0.0.29"
+      },
+      {
+        "name": "pyreadline3",
+        "version": "3.4.1"
+      },
+      {
+        "name": "pyrsistent",
+        "version": "0.19.2"
+      },
+      {
+        "name": "PySimpleGUI",
+        "version": "4.60.4"
+      },
+      {
+        "name": "python-dateutil",
+        "version": "2.8.2"
+      },
+      {
+        "name": "python-dotenv",
+        "version": "1.0.0"
+      },
+      {
+        "name": "python-mecab-ko",
+        "version": "1.3.7"
+      },
+      {
+        "name": "python-mecab-ko-dic",
+        "version": "2.1.1.post2"
+      },
+      {
+        "name": "python-multipart",
+        "version": "0.0.9"
+      },
+      {
+        "name": "pytorch-lightning",
+        "version": "2.1.3"
+      },
+      {
+        "name": "pytorch-wpe",
+        "version": "0.0.1"
+      },
+      {
+        "name": "pytz",
+        "version": "2022.6"
+      },
+      {
+        "name": "pywin32",
+        "version": "305"
+      },
+      {
+        "name": "pyworld",
+        "version": "0.3.2"
+      },
+      {
+        "name": "PyYAML",
+        "version": "6.0"
+      },
+      {
+        "name": "regex",
+        "version": "2024.11.6"
+      },
+      {
+        "name": "requests",
+        "version": "2.32.3"
+      },
+      {
+        "name": "requests-oauthlib",
+        "version": "1.3.1"
+      },
+      {
+        "name": "resampy",
+        "version": "0.4.2"
+      },
+      {
+        "name": "rfc3986",
+        "version": "1.5.0"
+      },
+      {
+        "name": "rich",
+        "version": "13.3.5"
+      },
+      {
+        "name": "robust-downloader",
+        "version": "0.0.2"
+      },
+      {
+        "name": "rotary-embedding-torch",
+        "version": "0.6.4"
+      },
+      {
+        "name": "rsa",
+        "version": "4.9"
+      },
+      {
+        "name": "ruff",
+        "version": "0.6.1"
+      },
+      {
+        "name": "sacrebleu",
+        "version": "2.3.1"
+      },
+      {
+        "name": "safetensors",
+        "version": "0.5.2"
+      },
+      {
+        "name": "scikit-learn",
+        "version": "1.2.0"
+      },
+      {
+        "name": "scipy",
+        "version": "1.9.3"
+      },
+      {
+        "name": "semantic-version",
+        "version": "2.10.0"
+      },
+      {
+        "name": "sentencepiece",
+        "version": "0.1.99"
+      },
+      {
+        "name": "setuptools",
+        "version": "65.6.3"
+      },
+      {
+        "name": "shellingham",
+        "version": "1.5.4"
+      },
+      {
+        "name": "simplejson",
+        "version": "3.19.2"
+      },
+      {
+        "name": "six",
+        "version": "1.16.0"
+      },
+      {
+        "name": "skl2onnx",
+        "version": "1.14.1"
+      },
+      {
+        "name": "sniffio",
+        "version": "1.3.0"
+      },
+      {
+        "name": "sortedcontainers",
+        "version": "2.4.0"
+      },
+      {
+        "name": "sounddevice",
+        "version": "0.4.6"
+      },
+      {
+        "name": "soundfile",
+        "version": "0.12.1"
+      },
+      {
+        "name": "split-lang",
+        "version": "2.0.6"
+      },
+      {
+        "name": "starlette",
+        "version": "0.38.2"
+      },
+      {
+        "name": "sympy",
+        "version": "1.11.1"
+      },
+      {
+        "name": "tabulate",
+        "version": "0.9.0"
+      },
+      {
+        "name": "tensorboard",
+        "version": "2.12.0"
+      },
+      {
+        "name": "tensorboard-data-server",
+        "version": "0.7.0"
+      },
+      {
+        "name": "tensorboard-plugin-wit",
+        "version": "1.8.1"
+      },
+      {
+        "name": "tensorboardX",
+        "version": "2.6.2.2"
+      },
+      {
+        "name": "threadpoolctl",
+        "version": "3.1.0"
+      },
+      {
+        "name": "tiktoken",
+        "version": "0.5.2"
+      },
+      {
+        "name": "ToJyutping",
+        "version": "3.2.0"
+      },
+      {
+        "name": "tokenizers",
+        "version": "0.19.1"
+      },
+      {
+        "name": "tomli",
+        "version": "2.0.1"
+      },
+      {
+        "name": "tomlkit",
+        "version": "0.12.0"
+      },
+      {
+        "name": "toolz",
+        "version": "0.12.0"
+      },
+      {
+        "name": "torch",
+        "version": "2.0.0+cu118"
+      },
+      {
+        "name": "torch-complex",
+        "version": "0.4.3"
+      },
+      {
+        "name": "torch-directml",
+        "version": "0.2.0.dev230426"
+      },
+      {
+        "name": "torchaudio",
+        "version": "2.0.0"
+      },
+      {
+        "name": "torchmetrics",
+        "version": "1.2.1"
+      },
+      {
+        "name": "torchvision",
+        "version": "0.15.1"
+      },
+      {
+        "name": "tqdm",
+        "version": "4.64.1"
+      },
+      {
+        "name": "transformers",
+        "version": "4.43.0"
+      },
+      {
+        "name": "ttkbootstrap",
+        "version": "1.10.1"
+      },
+      {
+        "name": "typer",
+        "version": "0.12.4"
+      },
+      {
+        "name": "typing_extensions",
+        "version": "4.12.2"
+      },
+      {
+        "name": "typing-inspect",
+        "version": "0.9.0"
+      },
+      {
+        "name": "uc-micro-py",
+        "version": "1.0.1"
+      },
+      {
+        "name": "umap",
+        "version": "0.1.1"
+      },
+      {
+        "name": "umap-learn",
+        "version": "0.5.6"
+      },
+      {
+        "name": "urllib3",
+        "version": "2.4.0"
+      },
+      {
+        "name": "uvicorn",
+        "version": "0.20.0"
+      },
+      {
+        "name": "wcwidth",
+        "version": "0.2.13"
+      },
+      {
+        "name": "websockets",
+        "version": "10.4"
+      },
+      {
+        "name": "Werkzeug",
+        "version": "2.2.3"
+      },
+      {
+        "name": "wheel",
+        "version": "0.38.4"
+      },
+      {
+        "name": "win32_setctime",
+        "version": "1.2.0"
+      },
+      {
+        "name": "wordfreq",
+        "version": "3.1.1"
+      },
+      {
+        "name": "wordsegment",
+        "version": "1.3.1"
+      },
+      {
+        "name": "x-transformers",
+        "version": "2.0.2"
+      },
+      {
+        "name": "xxhash",
+        "version": "3.4.1"
+      },
+      {
+        "name": "yapf",
+        "version": "0.40.2"
+      },
+      {
+        "name": "yarl",
+        "version": "1.8.2"
+      },
+      {
+        "name": "zipp",
+        "version": "3.15.0"
+      }
+    ],
+    "modelProfiles": [
+      "Runtime/GPT-SoVITS/voice.json",
+      "Runtime/GPT-SoVITS/voice-ja.json"
+    ],
+    "files": 27782,
+    "directory": "W:\\Machine\\VSCode\\Mika_Gift\\GiftCompanion\\Releases\\Gift-V1-Candidate"
+  },
+  "frozenFilesUnchanged": 39,
+  "artifacts": [
+    {
+      "path": "Releases/Gift-V1-Candidate/GiftCompanion.exe",
+      "bytes": 667648,
+      "sha256": "4bf762016829b0c975960cf300aac5a5bb1f84d25745f2aa8f4a508f9af5243f"
+    },
+    {
+      "path": "Releases/Gift-V1-Candidate/GiftCompanion_Data/Managed/GiftCompanion.Core.dll",
+      "bytes": 377344,
+      "sha256": "1566c22891cce177b7abfd137add20f21340c6e1c4f9559a4d7533ca77de9551"
+    },
+    {
+      "path": "Releases/Gift-V1-Candidate/GiftCompanion_Data/Managed/GiftCompanion.Runtime.dll",
+      "bytes": 443904,
+      "sha256": "44539d57e5e246604331bd1ee7bfd612891c814c68a7df5e0e9a153d43b7c751"
+    },
+    {
+      "path": "Releases/Gift-V1-Candidate/Release/release_manifest.json",
+      "bytes": 6130726,
+      "sha256": "176270a17235b986f26a7bf2a0ab10ddc1f1f42179a00a29e6d3b06a667517fc"
+    }
+  ],
+  "sourceFiles": [
+    {
+      "path": "Assets/App/AgentPet/PetInteraction.cs",
+      "sha256": "95ad229323ae0eaec5253a2b8781332833e9504b4a4a9ebc1a3329a9c6032898"
+    },
+    {
+      "path": "Assets/App/AgentPet/PetPanels.cs",
+      "sha256": "2bdc55cf1d6c35e084d7329481aaa2732547e1dff3f223e400c5b0a72a1df054"
+    },
+    {
+      "path": "Assets/App/AgentPet/PetPresentation.cs",
+      "sha256": "a15721b0bfc5eb86961c9b45b218b45c2bb6ba88197ff9bf59d616c9ae3a687e"
+    },
+    {
+      "path": "Assets/App/AgentPet/PetScreen.cs",
+      "sha256": "5cb0739468ca92e8d8ea6a9c3a8e9f18a634188aaefc2c6ef8a401339332a96f"
+    },
+    {
+      "path": "Assets/App/AgentPet/PetToolsPanel.cs",
+      "sha256": "7233d5eb81227bce16f534c2ff435dbf0c5deb3188c52bebc8aafdd4424d73b7"
+    },
+    {
+      "path": "Assets/App/AgentPet/Tools/WindowsAgentNative.cs",
+      "sha256": "0884668afc270390c2d1933fd1ac512ecc4b95746e8d07abc0c69e2da0d6c085"
+    },
+    {
+      "path": "Assets/App/AgentPet/Tools/WindowsAgentPlatform.cs",
+      "sha256": "0d5e96a66d0e440e3d7d9471af0576298f29b35803fe7edc63172a9b49a5539b"
+    },
+    {
+      "path": "Assets/App/AgentPet/Window/DesktopWindowPrototype.cs",
+      "sha256": "723658a731965c5f6f9764415c51cdfdd2fd7b8783768a34e04a7a37dcf4d245"
+    },
+    {
+      "path": "Assets/App/AgentPet/Window/PetHotkeyHost.cs",
+      "sha256": "2e7de6791c70114069fe31f25e0aa69fd949164f2f07da1c6e4af5e8764ab09d"
+    },
+    {
+      "path": "Assets/App/AgentPet/Window/PetNative.cs",
+      "sha256": "3c5131dc2023246e7dfe09d6451179d0f2ed7b3d7df1fa967b9298928b74ac9f"
+    },
+    {
+      "path": "Assets/App/Bootstrap/AppController.cs",
+      "sha256": "106de896c9a0bee7a8a096a3b876f6ba3420d2879381334534602168522c3832"
+    },
+    {
+      "path": "Assets/App/Bootstrap/AppRoot.cs",
+      "sha256": "9bc6f2739c979a618608bf9e31b02ba82d114cbc1818e3f02507c3b2e05535a4"
+    },
+    {
+      "path": "Assets/App/Bootstrap/BootstrapEntry.cs",
+      "sha256": "d7195b3a62e666eeacfd49ad74f4d15a5206e88c2883df79efed49a0b681767f"
+    },
+    {
+      "path": "Assets/App/Bootstrap/SingleInstanceGuard.cs",
+      "sha256": "013d841467597872cb9156ba8d3d7ae87d51e9eab7635b6325e41097034903b9"
+    },
+    {
+      "path": "Assets/App/Companion/BGM/BgmFilePlayer.cs",
+      "sha256": "8225c6affa2ebcb1b31ff28a0a76d65ca29af1cd9d4543ba25686ef80fc4dce3"
+    },
+    {
+      "path": "Assets/App/Companion/BGM/BgmManager.cs",
+      "sha256": "dbaac675f2ae27cc59df52cb31210e06c36b98ce9d06738c784dd620d3caafee"
+    },
+    {
+      "path": "Assets/App/Companion/CompanionLibraryPanels.cs",
+      "sha256": "67b34ca7a31761d2f0a805ce68be0655df66b45fee57506eef13838be58a9d4a"
+    },
+    {
+      "path": "Assets/App/Companion/CompanionPanels.cs",
+      "sha256": "3fe69dfdb4480a49f91f754d282b4e4954db77289a369ec8c6d62c7447d5af89"
+    },
+    {
+      "path": "Assets/App/Companion/CompanionPresentation.cs",
+      "sha256": "cba0d6ce6ad692f47c38af9b9ba3bc880e4a62255e7ff0e5c97cf1ddb23d3d8a"
+    },
+    {
+      "path": "Assets/App/Companion/CompanionScreen.cs",
+      "sha256": "ae5c0b7ea6046ad297442555c45a5a14378bb7de0c4b06d90420f6f343e3f6c1"
+    },
+    {
+      "path": "Assets/App/Companion/CompanionSpaces.cs",
+      "sha256": "cc46ad83c27d565e2cd6b92c5734ec043a53f4174c9427f17b18b1f591398f02"
+    },
+    {
+      "path": "Assets/App/Companion/CompanionTone.cs",
+      "sha256": "629fc9f0e9da9535e3e967f0d62410ab3fc280b837ed6731c2f0d7e84645407d"
+    },
+    {
+      "path": "Assets/App/Companion/CompanionVoiceUI.cs",
+      "sha256": "af810b89dbc169b32cec2c6fea6bd30b310339055d113c8009052ab624a4992d"
+    },
+    {
+      "path": "Assets/App/Companion/Voice/CompanionVoicePlayer.cs",
+      "sha256": "1c0ed9608d23b94261e6b7dc710e766295b9f3d81799a16741fd3fabf7e0c2d3"
+    },
+    {
+      "path": "Assets/App/Core/Agent/AgentContracts.cs",
+      "sha256": "bc659830d9676dc9bc98b88ad3d468637b6322bc66440ef8461693966467f4b2"
+    },
+    {
+      "path": "Assets/App/Core/Agent/AgentConversation.cs",
+      "sha256": "4baa795f2f8de1b6f3cfbddf8600a51ec605ec35dfa314f5f158108ea3589c63"
+    },
+    {
+      "path": "Assets/App/Core/Agent/AgentSettings.cs",
+      "sha256": "aa7f71e7b2b8f2ba1b01c0ae86dd71bd96a4cfd0849b1298442e472eb896e81d"
+    },
+    {
+      "path": "Assets/App/Core/AssemblyInfo.cs",
+      "sha256": "91e32ce607be868db3afd0914bbe61166d8c748274b015b96aba806e4edbb808"
+    },
+    {
+      "path": "Assets/App/Core/Audio/AudioCache.cs",
+      "sha256": "195e901cc2d57537b97b05f06ee6a35e75c59b7280c0717b2746e8f0bac3a4b3"
+    },
+    {
+      "path": "Assets/App/Core/Audio/SpeechLocalizer.cs",
+      "sha256": "2b7dc3dde0ae5e984741fe01a3cffa99b00fcec25e43208f2a79b7031b74ca4c"
+    },
+    {
+      "path": "Assets/App/Core/Audio/SpeechSegmenter.cs",
+      "sha256": "b2cbdf416f1864fd1d594cb9d58557efaa582aa7b718861e38ed667324fb988f"
+    },
+    {
+      "path": "Assets/App/Core/Audio/VoiceConfiguration.cs",
+      "sha256": "f6ac78e24a0e1b8ab2ea61d988d9df3061a26f69a12a0d8409375c8e2cd52acb"
+    },
+    {
+      "path": "Assets/App/Core/Audio/VoiceDelivery.cs",
+      "sha256": "e6e460a11d90bf069950ff9bf71f2b55943f447b1416b55c5778eba0dd3d520e"
+    },
+    {
+      "path": "Assets/App/Core/Audio/VoiceRuntimeManager.cs",
+      "sha256": "b2b22a881059ae6763a7c7391262f1cc9af1e9d643134b9c6fbb68f71b21d0cd"
+    },
+    {
+      "path": "Assets/App/Core/Audio/WaveAudio.cs",
+      "sha256": "4378a7dd34d616d0ad35af29ae670148fbfa09c2e7543901191e86f5fb068ce1"
+    },
+    {
+      "path": "Assets/App/Core/Character/CharacterCore.cs",
+      "sha256": "0e67e80ec0ae50daa705e89e4ed5feefd3c8e6b9a8a0e15ce55eb83ebc4adaa0"
+    },
+    {
+      "path": "Assets/App/Core/Character/CharacterModels.cs",
+      "sha256": "1d81a0b68dd681fa0c39725ce5905fa06c69aa7eb6bf30a29c327751a195f7b6"
+    },
+    {
+      "path": "Assets/App/Core/Character/CompanionInteraction.cs",
+      "sha256": "a517ed075cd5de375091a10045b39200c9ee69c7e4c4d8a30794c9502a1206f1"
+    },
+    {
+      "path": "Assets/App/Core/Character/DialoguePresentation.cs",
+      "sha256": "61b21eb8fcca4d8a1e35acee1955f37038f336157d87df5d72ab428d5ec45f33"
+    },
+    {
+      "path": "Assets/App/Core/Character/PetGesture.cs",
+      "sha256": "23fe9e35d0c4edef8b5e5b893810fc4f8e96ec9527ad16db2c6ee12ee101595d"
+    },
+    {
+      "path": "Assets/App/Core/Config/ConfigService.cs",
+      "sha256": "3ea6c83ecd6bad3e58cdf8361632e3493a4e2184fe05c751db66646e56ce55f0"
+    },
+    {
+      "path": "Assets/App/Core/Config/LibraryFiles.cs",
+      "sha256": "2296e0f5c81532f4d6113149c9e35d08fa9d6883ce4cc7dc9b021fba8170f023"
+    },
+    {
+      "path": "Assets/App/Core/Config/LocalSecrets.cs",
+      "sha256": "59c49d65f58afb91ee917bbd41af14ae3ef4f54591bebfc82ceb01749889ee91"
+    },
+    {
+      "path": "Assets/App/Core/Config/PetPresentationSettings.cs",
+      "sha256": "25f97751d81cbf1cc9500d7c2246a3984e661e219ac095ccf4ff31b187ca361d"
+    },
+    {
+      "path": "Assets/App/Core/Config/PetSettings.cs",
+      "sha256": "c4b1d233c89416c670b5bd9a9b3edfc6271e0b25182115b6b2d3cd80a5aefad9"
+    },
+    {
+      "path": "Assets/App/Core/Config/UserDataPaths.cs",
+      "sha256": "036df0af6da908b5af849fd57bca04f01ec4a01b50a48018db768631d7fb690f"
+    },
+    {
+      "path": "Assets/App/Core/GiftCompanion.Core.asmdef",
+      "sha256": "86861aa3a2c25cb33386b37bc306dec795cc754b1eb165e37734d73b9e4d0de1"
+    },
+    {
+      "path": "Assets/App/Core/LLM/DeepSeekApiClient.cs",
+      "sha256": "967e9732f39981226aa63fc85bffe5e57cd813ec42178fabd35369acb7aa8965"
+    },
+    {
+      "path": "Assets/App/Core/LLM/DeepSeekToolCalls.cs",
+      "sha256": "a5161a9f072577efc375bdc935820df86d2208792d730cd7418c5bbf6c59482c"
+    },
+    {
+      "path": "Assets/App/Core/LLM/LLMService.cs",
+      "sha256": "3e89f933b4eca840a1437d0886a2677d4cfdde3a95296d69ba6ed446108b28b3"
+    },
+    {
+      "path": "Assets/App/Core/Logging/Logger.cs",
+      "sha256": "a243659cd25bb521bee72d23319bb1dfaed908551c6adff4e23faa3238f7bba3"
+    },
+    {
+      "path": "Assets/App/Core/Memory/ConversationHistoryService.cs",
+      "sha256": "ef2cd4acd76df088aea25c68e2edeaf6030dd33c541c02db86a2e98fd293e553"
+    },
+    {
+      "path": "Assets/App/Core/Memory/ConversationModels.cs",
+      "sha256": "9dcac17b24e299125f31bef6e93a7a6abaeaf12b0562eb9c24913a6dd55ce95a"
+    },
+    {
+      "path": "Assets/App/Core/Memory/DiaryTextLayout.cs",
+      "sha256": "073a97229fe6aef9f8e48eb0dd7173109631cd2de9d49da2a1b65c22cf3e61e2"
+    },
+    {
+      "path": "Assets/App/Core/Memory/MemoryExtractor.cs",
+      "sha256": "e53a665c1d2025ded9e1c545d6638b85a8f0a86f8c8c0d829f7652800e436466"
+    },
+    {
+      "path": "Assets/App/Core/Memory/MemoryModels.cs",
+      "sha256": "7cb7e1e695692416fbb74de903177bb4ac10103a0809dd626536d8caeb78de42"
+    },
+    {
+      "path": "Assets/App/Core/Memory/MemoryService.cs",
+      "sha256": "704dae9159af29e75f983d846ad0c2078482ca63f4c354ae01b8f4414de5bddb"
+    },
+    {
+      "path": "Assets/App/Core/Memory/PromptBuilder.cs",
+      "sha256": "e23dfd86f5e54e8c596ffa1065450082956125b1fd01fb413678928ef29494f2"
+    },
+    {
+      "path": "Assets/App/Core/Memory/RelationshipDiary.cs",
+      "sha256": "e6eb88bbae5276a584d314a945c132ed865b63857865537544b4083de8e88fb6"
+    },
+    {
+      "path": "Assets/App/Core/Memory/SessionSummarizer.cs",
+      "sha256": "9cdb91fa16341c8088ad3820ad9356a9f755aefbdfcd520d91d965f7cd2d568f"
+    },
+    {
+      "path": "Assets/App/Core/Persistence/AgentToolStore.cs",
+      "sha256": "d899ace87e3cdd0dd94af8eb8bdff14ccfe3ab9c630ba68a3041f973fb06a4b3"
+    },
+    {
+      "path": "Assets/App/Core/Persistence/AudioRecordStore.cs",
+      "sha256": "810cc5960a14a9603b0c49ac67ea0221c6b9a25976c217bdab844b0317583e3c"
+    },
+    {
+      "path": "Assets/App/Core/Persistence/ConversationHistoryStore.cs",
+      "sha256": "3702f9aed0a72e9a53e72bb06c4c2c86b449fd1fb441b3639d7586c765f4a438"
+    },
+    {
+      "path": "Assets/App/Core/Persistence/ConversationStore.cs",
+      "sha256": "a4e80f34110411ff754f14c8a1f29a65d77f7209e2dbc9ee6e0d6da214304669"
+    },
+    {
+      "path": "Assets/App/Core/Persistence/DatabaseBackup.cs",
+      "sha256": "91d320c889f5498e6af684eb6db7383a51230ad2b95580966a1283ca060d9aaf"
+    },
+    {
+      "path": "Assets/App/Core/Persistence/DatabaseService.cs",
+      "sha256": "c24ba1b51668b3f49455f51093080933bd905a32a7e15e3b0c66811725c36bac"
+    },
+    {
+      "path": "Assets/App/Core/Persistence/DiaryStore.cs",
+      "sha256": "d2b3731dffcd2bf979bf2f7b5fd882adb58d9235699da2185517be7e1374d142"
+    },
+    {
+      "path": "Assets/App/Core/Persistence/MemoryForgetting.cs",
+      "sha256": "862e8b396d237179f12f14bf573da1a43c41a7f65a84adc2650a3539dd115db3"
+    },
+    {
+      "path": "Assets/App/Core/Persistence/MemoryRetrieval.cs",
+      "sha256": "4e76f7f96454e0d7c05928c17bb9d293611abf382894b24eb32350a27e75ff5c"
+    },
+    {
+      "path": "Assets/App/Core/Persistence/MemoryStore.cs",
+      "sha256": "dca18a9980ed7546cbd2e3d5ce559142ce0fdba643b8fd2c9edd34340730d4a2"
+    },
+    {
+      "path": "Assets/App/Core/Persistence/PlayerBackup.cs",
+      "sha256": "06c5da2e97de64ea4f1f503f68bf08cbd0b5704a28085deaadbd32272053b3f2"
+    },
+    {
+      "path": "Assets/App/Core/Persistence/SessionSummaryStore.cs",
+      "sha256": "6d12ea455d04da5c29dec3a855e6dd307f4492057982e90003ccc7b0936945e6"
+    },
+    {
+      "path": "Assets/App/Core/Persistence/SqliteConnection.cs",
+      "sha256": "8ba562abedb47f39af5dd98bbb4bf63cce4976f3dc3fffcbb1f4f948bd8460a6"
+    },
+    {
+      "path": "Assets/App/Core/Persistence/SqlitePhase0Store.cs",
+      "sha256": "6bb540871601fb79481ac0d2b7a7037810c5e7d54061cd5c6369ab6059f89b22"
+    },
+    {
+      "path": "Assets/App/GiftCompanion.Runtime.asmdef",
+      "sha256": "73efeccae4c02ec03a8126fdcfebb3d6c546e4a794195aaee7a6c8fd12b950c5"
+    },
+    {
+      "path": "Assets/App/RuntimeAssemblyInfo.cs",
+      "sha256": "cc26c80813459985613276367358f3ca42531ffb41103236b8617038b039a041"
+    },
+    {
+      "path": "Assets/App/SharedUI/CompanionUIFactory.cs",
+      "sha256": "ae128b3e103a36f3d2f905fd430d14bab5227ff43b89a3cb1784064537f84a93"
+    },
+    {
+      "path": "Assets/App/SharedUI/HomeScreen.cs",
+      "sha256": "bbe5ef5b0594a955af65b610e3543eec8d515425dd60c0eca21a56bd57d99844"
+    },
+    {
+      "path": "Assets/App/SharedUI/ModeSceneController.cs",
+      "sha256": "ab6c2086a48580cb21cbcdffe3adb33fe2f39ff5c55350ddcd8cddd27bb8776b"
+    },
+    {
+      "path": "Assets/App/SharedUI/PlayerFiles.cs",
+      "sha256": "4225a20d8d005ccac805fec27e924c03ef1ad7d58024212396b7cf09dcae914a"
+    },
+    {
+      "path": "Assets/App/SharedUI/PlayerMaintenance.cs",
+      "sha256": "f6485f0af6d10bdec63bc3644b7de881f0d284536667da4058a47147d01368f7"
+    },
+    {
+      "path": "Assets/App/SharedUI/StartupRecovery.cs",
+      "sha256": "3bd06787c304b91a823ed307a935309f5478e462bde2af585dcc43096dc768b1"
+    },
+    {
+      "path": "Assets/App/Validation/BilingualPlayerProbe.cs",
+      "sha256": "d2eb49e5eeff0ccdf425b288ae5cef477e57759c67defd75a441deca4e155af9"
+    },
+    {
+      "path": "Assets/App/Validation/ExpressionDiaryPlayerProbe.cs",
+      "sha256": "8b3a6d2629f47020decc7e72d8b33d603c9d6b0bce74f1b0e504776cb25d5872"
+    },
+    {
+      "path": "Assets/App/Validation/Phase0PlayerProbe.cs",
+      "sha256": "176a88664dabdc152a51e475bda6e41e35c0925f01c75406bfbe229943c4bbf8"
+    },
+    {
+      "path": "Assets/App/Validation/Phase1PlayerProbe.cs",
+      "sha256": "d0b3853f932f16e733083934b9e742a61f191d3731e69d0aabe50fbed0d2a353"
+    },
+    {
+      "path": "Assets/App/Validation/Phase2AcceptanceRunner.cs",
+      "sha256": "c5d24f8d616c5ccf6fceda336f50398160ddf375fb07f11eeb0e2007162f3fdf"
+    },
+    {
+      "path": "Assets/App/Validation/Phase2DevelopmentPanel.cs",
+      "sha256": "64308950bb9a7ad84bf32520ec426a279a0b6f22c5d3faee68b49ea537e2c9b9"
+    },
+    {
+      "path": "Assets/App/Validation/Phase2PlayerProbe.cs",
+      "sha256": "9c3d64a9c85daac105e66c50033a28d08d1ec0e41d71c1e45677ee9af426253d"
+    },
+    {
+      "path": "Assets/App/Validation/Phase3PlayerProbe.cs",
+      "sha256": "bad307b099b988d719dd22cddc6d214bb86fddffa108ddf604cc1f1d3675f3fc"
+    },
+    {
+      "path": "Assets/App/Validation/Phase3PlusPlayerProbe.cs",
+      "sha256": "0037a844162d392227b98a2d30347e065103c32d5e45019efad8dd871e8504a7"
+    },
+    {
+      "path": "Assets/App/Validation/Phase4PlayerProbe.cs",
+      "sha256": "66a540ff13f404170be62ebfa249b58a18793881406c779635c1414e6c28b53e"
+    },
+    {
+      "path": "Assets/App/Validation/Phase5PlayerProbe.cs",
+      "sha256": "177eb7c9450977f808b5908304b90612b8c1c256b80cc43f98f7ec30c77febbb"
+    },
+    {
+      "path": "Assets/App/Validation/Phase6PlayerProbe.cs",
+      "sha256": "54539c48786f379873ca9ab17b4565f7961791253947d0fa74d7a997cd1ab1a9"
+    },
+    {
+      "path": "Assets/App/Validation/VoicePolishPlayerProbe.cs",
+      "sha256": "bf88946ba57c066bded92d0566f0bc8263db770d6b2e3c81984841098e22fe43"
+    },
+    {
+      "path": "Assets/Tests/EditMode/AgentToolTests.cs",
+      "sha256": "47ccc614fad357aff1dd5a73f3ae8364d7ee0ad9d4635ad1423228d72520131a"
+    },
+    {
+      "path": "Assets/Tests/EditMode/CharacterCoreTests.cs",
+      "sha256": "d27121df630a6e2a936506c3b70971867796dc20476fb7a5c40c9e1e398d4ead"
+    },
+    {
+      "path": "Assets/Tests/EditMode/CompanionProtocolTests.cs",
+      "sha256": "97e4a4766ecac643642763b16ddd91f475f8d790f9871d9a0f2d896e15ebb83c"
+    },
+    {
+      "path": "Assets/Tests/EditMode/ConversationHistoryTests.cs",
+      "sha256": "2023b19746deef4fd4cf092113e041fce9c9a262244d6a9ce5239e336cba804b"
+    },
+    {
+      "path": "Assets/Tests/EditMode/ConversationTests.cs",
+      "sha256": "3d873958ab26833039a19d86ed1b5334493b368ff04068d584eaadd482e5d907"
+    },
+    {
+      "path": "Assets/Tests/EditMode/DeepSeekApiTests.cs",
+      "sha256": "4543150f31438c80c93153cbe7dde7dbb06774c71f8b42e1eba9fb935fa054f4"
+    },
+    {
+      "path": "Assets/Tests/EditMode/DialoguePipelineTests.cs",
+      "sha256": "8ae620bd18f75fb371d036c0d4e144c1e2d637bf398f9dc8ffade1b851f0a656"
+    },
+    {
+      "path": "Assets/Tests/EditMode/ExpressionDiaryTests.cs",
+      "sha256": "493ed4fdc779f3dc26d972fb880a1008d3fd1f306dfffbd6951356bc6f4e9b44"
+    },
+    {
+      "path": "Assets/Tests/EditMode/FoundationTests.cs",
+      "sha256": "a946f6c41fcbb72697e2564644f3c5e9ad7ebffe27defde7a3971d76a6fdd7ea"
+    },
+    {
+      "path": "Assets/Tests/EditMode/GiftCompanion.EditModeTests.asmdef",
+      "sha256": "0d672cc0c74becc6cb7f84a076c99962b8c9b0fb14448f3b063305864233da05"
+    },
+    {
+      "path": "Assets/Tests/EditMode/MemoryExtractionTests.cs",
+      "sha256": "bbf13667f504ed7700bc44bb866621b1c89d01d49f5287e2e10a2137870a13b3"
+    },
+    {
+      "path": "Assets/Tests/EditMode/MemoryLifecycleTests.cs",
+      "sha256": "9610370d575229f2018aff362a7fc0501d5ecf807908d7a040c49544f0618243"
+    },
+    {
+      "path": "Assets/Tests/EditMode/MemoryRetrievalTests.cs",
+      "sha256": "018aabeae9677035d2be32e591298f31bbfff14e5874bdf712a492d66f3a0322"
+    },
+    {
+      "path": "Assets/Tests/EditMode/MemoryTransportTests.cs",
+      "sha256": "fff309a70694cdd81d8317067b1bdbdf7d530c34563bc292b8605c9b3ba73018"
+    },
+    {
+      "path": "Assets/Tests/EditMode/PetSettingsTests.cs",
+      "sha256": "7acce730625918f3c14144d3dbe33054135c0e3bfb5082947da6dbd801dc8d66"
+    },
+    {
+      "path": "Assets/Tests/EditMode/PlayerBackupTests.cs",
+      "sha256": "47bab3fb52f5f9f720a69e1dbe6a4187b55e7008227976d5a2a27b4f39f65527"
+    },
+    {
+      "path": "Assets/Tests/EditMode/PlayerFilesTests.cs",
+      "sha256": "317a518be34efad097576fb5c1578b541ff27f845ad3dc067c850f2fbda5b47a"
+    },
+    {
+      "path": "Assets/Tests/EditMode/RelationshipDiaryTests.cs",
+      "sha256": "2275987c916c89b2aeb956fa5f55e1569ebc0092c60231772735351ddd1380e5"
+    },
+    {
+      "path": "Assets/Tests/EditMode/SpeechLocalizationTests.cs",
+      "sha256": "4c359912830770a3b593b68a4422688532fdbb7d9cff9836060002793258a61a"
+    },
+    {
+      "path": "Assets/Tests/EditMode/SqlitePhase0Tests.cs",
+      "sha256": "aaa743876f8746b5111f34e2e949939277d703375a293988766c5d8033e66d44"
+    },
+    {
+      "path": "Assets/Tests/EditMode/TestDatabase.cs",
+      "sha256": "8775a05fb1b668d214581b11e746c7bcaf3f6b70dfc8ef298630bac02eab5940"
+    },
+    {
+      "path": "Assets/Tests/EditMode/VoicePolishTests.cs",
+      "sha256": "d72469e3762f33423eabf574b20e31deaff3c9526ae98f3ca2650a981d49dccd"
+    },
+    {
+      "path": "Assets/Tests/EditMode/VoiceTests.cs",
+      "sha256": "f15eb9276f5a86e199f2d2d9b47c28845ac831fb96434418e84b52c8e59ba1b3"
+    },
+    {
+      "path": "Assets/Tests/PlayMode/CharacterPlaybackTests.cs",
+      "sha256": "95ba21b416508f96e86f01772a14e89094e1a980ee5193d7db4fd7e7a246bb37"
+    },
+    {
+      "path": "Assets/Tests/PlayMode/CompanionScreenTests.cs",
+      "sha256": "daf5eae2bead6662a7a4a3d044a83c5e5bf6e7f9f32168a803f0a4e8547cf246"
+    },
+    {
+      "path": "Assets/Tests/PlayMode/GiftCompanion.PlayModeTests.asmdef",
+      "sha256": "8120df310c2458703c7dba4d1d51c6b21f43b465bbe11d76d5646e6352813789"
+    },
+    {
+      "path": "Assets/Tests/PlayMode/PetScreenTests.cs",
+      "sha256": "5fe99e0a16c819414001c6f3eceef1490cb319129f0d41225fb6cff9aeb83cf6"
+    },
+    {
+      "path": "Assets/Tests/PlayMode/PlayerContentTests.cs",
+      "sha256": "fca7956f4fb1fa0c44e81b279819f276006644fa506b85c65908e65959cbb023"
+    },
+    {
+      "path": "Assets/Tests/PlayMode/PlayTestData.cs",
+      "sha256": "a4b4915d58d165e95eb5007c773b758dccbd4db14009d169624389796191c27a"
+    },
+    {
+      "path": "Assets/Tests/PlayMode/SceneLifecycleTests.cs",
+      "sha256": "4afdf2943555ed948815a20bb1b063d698dc4e77a757c413d96bcef5b0f9c7f7"
+    },
+    {
+      "path": "Assets/Tests/PlayMode/VoicePlaybackTests.cs",
+      "sha256": "b7d4d351899881aa6fdaade3465e2bd60a058ec0cf3fc34e53735b06557d64ac"
+    },
+    {
+      "path": "Assets/Tests/PlayMode/WindowsToolValidationTests.cs",
+      "sha256": "e90be7b09516216cf7b668a6b1eb5bc8fb8846988a065c99d8cca5deacc8099a"
+    },
+    {
+      "path": "Assets/Editor/BilingualBuild.cs",
+      "sha256": "a338f56f1ace1677fa4ff46c78e6fa97f22185cafa1efc745c81f7989e5009a4"
+    },
+    {
+      "path": "Assets/Editor/CharacterAssetSetup.cs",
+      "sha256": "40d7023c71a3f07c7b551a324c4423c366ab65c6cfacb9e56c46241df6fa6f16"
+    },
+    {
+      "path": "Assets/Editor/DeepSeekPhase0Probe.cs",
+      "sha256": "d37cd9a523bdeeaa9eb0961971b883c921df9f246a33bd654f154ca3f6826f22"
+    },
+    {
+      "path": "Assets/Editor/ExpressionDiaryBuild.cs",
+      "sha256": "931f037394c96f11aaae39e7808f3e41a4c81f9bd769cde5a7b7a4589398de44"
+    },
+    {
+      "path": "Assets/Editor/GiftCompanion.Editor.asmdef",
+      "sha256": "7187839045f4d28e852f9334a44d00aa7d15abbc0f1d39557775e978a44ad652"
+    },
+    {
+      "path": "Assets/Editor/Phase0Build.cs",
+      "sha256": "3169a789337153707db7ec554525de273fc5f340c7add92facc06076b77ed879"
+    },
+    {
+      "path": "Assets/Editor/Phase1Build.cs",
+      "sha256": "3c07f4b3db84b79127e939f3f40e254b26c21b4c35a58d5c7bba3b8cba574676"
+    },
+    {
+      "path": "Assets/Editor/Phase1CoreProbe.cs",
+      "sha256": "1559595d0a11744c552f809ff09bb676e90acfe7946ec92738c5ef0c38ed9c73"
+    },
+    {
+      "path": "Assets/Editor/Phase2Build.cs",
+      "sha256": "ec8f3578f24409632da71e7936e7724b343ddcd234801dc179acb4ef3f7936e9"
+    },
+    {
+      "path": "Assets/Editor/Phase2CoreProbe.cs",
+      "sha256": "556761636ed8cc051c53be1c614a390467f60efe7f55706d567190ef73c0e4d7"
+    },
+    {
+      "path": "Assets/Editor/Phase2DevelopmentMenu.cs",
+      "sha256": "8b128cf9724cdff8c30c95665a42e3ea9385df9cbe37d2af435aa8f9eca4ba45"
+    },
+    {
+      "path": "Assets/Editor/Phase3Build.cs",
+      "sha256": "c3b0cf79dcbdac5c8e1a6c733bddaa4c2f0f48d86b378c174d31cf2ccef3dbf8"
+    },
+    {
+      "path": "Assets/Editor/Phase3PlusBuild.cs",
+      "sha256": "c011f810a9ad227b1229d31687d3459019adfc8ac46778b2d1d60fce68b9603c"
+    },
+    {
+      "path": "Assets/Editor/Phase3Setup.cs",
+      "sha256": "aa09965d87d4a6cd1418591baecc8ee5a3f5f83eeedd63a218002e9d7ffce944"
+    },
+    {
+      "path": "Assets/Editor/Phase4Build.cs",
+      "sha256": "32a5a63ca58e0b5267c3070f4fb6e4447c6ec9cbaf80472635e18f1be62ec938"
+    },
+    {
+      "path": "Assets/Editor/Phase5Build.cs",
+      "sha256": "f1bff0bdbbac14f61d0c6a26d7f4621fef2d1fb38ac375e782ca6d287d8c9683"
+    },
+    {
+      "path": "Assets/Editor/Phase6Build.cs",
+      "sha256": "b8892595ad995d75d4b28fd970d698120a8bf37d731a13295d025d5f31650c06"
+    },
+    {
+      "path": "Assets/Editor/SkeletonProjectSetup.cs",
+      "sha256": "cc7e0ae4574a81699f4e22adc3ab97a7021989fd93002a47ce47324b23b9bd67"
+    },
+    {
+      "path": "Assets/Editor/VoicePolishBuild.cs",
+      "sha256": "223b622851605c3ab60b5733f066414fad2fcd2332ffa6c4af342813be99b0c4"
+    },
+    {
+      "path": "Assets/StreamingAssets/Voice/voice_host.py",
+      "sha256": "0f7a9a6f0faca35724e12036763a3cb2c3ea3b42bf01291748906e140e71eb0c"
+    },
+    {
+      "path": "Tools/assemble_voice_runtime.py",
+      "sha256": "6931436a3756f027036313e32e3b7439db0520065916ccd570b8ffcefd13072a"
+    },
+    {
+      "path": "Tools/Audit-Phase6Install.py",
+      "sha256": "a7f082a9bed6d7d78efaac97799c1a83f2a027b1616f4cc1020526f804b4438a"
+    },
+    {
+      "path": "Tools/Build-Bilingual.ps1",
+      "sha256": "001645121d48976a791aee6bbab701052e68ad8cb63b854e4539581b8416d3ad"
+    },
+    {
+      "path": "Tools/Build-ExpressionDiary.ps1",
+      "sha256": "6ec4058010b6b368158d97b5ea34ff907030f866583910983f9a291323e7fb3d"
+    },
+    {
+      "path": "Tools/Build-Phase0.ps1",
+      "sha256": "5a2267cc2c84219c3c214ecb0f6cea96a024b8e4ed0aaee5fd429547f83265ac"
+    },
+    {
+      "path": "Tools/Build-Phase1.ps1",
+      "sha256": "04dab66a5c0397df594777a3dbd1c6e2b3e0371642f06a0dc8ade3f3360c085e"
+    },
+    {
+      "path": "Tools/Build-Phase2.ps1",
+      "sha256": "cb8f0c1becc368c719a05de937330fd9c9dfec5a9f33f453ea5eda14a818f862"
+    },
+    {
+      "path": "Tools/Build-Phase3.ps1",
+      "sha256": "a878fb0f22178ae6db7d9ca05178564131ccdcbc49b2f891748bacb4d03229d7"
+    },
+    {
+      "path": "Tools/Build-Phase3Plus.ps1",
+      "sha256": "dd08fbb4c5fbfccb2e3c3c37a44d9024279fd84cc91142799fa589ffa0a99492"
+    },
+    {
+      "path": "Tools/Build-Phase4.ps1",
+      "sha256": "ac4a4d69da689bf1b0f01d9d503145fe97cfb0a901aa4118e13ed4b91753ec79"
+    },
+    {
+      "path": "Tools/Build-Phase5.ps1",
+      "sha256": "be57d24fe991c797f0e9d3a70c3d10b4663bed2c6216908db696a033b9d97870"
+    },
+    {
+      "path": "Tools/Build-Phase6.ps1",
+      "sha256": "7098109b0695cbfe83a7758cd1f5acabda77bd8b51dc9f1968f8466e8959557f"
+    },
+    {
+      "path": "Tools/Build-VoicePolish.ps1",
+      "sha256": "63c6a495f8adbd14bac0edb696c32db10116c930ba97793f7368e228b17ecaba"
+    },
+    {
+      "path": "Tools/Clean-VoiceTrimBackup.ps1",
+      "sha256": "6be4341622fe05c2900781e12ea955d5cbd6f94fa747251d0c3bda12c9b95377"
+    },
+    {
+      "path": "Tools/Configure-DeepSeek.ps1",
+      "sha256": "6f60c4154720e7e3f6868f3c2507027358ad07734959d6e43e283caacaf7efd3"
+    },
+    {
+      "path": "Tools/Fetch-Phase0Dependencies.ps1",
+      "sha256": "c88d29624e499a92131b4ebc3e530edd2748884a6104470c0d4dd4aeb67de809"
+    },
+    {
+      "path": "Tools/fetch_phase0_dependencies.py",
+      "sha256": "c59e4aa8d303f26957ff2de8b0138410e3b45800004a1eb479c913d239f32f41"
+    },
+    {
+      "path": "Tools/import_character_assets.py",
+      "sha256": "f54615f2c84343b2185b0ed7b8be0f67bdbbdda03ac6531fcd2ee41b175db105"
+    },
+    {
+      "path": "Tools/Initialize-Characters.ps1",
+      "sha256": "4f1b2658f5a4d3c30db4f12937b853999f35c797610c1b11392738074f6852d0"
+    },
+    {
+      "path": "Tools/Initialize-Project.ps1",
+      "sha256": "125611cd679b8c7a2a62810054686bb6e8202d9352bdb56470f4e942f1cedf6e"
+    },
+    {
+      "path": "Tools/Inspect-Phase6Hardware.ps1",
+      "sha256": "80c50ddac3c7593ba1835c06386b0dd29ced0b2d829d80e4002ea9e4486c08a3"
+    },
+    {
+      "path": "Tools/Package-Phase6.py",
+      "sha256": "a1bc5227e06308a82c2aeac571946fc0abfb2985b30dbb1f84bfa2a4ef48c805"
+    },
+    {
+      "path": "Tools/Prepare-DefaultMusic.ps1",
+      "sha256": "3b856b04a587753e268d666c6122dd8679c6127957c02eef0edfc2eff7f78080"
+    },
+    {
+      "path": "Tools/prepare_japanese_voice.py",
+      "sha256": "6e23fe9d01678ce649f77ac90809446570ca7945df90f46f1498d85eab7468d1"
+    },
+    {
+      "path": "Tools/prepare_voice_assets.py",
+      "sha256": "c15cf645d8dc80cf2b7bebea902e1abf4cb888945e3540a2e9e5ee52cb82acd9"
+    },
+    {
+      "path": "Tools/prepare_voice_references.py",
+      "sha256": "1066cdb753264b83f5d455ab254a7fb8255145321630a2433b8bc574497983db"
+    },
+    {
+      "path": "Tools/Resolve-UnityEditor.ps1",
+      "sha256": "0460390f7783d0ac3290e838df0862961d552e51d0ed502f7d59fe729a0657d3"
+    },
+    {
+      "path": "Tools/Save-BilingualAcceptance.py",
+      "sha256": "95b19dd104af227c789a549e30aba9bece62247c5dd2be7a8e835a7902fca9d5"
+    },
+    {
+      "path": "Tools/Save-ExpressionDiaryAcceptance.py",
+      "sha256": "e8ce76c3ba20c258047930512f5af681b97a497bc43f8b90a5fb6d6096ebf48d"
+    },
+    {
+      "path": "Tools/Save-Phase3Acceptance.py",
+      "sha256": "4d7d3627029dc38b40154ff2030350ebb4dbc7b096c37a8faf82e02f54bfbd30"
+    },
+    {
+      "path": "Tools/Save-Phase3PlusAcceptance.py",
+      "sha256": "f189aed9b46f20feac07c133cd5decc131b570624e70ee8ac5b6329470037358"
+    },
+    {
+      "path": "Tools/Save-Phase4Acceptance.py",
+      "sha256": "4f36620908684aa67f2240b5b7388fd1d6fec840d80e0e41eab59ec8539ab105"
+    },
+    {
+      "path": "Tools/Save-Phase5Acceptance.py",
+      "sha256": "ba3eba2c721a9f103dc7a043520f5fc9c2808f58a8dd86add1b7dc21bcdd521b"
+    },
+    {
+      "path": "Tools/Save-Phase6Acceptance.py",
+      "sha256": "a9916dffbcb05a8221ddf5267b430fd5ec25858f70f1e276bf7ffc017ac1d6f1"
+    },
+    {
+      "path": "Tools/Save-VoicePolishAcceptance.py",
+      "sha256": "484b3f5a187692ad79280fae4e29e257614b58a2ada64bc39489d111623fc5b5"
+    },
+    {
+      "path": "Tools/Start-Bilingual.ps1",
+      "sha256": "0b3135c683322b959b0d6f938a857785adf0be3042ab90f4211f958b3bd2784a"
+    },
+    {
+      "path": "Tools/Start-ExpressionDiary.ps1",
+      "sha256": "3fb04ddb511f1a1ef5fc6b441b7e3d3a6d749306606f38b34e002958d29377f5"
+    },
+    {
+      "path": "Tools/Start-Phase2Dev.ps1",
+      "sha256": "d58001824890d76935b52db719a0a4c6deab0caa5e65016a2765da737fa2d459"
+    },
+    {
+      "path": "Tools/Start-Phase3.ps1",
+      "sha256": "9ae50da5318cf454374a7338e9be3b9596be81de98c7c90af7268bbec10b5ca4"
+    },
+    {
+      "path": "Tools/Start-Phase3Plus.ps1",
+      "sha256": "8e78d2c0a0eb2ba4f0cb6d1b576f289c7373a2bd9f13c003b27df0d14a6c37a4"
+    },
+    {
+      "path": "Tools/Start-Phase4.ps1",
+      "sha256": "eb8b220e39bbbb6d5d94b2e3f06b9d522310791344d22d56a8d2a452857213bb"
+    },
+    {
+      "path": "Tools/Start-Phase5.ps1",
+      "sha256": "b9dd5e7dc1075f3d85d35738ebdb37432c48db718ee3520e2d276c07017e8ef1"
+    },
+    {
+      "path": "Tools/Start-VoicePolish.ps1",
+      "sha256": "a38ddbfb6a8ed70c3025781061d1caf79bf3058cbbc8c14d92b248e700bdad88"
+    },
+    {
+      "path": "Tools/Start-VoiceRuntime.ps1",
+      "sha256": "05aa8653a4ef3a93e4efb737429ee6ca13cf5eb3a79ac09953d4cc5b65f85b2c"
+    },
+    {
+      "path": "Tools/Stop-VoiceRuntime.ps1",
+      "sha256": "5541657106dac52fe722b9054db1bd718ff5c99cd5a663d42e632b27c88ec5ed"
+    },
+    {
+      "path": "Tools/Test-BilingualPlayer.ps1",
+      "sha256": "bbbd558188aea65286b6dc1ecf93d2144a43841faa8907bbfe3f76eba4adc8d0"
+    },
+    {
+      "path": "Tools/Test-Characters.ps1",
+      "sha256": "e738918e20d2e96e60e98b6ccc5515691f10255bf07f5a246f9884be1f1ee998"
+    },
+    {
+      "path": "Tools/Test-DeepSeek.ps1",
+      "sha256": "98a7af047859e9ead2993d7ea766b73bbd599b681f922e0547add8515ba55ffd"
+    },
+    {
+      "path": "Tools/Test-ExpressionDiaryPlayer.ps1",
+      "sha256": "055c1fe88193c2105408ad3cd35f830e03b8e45714c4c1f27511d58881be306c"
+    },
+    {
+      "path": "Tools/Test-LocalSecrets.ps1",
+      "sha256": "d5ee6dc9241dca136c53846ec61c0a294666094dafe0d60259db8d3186a15717"
+    },
+    {
+      "path": "Tools/Test-Phase1.ps1",
+      "sha256": "e2f406d8ed67e8952519f223cedaad96cdc035f1edf595d2aee5ab18990bb1e3"
+    },
+    {
+      "path": "Tools/Test-Phase1Core.ps1",
+      "sha256": "e605f340e151f026c7a261e30ce386e01609f0b5da6106ec7aaba73d365ef131"
+    },
+    {
+      "path": "Tools/Test-Phase1Player.ps1",
+      "sha256": "e5156f4806b7bce24ad3985f10bd107666d2e9216a47b835caae11392a5e73ce"
+    },
+    {
+      "path": "Tools/Test-Phase2.ps1",
+      "sha256": "00b4babff0914e7c932e69da7c4543ad625d1d64dbd34a2cab3392c54c9bb3ed"
+    },
+    {
+      "path": "Tools/Test-Phase2Core.ps1",
+      "sha256": "5a5795bc39a003c2c28ee3b093390eea2225366722e8561a4e65518f7408d00a"
+    },
+    {
+      "path": "Tools/Test-Phase2Player.ps1",
+      "sha256": "d19bbb7ba08e038a490ed7a253d1e07c0757e1c5233601c02d9cc4fb927b6636"
+    },
+    {
+      "path": "Tools/Test-Phase3.ps1",
+      "sha256": "2687552e5c3c906b4378a205a9ce6580e091060059b2512ce170ab59d1ed58e4"
+    },
+    {
+      "path": "Tools/Test-Phase3MemoryPlayer.ps1",
+      "sha256": "04d3be2ef77a391a41b05fa44d3207b11ccc9fb05f29d36d4b40e1f16c31829a"
+    },
+    {
+      "path": "Tools/Test-Phase3Plus.ps1",
+      "sha256": "1c85c475910dd17d0dcba5558010f584b76aaf62fe2bc7d936c06992fcd15fbd"
+    },
+    {
+      "path": "Tools/Test-Phase3PlusPlayer.ps1",
+      "sha256": "632ddbb38086ab946806b825ac57b37bffd501ba561eef91d0178f6202852030"
+    },
+    {
+      "path": "Tools/Test-Phase3UIPlayer.ps1",
+      "sha256": "a04088a569f03d92f9c35b08212f22afede4345225f68243bae3dc3f584de137"
+    },
+    {
+      "path": "Tools/Test-Phase3VisualPlayer.ps1",
+      "sha256": "5657c7ebd60fb5c1ceddc8794799218f515d5155c054b97667fe98c973c79385"
+    },
+    {
+      "path": "Tools/Test-Phase4.ps1",
+      "sha256": "b924f55b2351b566d87125c0cfd5cfa4d229a16f170380ddbc251ee52c44958c"
+    },
+    {
+      "path": "Tools/Test-Phase4Player.ps1",
+      "sha256": "5296ef14948a80390a01c614273ed3b91b8f9a3bfb4f8c2dd177512f5fb0715e"
+    },
+    {
+      "path": "Tools/Test-Phase5Player.ps1",
+      "sha256": "9b41feb95e9ad9f793197e94f5746843f31f38bd13702fa58c85ab811939cd09"
+    },
+    {
+      "path": "Tools/Test-Phase6Player.ps1",
+      "sha256": "3ff95fc232c0b37144d7031b49697c0ddbe60af14dd7963df125614021606601"
+    },
+    {
+      "path": "Tools/Test-Skeleton.ps1",
+      "sha256": "bf5302835f65d47059d91e483892bbd9600886eadbf2d04c8a50f112d9c9d7d5"
+    },
+    {
+      "path": "Tools/Test-VoicePolishPlayer.ps1",
+      "sha256": "843909b071f04533afaf91bea58672363cabb62049420675752e53b97281afb2"
+    },
+    {
+      "path": "Tools/Test-VoiceRuntime.ps1",
+      "sha256": "97ba218f5796267baecc2c3708be1480aa6b80418d604a80ca4eb6194f0dd152"
+    },
+    {
+      "path": "Tools/Test-WindowRuntime.ps1",
+      "sha256": "12049ec892ecd9395f58d3836a645e41d6f3f63cd48c1c4caa37adaccffcb32c"
+    },
+    {
+      "path": "Tools/trim_voice_runtime.py",
+      "sha256": "d2f46b96e14ad954ba31fbbdc6e538cf156265c6c1f5686f2e998cb1bc951594"
+    },
+    {
+      "path": "Tools/verify_voice_bundle.py",
+      "sha256": "8925eabdbaaf7e0c124feef06a10776b320be201dd029f1b90dbf8b091d82424"
+    },
+    {
+      "path": "Tools/voice_api_runner.py",
+      "sha256": "10291697d34bd027a8aecd279a7eae7e0bda55f41c9e6741acec7a270c62c89b"
+    }
+  ],
+  "knownUnverified": [
+    "Phase5 player feedback postponed",
+    "1-2 hour actual player use",
+    "100/125/200 percent DPI and current multi-monitor topology",
+    "lock/sleep/monitor unplug",
+    "another Windows account/computer/GPU",
+    "in-app real-key save-and-restart player flow"
+  ],
+  "verifiedAtUtc": "2026-10-19T15:14:08.065246+00:00"
+}
